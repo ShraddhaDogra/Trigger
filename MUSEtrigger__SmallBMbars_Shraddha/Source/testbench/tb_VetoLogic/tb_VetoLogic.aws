@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+tb_VetoLogic=tb_VetoLogic.adf
+[Settings]
+Active=tb_VetoLogic
+[Expand]
+tb_vetologic=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

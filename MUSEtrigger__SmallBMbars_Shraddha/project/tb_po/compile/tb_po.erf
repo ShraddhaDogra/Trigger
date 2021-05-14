@@ -1,0 +1,4 @@
+MESSAGE "File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__Cosmic_Shraddha\Source\Scat_LUT3.vhd" 
+MESSAGE "Compile Entity "Scat_LUT3"" 
+MESSAGE "Compile Architecture "structural" of Entity "Scat_LUT3"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

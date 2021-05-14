@@ -1,0 +1,22 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+[Configurations]
+compile=tb_VetoBM
+[Library]
+tb_VetoBM=.\tb_VetoBM\tb_VetoBM.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+[LocalVhdlSets]
+CompileWithDebug=0

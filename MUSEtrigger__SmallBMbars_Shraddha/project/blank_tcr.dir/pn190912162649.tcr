@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/12/2019 16:06:43
+#Project Location: C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project; Project name: blank
+prj_project open "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/trb3_periph_blank.ldf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/tb_PulseStretch.vhd"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_PulseStretch/tb_PulseStretch.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_PulseStretch.vhd"
+#Stop recording: 9/12/2019 16:26:49

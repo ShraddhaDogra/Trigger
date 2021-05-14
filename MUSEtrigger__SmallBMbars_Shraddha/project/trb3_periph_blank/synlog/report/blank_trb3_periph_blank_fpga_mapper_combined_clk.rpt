@@ -1,0 +1,44 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+11 non-gated/non-generated clock tree(s) driving 239 clock pin(s) of sequential element(s)
+10 gated/generated clock tree(s) driving 7987 clock pin(s) of sequential element(s)
+0 instances converted, 7987 sequential instances remain driven by gated/generated clocks
+
+======================================================================= Non-Gated/Non-Generated Clocks =======================================================================
+Clock Tree ID     Driving Element                                             Drive Element Type     Fanout     Sample Instance                                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0011       CLK_PCLK_RIGHT                                              port                   112        BM_VetoTriggeringing.Str_40ns.iretrig.retrigger\[0\]\.fin[0]  
+@K:CKID0012       THE_MEDIA_UPLINK.gen_serdes_1_200\.THE_SERDES.PCSD_INST     PCSD                   110        THE_MEDIA_UPLINK.THE_BYTE_SWAP_PROC\.fifo_rx_din[0]           
+@K:CKID0013       INP[47:0]                                                   port                   2          BM_VetoTriggeringing.Str1_40ns.iretrig.retrigger\[0\]\.retr[0]
+@K:CKID0014       INP[47:0]                                                   port                   2          BM_VetoTriggeringing.Str1_40ns.iretrig.retrigger\[1\]\.retr[1]
+@K:CKID0015       INP[47:0]                                                   port                   2          BM_VetoTriggeringing.Str1_40ns.iretrig.retrigger\[2\]\.retr[2]
+@K:CKID0016       INP[47:0]                                                   port                   2          BM_VetoTriggeringing.Str1_40ns.iretrig.retrigger\[3\]\.retr[3]
+@K:CKID0017       INP[47:0]                                                   port                   2          BM_VetoTriggeringing.Str1_40ns.iretrig.retrigger\[4\]\.retr[4]
+@K:CKID0018       INP[47:0]                                                   port                   2          BM_VetoTriggeringing.Str1_40ns.iretrig.retrigger\[5\]\.retr[5]
+@K:CKID0019       INP[47:0]                                                   port                   2          BM_VetoTriggeringing.Str1_40ns.iretrig.retrigger\[6\]\.retr[6]
+@K:CKID0020       INP[47:0]                                                   port                   2          BM_VetoTriggeringing.Str1_40ns.iretrig.retrigger\[7\]\.retr[7]
+@K:CKID0021       TRIGGER_LEFT                                                port                   1          THE_ENDPOINT.THE_ENDPOINT.THE_LVL1_HANDLER.tmg_edge_async     
+==============================================================================================================================================================================
+======================================================================================================================================= Gated/Generated Clocks =======================================================================================================================================
+Clock Tree ID     Driving Element                                   Drive Element Type     Fanout     Sample Instance                                                   Explanation                                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       THE_MAIN_PLL.PLLInst_0                            EHXPLLF                7875       THE_RDO\.readout_tx_0\.busy_release                               Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       THE_MAIN_PLL.PLLInst_0                            EHXPLLF                96         THE_RESET_HANDLER.async_pulse                                     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0003       BM_VetoTriggeringing.BMControling1.out_sig[0]     ORCALUT4               2          BM_VetoTriggeringing.Str_40ns.iretrig.retrigger\[0\]\.retr[0]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX                                                                 
+@K:CKID0004       BM_VetoTriggeringing.BMControling1.out_sig[1]     ORCALUT4               2          BM_VetoTriggeringing.Str_40ns.iretrig.retrigger\[1\]\.retr[1]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX                                                                 
+@K:CKID0005       BM_VetoTriggeringing.BMControling1.out_sig[2]     ORCALUT4               2          BM_VetoTriggeringing.Str_40ns.iretrig.retrigger\[2\]\.retr[2]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX                                                                 
+@K:CKID0006       BM_VetoTriggeringing.BMControling1.out_sig[3]     ORCALUT4               2          BM_VetoTriggeringing.Str_40ns.iretrig.retrigger\[3\]\.retr[3]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX                                                                 
+@K:CKID0007       BM_VetoTriggeringing.BMControling1.out_sig[4]     ORCALUT4               2          BM_VetoTriggeringing.Str_40ns.iretrig.retrigger\[4\]\.retr[4]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX                                                                 
+@K:CKID0008       BM_VetoTriggeringing.BMControling1.out_sig[5]     ORCALUT4               2          BM_VetoTriggeringing.Str_40ns.iretrig.retrigger\[5\]\.retr[5]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX                                                                 
+@K:CKID0009       BM_VetoTriggeringing.BMControling1.out_sig[6]     ORCALUT4               2          BM_VetoTriggeringing.Str_40ns.iretrig.retrigger\[6\]\.retr[6]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX                                                                 
+@K:CKID0010       BM_VetoTriggeringing.BMControling1.out_sig[7]     ORCALUT4               2          BM_VetoTriggeringing.Str_40ns.iretrig.retrigger\[7\]\.retr[7]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX                                                                 
+======================================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

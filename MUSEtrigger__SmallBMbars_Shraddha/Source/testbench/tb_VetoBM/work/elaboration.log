@@ -1,0 +1,43 @@
+Active-HDL 10.3.3558.6081  2020-10-07 12:29:16
+
+Elaboration top modules:
+Architecture                  archDB(tb_VetoBM)
+
+
+---------------------------------------------------------------------------------------------------
+Entity        | Architecture    | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------
+tb_VetoBM     | archDB          | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Veto_BM       | structural      | work    |      | 10.3.3558.6081  (Windows) | -dbg
+BM_control    | BM_control_arch | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Veto_Logic    | Veto            | work    |      | 10.3.3558.6081  (Windows) | -dbg
+BM_Trig_Logic | BM              | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Veto_OrAll    | Veto            | work    |      | 10.3.3558.6081  (Windows) | -dbg
+BM_OrAll      | BM              | work    |      | 10.3.3558.6081  (Windows) | -dbg
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+VHDL Package                    | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------
+standard                        | std     |      |                           | <unavailable>
+TEXTIO                          | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164                  | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_arith                 | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED              | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+trb_net_std                     | work    |      | 10.3.3558.6081  (Windows) | -dbg
+NUMERIC_STD                     | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+Library                         | Comment
+---------------------------------------------------------------------------------------------------
+ieee                            | Standard IEEE packages library
+std                             | Standard VHDL library
+work                            | None
+---------------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r tb_VetoBM -PL pmi_work -L ovi_ecp3 -L pcsd_work
+
+
+The performance of simulation is reduced. Version Lattice Edition

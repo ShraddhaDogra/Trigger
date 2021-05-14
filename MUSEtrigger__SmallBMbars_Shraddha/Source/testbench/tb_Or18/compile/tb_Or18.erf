@@ -1,0 +1,4 @@
+MESSAGE "File: C:\Users\ishra\MUSE_Triggers_FPGA\trig_MUSE__Cosmic_Copy\project\tb_Or18.vhd" 
+MESSAGE "Compile Entity "tb_Or18"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "tb_Or18"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

@@ -1,0 +1,70 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Thu Jun  4 11:42:43 2020
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "trb3_periph_blank"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                                                                     Requested      Requested     Clock                                                    Clock                      Clock
+Level     Clock                                                                                                     Frequency      Period        Type                                                     Group                      Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                                                                    1703.0 MHz     0.587         system                                                   system_clkgroup            1    
+                                                                                                                                                                                                                                          
+0 -       pll_in200_out100|CLKOP_inferred_clock                                                                     76.3 MHz       13.107        inferred                                                 Autoconstr_clkgroup_0      7821 
+                                                                                                                                                                                                                                          
+0 -       trb3_periph_blank|INP[8]                                                                                  1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_9      186  
+                                                                                                                                                                                                                                          
+0 -       trb3_periph_blank|INP[9]                                                                                  1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_8      186  
+                                                                                                                                                                                                                                          
+0 -       trb3_periph_blank|INP[10]                                                                                 1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_7      186  
+                                                                                                                                                                                                                                          
+0 -       trb3_periph_blank|INP[11]                                                                                 1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_6      186  
+                                                                                                                                                                                                                                          
+0 -       trb3_periph_blank|INP[12]                                                                                 1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_5      186  
+                                                                                                                                                                                                                                          
+0 -       trb3_periph_blank|INP[13]                                                                                 1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_4      186  
+                                                                                                                                                                                                                                          
+0 -       trb3_periph_blank|INP[14]                                                                                 1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_3      186  
+                                                                                                                                                                                                                                          
+0 -       trb3_periph_blank|INP[15]                                                                                 1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_2      186  
+                                                                                                                                                                                                                                          
+0 -       trb3_periph_blank|CLK_PCLK_RIGHT                                                                          4.2 MHz        240.553       inferred                                                 Autoconstr_clkgroup_1      112  
+                                                                                                                                                                                                                                          
+0 -       sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock        432.9 MHz      2.310         inferred                                                 Autoconstr_clkgroup_10     110  
+                                                                                                                                                                                                                                          
+0 -       pll_in200_out100|CLKOK_inferred_clock                                                                     1.0 MHz        1000.000      inferred                                                 Autoconstr_clkgroup_11     30   
+1 .         sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_rx_ch1_derived_clock     1.0 MHz        1000.000      derived (from pll_in200_out100|CLKOK_inferred_clock)     Autoconstr_clkgroup_11     35   
+1 .         sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_tx_ch_derived_clock      1.0 MHz        1000.000      derived (from pll_in200_out100|CLKOK_inferred_clock)     Autoconstr_clkgroup_11     32   
+                                                                                                                                                                                                                                          
+0 -       BM_control|out_sig_inferred_clock[0]                                                                      1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_19     2    
+                                                                                                                                                                                                                                          
+0 -       BM_control|out_sig_inferred_clock[1]                                                                      1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_18     2    
+                                                                                                                                                                                                                                          
+0 -       BM_control|out_sig_inferred_clock[2]                                                                      1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_17     2    
+                                                                                                                                                                                                                                          
+0 -       BM_control|out_sig_inferred_clock[3]                                                                      1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_16     2    
+                                                                                                                                                                                                                                          
+0 -       BM_control|out_sig_inferred_clock[4]                                                                      1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_15     2    
+                                                                                                                                                                                                                                          
+0 -       BM_control|out_sig_inferred_clock[5]                                                                      1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_14     2    
+                                                                                                                                                                                                                                          
+0 -       BM_control|out_sig_inferred_clock[6]                                                                      1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_13     2    
+                                                                                                                                                                                                                                          
+0 -       BM_control|out_sig_inferred_clock[7]                                                                      1694.1 MHz     0.590         inferred                                                 Autoconstr_clkgroup_12     2    
+==========================================================================================================================================================================================================================================

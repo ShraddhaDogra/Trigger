@@ -1,0 +1,232 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Thu Jun  4 11:42:56 2020
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "trb3_periph_blank"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                                                                Ending                                                                                                  |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                                                  System                                                                                                  |     0.587            |     No paths         |     No paths         |     No paths                         
+System                                                                                                  pll_in200_out100|CLKOP_inferred_clock                                                                   |     13.107           |     No paths         |     No paths         |     No paths                         
+System                                                                                                  sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock      |     2.310            |     No paths         |     No paths         |     No paths                         
+System                                                                                                  pll_in200_out100|CLKOK_inferred_clock                                                                   |     1000.000         |     No paths         |     No paths         |     No paths                         
+System                                                                                                  sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_rx_ch1_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+System                                                                                                  sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_tx_ch_derived_clock      |     1000.000         |     No paths         |     No paths         |     No paths                         
+pll_in200_out100|CLKOP_inferred_clock                                                                   System                                                                                                  |     13.107           |     No paths         |     No paths         |     No paths                         
+pll_in200_out100|CLKOP_inferred_clock                                                                   pll_in200_out100|CLKOP_inferred_clock                                                                   |     13.107           |     No paths         |     No paths         |     No paths                         
+pll_in200_out100|CLKOP_inferred_clock                                                                   sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pll_in200_out100|CLKOP_inferred_clock                                                                   pll_in200_out100|CLKOK_inferred_clock                                                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     240.553          |     No paths         |     120.277          |     No paths                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        trb3_periph_blank|INP[15]                                                                               |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        trb3_periph_blank|INP[14]                                                                               |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        trb3_periph_blank|INP[13]                                                                               |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        trb3_periph_blank|INP[12]                                                                               |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        trb3_periph_blank|INP[11]                                                                               |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        trb3_periph_blank|INP[10]                                                                               |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        trb3_periph_blank|INP[9]                                                                                |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        trb3_periph_blank|INP[8]                                                                                |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        BM_control|out_sig_inferred_clock[7]                                                                    |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        BM_control|out_sig_inferred_clock[6]                                                                    |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        BM_control|out_sig_inferred_clock[5]                                                                    |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        BM_control|out_sig_inferred_clock[4]                                                                    |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        BM_control|out_sig_inferred_clock[3]                                                                    |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        BM_control|out_sig_inferred_clock[2]                                                                    |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        BM_control|out_sig_inferred_clock[1]                                                                    |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|CLK_PCLK_RIGHT                                                                        BM_control|out_sig_inferred_clock[0]                                                                    |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+trb3_periph_blank|INP[15]                                                                               trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[15]                                                                               trb3_periph_blank|INP[15]                                                                               |     0.590            |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[14]                                                                               trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[14]                                                                               trb3_periph_blank|INP[14]                                                                               |     0.590            |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[13]                                                                               trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[13]                                                                               trb3_periph_blank|INP[13]                                                                               |     0.590            |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[12]                                                                               trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[12]                                                                               trb3_periph_blank|INP[12]                                                                               |     0.590            |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[11]                                                                               trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[11]                                                                               trb3_periph_blank|INP[11]                                                                               |     0.590            |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[10]                                                                               trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[10]                                                                               trb3_periph_blank|INP[10]                                                                               |     0.590            |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[9]                                                                                trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[9]                                                                                trb3_periph_blank|INP[9]                                                                                |     0.590            |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[8]                                                                                trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+trb3_periph_blank|INP[8]                                                                                trb3_periph_blank|INP[8]                                                                                |     0.590            |     No paths         |     No paths         |     No paths                         
+sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock      System                                                                                                  |     2.310            |     No paths         |     No paths         |     No paths                         
+sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock      pll_in200_out100|CLKOP_inferred_clock                                                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock      sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock      |     2.310            |     No paths         |     No paths         |     No paths                         
+pll_in200_out100|CLKOK_inferred_clock                                                                   pll_in200_out100|CLKOP_inferred_clock                                                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pll_in200_out100|CLKOK_inferred_clock                                                                   pll_in200_out100|CLKOK_inferred_clock                                                                   |     1000.000         |     No paths         |     No paths         |     No paths                         
+sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_rx_ch1_derived_clock     System                                                                                                  |     1000.000         |     No paths         |     No paths         |     No paths                         
+sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_rx_ch1_derived_clock     sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_rx_ch1_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_tx_ch_derived_clock      System                                                                                                  |     1000.000         |     No paths         |     No paths         |     No paths                         
+sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_tx_ch_derived_clock      sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_tx_ch_derived_clock      |     1000.000         |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[7]                                                                    trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[7]                                                                    BM_control|out_sig_inferred_clock[7]                                                                    |     0.590            |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[6]                                                                    trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[6]                                                                    BM_control|out_sig_inferred_clock[6]                                                                    |     0.590            |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[5]                                                                    trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[5]                                                                    BM_control|out_sig_inferred_clock[5]                                                                    |     0.590            |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[4]                                                                    trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[4]                                                                    BM_control|out_sig_inferred_clock[4]                                                                    |     0.590            |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[3]                                                                    trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[3]                                                                    BM_control|out_sig_inferred_clock[3]                                                                    |     0.590            |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[2]                                                                    trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[2]                                                                    BM_control|out_sig_inferred_clock[2]                                                                    |     0.590            |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[1]                                                                    trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[1]                                                                    BM_control|out_sig_inferred_clock[1]                                                                    |     0.590            |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[0]                                                                    trb3_periph_blank|CLK_PCLK_RIGHT                                                                        |     Diff grp         |     No paths         |     No paths         |     No paths                         
+BM_control|out_sig_inferred_clock[0]                                                                    BM_control|out_sig_inferred_clock[0]                                                                    |     0.590            |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:CLK_GPLL_LEFT
+p:CLK_GPLL_RIGHT
+p:CLK_PCLK_LEFT
+p:CODE_LINE[0]
+p:CODE_LINE[1]
+p:FLASH_CLK
+p:FLASH_CS
+p:FLASH_DIN
+p:FLASH_DOUT
+p:FPGA5_COMM[0]
+p:FPGA5_COMM[1]
+p:FPGA5_COMM[2]
+p:FPGA5_COMM[3]
+p:FPGA5_COMM[4]
+p:FPGA5_COMM[5]
+p:FPGA5_COMM[6]
+p:FPGA5_COMM[11]
+p:INP[0]
+p:INP[1]
+p:INP[2]
+p:INP[3]
+p:INP[4]
+p:INP[5]
+p:INP[6]
+p:INP[7]
+p:INP[16]
+p:INP[17]
+p:INP[18]
+p:INP[19]
+p:INP[20]
+p:INP[21]
+p:INP[22]
+p:INP[23]
+p:INP[24]
+p:INP[25]
+p:INP[26]
+p:INP[27]
+p:INP[28]
+p:INP[29]
+p:INP[30]
+p:INP[31]
+p:INP[32]
+p:INP[33]
+p:INP[34]
+p:INP[35]
+p:INP[36]
+p:INP[37]
+p:INP[38]
+p:INP[39]
+p:INP[40]
+p:INP[41]
+p:INP[42]
+p:INP[43]
+p:INP[44]
+p:INP[45]
+p:INP[46]
+p:INP[47]
+p:IN_pA
+p:IN_pB
+p:IN_pC
+p:IN_pD
+p:LED_GREEN
+p:LED_ORANGE
+p:LED_RED
+p:LED_YELLOW
+p:OUT_pA[0]
+p:OUT_pA[1]
+p:OUT_pA[2]
+p:OUT_pB[0]
+p:OUT_pB[1]
+p:OUT_pB[2]
+p:OUT_pC[0]
+p:OUT_pC[1]
+p:OUT_pC[2]
+p:OUT_pD[0]
+p:OUT_pD[1]
+p:PROGRAMN
+p:TEMPSENS (bidir end point)
+p:TEMPSENS (bidir start point)
+p:TEST_LINE[0]
+p:TEST_LINE[1]
+p:TEST_LINE[2]
+p:TEST_LINE[3]
+p:TEST_LINE[4]
+p:TEST_LINE[5]
+p:TEST_LINE[6]
+p:TEST_LINE[7]
+p:TEST_LINE[8]
+p:TEST_LINE[9]
+p:TEST_LINE[10]
+p:TEST_LINE[11]
+p:TEST_LINE[12]
+p:TEST_LINE[13]
+p:TEST_LINE[14]
+p:TEST_LINE[15]
+p:TRIGGER_LEFT
+p:TRIG_OUT[0]
+p:TRIG_OUT[1]
+p:TRIG_OUT[2]
+p:TRIG_OUT[3]
+p:TRIG_OUT[4]
+p:TRIG_OUT[5]
+p:TRIG_OUT[6]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report
