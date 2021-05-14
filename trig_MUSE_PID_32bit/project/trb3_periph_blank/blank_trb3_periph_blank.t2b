@@ -1,0 +1,9 @@
+
+
+
+
+-g CfgMode:Disable
+-g RamCfg:Reset
+-path "C:/Users/ishra/MUSE_TRIGGERS_FPGA/trig_MUSE_PID_32bit/project" 
+-path "C:/Users/ishra/MUSE_TRIGGERS_FPGA/trig_MUSE_PID_32bit/project"
+-g ES:No

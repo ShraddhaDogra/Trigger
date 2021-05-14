@@ -1,0 +1,5 @@
+#Start recording tcl command: 10/15/2020 12:14:45
+#Project Location: C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project; Project name: blank
+prj_project open "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/trb3_periph_blank.ldf"
+prj_project close
+#Stop recording: 10/15/2020 12:15:23

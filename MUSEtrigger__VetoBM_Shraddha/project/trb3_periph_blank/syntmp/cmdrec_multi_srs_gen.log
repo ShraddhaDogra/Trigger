@@ -1,0 +1,7 @@
+C:\lscc\diamond\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  trb3_periph_blank  -multisrs  C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\trb3_periph_blank\synwork\blank_trb3_periph_blank_comp.srs  -osyn  C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\trb3_periph_blank\synwork\blank_trb3_periph_blank_mult.srs  -log  C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\trb3_periph_blank\synlog\blank_trb3_periph_blank_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top trb3_periph_blank -multisrs ..\synwork\blank_trb3_periph_blank_comp.srs -osyn ..\synwork\blank_trb3_periph_blank_mult.srs -log ..\synlog\blank_trb3_periph_blank_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\blank_trb3_periph_blank_comp.srs|io:i|time:1604448345|size:519586|exec:0|csum:894FD513EA360B6EE4C14401D14DC730
+file:..\synwork\blank_trb3_periph_blank_mult.srs|io:o|time:1604448347|size:23095|exec:0|csum:
+file:..\synlog\blank_trb3_periph_blank_multi_srs_gen.srr|io:o|time:1604448347|size:569|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501902990|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

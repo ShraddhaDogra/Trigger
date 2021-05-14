@@ -1,0 +1,26 @@
+PAR: Place And Route Diamond (64-bit) 3.10.3.144.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Dec 09 21:23:21 2020
+
+C:/lscc/diamond/diamond/3.10_x64/ispfpga\bin\nt64\par -f
+blank_trb3_periph_blank.p2t blank_trb3_periph_blank_map.ncd
+blank_trb3_periph_blank.dir blank_trb3_periph_blank.prf -gui -msgset
+C:/Users/ishra/MUSE_TRIGGERS_FPGA/trig_MUSE_PID_32bit/project/promote.xml
+
+
+Preference file: blank_trb3_periph_blank.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            1.411        0            0.106        0            03:00        Success
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 3 mins 
+
+par done!

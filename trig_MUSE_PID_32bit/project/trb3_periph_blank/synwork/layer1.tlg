@@ -1,0 +1,1539 @@
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\leds.v":23:7:23:10|Synthesizing module leds in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b11000001
+	DEFAULTVALUE=32'b00000000000000000000000001000000
+   Generated name = Register_193_64
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b11000010
+	DEFAULTVALUE=32'b10000000000000000000000000000000
+   Generated name = Register_194_2147483648
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ComTrans.v":10:7:10:14|Synthesizing module ComTrans in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b11000000
+	DEFAULTVALUE=32'b10000100000010000000000000000000
+   Generated name = Register_192_2215116800
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":457:7:457:9|Synthesizing module INV in library work.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":1029:7:1029:9|Synthesizing module VLO in library work.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":1552:7:1552:13|Synthesizing module EHXPLLF in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll.v":8:7:8:10|Synthesizing module Cpll in library work.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":148:7:148:12|Synthesizing module FADD2B in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll1.v":8:7:8:11|Synthesizing module Cpll1 in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b11000011
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_195_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll2.v":8:7:8:11|Synthesizing module Cpll2 in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ClockGen.v":10:7:10:14|Synthesizing module ClockGen in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Input_Reg.v":3:7:3:15|Synthesizing module Input_Reg in library work.
+
+	WIDTH=32'b00000000000000000000000000100000
+   Generated name = Input_Reg_32s
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00000000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_0_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00000001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_1_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00000010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_2_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00000011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_3_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":176:7:176:13|Synthesizing module FD1P3AY in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Ltch8.v":10:7:10:11|Synthesizing module Ltch8 in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\wcomp.v":10:7:10:11|Synthesizing module wcomp in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b000000
+   Generated name = FineTimeBit_0
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|Removing wire DataOutLA, as there is no assignment to it.
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_4[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00000100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_4_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00000101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_5_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00000110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_6_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00000111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_7_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b000001
+   Generated name = FineTimeBit_1
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_9[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00001000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_8_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00001001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_9_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00001010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_10_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00001011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_11_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b000010
+   Generated name = FineTimeBit_2
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_14[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00001100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_12_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00001101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_13_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00001110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_14_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00001111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_15_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b000011
+   Generated name = FineTimeBit_3
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_19[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00010000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_16_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00010001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_17_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00010010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_18_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00010011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_19_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b000100
+   Generated name = FineTimeBit_4
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_24[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00010100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_20_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00010101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_21_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00010110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_22_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00010111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_23_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b000101
+   Generated name = FineTimeBit_5
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_29[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00011000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_24_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00011001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_25_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00011010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_26_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00011011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_27_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b000110
+   Generated name = FineTimeBit_6
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_34[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00011100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_28_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00011101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_29_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00011110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_30_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00011111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_31_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b000111
+   Generated name = FineTimeBit_7
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_39[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00100000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_32_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00100001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_33_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00100010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_34_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00100011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_35_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b001000
+   Generated name = FineTimeBit_8
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_44[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00100100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_36_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00100101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_37_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00100110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_38_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00100111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_39_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b001001
+   Generated name = FineTimeBit_9
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_49[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00101000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_40_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00101001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_41_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00101010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_42_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00101011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_43_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b001010
+   Generated name = FineTimeBit_10
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_54[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00101100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_44_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00101101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_45_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00101110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_46_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00101111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_47_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b001011
+   Generated name = FineTimeBit_11
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_59[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00110000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_48_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00110001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_49_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00110010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_50_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00110011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_51_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b001100
+   Generated name = FineTimeBit_12
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_64[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00110100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_52_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00110101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_53_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00110110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_54_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00110111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_55_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b001101
+   Generated name = FineTimeBit_13
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_69[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00111000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_56_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00111001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_57_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00111010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_58_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00111011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_59_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b001110
+   Generated name = FineTimeBit_14
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_74[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00111100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_60_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00111101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_61_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00111110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_62_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b00111111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_63_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+
+	Ch=6'b001111
+   Generated name = FineTimeBit_15
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_79[35:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b01000000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_64_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+
+	MYAD=8'b01000001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_65_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+Only the first 100 messages of id 'CG364' are reported. To see all messages use 'report_messages -log C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\trb3_periph_blank\synlog\blank_trb3_periph_blank_compiler.srr -id CG364' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG364} -count unlimited' in the Tcl shell.
+
+	MYAD=8'b01000010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_66_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01000011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_67_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	Ch=6'b010000
+   Generated name = FineTimeBit_16
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_84[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01000100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_68_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01000101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_69_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01000110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_70_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01000111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_71_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	Ch=6'b010001
+   Generated name = FineTimeBit_17
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_89[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01001000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_72_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01001001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_73_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01001010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_74_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01001011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_75_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	Ch=6'b010010
+   Generated name = FineTimeBit_18
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_94[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01001100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_76_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01001101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_77_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01001110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_78_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01001111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_79_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	Ch=6'b010011
+   Generated name = FineTimeBit_19
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_99[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01010000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_80_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01010001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_81_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01010010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_82_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01010011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_83_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	Ch=6'b010100
+   Generated name = FineTimeBit_20
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_104[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01010100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_84_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01010101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_85_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01010110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_86_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01010111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_87_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	Ch=6'b010101
+   Generated name = FineTimeBit_21
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_109[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01011000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_88_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01011001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_89_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01011010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_90_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01011011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_91_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	Ch=6'b010110
+   Generated name = FineTimeBit_22
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_114[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01011100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_92_0
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01011101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_93_4294967295
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01011110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_94_61440
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	MYAD=8'b01011111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_95_251658240
+@W: CG133 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+
+	Ch=6'b010111
+   Generated name = FineTimeBit_23
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_119[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01100000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_96_0
+
+Only the first 100 messages of id 'CG133' are reported. To see all messages use 'report_messages -log C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\trb3_periph_blank\synlog\blank_trb3_periph_blank_compiler.srr -id CG133' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG133} -count unlimited' in the Tcl shell.
+
+	MYAD=8'b01100001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_97_4294967295
+
+	MYAD=8'b01100010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_98_61440
+
+	MYAD=8'b01100011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_99_251658240
+
+	Ch=6'b011000
+   Generated name = FineTimeBit_24
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_124[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01100100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_100_0
+
+	MYAD=8'b01100101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_101_4294967295
+
+	MYAD=8'b01100110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_102_61440
+
+	MYAD=8'b01100111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_103_251658240
+
+	Ch=6'b011001
+   Generated name = FineTimeBit_25
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_129[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01101000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_104_0
+
+	MYAD=8'b01101001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_105_4294967295
+
+	MYAD=8'b01101010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_106_61440
+
+	MYAD=8'b01101011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_107_251658240
+
+	Ch=6'b011010
+   Generated name = FineTimeBit_26
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_134[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01101100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_108_0
+
+	MYAD=8'b01101101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_109_4294967295
+
+	MYAD=8'b01101110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_110_61440
+
+	MYAD=8'b01101111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_111_251658240
+
+	Ch=6'b011011
+   Generated name = FineTimeBit_27
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_139[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01110000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_112_0
+
+	MYAD=8'b01110001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_113_4294967295
+
+	MYAD=8'b01110010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_114_61440
+
+	MYAD=8'b01110011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_115_251658240
+
+	Ch=6'b011100
+   Generated name = FineTimeBit_28
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_144[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01110100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_116_0
+
+	MYAD=8'b01110101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_117_4294967295
+
+	MYAD=8'b01110110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_118_61440
+
+	MYAD=8'b01110111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_119_251658240
+
+	Ch=6'b011101
+   Generated name = FineTimeBit_29
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_149[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01111000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_120_0
+
+	MYAD=8'b01111001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_121_4294967295
+
+	MYAD=8'b01111010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_122_61440
+
+	MYAD=8'b01111011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_123_251658240
+
+	Ch=6'b011110
+   Generated name = FineTimeBit_30
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_154[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b01111100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_124_0
+
+	MYAD=8'b01111101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_125_4294967295
+
+	MYAD=8'b01111110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_126_61440
+
+	MYAD=8'b01111111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_127_251658240
+
+	Ch=6'b011111
+   Generated name = FineTimeBit_31
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_159[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10000000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_128_0
+
+	MYAD=8'b10000001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_129_4294967295
+
+	MYAD=8'b10000010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_130_61440
+
+	MYAD=8'b10000011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_131_251658240
+
+	Ch=6'b100000
+   Generated name = FineTimeBit_32
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_164[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10000100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_132_0
+
+	MYAD=8'b10000101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_133_4294967295
+
+	MYAD=8'b10000110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_134_61440
+
+	MYAD=8'b10000111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_135_251658240
+
+	Ch=6'b100001
+   Generated name = FineTimeBit_33
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_169[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10001000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_136_0
+
+	MYAD=8'b10001001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_137_4294967295
+
+	MYAD=8'b10001010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_138_61440
+
+	MYAD=8'b10001011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_139_251658240
+
+	Ch=6'b100010
+   Generated name = FineTimeBit_34
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_174[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10001100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_140_0
+
+	MYAD=8'b10001101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_141_4294967295
+
+	MYAD=8'b10001110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_142_61440
+
+	MYAD=8'b10001111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_143_251658240
+
+	Ch=6'b100011
+   Generated name = FineTimeBit_35
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_179[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10010000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_144_0
+
+	MYAD=8'b10010001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_145_4294967295
+
+	MYAD=8'b10010010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_146_61440
+
+	MYAD=8'b10010011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_147_251658240
+
+	Ch=6'b100100
+   Generated name = FineTimeBit_36
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_184[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10010100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_148_0
+
+	MYAD=8'b10010101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_149_4294967295
+
+	MYAD=8'b10010110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_150_61440
+
+	MYAD=8'b10010111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_151_251658240
+
+	Ch=6'b100101
+   Generated name = FineTimeBit_37
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_189[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10011000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_152_0
+
+	MYAD=8'b10011001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_153_4294967295
+
+	MYAD=8'b10011010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_154_61440
+
+	MYAD=8'b10011011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_155_251658240
+
+	Ch=6'b100110
+   Generated name = FineTimeBit_38
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_194[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10011100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_156_0
+
+	MYAD=8'b10011101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_157_4294967295
+
+	MYAD=8'b10011110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_158_61440
+
+	MYAD=8'b10011111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_159_251658240
+
+	Ch=6'b100111
+   Generated name = FineTimeBit_39
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_199[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10100000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_160_0
+
+	MYAD=8'b10100001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_161_4294967295
+
+	MYAD=8'b10100010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_162_61440
+
+	MYAD=8'b10100011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_163_251658240
+
+	Ch=6'b101000
+   Generated name = FineTimeBit_40
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_204[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10100100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_164_0
+
+	MYAD=8'b10100101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_165_4294967295
+
+	MYAD=8'b10100110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_166_61440
+
+	MYAD=8'b10100111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_167_251658240
+
+	Ch=6'b101001
+   Generated name = FineTimeBit_41
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_209[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10101000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_168_0
+
+	MYAD=8'b10101001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_169_4294967295
+
+	MYAD=8'b10101010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_170_61440
+
+	MYAD=8'b10101011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_171_251658240
+
+	Ch=6'b101010
+   Generated name = FineTimeBit_42
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_214[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10101100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_172_0
+
+	MYAD=8'b10101101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_173_4294967295
+
+	MYAD=8'b10101110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_174_61440
+
+	MYAD=8'b10101111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_175_251658240
+
+	Ch=6'b101011
+   Generated name = FineTimeBit_43
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_219[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10110000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_176_0
+
+	MYAD=8'b10110001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_177_4294967295
+
+	MYAD=8'b10110010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_178_61440
+
+	MYAD=8'b10110011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_179_251658240
+
+	Ch=6'b101100
+   Generated name = FineTimeBit_44
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_224[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10110100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_180_0
+
+	MYAD=8'b10110101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_181_4294967295
+
+	MYAD=8'b10110110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_182_61440
+
+	MYAD=8'b10110111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_183_251658240
+
+	Ch=6'b101101
+   Generated name = FineTimeBit_45
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_229[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10111000
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_184_0
+
+	MYAD=8'b10111001
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_185_4294967295
+
+	MYAD=8'b10111010
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_186_61440
+
+	MYAD=8'b10111011
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_187_251658240
+
+	Ch=6'b101110
+   Generated name = FineTimeBit_46
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_234[35:0]. Either assign all bits or reduce the width of the signal.
+
+	MYAD=8'b10111100
+	DEFAULTVALUE=32'b00000000000000000000000000000000
+   Generated name = Register_188_0
+
+	MYAD=8'b10111101
+	DEFAULTVALUE=32'b11111111111111111111111111111111
+   Generated name = Register_189_4294967295
+
+	MYAD=8'b10111110
+	DEFAULTVALUE=32'b00000000000000001111000000000000
+   Generated name = Register_190_61440
+
+	MYAD=8'b10111111
+	DEFAULTVALUE=32'b00001111000000000000000000000000
+   Generated name = Register_191_251658240
+
+	Ch=6'b101111
+   Generated name = FineTimeBit_47
+@W: CL169 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":91:0:91:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Removing unused bit 0 of TimeLtch50_239[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":613:9:613:11|Index 32 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":631:9:631:11|Index 33 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":649:9:649:11|Index 34 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":667:9:667:11|Index 35 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":685:9:685:11|Index 36 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":703:9:703:11|Index 37 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":721:9:721:11|Index 38 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":739:9:739:11|Index 39 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":757:9:757:11|Index 40 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":775:9:775:11|Index 41 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":793:9:793:11|Index 42 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":811:9:811:11|Index 43 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":829:9:829:11|Index 44 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":847:9:847:11|Index 45 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":865:9:865:11|Index 46 is out of range for variable DIn
+@W: CS101 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":883:9:883:11|Index 47 is out of range for variable DIn
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":31:18:31:21|Removing wire test, as there is no assignment to it.
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":882:20:882:23|Input DIn of instance fb47 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":864:20:864:23|Input DIn of instance fb46 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":846:20:846:23|Input DIn of instance fb45 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":828:20:828:23|Input DIn of instance fb44 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":810:20:810:23|Input DIn of instance fb43 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":792:20:792:23|Input DIn of instance fb42 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":774:20:774:23|Input DIn of instance fb41 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":756:20:756:23|Input DIn of instance fb40 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":738:20:738:23|Input DIn of instance fb39 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":720:20:720:23|Input DIn of instance fb38 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":702:20:702:23|Input DIn of instance fb37 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":684:20:684:23|Input DIn of instance fb36 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":666:20:666:23|Input DIn of instance fb35 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":648:20:648:23|Input DIn of instance fb34 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":630:20:630:23|Input DIn of instance fb33 is floating
+@W: CL167 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":612:20:612:23|Input DIn of instance fb32 is floating
+@W: CS263 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\timestatics.v":102:4:102:4|Port-width mismatch for port Q. The port definition is 16 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\timestatics.v":25:38:25:43|Removing wire tofifo, as there is no assignment to it.
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\timestatics.v":51:5:51:8|Removing wire full, as there is no assignment to it.
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\timestatics.v":51:11:51:12|Removing wire en, as there is no assignment to it.
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\timestatics.v":54:5:54:8|Removing wire test, as there is no assignment to it.
+@W: CS263 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":145:7:145:10|Port-width mismatch for port Q. The port definition is 32 bits, but the actual port connection bit width is 48. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":158:9:158:12|Port-width mismatch for port DIn. The port definition is 32 bits, but the actual port connection bit width is 48. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":20:13:20:18|Removing wire OUT_pD, as there is no assignment to it.
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":22:19:22:25|Removing wire TestOut, as there is no assignment to it.
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":55:5:55:13|Removing wire StartTest, as there is no assignment to it.
+@W: CG360 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":23:19:23:25|Removing wire TestOut, as there is no assignment to it.
+@W: CL157 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":23:19:23:25|*Output TestOut has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":9:11:9:15|Input IN_pA is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":10:11:10:15|Input IN_pB is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":11:11:11:15|Input IN_pC is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":13:11:13:17|Input reset_i is unused.
+@W: CL157 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":20:13:20:18|*Output OUT_pD has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":22:19:22:25|*Output TestOut has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":9:11:9:15|Input IN_pD is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":23:18:23:23|Input TestIn is unused.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\timestatics.v":15:17:15:19|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\timestatics.v":15:17:15:19|Input port bits 1 to 0 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\timestatics.v":21:12:21:14|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Teststate.v":27:1:27:6|Trying to extract state machine for register State.
+@W: CL157 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v":31:18:31:21|*Output test has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":21:11:21:13|*Unassigned bits of ack are referenced and tied to 0 -- simulation mismatch possible.
+
+Only the first 100 messages of id 'CL153' are reported. To see all messages use 'report_messages -log C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\trb3_periph_blank\synlog\blank_trb3_periph_blank_compiler.srr -id CL153' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL153} -count unlimited' in the Tcl shell.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":186:0:186:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL157 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ClockGen.v":12:18:12:20|*Output clk has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ClockGen.v":21:17:21:19|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL138 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ComTrans.v":80:0:80:5|Removing register 'nack' because it is only assigned 0 or its original value.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ComTrans.v":14:11:14:14|Input Cclk is unused.

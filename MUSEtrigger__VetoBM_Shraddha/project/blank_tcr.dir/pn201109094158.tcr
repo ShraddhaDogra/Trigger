@@ -1,0 +1,28 @@
+#Start recording tcl command: 11/2/2020 13:01:51
+#Project Location: C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project; Project name: blank
+prj_project open "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/trb3_periph_blank.ldf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_vetoBM/tb_vetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/tb_BMControl.vhd"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/tb_BmC/tb_BmC.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/tb_BMC/tb_BMC.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/tb_BMC/tb_BMC.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_BMC/tb_BMC.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_BMC/tb_BMC.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src exclude "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM.vhd"
+prj_src exclude "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_PulseStretch.vhd"
+prj_src exclude "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_BMLogic.vhd"
+prj_src exclude "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoLogic.vhd"
+prj_src exclude "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/tb_BMControl.vhd"
+prj_run Export -impl trb3_periph_blank -task Bitgen
+prj_project save
+prj_project close
+#Stop recording: 11/9/2020 09:41:58

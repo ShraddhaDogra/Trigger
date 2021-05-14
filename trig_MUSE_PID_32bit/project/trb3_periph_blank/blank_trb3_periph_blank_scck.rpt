@@ -1,0 +1,38 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Dec  9 21:20:32 2020
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "trb3_periph_blank"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                                                                     Requested     Requested     Clock                                                    Clock                     Clock
+Level     Clock                                                                                                     Frequency     Period        Type                                                     Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                                                                    621.0 MHz     1.610         system                                                   system_clkgroup           33   
+                                                                                                                                                                                                                                        
+0 -       pll_in200_out100|CLKOK_inferred_clock                                                                     76.3 MHz      13.107        inferred                                                 Autoconstr_clkgroup_0     7806 
+                                                                                                                                                                                                                                        
+0 -       sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock        432.9 MHz     2.310         inferred                                                 Autoconstr_clkgroup_2     110  
+                                                                                                                                                                                                                                        
+0 -       pll_in200_out100|CLKOP_inferred_clock                                                                     1.0 MHz       1000.000      inferred                                                 Autoconstr_clkgroup_3     30   
+1 .         sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_rx_ch1_derived_clock     1.0 MHz       1000.000      derived (from pll_in200_out100|CLKOP_inferred_clock)     Autoconstr_clkgroup_3     35   
+1 .         sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_tx_ch_derived_clock      1.0 MHz       1000.000      derived (from pll_in200_out100|CLKOP_inferred_clock)     Autoconstr_clkgroup_3     32   
+                                                                                                                                                                                                                                        
+0 -       Cpll2|CLKOS_inferred_clock                                                                                624.8 MHz     1.601         inferred                                                 Autoconstr_clkgroup_1     35   
+========================================================================================================================================================================================================================================

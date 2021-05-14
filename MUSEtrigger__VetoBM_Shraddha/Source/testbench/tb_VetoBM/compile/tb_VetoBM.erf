@@ -1,0 +1,3 @@
+MESSAGE "File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_stretch_many.vhd" 
+WARNING COMP96_0003: "Source file "C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_stretch_many.vhd" is empty."
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time :  31.0 [ms]" 

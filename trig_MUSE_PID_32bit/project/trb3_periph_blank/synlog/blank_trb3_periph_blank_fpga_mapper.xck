@@ -1,0 +1,5 @@
+CKID0001:@|S:THE_MAIN_PLL.PLLInst_0@|E:THE_RDO\.readout_tx_0\.busy_release@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:THE_MAIN_PLL.PLLInst_0@|E:THE_RESET_HANDLER.async_pulse@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0003:@|S:PID_TRIG.TDC.CG.P2Clk.PLLInst_0@|E:PID_TRIG.Blink.a@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:THE_MEDIA_UPLINK.gen_serdes_1_200\.THE_SERDES.PCSD_INST@|E:THE_MEDIA_UPLINK.THE_BYTE_SWAP_PROC\.fifo_rx_din[0]@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 
+CKID0005:@|S:TRIGGER_LEFT@|E:THE_ENDPOINT.THE_ENDPOINT.THE_LVL1_HANDLER.tmg_edge_async@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005 

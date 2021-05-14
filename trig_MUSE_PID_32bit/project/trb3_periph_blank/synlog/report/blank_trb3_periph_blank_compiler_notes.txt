@@ -1,0 +1,452 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\trb3_periph_blank.vhd":13:7:13:23|Top entity is set to trb3_periph_blank.
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\trb3_periph_blank.vhd":13:7:13:23|Top entity is set to trb3_periph_blank.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\trb3_periph_blank.vhd":13:7:13:23|Synthesizing work.trb3_periph_blank.trb3_periph_blank_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\trb3_periph_blank.vhd":129:15:129:16|Using sequential encoding for type state_t.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\trb3_tools.vhd":11:7:11:16|Synthesizing work.trb3_tools.trb3_tools_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_statistics.vhd":7:7:7:22|Synthesizing work.input_statistics.input_statistics_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_statistics.vhd":70:13:70:14|Using sequential encoding for type state_t.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":14:7:14:21|Synthesizing work.fifo_18x1k_oreg.structure.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_statistics.vhd":55:7:55:17|Register bit THE_CONTROL.fifo_in_sel(5) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_to_trigger_logic_record.vhd":7:7:7:35|Synthesizing work.input_to_trigger_logic_record.input_to_trigger_logic_arch.
+@N: CL134 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_to_trigger_logic_record.vhd":55:7:55:24|Found RAM coincidence_enable, depth=16, width=1
+@N: CL134 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_to_trigger_logic_record.vhd":54:29:54:48|Found RAM coincidence_config_2, depth=17, width=5
+@N: CL134 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_to_trigger_logic_record.vhd":54:7:54:26|Found RAM coincidence_config_1, depth=17, width=5
+@N: CL214 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_to_trigger_logic_record.vhd":122:57:122:62|Found multi-write port RAM enable, number of write ports=2, depth=4, width=32
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_ltc2600.vhd":6:7:6:17|Synthesizing work.spi_ltc2600.spi_ltc2600_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_ltc2600.vhd":56:15:56:16|Using onehot encoding for type fsm_t. For example, enumeration idle is mapped to "10000000".
+@N: CL134 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_ltc2600.vhd":35:9:35:11|Found RAM ram, depth=16, width=32
+@N: CL134 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_ltc2600.vhd":35:9:35:11|Found RAM ram, depth=16, width=32
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\sedcheck.vhd":8:7:8:14|Synthesizing work.sedcheck.sed_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\sedcheck.vhd":41:15:41:16|Using onehot encoding for type state_t. For example, enumeration idle is mapped to "10000000".
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\sedcheck.vhd":199:0:199:4|Register bit DEBUG(11) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\sedcheck.vhd":199:0:199:4|Register bit DEBUG(12) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\sedcheck.vhd":199:0:199:4|Register bit DEBUG(13) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\sedcheck.vhd":199:0:199:4|Register bit DEBUG(14) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\sedcheck.vhd":199:0:199:4|Register bit DEBUG(15) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":8:7:8:19|Synthesizing work.load_settings.load_settings_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":85:25:85:26|Using onehot encoding for type read_page_state_t. For example, enumeration idle is mapped to "10000000".
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":102:24:102:25|Using sequential encoding for type pop_page_state_t.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":113:21:113:22|Using onehot encoding for type parse_state_t. For example, enumeration wait_for_command is mapped to "1000000000000000000".
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\ram.vhd":9:7:9:9|Synthesizing work.ram.ram_arch.
+@N: CL134 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\ram.vhd":25:8:25:10|Found RAM ram, depth=256, width=8
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\spi_master_generic.vhd":8:7:8:24|Synthesizing work.spi_master_generic.spi_master_generic_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\spi_master_generic.vhd":51:24:51:25|Using sequential encoding for type transfer_state_t.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":96:26:96:46|Register bit PARSE.new_pop_page_position(0) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":96:26:96:46|Register bit PARSE.new_pop_page_position(1) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":96:26:96:46|Register bit PARSE.new_pop_page_position(2) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":96:26:96:46|Register bit PARSE.new_pop_page_position(3) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":96:26:96:46|Register bit PARSE.new_pop_page_position(4) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":96:26:96:46|Register bit PARSE.new_pop_page_position(5) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":96:26:96:46|Register bit PARSE.new_pop_page_position(6) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":96:26:96:46|Register bit PARSE.new_pop_page_position(7) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_flash_and_fpga_reload_record.vhd":11:7:11:38|Synthesizing work.spi_flash_and_fpga_reload_record.flash_reboot_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\fpga_reboot.vhd":6:7:6:17|Synthesizing work.fpga_reboot.fpga_reboot_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_databus_memory.vhd":10:7:10:24|Synthesizing work.spi_databus_memory.behavioral.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_databus_memory.vhd":37:14:37:15|Using onehot encoding for type states. For example, enumeration sleep is mapped to "100000".
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_databus_memory.vhd":122:8:122:24|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\spi_dpram_32_to_8.vhd":14:7:14:23|Synthesizing work.spi_dpram_32_to_8.structure.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_master.vhd":10:7:10:16|Synthesizing work.spi_master.behavioral.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_master.vhd":44:16:44:17|Using sequential encoding for type states.
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_master.vhd":208:6:208:24|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_slim.vhd":12:7:12:14|Synthesizing work.spi_slim.behavioral.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_slim.vhd":53:13:53:14|Using onehot encoding for type state_t. For example, enumeration idle is mapped to "10000000000000000".
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_slim.vhd":510:8:510:23|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_slim.vhd":526:8:526:23|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regio_bus_handler.vhd":10:7:10:33|Synthesizing work.trb_net16_regio_bus_handler.regio_bus_handler_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regio_bus_handler_record.vhd":8:7:8:40|Synthesizing work.trb_net16_regio_bus_handler_record.regio_bus_handler_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regio_bus_handler_record.vhd":8:7:8:40|Synthesizing work.trb_net16_regio_bus_handler_record.regio_bus_handler_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_endpoint_hades_full_handler_record.vhd":13:7:13:50|Synthesizing work.trb_net16_endpoint_hades_full_handler_record.trb_net16_endpoint_hades_full_handler_record_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":9:7:9:30|Synthesizing work.handler_trigger_and_data.handler_trigger_and_data_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_ipu.vhd":15:7:15:17|Synthesizing work.handler_ipu.handler_ipu_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_ipu.vhd":54:19:54:20|Using onehot encoding for type fsm_state_t. For example, enumeration idle is mapped to "100000".
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_ipu.vhd":93:6:93:7|Register bit dat_fifo_number(0) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":10:7:10:18|Synthesizing work.handler_data.handler_data_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":102:26:102:27|Using sequential encoding for type buffer_state_t.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":103:26:103:27|Using sequential encoding for type lvl1_state_t.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp2m\fifo\fifo_var_oreg.vhd":10:7:10:19|Synthesizing work.fifo_var_oreg.fifo_var_oreg_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x512_oreg.vhd":14:7:14:22|Synthesizing work.fifo_18x512_oreg.structure.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp2m\fifo\fifo_var_oreg.vhd":10:7:10:19|Synthesizing work.fifo_var_oreg.fifo_var_oreg_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x512_oreg.vhd":14:7:14:22|Synthesizing work.fifo_36x512_oreg.structure.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp2m\fifo\fifo_var_oreg.vhd":10:7:10:19|Synthesizing work.fifo_var_oreg.fifo_var_oreg_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x2k_oreg.vhd":14:7:14:21|Synthesizing work.fifo_36x2k_oreg.structure.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":395:8:395:9|Register bit flag_almost_full(0) is always 1.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":432:8:432:9|Register bit STAT_DATA_BUFFER_LEVEL(12) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":432:8:432:9|Register bit STAT_DATA_BUFFER_LEVEL(13) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":432:8:432:9|Register bit STAT_DATA_BUFFER_LEVEL(14) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":432:8:432:9|Register bit STAT_DATA_BUFFER_LEVEL(15) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":432:8:432:9|Register bit STAT_DATA_BUFFER_LEVEL(23) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":432:8:432:9|Register bit STAT_DATA_BUFFER_LEVEL(28) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":432:8:432:9|Register bit STAT_DATA_BUFFER_LEVEL(29) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":432:8:432:9|Register bit STAT_DATA_BUFFER_LEVEL(30) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":432:8:432:9|Register bit STAT_DATA_BUFFER_LEVEL(31) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(10) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(11) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(12) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(13) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(14) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(15) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(23) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(24) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(25) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(26) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(27) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(28) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(29) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(30) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":461:6:461:7|Register bit STAT_HEADER_BUFFER_LEVEL(31) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":303:6:303:7|Register bit STATISTICS_DATA_OUT(24) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":303:6:303:7|Register bit STATISTICS_DATA_OUT(25) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":303:6:303:7|Register bit STATISTICS_DATA_OUT(26) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":303:6:303:7|Register bit STATISTICS_DATA_OUT(27) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":303:6:303:7|Register bit STATISTICS_DATA_OUT(28) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":303:6:303:7|Register bit STATISTICS_DATA_OUT(29) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":303:6:303:7|Register bit STATISTICS_DATA_OUT(30) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":303:6:303:7|Register bit STATISTICS_DATA_OUT(31) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\bus_register_handler.vhd":9:7:9:26|Synthesizing work.bus_register_handler.behavioral.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\bus_register_handler.vhd":9:7:9:26|Synthesizing work.bus_register_handler.behavioral.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regio_bus_handler_record.vhd":8:7:8:40|Synthesizing work.trb_net16_regio_bus_handler_record.regio_bus_handler_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_endpoint_hades_full.vhd":13:7:13:35|Synthesizing work.trb_net16_endpoint_hades_full.trb_net16_endpoint_hades_full_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":9:7:9:18|Synthesizing work.handler_lvl1.handler_lvl1_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":75:12:75:13|Using onehot encoding for type states. For example, enumeration idle is mapped to "1000000".
+@N: CD364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":537:6:537:23|Removing redundant assignment.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":8:7:8:17|Synthesizing work.signal_sync.behavioral.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\pulse_stretch.vhd":7:7:7:19|Synthesizing work.pulse_stretch.behavioral.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":593:2:593:3|Register bit lvl1_delay(11) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":593:2:593:3|Register bit lvl1_delay(12) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":593:2:593:3|Register bit lvl1_delay(13) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":593:2:593:3|Register bit lvl1_delay(14) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":593:2:593:3|Register bit lvl1_delay(15) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":610:2:610:3|Register bit buf_STATUS_OUT(8) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":610:2:610:3|Register bit buf_STATUS_OUT(9) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":610:2:610:3|Register bit buf_STATUS_OUT(10) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_io_multiplexer.vhd":11:7:11:30|Synthesizing work.trb_net16_io_multiplexer.trb_net16_io_multiplexer_arch.
+@N: CD364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_io_multiplexer.vhd":361:12:361:12|Removing redundant assignment.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_sbuf.vhd":29:7:29:20|Synthesizing work.trb_net16_sbuf.trb_net16_sbuf_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf.vhd":23:7:23:18|Synthesizing work.trb_net_sbuf.trb_net_sbuf_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf.vhd":59:20:59:21|Using sequential encoding for type buffer_state.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_priority_arbiter.vhd":9:7:9:30|Synthesizing work.trb_net_priority_arbiter.trb_net_priority_arbiter_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_priority_encoder.vhd":9:7:9:30|Synthesizing work.trb_net_priority_encoder.trb_net_priority_encoder_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_sbuf.vhd":29:7:29:20|Synthesizing work.trb_net16_sbuf.trb_net16_sbuf_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf5.vhd":18:7:18:19|Synthesizing work.trb_net_sbuf5.trb_net_sbuf5_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf5.vhd":76:12:76:13|Using onehot encoding for type states. For example, enumeration idle is mapped to "100000000".
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf5.vhd":277:2:277:15|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf5.vhd":294:2:294:15|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\fifo\fifo_19x16_obuf.vhd":14:7:14:21|Synthesizing work.fifo_19x16_obuf.structure.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_onewire.vhd":10:7:10:21|Synthesizing work.trb_net_onewire.trb_net_onewire_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_onewire.vhd":36:15:36:16|Using onehot encoding for type state_t. For example, enumeration start is mapped to "10000000000000".
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_onewire.vhd":262:8:262:21|OTHERS clause is not synthesized.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_onewire.vhd":293:6:293:7|Register bit strong_pullup is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_onewire.vhd":342:6:342:7|Register bit ram_addr(2) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regIO.vhd":13:7:13:21|Synthesizing work.trb_net16_regio.trb_net16_regio_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regIO.vhd":110:19:110:20|Using onehot encoding for type fsm_state_t. For example, enumeration idle is mapped to "1000000000000000000".
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regIO.vhd":660:8:660:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\rom_16x8.vhd":9:7:9:14|Synthesizing work.rom_16x8.rom_16x8_arch.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\rom_16x8.vhd":42:6:42:7|Register bit dout(11) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\rom_16x8.vhd":42:6:42:7|Register bit dout(6) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\rom_16x8.vhd":42:6:42:7|Register bit dout(5) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\rom_16x8.vhd":42:6:42:7|Register bit dout(4) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\rom_16x8.vhd":42:6:42:7|Register bit dout(1) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_addresses.vhd":9:7:9:25|Synthesizing work.trb_net16_addresses.trb_net16_addresses_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_addresses.vhd":90:21:90:22|Using sequential encoding for type sending_state_t.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\ram_16x16_dp.vhd":6:7:6:18|Synthesizing work.ram_16x16_dp.ram_16x16_dp_arch.
+@N: CL134 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\ram_16x16_dp.vhd":38:9:38:11|Found RAM ram, depth=16, width=16
+@N: CL134 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\ram_16x16_dp.vhd":38:9:38:11|Found RAM ram, depth=16, width=16
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_pattern_gen.vhd":13:7:13:25|Synthesizing work.trb_net_pattern_gen.trb_net_pattern_gen_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":10:7:10:24|Synthesizing work.trb_net16_api_base.trb_net16_api_base_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":148:21:148:22|Using sequential encoding for type output_select.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":162:30:162:31|Using sequential encoding for type pas_api_to_apl_state_t.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":165:22:165:23|Using onehot encoding for type state_to_int_t. For example, enumeration inactive is mapped to "100000".
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":993:8:993:30|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":1007:8:1007:27|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd":8:7:8:20|Synthesizing work.trb_net16_fifo.arch_trb_net16_fifo.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":14:7:14:29|Synthesizing work.lattice_ecp3_fifo_18x1k.structure.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd":8:7:8:20|Synthesizing work.trb_net16_fifo.arch_trb_net16_fifo.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf.vhd":23:7:23:18|Synthesizing work.trb_net_sbuf.trb_net_sbuf_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf.vhd":59:20:59:21|Using sequential encoding for type buffer_state.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":972:6:972:7|Register bit registered_header_F3(12) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":972:6:972:7|Register bit registered_header_F3(13) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":972:6:972:7|Register bit registered_header_F3(14) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":972:6:972:7|Register bit registered_header_F3(15) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(0) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(1) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(2) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(3) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(4) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(5) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(6) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(7) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(8) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(9) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(10) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(11) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(12) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(13) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(14) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F0(15) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F3(12) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F3(13) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F3(14) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":955:6:955:7|Register bit registered_trailer_F3(15) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":12:7:12:21|Synthesizing work.trb_net16_iobuf.trb_net16_iobuf_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":9:7:9:20|Synthesizing work.trb_net16_obuf.trb_net16_obuf_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":85:23:85:24|Using sequential encoding for type sending_state_t.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_CRC.vhd":12:7:12:17|Synthesizing work.trb_net_crc.trb_net_crc_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_sbuf.vhd":29:7:29:20|Synthesizing work.trb_net16_sbuf.trb_net16_sbuf_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf6.vhd":11:7:11:19|Synthesizing work.trb_net_sbuf6.trb_net_sbuf6_arch.
+@N: CL226 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":9:7:9:20|Turning off resource sharing in module trb_net16_obuf (attribute syn_sharing specified)
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":473:9:473:10|Register bit max_DATA_COUNT_minus_one(3) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":473:9:473:10|Register bit max_DATA_COUNT_minus_one(4) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":8:7:8:27|Synthesizing work.trb_net16_obuf_nodata.trb_net16_obuf_nodata_arch.
+@N: CL226 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":8:7:8:27|Turning off resource sharing in module trb_net16_obuf_nodata (attribute syn_sharing specified)
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(4) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(5) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(6) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(7) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(8) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(9) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(10) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(11) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(12) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(13) is always 0.
+@N: CL189 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Register bit buf_MED_DATA_OUT(14) is always 0.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ibuf.vhd":13:7:13:20|Synthesizing work.trb_net16_ibuf.trb_net16_ibuf_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ibuf.vhd":84:19:84:20|Using sequential encoding for type error_state.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd":8:7:8:20|Synthesizing work.trb_net16_fifo.arch_trb_net16_fifo.
+@N: CL226 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ibuf.vhd":13:7:13:20|Turning off resource sharing in module trb_net16_ibuf (attribute syn_sharing specified)
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_term_buf.vhd":12:7:12:24|Synthesizing work.trb_net16_term_buf.trb_net16_term_buf_arch.
+@N: CL226 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_term_buf.vhd":12:7:12:24|Turning off resource sharing in module trb_net16_term_buf (attribute syn_sharing specified)
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ipudata.vhd":9:7:9:23|Synthesizing work.trb_net16_ipudata.trb_net16_ipudata_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ipudata.vhd":69:15:69:16|Using sequential encoding for type state_t.
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ipudata.vhd":182:12:182:25|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_trigger.vhd":11:7:11:23|Synthesizing work.trb_net16_trigger.trb_net16_trigger_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":12:7:12:21|Synthesizing work.trb_net16_iobuf.trb_net16_iobuf_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":9:7:9:20|Synthesizing work.trb_net16_obuf.trb_net16_obuf_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":85:23:85:24|Using sequential encoding for type sending_state_t.
+@N: CL226 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":9:7:9:20|Turning off resource sharing in module trb_net16_obuf (attribute syn_sharing specified)
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ibuf.vhd":13:7:13:20|Synthesizing work.trb_net16_ibuf.trb_net16_ibuf_arch.
+@N: CD233 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ibuf.vhd":84:19:84:20|Using sequential encoding for type error_state.
+@N: CL226 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ibuf.vhd":13:7:13:20|Turning off resource sharing in module trb_net16_ibuf (attribute syn_sharing specified)
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":13:7:13:28|Synthesizing work.trb_net16_med_ecp3_sfp.trb_net16_med_ecp3_sfp_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\trb_net_fifo_16bit_bram_dualport.vhd":8:7:8:38|Synthesizing work.trb_net_fifo_16bit_bram_dualport.trb_net_fifo_16bit_bram_dualport_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":14:7:14:38|Synthesizing work.lattice_ecp3_fifo_16bit_dualport.structure.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd":1883:7:1883:19|Synthesizing work.sfp_1_200_int.sfp_1_200_int_arch.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd":1716:7:1716:17|Synthesizing work.tx_reset_sm.tx_reset_sm_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd":1729:15:1729:16|Using onehot encoding for type statetype. For example, enumeration quad_reset is mapped to "10000".
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd":1863:3:1863:16|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd":1528:7:1528:17|Synthesizing work.rx_reset_sm.rx_reset_sm_arch.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd":1543:15:1543:16|Using onehot encoding for type statetype. For example, enumeration wait_for_plol is mapped to "100000".
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd":1698:6:1698:19|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd":16:7:16:23|Synthesizing work.trb_net16_lsm_sfp.lsm_sfp.
+@N: CD231 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd":51:12:51:13|Using onehot encoding for type states. For example, enumeration qrst is mapped to "1000000000".
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd":350:4:350:18|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd":383:4:383:18|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":8:7:8:17|Synthesizing work.signal_sync.behavioral.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":8:7:8:17|Synthesizing work.signal_sync.behavioral.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":8:7:8:17|Synthesizing work.signal_sync.behavioral.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":8:7:8:17|Synthesizing work.signal_sync.behavioral.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":8:7:8:17|Synthesizing work.signal_sync.behavioral.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":8:7:8:17|Synthesizing work.signal_sync.behavioral.
+@N: CL226 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":13:7:13:28|Turning off resource sharing in module trb_net16_med_ecp3_sfp (attribute syn_sharing specified)
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\pll_in200_out100.vhd":14:7:14:22|Synthesizing work.pll_in200_out100.structure.
+@N: CD630 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\trb_net_reset_handler.vhd":9:7:9:27|Synthesizing work.trb_net_reset_handler.behavioral.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":16:4:16:7|Input CLK1 is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":16:4:16:7|Input CLK1 is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\basics\signal_sync.vhd":16:4:16:7|Input CLK1 is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd":144:2:144:3|Trying to extract state machine for register CURRENT_STATE.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd":28:4:28:16|Input SD_LINK_OK_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd":29:4:29:12|Input SD_LOS_IN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd":1572:3:1572:4|Trying to extract state machine for register cs.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd":1751:3:1751:4|Trying to extract state machine for register cs.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":27:4:27:9|Input CLK_EN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":36:4:36:14|Input MED_READ_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":62:4:62:13|Input CTRL_DEBUG is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ibuf.vhd":42:4:42:20|Input INT_REPLY_READ_IN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":427:6:427:7|Trying to extract state machine for register sending_state.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":30:4:30:20|Input INT_PACKET_NUM_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":56:4:56:24|Input INT_INIT_DATAREADY_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":57:4:57:19|Input INT_INIT_DATA_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":58:4:58:25|Input INT_INIT_PACKET_NUM_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":74:4:74:11|Input CTRL_GEN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_trigger.vhd":23:4:23:9|Input CLK_EN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ipudata.vhd":98:6:98:7|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ipudata.vhd":17:4:17:9|Input CLK_EN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ipudata.vhd":34:4:34:13|Input API_RUN_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ipudata.vhd":35:4:35:15|Input API_SEQNR_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd":17:6:17:11|Input CLK_EN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_ibuf.vhd":42:4:42:20|Input INT_REPLY_READ_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf6.vhd":14:1:14:3|Input CLK is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf6.vhd":15:1:15:5|Input RESET is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf6.vhd":16:1:16:6|Input CLK_EN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_sbuf.vhd":41:4:41:15|Input COMB_READ_IN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_obuf.vhd":427:6:427:7|Trying to extract state machine for register sending_state.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":56:4:56:24|Input INT_INIT_DATAREADY_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":57:4:57:19|Input INT_INIT_DATA_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":58:4:58:25|Input INT_INIT_PACKET_NUM_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_iobuf.vhd":74:4:74:11|Input CTRL_GEN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf.vhd":221:4:221:5|Trying to extract state machine for register current_buffer_state.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd":17:6:17:11|Input CLK_EN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd":17:6:17:11|Input CLK_EN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":797:6:797:7|Trying to extract state machine for register state_to_apl.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":797:6:797:7|Trying to extract state machine for register state_to_int.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":41:4:41:24|Input APL_TARGET_ADDRESS_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":67:4:67:26|Input INT_MASTER_DATAREADY_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":68:4:68:21|Input INT_MASTER_DATA_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":69:4:69:27|Input INT_MASTER_PACKET_NUM_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_api_base.vhd":75:4:75:20|Input INT_SLAVE_READ_IN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_addresses.vhd":246:6:246:7|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regIO.vhd":668:6:668:7|Trying to extract state machine for register current_state.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regIO.vhd":54:4:54:13|Input API_RUN_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regIO.vhd":55:4:55:15|Input API_SEQNR_IN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_onewire.vhd":293:6:293:7|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf5.vhd":161:1:161:2|Trying to extract state machine for register CURRENT_STATE.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf5.vhd":23:1:23:6|Input CLK_EN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_sbuf.vhd":41:4:41:15|Input COMB_READ_IN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net_sbuf.vhd":221:4:221:5|Trying to extract state machine for register current_buffer_state.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_io_multiplexer.vhd":36:4:36:14|Input INT_READ_IN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":352:2:352:3|Trying to extract state machine for register CURRENT_STATE.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_lvl1.vhd":25:2:25:17|Input LVL1_TRG_CODE_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_endpoint_hades_full.vhd":134:4:134:22|Input REGIO_IDRAM_DATA_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_endpoint_hades_full.vhd":136:4:136:22|Input REGIO_IDRAM_ADDR_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_endpoint_hades_full.vhd":137:4:137:20|Input REGIO_IDRAM_WR_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_endpoint_hades_full.vhd":139:4:139:27|Input REGIO_ONEWIRE_MONITOR_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regio_bus_handler_record.vhd":17:4:17:8|Input RESET is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":336:6:336:7|Trying to extract state machine for register current_lvl1_state.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_data.vhd":294:8:294:9|Trying to extract state machine for register current_buffer_state_0.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_ipu.vhd":93:6:93:7|Trying to extract state machine for register current_state.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_ipu.vhd":35:4:35:21|Input IPU_INFORMATION_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_ipu.vhd":36:4:36:22|Input IPU_READOUT_TYPE_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\handler_trigger_and_data.vhd":32:4:32:21|Input LVL1_TRG_NUMBER_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_endpoint_hades_full_handler_record.vhd":76:4:76:13|Input CTRL_MPLEX is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_endpoint_hades_full_handler_record.vhd":77:4:77:17|Input IOBUF_CTRL_GEN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regio_bus_handler_record.vhd":17:4:17:8|Input RESET is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\trb_net16_regio_bus_handler_record.vhd":17:4:17:8|Input RESET is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_slim.vhd":228:4:228:5|Trying to extract state machine for register STATE.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_databus_memory.vhd":61:6:61:7|Trying to extract state machine for register CURRENT_STATE.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":132:7:132:17|Trying to extract state machine for register parse_state.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3sc\code\load_settings.vhd":86:7:86:21|Trying to extract state machine for register read_page_state.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\sedcheck.vhd":42:9:42:13|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trbnet\special\spi_ltc2600.vhd":57:9:57:17|Trying to extract state machine for register fsm_state.
+@N: CL135 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_statistics.vhd":155:0:155:9|Found sequential shift fifo_wait3 with address depth of 3 words and data bit width of 1.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\input_statistics.vhd":71:7:71:11|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\trb3_tools.vhd":32:4:32:14|Input LCD_DATA_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\trb3_tools.vhd":35:4:35:13|Input UART_RX_IN is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trb3\base\code\trb3_tools.vhd":37:4:37:14|Input DEBUG_RX_IN is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\trb3_periph_blank.vhd":130:9:130:13|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\trb3_periph_blank.vhd":16:4:16:16|Input CLK_GPLL_LEFT is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\trb3_periph_blank.vhd":18:4:18:16|Input CLK_PCLK_LEFT is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\trb3_periph_blank.vhd":19:4:19:17|Input CLK_PCLK_RIGHT is unused.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\leds.v":23:7:23:10|Synthesizing module leds in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ComTrans.v":10:7:10:14|Synthesizing module ComTrans in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":457:7:457:9|Synthesizing module INV in library work.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":1029:7:1029:9|Synthesizing module VLO in library work.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":1552:7:1552:13|Synthesizing module EHXPLLF in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll.v":8:7:8:10|Synthesizing module Cpll in library work.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":148:7:148:12|Synthesizing module FADD2B in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll1.v":8:7:8:11|Synthesizing module Cpll1 in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll2.v":8:7:8:11|Synthesizing module Cpll2 in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ClockGen.v":10:7:10:14|Synthesizing module ClockGen in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Input_Reg.v":3:7:3:15|Synthesizing module Input_Reg in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\lscc\diamond\diamond\3.10_x64\synpbase\lib\lucent\ecp3.v":176:7:176:13|Synthesizing module FD1P3AY in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Ltch8.v":10:7:10:11|Synthesizing module Ltch8 in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\wcomp.v":10:7:10:11|Synthesizing module wcomp in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v":10:7:10:17|Synthesizing module FineTimeBit in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CG364 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v":10:7:10:14|Synthesizing module Register in library work.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":9:11:9:15|Input IN_pA is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":10:11:10:15|Input IN_pB is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":11:11:11:15|Input IN_pC is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v":13:11:13:17|Input reset_i is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":9:11:9:15|Input IN_pD is unused.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v":23:18:23:23|Input TestIn is unused.
+@N: CL201 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Teststate.v":27:1:27:6|Trying to extract state machine for register State.
+@N: CL159 :"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ComTrans.v":14:11:14:14|Input Cclk is unused.
+@N|Running in 64-bit mode
+

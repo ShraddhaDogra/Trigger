@@ -1,0 +1,4 @@
+MESSAGE "File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\tb_VetoLogic.vhd" 
+MESSAGE "Compile Entity "tb_VetoLogic"" 
+MESSAGE "Compile Architecture "archDB" of Entity "tb_VetoLogic"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

@@ -1,0 +1,451 @@
+BLOCK RESETPATHS;
+BLOCK ASYNCPATHS;
+BLOCK RD_DURING_WR_PATHS ;
+
+####Entity template
+# entity trb3_periph_ada is
+#   port(
+#     --Clocks
+#     CLK_GPLL_LEFT                  : in  std_logic;  --Clock Manager 1/(2468), 125 MHz
+#     CLK_GPLL_RIGHT                 : in  std_logic;  --Clock Manager 2/(2468), 200 MHz  <-- MAIN CLOCK for FPGA
+#     CLK_PCLK_LEFT                  : in  std_logic;  --Clock Fan-out, 200/400 MHz <-- For TDC. Same oscillator as GPLL right!
+#     CLK_PCLK_RIGHT                 : in  std_logic;  --Clock Fan-out, 200/400 MHz <-- For TDC. Same oscillator as GPLL right!
+#     --Trigger
+#     TRIGGER_LEFT                   : in  std_logic;  --left side trigger input from fan-out
+#     TRIGGER_RIGHT                  : in  std_logic;  --right side trigger input from fan-out
+#     --Serdes
+#     CLK_SERDES_INT_LEFT            : in  std_logic;  --Clock Manager 1/(1357), off, 125 MHz possible
+#     CLK_SERDES_INT_RIGHT           : in  std_logic;  --Clock Manager 2/(1357), 200 MHz, only in case of problems
+#     SERDES_INT_TX                  : out std_logic_vector(3 downto 0);
+#     SERDES_INT_RX                  : in  std_logic_vector(3 downto 0);
+#     SERDES_ADDON_TX                : out std_logic_vector(11 downto 0);
+#     SERDES_ADDON_RX                : in  std_logic_vector(11 downto 0);
+#     --Inter-FPGA Communication
+#     FPGA5_COMM                     : inout std_logic_vector(11 downto 0);
+#                                                            --Bit 0/1 input, serial link RX active
+#                                                            --Bit 2/3 output, serial link TX active
+#     --Connection to ADA AddOn
+#     SPARE_LINE                     : inout std_logic_vector(3 downto 0); --inputs only
+#     INP                            : in    std_logic_vector(63 downto 0);   
+#     OUT_L_SCK                      : out   std_logic;
+#     OUT_L_SDO                      : out   std_logic;
+#     OUT_L_CS                       : out   std_logic;
+#     IN_L_SDI                       : out   std_logic;
+#     OUT_H_SCK                      : out   std_logic;
+#     OUT_H_SDO                      : out   std_logic;
+#     OUT_H_CS                       : out   std_logic;
+#     IN_H_SDI                       : out   std_logic;    
+#     --Flash ROM & Reboot
+#     FLASH_CLK                      : out std_logic;
+#     FLASH_CS                       : out std_logic;
+#     FLASH_CIN                      : out std_logic;
+#     FLASH_DOUT                     : in  std_logic;
+#     PROGRAMN                       : out std_logic; --reboot FPGA
+#     --Misc
+#     TEMPSENS                       : inout std_logic; --Temperature Sensor
+#     CODE_LINE                      : in  std_logic_vector(1 downto 0);
+#     LED_GREEN                      : out std_logic;
+#     LED_ORANGE                     : out std_logic; 
+#     LED_RED                        : out std_logic;
+#     LED_YELLOW                     : out std_logic;
+#     SUPPL                          : in  std_logic; --terminated diff pair, PCLK, Pads
+#     --Test Connectors
+#     TEST_LINE                      : inout std_logic_vector(15 downto 0)
+#     );
+#     attribute syn_useioff : boolean;
+#     --no IO-FF for LEDs relaxes timing constraints
+#     attribute syn_useioff of LED_GREEN          : signal is false;
+#     attribute syn_useioff of LED_ORANGE         : signal is false;
+#     attribute syn_useioff of LED_RED            : signal is false;
+#     attribute syn_useioff of LED_YELLOW         : signal is false;
+#     attribute syn_useioff of TEMPSENS           : signal is false;
+#     attribute syn_useioff of PROGRAMN           : signal is false;
+#     attribute syn_useioff of CODE_LINE          : signal is false;
+#     attribute syn_useioff of TRIGGER_LEFT       : signal is false;
+#     attribute syn_useioff of TRIGGER_RIGHT      : signal is false;
+#     --important signals
+#     attribute syn_useioff of FLASH_CLK          : signal is true;
+#     attribute syn_useioff of FLASH_CS           : signal is true;
+#     attribute syn_useioff of FLASH_CIN          : signal is true;
+#     attribute syn_useioff of FLASH_DOUT         : signal is true;
+#     attribute syn_useioff of FPGA5_COMM         : signal is true;
+#     attribute syn_useioff of TEST_LINE          : signal is true;
+#     attribute syn_useioff of INP                : signal is false;
+#     attribute syn_useioff of SPARE_LINE         : signal is true;
+#     attribute syn_useioff of OUT_L_SCK          : signal is true;
+#     attribute syn_useioff of OUT_L_SDO          : signal is true;
+#     attribute syn_useioff of OUT_L_CS           : signal is true;
+#     attribute syn_useioff of IN_L_SDI           : signal is true;
+#     attribute syn_useioff of OUT_H_SCK          : signal is true;
+#     attribute syn_useioff of OUT_H_SDO          : signal is true;
+#     attribute syn_useioff of OUT_H_CS           : signal is true;
+#     attribute syn_useioff of IN_H_SDI           : signal is true;
+# end entity;
+
+
+#################################################################
+# Basic Settings
+#################################################################
+
+  SYSCONFIG MCCLK_FREQ = 20;
+
+  FREQUENCY PORT CLK_PCLK_RIGHT 200 MHz;
+  FREQUENCY PORT CLK_PCLK_LEFT  200 MHz;
+  FREQUENCY PORT CLK_GPLL_RIGHT 200 MHz;
+  FREQUENCY PORT CLK_GPLL_LEFT  125 MHz;
+
+MULTICYCLE FROM CLKNET "clk_100_i_c" TO CLKNET "CLK_PCLK_LEFT_c" 1 X ;
+MULTICYCLE FROM CLKNET "CLK_PCLK_LEFT_c" TO CLKNET "clk_100_i_c" 2 X ;
+
+LOCATE COMP   "THE_MEDIA_UPLINK/gen_serdes_1_200_THE_SERDES/PCSD_INST" SITE "PCSA" ;
+
+#################################################################
+# Clock I/O
+#################################################################
+LOCATE COMP  "CLK_PCLK_RIGHT"       SITE "U20";
+LOCATE COMP  "CLK_PCLK_LEFT"        SITE "M4";
+LOCATE COMP  "CLK_SERDES_INT_RIGHT" SITE "AC18";
+LOCATE COMP  "CLK_SERDES_INT_LEFT"  SITE "AC10";
+LOCATE COMP  "CLK_GPLL_RIGHT"       SITE "W1";
+LOCATE COMP  "CLK_GPLL_LEFT"        SITE "U25";
+
+DEFINE PORT GROUP "CLK_group" "CLK*" ;
+IOBUF GROUP  "CLK_group" IO_TYPE=LVDS25 ;
+
+
+#################################################################
+# Trigger I/O
+#################################################################
+
+#Trigger from fan-out
+LOCATE COMP  "TRIGGER_LEFT"   SITE "V3";
+LOCATE COMP  "TRIGGER_RIGHT"   SITE "N24";
+IOBUF  PORT  "TRIGGER_RIGHT" IO_TYPE=LVDS25; 
+IOBUF  PORT  "TRIGGER_LEFT"  IO_TYPE=LVDS25;
+
+
+
+#################################################################
+# To central FPGA
+#################################################################
+
+LOCATE COMP  "FPGA5_COMM_0"   SITE "AD4";
+LOCATE COMP  "FPGA5_COMM_1"   SITE "AE3";
+LOCATE COMP  "FPGA5_COMM_2"   SITE "AA7";
+LOCATE COMP  "FPGA5_COMM_3"   SITE "AB7";
+LOCATE COMP  "FPGA5_COMM_4"   SITE "AD3";
+LOCATE COMP  "FPGA5_COMM_5"   SITE "AC4";
+LOCATE COMP  "FPGA5_COMM_6"   SITE "AE2";
+LOCATE COMP  "FPGA5_COMM_7"   SITE "AF3";
+LOCATE COMP  "FPGA5_COMM_8"   SITE "AE4";
+LOCATE COMP  "FPGA5_COMM_9"   SITE "AF4";
+LOCATE COMP  "FPGA5_COMM_10"  SITE "V10";
+LOCATE COMP  "FPGA5_COMM_11"  SITE "W10";
+DEFINE PORT GROUP "FPGA_group" "FPGA*" ;
+IOBUF GROUP "FPGA_group" IO_TYPE=LVCMOS25 PULLMODE=UP ;
+
+LOCATE COMP  "TEST_LINE_0"   SITE "A5";
+LOCATE COMP  "TEST_LINE_1"   SITE "A6";
+LOCATE COMP  "TEST_LINE_2"   SITE "G8";
+LOCATE COMP  "TEST_LINE_3"   SITE "F9";
+LOCATE COMP  "TEST_LINE_4"   SITE "D9";
+LOCATE COMP  "TEST_LINE_5"   SITE "D10";
+LOCATE COMP  "TEST_LINE_6"   SITE "F10";
+LOCATE COMP  "TEST_LINE_7"   SITE "E10";
+LOCATE COMP  "TEST_LINE_8"   SITE "A8";
+LOCATE COMP  "TEST_LINE_9"   SITE "B8";
+LOCATE COMP  "TEST_LINE_10"  SITE "G10";
+LOCATE COMP  "TEST_LINE_11"  SITE "G9";
+LOCATE COMP  "TEST_LINE_12"  SITE "C9";
+LOCATE COMP  "TEST_LINE_13"  SITE "C10";
+LOCATE COMP  "TEST_LINE_14"  SITE "H10";
+LOCATE COMP  "TEST_LINE_15"  SITE "H11";
+DEFINE PORT GROUP "TEST_LINE_group" "TEST_LINE*" ;
+IOBUF GROUP "TEST_LINE_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN;
+
+#################################################################
+# Connection to AddOn
+#################################################################
+#All DQ groups from one bank are grouped.
+#All DQS are inserted in the DQ lines at position 6 and 7
+#DQ 6-9 are shifted to 8-11
+#Order per bank is kept, i.e. adjacent numbers have adjacent pins
+#all DQ blocks are 6+2+4=12 Pins wide, only DQUL3 and DQUR0 are 6+2+2=10.
+#even numbers are positive LVDS line, odd numbers are negative LVDS line
+#DQUL can be switched to 1.8V
+
+LOCATE COMP	INP_0	SITE "P1";	#LL0_0	DQLL0_0	1
+# LOCATE COMP	INN_0	SITE "P2";	#LL0_1	DQLL0_1	3
+LOCATE COMP	INP_1	SITE "T2";	#LL0_2	DQLL0_2	5
+# LOCATE COMP	INN_1	SITE "U3";	#LL0_3	DQLL0_3	7
+LOCATE COMP	INP_2	SITE "R1";	#LL0_4	DQLL0_4	9
+# LOCATE COMP	INN_2	SITE "R2";	#LL0_5	DQLL0_5	11
+LOCATE COMP	INP_3	SITE "N3";	#LL0_T	DQSLL0_T	13
+# LOCATE COMP	INN_3	SITE "P3";	#LL0_C	DQSLL0_C	15
+
+LOCATE COMP	INP_4	SITE "P5";	#LL0_6	DQLL0_6	17
+# LOCATE COMP	INN_4	SITE "P6";	#LL0_7	DQLL0_7	19
+LOCATE COMP	INP_5	 SITE "N5";	#LL0_8	 DQLL0_8	21
+# LOCATE COMP	INN_5	 SITE "N6";	#LL0_9	 DQLL0_9	23
+LOCATE COMP	INP_6	 SITE "AC2";	#LL2_0	 DQLL2_0	25
+# LOCATE COMP	INN_6	 SITE "AC3";	#LL2_1	 DQLL2_1	27
+LOCATE COMP	INP_7	 SITE "AB1";	#LL2_2	 DQLL2_2	29
+# LOCATE COMP	INN_7	 SITE "AC1";	#LL2_3	 DQLL2_3	31
+
+LOCATE COMP	INP_8	 SITE "AA1";	#LL2_4	 DQLL2_4	33
+# LOCATE COMP	INN_8	 SITE "AA2";	#LL2_5	 DQLL2_5	35
+LOCATE COMP	INP_9	 SITE "W7";	#LL2_T	 DQSLL2_T	37
+# LOCATE COMP	INN_9	 SITE "W6";	#LL2_C	 DQSLL2_C	39
+LOCATE COMP	INP_10	 SITE "Y5";	#LL2_6	 DQLL2_6	41
+# LOCATE COMP	INN_10	 SITE "AA5";	#LL2_7	 DQLL2_7	43
+LOCATE COMP	INP_11	 SITE "V6";	#LL2_8	 DQLL2_8	45
+# LOCATE COMP	INN_11	 SITE "V7";	#LL2_9	 DQLL2_9	47
+
+LOCATE COMP	INP_12	SITE "H2";	#UL3_0	 DQUL3_0	49
+# LOCATE COMP	INN_12	SITE "G1";	#UL3_1	 DQUL3_1	51
+LOCATE COMP	INP_13	SITE "H1";	#UL3_4	 DQUL3_4	57
+# LOCATE COMP	INN_13	SITE "J1";	#UL3_5	 DQUL3_5	59
+LOCATE COMP	INP_14	SITE "M5";	#UL3_T	 DQSUL3_T	61
+# LOCATE COMP	INN_14	SITE "M6";	#UL3_C	 DQSUL3_C	63
+LOCATE COMP	INP_15	 SITE "L2";	#UL3_6	 DQUL3_6	65
+# LOCATE COMP	INN_15	 SITE "L1";	#UL3_7	 DQUL3_7	67
+
+LOCATE COMP	INP_16	 SITE "AD1";	#LL3_0	 DQLL3_0	2
+# LOCATE COMP	INN_16	 SITE "AD2";	#LL3_1	 DQLL3_1	4
+LOCATE COMP	INP_17	 SITE "AB5";	#LL3_2	 DQLL3_2	6
+# LOCATE COMP	INN_17	 SITE "AB6";	#LL3_3	 DQLL3_3	8
+LOCATE COMP	INP_18	 SITE "AB3";	#LL3_4	 DQLL3_4	10
+# LOCATE COMP	INN_18	 SITE "AB4";	#LL3_5	 DQLL3_5	12
+LOCATE COMP	INP_19	 SITE "Y6";	#LL3_T	 DQSLL3_T	14
+# LOCATE COMP	INN_19	 SITE "Y7";	#LL3_C	 DQSLL3_C	16
+
+LOCATE COMP	INP_20	 SITE "AA3";	#LL3_6	 DQLL3_6	18
+# LOCATE COMP	INN_20	 SITE "AA4";	#LL3_7	 DQLL3_7	20
+LOCATE COMP	INP_21	 SITE "W8";	#LL3_8	 DQLL3_8	22
+# LOCATE COMP	INN_21	 SITE "W9";	#LL3_9	 DQLL3_9	24
+LOCATE COMP	INP_22	 SITE "V1";	#LL1_0  	 DQLL1_0	26
+# LOCATE COMP	INN_22	 SITE "U2";	#LL1_1  	 DQLL1_1	28
+LOCATE COMP	INP_23	 SITE "T1";	#LL1_2  	 DQLL1_2	30
+# LOCATE COMP	INN_23	 SITE "U1";	#LL1_3  	 DQLL1_3	32
+
+LOCATE COMP	INP_24	 SITE "P4";	#LL1_4  	 DQLL1_4	34
+# LOCATE COMP	INN_24	 SITE "R3";	#LL1_5  	 DQLL1_5	36
+LOCATE COMP	INP_25	 SITE "T3";	#SLL1_T 	 DQSLL1_T	38
+# LOCATE COMP	INN_25	 SITE "R4";	#SLL1_C 	 DQSLL1_C	40
+LOCATE COMP	INP_26	 SITE "R5";	#LL1_6  	 DQLL1_6	42
+# LOCATE COMP	INN_26	 SITE "R6";	#LL1_7  	 DQLL1_7	44
+LOCATE COMP	INP_27	 SITE "T7";	#LL1_8  	 DQLL1_8	46
+# LOCATE COMP	INN_27	 SITE "T8";	#LL1_9  	 DQLL1_9	48
+
+LOCATE COMP	INP_28	 SITE "K2";	#UL2_0	 DQUL2_0	50
+# LOCATE COMP	INN_28	 SITE "K1";	#UL2_1	 DQUL2_1	52
+LOCATE COMP	INP_29	 SITE "K4";	#UL2_T	 DQSUL2_T	62
+# LOCATE COMP	INN_29	 SITE "K5";	#UL2_C	 DQSUL2_C	64
+LOCATE COMP	INP_30	 SITE "E1";	#UL2_6	 DQUL2_6	66
+# LOCATE COMP	INN_30	 SITE "F1";	#UL2_7	 DQUL2_7	68
+LOCATE COMP	INP_31	SITE "B2";	#UL0_0  	DQUL0_0	74
+# LOCATE COMP	INN_31	SITE "B3";	#UL0_1  	DQUL0_1	76
+
+LOCATE COMP	INP_32	SITE "J23";	#UR0_0	DQUR0_0	105
+# LOCATE COMP	INN_32	SITE "H23";	#UR0_1	DQUR0_1	107
+LOCATE COMP	INP_33	SITE "G26";	#UR0_2	DQUR0_2	109
+# LOCATE COMP	INN_33	SITE "F26";	#UR0_3	DQUR0_3	111
+LOCATE COMP	INP_34	SITE "F24";	#UR0_T	DQSUR0_T	113
+# LOCATE COMP	INN_34	SITE "G24";	#UR0_C	DQSUR0_C	115
+LOCATE COMP	INP_35	SITE "H26";	#UR0_4	DQUR0_4	117
+# LOCATE COMP	INN_35	SITE "H25";	#UR0_5	DQUR0_5	119
+
+LOCATE COMP	INP_36	SITE "K23";	#UR0_6	DQUR0_6	121
+# LOCATE COMP	INN_36	SITE "K22";	#UR0_7	DQUR0_7	123
+LOCATE COMP	INP_37	SITE "F25";	#UR0_8 (in)	 DQUR0_8	125
+# LOCATE COMP	INN_37	SITE "E26";	#UR0_9 (in)	 DQUR0_9	127
+LOCATE COMP	INP_38	SITE "AC26";	#LR0_0	DQLR0_0	129
+# LOCATE COMP	INN_38	SITE "AC25";	#LR0_1	DQLR0_1	131
+LOCATE COMP	INP_39	SITE "Y19";	#LR0_2	DQLR0_2	133
+# LOCATE COMP	INN_39	SITE "Y20";	#LR0_3	DQLR0_3	135
+
+LOCATE COMP	INP_40	SITE "AB24";	#LR0_4	DQLR0_4	137
+# LOCATE COMP	INN_40	SITE "AC24";	#LR0_5	DQLR0_5	139
+LOCATE COMP	INP_41	SITE "Y22";	#LR0_T	DQSLR0_T	141
+# LOCATE COMP	INN_41	SITE "AA22";	#LR0_C	DQSLR0_C	143
+LOCATE COMP	INP_42	SITE "AD24";	#LR0_6	DQLR0_6	145
+# LOCATE COMP	INN_42	SITE "AE24";	#LR0_7	DQLR0_7	147
+LOCATE COMP	INP_43	 SITE "AE25";	#LR0_8	 DQLR0_8	149
+# LOCATE COMP	INN_43	 SITE "AF24";	#LR0_9	 DQLR0_9	151
+
+LOCATE COMP	INP_44	 SITE "W23";	#LR1_0 	 DQLR1_0	169
+# LOCATE COMP	INN_44	 SITE "W22";	#LR1_1 	 DQLR1_1	171
+LOCATE COMP	INP_45	 SITE "AA25";	#LR1_2 	 DQLR1_2	173
+# LOCATE COMP	INN_45	 SITE "Y24";	#LR1_3 	 DQLR1_3	175
+LOCATE COMP	INP_46	 SITE "AA26";	#LR1_4 	 DQLR1_4	177
+# LOCATE COMP	INN_46	 SITE "AB26";	#LR1_5 	 DQLR1_5	179
+LOCATE COMP	INP_47	 SITE "W21";	#SLR1_T	 DQSLR1_T	181
+# LOCATE COMP	INN_47	 SITE "W20";	#SLR1_C	 DQSLR1_C	183
+
+LOCATE COMP	INP_48	SITE "H24";	#UR1_0 	 DQUR1_0	106
+# LOCATE COMP	INN_48	SITE "G25";	#UR1_1 	 DQUR1_1	108
+LOCATE COMP	INP_49	SITE "L20";	#UR1_2 	 DQUR1_2	110
+# LOCATE COMP	INN_49	SITE "M21";	#UR1_3 	 DQUR1_3	112
+LOCATE COMP	INP_50	SITE "K24";	#UR1_4 	 DQUR1_4	114
+# LOCATE COMP	INN_50	SITE "J24";	#UR1_5 	 DQUR1_5	116
+LOCATE COMP	INP_51	SITE "M23";	#UR1_T 	 DQSUR1_T	118
+# LOCATE COMP	INN_51	SITE "M24";	#UR1_C 	 DQSUR1_C	120
+
+LOCATE COMP	INP_52	SITE "L24";	#UR1_6 	 DQUR1_6	122
+# LOCATE COMP	INN_52	SITE "K25";	#UR1_7 	 DQUR1_7	124
+LOCATE COMP	INP_53	SITE "M22";	#UR1_8 	 DQUR1_8	126
+# LOCATE COMP	INN_53	SITE "N21";	#UR1_9 	 DQUR1_9	128
+LOCATE COMP	INP_54	SITE "J26";	#UR2_0	 DQUR2_0	130
+# LOCATE COMP	INN_54	SITE "K26";	#UR2_1	 DQUR2_1	132
+LOCATE COMP	INP_55	SITE "N23";	#UR2_2	 DQUR2_2	134
+# LOCATE COMP	INN_55	SITE "N22";	#UR2_3	 DQUR2_3	136
+
+LOCATE COMP	INP_56	SITE "K19";	#UR2_4	 DQUR2_4	138
+# LOCATE COMP	INN_56	SITE "L19";	#UR2_5	 DQUR2_5	140
+LOCATE COMP	INP_57	SITE "P23";	#UR2_T	 DQSUR2_T	142
+# LOCATE COMP	INN_57	SITE "R22";	#UR2_C	 DQSUR2_C	144
+LOCATE COMP	INP_58	SITE "L25";	#UR2_6	 DQUR2_6	146
+# LOCATE COMP	INN_58	SITE "L26";	#UR2_7	 DQUR2_7	148
+LOCATE COMP	INP_59	SITE "P21";	#UR2_8	 DQUR2_8	150
+# LOCATE COMP	INN_59	SITE "P22";	#UR2_9	 DQUR2_9	152
+
+LOCATE COMP	INP_60	 SITE "R25";	#LR2_0	 DQLR2_0	170
+# LOCATE COMP	INN_60	 SITE "R26";	#LR2_1	 DQLR2_1	172
+LOCATE COMP	INP_61	 SITE "T25";	#LR2_2	 DQLR2_2	174
+# LOCATE COMP	INN_61	 SITE "T24";	#LR2_3	 DQLR2_3	176
+LOCATE COMP	INP_62	 SITE "T26";	#LR2_4	 DQLR2_4	178
+# LOCATE COMP	INN_62	 SITE "U26";	#LR2_5	 DQLR2_5	180
+LOCATE COMP	INP_63	 SITE "V21";	#LR2_T	 DQSLR2_T	182
+# LOCATE COMP	INN_63	 SITE "V22";	#LR2_C	 DQSLR2_C	184
+
+ LOCATE COMP	INpA	 SITE "C2";	#UL1_4	 DQUL1_4	81
+# LOCATE COMP	INnA	 SITE "D2";	#UL1_5	 DQUL1_5	83
+LOCATE COMP	INpB	 SITE "H5";	#UL1_6	 DQUL1_6	89
+# LOCATE COMP	INnB	 SITE "J5";	#UL1_7	 DQUL1_7	91
+LOCATE COMP	INpC	 SITE "AD26";	#LR1_8 	 DQLR1_8	189
+# LOCATE COMP	INnC	 SITE "AD25";	#LR1_9 	 DQLR1_9	191
+LOCATE COMP	INpD	SITE "G5";	#UL0_T  	DQSUL0_T	86
+# LOCATE COMP	INnD	SITE "G6";	#UL0_C  	DQSUL0_C	88
+					
+LOCATE COMP	OutpA0	SITE "K3";	#UL3_2	 DQUL3_2	53
+# LOCATE COMP	OutnA0	SITE "L3";	#UL3_3	 DQUL3_3	55
+LOCATE COMP	OutpA1	 SITE "J4";	#UL2_2	 DQUL2_2	54
+# LOCATE COMP	OutnA1	 SITE "J3";	#UL2_3	 DQUL2_3	56
+LOCATE COMP	OutpA2	 SITE "D1";	#UL2_4	 DQUL2_4	58
+#LOCATE COMP	OutnA2	 SITE "C1";	#UL2_5	 DQUL2_5	60
+
+LOCATE COMP	OutpB0	 SITE "F2";	#UL1_2	 DQUL1_2	77
+# LOCATE COMP	OutnB0	 SITE "F3";	#UL1_3	 DQUL1_3	79
+LOCATE COMP	OutpB1	SITE "D4";	#UL0_2  	DQUL0_2	78
+# LOCATE COMP	OutnB1	SITE "E4";	#UL0_3  	DQUL0_3	80
+LOCATE COMP	OutpB2	 SITE "H6";	#UL0_8  	 DQUL0_8	94
+# LOCATE COMP	OutnB2	 SITE "J6";	#UL0_9  	 DQUL0_9	96
+
+LOCATE COMP	OutpC0	SITE "AA24";  	#LR1_6 	 DQLR1_6	185
+# LOCATE COMP	OutnC0	SITE "AA23";   	#LR1_7 	 DQLR1_7	187
+LOCATE COMP	OutpC1	 SITE "U24";	#LR2_6	 DQLR2_6	186
+# LOCATE COMP	OutnC1	 SITE "V24";	#LR2_7	 DQLR2_7	188
+LOCATE COMP	OutpC2	 SITE "U23";	#LR2_8	 DQLR2_8	190
+# LOCATE COMP	OutnC2	 SITE "U22";	#LR2_9	 DQLR2_9	192
+
+LOCATE COMP	OutpD0	SITE "C3";	#UL0_4  	DQUL0_4	82
+# LOCATE COMP	OutnD0	SITE "D3";	#UL0_5  	DQUL0_5	84
+LOCATE COMP	OutpD1	SITE "L5";	#UL2_8	 DQUL2_8	70
+# LOCATE COMP	OutnD1	SITE "L6";	#UL2_9	 DQUL2_9	72
+LOCATE COMP	OutpD2	SITE "K8";	#UL1_8	DQUL1_8	93
+# LOCATE COMP	OutnD2	SITE "J7";	#UL1_9	DQUL1_9	95
+					
+# LOCATE COMP		 SITE "G2";	#UL1_0	 DQUL1_0	73
+# LOCATE COMP		 SITE "G3";	#UL1_1	 DQUL1_1	75
+# LOCATE COMP		 SITE "K7";	#UL1_T	 DQSUL1_T	85
+# LOCATE COMP		 SITE "K6";	#UL1_C	 DQSUL1_C	87
+# LOCATE COMP		 SITE "M3";	#UL3_8	 DQUL3_8	69
+# LOCATE COMP		 SITE "M2";	#UL3_9	 DQUL3_9	71
+# LOCATE COMP		SITE "E3";	#UL0_6  	DQUL0_6	90
+# LOCATE COMP		SITE "F4";	#UL0_7  	DQUL0_7	92
+
+DEFINE PORT GROUP "INP_group" "INP*" ;
+IOBUF GROUP "INP_group" IO_TYPE=LVDS25 DIFFRESISTOR=100;
+
+#DEFINE PORT GROUP "IN_group" "IN_*" ;
+#IOBUF GROUP "IN_group" IO_TYPE=LVDS25 DIFFRESISTOR=100;
+
+DEFINE PORT GROUP "OUT_group" "OUT_*" ;
+IOBUF GROUP "OUT_group" IO_TYPE=LVDS25;
+
+#################################################################
+# Additional Lines to AddOn
+#################################################################
+
+#Lines 0/1 are terminated with 100 Ohm, pads available on 0-3
+#all lines are input only
+#line 4/5 go to PLL input
+LOCATE COMP  "SPARE_LINE_0"    SITE "M25"; #194
+LOCATE COMP  "SPARE_LINE_1"    SITE "M26"; #196
+LOCATE COMP  "SPARE_LINE_2"    SITE "W4";  #198
+LOCATE COMP  "SPARE_LINE_3"    SITE "W5";  #200
+
+
+#################################################################
+# Flash ROM and Reboot
+#################################################################
+
+LOCATE COMP  "FLASH_CLK"    SITE "B12";
+LOCATE COMP  "FLASH_CS"   SITE "E11";
+LOCATE COMP  "FLASH_DIN"   SITE "E12";
+LOCATE COMP  "FLASH_DOUT"    SITE "A12";
+
+DEFINE PORT GROUP "FLASH_group" "FLASH*" ;
+IOBUF GROUP "FLASH_group" IO_TYPE=LVCMOS25 PULLMODE=NONE;
+
+LOCATE COMP  "PROGRAMN"   SITE "B11";
+IOBUF  PORT "PROGRAMN" IO_TYPE=LVCMOS25 PULLMODE=UP DRIVE=8  ;
+
+
+#################################################################
+# Misc
+#################################################################
+LOCATE COMP  "TEMPSENS"    SITE "A13";
+IOBUF  PORT "TEMPSENS" IO_TYPE=LVCMOS25 PULLMODE=UP DRIVE=8  ;
+
+#coding of FPGA number
+LOCATE COMP "CODE_LINE_1"    SITE "AA20";
+LOCATE COMP "CODE_LINE_0"    SITE "Y21";
+IOBUF  PORT "CODE_LINE_1" IO_TYPE=LVCMOS25 PULLMODE=UP  ;
+IOBUF  PORT "CODE_LINE_0" IO_TYPE=LVCMOS25 PULLMODE=UP  ;
+
+#terminated differential pair to pads
+LOCATE COMP  "SUPPL"   SITE "C14";
+IOBUF  PORT "SUPPL" IO_TYPE=LVDS25   ;
+
+
+#################################################################
+# LED
+#################################################################
+LOCATE COMP  "LED_GREEN"    SITE "F12";
+LOCATE COMP  "LED_ORANGE"   SITE "G13";
+LOCATE COMP  "LED_RED"      SITE "A15";
+LOCATE COMP  "LED_YELLOW"   SITE "A16";
+DEFINE PORT GROUP "LED_group" "LED*" ;
+IOBUF GROUP "LED_group" IO_TYPE=LVCMOS25 PULLMODE=NONE DRIVE=12;
+#################################################################
+# Reset Nets
+#################################################################  
+GSR_NET NET "reset_i";  
+
+#################################################################
+# Locate Serdes and media interfaces
+#################################################################
+
+MULTICYCLE TO CELL "THE_MEDIA_DOWNLINK/SCI_DATA_OUT*" 50 ns;
+MULTICYCLE TO CELL "THE_MEDIA_UPLINK/SCI_DATA_OUT*" 50 ns;
+MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 30 ns;
+MULTICYCLE TO CELL "THE_RESET_HANDLER/trb_reset_*" 20 ns;
+MULTICYCLE TO CELL "gen_SPI_DAC_SPI_*io*" 20 ns;
+MULTICYCLE TO CELL "THE_SPI_MASTER_THE_SPI_SLIM_tx_sreg_oregio*" 20 ns;
+
+BLOCK PATH TO CELL "gen_TRIGGER_LOGIC_THE_TRIG_LOGIC/out_*";
+
+#Jan: Placement of TrbNet components (at least, most of them)
+
+

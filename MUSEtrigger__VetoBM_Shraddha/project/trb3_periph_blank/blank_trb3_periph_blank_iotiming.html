@@ -1,0 +1,164 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+WARNING - blank_trb3_periph_blank.prf(1681): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_p*" ;": group IN_group contains a wildcard expression, "IN_p*", that does not match ports in the design. This preference has been disabled.
+68 potential circuit loops found in timing analysis.
+Loading design for application iotiming from file blank_trb3_periph_blank.ncd.
+Design name: trb3_periph_blank
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 9
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+WARNING - iotiming: blank_trb3_periph_blank.prf(1681): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_p*" ;": group IN_group contains a wildcard expression, "IN_p*", that does not match ports in the design. This preference has been disabled.
+Loading design for application iotiming from file blank_trb3_periph_blank.ncd.
+Design name: trb3_periph_blank
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: M
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+WARNING - iotiming: blank_trb3_periph_blank.prf(1681): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_p*" ;": group IN_group contains a wildcard expression, "IN_p*", that does not match ports in the design. This preference has been disabled.
+// Design: trb3_periph_blank
+// Package: FPBGA672
+// ncd File: blank_trb3_periph_blank.ncd
+// Version: Diamond (64-bit) 3.10.3.144
+// Written on Tue Nov 03 19:14:11 2020
+// M: Minimum Performance Grade
+// iotiming blank_trb3_periph_blank.ncd blank_trb3_periph_blank.prf -gui -msgset C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port          Clock          Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+CODE_LINE[0]  CLK_GPLL_RIGHT R     3.905      8      -1.097     M
+CODE_LINE[1]  CLK_GPLL_RIGHT R     3.917      8      -1.080     M
+FLASH_DOUT    CLK_GPLL_RIGHT R     2.895      8       2.714     8
+FPGA5_COMM[0] CLK_GPLL_RIGHT R     3.091      8      -0.824     M
+INP[0]        CLK_GPLL_RIGHT R     7.082      8      -0.266     M
+INP[10]       CLK_GPLL_RIGHT R    10.430      8      -1.341     M
+INP[11]       CLK_GPLL_RIGHT R     8.427      8      -0.942     M
+INP[12]       CLK_GPLL_RIGHT R     8.248      8      -0.170     M
+INP[13]       CLK_GPLL_RIGHT R     9.092      8      -0.411     M
+INP[14]       CLK_GPLL_RIGHT R     6.958      8      -0.230     M
+INP[15]       CLK_GPLL_RIGHT R     6.862      8      -0.123     M
+INP[16]       CLK_GPLL_RIGHT R     9.976      8      -1.013     M
+INP[17]       CLK_GPLL_RIGHT R     9.105      8      -1.233     M
+INP[18]       CLK_GPLL_RIGHT R     9.558      8      -1.031     M
+INP[19]       CLK_GPLL_RIGHT R     9.683      8      -1.265     M
+INP[1]        CLK_GPLL_RIGHT R     7.881      8      -0.421     M
+INP[20]       CLK_GPLL_RIGHT R    10.037      8      -1.072     M
+INP[21]       CLK_GPLL_RIGHT R     9.451      8      -1.222     M
+INP[22]       CLK_GPLL_RIGHT R     8.213      8      -0.495     M
+INP[23]       CLK_GPLL_RIGHT R     7.944      8      -0.392     M
+INP[24]       CLK_GPLL_RIGHT R     7.552      8      -0.418     M
+INP[25]       CLK_GPLL_RIGHT R     7.339      8      -0.381     M
+INP[26]       CLK_GPLL_RIGHT R     7.526      8      -0.439     M
+INP[27]       CLK_GPLL_RIGHT R     8.338      8      -0.401     M
+INP[28]       CLK_GPLL_RIGHT R     7.353      8       0.168     9
+INP[29]       CLK_GPLL_RIGHT R     6.837      8       0.385     9
+INP[2]        CLK_GPLL_RIGHT R     7.632      8      -0.430     M
+INP[30]       CLK_GPLL_RIGHT R     8.130      8      -0.067     M
+INP[31]       CLK_GPLL_RIGHT R     8.689      8      -0.790     M
+INP[3]        CLK_GPLL_RIGHT R     6.711      8      -0.352     M
+INP[4]        CLK_GPLL_RIGHT R     7.639      8      -0.227     M
+INP[5]        CLK_GPLL_RIGHT R     7.070      8      -0.239     M
+INP[6]        CLK_GPLL_RIGHT R     9.100      8      -0.937     M
+INP[7]        CLK_GPLL_RIGHT R     8.898      8      -0.947     M
+INP[8]        CLK_GPLL_RIGHT R     9.391      8      -0.978     M
+INP[9]        CLK_GPLL_RIGHT R     9.540      8      -1.071     M
+TEMPSENS      CLK_GPLL_RIGHT R     6.030      8      -0.778     M
+TEST_LINE[5]  CLK_GPLL_RIGHT R     2.221      8      -0.486     M
+TRIGGER_LEFT  CLK_GPLL_RIGHT R     3.741      8      -1.066     M
+
+
+// Clock to Output Delay
+
+Port           Clock          Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+FLASH_CLK      CLK_GPLL_RIGHT R    10.098         8        4.231          M
+FLASH_CS       CLK_GPLL_RIGHT R    10.827         8        4.386          M
+FLASH_DIN      CLK_GPLL_RIGHT R    10.311         8        4.448          M
+FPGA5_COMM[10] CLK_GPLL_RIGHT R    16.811         8        5.130          M
+FPGA5_COMM[2]  CLK_GPLL_RIGHT R     9.975         8        4.706          M
+FPGA5_COMM[7]  CLK_GPLL_RIGHT R    17.579         8        5.146          M
+FPGA5_COMM[8]  CLK_GPLL_RIGHT R    17.404         8        5.194          M
+FPGA5_COMM[9]  CLK_GPLL_RIGHT R    17.018         8        5.265          M
+OUT_pA[0]      CLK_GPLL_RIGHT R     7.877         8        2.645          M
+PROGRAMN       CLK_GPLL_RIGHT R     8.722         8        4.373          M
+TEMPSENS       CLK_GPLL_RIGHT R    10.056         8        4.541          M
+TEST_LINE[2]   CLK_GPLL_RIGHT R     9.977         8        4.624          M
+TEST_LINE[3]   CLK_GPLL_RIGHT R     9.794         8        4.459          M
+TEST_LINE[4]   CLK_GPLL_RIGHT R     9.365         8        4.483          M
+WARNING: you must also run trce with hold speed: 8
+WARNING: you must also run trce with hold speed: 9
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

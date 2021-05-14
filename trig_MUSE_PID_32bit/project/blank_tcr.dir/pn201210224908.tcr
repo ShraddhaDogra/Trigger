@@ -1,0 +1,7 @@
+#Start recording tcl command: 12/8/2020 10:27:36
+#Project Location: C:/Users/ishra/MUSE_TRIGGERS_FPGA/trig_MUSE_PID_32bit/project; Project name: blank
+prj_project open "C:/Users/ishra/MUSE_TRIGGERS_FPGA/trig_MUSE_PID_32bit/project/trb3_periph_blank.ldf"
+prj_src add "C:/Users/ishra/MUSE_TRIGGERS_FPGA/trig_MUSE_PID_32bit/project/ch32.v"
+prj_run Export -impl trb3_periph_blank -task Bitgen
+prj_run Export -impl trb3_periph_blank -task Bitgen
+#Stop recording: 12/10/2020 22:49:08

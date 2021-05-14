@@ -1,0 +1,247 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\project\\trb3_periph_blank\\synwork\\_verilog_hintfile|-top|work.TriggerTDCTop|-mpparams|C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\project\\trb3_periph_blank\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\project\\trb3_periph_blank\\synwork\\blank_trb3_periph_blank_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\project|-I|C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\project\\trb3_periph_blank\\|-I|C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\ecp3.v|-devicelib|C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\bin64\\c_ver.exe":1501902816
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\project\\trb3_periph_blank\\synwork\\_verilog_hintfile":1607566817
+#CUR:"C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\ecp3.v":1501907016
+#CUR:"C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\pmi_def.v":1501907016
+#CUR:"C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\lib\\vlog\\hypermods.v":1501902224
+#CUR:"C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\lib\\vlog\\umr_capim.v":1501902224
+#CUR:"C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1501902224
+#CUR:"C:\\lscc\\diamond\\diamond\\3.10_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1501902224
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\workdir\\Cpll.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\workdir\\Cpll0.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\workdir\\Cpll1.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\workdir\\Cpll2.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\workdir\\Cpll3.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\workdir\\Cpll4.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\workdir\\LA_FIFO.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\workdir\\readoutfifo.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Ch48.v":1607539553
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\ClockGen.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\comnet.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\ComTrans.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\DeBounce_v.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\FineTimeBit.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\hit_cntr.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Input_Reg.v":1607441715
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\InputBit.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Lanalyzer.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Lanalyzer0.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\leds.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Ltch8.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Ltch32.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Ltch33.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Ltch42.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Ltch40.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Mux3x32.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Mux16x32.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Register.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\SFineTimeBit.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\SFineTimeBit0.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\SFineTimeBit1.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\SFineTimeBit2.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\SFineTimeBit3.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\SFineTimeBit4.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\SFineTimeBit5.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Shift40.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Shift42.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Shiftout32.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\StrSt.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\sync_cntr.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\timestatics.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\TriggerTDC.v":1607539553
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\TriggerTDCTop.v":1607441715
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\wcomp.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Teststate.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\Source\\Shift33.v":1607027773
+#CUR:"C:\\Users\\ishra\\MUSE_TRIGGERS_FPGA\\trig_MUSE_PID_32bit\\project\\ch32.v":1607539553
+0			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll.v" verilog
+1			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll0.v" verilog
+2			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll1.v" verilog
+3			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll2.v" verilog
+4			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll3.v" verilog
+5			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\Cpll4.v" verilog
+6			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\LA_FIFO.v" verilog
+7			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\workdir\readoutfifo.v" verilog
+8			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Ch48.v" verilog
+9			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ClockGen.v" verilog
+10			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\comnet.v" verilog
+11			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\ComTrans.v" verilog
+12			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\DeBounce_v.v" verilog
+13			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\FineTimeBit.v" verilog
+14			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\hit_cntr.v" verilog
+15			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Input_Reg.v" verilog
+16			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\InputBit.v" verilog
+17			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Lanalyzer.v" verilog
+18			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Lanalyzer0.v" verilog
+19			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\leds.v" verilog
+20			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Ltch8.v" verilog
+21			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Ltch32.v" verilog
+22			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Ltch33.v" verilog
+23			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Ltch42.v" verilog
+24			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Ltch40.v" verilog
+25			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Mux3x32.v" verilog
+26			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Mux16x32.v" verilog
+27			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Register.v" verilog
+28			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\SFineTimeBit.v" verilog
+29			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\SFineTimeBit0.v" verilog
+30			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\SFineTimeBit1.v" verilog
+31			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\SFineTimeBit2.v" verilog
+32			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\SFineTimeBit3.v" verilog
+33			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\SFineTimeBit4.v" verilog
+34			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\SFineTimeBit5.v" verilog
+35			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Shift40.v" verilog
+36			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Shift42.v" verilog
+37			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Shiftout32.v" verilog
+38			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\StrSt.v" verilog
+39			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\sync_cntr.v" verilog
+40			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\timestatics.v" verilog
+41			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDC.v" verilog
+42			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\TriggerTDCTop.v" verilog
+43			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\wcomp.v" verilog
+44			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Teststate.v" verilog
+45			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\Source\Shift33.v" verilog
+46			"C:\Users\ishra\MUSE_TRIGGERS_FPGA\trig_MUSE_PID_32bit\project\ch32.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 25 26 13
+9 3 2 0 27
+10 37 36 38
+11 -1
+12 -1
+13 43 20 27
+14 39
+15 -1
+16 -1
+17 6 27
+18 6 27
+19 -1
+20 -1
+21 -1
+22 -1
+23 -1
+24 -1
+25 -1
+26 -1
+27 -1
+28 43 17 20 27
+29 43 17 20 27
+30 43 18 20 27
+31 43 18 20 27
+32 43 18 20 27
+33 43 18 20 27
+34 43 18 20 27
+35 24
+36 23
+37 21
+38 -1
+39 -1
+40 7 44 14
+41 40 46 15 9 11 27
+42 41 19
+43 -1
+44 -1
+45 22
+46 25 26 13
+#Dependency Lists(Users Of)
+0 9
+1 -1
+2 9
+3 9
+4 -1
+5 -1
+6 18 17
+7 40
+8 -1
+9 41
+10 -1
+11 41
+12 -1
+13 46 8
+14 40
+15 41
+16 -1
+17 29 28
+18 34 33 32 31 30
+19 42
+20 34 33 32 31 30 29 28 13
+21 37
+22 45
+23 36
+24 35
+25 46 8
+26 46 8
+27 41 34 33 32 31 30 29 28 18 17 13 9
+28 -1
+29 -1
+30 -1
+31 -1
+32 -1
+33 -1
+34 -1
+35 -1
+36 10
+37 10
+38 10
+39 14
+40 41
+41 42
+42 -1
+43 34 33 32 31 30 29 28 13
+44 40
+45 -1
+46 41
+#Design Unit to File Association
+module work Shift33 45
+module work TriggerTDCTop 42
+module work TriggerTDC 41
+module work Ch32 46
+module work timestatics 40
+module work teststate 44
+module work Shift40 35
+module work SFineTimeBit5 34
+module work SFineTimeBit4 33
+module work SFineTimeBit3 32
+module work SFineTimeBit2 31
+module work SFineTimeBit1 30
+module work SFineTimeBit0 29
+module work SFineTimeBit 28
+module work Ltch40 24
+module work Ltch42 23
+module work Ltch33 22
+module work Ltch32 21
+module work leds 19
+module work Lanalyzer0 18
+module work Lanalyzer 17
+module work Input_Bit 16
+module work Input_Reg 15
+module work hit_counter 14
+module work sync_counter 39
+module work wcomp 43
+module work Ltch8 20
+module work DeBounce 12
+module work ComTrans 11
+module work comnet 10
+module work Shiftout32 37
+module work Shift42 36
+module work StrSt 38
+module work ClockGen 9
+module work Register 27
+module work Ch48 8
+module work Mux3x32 25
+module work Mux16x32 26
+module work FineTimeBit 13
+module work readoutfifo 7
+module work LA_FIFO 6
+module work Cpll4 5
+module work Cpll3 4
+module work Cpll2 3
+module work Cpll1 2
+module work Cpll0 1
+module work Cpll 0

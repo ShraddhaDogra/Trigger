@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\trb3_periph_blank\synlog\blank_trb3_periph_blank_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>pll_in200_out100|CLKOK_inferred_clock</data>
+<data>300.4 MHz</data>
+<data>255.4 MHz</data>
+<data>-0.587</data>
+</row>
+<row>
+<data>pll_in200_out100|CLKOP_inferred_clock</data>
+<data>80.8 MHz</data>
+<data>69.3 MHz</data>
+<data>-2.065</data>
+</row>
+<row>
+<data>sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock</data>
+<data>244.7 MHz</data>
+<data>224.6 MHz</data>
+<data>-0.365</data>
+</row>
+<row>
+<data>System</data>
+<data>961.6 MHz</data>
+<data>817.3 MHz</data>
+<data>-0.184</data>
+</row>
+</report_table>

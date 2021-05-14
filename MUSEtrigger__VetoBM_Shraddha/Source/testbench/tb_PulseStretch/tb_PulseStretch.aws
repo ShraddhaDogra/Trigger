@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+tb_PulseStretch=tb_PulseStretch.adf
+[Settings]
+Active=tb_PulseStretch
+[Expand]
+tb_pulsestretch=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
