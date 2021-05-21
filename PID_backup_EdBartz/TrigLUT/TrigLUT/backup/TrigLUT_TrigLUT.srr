@@ -1,0 +1,49 @@
+#Build: Synplify Pro J-2015.03L-SP1, Build 123R, Aug 18 2015
+#install: D:\Cad\lscc\diamond\3.6_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: BALIN
+
+#Implementation: TrigLUT
+
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\lucent\ecp3.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\hypermods.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr5.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Latch.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Reg.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_clr.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_pset.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\TrigLUT_tf.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\Or8.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\Or18.v"
+Verilog syntax check successful!
+Options changed - recompiling
+@E|No component with name Top to synthesize
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Mar 24 09:30:58 2016
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Mar 24 09:30:58 2016
+
+###########################################################]

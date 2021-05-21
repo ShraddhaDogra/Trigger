@@ -1,0 +1,8 @@
+D:\Cad\lscc\diamond\3.7_x64\active-hdl\vlib\ovi_ecp3/src/SLOGICB.v(406): $setup( M0:964 ps, negedge CLK &&& check_m0_negedge:1059 ps, 131 ps );
+Time: 1059 ps Iteration: 0 Instance: /TrigTDC_tf/UUT/\TDC/Tdc/fb29/Deg180/SLICE_10297 \
+D:\Cad\lscc\diamond\3.7_x64\active-hdl\vlib\ovi_ecp3/src/SLOGICB.v(406): $setup( M0:967 ps, negedge CLK &&& check_m0_negedge:1063 ps, 131 ps );
+Time: 1063 ps Iteration: 0 Instance: /TrigTDC_tf/UUT/\TDC/Tdc/fb31/Deg180/SLICE_10831 \
+D:\Cad\lscc\diamond\3.7_x64\active-hdl\vlib\ovi_ecp3/src/SLOGICB.v(406): $setup( M0:941 ps, negedge CLK &&& check_m0_negedge:1063 ps, 131 ps );
+Time: 1063 ps Iteration: 0 Instance: /TrigTDC_tf/UUT/\TDC/Tdc/fb35/Deg180/SLICE_11546 \
+D:\Cad\lscc\diamond\3.7_x64\active-hdl\vlib\ovi_ecp3/src/SLOGICB.v(406): $setup( M0:960 ps, negedge CLK &&& check_m0_negedge:1063 ps, 131 ps );
+Time: 1063 ps Iteration: 0 Instance: /TrigTDC_tf/UUT/\TDC/Tdc/fb35/Deg180/SLICE_11548 \

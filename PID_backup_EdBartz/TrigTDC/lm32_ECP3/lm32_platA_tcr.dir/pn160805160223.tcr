@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/5/2016 16:00:47
+#Project Location: D:/bartz/Documents/Lattice/TrigLUT/lm32_ECP3; Project name: lm32_platA
+prj_project open "D:/bartz/Documents/Lattice/TrigLUT/lm32_ECP3/lm32_plata.ldf"
+prj_project close
+#Stop recording: 8/5/2016 16:02:23

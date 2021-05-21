@@ -1,0 +1,210 @@
+[ START MERGED ]
+U1.n U1/U1/u
+U35/U1/n q[5]
+U35/U1/o q[5]
+U35/U1/p q[5]
+U35/U1/q q[5]
+U35/U1/r q[5]
+U35/U1/s q[5]
+U35/U1/t q[5]
+U35/U1/u q[5]
+U35.n q[5]
+U34/U1/n q[4]
+U34/U1/o q[4]
+U34/U1/p q[4]
+U34/U1/q q[4]
+U34/U1/r q[4]
+U34/U1/s q[4]
+U34/U1/t q[4]
+U34/U1/u q[4]
+U34.n q[4]
+U33/U1/n U33/q[3]
+U33/U1/o U33/q[3]
+U33/U1/p U33/q[3]
+U33/U1/q U33/q[3]
+U33/U1/r U33/q[3]
+U33/U1/s U33/q[3]
+U33/U1/t U33/q[3]
+U33/U1/u U33/q[3]
+U33.n U33/q[3]
+U32/U1/n q[2]
+U32/U1/o q[2]
+U32/U1/p q[2]
+U32/U1/q q[2]
+U32/U1/r q[2]
+U32/U1/s q[2]
+U32/U1/t q[2]
+U32/U1/u q[2]
+U32.n q[2]
+U31/U1/n q[1]
+U31/U1/o q[1]
+U31/U1/p q[1]
+U31/U1/q q[1]
+U31/U1/r q[1]
+U31/U1/s q[1]
+U31/U1/t q[1]
+U31/U1/u q[1]
+U31.n q[1]
+U30/U1/n q[0]
+U30/U1/o q[0]
+U30/U1/p q[0]
+U30/U1/q q[0]
+U30/U1/r q[0]
+U30/U1/s q[0]
+U30/U1/t q[0]
+U30/U1/u q[0]
+U30.n q[0]
+U24/U1/n p[4]
+U24/U1/o p[4]
+U24/U1/p p[4]
+U24/U1/q p[4]
+U24/U1/r p[4]
+U24/U1/s p[4]
+U24/U1/t p[4]
+U24/U1/u p[4]
+U24.n p[4]
+U23/U1/n p[3]
+U23/U1/o p[3]
+U23/U1/p p[3]
+U23/U1/q p[3]
+U23/U1/r p[3]
+U23/U1/s p[3]
+U23/U1/t p[3]
+U23/U1/u p[3]
+U23.n p[3]
+U22/U1/n p[2]
+U22/U1/o p[2]
+U22/U1/p p[2]
+U22/U1/q p[2]
+U22/U1/r p[2]
+U22/U1/s p[2]
+U22/U1/t p[2]
+U22/U1/u p[2]
+U22.n p[2]
+U21/U1/n U21/p[1]
+U21/U1/o U21/p[1]
+U21/U1/p U21/p[1]
+U21/U1/q U21/p[1]
+U21/U1/r U21/p[1]
+U21/U1/s U21/p[1]
+U21/U1/t U21/p[1]
+U21/U1/u U21/p[1]
+U21.n U21/p[1]
+U20/U1/n p[0]
+U20/U1/o p[0]
+U20/U1/p p[0]
+U20/U1/q p[0]
+U20/U1/r p[0]
+U20/U1/s p[0]
+U20/U1/t p[0]
+U20/U1/u p[0]
+U20.n p[0]
+U13/U1/n m[3]
+U13/U1/o m[3]
+U13/U1/p m[3]
+U13/U1/q m[3]
+U13/U1/r m[3]
+U13/U1/s m[3]
+U13/U1/t m[3]
+U13/U1/u m[3]
+U13.n m[3]
+U12/U1/n m[2]
+U12/U1/o m[2]
+U12/U1/p m[2]
+U12/U1/q m[2]
+U12/U1/r m[2]
+U12/U1/s m[2]
+U12/U1/t m[2]
+U12/U1/u m[2]
+U12.n m[2]
+U11/U1/n m[1]
+U11/U1/o m[1]
+U11/U1/p m[1]
+U11/U1/q m[1]
+U11/U1/r m[1]
+U11/U1/s m[1]
+U11/U1/t m[1]
+U11/U1/u m[1]
+U11.n m[1]
+U10/U1/n m[0]
+U10/U1/o m[0]
+U10/U1/p m[0]
+U10/U1/q m[0]
+U10/U1/r m[0]
+U10/U1/s m[0]
+U10/U1/t m[0]
+U10/U1/u m[0]
+U10.n m[0]
+U3/U1/n U3/n[2]
+U3/U1/o U3/n[2]
+U3/U1/p U3/n[2]
+U3/U1/q U3/n[2]
+U3/U1/r U3/n[2]
+U3/U1/s U3/n[2]
+U3/U1/t U3/n[2]
+U3/U1/u U3/n[2]
+U3.n U3/n[2]
+U2/U1/n n[1]
+U2/U1/o n[1]
+U2/U1/p n[1]
+U2/U1/q n[1]
+U2/U1/r n[1]
+U2/U1/s n[1]
+U2/U1/t n[1]
+U2/U1/u n[1]
+U2.n n[1]
+U1/U1/u n[0]
+U1/U1/n n[0]
+U1/U1/o n[0]
+U1/U1/p n[0]
+U1/U1/q n[0]
+U1/U1/r n[0]
+U1/U1/s n[0]
+U1/U1/t n[0]
+[ END MERGED ]
+[ START CLIPPED ]
+U1/U1/m
+U2/U1/m
+U3/U1/m
+U10/U1/m
+U11/U1/m
+U12/U1/m
+U13/U1/m
+U20/U1/m
+U21/U1/m
+U22/U1/m
+U23/U1/m
+U24/U1/m
+U30/U1/m
+U31/U1/m
+U32/U1/m
+U33/U1/m
+U34/U1/m
+U35/U1/m
+VCC
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.6.0.83.4 -- WARNING: Map write only section -- Wed Feb 24 13:48:19 2016
+
+SYSCONFIG PERSISTENT=OFF CONFIG_MODE=SPI DONE_OD=ON DONE_EX=OFF MCCLK_FREQ=20 CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF COMPRESS_CONFIG=OFF ENABLE_NDR=OFF CONFIG_IOVOLTAGE=2.5 STRTUP=EXTERNAL ;
+LOCATE COMP "INP[0]" SITE "P1" ;
+LOCATE COMP "INP[53]" SITE "M22" ;
+LOCATE COMP "INP[52]" SITE "L24" ;
+LOCATE COMP "INP[51]" SITE "M23" ;
+LOCATE COMP "INP[50]" SITE "K24" ;
+LOCATE COMP "INP[49]" SITE "L20" ;
+LOCATE COMP "INP[48]" SITE "H24" ;
+LOCATE COMP "INP[36]" SITE "K23" ;
+LOCATE COMP "INP[35]" SITE "H26" ;
+LOCATE COMP "INP[34]" SITE "F24" ;
+LOCATE COMP "INP[33]" SITE "G26" ;
+LOCATE COMP "INP[32]" SITE "J23" ;
+LOCATE COMP "INP[19]" SITE "Y6" ;
+LOCATE COMP "INP[18]" SITE "AB3" ;
+LOCATE COMP "INP[17]" SITE "AB5" ;
+LOCATE COMP "INP[16]" SITE "AD1" ;
+LOCATE COMP "INP[2]" SITE "R1" ;
+LOCATE COMP "INP[1]" SITE "T2" ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

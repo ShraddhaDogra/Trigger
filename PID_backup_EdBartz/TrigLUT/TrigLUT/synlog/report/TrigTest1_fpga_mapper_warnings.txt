@@ -1,0 +1,66 @@
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U1.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U2.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U3.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U10.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U11.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U12.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U13.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U20.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U21.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U22.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U23.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U24.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U30.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U31.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U32.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U33.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U34.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U35.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: BN137 :|Found combinational loop during mapping at net U1.m
+@W: BN137 :|Found combinational loop during mapping at net U2.m
+@W: BN137 :|Found combinational loop during mapping at net U3.m
+@W: BN137 :|Found combinational loop during mapping at net U10.m
+@W: BN137 :|Found combinational loop during mapping at net U11.m
+@W: BN137 :|Found combinational loop during mapping at net U12.m
+@W: BN137 :|Found combinational loop during mapping at net U13.m
+@W: BN137 :|Found combinational loop during mapping at net U20.m
+@W: BN137 :|Found combinational loop during mapping at net U21.m
+@W: BN137 :|Found combinational loop during mapping at net U22.m
+@W: BN137 :|Found combinational loop during mapping at net U23.m
+@W: BN137 :|Found combinational loop during mapping at net U24.m
+@W: BN137 :|Found combinational loop during mapping at net U30.m
+@W: BN137 :|Found combinational loop during mapping at net U31.m
+@W: BN137 :|Found combinational loop during mapping at net U32.m
+@W: BN137 :|Found combinational loop during mapping at net U33.m
+@W: BN137 :|Found combinational loop during mapping at net U34.m
+@W: BN137 :|Found combinational loop during mapping at net U35.m
+@W: BN137 :|Found combinational loop during mapping at net OutpA_c[1]
+@W: BN137 :|Found combinational loop during mapping at net OutpB_c[1]
+@W: BN137 :|Found combinational loop during mapping at net OutpC_c[1]
+@W: BN137 :|Found combinational loop during mapping at net OutpD_c[1]
+@W: BN137 :|Found combinational loop during mapping at net G_265
+@W: BN137 :|Found combinational loop during mapping at net G_266
+@W: BN137 :|Found combinational loop during mapping at net G_267
+@W: BN137 :|Found combinational loop during mapping at net G_268
+@W: BN137 :|Found combinational loop during mapping at net G_269
+@W: BN137 :|Found combinational loop during mapping at net G_270
+@W: BN137 :|Found combinational loop during mapping at net G_271
+@W: BN137 :|Found combinational loop during mapping at net G_272
+@W: BN137 :|Found combinational loop during mapping at net G_273
+@W: BN137 :|Found combinational loop during mapping at net G_274
+@W: BN137 :|Found combinational loop during mapping at net G_275
+@W: BN137 :|Found combinational loop during mapping at net G_276
+@W: BN137 :|Found combinational loop during mapping at net G_277
+@W: BN137 :|Found combinational loop during mapping at net G_278
+@W: BN137 :|Found combinational loop during mapping at net G_279
+@W: BN137 :|Found combinational loop during mapping at net G_280
+@W: BN137 :|Found combinational loop during mapping at net G_281
+@W: BN137 :|Found combinational loop during mapping at net G_282
+@W: BN137 :|Found combinational loop during mapping at net G_283
+@W: BN137 :|Found combinational loop during mapping at net G_284
+@W: BN137 :|Found combinational loop during mapping at net G_285
+@W: BN137 :|Found combinational loop during mapping at net G_286
+@W: MT420 |Found inferred clock Top|InpA with period 1000.00ns. Please declare a user-defined clock on object "p:InpA"
+@W: MT420 |Found inferred clock Top|InpB with period 1000.00ns. Please declare a user-defined clock on object "p:InpB"
+@W: MT420 |Found inferred clock Top|InpC with period 1000.00ns. Please declare a user-defined clock on object "p:InpC"
+@W: MT420 |Found inferred clock Top|InpD with period 1000.00ns. Please declare a user-defined clock on object "p:InpD"

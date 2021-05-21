@@ -1,0 +1,574 @@
+(edif testdp
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2016 9 28 10 33 41)
+      (program "SCUBA" (version "Diamond (64-bit) 3.7.1.502"))))
+      (comment "D:\Cad\lscc\diamond\3.7_x64\ispfpga\bin\nt64\scuba.exe -w -n testdp -lang verilog -synth synplify -bus_exp 7 -bb -arch ep5c00 -type bram -wp 10 -rp 0011 -rdata_width 16 -data_width 16 -num_rows 32 -outdata REGISTERED -cascade -1 ")
+  (library ORCLIB
+    (edifLevel 0)
+    (technology
+      (numberDefinition))
+    (cell VHI
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell VLO
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell DP16KC
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port DIA0
+            (direction INPUT))
+          (port DIA1
+            (direction INPUT))
+          (port DIA2
+            (direction INPUT))
+          (port DIA3
+            (direction INPUT))
+          (port DIA4
+            (direction INPUT))
+          (port DIA5
+            (direction INPUT))
+          (port DIA6
+            (direction INPUT))
+          (port DIA7
+            (direction INPUT))
+          (port DIA8
+            (direction INPUT))
+          (port DIA9
+            (direction INPUT))
+          (port DIA10
+            (direction INPUT))
+          (port DIA11
+            (direction INPUT))
+          (port DIA12
+            (direction INPUT))
+          (port DIA13
+            (direction INPUT))
+          (port DIA14
+            (direction INPUT))
+          (port DIA15
+            (direction INPUT))
+          (port DIA16
+            (direction INPUT))
+          (port DIA17
+            (direction INPUT))
+          (port ADA0
+            (direction INPUT))
+          (port ADA1
+            (direction INPUT))
+          (port ADA2
+            (direction INPUT))
+          (port ADA3
+            (direction INPUT))
+          (port ADA4
+            (direction INPUT))
+          (port ADA5
+            (direction INPUT))
+          (port ADA6
+            (direction INPUT))
+          (port ADA7
+            (direction INPUT))
+          (port ADA8
+            (direction INPUT))
+          (port ADA9
+            (direction INPUT))
+          (port ADA10
+            (direction INPUT))
+          (port ADA11
+            (direction INPUT))
+          (port ADA12
+            (direction INPUT))
+          (port ADA13
+            (direction INPUT))
+          (port CEA
+            (direction INPUT))
+          (port CLKA
+            (direction INPUT))
+          (port OCEA
+            (direction INPUT))
+          (port WEA
+            (direction INPUT))
+          (port CSA0
+            (direction INPUT))
+          (port CSA1
+            (direction INPUT))
+          (port CSA2
+            (direction INPUT))
+          (port RSTA
+            (direction INPUT))
+          (port DIB0
+            (direction INPUT))
+          (port DIB1
+            (direction INPUT))
+          (port DIB2
+            (direction INPUT))
+          (port DIB3
+            (direction INPUT))
+          (port DIB4
+            (direction INPUT))
+          (port DIB5
+            (direction INPUT))
+          (port DIB6
+            (direction INPUT))
+          (port DIB7
+            (direction INPUT))
+          (port DIB8
+            (direction INPUT))
+          (port DIB9
+            (direction INPUT))
+          (port DIB10
+            (direction INPUT))
+          (port DIB11
+            (direction INPUT))
+          (port DIB12
+            (direction INPUT))
+          (port DIB13
+            (direction INPUT))
+          (port DIB14
+            (direction INPUT))
+          (port DIB15
+            (direction INPUT))
+          (port DIB16
+            (direction INPUT))
+          (port DIB17
+            (direction INPUT))
+          (port ADB0
+            (direction INPUT))
+          (port ADB1
+            (direction INPUT))
+          (port ADB2
+            (direction INPUT))
+          (port ADB3
+            (direction INPUT))
+          (port ADB4
+            (direction INPUT))
+          (port ADB5
+            (direction INPUT))
+          (port ADB6
+            (direction INPUT))
+          (port ADB7
+            (direction INPUT))
+          (port ADB8
+            (direction INPUT))
+          (port ADB9
+            (direction INPUT))
+          (port ADB10
+            (direction INPUT))
+          (port ADB11
+            (direction INPUT))
+          (port ADB12
+            (direction INPUT))
+          (port ADB13
+            (direction INPUT))
+          (port CEB
+            (direction INPUT))
+          (port CLKB
+            (direction INPUT))
+          (port OCEB
+            (direction INPUT))
+          (port WEB
+            (direction INPUT))
+          (port CSB0
+            (direction INPUT))
+          (port CSB1
+            (direction INPUT))
+          (port CSB2
+            (direction INPUT))
+          (port RSTB
+            (direction INPUT))
+          (port DOA0
+            (direction OUTPUT))
+          (port DOA1
+            (direction OUTPUT))
+          (port DOA2
+            (direction OUTPUT))
+          (port DOA3
+            (direction OUTPUT))
+          (port DOA4
+            (direction OUTPUT))
+          (port DOA5
+            (direction OUTPUT))
+          (port DOA6
+            (direction OUTPUT))
+          (port DOA7
+            (direction OUTPUT))
+          (port DOA8
+            (direction OUTPUT))
+          (port DOA9
+            (direction OUTPUT))
+          (port DOA10
+            (direction OUTPUT))
+          (port DOA11
+            (direction OUTPUT))
+          (port DOA12
+            (direction OUTPUT))
+          (port DOA13
+            (direction OUTPUT))
+          (port DOA14
+            (direction OUTPUT))
+          (port DOA15
+            (direction OUTPUT))
+          (port DOA16
+            (direction OUTPUT))
+          (port DOA17
+            (direction OUTPUT))
+          (port DOB0
+            (direction OUTPUT))
+          (port DOB1
+            (direction OUTPUT))
+          (port DOB2
+            (direction OUTPUT))
+          (port DOB3
+            (direction OUTPUT))
+          (port DOB4
+            (direction OUTPUT))
+          (port DOB5
+            (direction OUTPUT))
+          (port DOB6
+            (direction OUTPUT))
+          (port DOB7
+            (direction OUTPUT))
+          (port DOB8
+            (direction OUTPUT))
+          (port DOB9
+            (direction OUTPUT))
+          (port DOB10
+            (direction OUTPUT))
+          (port DOB11
+            (direction OUTPUT))
+          (port DOB12
+            (direction OUTPUT))
+          (port DOB13
+            (direction OUTPUT))
+          (port DOB14
+            (direction OUTPUT))
+          (port DOB15
+            (direction OUTPUT))
+          (port DOB16
+            (direction OUTPUT))
+          (port DOB17
+            (direction OUTPUT)))))
+    (cell testdp
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port (array (rename WrAddress "WrAddress(4:0)") 5)
+            (direction INPUT))
+          (port (array (rename RdAddress "RdAddress(4:0)") 5)
+            (direction INPUT))
+          (port (array (rename Data "Data(15:0)") 16)
+            (direction INPUT))
+          (port WE
+            (direction INPUT))
+          (port RdClock
+            (direction INPUT))
+          (port RdClockEn
+            (direction INPUT))
+          (port Reset
+            (direction INPUT))
+          (port WrClock
+            (direction INPUT))
+          (port WrClockEn
+            (direction INPUT))
+          (port (array (rename Q "Q(15:0)") 16)
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (instance scuba_vhi_inst
+            (viewRef view1 
+              (cellRef VHI)))
+          (instance scuba_vlo_inst
+            (viewRef view1 
+              (cellRef VLO)))
+          (instance testdp_0_0_0
+            (viewRef view1 
+              (cellRef DP16KC))
+            (property MEM_LPC_FILE
+              (string "testdp.lpc"))
+            (property MEM_INIT_FILE
+              (string ""))
+            (property CSDECODE_B
+              (string "0b000"))
+            (property CSDECODE_A
+              (string "0b000"))
+            (property WRITEMODE_B
+              (string "NORMAL"))
+            (property WRITEMODE_A
+              (string "NORMAL"))
+            (property GSR
+              (string "DISABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE_B
+              (string "OUTREG"))
+            (property REGMODE_A
+              (string "OUTREG"))
+            (property DATA_WIDTH_B
+              (string "18"))
+            (property DATA_WIDTH_A
+              (string "18")))
+          (net scuba_vhi
+            (joined
+              (portRef Z (instanceRef scuba_vhi_inst))
+              (portRef ADA1 (instanceRef testdp_0_0_0))
+              (portRef ADA0 (instanceRef testdp_0_0_0))))
+          (net scuba_vlo
+            (joined
+              (portRef Z (instanceRef scuba_vlo_inst))
+              (portRef CSB2 (instanceRef testdp_0_0_0))
+              (portRef CSA2 (instanceRef testdp_0_0_0))
+              (portRef CSB1 (instanceRef testdp_0_0_0))
+              (portRef CSA1 (instanceRef testdp_0_0_0))
+              (portRef CSB0 (instanceRef testdp_0_0_0))
+              (portRef CSA0 (instanceRef testdp_0_0_0))
+              (portRef WEB (instanceRef testdp_0_0_0))
+              (portRef ADB13 (instanceRef testdp_0_0_0))
+              (portRef ADA13 (instanceRef testdp_0_0_0))
+              (portRef ADB12 (instanceRef testdp_0_0_0))
+              (portRef ADA12 (instanceRef testdp_0_0_0))
+              (portRef ADB11 (instanceRef testdp_0_0_0))
+              (portRef ADA11 (instanceRef testdp_0_0_0))
+              (portRef ADB10 (instanceRef testdp_0_0_0))
+              (portRef ADA10 (instanceRef testdp_0_0_0))
+              (portRef ADB9 (instanceRef testdp_0_0_0))
+              (portRef ADA9 (instanceRef testdp_0_0_0))
+              (portRef ADB3 (instanceRef testdp_0_0_0))
+              (portRef ADA3 (instanceRef testdp_0_0_0))
+              (portRef ADB2 (instanceRef testdp_0_0_0))
+              (portRef ADA2 (instanceRef testdp_0_0_0))
+              (portRef ADB1 (instanceRef testdp_0_0_0))
+              (portRef ADB0 (instanceRef testdp_0_0_0))
+              (portRef DIB17 (instanceRef testdp_0_0_0))
+              (portRef DIA17 (instanceRef testdp_0_0_0))
+              (portRef DIB16 (instanceRef testdp_0_0_0))
+              (portRef DIA16 (instanceRef testdp_0_0_0))
+              (portRef DIB15 (instanceRef testdp_0_0_0))
+              (portRef DIB14 (instanceRef testdp_0_0_0))
+              (portRef DIB13 (instanceRef testdp_0_0_0))
+              (portRef DIB12 (instanceRef testdp_0_0_0))
+              (portRef DIB11 (instanceRef testdp_0_0_0))
+              (portRef DIB10 (instanceRef testdp_0_0_0))
+              (portRef DIB9 (instanceRef testdp_0_0_0))
+              (portRef DIB8 (instanceRef testdp_0_0_0))
+              (portRef DIB7 (instanceRef testdp_0_0_0))
+              (portRef DIB6 (instanceRef testdp_0_0_0))
+              (portRef DIB5 (instanceRef testdp_0_0_0))
+              (portRef DIB4 (instanceRef testdp_0_0_0))
+              (portRef DIB3 (instanceRef testdp_0_0_0))
+              (portRef DIB2 (instanceRef testdp_0_0_0))
+              (portRef DIB1 (instanceRef testdp_0_0_0))
+              (portRef DIB0 (instanceRef testdp_0_0_0))))
+          (net dataout15
+            (joined
+              (portRef (member Q 0))
+              (portRef DOB15 (instanceRef testdp_0_0_0))))
+          (net dataout14
+            (joined
+              (portRef (member Q 1))
+              (portRef DOB14 (instanceRef testdp_0_0_0))))
+          (net dataout13
+            (joined
+              (portRef (member Q 2))
+              (portRef DOB13 (instanceRef testdp_0_0_0))))
+          (net dataout12
+            (joined
+              (portRef (member Q 3))
+              (portRef DOB12 (instanceRef testdp_0_0_0))))
+          (net dataout11
+            (joined
+              (portRef (member Q 4))
+              (portRef DOB11 (instanceRef testdp_0_0_0))))
+          (net dataout10
+            (joined
+              (portRef (member Q 5))
+              (portRef DOB10 (instanceRef testdp_0_0_0))))
+          (net dataout9
+            (joined
+              (portRef (member Q 6))
+              (portRef DOB9 (instanceRef testdp_0_0_0))))
+          (net dataout8
+            (joined
+              (portRef (member Q 7))
+              (portRef DOB8 (instanceRef testdp_0_0_0))))
+          (net dataout7
+            (joined
+              (portRef (member Q 8))
+              (portRef DOB7 (instanceRef testdp_0_0_0))))
+          (net dataout6
+            (joined
+              (portRef (member Q 9))
+              (portRef DOB6 (instanceRef testdp_0_0_0))))
+          (net dataout5
+            (joined
+              (portRef (member Q 10))
+              (portRef DOB5 (instanceRef testdp_0_0_0))))
+          (net dataout4
+            (joined
+              (portRef (member Q 11))
+              (portRef DOB4 (instanceRef testdp_0_0_0))))
+          (net dataout3
+            (joined
+              (portRef (member Q 12))
+              (portRef DOB3 (instanceRef testdp_0_0_0))))
+          (net dataout2
+            (joined
+              (portRef (member Q 13))
+              (portRef DOB2 (instanceRef testdp_0_0_0))))
+          (net dataout1
+            (joined
+              (portRef (member Q 14))
+              (portRef DOB1 (instanceRef testdp_0_0_0))))
+          (net dataout0
+            (joined
+              (portRef (member Q 15))
+              (portRef DOB0 (instanceRef testdp_0_0_0))))
+          (net WrClockEn
+            (joined
+              (portRef WrClockEn)
+              (portRef OCEA (instanceRef testdp_0_0_0))
+              (portRef CEA (instanceRef testdp_0_0_0))))
+          (net clk
+            (joined
+              (portRef WrClock)
+              (portRef CLKA (instanceRef testdp_0_0_0))))
+          (net Reset
+            (joined
+              (portRef Reset)
+              (portRef RSTB (instanceRef testdp_0_0_0))
+              (portRef RSTA (instanceRef testdp_0_0_0))))
+          (net RdClockEn
+            (joined
+              (portRef RdClockEn)
+              (portRef OCEB (instanceRef testdp_0_0_0))
+              (portRef CEB (instanceRef testdp_0_0_0))))
+          (net rdclk
+            (joined
+              (portRef RdClock)
+              (portRef CLKB (instanceRef testdp_0_0_0))))
+          (net wren
+            (joined
+              (portRef WE)
+              (portRef WEA (instanceRef testdp_0_0_0))))
+          (net datain15
+            (joined
+              (portRef (member Data 0))
+              (portRef DIA15 (instanceRef testdp_0_0_0))))
+          (net datain14
+            (joined
+              (portRef (member Data 1))
+              (portRef DIA14 (instanceRef testdp_0_0_0))))
+          (net datain13
+            (joined
+              (portRef (member Data 2))
+              (portRef DIA13 (instanceRef testdp_0_0_0))))
+          (net datain12
+            (joined
+              (portRef (member Data 3))
+              (portRef DIA12 (instanceRef testdp_0_0_0))))
+          (net datain11
+            (joined
+              (portRef (member Data 4))
+              (portRef DIA11 (instanceRef testdp_0_0_0))))
+          (net datain10
+            (joined
+              (portRef (member Data 5))
+              (portRef DIA10 (instanceRef testdp_0_0_0))))
+          (net datain9
+            (joined
+              (portRef (member Data 6))
+              (portRef DIA9 (instanceRef testdp_0_0_0))))
+          (net datain8
+            (joined
+              (portRef (member Data 7))
+              (portRef DIA8 (instanceRef testdp_0_0_0))))
+          (net datain7
+            (joined
+              (portRef (member Data 8))
+              (portRef DIA7 (instanceRef testdp_0_0_0))))
+          (net datain6
+            (joined
+              (portRef (member Data 9))
+              (portRef DIA6 (instanceRef testdp_0_0_0))))
+          (net datain5
+            (joined
+              (portRef (member Data 10))
+              (portRef DIA5 (instanceRef testdp_0_0_0))))
+          (net datain4
+            (joined
+              (portRef (member Data 11))
+              (portRef DIA4 (instanceRef testdp_0_0_0))))
+          (net datain3
+            (joined
+              (portRef (member Data 12))
+              (portRef DIA3 (instanceRef testdp_0_0_0))))
+          (net datain2
+            (joined
+              (portRef (member Data 13))
+              (portRef DIA2 (instanceRef testdp_0_0_0))))
+          (net datain1
+            (joined
+              (portRef (member Data 14))
+              (portRef DIA1 (instanceRef testdp_0_0_0))))
+          (net datain0
+            (joined
+              (portRef (member Data 15))
+              (portRef DIA0 (instanceRef testdp_0_0_0))))
+          (net raddr4
+            (joined
+              (portRef (member RdAddress 0))
+              (portRef ADB8 (instanceRef testdp_0_0_0))))
+          (net raddr3
+            (joined
+              (portRef (member RdAddress 1))
+              (portRef ADB7 (instanceRef testdp_0_0_0))))
+          (net raddr2
+            (joined
+              (portRef (member RdAddress 2))
+              (portRef ADB6 (instanceRef testdp_0_0_0))))
+          (net raddr1
+            (joined
+              (portRef (member RdAddress 3))
+              (portRef ADB5 (instanceRef testdp_0_0_0))))
+          (net raddr0
+            (joined
+              (portRef (member RdAddress 4))
+              (portRef ADB4 (instanceRef testdp_0_0_0))))
+          (net waddr4
+            (joined
+              (portRef (member WrAddress 0))
+              (portRef ADA8 (instanceRef testdp_0_0_0))))
+          (net waddr3
+            (joined
+              (portRef (member WrAddress 1))
+              (portRef ADA7 (instanceRef testdp_0_0_0))))
+          (net waddr2
+            (joined
+              (portRef (member WrAddress 2))
+              (portRef ADA6 (instanceRef testdp_0_0_0))))
+          (net waddr1
+            (joined
+              (portRef (member WrAddress 3))
+              (portRef ADA5 (instanceRef testdp_0_0_0))))
+          (net waddr0
+            (joined
+              (portRef (member WrAddress 4))
+              (portRef ADA4 (instanceRef testdp_0_0_0))))))))
+  (design testdp
+    (cellRef testdp
+      (libraryRef ORCLIB)))
+)

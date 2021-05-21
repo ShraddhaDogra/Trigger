@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="lm32_platA" device="LFE3-70E-6FN484C" default_implementation="lm32_platA">
+    <Options/>
+    <Implementation title="Freq200" dir="freq200" description="Freq200" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="platformA"/>
+        <Source name="platforma/soc/platforma.v" type="Verilog" type_short="Verilog">
+            <Options top_module="platformA"/>
+        </Source>
+        <Source name="freq200.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Implementation title="lm32_platA" dir="lm32_plata" description="lm32_platA" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="platformA" top="platformA"/>
+        <Source name="platforma/soc/platforma.v" type="Verilog" type_short="Verilog">
+            <Options top_module="platformA"/>
+        </Source>
+        <Source name="lm32_plata.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="strategy1.sty"/>
+</BaliProject>

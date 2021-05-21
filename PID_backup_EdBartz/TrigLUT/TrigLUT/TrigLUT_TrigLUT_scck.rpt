@@ -1,0 +1,77 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1368R, built Jan  8 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Sep 21 15:40:18 2016
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ScatterTrig"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                          Requested      Requested     Clock        Clock                 
+Clock                          Frequency      Period        Type         Group                 
+-----------------------------------------------------------------------------------------------
+ScatterTrig|CLK_PCLK_RIGHT     4.2 MHz        240.553       inferred     Autoconstr_clkgroup_0 
+ScatterTrig|INP[0]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_48
+ScatterTrig|INP[1]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_47
+ScatterTrig|INP[2]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_46
+ScatterTrig|INP[3]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_45
+ScatterTrig|INP[4]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_44
+ScatterTrig|INP[5]             1694.1 MHz     0.590         inferred     Autoconstr_clkgroup_43
+ScatterTrig|INP[6]             1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_42
+ScatterTrig|INP[7]             1549.2 MHz     0.646         inferred     Autoconstr_clkgroup_41
+ScatterTrig|INP[8]             1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_40
+ScatterTrig|INP[9]             1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_39
+ScatterTrig|INP[10]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_38
+ScatterTrig|INP[11]            1511.3 MHz     0.662         inferred     Autoconstr_clkgroup_37
+ScatterTrig|INP[12]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_36
+ScatterTrig|INP[13]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_35
+ScatterTrig|INP[14]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_34
+ScatterTrig|INP[15]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_33
+ScatterTrig|INP[16]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_32
+ScatterTrig|INP[17]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_31
+ScatterTrig|INP[18]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_30
+ScatterTrig|INP[19]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_29
+ScatterTrig|INP[20]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_28
+ScatterTrig|INP[21]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_27
+ScatterTrig|INP[22]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_26
+ScatterTrig|INP[23]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_25
+ScatterTrig|INP[24]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_24
+ScatterTrig|INP[25]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_23
+ScatterTrig|INP[26]            1511.3 MHz     0.662         inferred     Autoconstr_clkgroup_22
+ScatterTrig|INP[27]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_21
+ScatterTrig|INP[28]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_20
+ScatterTrig|INP[29]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_19
+ScatterTrig|INP[30]            1549.2 MHz     0.646         inferred     Autoconstr_clkgroup_18
+ScatterTrig|INP[31]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_17
+ScatterTrig|INP[32]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_16
+ScatterTrig|INP[33]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_15
+ScatterTrig|INP[34]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_14
+ScatterTrig|INP[35]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_13
+ScatterTrig|INP[36]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_12
+ScatterTrig|INP[37]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_11
+ScatterTrig|INP[38]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_10
+ScatterTrig|INP[39]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_9 
+ScatterTrig|INP[40]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_8 
+ScatterTrig|INP[41]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_7 
+ScatterTrig|INP[42]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_6 
+ScatterTrig|INP[43]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_5 
+ScatterTrig|INP[44]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_4 
+ScatterTrig|INP[45]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_3 
+ScatterTrig|INP[46]            1807.0 MHz     0.553         inferred     Autoconstr_clkgroup_2 
+ScatterTrig|INP[47]            1807.0 MHz     0.553         inferred     Autoconstr_clkgroup_1 
+System                         1694.1 MHz     0.590         system       system_clkgroup       
+===============================================================================================

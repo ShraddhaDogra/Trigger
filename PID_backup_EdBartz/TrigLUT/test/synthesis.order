@@ -1,0 +1,10 @@
+i<>.\..\Source\LeadDelay.v
+i<>.\..\Source\SR_Latch.v
+i<>.\..\Source\retrigger.v
+i<>.\..\Source\SR_Reg.v
+i<>.\..\TrigLUT\source\Top.v
+i<>.\..\Source\TrigLUT_tf.v
+i<>.\..\T_ff_clr.v
+i<>.\..\T_ff_pset.v
+i<>.\..\DelayBit.v
+i<>.\..\Input_Reg.v

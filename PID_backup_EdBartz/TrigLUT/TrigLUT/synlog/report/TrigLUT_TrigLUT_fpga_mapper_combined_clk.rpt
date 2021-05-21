@@ -1,0 +1,178 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+47 non-gated/non-generated clock tree(s) driving 2081 clock pin(s) of sequential element(s)
+108 gated/generated clock tree(s) driving 216 clock pin(s) of sequential element(s)
+0 instances converted, 216 sequential instances remain driven by gated/generated clocks
+
+===================================== Non-Gated/Non-Generated Clocks =====================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                   
+----------------------------------------------------------------------------------------------------------
+@K:CKID0109       CLK_PCLK_RIGHT      port                   1728       Blink.count[31]                   
+@K:CKID0110       INP[63:0]           port                   10         ps6.iretrig.retrigger[33].retr[33]
+@K:CKID0111       INP[63:0]           port                   10         ps6.iretrig.retrigger[34].retr[34]
+@K:CKID0112       INP[63:0]           port                   10         ps6.iretrig.retrigger[35].retr[35]
+@K:CKID0113       INP[63:0]           port                   10         ps6.iretrig.retrigger[36].retr[36]
+@K:CKID0114       INP[63:0]           port                   10         ps6.iretrig.retrigger[37].retr[37]
+@K:CKID0115       INP[63:0]           port                   10         ps6.iretrig.retrigger[38].retr[38]
+@K:CKID0116       INP[63:0]           port                   10         ps6.iretrig.retrigger[39].retr[39]
+@K:CKID0117       INP[63:0]           port                   9          ps6.iretrig.retrigger[10].retr[10]
+@K:CKID0118       INP[63:0]           port                   9          ps6.iretrig.retrigger[11].retr[11]
+@K:CKID0119       INP[63:0]           port                   9          ps6.iretrig.retrigger[12].retr[12]
+@K:CKID0120       INP[63:0]           port                   9          ps6.iretrig.retrigger[16].retr[16]
+@K:CKID0121       INP[63:0]           port                   9          ps6.iretrig.retrigger[17].retr[17]
+@K:CKID0122       INP[63:0]           port                   9          ps6.iretrig.retrigger[18].retr[18]
+@K:CKID0123       INP[63:0]           port                   9          ps6.iretrig.retrigger[19].retr[19]
+@K:CKID0124       INP[63:0]           port                   9          ps6.iretrig.retrigger[20].retr[20]
+@K:CKID0125       INP[63:0]           port                   9          ps6.iretrig.retrigger[25].retr[25]
+@K:CKID0126       INP[63:0]           port                   9          ps6.iretrig.retrigger[26].retr[26]
+@K:CKID0127       INP[63:0]           port                   9          ps6.iretrig.retrigger[27].retr[27]
+@K:CKID0128       INP[63:0]           port                   8          ps6.iretrig.retrigger[13].retr[13]
+@K:CKID0129       INP[63:0]           port                   8          ps6.iretrig.retrigger[24].retr[24]
+@K:CKID0130       INP[63:0]           port                   8          ps6.iretrig.retrigger[29].retr[29]
+@K:CKID0131       INP[63:0]           port                   8          ps6.iretrig.retrigger[32].retr[32]
+@K:CKID0132       INP[63:0]           port                   8          ps6.iretrig.retrigger[8].retr[8]  
+@K:CKID0133       INP[63:0]           port                   7          ps6.iretrig.retrigger[14].retr[14]
+@K:CKID0134       INP[63:0]           port                   7          ps6.iretrig.retrigger[15].retr[15]
+@K:CKID0135       INP[63:0]           port                   7          ps6.iretrig.retrigger[22].retr[22]
+@K:CKID0136       INP[63:0]           port                   7          ps6.iretrig.retrigger[23].retr[23]
+@K:CKID0137       INP[63:0]           port                   7          ps6.iretrig.retrigger[28].retr[28]
+@K:CKID0138       INP[63:0]           port                   7          ps6.iretrig.retrigger[9].retr[9]  
+@K:CKID0139       INP[63:0]           port                   6          ps6.iretrig.retrigger[0].retr[0]  
+@K:CKID0140       INP[63:0]           port                   6          ps6.iretrig.retrigger[1].retr[1]  
+@K:CKID0141       INP[63:0]           port                   6          ps6.iretrig.retrigger[21].retr[21]
+@K:CKID0142       INP[63:0]           port                   6          ps6.iretrig.retrigger[2].retr[2]  
+@K:CKID0143       INP[63:0]           port                   6          ps6.iretrig.retrigger[30].retr[30]
+@K:CKID0144       INP[63:0]           port                   6          ps6.iretrig.retrigger[31].retr[31]
+@K:CKID0145       INP[63:0]           port                   6          ps6.iretrig.retrigger[3].retr[3]  
+@K:CKID0146       INP[63:0]           port                   6          ps6.iretrig.retrigger[40].retr[40]
+@K:CKID0147       INP[63:0]           port                   6          ps6.iretrig.retrigger[41].retr[41]
+@K:CKID0148       INP[63:0]           port                   6          ps6.iretrig.retrigger[42].retr[42]
+@K:CKID0149       INP[63:0]           port                   6          ps6.iretrig.retrigger[43].retr[43]
+@K:CKID0150       INP[63:0]           port                   6          ps6.iretrig.retrigger[44].retr[44]
+@K:CKID0151       INP[63:0]           port                   6          ps6.iretrig.retrigger[45].retr[45]
+@K:CKID0152       INP[63:0]           port                   6          ps6.iretrig.retrigger[4].retr[4]  
+@K:CKID0153       INP[63:0]           port                   6          ps6.iretrig.retrigger[5].retr[5]  
+@K:CKID0154       INP[63:0]           port                   6          ps6.iretrig.retrigger[6].retr[6]  
+@K:CKID0155       INP[63:0]           port                   6          ps6.iretrig.retrigger[7].retr[7]  
+==========================================================================================================
+===================================================================================== Gated/Generated Clocks =====================================================================================
+Clock Tree ID     Driving Element                    Drive Element Type     Fanout     Sample Instance                               Explanation                                                  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       BO3A.N_1594_i                      ORCALUT4               2          LatchAnd3A.iretrig.retrigger[0].retr[0]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0002       BO3A.And3A_i_a3_1_RNI84261[10]     ORCALUT4               2          LatchAnd3A.iretrig.retrigger[10].retr[10]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0003       BO3A.And5A_i_a2_RNI0CM51[13]       ORCALUT4               2          LatchAnd3A.iretrig.retrigger[11].retr[11]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0004       BO3A.And5A_i_a2_RNICDFV[13]        ORCALUT4               2          LatchAnd3A.iretrig.retrigger[12].retr[12]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0005       BO3A.And5A_i_a2_0_RNI6ISV[14]      ORCALUT4               2          LatchAnd3A.iretrig.retrigger[13].retr[13]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0006       BO3A.N_1580_i                      ORCALUT4               2          LatchAnd3A.iretrig.retrigger[14].retr[14]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0007       BO3A.And5A_i_a2_RNIVME01[14]       ORCALUT4               2          LatchAnd3A.iretrig.retrigger[15].retr[15]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0008       BO3A.And5A_i_a2_RNINO171[14]       ORCALUT4               2          LatchAnd3A.iretrig.retrigger[16].retr[16]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0009       BO3A.N_1577_i                      ORCALUT4               2          LatchAnd3A.iretrig.retrigger[17].retr[17]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0010       BO3A.And5A_i_a2_RNIPGI81[3]        ORCALUT4               2          LatchAnd3A.iretrig.retrigger[1].retr[1]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0011       BO3A.And5A_i_a2_RNIHOD41[3]        ORCALUT4               2          LatchAnd3A.iretrig.retrigger[2].retr[2]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0012       BO3A.N_1591_i                      ORCALUT4               2          LatchAnd3A.iretrig.retrigger[3].retr[3]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0013       BO3A.And5A_i_a2_RNI5TVR[5]         ORCALUT4               2          LatchAnd3A.iretrig.retrigger[4].retr[4]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0014       BO3A.And5A_i_a2_RNIKJ7P[4]         ORCALUT4               2          LatchAnd3A.iretrig.retrigger[5].retr[5]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0015       BO3A.And5A_i_a2_RNIEEUK[4]         ORCALUT4               2          LatchAnd3A.iretrig.retrigger[6].retr[6]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0016       BO3A.And3A_i_a3_0_RNIPI361[7]      ORCALUT4               2          LatchAnd3A.iretrig.retrigger[7].retr[7]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0017       BO3A.N_1586_i                      ORCALUT4               2          LatchAnd3A.iretrig.retrigger[8].retr[8]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0018       BO3A.N_1585_i                      ORCALUT4               2          LatchAnd3A.iretrig.retrigger[9].retr[9]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0019       BO3A.And3A_i_a2_RNIGDB51[0]        ORCALUT4               2          LatchAnd5A.iretrig.retrigger[0].retr[0]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0020       BO3A.And3A_i_a2_RNI3M0F1[9]        ORCALUT4               2          LatchAnd5A.iretrig.retrigger[10].retr[10]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0021       BO3A.N_1565_i                      ORCALUT4               2          LatchAnd5A.iretrig.retrigger[11].retr[11]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0022       BO3A.And5A_i_a2_0_RNIICV31[14]     ORCALUT4               2          LatchAnd5A.iretrig.retrigger[12].retr[12]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0023       BO3A.And5A_i_a2_0_RNI05KD1[14]     ORCALUT4               2          LatchAnd5A.iretrig.retrigger[13].retr[13]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0024       BO3A.And5A_i_a2_0_RNICQ141[14]     ORCALUT4               2          LatchAnd5A.iretrig.retrigger[14].retr[14]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0025       BO3A.N_1561_i                      ORCALUT4               2          LatchAnd5A.iretrig.retrigger[15].retr[15]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0026       BO3A.N_1560_i                      ORCALUT4               2          LatchAnd5A.iretrig.retrigger[16].retr[16]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0027       BO3A.And3A_i_a2_RNISNHR[17]        ORCALUT4               2          LatchAnd5A.iretrig.retrigger[17].retr[17]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0028       BO3A.And3A_i_a2_RNIJMHG1[0]        ORCALUT4               2          LatchAnd5A.iretrig.retrigger[1].retr[1]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0029       BO3A.N_1574_i                      ORCALUT4               2          LatchAnd5A.iretrig.retrigger[2].retr[2]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0030       BO3A.And5A_i_a2_RNIL0NP[5]         ORCALUT4               2          LatchAnd5A.iretrig.retrigger[3].retr[3]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0031       BO3A.And5A_i_a2_RNIVRI41[5]        ORCALUT4               2          LatchAnd5A.iretrig.retrigger[4].retr[4]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0032       BO3A.And5A_i_a2_RNIF6HO[5]         ORCALUT4               2          LatchAnd5A.iretrig.retrigger[5].retr[5]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0033       BO3A.N_1570_i                      ORCALUT4               2          LatchAnd5A.iretrig.retrigger[6].retr[6]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0034       BO3A.And3A_i_a2_RNIK7J51[8]        ORCALUT4               2          LatchAnd5A.iretrig.retrigger[7].retr[7]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0035       BO3A.And3A_i_a2_RNI0GHM[8]         ORCALUT4               2          LatchAnd5A.iretrig.retrigger[8].retr[8]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0036       BO3A.And3A_i_a2_RNIQPP01[8]        ORCALUT4               2          LatchAnd5A.iretrig.retrigger[9].retr[9]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0037       BO3B.And5B_i_a2_RNI02R01[2]        ORCALUT4               2          LatchAnd3B.iretrig.retrigger[0].retr[0]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0038       BO3B.And3B_i_a3_1_RNIDB89[10]      ORCALUT4               2          LatchAnd3B.iretrig.retrigger[10].retr[10]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0039       BO3B.And5B_i_a2_RNI4MTV[13]        ORCALUT4               2          LatchAnd3B.iretrig.retrigger[11].retr[11]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0040       BO3B.And5B_i_a2_RNIHG3F1[13]       ORCALUT4               2          LatchAnd3B.iretrig.retrigger[12].retr[12]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0041       BO3B.And5B_i_a2_0_RNIA0MT[14]      ORCALUT4               2          LatchAnd3B.iretrig.retrigger[13].retr[13]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0042       BO3B.N_1499_i                      ORCALUT4               2          LatchAnd3B.iretrig.retrigger[14].retr[14]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0043       BO3B.And5B_i_a2_RNI4Q2G1[14]       ORCALUT4               2          LatchAnd3B.iretrig.retrigger[15].retr[15]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0044       BO3B.And5B_i_a2_RNISRL61[14]       ORCALUT4               2          LatchAnd3B.iretrig.retrigger[16].retr[16]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0045       BO3B.N_1496_i                      ORCALUT4               2          LatchAnd3B.iretrig.retrigger[17].retr[17]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0046       BO3B.And5B_i_a2_RNIJCO31[2]        ORCALUT4               2          LatchAnd3B.iretrig.retrigger[1].retr[1]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0047       BO3B.And5B_i_a2_RNI9VN21[3]        ORCALUT4               2          LatchAnd3B.iretrig.retrigger[2].retr[2]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0048       BO3B.N_1510_i                      ORCALUT4               2          LatchAnd3B.iretrig.retrigger[3].retr[3]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0049       BO3B.And5B_i_a2_RNIMPNG1[5]        ORCALUT4               2          LatchAnd3B.iretrig.retrigger[4].retr[4]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0050       BO3B.And5B_i_a2_RNI2MQF1[5]        ORCALUT4               2          LatchAnd3B.iretrig.retrigger[5].retr[5]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0051       BO3B.N_1507_i                      ORCALUT4               2          LatchAnd3B.iretrig.retrigger[6].retr[6]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0052       BO3B.And3B_i_a3_0_RNIUNF31[7]      ORCALUT4               2          LatchAnd3B.iretrig.retrigger[7].retr[7]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0053       BO3B.N_1505_i                      ORCALUT4               2          LatchAnd3B.iretrig.retrigger[8].retr[8]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0054       BO3B.N_1504_i                      ORCALUT4               2          LatchAnd3B.iretrig.retrigger[9].retr[9]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0055       BO3B.N_1495_i                      ORCALUT4               2          LatchAnd5B.iretrig.retrigger[0].retr[0]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0056       BO3B.And3B_i_a2_RNI9MV01[9]        ORCALUT4               2          LatchAnd5B.iretrig.retrigger[10].retr[10]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0057       BO3B.N_1484_i                      ORCALUT4               2          LatchAnd5B.iretrig.retrigger[11].retr[11]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0058       BO3B.And5B_i_a2_0_RNIOI6H1[14]     ORCALUT4               2          LatchAnd5B.iretrig.retrigger[12].retr[12]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0059       BO3B.And5B_i_a2_0_RNI6BRA1[14]     ORCALUT4               2          LatchAnd5B.iretrig.retrigger[13].retr[13]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0060       BO3B.And5B_i_a2_0_RNIH18N[14]      ORCALUT4               2          LatchAnd5B.iretrig.retrigger[14].retr[14]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0061       BO3B.N_1480_i                      ORCALUT4               2          LatchAnd5B.iretrig.retrigger[15].retr[15]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0062       BO3B.N_1479_i                      ORCALUT4               2          LatchAnd5B.iretrig.retrigger[16].retr[16]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0063       BO3B.And3B_i_a2_RNI1R5B1[17]       ORCALUT4               2          LatchAnd5B.iretrig.retrigger[17].retr[17]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0064       BO3B.And5B_i_a2_RNI5T9K1[2]        ORCALUT4               2          LatchAnd5B.iretrig.retrigger[1].retr[1]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0065       BO3B.And5B_i_a2_RNI1MOA1[2]        ORCALUT4               2          LatchAnd5B.iretrig.retrigger[2].retr[2]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0066       BO3B.And5B_i_a2_RNIIG8C1[3]        ORCALUT4               2          LatchAnd5B.iretrig.retrigger[3].retr[3]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0067       BO3B.N_1491_i                      ORCALUT4               2          LatchAnd5B.iretrig.retrigger[4].retr[4]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0068       BO3B.And3B_i_a2_RNIBC761[6]        ORCALUT4               2          LatchAnd5B.iretrig.retrigger[5].retr[5]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0069       BO3B.And3B_i_a2_RNI5LSS[6]         ORCALUT4               2          LatchAnd5B.iretrig.retrigger[6].retr[6]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0070       BO3B.And3B_i_a2_RNI3NJE[6]         ORCALUT4               2          LatchAnd5B.iretrig.retrigger[7].retr[7]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0071       BO3B.And3B_i_a2_RNI5HFU[8]         ORCALUT4               2          LatchAnd5B.iretrig.retrigger[8].retr[8]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0072       BO3B.And3B_i_a2_RNIVQN81[8]        ORCALUT4               2          LatchAnd5B.iretrig.retrigger[9].retr[9]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0073       BO3C.N_76_i                        ORCALUT4               2          LatchAnd3C.iretrig.retrigger[0].retr[0]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0074       BO3C.And3C_i_a3_1_RNIIIES[10]      ORCALUT4               2          LatchAnd3C.iretrig.retrigger[10].retr[10]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0075       BO3C.N_54_i                        ORCALUT4               2          LatchAnd3C.iretrig.retrigger[11].retr[11]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0076       BO3C.And5C_i_a2_RNIFK201[14]       ORCALUT4               2          LatchAnd3C.iretrig.retrigger[12].retr[12]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0077       BO3C.And5C_i_a2_RNIPSC21[14]       ORCALUT4               2          LatchAnd3C.iretrig.retrigger[13].retr[13]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0078       BO3C.N_48_i                        ORCALUT4               2          LatchAnd3C.iretrig.retrigger[14].retr[14]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0079       BO3C.And5C_i_a2_RNIHTCQ[16]        ORCALUT4               2          LatchAnd3C.iretrig.retrigger[15].retr[15]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0080       BO3C.And5C_i_a2_RNIC6CJ1[15]       ORCALUT4               2          LatchAnd3C.iretrig.retrigger[16].retr[16]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0081       BO3C.And5C_i_a2_RNI6MAT[15]        ORCALUT4               2          LatchAnd3C.iretrig.retrigger[17].retr[17]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0082       BO3C.And5C_i_a2_RNI37KP[3]         ORCALUT4               2          LatchAnd3C.iretrig.retrigger[1].retr[1]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0083       BO3C.And5C_i_a2_RNIRIDQ[3]         ORCALUT4               2          LatchAnd3C.iretrig.retrigger[2].retr[2]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0084       BO3C.N_70_i                        ORCALUT4               2          LatchAnd3C.iretrig.retrigger[3].retr[3]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0085       BO3C.And5C_i_a2_RNID94C[5]         ORCALUT4               2          LatchAnd3C.iretrig.retrigger[4].retr[4]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0086       BO3C.And5C_i_a2_RNIUL3P[4]         ORCALUT4               2          LatchAnd3C.iretrig.retrigger[5].retr[5]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0087       BO3C.And5C_i_a2_RNIMU0Q[4]         ORCALUT4               2          LatchAnd3C.iretrig.retrigger[6].retr[6]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0088       BO3C.And3C_i_a3_0_RNI3TR01[7]      ORCALUT4               2          LatchAnd3C.iretrig.retrigger[7].retr[7]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0089       BO3C.N_60_i                        ORCALUT4               2          LatchAnd3C.iretrig.retrigger[8].retr[8]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0090       BO3C.N_58_i                        ORCALUT4               2          LatchAnd3C.iretrig.retrigger[9].retr[9]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0091       BO3C.And3C_i_a2_RNIQ3D61[0]        ORCALUT4               2          LatchAnd5C.iretrig.retrigger[0].retr[0]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0092       BO3C.And3C_i_a2_RNIR64T[9]         ORCALUT4               2          LatchAnd5C.iretrig.retrigger[10].retr[10]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0093       BO3C.And3C_i_a2_RNIOJKH1[11]       ORCALUT4               2          LatchAnd5C.iretrig.retrigger[11].retr[11]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0094       BO3C.And3C_i_a2_RNILNGV[11]        ORCALUT4               2          LatchAnd5C.iretrig.retrigger[12].retr[12]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0095       BO3C.N_14_i                        ORCALUT4               2          LatchAnd5C.iretrig.retrigger[13].retr[13]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0096       BO3C.And5C_i_a2_RNIT6261[16]       ORCALUT4               2          LatchAnd5C.iretrig.retrigger[14].retr[14]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0097       BO3C.And5C_i_a2_RNI12M91[15]       ORCALUT4               2          LatchAnd5C.iretrig.retrigger[15].retr[15]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0098       BO3C.And5C_i_a2_RNITJJN1[15]       ORCALUT4               2          LatchAnd5C.iretrig.retrigger[16].retr[16]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0099       BO3C.N_6_i                         ORCALUT4               2          LatchAnd5C.iretrig.retrigger[17].retr[17]     No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0100       BO3C.And3C_i_a2_RNIVE501[0]        ORCALUT4               2          LatchAnd5C.iretrig.retrigger[1].retr[1]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0101       BO3C.N_36_i                        ORCALUT4               2          LatchAnd5C.iretrig.retrigger[2].retr[2]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0102       BO3C.And5C_i_a2_RNIVQMV[5]         ORCALUT4               2          LatchAnd5C.iretrig.retrigger[3].retr[3]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0103       BO3C.And5C_i_a2_RNIBK6K[5]         ORCALUT4               2          LatchAnd5C.iretrig.retrigger[4].retr[4]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0104       BO3C.And5C_i_a2_RNIR23T[5]         ORCALUT4               2          LatchAnd5C.iretrig.retrigger[5].retr[5]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0105       BO3C.N_28_i                        ORCALUT4               2          LatchAnd5C.iretrig.retrigger[6].retr[6]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0106       BO3C.And3C_i_a2_RNI045A1[8]        ORCALUT4               2          LatchAnd5C.iretrig.retrigger[7].retr[7]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0107       BO3C.And3C_i_a2_RNIAIDM1[8]        ORCALUT4               2          LatchAnd5C.iretrig.retrigger[8].retr[8]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+@K:CKID0108       BO3C.And3C_i_a2_RNI4SL01[8]        ORCALUT4               2          LatchAnd5C.iretrig.retrigger[9].retr[9]       No gated clock conversion method for cell cell:LUCENT.FD1S3BX
+==================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

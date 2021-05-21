@@ -1,0 +1,12 @@
+[General]
+Implementation%3CStrategy%3E=false
+Status=6
+Progress=0
+Start=Unknown...
+Run%20Time=NA
+Score=NA
+Unrouted=NA
+Description=lm32_platA
+
+[Level]
+Cost=NA

@@ -1,0 +1,192 @@
+# Synopsys Constraint Checker, version maplat, Build 1368R, built Jan  8 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Sep 21 15:40:18 2016
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ScatterTrig"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                       Ending                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                         System                         |     0.590            |     No paths         |     No paths         |     No paths                         
+System                         ScatterTrig|CLK_PCLK_RIGHT     |     240.553          |     No paths         |     No paths         |     No paths                         
+ScatterTrig|CLK_PCLK_RIGHT     ScatterTrig|CLK_PCLK_RIGHT     |     240.553          |     No paths         |     120.277          |     No paths                         
+ScatterTrig|INP[47]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[47]            ScatterTrig|INP[47]            |     0.553            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[46]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[46]            ScatterTrig|INP[46]            |     0.553            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[45]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[45]            ScatterTrig|INP[45]            |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[44]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[44]            ScatterTrig|INP[44]            |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[43]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[43]            ScatterTrig|INP[43]            |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[42]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[42]            ScatterTrig|INP[42]            |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[41]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[41]            ScatterTrig|INP[41]            |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[40]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[40]            ScatterTrig|INP[40]            |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[39]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[39]            ScatterTrig|INP[39]            |     0.632            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[38]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[38]            ScatterTrig|INP[38]            |     0.632            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[37]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[37]            ScatterTrig|INP[37]            |     0.632            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[36]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[36]            ScatterTrig|INP[36]            |     0.632            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[35]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[35]            ScatterTrig|INP[35]            |     0.632            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[34]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[34]            ScatterTrig|INP[34]            |     0.632            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[33]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[33]            ScatterTrig|INP[33]            |     0.632            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[32]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[32]            ScatterTrig|INP[32]            |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[31]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[31]            ScatterTrig|INP[31]            |     0.632            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[30]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[30]            ScatterTrig|INP[30]            |     0.646            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[29]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[29]            ScatterTrig|INP[29]            |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[28]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[28]            ScatterTrig|INP[28]            |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[27]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[27]            ScatterTrig|INP[27]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[26]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[26]            ScatterTrig|INP[26]            |     0.662            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[25]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[25]            ScatterTrig|INP[25]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[24]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[24]            ScatterTrig|INP[24]            |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[23]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[23]            ScatterTrig|INP[23]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[22]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[22]            ScatterTrig|INP[22]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[21]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[21]            ScatterTrig|INP[21]            |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[20]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[20]            ScatterTrig|INP[20]            |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[19]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[19]            ScatterTrig|INP[19]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[18]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[18]            ScatterTrig|INP[18]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[17]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[17]            ScatterTrig|INP[17]            |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[16]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[16]            ScatterTrig|INP[16]            |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[15]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[15]            ScatterTrig|INP[15]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[14]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[14]            ScatterTrig|INP[14]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[13]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[13]            ScatterTrig|INP[13]            |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[12]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[12]            ScatterTrig|INP[12]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[11]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[11]            ScatterTrig|INP[11]            |     0.662            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[10]            ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[10]            ScatterTrig|INP[10]            |     0.659            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[9]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[9]             ScatterTrig|INP[9]             |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[8]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[8]             ScatterTrig|INP[8]             |     0.655            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[7]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[7]             ScatterTrig|INP[7]             |     0.646            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[6]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[6]             ScatterTrig|INP[6]             |     0.632            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[5]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[5]             ScatterTrig|INP[5]             |     0.590            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[4]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[4]             ScatterTrig|INP[4]             |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[3]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[3]             ScatterTrig|INP[3]             |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[2]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[2]             ScatterTrig|INP[2]             |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[1]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[1]             ScatterTrig|INP[1]             |     0.613            |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[0]             ScatterTrig|CLK_PCLK_RIGHT     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ScatterTrig|INP[0]             ScatterTrig|INP[0]             |     0.613            |     No paths         |     No paths         |     No paths                         
+=========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:INP[48]
+p:INP[49]
+p:INP[50]
+p:INP[51]
+p:INP[52]
+p:INP[53]
+p:INP[54]
+p:INP[55]
+p:INP[56]
+p:INP[57]
+p:INP[58]
+p:INP[59]
+p:INP[60]
+p:INP[61]
+p:INP[62]
+p:INP[63]
+p:InpA
+p:InpB
+p:InpC
+p:LED_GREEN
+p:LED_ORANGE
+p:LED_RED
+p:LED_YELLOW
+p:OutpA[0]
+p:OutpA[1]
+p:OutpA[2]
+p:OutpB[0]
+p:OutpB[1]
+p:OutpB[2]
+p:OutpC[0]
+p:OutpC[1]
+p:OutpC[2]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

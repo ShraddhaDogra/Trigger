@@ -1,0 +1,56 @@
+[Device]
+Family=latticeecp3
+PartType=LFE3-150EA
+PartName=LFE3-150EA-8FN672C
+SpeedGrade=8
+Package=FPBGA672
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=RAM_DP
+CoreRevision=6.5
+ModuleName=testdp
+SourceFormat=Verilog HDL
+ParameterFileVersion=1.0
+Date=09/28/2016
+Time=10:33:41
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+RAddress=32
+RData=16
+WAddress=32
+WData=16
+enByte=0
+ByteSize=9
+adPipeline=0
+inPipeline=0
+outPipeline=1
+MOR=0
+InData=Registered
+AdControl=Registered
+MemFile=
+MemFormat=bin
+Reset=Sync
+GSR=Enabled
+Pad=0
+EnECC=0
+Optimization=Speed
+EnSleep=ENABLED
+Pipeline=0
+
+[FilesGenerated]
+=mem
+
+[Command]
+cmd_line= -w -n testdp -lang verilog -synth synplify -bus_exp 7 -bb -arch ep5c00 -device LFE3-150EA -type ramdps -raddr_width 5 -rwidth 16 -waddr_width 5 -wwidth 16 -rnum_words 32 -wnum_words 32 -outdata REGISTERED -cascade -1

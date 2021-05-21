@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="TrigLUT" device="LFE3-150EA-8FN672C" default_implementation="TrigLUT">
+    <Options/>
+    <Implementation title="TrigLUT" dir="TrigLUT" description="TrigLUT" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="ScatterTrig_tf" top="ScatterTrig"/>
+        <Source name="Source/BackOr.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/BackOr5.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/DelayBit.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Input_Reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/LeadDelay.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/PulseStretch.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/retrigger.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/ScatterTrig.v" type="Verilog" type_short="Verilog">
+            <Options top_module="ScatterTrig"/>
+        </Source>
+        <Source name="Source/SR_Latch.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/SR_Reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/T_ff_clr.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/T_ff_pset.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/TrigLUT_tf.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Or8.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Or18.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/TrigTest1.lpf" type="Logic Preference" type_short="LPF" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="test/test.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="TrigLUT.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="TrigLUT1.sty"/>
+</BaliProject>

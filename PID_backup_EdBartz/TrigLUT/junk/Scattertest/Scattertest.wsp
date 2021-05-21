@@ -1,0 +1,34 @@
+[COMPILESTATUS|.\..\Source\Delay_buf.v]
+FileTimeLow=30428089
+Status=Compiled
+[COMPILESTATUS|.\..\Source\Stretcher.v]
+FileTimeLow=30428090
+Status=Compiled
+[COMPILESTATUS|.\..\Source\LeadDelay.v]
+FileTimeLow=30507087
+Status=Modified
+[COMPILESTATUS|.\..\Source\SR_Latch.v]
+FileTimeLow=30506896
+Status=Compiled
+[COMPILESTATUS|.\..\Source\retrigger.v]
+FileTimeLow=30506901
+Status=Compiled
+[COMPILESTATUS|.\..\Source\SR_Reg.v]
+FileTimeLow=30506897
+Status=Compiled
+[COMPILESTATUS|.\..\TrigLUT\source\Top.v]
+FileTimeLow=30507087
+Status=Modified
+[COMPILESTATUS|.\..\Source\TrigLUT_tf.v]
+FileTimeLow=30507087
+Status=Modified
+[COMPILESTATUS|.\src\scatter.asdb]
+FileTimeLow=30507084
+Status=Modified
+[COMPILESTATUS|.\src\scatter.awc]
+FileTimeLow=30507085
+Status=Modified
+[CACHEDOC|Aldec.Project.Generic.7|.\Scattertest.adf|]
+Path=/ScatterTrig_tf
+[Gui config]
+RunFor=100 ns

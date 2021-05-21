@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="TrigTDC" device="LFE3-150EA-8FN672C" default_implementation="TrigTDC">
+    <Options/>
+    <Implementation title="TrigTDC" dir="TrigTDC" description="TrigTDC" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="SFineTimeBit5" top="TriggerTDCTop"/>
+        <Source name="Source/TrigTDC_tf.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="Source/Ch48.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/ClockGen.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/comnet.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/ComTrans.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/DeBounce_v.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/FineTimeBit.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/hit_cntr.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Input_Reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/InputBit.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Lanalyzer.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/leds.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Ltch8.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Ltch32.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Ltch33.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Ltch40.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Ltch42.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Mux3x32.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Mux16x32.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Register.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/SFineTimeBit.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Shift33.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Shift40.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Shift42.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Shiftout32.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/StrSt.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/sync_cntr.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/Teststate.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/timestatics.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/TriggerTDC.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/TriggerTDCTop.v" type="Verilog" type_short="Verilog">
+            <Options top_module="TriggerTDCTop"/>
+        </Source>
+        <Source name="Source/wcomp.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Cpll0.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="Cpll1.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="Cpll2.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="Cpll3.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="Cpll.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="Cpll4.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="readoutfifo.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="LA_FIFO.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="Source/Lanalyzer0.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/SFineTimeBit0.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/SFineTimeBit1.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/SFineTimeBit2.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/SFineTimeBit3.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/SFineTimeBit4.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/SFineTimeBit5.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Source/TrigTDC.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="test/test.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="TrigTDC1.sty"/>
+</BaliProject>

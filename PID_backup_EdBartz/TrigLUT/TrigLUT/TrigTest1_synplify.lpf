@@ -1,0 +1,36 @@
+#
+# Logical Preferences generated for Lattice by Synplify maplat, Build 1264R.
+#
+
+# Period Constraints 
+#FREQUENCY PORT "InpD" 1.0 MHz;
+#FREQUENCY PORT "InpC" 1.0 MHz;
+#FREQUENCY PORT "InpB" 1.0 MHz;
+#FREQUENCY PORT "InpA" 1.0 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "InpD_c" TO CLKNET "InpC_c";
+#BLOCK PATH FROM CLKNET "InpD_c" TO CLKNET "InpB_c";
+#BLOCK PATH FROM CLKNET "InpD_c" TO CLKNET "InpA_c";
+#BLOCK PATH FROM CLKNET "InpC_c" TO CLKNET "InpD_c";
+#BLOCK PATH FROM CLKNET "InpC_c" TO CLKNET "InpB_c";
+#BLOCK PATH FROM CLKNET "InpC_c" TO CLKNET "InpA_c";
+#BLOCK PATH FROM CLKNET "InpB_c" TO CLKNET "InpD_c";
+#BLOCK PATH FROM CLKNET "InpB_c" TO CLKNET "InpC_c";
+#BLOCK PATH FROM CLKNET "InpB_c" TO CLKNET "InpA_c";
+#BLOCK PATH FROM CLKNET "InpA_c" TO CLKNET "InpD_c";
+#BLOCK PATH FROM CLKNET "InpA_c" TO CLKNET "InpC_c";
+#BLOCK PATH FROM CLKNET "InpA_c" TO CLKNET "InpB_c";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

@@ -1,0 +1,198 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Aug 10 15:59:03 2016
+#
+
+
+Top view:               TriggerTDC
+Requested Frequency:    291.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.000
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                              Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                Frequency     Frequency     Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------------
+TriggerTDC|CLK_GPLL_RIGHT     291.3 MHz     247.6 MHz     3.433         4.039         -0.606     inferred     Autoconstr_clkgroup_0
+System                        1.0 MHz       1.0 MHz       1000.000      1000.000      0.000      system       system_clkgroup      
+===================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------
+Starting                   Ending                     |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------
+System                     System                     |  0.000       0.000  |  No paths    -      |  No paths    -      |  No paths    -    
+TriggerTDC|CLK_GPLL_RIGHT  TriggerTDC|CLK_GPLL_RIGHT  |  0.000       1.166  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: TriggerTDC|CLK_GPLL_RIGHT
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                                        Arrival          
+Instance            Reference                     Type        Pin     Net           Time        Slack
+                    Clock                                                                            
+-----------------------------------------------------------------------------------------------------
+Blink.count[29]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[29]     0.748       1.166
+Blink.count[30]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[30]     0.748       1.166
+Blink.count[31]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[31]     0.748       1.166
+Blink.count[12]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[12]     0.688       1.465
+Blink.count[13]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[13]     0.688       1.465
+Blink.count[14]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[14]     0.688       1.465
+Blink.count[15]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[15]     0.688       1.465
+Blink.count[16]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[16]     0.688       1.465
+Blink.count[17]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[17]     0.688       1.465
+Blink.count[18]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[18]     0.688       1.465
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                 Required          
+Instance            Reference                     Type         Pin     Net                   Time         Slack
+                    Clock                                                                                      
+---------------------------------------------------------------------------------------------------------------
+Blink_aio           TriggerTDC|CLK_GPLL_RIGHT     OFS1P3DX     D       Blink.count_i[31]     0.059        1.166
+Blink_bio           TriggerTDC|CLK_GPLL_RIGHT     OFS1P3DX     D       Blink.count_i[30]     0.059        1.166
+Blink_cio           TriggerTDC|CLK_GPLL_RIGHT     OFS1P3DX     D       Blink.count_i[29]     0.059        1.166
+Blink.count[12]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX      D       count_s[12]           0.059        1.465
+Blink.count[13]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX      D       count_s[13]           0.059        1.465
+Blink.count[14]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX      D       count_s[14]           0.059        1.465
+Blink.count[15]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX      D       count_s[15]           0.059        1.465
+Blink.count[16]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX      D       count_s[16]           0.059        1.465
+Blink.count[17]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX      D       count_s[17]           0.059        1.465
+Blink.count[18]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX      D       count_s[18]           0.059        1.465
+===============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.225
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.059
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 1.166
+
+    Number of logic level(s):                1
+    Starting point:                          Blink.count[29] / Q
+    Ending point:                            Blink_cio / D
+    The start point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+    The end   point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin SCLK
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                  Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+Blink.count[29]       FD1S3AX      Q        Out     0.748     0.748       -         
+count[29]             Net          -        -       -         -           2         
+Blink.count_i[29]     INV          A        In      0.000     0.748       -         
+Blink.count_i[29]     INV          Z        Out     0.477     1.225       -         
+count_i[29]           Net          -        -       -         -           1         
+Blink_cio             OFS1P3DX     D        In      0.000     1.225       -         
+====================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                      Arrival          
+Instance         Reference     Type        Pin       Net       Time        Slack
+                 Clock                                                          
+--------------------------------------------------------------------------------
+__.PLLInst_0     System        EHXPLLF     CLKOP     CLKOP     0.000       0.000
+================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                      Required          
+Instance         Reference     Type        Pin       Net       Time         Slack
+                 Clock                                                           
+---------------------------------------------------------------------------------
+__.PLLInst_0     System        EHXPLLF     CLKFB     CLKOP     0.000        0.000
+=================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (critical) :                     0.000
+
+    Number of logic level(s):                0
+    Starting point:                          __.PLLInst_0 / CLKOP
+    Ending point:                            __.PLLInst_0 / CLKFB
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin       Pin               Arrival     No. of    
+Name               Type        Name      Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+__.PLLInst_0       EHXPLLF     CLKOP     Out     0.000     0.000       -         
+CLKOP              Net         -         -       -         -           1         
+__.PLLInst_0       EHXPLLF     CLKFB     In      0.000     0.000       -         
+=================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Constraints that could not be applied
+None

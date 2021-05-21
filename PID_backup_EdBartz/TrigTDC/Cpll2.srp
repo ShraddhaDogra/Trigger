@@ -1,0 +1,27 @@
+SCUBA, Version Diamond (64-bit) 3.7.1.502
+Thu Jan 19 16:06:39 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : D:\Cad\lscc\diamond\3.7_x64\ispfpga\bin\nt64\scuba.exe -w -n Cpll2 -lang verilog -synth synplify -arch ep5c00 -type pll -fin 50 -phase_cntl DYNAMIC -mdiv 2 -ndiv 1 -vdiv 32 -fb_mode CLOCKTREE -duty50 -noclkok -norst -noclkok2 -bw 
+    Circuit name     : Cpll2
+    Module type      : pll
+    Module Version   : 5.7
+    Ports            : 
+	Inputs       : CLK, FINEDELB0, FINEDELB1, FINEDELB2, FINEDELB3, DPHASE0, DPHASE1, DPHASE2, DPHASE3
+	Outputs      : CLKOP, CLKOS, LOCK
+    I/O buffer       : not inserted
+    EDIF output      : Cpll2.edn
+    Verilog output   : Cpll2.v
+    Verilog template : Cpll2_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : not used
+    Report output    : Cpll2.srp
+    Element Usage    :
+        EHXPLLF : 1
+            INV : 1
+    Estimated Resource Usage:

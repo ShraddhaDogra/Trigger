@@ -1,0 +1,12 @@
+To avoid error messages in "Run BKM Check" command, please change the Severity
+   Settings (from "Error" to "Info") for following options in Diamond:
+
+   Tools - Options 
+       HDL Diagram 
+          Messages 
+             BKM Messages
+                 ST-2007: Input Pin is unconnected
+                 ST-7002: Output Pin is unconnected internally
+                 ST-2004: Input Pin Connection widths don't match
+                 ST-7003: IO Port is unconnected internally
+                 ST-5004: Net has multiple (non-tristate enabled) driving assignments

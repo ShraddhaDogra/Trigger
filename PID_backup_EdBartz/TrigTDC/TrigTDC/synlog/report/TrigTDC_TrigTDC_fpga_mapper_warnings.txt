@@ -1,0 +1,112 @@
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[0].Result[0] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[0].c[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[1].Result[1] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[1].c[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[3].Result[3] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[3].c[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[5].Result[5] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[5].c[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[7].Result[7] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[7].c[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[8].Result[8] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[8].c[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[10].Result[10] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[10].c[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[12].Result[12] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[12].c[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[14].Result[14] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[14].c[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\bartz\documents\lattice\trigtdc\source\finetimebit.v":250:1:250:6|Removing sequential instance TDC.Tdc.fb0.genblk2[15].Result[15] because it is equivalent to instance TDC.Tdc.fb0.El.genblk1[15].c[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[46], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[45], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[44], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[43], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[42], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[41], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[40], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[39], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[38], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[37], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[36], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[35], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[34], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[33], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[32], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[31], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[30], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[29], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[28], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[27], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[26], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[25], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[24], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[23], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[22], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[21], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[20], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[19], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[18], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[17], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[16], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[15], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[14], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[13], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[12], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[11], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[10], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[9], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[8], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[7], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[6], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[5], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[4], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[3], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[2], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[1], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock Input_Reg_48s|Q_inferred_clock[0], changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT246 :"d:\bartz\documents\lattice\trigtdc\readoutfifo.v":629:10:629:19|Blackbox AGEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\bartz\documents\lattice\trigtdc\cpll2.v":51:12:51:20|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[0] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[0]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[1] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[1]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[2] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[2]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[3] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[3]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[4] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[4]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[5] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[5]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[6] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[6]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[7] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[7]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[8] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[8]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[9] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[9]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[10] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[10]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[11] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[11]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[12] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[12]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[13] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[13]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[14] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[14]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[15] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[15]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[16] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[16]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[17] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[17]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[18] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[18]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[19] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[19]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[20] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[20]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[21] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[21]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[22] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[22]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[23] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[23]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[24] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[24]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[25] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[25]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[26] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[26]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[27] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[27]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[28] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[28]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[29] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[29]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[30] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[30]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[31] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[31]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[32] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[32]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[33] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[33]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[34] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[34]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[35] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[35]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[36] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[36]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[37] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[37]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[38] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[38]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[39] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[39]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[40] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[40]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[41] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[41]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[42] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[42]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[43] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[43]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[44] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[44]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[45] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[45]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[46] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[46]"
+@W: MT420 |Found inferred clock Input_Reg_48s|Q_inferred_clock[47] with period 1.29ns. Please declare a user-defined clock on object "n:TDC.DataInReg.Q[47]"
+@W: MT420 |Found inferred clock Cpll2|CLKOS_inferred_clock with period 3.49ns. Please declare a user-defined clock on object "n:TDC.CG.P2Clk.CLKOS"
+@W: MT420 |Found inferred clock Cpll1|CLKOP_inferred_clock with period 1.09ns. Please declare a user-defined clock on object "n:TDC.CG.P1Clk.CLKOP"
+@W: MT420 |Found inferred clock Cpll1|CLKOS_inferred_clock with period 1.05ns. Please declare a user-defined clock on object "n:TDC.CG.P1Clk.CLKOS"
+@W: MT420 |Found inferred clock Cpll|CLKOP_inferred_clock with period 27.84ns. Please declare a user-defined clock on object "n:TDC.CG.PClk.CLKOP"
+@W: MT420 |Found inferred clock ComTrans|Write_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:TDC.CT.Write"

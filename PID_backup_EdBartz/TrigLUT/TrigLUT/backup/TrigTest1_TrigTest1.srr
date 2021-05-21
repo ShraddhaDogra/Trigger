@@ -1,0 +1,332 @@
+#Build: Synplify Pro I-2013.09L , Build 064R, Nov 15 2013
+#install: D:\Cad\Lattice\diamond\3.1_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: GLOIN
+
+#Implementation: TrigTest1
+
+$ Start of Compile
+#Wed Feb 18 16:06:33 2015
+
+Synopsys Verilog Compiler, version comp201309rc, Build 136R, built Nov 18 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@I::"D:\Cad\Lattice\diamond\3.1_x64\synpbase\lib\lucent\ecp3.v"
+@I::"D:\Cad\Lattice\diamond\3.1_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"D:\Cad\Lattice\diamond\3.1_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"D:\Cad\Lattice\diamond\3.1_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"D:\Cad\Lattice\diamond\3.1_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"D:\Cad\Lattice\diamond\3.1_x64\synpbase\lib\vlog\hypermods.v"
+@I::"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Delay_buf.v"
+@I::"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v"
+@I::"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand4.v"
+@I::"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand5.v"
+@I::"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Stretcher.v"
+@I::"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v"
+Verilog syntax check successful!
+Selecting top level module Top
+@N: CG364 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v":5:7:5:11|Synthesizing module Mand3
+
+@N: CG179 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v":38:12:38:16|Removing redundant assignment
+@W: CL118 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v":26:2:26:3|Latch generated from always block for signal L_OUT; possible missing assignment in an if or case statement.
+@N: CG364 :"D:\Cad\Lattice\diamond\3.1_x64\synpbase\lib\lucent\ecp3.v":43:7:43:10|Synthesizing module AND2
+
+@N: CG364 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Delay_buf.v":5:7:5:15|Synthesizing module Delay_buf
+
+@N: CG364 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Stretcher.v":5:7:5:15|Synthesizing module Stretcher
+
+@W: CL118 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Stretcher.v":19:4:19:5|Latch generated from always block for signal m; possible missing assignment in an if or case statement.
+@N: CG364 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":5:7:5:9|Synthesizing module Top
+
+@W: CG360 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":9:20:9:24|No assignment to wire OutpB
+
+@W: CG360 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":9:27:9:31|No assignment to wire OutpC
+
+@W: CG360 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":9:34:9:38|No assignment to wire OutpD
+
+@W: CL246 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":7:13:7:15|Input port bits 63 to 3 of INP[63:0] are unused
+
+@W: CL156 :"D:\Cad\Lattice\diamond\3.1_x64\synpbase\lib\lucent\ecp3.v":1:1:1:2|*Input highz to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL157 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":9:20:9:24|*Output OutpB has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":9:27:9:31|*Output OutpC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":9:34:9:38|*Output OutpD has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":8:13:8:16|Input InpB is unused
+@W: CL159 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":8:19:8:22|Input InpC is unused
+@W: CL159 :"C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":8:25:8:28|Input InpD is unused
+@END
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Feb 18 16:06:33 2015
+
+###########################################################]
+Premap Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 800R, Built Nov 18 2013 10:58:25
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09L 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\TrigTest1_TrigTest1_scck.rpt 
+Printing clock  summary report in "C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\TrigTest1_TrigTest1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 114MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 116MB)
+
+@N: BN362 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\mand3.v":26:2:26:3|Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand3_U4(verilog) because there are no references to its outputs 
+@W: MT462 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U3.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U2.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U1.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+syn_allowed_resources : blockrams=372  set on top level netlist Top
+
+
+Clock Summary
+**************
+
+Start        Requested      Requested     Clock        Clock                
+Clock        Frequency      Period        Type         Group                
+----------------------------------------------------------------------------
+System       2842.5 MHz     0.352         system       system_clkgroup      
+Top|InpA     1.0 MHz        1000.000      inferred     Autoconstr_clkgroup_0
+============================================================================
+
+@W: MT531 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\stretcher.v":19:4:19:5|Found signal identified as System clock which controls 3 sequential elements including U1.m.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\mand3.v":26:2:26:3|Found inferred clock Top|InpA which controls 1 sequential elements including U5.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Feb 18 16:06:34 2015
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 800R, Built Nov 18 2013 10:58:25
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09L 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 114MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 116MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:34:9:38|Tristate driver OutpD_1 on net OutpD_1 has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:34:9:38|Tristate driver OutpD_2 on net OutpD_2 has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:34:9:38|Tristate driver OutpD_3 on net OutpD_3 has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:27:9:31|Tristate driver OutpC_1 on net OutpC_1 has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:27:9:31|Tristate driver OutpC_2 on net OutpC_2 has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:27:9:31|Tristate driver OutpC_3 on net OutpC_3 has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:20:9:24|Tristate driver OutpB_1 on net OutpB_1 has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:20:9:24|Tristate driver OutpB_2 on net OutpB_2 has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:20:9:24|Tristate driver OutpB_3 on net OutpB_3 has its enable tied to GND (module Top) 
+@N: BN362 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\stretcher.v":19:4:19:5|Removing sequential instance U3.m of view:PrimLib.lats(prim) in hierarchy view:work.Top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\stretcher.v":19:4:19:5|Removing sequential instance U2.m of view:PrimLib.lats(prim) in hierarchy view:work.Top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\stretcher.v":19:4:19:5|Removing sequential instance U1.m of view:PrimLib.lats(prim) in hierarchy view:work.Top(verilog) because there are no references to its outputs 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:20:9:24|Tristate driver OutpB_obuft_0_.un1[0] on net OutpB[0] has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:20:9:24|Tristate driver OutpB_obuft_1_.un1[0] on net OutpB[1] has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:20:9:24|Tristate driver OutpB_obuft_2_.un1[0] on net OutpB[2] has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:27:9:31|Tristate driver OutpC_obuft_0_.un1[0] on net OutpC[0] has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:27:9:31|Tristate driver OutpC_obuft_1_.un1[0] on net OutpC[1] has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:27:9:31|Tristate driver OutpC_obuft_2_.un1[0] on net OutpC[2] has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:34:9:38|Tristate driver OutpD_obuft_0_.un1[0] on net OutpD[0] has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:34:9:38|Tristate driver OutpD_obuft_1_.un1[0] on net OutpD[1] has its enable tied to GND (module Top) 
+@W: MO111 :"c:\users\bartz\documents\lattice\trigtest\trigtest1\source\top.v":9:34:9:38|Tristate driver OutpD_obuft_2_.un1[0] on net OutpD[2] has its enable tied to GND (module Top) 
+Warning: Found 1 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net OutpA_c[1]
+1) instance I_1.lat_s (view:work.Top(verilog)), output net "OutpA_c[1]" in work.Top(verilog)
+    net        OutpA_c[1]
+    input  pin I_1.lat/I[0]
+    instance   I_1.lat (cell and)
+    output pin I_1.lat/OUT
+    net        I_1.t1
+    input  pin I_1.lat_s/I[1]
+    instance   I_1.lat_s (cell or)
+    output pin I_1.lat_s/OUT
+    net        OutpA_c[1]
+End of loops
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\TrigTest1_TrigTest1.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Writing EDIF Netlist and constraint files
+I-2013.09L 
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+Warning: Found 1 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net G_13
+1) instance I_1.lat_s (view:work.Top(verilog)), output net "G_13" in work.Top(verilog)
+    net        G_13
+    input  pin I_1.lat_s/B
+    instance   I_1.lat_s (cell ORCALUT4)
+    output pin I_1.lat_s/Z
+    net        G_13
+End of loops
+@W: MT420 |Found inferred clock Top|InpA with period 1000.00ns. Please declare a user-defined clock on object "p:InpA"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Feb 18 16:06:36 2015
+#
+
+
+Top view:               Top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lfe3_150ea-6
+
+Register bits: 0 of 149040 (0%)
+PIC Latch:       0
+I/O cells:       16
+
+
+Details:
+GSR:            1
+IB:             4
+OB:             3
+OBZ:            9
+ORCALUT4:       2
+PUR:            1
+VHI:            1
+VLO:            2
+true:           1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 51MB peak: 146MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Feb 18 16:06:36 2015
+
+###########################################################]

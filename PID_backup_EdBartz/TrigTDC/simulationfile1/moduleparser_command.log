@@ -1,0 +1,1 @@
+D:/Cad/lscc/diamond/3.7_x64/bin/nt64/moduleparser.exe -PROJ simulationfile -pf D:/Cad/lscc/diamond/3.7_x64/cae_library/synthesis/vhdl/ecp3.vhd -lib ecp3 -pkg D:/Cad/lscc/diamond/3.7_x64/cae_library/vhdl_packages/vdbs -lst D:/bartz/Documents/Lattice/TrigTDC/simulationfile/source_files.lst

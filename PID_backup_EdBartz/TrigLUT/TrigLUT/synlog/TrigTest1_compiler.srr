@@ -1,0 +1,89 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\lucent\ecp3.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\hypermods.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Delay_buf.v"
+@I::"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v"
+@I::"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand4.v"
+@I::"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand5.v"
+@I::"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Stretcher.v"
+@I::"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v"
+@I::"D:\bartz\Documents\Lattice\TrigTest\TrigTest1_tf.v"
+@I::"D:\bartz\Documents\Lattice\TrigTest\Source\Mand6.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module Top
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v":5:7:5:11|Synthesizing module Mand3
+
+@N: CG179 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v":38:12:38:16|Removing redundant assignment
+@W: CL118 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v":26:2:26:3|Latch generated from always block for signal L_OUT; possible missing assignment in an if or case statement.
+@N: CG364 :"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\lucent\ecp3.v":43:7:43:10|Synthesizing module AND2
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Delay_buf.v":5:7:5:15|Synthesizing module Delay_buf
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Stretcher.v":5:7:5:15|Synthesizing module Stretcher
+
+@W: CL118 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Stretcher.v":19:4:19:5|Latch generated from always block for signal m; possible missing assignment in an if or case statement.
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand4.v":5:7:5:11|Synthesizing module Mand4
+
+@N: CG179 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand4.v":40:12:40:16|Removing redundant assignment
+@W: CL118 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand4.v":28:2:28:3|Latch generated from always block for signal L_OUT; possible missing assignment in an if or case statement.
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand5.v":5:7:5:11|Synthesizing module Mand5
+
+@N: CG179 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand5.v":42:12:42:16|Removing redundant assignment
+@W: CL118 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand5.v":30:2:30:3|Latch generated from always block for signal L_OUT; possible missing assignment in an if or case statement.
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\Source\Mand6.v":5:7:5:11|Synthesizing module Mand6
+
+@N: CG179 :"D:\bartz\Documents\Lattice\TrigTest\Source\Mand6.v":44:12:44:16|Removing redundant assignment
+@W: CL118 :"D:\bartz\Documents\Lattice\TrigTest\Source\Mand6.v":32:2:32:3|Latch generated from always block for signal L_OUT; possible missing assignment in an if or case statement.
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":5:7:5:9|Synthesizing module Top
+
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":7:13:7:15|Input port bits 63 to 54 of INP[63:0] are unused
+
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":7:13:7:15|Input port bits 47 to 37 of INP[63:0] are unused
+
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":7:13:7:15|Input port bits 31 to 20 of INP[63:0] are unused
+
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":7:13:7:15|Input port bits 15 to 3 of INP[63:0] are unused
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 18 14:05:34 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 18 14:05:35 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 18 14:05:35 2016
+
+###########################################################]

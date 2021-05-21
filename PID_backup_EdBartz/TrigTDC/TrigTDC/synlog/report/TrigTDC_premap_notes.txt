@@ -1,0 +1,11 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:29:10:34|Tristate driver OUT_pC_1 (in view: work.TriggerTDC(verilog)) on net OUT_pC[2] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:29:10:34|Tristate driver OUT_pC_2 (in view: work.TriggerTDC(verilog)) on net OUT_pC[1] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:29:10:34|Tristate driver OUT_pC_3 (in view: work.TriggerTDC(verilog)) on net OUT_pC[0] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:21:10:26|Tristate driver OUT_pB_1 (in view: work.TriggerTDC(verilog)) on net OUT_pB[2] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:21:10:26|Tristate driver OUT_pB_2 (in view: work.TriggerTDC(verilog)) on net OUT_pB[1] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:21:10:26|Tristate driver OUT_pB_3 (in view: work.TriggerTDC(verilog)) on net OUT_pB[0] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:13:10:18|Tristate driver OUT_pA_1 (in view: work.TriggerTDC(verilog)) on net OUT_pA[2] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:13:10:18|Tristate driver OUT_pA_2 (in view: work.TriggerTDC(verilog)) on net OUT_pA[1] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:13:10:18|Tristate driver OUT_pA_3 (in view: work.TriggerTDC(verilog)) on net OUT_pA[0] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.

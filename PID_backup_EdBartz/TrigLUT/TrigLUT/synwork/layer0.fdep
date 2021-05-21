@@ -1,0 +1,93 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\bartz\\Documents\\Lattice\\TrigLUT\\TrigLUT\\synwork\\TrigLUT_TrigLUT_comp.srs|-top|ScatterTrig|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|D:\\bartz\\Documents\\Lattice\\TrigLUT|-I|D:\\bartz\\Documents\\Lattice\\TrigLUT\\TrigLUT\\|-I|D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\lib|-v2001|-devicelib|D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\lucent\\ecp3.v|-devicelib|D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\bin64\\c_ver.exe":1449730816
+#CUR:"D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\lucent\\ecp3.v":1449726582
+#CUR:"D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\lucent\\pmi_def.v":1449726582
+#CUR:"D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vlog\\hypermods.v":1449730446
+#CUR:"D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vlog\\umr_capim.v":1449730446
+#CUR:"D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1449730446
+#CUR:"D:\\Cad\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1449730446
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\BackOr.v":1458741919
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\BackOr5.v":1458741931
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\DelayBit.v":1458843470
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\Input_Reg.v":1458753655
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\LeadDelay.v":1458660484
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\PulseStretch.v":1458752757
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\retrigger.v":1458753008
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\ScatterTrig.v":1461856292
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\SR_Latch.v":1458235846
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\SR_Reg.v":1458328437
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\T_ff_clr.v":1458328524
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\T_ff_pset.v":1458309103
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\TrigLUT_tf.v":1458766581
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\Or8.v":1458765878
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\Source\\Or18.v":1458758123
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigLUT\\leds.v":1461861694
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v" verilog
+1			"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr5.v" verilog
+2			"D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v" verilog
+3			"D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v" verilog
+4			"D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v" verilog
+5			"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v" verilog
+6			"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v" verilog
+7			"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v" verilog
+8			"D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Latch.v" verilog
+9			"D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Reg.v" verilog
+10			"D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_clr.v" verilog
+11			"D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_pset.v" verilog
+12			"D:\bartz\Documents\Lattice\TrigLUT\Source\TrigLUT_tf.v" verilog
+13			"D:\bartz\Documents\Lattice\TrigLUT\Source\Or8.v" verilog
+14			"D:\bartz\Documents\Lattice\TrigLUT\Source\Or18.v" verilog
+15			"D:\bartz\Documents\Lattice\TrigLUT\leds.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 2
+5 3 6 4
+6 -1
+7 5 0 1 14 13 15
+8 -1
+9 10
+10 -1
+11 -1
+12 7
+13 -1
+14 -1
+15 -1
+#Dependency Lists(Users Of)
+0 7
+1 7
+2 4
+3 5
+4 5
+5 7
+6 5
+7 12
+8 -1
+9 -1
+10 9
+11 -1
+12 -1
+13 7
+14 7
+15 7
+#Design Unit to File Association
+module work BackOr3 0
+module work BackOr5 1
+module work DelayBit 2
+module work Input_Reg 3
+module work LeadDelay 4
+module work ReTrigger 6
+module work PulseStretch 5
+module work Or18 14
+module work Or8 13
+module work leds 15
+module work ScatterTrig 7
+module work SR_Latch 8
+module work T_ff_clr 10
+module work SR_Reg 9
+module work T_ff_pset 11
+module work ScatterTrig_tf 12

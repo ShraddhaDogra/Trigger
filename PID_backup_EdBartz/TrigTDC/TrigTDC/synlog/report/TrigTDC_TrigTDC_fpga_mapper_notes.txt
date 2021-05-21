@@ -1,0 +1,72 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\comnet.v":43:7:43:14|Tristate driver test_1 (in view: work.comnet(verilog)) on net test_1 (in view: work.comnet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\comnet.v":43:7:43:14|Tristate driver test_2 (in view: work.comnet(verilog)) on net test_2 (in view: work.comnet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\comnet.v":43:7:43:14|Tristate driver test_3 (in view: work.comnet(verilog)) on net test_3 (in view: work.comnet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\comnet.v":43:7:43:14|Tristate driver test_4 (in view: work.comnet(verilog)) on net test_4 (in view: work.comnet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\clockgen.v":21:17:21:19|Tristate driver LED_1 (in view: work.ClockGen(verilog)) on net LED_1 (in view: work.ClockGen(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\clockgen.v":12:18:12:20|Tristate driver clk_1 (in view: work.ClockGen(verilog)) on net clk_1 (in view: work.ClockGen(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\clockgen.v":12:18:12:20|Tristate driver clk_2 (in view: work.ClockGen(verilog)) on net clk_2 (in view: work.ClockGen(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\ch48.v":25:18:25:21|Tristate driver test_1 (in view: work.Ch48(verilog)) on net test_1 (in view: work.Ch48(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\ch48.v":25:18:25:21|Tristate driver test_2 (in view: work.Ch48(verilog)) on net test_2 (in view: work.Ch48(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\ch48.v":25:18:25:21|Tristate driver test_3 (in view: work.Ch48(verilog)) on net test_3 (in view: work.Ch48(verilog)) has its enable tied to GND.
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "000000000000000000000000000000000000000000000000" on instance TDC.DataInReg.rst[47:0].
+@N: FX493 |Applying initial value "000" on instance TDC.ts.sm.State[2:0].
+@N: FX493 |Applying initial value "000" on instance FEC.State[2:0].
+@N: MO231 :"d:\bartz\documents\lattice\trigtdc\source\leds.v":35:0:35:5|Found counter in view:work.TriggerTDCTop(verilog) instance Blink.count[31:0] 
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[36] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[37] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[44] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[45] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[46] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[47] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[29] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[30] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[31] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[32] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[33] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[34] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[35] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[19] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[20] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[38] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[39] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[40] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[41] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[42] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[43] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[14] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[15] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[16] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[17] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[18] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[3] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[4] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[21] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[22] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[23] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[24] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[25] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[26] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[27] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[28] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[0] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[1] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[2] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[7] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[8] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[5] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[6] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[11] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[12] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[9] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[10] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"d:\bartz\documents\lattice\trigtdc\source\input_reg.v":51:11:51:22|Replicating instance TDC.DataInReg.Q_1[13] (in view: work.TriggerTDCTop(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\TrigTDC_TrigTDC.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock DeBounce_0|Q_derived_clock with period 27.84ns 
+@N: MT615 |Found clock DeBounce_1|Q_derived_clock with period 27.84ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

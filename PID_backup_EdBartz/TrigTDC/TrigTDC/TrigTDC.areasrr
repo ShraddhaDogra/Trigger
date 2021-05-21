@@ -1,0 +1,45 @@
+----------------------------------------------------------------------
+Report for cell TriggerTDC.verilog
+
+Register bits: 35 of 149040 (0%)
+PIC Latch:       0
+I/O cells:       14
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       21       100.0
+                            EHXPLLF        1       100.0
+                            FD1S3AX       32       100.0
+                                GSR        1       100.0
+                                 IB        1       100.0
+                                INV        3       100.0
+                                 OB       13       100.0
+                           OFS1P3DX        3       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        3       100.0
+SUB MODULES 
+                               leds        1       100.0
+                             mypll1        1       100.0
+                            
+                         TOTAL            83           
+----------------------------------------------------------------------
+Report for cell mypll1.netlist
+     Instance path:  __
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLF        1       100.0
+                                VLO        1        33.3
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell leds.netlist
+     Instance path:  Blink
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       21       100.0
+                            FD1S3AX       32       100.0
+                                INV        3       100.0
+                                VHI        1        50.0
+                                VLO        1        33.3
+                            
+                         TOTAL            58           

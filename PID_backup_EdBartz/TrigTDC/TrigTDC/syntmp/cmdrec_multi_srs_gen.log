@@ -1,0 +1,7 @@
+D:\Cad\lscc39\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  TriggerTDCTop  -multisrs  D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synwork\TrigTDC_TrigTDC_comp.srs  -osyn  D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synwork\TrigTDC_TrigTDC_mult.srs  -log  D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synlog\TrigTDC_TrigTDC_multi_srs_gen.srr 
+rc:0 success:1 runtime:1
+file:D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synwork\TrigTDC_TrigTDC_comp.srs|io:i|time:1507147256|size:752499|exec:0
+file:D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synwork\TrigTDC_TrigTDC_mult.srs|io:o|time:1507147258|size:5793|exec:0
+file:D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synlog\TrigTDC_TrigTDC_multi_srs_gen.srr|io:o|time:1507147258|size:604|exec:0
+file:D:\Cad\lscc39\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1489039652|size:3128320|exec:1
+file:D:\Cad\lscc39\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1489039920|size:3947520|exec:1

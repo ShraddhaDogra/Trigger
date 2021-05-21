@@ -1,0 +1,3224 @@
+
+Loading design for application trce from file triglut_triglut.ncd.
+Design name: ScatterTrig
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 8
+Loading device for application trce from file 'ec5a124x182.nph' in environment: D:/Cad/lscc/diamond/3.7_x64/ispfpga.
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.7.1.502
+Wed Sep 21 15:41:50 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o TrigLUT_TrigLUT.twr -gui -msgset D:/bartz/Documents/Lattice/TrigLUT/promote.xml TrigLUT_TrigLUT.ncd TrigLUT_TrigLUT.prf 
+Design file:     triglut_triglut.ncd
+Preference file: triglut_triglut.prf
+Device,speed:    LFE3-150EA,8
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK RD_DURING_WR_PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK_PCLK_RIGHT" 200.000000 MHz ;
+            1707 items scored, 3 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 0.538ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Blink/count[30]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        Blink_bio  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               5.560ns  (7.0% logic, 93.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.560ns physical path delay Blink/SLICE_16 to LED_ORANGE_MGIOL exceeds
+      5.000ns delay constraint less
+     -0.017ns skew and
+     -0.005ns OPOSA_SET requirement (totaling 5.022ns) by 0.538ns
+
+IOL_T88B attributes: FINE=FDEL0
+
+ Physical Path Details:
+
+      Data path Blink/SLICE_16 to LED_ORANGE_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R82C59A.CLK to     R82C59A.Q1 Blink/SLICE_16 (from CLK_PCLK_RIGHT_c)
+ROUTE         2     1.911     R82C59A.Q1 to     R68C86A.D0 Blink/count[30]
+CTOF_DEL    ---     0.147     R68C86A.D0 to     R68C86A.F0 Blink/SLICE_1855
+ROUTE         1     3.259     R68C86A.F0 to IOL_T88B.OPOSA Blink.count_i[30] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    5.560   (7.0% logic, 93.0% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to Blink/SLICE_16:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C59A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LED_ORANGE_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.124      U20.PADDI to   IOL_T88B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.124   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 0.456ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Blink/count[29]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        Blink_cio  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               5.478ns  (7.1% logic, 92.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.478ns physical path delay Blink/SLICE_16 to LED_YELLOW_MGIOL exceeds
+      5.000ns delay constraint less
+     -0.017ns skew and
+     -0.005ns OPOSA_SET requirement (totaling 5.022ns) by 0.456ns
+
+IOL_T89B attributes: FINE=FDEL0
+
+ Physical Path Details:
+
+      Data path Blink/SLICE_16 to LED_YELLOW_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R82C59A.CLK to     R82C59A.Q0 Blink/SLICE_16 (from CLK_PCLK_RIGHT_c)
+ROUTE         2     1.199     R82C59A.Q0 to     R68C65D.C0 Blink/count[29]
+CTOF_DEL    ---     0.147     R68C65D.C0 to     R68C65D.F0 Blink/SLICE_1853
+ROUTE         1     3.889     R68C65D.F0 to IOL_T89B.OPOSA Blink.count_i[29] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    5.478   (7.1% logic, 92.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to Blink/SLICE_16:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C59A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LED_YELLOW_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.124      U20.PADDI to   IOL_T89B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.124   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Error: The following path exceeds requirements by 0.340ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Blink/count[31]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        Blink_aio  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               5.362ns  (7.3% logic, 92.7% route), 2 logic levels.
+
+ Constraint Details:
+
+      5.362ns physical path delay Blink/SLICE_0 to LED_RED_MGIOL exceeds
+      5.000ns delay constraint less
+     -0.017ns skew and
+     -0.005ns OPOSA_SET requirement (totaling 5.022ns) by 0.340ns
+
+IOL_T89A attributes: FINE=FDEL0
+
+ Physical Path Details:
+
+      Data path Blink/SLICE_0 to LED_RED_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R82C59B.CLK to     R82C59B.Q0 Blink/SLICE_0 (from CLK_PCLK_RIGHT_c)
+ROUTE         2     1.348     R82C59B.Q0 to     R56C59A.D0 Blink/count[31]
+CTOF_DEL    ---     0.147     R56C59A.D0 to     R56C59A.F0 Blink/SLICE_1854
+ROUTE         1     3.624     R56C59A.F0 to IOL_T89A.OPOSA Blink.count_i[31] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    5.362   (7.3% logic, 92.7% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to Blink/SLICE_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C59B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LED_RED_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.124      U20.PADDI to   IOL_T89A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.124   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.333ns (weighted slack = 2.666ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              ps5/leadEdgeDelay/Bitwise_Delay[20].Dline/res[5]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        ps5/ireg/input_reg[20].rst1[20]  (to CLK_PCLK_RIGHT_c -)
+
+   Delay:               1.151ns  (33.9% logic, 66.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      1.151ns physical path delay ps5/SLICE_1373 to ps5/SLICE_1175 meets
+      2.500ns delay constraint less
+      0.000ns skew and
+      0.016ns DIN_SET requirement (totaling 2.484ns) by 1.333ns
+
+ Physical Path Details:
+
+      Data path ps5/SLICE_1373 to ps5/SLICE_1175:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R82C33C.CLK to     R82C33C.Q0 ps5/SLICE_1373 (from CLK_PCLK_RIGHT_c)
+ROUTE         2     0.761     R82C33C.Q0 to     R82C36C.B0 ps5/res[20]
+CTOF_DEL    ---     0.147     R82C36C.B0 to     R82C36C.F0 ps5/SLICE_1175
+ROUTE         1     0.000     R82C36C.F0 to    R82C36C.DI0 ps5/res_i[20] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    1.151   (33.9% logic, 66.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to ps5/SLICE_1373:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C33C.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to ps5/SLICE_1175:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C36C.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.350ns (weighted slack = 2.700ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd5C/leadEdgeDelay/Bitwise_Delay[4].Dline/res[2]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd5C/ireg/input_reg[4].rst1[4]  (to CLK_PCLK_RIGHT_c -)
+
+   Delay:               1.134ns  (34.4% logic, 65.6% route), 2 logic levels.
+
+ Constraint Details:
+
+      1.134ns physical path delay LatchAnd5C/SLICE_633 to LatchAnd5C/SLICE_577 meets
+      2.500ns delay constraint less
+      0.000ns skew and
+      0.016ns DIN_SET requirement (totaling 2.484ns) by 1.350ns
+
+ Physical Path Details:
+
+      Data path LatchAnd5C/SLICE_633 to LatchAnd5C/SLICE_577:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R83C32C.CLK to     R83C32C.Q0 LatchAnd5C/SLICE_633 (from CLK_PCLK_RIGHT_c)
+ROUTE         2     0.744     R83C32C.Q0 to     R84C33A.A0 LatchAnd5C/res[4]
+CTOF_DEL    ---     0.147     R84C33A.A0 to     R84C33A.F0 LatchAnd5C/SLICE_577
+ROUTE         1     0.000     R84C33A.F0 to    R84C33A.DI0 LatchAnd5C/res_i[4] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    1.134   (34.4% logic, 65.6% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd5C/SLICE_633:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R83C32C.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd5C/SLICE_577:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R84C33A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.371ns (weighted slack = 2.742ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd5A/leadEdgeDelay/Bitwise_Delay[5].Dline/res[2]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd5A/ireg/input_reg[5].rst1[5]  (to CLK_PCLK_RIGHT_c -)
+
+   Delay:               1.117ns  (34.9% logic, 65.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      1.117ns physical path delay LatchAnd5A/SLICE_454 to LatchAnd5A/SLICE_397 meets
+      2.500ns delay constraint less
+     -0.004ns skew and
+      0.016ns DIN_SET requirement (totaling 2.488ns) by 1.371ns
+
+ Physical Path Details:
+
+      Data path LatchAnd5A/SLICE_454 to LatchAnd5A/SLICE_397:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R68C50A.CLK to     R68C50A.Q0 LatchAnd5A/SLICE_454 (from CLK_PCLK_RIGHT_c)
+ROUTE         2     0.727     R68C50A.Q0 to     R71C50A.C1 LatchAnd5A/res[5]
+CTOF_DEL    ---     0.147     R71C50A.C1 to     R71C50A.F1 LatchAnd5A/SLICE_397
+ROUTE         1     0.000     R71C50A.F1 to    R71C50A.DI1 LatchAnd5A/res_i[5] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    1.117   (34.9% logic, 65.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd5A/SLICE_454:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.103      U20.PADDI to    R68C50A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.103   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd5A/SLICE_397:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R71C50A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 2.860ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Blink/count[1]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        Blink/count[31]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               2.079ns  (75.3% logic, 24.7% route), 17 logic levels.
+
+ Constraint Details:
+
+      2.079ns physical path delay Blink/SLICE_2 to Blink/SLICE_0 meets
+      5.000ns delay constraint less
+      0.000ns skew and
+      0.061ns DIN_SET requirement (totaling 4.939ns) by 2.860ns
+
+ Physical Path Details:
+
+      Data path Blink/SLICE_2 to Blink/SLICE_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R82C54B.CLK to     R82C54B.Q0 Blink/SLICE_2 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.514     R82C54B.Q0 to     R82C54B.B0 Blink/count[1]
+C0TOFCO_DE  ---     0.377     R82C54B.B0 to    R82C54B.FCO Blink/SLICE_2
+ROUTE         1     0.000    R82C54B.FCO to    R82C54C.FCI Blink/count_cry[2]
+FCITOFCO_D  ---     0.058    R82C54C.FCI to    R82C54C.FCO Blink/SLICE_3
+ROUTE         1     0.000    R82C54C.FCO to    R82C55A.FCI Blink/count_cry[4]
+FCITOFCO_D  ---     0.058    R82C55A.FCI to    R82C55A.FCO Blink/SLICE_4
+ROUTE         1     0.000    R82C55A.FCO to    R82C55B.FCI Blink/count_cry[6]
+FCITOFCO_D  ---     0.058    R82C55B.FCI to    R82C55B.FCO Blink/SLICE_5
+ROUTE         1     0.000    R82C55B.FCO to    R82C55C.FCI Blink/count_cry[8]
+FCITOFCO_D  ---     0.058    R82C55C.FCI to    R82C55C.FCO Blink/SLICE_6
+ROUTE         1     0.000    R82C55C.FCO to    R82C56A.FCI Blink/count_cry[10]
+FCITOFCO_D  ---     0.058    R82C56A.FCI to    R82C56A.FCO Blink/SLICE_7
+ROUTE         1     0.000    R82C56A.FCO to    R82C56B.FCI Blink/count_cry[12]
+FCITOFCO_D  ---     0.058    R82C56B.FCI to    R82C56B.FCO Blink/SLICE_8
+ROUTE         1     0.000    R82C56B.FCO to    R82C56C.FCI Blink/count_cry[14]
+FCITOFCO_D  ---     0.058    R82C56C.FCI to    R82C56C.FCO Blink/SLICE_9
+ROUTE         1     0.000    R82C56C.FCO to    R82C57A.FCI Blink/count_cry[16]
+FCITOFCO_D  ---     0.058    R82C57A.FCI to    R82C57A.FCO Blink/SLICE_10
+ROUTE         1     0.000    R82C57A.FCO to    R82C57B.FCI Blink/count_cry[18]
+FCITOFCO_D  ---     0.058    R82C57B.FCI to    R82C57B.FCO Blink/SLICE_11
+ROUTE         1     0.000    R82C57B.FCO to    R82C57C.FCI Blink/count_cry[20]
+FCITOFCO_D  ---     0.058    R82C57C.FCI to    R82C57C.FCO Blink/SLICE_12
+ROUTE         1     0.000    R82C57C.FCO to    R82C58A.FCI Blink/count_cry[22]
+FCITOFCO_D  ---     0.058    R82C58A.FCI to    R82C58A.FCO Blink/SLICE_13
+ROUTE         1     0.000    R82C58A.FCO to    R82C58B.FCI Blink/count_cry[24]
+FCITOFCO_D  ---     0.058    R82C58B.FCI to    R82C58B.FCO Blink/SLICE_14
+ROUTE         1     0.000    R82C58B.FCO to    R82C58C.FCI Blink/count_cry[26]
+FCITOFCO_D  ---     0.058    R82C58C.FCI to    R82C58C.FCO Blink/SLICE_15
+ROUTE         1     0.000    R82C58C.FCO to    R82C59A.FCI Blink/count_cry[28]
+FCITOFCO_D  ---     0.058    R82C59A.FCI to    R82C59A.FCO Blink/SLICE_16
+ROUTE         1     0.000    R82C59A.FCO to    R82C59B.FCI Blink/count_cry[30]
+FCITOF0_DE  ---     0.133    R82C59B.FCI to     R82C59B.F0 Blink/SLICE_0
+ROUTE         1     0.000     R82C59B.F0 to    R82C59B.DI0 Blink/count_s[31] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    2.079   (75.3% logic, 24.7% route), 17 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to Blink/SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C54B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to Blink/SLICE_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C59B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 2.874ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Blink/count[1]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        Blink/count[30]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               2.065ns  (75.1% logic, 24.9% route), 16 logic levels.
+
+ Constraint Details:
+
+      2.065ns physical path delay Blink/SLICE_2 to Blink/SLICE_16 meets
+      5.000ns delay constraint less
+      0.000ns skew and
+      0.061ns DIN_SET requirement (totaling 4.939ns) by 2.874ns
+
+ Physical Path Details:
+
+      Data path Blink/SLICE_2 to Blink/SLICE_16:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R82C54B.CLK to     R82C54B.Q0 Blink/SLICE_2 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.514     R82C54B.Q0 to     R82C54B.B0 Blink/count[1]
+C0TOFCO_DE  ---     0.377     R82C54B.B0 to    R82C54B.FCO Blink/SLICE_2
+ROUTE         1     0.000    R82C54B.FCO to    R82C54C.FCI Blink/count_cry[2]
+FCITOFCO_D  ---     0.058    R82C54C.FCI to    R82C54C.FCO Blink/SLICE_3
+ROUTE         1     0.000    R82C54C.FCO to    R82C55A.FCI Blink/count_cry[4]
+FCITOFCO_D  ---     0.058    R82C55A.FCI to    R82C55A.FCO Blink/SLICE_4
+ROUTE         1     0.000    R82C55A.FCO to    R82C55B.FCI Blink/count_cry[6]
+FCITOFCO_D  ---     0.058    R82C55B.FCI to    R82C55B.FCO Blink/SLICE_5
+ROUTE         1     0.000    R82C55B.FCO to    R82C55C.FCI Blink/count_cry[8]
+FCITOFCO_D  ---     0.058    R82C55C.FCI to    R82C55C.FCO Blink/SLICE_6
+ROUTE         1     0.000    R82C55C.FCO to    R82C56A.FCI Blink/count_cry[10]
+FCITOFCO_D  ---     0.058    R82C56A.FCI to    R82C56A.FCO Blink/SLICE_7
+ROUTE         1     0.000    R82C56A.FCO to    R82C56B.FCI Blink/count_cry[12]
+FCITOFCO_D  ---     0.058    R82C56B.FCI to    R82C56B.FCO Blink/SLICE_8
+ROUTE         1     0.000    R82C56B.FCO to    R82C56C.FCI Blink/count_cry[14]
+FCITOFCO_D  ---     0.058    R82C56C.FCI to    R82C56C.FCO Blink/SLICE_9
+ROUTE         1     0.000    R82C56C.FCO to    R82C57A.FCI Blink/count_cry[16]
+FCITOFCO_D  ---     0.058    R82C57A.FCI to    R82C57A.FCO Blink/SLICE_10
+ROUTE         1     0.000    R82C57A.FCO to    R82C57B.FCI Blink/count_cry[18]
+FCITOFCO_D  ---     0.058    R82C57B.FCI to    R82C57B.FCO Blink/SLICE_11
+ROUTE         1     0.000    R82C57B.FCO to    R82C57C.FCI Blink/count_cry[20]
+FCITOFCO_D  ---     0.058    R82C57C.FCI to    R82C57C.FCO Blink/SLICE_12
+ROUTE         1     0.000    R82C57C.FCO to    R82C58A.FCI Blink/count_cry[22]
+FCITOFCO_D  ---     0.058    R82C58A.FCI to    R82C58A.FCO Blink/SLICE_13
+ROUTE         1     0.000    R82C58A.FCO to    R82C58B.FCI Blink/count_cry[24]
+FCITOFCO_D  ---     0.058    R82C58B.FCI to    R82C58B.FCO Blink/SLICE_14
+ROUTE         1     0.000    R82C58B.FCO to    R82C58C.FCI Blink/count_cry[26]
+FCITOFCO_D  ---     0.058    R82C58C.FCI to    R82C58C.FCO Blink/SLICE_15
+ROUTE         1     0.000    R82C58C.FCO to    R82C59A.FCI Blink/count_cry[28]
+FCITOF1_DE  ---     0.177    R82C59A.FCI to     R82C59A.F1 Blink/SLICE_16
+ROUTE         1     0.000     R82C59A.F1 to    R82C59A.DI1 Blink/count_s[30] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    2.065   (75.1% logic, 24.9% route), 16 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to Blink/SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C54B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to Blink/SLICE_16:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C59A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 2.918ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Blink/count[3]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        Blink/count[31]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               2.021ns  (74.6% logic, 25.4% route), 16 logic levels.
+
+ Constraint Details:
+
+      2.021ns physical path delay Blink/SLICE_3 to Blink/SLICE_0 meets
+      5.000ns delay constraint less
+      0.000ns skew and
+      0.061ns DIN_SET requirement (totaling 4.939ns) by 2.918ns
+
+ Physical Path Details:
+
+      Data path Blink/SLICE_3 to Blink/SLICE_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R82C54C.CLK to     R82C54C.Q0 Blink/SLICE_3 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.514     R82C54C.Q0 to     R82C54C.B0 Blink/count[3]
+C0TOFCO_DE  ---     0.377     R82C54C.B0 to    R82C54C.FCO Blink/SLICE_3
+ROUTE         1     0.000    R82C54C.FCO to    R82C55A.FCI Blink/count_cry[4]
+FCITOFCO_D  ---     0.058    R82C55A.FCI to    R82C55A.FCO Blink/SLICE_4
+ROUTE         1     0.000    R82C55A.FCO to    R82C55B.FCI Blink/count_cry[6]
+FCITOFCO_D  ---     0.058    R82C55B.FCI to    R82C55B.FCO Blink/SLICE_5
+ROUTE         1     0.000    R82C55B.FCO to    R82C55C.FCI Blink/count_cry[8]
+FCITOFCO_D  ---     0.058    R82C55C.FCI to    R82C55C.FCO Blink/SLICE_6
+ROUTE         1     0.000    R82C55C.FCO to    R82C56A.FCI Blink/count_cry[10]
+FCITOFCO_D  ---     0.058    R82C56A.FCI to    R82C56A.FCO Blink/SLICE_7
+ROUTE         1     0.000    R82C56A.FCO to    R82C56B.FCI Blink/count_cry[12]
+FCITOFCO_D  ---     0.058    R82C56B.FCI to    R82C56B.FCO Blink/SLICE_8
+ROUTE         1     0.000    R82C56B.FCO to    R82C56C.FCI Blink/count_cry[14]
+FCITOFCO_D  ---     0.058    R82C56C.FCI to    R82C56C.FCO Blink/SLICE_9
+ROUTE         1     0.000    R82C56C.FCO to    R82C57A.FCI Blink/count_cry[16]
+FCITOFCO_D  ---     0.058    R82C57A.FCI to    R82C57A.FCO Blink/SLICE_10
+ROUTE         1     0.000    R82C57A.FCO to    R82C57B.FCI Blink/count_cry[18]
+FCITOFCO_D  ---     0.058    R82C57B.FCI to    R82C57B.FCO Blink/SLICE_11
+ROUTE         1     0.000    R82C57B.FCO to    R82C57C.FCI Blink/count_cry[20]
+FCITOFCO_D  ---     0.058    R82C57C.FCI to    R82C57C.FCO Blink/SLICE_12
+ROUTE         1     0.000    R82C57C.FCO to    R82C58A.FCI Blink/count_cry[22]
+FCITOFCO_D  ---     0.058    R82C58A.FCI to    R82C58A.FCO Blink/SLICE_13
+ROUTE         1     0.000    R82C58A.FCO to    R82C58B.FCI Blink/count_cry[24]
+FCITOFCO_D  ---     0.058    R82C58B.FCI to    R82C58B.FCO Blink/SLICE_14
+ROUTE         1     0.000    R82C58B.FCO to    R82C58C.FCI Blink/count_cry[26]
+FCITOFCO_D  ---     0.058    R82C58C.FCI to    R82C58C.FCO Blink/SLICE_15
+ROUTE         1     0.000    R82C58C.FCO to    R82C59A.FCI Blink/count_cry[28]
+FCITOFCO_D  ---     0.058    R82C59A.FCI to    R82C59A.FCO Blink/SLICE_16
+ROUTE         1     0.000    R82C59A.FCO to    R82C59B.FCI Blink/count_cry[30]
+FCITOF0_DE  ---     0.133    R82C59B.FCI to     R82C59B.F0 Blink/SLICE_0
+ROUTE         1     0.000     R82C59B.F0 to    R82C59B.DI0 Blink/count_s[31] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    2.021   (74.6% logic, 25.4% route), 16 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to Blink/SLICE_3:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C54C.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to Blink/SLICE_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C59B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 2.918ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Blink/count[1]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        Blink/count[29]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               2.021ns  (74.6% logic, 25.4% route), 16 logic levels.
+
+ Constraint Details:
+
+      2.021ns physical path delay Blink/SLICE_2 to Blink/SLICE_16 meets
+      5.000ns delay constraint less
+      0.000ns skew and
+      0.061ns DIN_SET requirement (totaling 4.939ns) by 2.918ns
+
+ Physical Path Details:
+
+      Data path Blink/SLICE_2 to Blink/SLICE_16:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R82C54B.CLK to     R82C54B.Q0 Blink/SLICE_2 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.514     R82C54B.Q0 to     R82C54B.B0 Blink/count[1]
+C0TOFCO_DE  ---     0.377     R82C54B.B0 to    R82C54B.FCO Blink/SLICE_2
+ROUTE         1     0.000    R82C54B.FCO to    R82C54C.FCI Blink/count_cry[2]
+FCITOFCO_D  ---     0.058    R82C54C.FCI to    R82C54C.FCO Blink/SLICE_3
+ROUTE         1     0.000    R82C54C.FCO to    R82C55A.FCI Blink/count_cry[4]
+FCITOFCO_D  ---     0.058    R82C55A.FCI to    R82C55A.FCO Blink/SLICE_4
+ROUTE         1     0.000    R82C55A.FCO to    R82C55B.FCI Blink/count_cry[6]
+FCITOFCO_D  ---     0.058    R82C55B.FCI to    R82C55B.FCO Blink/SLICE_5
+ROUTE         1     0.000    R82C55B.FCO to    R82C55C.FCI Blink/count_cry[8]
+FCITOFCO_D  ---     0.058    R82C55C.FCI to    R82C55C.FCO Blink/SLICE_6
+ROUTE         1     0.000    R82C55C.FCO to    R82C56A.FCI Blink/count_cry[10]
+FCITOFCO_D  ---     0.058    R82C56A.FCI to    R82C56A.FCO Blink/SLICE_7
+ROUTE         1     0.000    R82C56A.FCO to    R82C56B.FCI Blink/count_cry[12]
+FCITOFCO_D  ---     0.058    R82C56B.FCI to    R82C56B.FCO Blink/SLICE_8
+ROUTE         1     0.000    R82C56B.FCO to    R82C56C.FCI Blink/count_cry[14]
+FCITOFCO_D  ---     0.058    R82C56C.FCI to    R82C56C.FCO Blink/SLICE_9
+ROUTE         1     0.000    R82C56C.FCO to    R82C57A.FCI Blink/count_cry[16]
+FCITOFCO_D  ---     0.058    R82C57A.FCI to    R82C57A.FCO Blink/SLICE_10
+ROUTE         1     0.000    R82C57A.FCO to    R82C57B.FCI Blink/count_cry[18]
+FCITOFCO_D  ---     0.058    R82C57B.FCI to    R82C57B.FCO Blink/SLICE_11
+ROUTE         1     0.000    R82C57B.FCO to    R82C57C.FCI Blink/count_cry[20]
+FCITOFCO_D  ---     0.058    R82C57C.FCI to    R82C57C.FCO Blink/SLICE_12
+ROUTE         1     0.000    R82C57C.FCO to    R82C58A.FCI Blink/count_cry[22]
+FCITOFCO_D  ---     0.058    R82C58A.FCI to    R82C58A.FCO Blink/SLICE_13
+ROUTE         1     0.000    R82C58A.FCO to    R82C58B.FCI Blink/count_cry[24]
+FCITOFCO_D  ---     0.058    R82C58B.FCI to    R82C58B.FCO Blink/SLICE_14
+ROUTE         1     0.000    R82C58B.FCO to    R82C58C.FCI Blink/count_cry[26]
+FCITOFCO_D  ---     0.058    R82C58C.FCI to    R82C58C.FCO Blink/SLICE_15
+ROUTE         1     0.000    R82C58C.FCO to    R82C59A.FCI Blink/count_cry[28]
+FCITOF0_DE  ---     0.133    R82C59A.FCI to     R82C59A.F0 Blink/SLICE_16
+ROUTE         1     0.000     R82C59A.F0 to    R82C59A.DI0 Blink/count_s[29] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    2.021   (74.6% logic, 25.4% route), 16 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to Blink/SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C54B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to Blink/SLICE_16:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     1.107      U20.PADDI to    R82C59A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    1.107   (0.0% logic, 100.0% route), 0 logic levels.
+
+Warning: 180.571MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "CLK_PCLK_RIGHT"         |             |             |
+200.000000 MHz ;                        |  200.000 MHz|  180.571 MHz|   2 *
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+1 preference(marked by "*" above) not met.
+
+----------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+----------------------------------------------------------------------------
+Blink.count_i[30]                       |       1|       1|     33.33%
+                                        |        |        |
+Blink.count_i[29]                       |       1|       1|     33.33%
+                                        |        |        |
+Blink/count[30]                         |       2|       1|     33.33%
+                                        |        |        |
+Blink/count[29]                         |       2|       1|     33.33%
+                                        |        |        |
+Blink/count[31]                         |       2|       1|     33.33%
+                                        |        |        |
+Blink.count_i[31]                       |       1|       1|     33.33%
+                                        |        |        |
+----------------------------------------------------------------------------
+
+
+Clock Domains Analysis
+------------------------
+
+Found 155 clocks:
+
+Clock Domain: INP_c[0]   Source: INP[0].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[10]   Source: INP[10].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[11]   Source: INP[11].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[12]   Source: INP[12].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[13]   Source: INP[13].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[14]   Source: INP[14].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[15]   Source: INP[15].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[16]   Source: INP[16].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[17]   Source: INP[17].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[18]   Source: INP[18].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[19]   Source: INP[19].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[1]   Source: INP[1].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[20]   Source: INP[20].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[21]   Source: INP[21].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[22]   Source: INP[22].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[23]   Source: INP[23].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[24]   Source: INP[24].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[25]   Source: INP[25].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[26]   Source: INP[26].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[27]   Source: INP[27].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[28]   Source: INP[28].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[29]   Source: INP[29].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[2]   Source: INP[2].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[30]   Source: INP[30].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[31]   Source: INP[31].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[32]   Source: INP[32].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[33]   Source: INP[33].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[34]   Source: INP[34].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[35]   Source: INP[35].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[36]   Source: INP[36].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[37]   Source: INP[37].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[38]   Source: INP[38].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[39]   Source: INP[39].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[3]   Source: INP[3].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[40]   Source: INP[40].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[41]   Source: INP[41].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[42]   Source: INP[42].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[43]   Source: INP[43].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[44]   Source: INP[44].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[45]   Source: INP[45].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[4]   Source: INP[4].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[5]   Source: INP[5].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[6]   Source: INP[6].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[7]   Source: INP[7].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[8]   Source: INP[8].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[9]   Source: INP[9].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: N_1594_i   Source: SLICE_679.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1584_i   Source: SLICE_1824.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1583_i   Source: SLICE_694.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1582_i   Source: SLICE_697.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1581_i   Source: SLICE_714.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1580_i   Source: SLICE_698.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1579_i   Source: SLICE_716.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1578_i   Source: SLICE_1847.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1577_i   Source: SLICE_702.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1593_i   Source: SLICE_1842.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1592_i   Source: SLICE_684.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1591_i   Source: SLICE_676.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1590_i   Source: SLICE_677.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1589_i   Source: SLICE_685.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1588_i   Source: SLICE_687.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1587_i   Source: SLICE_1825.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1586_i   Source: SLICE_690.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1585_i   Source: SLICE_693.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1576_i   Source: SLICE_673.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1566_i   Source: SLICE_1819.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1565_i   Source: SLICE_1821.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1564_i   Source: SLICE_1832.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1563_i   Source: BO3A/SLICE_1835.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1562_i   Source: SLICE_700.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1561_i   Source: SLICE_699.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1560_i   Source: SLICE_1848.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1559_i   Source: SLICE_1823.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1575_i   Source: SLICE_1852.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1574_i   Source: SLICE_1820.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1573_i   Source: SLICE_683.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1572_i   Source: SLICE_1834.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1571_i   Source: SLICE_1833.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1570_i   Source: SLICE_1822.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1569_i   Source: SLICE_689.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1568_i   Source: SLICE_1843.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1567_i   Source: SLICE_710.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1513_i   Source: SLICE_725.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1503_i   Source: SLICE_1813.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1502_i   Source: SLICE_740.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1501_i   Source: SLICE_743.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1500_i   Source: SLICE_760.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1499_i   Source: SLICE_744.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1498_i   Source: SLICE_762.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1497_i   Source: SLICE_1844.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1496_i   Source: SLICE_748.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1512_i   Source: SLICE_720.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1511_i   Source: SLICE_721.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1510_i   Source: SLICE_722.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1509_i   Source: SLICE_730.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1508_i   Source: BO3B/SLICE_1840.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1507_i   Source: SLICE_733.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1506_i   Source: SLICE_1814.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1505_i   Source: SLICE_736.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1504_i   Source: SLICE_739.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1495_i   Source: SLICE_1810.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1485_i   Source: SLICE_1808.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1484_i   Source: SLICE_1811.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1483_i   Source: SLICE_1829.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1482_i   Source: BO3B/SLICE_1831.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1481_i   Source: SLICE_746.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1480_i   Source: SLICE_745.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1479_i   Source: SLICE_1846.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1494_i   Source: SLICE_1841.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1493_i   Source: SLICE_1830.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1492_i   Source: SLICE_731.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1491_i   Source: SLICE_1809.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1490_i   Source: SLICE_752.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1489_i   Source: SLICE_732.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1488_i   Source: SLICE_1851.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1487_i   Source: SLICE_735.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1486_i   Source: SLICE_1845.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_4_i   Source: SLICE_1812.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_76_i   Source: SLICE_771.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_56_i   Source: SLICE_1802.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_54_i   Source: SLICE_786.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_52_i   Source: SLICE_1836.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_50_i   Source: SLICE_791.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_48_i   Source: SLICE_807.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_46_i   Source: SLICE_808.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_44_i   Source: SLICE_792.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_42_i   Source: SLICE_794.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_74_i   Source: SLICE_1837.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_72_i   Source: SLICE_776.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_70_i   Source: SLICE_768.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_68_i   Source: SLICE_769.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_66_i   Source: SLICE_777.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_64_i   Source: SLICE_779.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_62_i   Source: SLICE_1803.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_60_i   Source: SLICE_782.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_58_i   Source: SLICE_785.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_40_i   Source: SLICE_765.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_20_i   Source: SLICE_1798.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_18_i   Source: SLICE_1850.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_16_i   Source: SLICE_805.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_14_i   Source: SLICE_1801.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_12_i   Source: SLICE_790.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_10_i   Source: SLICE_1828.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_8_i   Source: SLICE_1838.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_6_i   Source: SLICE_1800.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_38_i   Source: SLICE_1849.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_36_i   Source: SLICE_1797.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_34_i   Source: SLICE_775.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_32_i   Source: SLICE_1827.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_30_i   Source: SLICE_1826.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_28_i   Source: BO3C/SLICE_1799.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_26_i   Source: SLICE_781.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_24_i   Source: SLICE_1839.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_22_i   Source: SLICE_802.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: CLK_PCLK_RIGHT_c   Source: CLK_PCLK_RIGHT.PAD   Loads: 1233
+   Covered under: FREQUENCY PORT "CLK_PCLK_RIGHT" 200.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: INP_c[0]   Source: INP[0].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[10]   Source: INP[10].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[11]   Source: INP[11].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[12]   Source: INP[12].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[13]   Source: INP[13].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[14]   Source: INP[14].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[15]   Source: INP[15].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[16]   Source: INP[16].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[17]   Source: INP[17].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[18]   Source: INP[18].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[19]   Source: INP[19].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[1]   Source: INP[1].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[20]   Source: INP[20].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[21]   Source: INP[21].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[22]   Source: INP[22].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[23]   Source: INP[23].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[24]   Source: INP[24].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[25]   Source: INP[25].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[26]   Source: INP[26].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[27]   Source: INP[27].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[28]   Source: INP[28].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[29]   Source: INP[29].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[2]   Source: INP[2].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[30]   Source: INP[30].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[31]   Source: INP[31].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[32]   Source: INP[32].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[33]   Source: INP[33].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[34]   Source: INP[34].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[35]   Source: INP[35].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[36]   Source: INP[36].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[37]   Source: INP[37].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[38]   Source: INP[38].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[39]   Source: INP[39].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[3]   Source: INP[3].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[40]   Source: INP[40].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[41]   Source: INP[41].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[42]   Source: INP[42].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[43]   Source: INP[43].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[44]   Source: INP[44].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[45]   Source: INP[45].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[4]   Source: INP[4].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[5]   Source: INP[5].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[6]   Source: INP[6].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[7]   Source: INP[7].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[8]   Source: INP[8].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[9]   Source: INP[9].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: N_1594_i   Source: SLICE_679.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1584_i   Source: SLICE_1824.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1583_i   Source: SLICE_694.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1582_i   Source: SLICE_697.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1581_i   Source: SLICE_714.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1580_i   Source: SLICE_698.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1579_i   Source: SLICE_716.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1578_i   Source: SLICE_1847.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1577_i   Source: SLICE_702.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1593_i   Source: SLICE_1842.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1592_i   Source: SLICE_684.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1591_i   Source: SLICE_676.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1590_i   Source: SLICE_677.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1589_i   Source: SLICE_685.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1588_i   Source: SLICE_687.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1587_i   Source: SLICE_1825.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1586_i   Source: SLICE_690.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1585_i   Source: SLICE_693.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1576_i   Source: SLICE_673.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1566_i   Source: SLICE_1819.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1565_i   Source: SLICE_1821.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1564_i   Source: SLICE_1832.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1563_i   Source: BO3A/SLICE_1835.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1562_i   Source: SLICE_700.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1561_i   Source: SLICE_699.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1560_i   Source: SLICE_1848.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1559_i   Source: SLICE_1823.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1575_i   Source: SLICE_1852.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1574_i   Source: SLICE_1820.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1573_i   Source: SLICE_683.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1572_i   Source: SLICE_1834.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1571_i   Source: SLICE_1833.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1570_i   Source: SLICE_1822.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1569_i   Source: SLICE_689.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1568_i   Source: SLICE_1843.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1567_i   Source: SLICE_710.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1513_i   Source: SLICE_725.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1503_i   Source: SLICE_1813.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1502_i   Source: SLICE_740.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1501_i   Source: SLICE_743.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1500_i   Source: SLICE_760.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1499_i   Source: SLICE_744.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1498_i   Source: SLICE_762.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1497_i   Source: SLICE_1844.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1496_i   Source: SLICE_748.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1512_i   Source: SLICE_720.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1511_i   Source: SLICE_721.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1510_i   Source: SLICE_722.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1509_i   Source: SLICE_730.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1508_i   Source: BO3B/SLICE_1840.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1507_i   Source: SLICE_733.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1506_i   Source: SLICE_1814.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1505_i   Source: SLICE_736.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1504_i   Source: SLICE_739.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1495_i   Source: SLICE_1810.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1485_i   Source: SLICE_1808.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1484_i   Source: SLICE_1811.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1483_i   Source: SLICE_1829.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1482_i   Source: BO3B/SLICE_1831.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1481_i   Source: SLICE_746.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1480_i   Source: SLICE_745.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1479_i   Source: SLICE_1846.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1494_i   Source: SLICE_1841.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1493_i   Source: SLICE_1830.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1492_i   Source: SLICE_731.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1491_i   Source: SLICE_1809.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1490_i   Source: SLICE_752.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1489_i   Source: SLICE_732.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1488_i   Source: SLICE_1851.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1487_i   Source: SLICE_735.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1486_i   Source: SLICE_1845.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_4_i   Source: SLICE_1812.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_76_i   Source: SLICE_771.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_56_i   Source: SLICE_1802.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_54_i   Source: SLICE_786.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_52_i   Source: SLICE_1836.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_50_i   Source: SLICE_791.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_48_i   Source: SLICE_807.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_46_i   Source: SLICE_808.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_44_i   Source: SLICE_792.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_42_i   Source: SLICE_794.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_74_i   Source: SLICE_1837.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_72_i   Source: SLICE_776.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_70_i   Source: SLICE_768.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_68_i   Source: SLICE_769.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_66_i   Source: SLICE_777.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_64_i   Source: SLICE_779.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_62_i   Source: SLICE_1803.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_60_i   Source: SLICE_782.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_58_i   Source: SLICE_785.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_40_i   Source: SLICE_765.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_20_i   Source: SLICE_1798.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_18_i   Source: SLICE_1850.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_16_i   Source: SLICE_805.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_14_i   Source: SLICE_1801.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_12_i   Source: SLICE_790.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_10_i   Source: SLICE_1828.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_8_i   Source: SLICE_1838.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_6_i   Source: SLICE_1800.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_38_i   Source: SLICE_1849.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_36_i   Source: SLICE_1797.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_34_i   Source: SLICE_775.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_32_i   Source: SLICE_1827.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_30_i   Source: SLICE_1826.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_28_i   Source: BO3C/SLICE_1799.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_26_i   Source: SLICE_781.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_24_i   Source: SLICE_1839.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_22_i   Source: SLICE_802.F0
+      Not reported because source and destination domains are unrelated.
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 3  Score: 1334
+Cumulative negative slack: 1334
+
+Constraints cover 1707 paths, 1 nets, and 3705 connections (41.26% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.7.1.502
+Wed Sep 21 15:41:51 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o TrigLUT_TrigLUT.twr -gui -msgset D:/bartz/Documents/Lattice/TrigLUT/promote.xml TrigLUT_TrigLUT.ncd TrigLUT_TrigLUT.prf 
+Design file:     triglut_triglut.ncd
+Preference file: triglut_triglut.prf
+Device,speed:    LFE3-150EA,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK RD_DURING_WR_PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK_PCLK_RIGHT" 200.000000 MHz ;
+            1707 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/res[0]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/res[1]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_599 to LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_600 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_599 to LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_600:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R86C51B.CLK to     R86C51B.Q0 LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_599 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R86C51B.Q0 to     R86C51A.D0 LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/res[0]
+CTOF_DEL    ---     0.058     R86C51A.D0 to     R86C51A.F0 LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_600
+ROUTE         1     0.000     R86C51A.F0 to    R86C51A.DI0 LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/res_10[1] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_599:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R86C51B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_600:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R86C51A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/res[0]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/res[1]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/SLICE_175 to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/SLICE_176 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/SLICE_175 to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/SLICE_176:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R64C52A.CLK to     R64C52A.Q0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/SLICE_175 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R64C52A.Q0 to     R63C52C.D0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/res[0]
+CTOF_DEL    ---     0.058     R63C52C.D0 to     R63C52C.F0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/SLICE_176
+ROUTE         1     0.000     R63C52C.F0 to    R63C52C.DI0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/res_10[1] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/SLICE_175:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R64C52A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/SLICE_176:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R63C52C.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/res[1]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/res[2]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_150 to LatchAnd3A/SLICE_191 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_150 to LatchAnd3A/SLICE_191:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R68C56B.CLK to     R68C56B.Q0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_150 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R68C56B.Q0 to     R68C57A.D0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/res[1]
+CTOF_DEL    ---     0.058     R68C57A.D0 to     R68C57A.F0 LatchAnd3A/SLICE_191
+ROUTE         1     0.000     R68C57A.F0 to    R68C57A.DI0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/res_11[2] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/SLICE_150:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R68C56B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd3A/SLICE_191:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R68C57A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/res[0]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/res[1]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_325 to LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_326 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_325 to LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_326:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R91C36B.CLK to     R91C36B.Q0 LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_325 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R91C36B.Q0 to     R91C37C.D0 LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/res[0]
+CTOF_DEL    ---     0.058     R91C37C.D0 to     R91C37C.F0 LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_326
+ROUTE         1     0.000     R91C37C.F0 to    R91C37C.DI0 LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/res_10[1] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_325:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R91C36B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_326:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R91C37C.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/res[0]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/res[1]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/SLICE_435 to LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/SLICE_436 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/SLICE_435 to LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/SLICE_436:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R81C49B.CLK to     R81C49B.Q0 LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/SLICE_435 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R81C49B.Q0 to     R81C50A.D0 LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/res[0]
+CTOF_DEL    ---     0.058     R81C50A.D0 to     R81C50A.F0 LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/SLICE_436
+ROUTE         1     0.000     R81C50A.F0 to    R81C50A.DI0 LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/res_10[1] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/SLICE_435:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R81C49B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/SLICE_436:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R81C50A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/res[0]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/res[1]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_415 to LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_416 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_415 to LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_416:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R69C51B.CLK to     R69C51B.Q0 LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_415 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R69C51B.Q0 to     R69C52B.D0 LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/res[0]
+CTOF_DEL    ---     0.058     R69C52B.D0 to     R69C52B.F0 LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_416
+ROUTE         1     0.000     R69C52B.F0 to    R69C52B.DI0 LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/res_10[1] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_415:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R69C51B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/SLICE_416:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R69C52B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/res[1]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/res[2]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/SLICE_328 to LatchAnd3C/SLICE_370 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/SLICE_328 to LatchAnd3C/SLICE_370:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R94C37B.CLK to     R94C37B.Q0 LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/SLICE_328 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R94C37B.Q0 to     R93C37B.D0 LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/res[1]
+CTOF_DEL    ---     0.058     R93C37B.D0 to     R93C37B.F0 LatchAnd3C/SLICE_370
+ROUTE         1     0.000     R93C37B.F0 to    R93C37B.DI0 LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/res_11[2] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/SLICE_328:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R94C37B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd3C/SLICE_370:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R93C37B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/res[0]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/res[1]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/SLICE_169 to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/SLICE_170 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/SLICE_169 to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/SLICE_170:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R77C50B.CLK to     R77C50B.Q0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/SLICE_169 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R77C50B.Q0 to     R76C50B.D0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/res[0]
+CTOF_DEL    ---     0.058     R76C50B.D0 to     R76C50B.F0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/SLICE_170
+ROUTE         1     0.000     R76C50B.F0 to    R76C50B.DI0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/res_10[1] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/SLICE_169:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R77C50B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/SLICE_170:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.481      U20.PADDI to    R76C50B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.481   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/res[1]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/res[2]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/SLICE_154 to LatchAnd3A/SLICE_193 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/SLICE_154 to LatchAnd3A/SLICE_193:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R69C60A.CLK to     R69C60A.Q0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/SLICE_154 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R69C60A.Q0 to     R69C60C.D0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/res[1]
+CTOF_DEL    ---     0.058     R69C60C.D0 to     R69C60C.F0 LatchAnd3A/SLICE_193
+ROUTE         1     0.000     R69C60C.F0 to    R69C60C.DI0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/res_11[2] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/SLICE_154:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R69C60A.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd3A/SLICE_193:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R69C60C.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/res[1]  (from CLK_PCLK_RIGHT_c +)
+   Destination:    FF         Data in        LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/res[2]  (to CLK_PCLK_RIGHT_c +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/SLICE_178 to LatchAnd3A/SLICE_188 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/SLICE_178 to LatchAnd3A/SLICE_188:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096    R64C53B.CLK to     R64C53B.Q0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/SLICE_178 (from CLK_PCLK_RIGHT_c)
+ROUTE         1     0.079     R64C53B.Q0 to     R63C53B.D0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/res[1]
+CTOF_DEL    ---     0.058     R63C53B.D0 to     R63C53B.F0 LatchAnd3A/SLICE_188
+ROUTE         1     0.000     R63C53B.F0 to    R63C53B.DI0 LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/res_11[2] (to CLK_PCLK_RIGHT_c)
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path CLK_PCLK_RIGHT to LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/SLICE_178:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R64C53B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path CLK_PCLK_RIGHT to LatchAnd3A/SLICE_188:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.480      U20.PADDI to    R63C53B.CLK CLK_PCLK_RIGHT_c
+                  --------
+                    0.480   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "CLK_PCLK_RIGHT"         |             |             |
+200.000000 MHz ;                        |            -|            -|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 155 clocks:
+
+Clock Domain: INP_c[0]   Source: INP[0].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[10]   Source: INP[10].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[11]   Source: INP[11].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[12]   Source: INP[12].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[13]   Source: INP[13].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[14]   Source: INP[14].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[15]   Source: INP[15].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[16]   Source: INP[16].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[17]   Source: INP[17].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[18]   Source: INP[18].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[19]   Source: INP[19].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[1]   Source: INP[1].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[20]   Source: INP[20].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[21]   Source: INP[21].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[22]   Source: INP[22].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[23]   Source: INP[23].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[24]   Source: INP[24].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[25]   Source: INP[25].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[26]   Source: INP[26].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[27]   Source: INP[27].PAD   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[28]   Source: INP[28].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[29]   Source: INP[29].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[2]   Source: INP[2].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[30]   Source: INP[30].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[31]   Source: INP[31].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[32]   Source: INP[32].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[33]   Source: INP[33].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[34]   Source: INP[34].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[35]   Source: INP[35].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[36]   Source: INP[36].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[37]   Source: INP[37].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[38]   Source: INP[38].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[39]   Source: INP[39].PAD   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[3]   Source: INP[3].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[40]   Source: INP[40].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[41]   Source: INP[41].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[42]   Source: INP[42].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[43]   Source: INP[43].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[44]   Source: INP[44].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[45]   Source: INP[45].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[4]   Source: INP[4].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[5]   Source: INP[5].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[6]   Source: INP[6].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[7]   Source: INP[7].PAD   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[8]   Source: INP[8].PAD   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[9]   Source: INP[9].PAD   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: N_1594_i   Source: SLICE_679.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1584_i   Source: SLICE_1824.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1583_i   Source: SLICE_694.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1582_i   Source: SLICE_697.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1581_i   Source: SLICE_714.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1580_i   Source: SLICE_698.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1579_i   Source: SLICE_716.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1578_i   Source: SLICE_1847.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1577_i   Source: SLICE_702.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1593_i   Source: SLICE_1842.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1592_i   Source: SLICE_684.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1591_i   Source: SLICE_676.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1590_i   Source: SLICE_677.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1589_i   Source: SLICE_685.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1588_i   Source: SLICE_687.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1587_i   Source: SLICE_1825.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1586_i   Source: SLICE_690.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1585_i   Source: SLICE_693.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1576_i   Source: SLICE_673.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1566_i   Source: SLICE_1819.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1565_i   Source: SLICE_1821.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1564_i   Source: SLICE_1832.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1563_i   Source: BO3A/SLICE_1835.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1562_i   Source: SLICE_700.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1561_i   Source: SLICE_699.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1560_i   Source: SLICE_1848.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1559_i   Source: SLICE_1823.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1575_i   Source: SLICE_1852.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1574_i   Source: SLICE_1820.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1573_i   Source: SLICE_683.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1572_i   Source: SLICE_1834.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1571_i   Source: SLICE_1833.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1570_i   Source: SLICE_1822.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1569_i   Source: SLICE_689.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1568_i   Source: SLICE_1843.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1567_i   Source: SLICE_710.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1513_i   Source: SLICE_725.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1503_i   Source: SLICE_1813.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1502_i   Source: SLICE_740.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1501_i   Source: SLICE_743.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1500_i   Source: SLICE_760.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1499_i   Source: SLICE_744.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1498_i   Source: SLICE_762.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1497_i   Source: SLICE_1844.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1496_i   Source: SLICE_748.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1512_i   Source: SLICE_720.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1511_i   Source: SLICE_721.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1510_i   Source: SLICE_722.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1509_i   Source: SLICE_730.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1508_i   Source: BO3B/SLICE_1840.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1507_i   Source: SLICE_733.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1506_i   Source: SLICE_1814.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1505_i   Source: SLICE_736.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1504_i   Source: SLICE_739.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1495_i   Source: SLICE_1810.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1485_i   Source: SLICE_1808.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1484_i   Source: SLICE_1811.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1483_i   Source: SLICE_1829.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1482_i   Source: BO3B/SLICE_1831.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1481_i   Source: SLICE_746.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1480_i   Source: SLICE_745.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1479_i   Source: SLICE_1846.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1494_i   Source: SLICE_1841.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1493_i   Source: SLICE_1830.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1492_i   Source: SLICE_731.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1491_i   Source: SLICE_1809.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1490_i   Source: SLICE_752.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1489_i   Source: SLICE_732.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1488_i   Source: SLICE_1851.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1487_i   Source: SLICE_735.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_1486_i   Source: SLICE_1845.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_4_i   Source: SLICE_1812.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_76_i   Source: SLICE_771.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_56_i   Source: SLICE_1802.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_54_i   Source: SLICE_786.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_52_i   Source: SLICE_1836.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_50_i   Source: SLICE_791.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_48_i   Source: SLICE_807.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_46_i   Source: SLICE_808.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_44_i   Source: SLICE_792.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_42_i   Source: SLICE_794.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_74_i   Source: SLICE_1837.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_72_i   Source: SLICE_776.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_70_i   Source: SLICE_768.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_68_i   Source: SLICE_769.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_66_i   Source: SLICE_777.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_64_i   Source: SLICE_779.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_62_i   Source: SLICE_1803.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_60_i   Source: SLICE_782.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_58_i   Source: SLICE_785.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_40_i   Source: SLICE_765.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_20_i   Source: SLICE_1798.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_18_i   Source: SLICE_1850.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_16_i   Source: SLICE_805.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_14_i   Source: SLICE_1801.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_12_i   Source: SLICE_790.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_10_i   Source: SLICE_1828.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_8_i   Source: SLICE_1838.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_6_i   Source: SLICE_1800.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_38_i   Source: SLICE_1849.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_36_i   Source: SLICE_1797.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_34_i   Source: SLICE_775.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_32_i   Source: SLICE_1827.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_30_i   Source: SLICE_1826.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_28_i   Source: BO3C/SLICE_1799.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_26_i   Source: SLICE_781.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_24_i   Source: SLICE_1839.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: N_22_i   Source: SLICE_802.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: CLK_PCLK_RIGHT_c   Source: CLK_PCLK_RIGHT.PAD   Loads: 1233
+   Covered under: FREQUENCY PORT "CLK_PCLK_RIGHT" 200.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: INP_c[0]   Source: INP[0].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[10]   Source: INP[10].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[11]   Source: INP[11].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[12]   Source: INP[12].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[13]   Source: INP[13].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[14]   Source: INP[14].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[15]   Source: INP[15].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[16]   Source: INP[16].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[17]   Source: INP[17].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[18]   Source: INP[18].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[19]   Source: INP[19].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[1]   Source: INP[1].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[20]   Source: INP[20].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[21]   Source: INP[21].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[22]   Source: INP[22].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[23]   Source: INP[23].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[24]   Source: INP[24].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[25]   Source: INP[25].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[26]   Source: INP[26].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[27]   Source: INP[27].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[28]   Source: INP[28].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[29]   Source: INP[29].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[2]   Source: INP[2].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[30]   Source: INP[30].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[31]   Source: INP[31].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[32]   Source: INP[32].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[33]   Source: INP[33].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[34]   Source: INP[34].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[35]   Source: INP[35].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[36]   Source: INP[36].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[37]   Source: INP[37].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[38]   Source: INP[38].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[39]   Source: INP[39].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[3]   Source: INP[3].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[40]   Source: INP[40].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[41]   Source: INP[41].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[42]   Source: INP[42].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[43]   Source: INP[43].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[44]   Source: INP[44].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[45]   Source: INP[45].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[4]   Source: INP[4].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[5]   Source: INP[5].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[6]   Source: INP[6].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[7]   Source: INP[7].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[8]   Source: INP[8].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: INP_c[9]   Source: INP[9].PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+   Clock Domain: N_1594_i   Source: SLICE_679.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1584_i   Source: SLICE_1824.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1583_i   Source: SLICE_694.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1582_i   Source: SLICE_697.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1581_i   Source: SLICE_714.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1580_i   Source: SLICE_698.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1579_i   Source: SLICE_716.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1578_i   Source: SLICE_1847.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1577_i   Source: SLICE_702.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1593_i   Source: SLICE_1842.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1592_i   Source: SLICE_684.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1591_i   Source: SLICE_676.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1590_i   Source: SLICE_677.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1589_i   Source: SLICE_685.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1588_i   Source: SLICE_687.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1587_i   Source: SLICE_1825.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1586_i   Source: SLICE_690.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1585_i   Source: SLICE_693.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1576_i   Source: SLICE_673.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1566_i   Source: SLICE_1819.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1565_i   Source: SLICE_1821.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1564_i   Source: SLICE_1832.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1563_i   Source: BO3A/SLICE_1835.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1562_i   Source: SLICE_700.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1561_i   Source: SLICE_699.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1560_i   Source: SLICE_1848.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1559_i   Source: SLICE_1823.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1575_i   Source: SLICE_1852.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1574_i   Source: SLICE_1820.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1573_i   Source: SLICE_683.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1572_i   Source: SLICE_1834.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1571_i   Source: SLICE_1833.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1570_i   Source: SLICE_1822.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1569_i   Source: SLICE_689.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1568_i   Source: SLICE_1843.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1567_i   Source: SLICE_710.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1513_i   Source: SLICE_725.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1503_i   Source: SLICE_1813.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1502_i   Source: SLICE_740.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1501_i   Source: SLICE_743.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1500_i   Source: SLICE_760.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1499_i   Source: SLICE_744.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1498_i   Source: SLICE_762.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1497_i   Source: SLICE_1844.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1496_i   Source: SLICE_748.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1512_i   Source: SLICE_720.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1511_i   Source: SLICE_721.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1510_i   Source: SLICE_722.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1509_i   Source: SLICE_730.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1508_i   Source: BO3B/SLICE_1840.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1507_i   Source: SLICE_733.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1506_i   Source: SLICE_1814.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1505_i   Source: SLICE_736.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1504_i   Source: SLICE_739.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1495_i   Source: SLICE_1810.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1485_i   Source: SLICE_1808.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1484_i   Source: SLICE_1811.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1483_i   Source: SLICE_1829.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1482_i   Source: BO3B/SLICE_1831.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1481_i   Source: SLICE_746.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1480_i   Source: SLICE_745.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1479_i   Source: SLICE_1846.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1494_i   Source: SLICE_1841.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1493_i   Source: SLICE_1830.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1492_i   Source: SLICE_731.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1491_i   Source: SLICE_1809.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1490_i   Source: SLICE_752.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1489_i   Source: SLICE_732.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1488_i   Source: SLICE_1851.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1487_i   Source: SLICE_735.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_1486_i   Source: SLICE_1845.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_4_i   Source: SLICE_1812.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_76_i   Source: SLICE_771.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_56_i   Source: SLICE_1802.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_54_i   Source: SLICE_786.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_52_i   Source: SLICE_1836.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_50_i   Source: SLICE_791.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_48_i   Source: SLICE_807.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_46_i   Source: SLICE_808.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_44_i   Source: SLICE_792.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_42_i   Source: SLICE_794.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_74_i   Source: SLICE_1837.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_72_i   Source: SLICE_776.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_70_i   Source: SLICE_768.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_68_i   Source: SLICE_769.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_66_i   Source: SLICE_777.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_64_i   Source: SLICE_779.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_62_i   Source: SLICE_1803.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_60_i   Source: SLICE_782.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_58_i   Source: SLICE_785.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_40_i   Source: SLICE_765.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_20_i   Source: SLICE_1798.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_18_i   Source: SLICE_1850.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_16_i   Source: SLICE_805.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_14_i   Source: SLICE_1801.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_12_i   Source: SLICE_790.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_10_i   Source: SLICE_1828.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_8_i   Source: SLICE_1838.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_6_i   Source: SLICE_1800.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_38_i   Source: SLICE_1849.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_36_i   Source: SLICE_1797.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_34_i   Source: SLICE_775.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_32_i   Source: SLICE_1827.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_30_i   Source: SLICE_1826.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_28_i   Source: BO3C/SLICE_1799.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_26_i   Source: SLICE_781.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_24_i   Source: SLICE_1839.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: N_22_i   Source: SLICE_802.F0
+      Not reported because source and destination domains are unrelated.
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1707 paths, 1 nets, and 3705 connections (41.26% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 3 (setup), 0 (hold)
+Score: 1334 (setup), 0 (hold)
+Cumulative negative slack: 1334 (1334+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

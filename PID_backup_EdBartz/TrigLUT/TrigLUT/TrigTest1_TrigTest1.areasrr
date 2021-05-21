@@ -1,0 +1,535 @@
+----------------------------------------------------------------------
+Report for cell Top.verilog
+
+Register bits: 0 of 149040 (0%)
+PIC Latch:       0
+I/O cells:       34
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2      180       100.0
+                                GSR        1       100.0
+                                 IB       22       100.0
+                                 OB       12       100.0
+                           ORCALUT4       52       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO       23       100.0
+SUB MODULES 
+                          Delay_buf        1       100.0
+                        Delay_buf_0        1       100.0
+                        Delay_buf_1        1       100.0
+                       Delay_buf_10        1       100.0
+                       Delay_buf_11        1       100.0
+                       Delay_buf_12        1       100.0
+                       Delay_buf_13        1       100.0
+                       Delay_buf_14        1       100.0
+                       Delay_buf_15        1       100.0
+                       Delay_buf_16        1       100.0
+                        Delay_buf_2        1       100.0
+                        Delay_buf_3        1       100.0
+                        Delay_buf_4        1       100.0
+                        Delay_buf_5        1       100.0
+                        Delay_buf_6        1       100.0
+                        Delay_buf_7        1       100.0
+                        Delay_buf_8        1       100.0
+                        Delay_buf_9        1       100.0
+                            Mand3_0        1       100.0
+                            Mand3_1        1       100.0
+                            Mand4_0        1       100.0
+                            Mand4_1        1       100.0
+                            Mand5_0        1       100.0
+                            Mand5_1        1       100.0
+                            Mand6_0        1       100.0
+                            Mand6_1        1       100.0
+                          Stretcher        1       100.0
+                        Stretcher_0        1       100.0
+                        Stretcher_1        1       100.0
+                       Stretcher_10        1       100.0
+                       Stretcher_11        1       100.0
+                       Stretcher_12        1       100.0
+                       Stretcher_13        1       100.0
+                       Stretcher_14        1       100.0
+                       Stretcher_15        1       100.0
+                       Stretcher_16        1       100.0
+                        Stretcher_2        1       100.0
+                        Stretcher_3        1       100.0
+                        Stretcher_4        1       100.0
+                        Stretcher_5        1       100.0
+                        Stretcher_6        1       100.0
+                        Stretcher_7        1       100.0
+                        Stretcher_8        1       100.0
+                        Stretcher_9        1       100.0
+                            
+                         TOTAL           336           
+----------------------------------------------------------------------
+Report for cell Mand6_0.netlist
+  Original Cell name Mand6
+     Instance path:  U37
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         3.8
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell Stretcher_16.netlist
+  Original Cell name Stretcher
+     Instance path:  U35
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                       Delay_buf_16        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_16.netlist
+  Original Cell name Delay_buf
+     Instance path:  U35.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_15.netlist
+  Original Cell name Stretcher
+     Instance path:  U34
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                       Delay_buf_15        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_15.netlist
+  Original Cell name Delay_buf
+     Instance path:  U34.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_14.netlist
+  Original Cell name Stretcher
+     Instance path:  U33
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                       Delay_buf_14        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_14.netlist
+  Original Cell name Delay_buf
+     Instance path:  U33.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_13.netlist
+  Original Cell name Stretcher
+     Instance path:  U32
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                       Delay_buf_13        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_13.netlist
+  Original Cell name Delay_buf
+     Instance path:  U32.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_12.netlist
+  Original Cell name Stretcher
+     Instance path:  U31
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                       Delay_buf_12        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_12.netlist
+  Original Cell name Delay_buf
+     Instance path:  U31.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_11.netlist
+  Original Cell name Stretcher
+     Instance path:  U30
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                       Delay_buf_11        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_11.netlist
+  Original Cell name Delay_buf
+     Instance path:  U30.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Mand6_1.netlist
+  Original Cell name Mand6
+     Instance path:  U36
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         3.8
+                                VLO        1         4.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell Mand5_0.netlist
+  Original Cell name Mand5
+     Instance path:  U26
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         3.8
+                                VLO        1         4.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell Stretcher_10.netlist
+  Original Cell name Stretcher
+     Instance path:  U24
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                       Delay_buf_10        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_10.netlist
+  Original Cell name Delay_buf
+     Instance path:  U24.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_9.netlist
+  Original Cell name Stretcher
+     Instance path:  U23
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_9        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_9.netlist
+  Original Cell name Delay_buf
+     Instance path:  U23.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_8.netlist
+  Original Cell name Stretcher
+     Instance path:  U22
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_8        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_8.netlist
+  Original Cell name Delay_buf
+     Instance path:  U22.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_7.netlist
+  Original Cell name Stretcher
+     Instance path:  U21
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_7        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_7.netlist
+  Original Cell name Delay_buf
+     Instance path:  U21.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_6.netlist
+  Original Cell name Stretcher
+     Instance path:  U20
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_6        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_6.netlist
+  Original Cell name Delay_buf
+     Instance path:  U20.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Mand5_1.netlist
+  Original Cell name Mand5
+     Instance path:  U25
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         3.8
+                                VLO        1         4.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell Mand4_0.netlist
+  Original Cell name Mand4
+     Instance path:  U15
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         1.9
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell Stretcher_5.netlist
+  Original Cell name Stretcher
+     Instance path:  U13
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_5        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_5.netlist
+  Original Cell name Delay_buf
+     Instance path:  U13.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_4.netlist
+  Original Cell name Stretcher
+     Instance path:  U12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_4        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_4.netlist
+  Original Cell name Delay_buf
+     Instance path:  U12.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_3.netlist
+  Original Cell name Stretcher
+     Instance path:  U11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_3        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_3.netlist
+  Original Cell name Delay_buf
+     Instance path:  U11.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_2.netlist
+  Original Cell name Stretcher
+     Instance path:  U10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_2        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_2.netlist
+  Original Cell name Delay_buf
+     Instance path:  U10.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Mand4_1.netlist
+  Original Cell name Mand4
+     Instance path:  U14
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         1.9
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell Mand3_0.netlist
+  Original Cell name Mand3
+     Instance path:  U4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         1.9
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell Stretcher_1.netlist
+  Original Cell name Stretcher
+     Instance path:  U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_1        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_1.netlist
+  Original Cell name Delay_buf
+     Instance path:  U3.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher_0.netlist
+  Original Cell name Stretcher
+     Instance path:  U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                        Delay_buf_0        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf_0.netlist
+  Original Cell name Delay_buf
+     Instance path:  U2.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Stretcher.netlist
+  Original Cell name Stretcher
+     Instance path:  U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+SUB MODULES 
+                          Delay_buf        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell Delay_buf.netlist
+  Original Cell name Delay_buf
+     Instance path:  U1.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       10         5.6
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell Mand3_1.netlist
+  Original Cell name Mand3
+     Instance path:  U5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         1.9
+                                VLO        1         4.3
+                            
+                         TOTAL             2           

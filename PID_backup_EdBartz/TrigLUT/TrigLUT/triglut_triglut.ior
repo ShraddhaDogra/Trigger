@@ -1,0 +1,53 @@
+Loading design for application iotiming from file triglut_triglut.ncd.
+Design name: ScatterTrig
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 9
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+Loading design for application iotiming from file triglut_triglut.ncd.
+Design name: ScatterTrig
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: M
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+// Design: ScatterTrig
+// Package: FPBGA672
+// ncd File: triglut_triglut.ncd
+// Version: Diamond (64-bit) 3.7.1.502
+// Written on Wed Sep 21 15:42:00 2016
+// M: Minimum Performance Grade
+// iotiming TrigLUT_TrigLUT.ncd TrigLUT_TrigLUT.prf -gui -msgset D:/bartz/Documents/Lattice/TrigLUT/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port       Clock          Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+LED_ORANGE CLK_PCLK_RIGHT R     4.824         8        3.400          M
+LED_RED    CLK_PCLK_RIGHT R     4.824         8        3.400          M
+LED_YELLOW CLK_PCLK_RIGHT R     4.824         8        3.400          M
+OutpA[0]   CLK_PCLK_RIGHT R     4.833         8        3.400          M
+OutpA[1]   CLK_PCLK_RIGHT R     4.837         8        3.400          M
+OutpA[2]   CLK_PCLK_RIGHT R     4.837         8        3.400          M
+OutpB[0]   CLK_PCLK_RIGHT R     4.833         8        3.400          M
+OutpB[1]   CLK_PCLK_RIGHT R     4.837         8        3.400          M
+OutpB[2]   CLK_PCLK_RIGHT R     4.837         8        3.400          M
+OutpC[0]   CLK_PCLK_RIGHT R     4.833         8        3.400          M
+OutpC[1]   CLK_PCLK_RIGHT R     4.833         8        3.400          M
+OutpC[2]   CLK_PCLK_RIGHT R     4.837         8        3.400          M

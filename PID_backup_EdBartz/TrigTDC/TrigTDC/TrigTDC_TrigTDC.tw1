@@ -1,0 +1,1359 @@
+
+Loading design for application trce from file trigtdc_trigtdc_map.ncd.
+Design name: TriggerTDCTop
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 8
+Loading device for application trce from file 'ec5a124x182.nph' in environment: D:/Cad/lscc39/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+WARNING - trce: trigtdc_trigtdc.prf(16413): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_*" ;": group IN_group contains a wildcard expression, "IN_*", that does not match ports in the design. This preference has been disabled.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.9.1.119
+Wed Oct 04 16:03:32 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o TrigTDC_TrigTDC.tw1 -gui -msgset D:/bartz/Documents/Lattice/TrigTDC/promote.xml TrigTDC_TrigTDC_map.ncd TrigTDC_TrigTDC.prf 
+Design file:     trigtdc_trigtdc_map.ncd
+Preference file: trigtdc_trigtdc.prf
+Device,speed:    LFE3-150EA,8
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK RD_DURING_WR_PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "MCLK_c" 50.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "clk[3]" 25.000000 MHz ;
+            675 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 1.390ns (weighted slack = 22.240ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              TDC/DataInReg/rst[1]  (from TDC/clk[0] -)
+   Destination:    FF         Data in        TDC/DataInReg/genblk2[1].t[1]  (to clk[3] +)
+
+   Delay:               0.812ns  (30.9% logic, 69.1% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.812ns physical path delay TDC/DataInReg/SLICE_540 to TDC/DataInReg/SLICE_565 meets
+      2.500ns delay constraint less
+      0.298ns LSRREC_SET requirement (totaling 2.202ns) by 1.390ns
+
+ Physical Path Details:
+
+      Data path TDC/DataInReg/SLICE_540 to TDC/DataInReg/SLICE_565:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.251 *SLICE_540.CLK to */SLICE_540.Q1 TDC/DataInReg/SLICE_540 (from TDC/clk[0])
+ROUTE         3   e 0.561 */SLICE_540.Q1 to *SLICE_565.LSR TDC/DataInReg/rst[1] (to clk[3])
+                  --------
+                    0.812   (30.9% logic, 69.1% route), 1 logic levels.
+
+Report:   56.306MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "clk[2]" 50.000000 MHz ;
+            4096 items scored, 4096 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 5.250ns (weighted slack = -42.000ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              TDC/Tdc/fb30/ElectW/Q[0]  (from TestLED_c[4] -)
+   Destination:    FF         Data in        TDC/CT/rdata[0]  (to clk[2] +)
+
+   Delay:               7.689ns  (26.2% logic, 73.8% route), 13 logic levels.
+
+ Constraint Details:
+
+      7.689ns physical path delay TDC/Tdc/fb30/ElectW/SLICE_4112 to TDC/SLICE_14675 exceeds
+      2.500ns delay constraint less
+      0.061ns DIN_SET requirement (totaling 2.439ns) by 5.250ns
+
+ Physical Path Details:
+
+      Data path TDC/Tdc/fb30/ElectW/SLICE_4112 to TDC/SLICE_14675:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.251 *LICE_4112.CLK to *SLICE_4112.Q0 TDC/Tdc/fb30/ElectW/SLICE_4112 (from TestLED_c[4])
+ROUTE         2   e 0.561 *SLICE_4112.Q0 to *LICE_17703.A0 TDC/Tdc/EW_24[0]
+CTOF_DEL    ---     0.147 *LICE_17703.A0 to *LICE_17703.F0 TDC/Tdc/fb31/SLICE_17703
+ROUTE         1   e 0.561 *LICE_17703.F0 to *LICE_15082.B1 TDC/Tdc/fb31/DataOut_i_a3_14_5[0]
+CTOF_DEL    ---     0.147 *LICE_15082.B1 to *LICE_15082.F1 TDC/Tdc/fb31/SLICE_15082
+ROUTE         1   e 0.208 *LICE_15082.F1 to *LICE_15082.B0 TDC/Tdc/fb31/DataOut_i_a3_14_12[0]
+CTOF_DEL    ---     0.147 *LICE_15082.B0 to *LICE_15082.F0 TDC/Tdc/fb31/SLICE_15082
+ROUTE         1   e 0.561 *LICE_15082.F0 to *LICE_15521.C0 TDC/Tdc/fb31/DataOut_i_a3_14_18[0]
+CTOF_DEL    ---     0.147 *LICE_15521.C0 to *LICE_15521.F0 TDC/Tdc/fb31/SLICE_15521
+ROUTE         1   e 0.561 *LICE_15521.F0 to *LICE_15509.D0 TDC/Tdc/fb31/DataOut_i_a3_14_21[0]
+CTOF_DEL    ---     0.147 *LICE_15509.D0 to *LICE_15509.F0 TDC/Tdc/fb31/SLICE_15509
+ROUTE         1   e 0.561 *LICE_15509.F0 to *LICE_15502.B1 TDC/Tdc/fb31/DataOut_i_a3_14_24[0]
+CTOF_DEL    ---     0.147 *LICE_15502.B1 to *LICE_15502.F1 TDC/Tdc/fb31/SLICE_15502
+ROUTE         1   e 0.208 *LICE_15502.F1 to *LICE_15502.A0 TDC/Tdc/fb31/DataOut_i_a3_14_36[0]
+CTOF_DEL    ---     0.147 *LICE_15502.A0 to *LICE_15502.F0 TDC/Tdc/fb31/SLICE_15502
+ROUTE         1   e 0.561 *LICE_15502.F0 to *LICE_16755.C0 TDC/DataOut_i_a3_14[0]
+CTOF_DEL    ---     0.147 *LICE_16755.C0 to *LICE_16755.F0 TDC/SLICE_16755
+ROUTE         1   e 0.561 *LICE_16755.F0 to *LICE_14996.C1 TDC/RData0_0_a_430_a_20_0
+CTOF_DEL    ---     0.147 *LICE_14996.C1 to *LICE_14996.F1 TDC/SLICE_14996
+ROUTE         1   e 0.208 *LICE_14996.F1 to *LICE_14996.A0 TDC/RData0_0_a_430_a_19
+CTOF_DEL    ---     0.147 *LICE_14996.A0 to *LICE_14996.F0 TDC/SLICE_14996
+ROUTE         1   e 0.561 *LICE_14996.F0 to *LICE_16051.C0 TDC/RData0_0_a_430_a_23_2
+CTOF_DEL    ---     0.147 *LICE_16051.C0 to *LICE_16051.F0 TDC/SLICE_16051
+ROUTE         1   e 0.561 *LICE_16051.F0 to *LICE_14675.B0 TDC/RData0_0_a_430_a_48
+CTOF_DEL    ---     0.147 *LICE_14675.B0 to *LICE_14675.F0 TDC/SLICE_14675
+ROUTE         1   e 0.001 *LICE_14675.F0 to *ICE_14675.DI0 TDC/RData0[0] (to clk[2])
+                  --------
+                    7.689   (26.2% logic, 73.8% route), 13 logic levels.
+
+Warning:  16.129MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "TDC/clk[1]" 200.000000 MHz ;
+            768 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 1.565ns (weighted slack = 3.130ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              TDC/Tdc/fb0/Deg90/d0  (from TDC/clk[1] +)
+   Destination:    FF         Data in        TDC/Tdc/fb0/Deg270/d0  (to TDC/clk[1] -)
+
+   Delay:               0.804ns  (30.2% logic, 69.8% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.804ns physical path delay TDC/Tdc/fb0/Deg90/SLICE_5398 to TDC/Tdc/fb0/Deg270/SLICE_5406 meets
+      2.500ns delay constraint less
+      0.131ns M_SET requirement (totaling 2.369ns) by 1.565ns
+
+ Physical Path Details:
+
+      Data path TDC/Tdc/fb0/Deg90/SLICE_5398 to TDC/Tdc/fb0/Deg270/SLICE_5406:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243 *LICE_5398.CLK to *SLICE_5398.Q0 TDC/Tdc/fb0/Deg90/SLICE_5398 (from TDC/clk[1])
+ROUTE         3   e 0.561 *SLICE_5398.Q0 to *SLICE_5406.M0 TDC/Tdc/fb0/c2[0] (to TDC/clk[1])
+                  --------
+                    0.804   (30.2% logic, 69.8% route), 1 logic levels.
+
+Report:  534.759MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;
+            768 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 1.532ns (weighted slack = 3.064ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              TDC/DataInReg/genblk2[0].t[0]  (from clk[3] +)
+   Destination:    FF         Data in        TDC/DataInReg/rst[0]  (to TDC/clk[0] -)
+
+   Delay:               0.952ns  (41.0% logic, 59.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.952ns physical path delay TDC/DataInReg/SLICE_564 to TDC/DataInReg/SLICE_540 meets
+      2.500ns delay constraint less
+      0.016ns DIN_SET requirement (totaling 2.484ns) by 1.532ns
+
+ Physical Path Details:
+
+      Data path TDC/DataInReg/SLICE_564 to TDC/DataInReg/SLICE_540:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243 *SLICE_564.CLK to */SLICE_564.Q0 TDC/DataInReg/SLICE_564 (from clk[3])
+ROUTE         3   e 0.561 */SLICE_564.Q0 to */SLICE_540.B0 TDC/DataInReg/t[0]
+CTOF_DEL    ---     0.147 */SLICE_540.B0 to */SLICE_540.F0 TDC/DataInReg/SLICE_540
+ROUTE         1   e 0.001 */SLICE_540.F0 to *SLICE_540.DI0 TDC/DataInReg/Q_i_1_0_rep1 (to TDC/clk[0])
+                  --------
+                    0.952   (41.0% logic, 59.0% route), 2 logic levels.
+
+Report:  516.529MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "TDC/CG/P2Clk/CLKOP" 25.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY PORT "MCLK" 200.000000 MHz ;
+            4096 items scored, 2947 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 0.681ns (weighted slack = -1.362ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              TDC/CT/Address[3]  (from clk[2] +)
+   Destination:    FF         Data in        TDC/Tdc/fb15/PionW/Q[23]  (to TestLED_c[4] -)
+                   FF                        TDC/Tdc/fb15/PionW/Q[9]
+
+   Delay:               2.928ns  (23.4% logic, 76.6% route), 4 logic levels.
+
+ Constraint Details:
+
+      2.928ns physical path delay TDC/CT/SLICE_387 to TDC/Tdc/fb15/PionW/SLICE_6477 exceeds
+      2.500ns delay constraint less
+      0.253ns CE_SET requirement (totaling 2.247ns) by 0.681ns
+
+ Physical Path Details:
+
+      Data path TDC/CT/SLICE_387 to TDC/Tdc/fb15/PionW/SLICE_6477:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243 *SLICE_387.CLK to */SLICE_387.Q1 TDC/CT/SLICE_387 (from clk[2])
+ROUTE        60   e 0.561 */SLICE_387.Q1 to *LICE_16880.A1 TDC/Address[3]
+CTOF_DEL    ---     0.147 *LICE_16880.A1 to *LICE_16880.F1 TDC/Tdc/fb14/SLICE_16880
+ROUTE        43   e 0.561 *LICE_16880.F1 to *LICE_12464.A1 TDC/Tdc/N_11855
+CTOF_DEL    ---     0.147 *LICE_12464.A1 to *LICE_12464.F1 TDC/Tdc/fb7/PionW/SLICE_12464
+ROUTE         8   e 0.561 *LICE_12464.F1 to *LICE_16776.A1 TDC/Tdc/Q310_5
+CTOF_DEL    ---     0.147 *LICE_16776.A1 to *LICE_16776.F1 TDC/Tdc/fb15/PionW/SLICE_16776
+ROUTE        40   e 0.561 *LICE_16776.F1 to *SLICE_6477.CE TDC/Q598 (to TestLED_c[4])
+                  --------
+                    2.928   (23.4% logic, 76.6% route), 4 logic levels.
+
+Warning: 157.183MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "MCLK_c" 50.000000 MHz ;  |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "clk[3]" 25.000000 MHz ;  |   25.000 MHz|   56.306 MHz|   1  
+                                        |             |             |
+FREQUENCY NET "clk[2]" 50.000000 MHz ;  |   50.000 MHz|   16.129 MHz|  13 *
+                                        |             |             |
+FREQUENCY NET "TDC/clk[1]" 200.000000   |             |             |
+MHz ;                                   |  200.000 MHz|  534.759 MHz|   1  
+                                        |             |             |
+FREQUENCY NET "TDC/clk[0]" 200.000000   |             |             |
+MHz ;                                   |  200.000 MHz|  516.529 MHz|   2  
+                                        |             |             |
+FREQUENCY NET "TDC/CG/P2Clk/CLKOP"      |             |             |
+25.000000 MHz ;                         |            -|            -|   0  
+                                        |             |             |
+FREQUENCY PORT "MCLK" 200.000000 MHz ;  |  200.000 MHz|  157.183 MHz|   4 *
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+2 preferences(marked by "*" above) not met.
+
+No net is responsible for more than 10% of the timing errors.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 58 clocks:
+
+Clock Domain: TDC/clk[1]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOS   Loads: 384
+   Covered under: FREQUENCY NET "TDC/clk[1]" 200.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[1]" 200.000000 MHz ;   Transfers: 374
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 1458
+
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 141
+
+Clock Domain: TDC/clk[1]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOS   Loads: 384
+   Covered under: FREQUENCY NET "TDC/clk[1]" 200.000000 MHz ;
+
+   Data transfers from:
+Clock Domain: TDC/clk[1]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOS   Loads: 384
+   Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 331
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 1
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 1
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 386
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 33
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 2
+
+   Clock Domain: INP_c[10]   Source: INP[10].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[11]   Source: INP[11].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[12]   Source: INP[12].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[13]   Source: INP[13].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[14]   Source: INP[14].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[15]   Source: INP[15].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[16]   Source: INP[16].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[17]   Source: INP[17].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[18]   Source: INP[18].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[19]   Source: INP[19].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[1]   Source: INP[1].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[20]   Source: INP[20].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[21]   Source: INP[21].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[22]   Source: INP[22].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[23]   Source: INP[23].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[24]   Source: INP[24].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[25]   Source: INP[25].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[26]   Source: INP[26].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[27]   Source: INP[27].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[28]   Source: INP[28].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[29]   Source: INP[29].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[2]   Source: INP[2].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[30]   Source: INP[30].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[31]   Source: INP[31].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[32]   Source: INP[32].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[33]   Source: INP[33].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[34]   Source: INP[34].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[35]   Source: INP[35].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[36]   Source: INP[36].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[37]   Source: INP[37].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[38]   Source: INP[38].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[39]   Source: INP[39].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[3]   Source: INP[3].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[40]   Source: INP[40].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[41]   Source: INP[41].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[42]   Source: INP[42].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[43]   Source: INP[43].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[44]   Source: INP[44].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[45]   Source: INP[45].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[46]   Source: INP[46].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[47]   Source: INP[47].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[4]   Source: INP[4].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[5]   Source: INP[5].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[6]   Source: INP[6].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[7]   Source: INP[7].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[8]   Source: INP[8].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[9]   Source: INP[9].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[0]   Source: INP[0].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 3
+
+   Clock Domain: clk[3]   Source: TDC/CG/P2Clk/PLLInst_0.CLKOS
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 48
+
+Clock Domain: TDC/clk[1]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOS   Loads: 384
+   No transfer within this clock domain is found
+
+Clock Domain: SClA.Q_i   Source: SLICE_380.Q0   Loads: 68
+   Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: SDa   Source: SDaA/SLICE_383.Q0
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 2
+
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 34
+
+Clock Domain: SDa   Source: SDaA/SLICE_383.Q0   Loads: 4
+   Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 2
+
+Clock Domain: TestLED_c[4]   Source: SLICE_14691.F0   Loads: 5314
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 40
+
+Clock Domain: INP_c[10]   Source: INP[10].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[11]   Source: INP[11].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[12]   Source: INP[12].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[13]   Source: INP[13].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[14]   Source: INP[14].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[15]   Source: INP[15].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[16]   Source: INP[16].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[17]   Source: INP[17].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[18]   Source: INP[18].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[19]   Source: INP[19].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[1]   Source: INP[1].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[20]   Source: INP[20].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[21]   Source: INP[21].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[22]   Source: INP[22].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[23]   Source: INP[23].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[24]   Source: INP[24].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[25]   Source: INP[25].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[26]   Source: INP[26].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[27]   Source: INP[27].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[28]   Source: INP[28].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[29]   Source: INP[29].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[2]   Source: INP[2].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[30]   Source: INP[30].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[31]   Source: INP[31].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[32]   Source: INP[32].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[33]   Source: INP[33].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[34]   Source: INP[34].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[35]   Source: INP[35].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[36]   Source: INP[36].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[37]   Source: INP[37].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[38]   Source: INP[38].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[39]   Source: INP[39].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[3]   Source: INP[3].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[40]   Source: INP[40].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[41]   Source: INP[41].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[42]   Source: INP[42].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[43]   Source: INP[43].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[44]   Source: INP[44].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[45]   Source: INP[45].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[46]   Source: INP[46].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[47]   Source: INP[47].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[4]   Source: INP[4].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[5]   Source: INP[5].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[6]   Source: INP[6].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[7]   Source: INP[7].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[8]   Source: INP[8].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[9]   Source: INP[9].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[0]   Source: INP[0].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP   Loads: 6822
+   Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: TDC/DIn1[9]   Source: TDC/DataInReg/SLICE_501.F1
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 816
+
+   Clock Domain: TDC/DIn1[8]   Source: TDC/DataInReg/SLICE_500.F1
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 1
+
+   Clock Domain: TDC/DIn1[8]   Source: TDC/DataInReg/SLICE_500.F1
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 814
+
+   Clock Domain: TDC/DIn1[9]   Source: TDC/DataInReg/SLICE_501.F1
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 1
+
+   Clock Domain: SClA.Q_i   Source: SLICE_380.Q0
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 41
+
+   Clock Domain: SDa   Source: SDaA/SLICE_383.Q0
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 1
+
+   Clock Domain: TestLED_c[4]   Source: SLICE_14691.F0
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 6272
+
+Clock Domain: clk[3]   Source: TDC/CG/P2Clk/PLLInst_0.CLKOS   Loads: 69
+   Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 22
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 2
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 22
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 2
+
+   Clock Domain: TestLED_c[4]   Source: SLICE_14691.F0
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 1
+
+Clock Domain: MCLK_c   Source: MCLK.PAD   Loads: 2
+   No transfer within this clock domain is found
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 7043  Score: 61352554
+Cumulative negative slack: 61352554
+
+Constraints cover 161461 paths, 106 nets, and 69932 connections (80.94% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.9.1.119
+Wed Oct 04 16:03:35 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o TrigTDC_TrigTDC.tw1 -gui -msgset D:/bartz/Documents/Lattice/TrigTDC/promote.xml TrigTDC_TrigTDC_map.ncd TrigTDC_TrigTDC.prf 
+Design file:     trigtdc_trigtdc_map.ncd
+Preference file: trigtdc_trigtdc.prf
+Device,speed:    LFE3-150EA,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK RD_DURING_WR_PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "MCLK_c" 50.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "clk[3]" 25.000000 MHz ;
+            675 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.244ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Blink/count[27]  (from clk[3] +)
+   Destination:    FF         Data in        Blink/count[27]  (to clk[3] +)
+
+   Delay:               0.233ns  (66.1% logic, 33.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.233ns physical path delay Blink/SLICE_332 to Blink/SLICE_332 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.011ns) by 0.244ns
+
+ Physical Path Details:
+
+      Data path Blink/SLICE_332 to Blink/SLICE_332:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096 *SLICE_332.CLK to */SLICE_332.Q0 Blink/SLICE_332 (from clk[3])
+ROUTE         1   e 0.078 */SLICE_332.Q0 to */SLICE_332.A0 Blink/count[27]
+CTOF_DEL    ---     0.058 */SLICE_332.A0 to */SLICE_332.F0 Blink/SLICE_332
+ROUTE         1   e 0.001 */SLICE_332.F0 to *SLICE_332.DI0 Blink/count_s[27] (to clk[3])
+                  --------
+                    0.233   (66.1% logic, 33.9% route), 2 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "clk[2]" 50.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.205ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              TDC/ts/rfif/FF_73  (from clk[2] -)
+   Destination:    FF         Data in        TDC/ts/rfif/FF_73  (to clk[2] -)
+
+   Delay:               0.236ns  (66.5% logic, 33.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.236ns physical path delay TDC/ts/rfif/SLICE_4 to TDC/ts/rfif/SLICE_4 meets
+      0.031ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling 0.031ns) by 0.205ns
+
+ Physical Path Details:
+
+      Data path TDC/ts/rfif/SLICE_4 to TDC/ts/rfif/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.099 *f/SLICE_4.CLK to *if/SLICE_4.Q0 TDC/ts/rfif/SLICE_4 (from clk[2])
+ROUTE         4   e 0.078 *if/SLICE_4.Q0 to *if/SLICE_4.A0 TDC/ts/rfif/wcount_0
+CTOF_DEL    ---     0.058 *if/SLICE_4.A0 to *if/SLICE_4.F0 TDC/ts/rfif/SLICE_4
+ROUTE         1   e 0.001 *if/SLICE_4.F0 to *f/SLICE_4.DI0 TDC/ts/rfif/iwcount_0 (to clk[2])
+                  --------
+                    0.236   (66.5% logic, 33.5% route), 2 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "TDC/clk[1]" 200.000000 MHz ;
+            768 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.184ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              TDC/Tdc/fb0/Deg270/d0  (from TDC/clk[1] -)
+   Destination:    FF         Data in        TDC/Tdc/fb0/Deg270/d1  (to TDC/clk[1] -)
+
+   Delay:               0.177ns  (55.9% logic, 44.1% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.177ns physical path delay TDC/Tdc/fb0/Deg270/SLICE_5406 to TDC/Tdc/fb0/Deg270/SLICE_5406 meets
+     -0.007ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.007ns) by 0.184ns
+
+ Physical Path Details:
+
+      Data path TDC/Tdc/fb0/Deg270/SLICE_5406 to TDC/Tdc/fb0/Deg270/SLICE_5406:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.099 *LICE_5406.CLK to *SLICE_5406.Q0 TDC/Tdc/fb0/Deg270/SLICE_5406 (from TDC/clk[1])
+ROUTE         2   e 0.078 *SLICE_5406.Q0 to *SLICE_5406.M1 TDC/Tdc/fb0/c4[0] (to TDC/clk[1])
+                  --------
+                    0.177   (55.9% logic, 44.1% route), 1 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;
+            768 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.184ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              TDC/Tdc/fb0/Deg180/d0  (from TDC/clk[0] -)
+   Destination:    FF         Data in        TDC/Tdc/fb0/Deg180/d1  (to TDC/clk[0] -)
+
+   Delay:               0.177ns  (55.9% logic, 44.1% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.177ns physical path delay TDC/Tdc/fb0/Deg180/SLICE_5402 to TDC/Tdc/fb0/Deg180/SLICE_5402 meets
+     -0.007ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.007ns) by 0.184ns
+
+ Physical Path Details:
+
+      Data path TDC/Tdc/fb0/Deg180/SLICE_5402 to TDC/Tdc/fb0/Deg180/SLICE_5402:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.099 *LICE_5402.CLK to *SLICE_5402.Q0 TDC/Tdc/fb0/Deg180/SLICE_5402 (from TDC/clk[0])
+ROUTE         2   e 0.078 *SLICE_5402.Q0 to *SLICE_5402.M1 TDC/Tdc/fb0/c3[0] (to TDC/clk[0])
+                  --------
+                    0.177   (55.9% logic, 44.1% route), 1 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "TDC/CG/P2Clk/CLKOP" 25.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY PORT "MCLK" 200.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.205ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              FEC/ComOut/RDaLtch/d0  (from SClA.Q_i -)
+   Destination:    FF         Data in        FEC/ComOut/RDaLtch/d1  (to SClA.Q_i -)
+
+   Delay:               0.236ns  (66.5% logic, 33.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.236ns physical path delay FEC/ComOut/SLICE_335 to FEC/ComOut/SLICE_335 meets
+      0.031ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling 0.031ns) by 0.205ns
+
+ Physical Path Details:
+
+      Data path FEC/ComOut/SLICE_335 to FEC/ComOut/SLICE_335:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.099 *SLICE_335.CLK to */SLICE_335.Q0 FEC/ComOut/SLICE_335 (from SClA.Q_i)
+ROUTE         1   e 0.078 */SLICE_335.Q0 to */SLICE_335.A1 FEC/ComOut/ca[0]
+CTOF_DEL    ---     0.058 */SLICE_335.A1 to */SLICE_335.F1 FEC/ComOut/SLICE_335
+ROUTE         1   e 0.001 */SLICE_335.F1 to *SLICE_335.DI1 FEC/ComOut/un1_ca_2[0] (to SClA.Q_i)
+                  --------
+                    0.236   (66.5% logic, 33.5% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "MCLK_c" 50.000000 MHz ;  |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "clk[3]" 25.000000 MHz ;  |     0.000 ns|     0.244 ns|   2  
+                                        |             |             |
+FREQUENCY NET "clk[2]" 50.000000 MHz ;  |     0.000 ns|     0.205 ns|   2  
+                                        |             |             |
+FREQUENCY NET "TDC/clk[1]" 200.000000   |             |             |
+MHz ;                                   |     0.000 ns|     0.184 ns|   1  
+                                        |             |             |
+FREQUENCY NET "TDC/clk[0]" 200.000000   |             |             |
+MHz ;                                   |     0.000 ns|     0.184 ns|   1  
+                                        |             |             |
+FREQUENCY NET "TDC/CG/P2Clk/CLKOP"      |             |             |
+25.000000 MHz ;                         |            -|            -|   0  
+                                        |             |             |
+FREQUENCY PORT "MCLK" 200.000000 MHz ;  |            -|            -|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 58 clocks:
+
+Clock Domain: TDC/clk[1]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOS   Loads: 384
+   Covered under: FREQUENCY NET "TDC/clk[1]" 200.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[1]" 200.000000 MHz ;   Transfers: 374
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 1458
+
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 141
+
+Clock Domain: TDC/clk[1]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOS   Loads: 384
+   Covered under: FREQUENCY NET "TDC/clk[1]" 200.000000 MHz ;
+
+   Data transfers from:
+Clock Domain: TDC/clk[1]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOS   Loads: 384
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 331
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 1
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 1
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 386
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 33
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 2
+
+   Clock Domain: INP_c[10]   Source: INP[10].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[11]   Source: INP[11].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[12]   Source: INP[12].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[13]   Source: INP[13].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[14]   Source: INP[14].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[15]   Source: INP[15].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[16]   Source: INP[16].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[17]   Source: INP[17].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[18]   Source: INP[18].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[19]   Source: INP[19].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[1]   Source: INP[1].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[20]   Source: INP[20].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[21]   Source: INP[21].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[22]   Source: INP[22].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[23]   Source: INP[23].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[24]   Source: INP[24].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[25]   Source: INP[25].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[26]   Source: INP[26].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[27]   Source: INP[27].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[28]   Source: INP[28].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[29]   Source: INP[29].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[2]   Source: INP[2].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[30]   Source: INP[30].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[31]   Source: INP[31].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[32]   Source: INP[32].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[33]   Source: INP[33].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[34]   Source: INP[34].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[35]   Source: INP[35].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[36]   Source: INP[36].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[37]   Source: INP[37].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[38]   Source: INP[38].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[39]   Source: INP[39].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[3]   Source: INP[3].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[40]   Source: INP[40].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[41]   Source: INP[41].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[42]   Source: INP[42].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[43]   Source: INP[43].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[44]   Source: INP[44].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[45]   Source: INP[45].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[46]   Source: INP[46].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[47]   Source: INP[47].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[4]   Source: INP[4].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[5]   Source: INP[5].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[6]   Source: INP[6].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[7]   Source: INP[7].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[8]   Source: INP[8].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[9]   Source: INP[9].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: INP_c[0]   Source: INP[0].PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 3
+
+   Clock Domain: clk[3]   Source: TDC/CG/P2Clk/PLLInst_0.CLKOS
+      Covered under: FREQUENCY NET "TDC/clk[0]" 200.000000 MHz ;   Transfers: 48
+
+Clock Domain: TDC/clk[1]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOS   Loads: 384
+   No transfer within this clock domain is found
+
+Clock Domain: SClA.Q_i   Source: SLICE_380.Q0   Loads: 68
+   Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: SDa   Source: SDaA/SLICE_383.Q0
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 2
+
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 34
+
+Clock Domain: SDa   Source: SDaA/SLICE_383.Q0   Loads: 4
+   Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 2
+
+Clock Domain: TestLED_c[4]   Source: SLICE_14691.F0   Loads: 5314
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY PORT "MCLK" 200.000000 MHz ;   Transfers: 40
+
+Clock Domain: INP_c[10]   Source: INP[10].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[11]   Source: INP[11].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[12]   Source: INP[12].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[13]   Source: INP[13].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[14]   Source: INP[14].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[15]   Source: INP[15].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[16]   Source: INP[16].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[17]   Source: INP[17].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[18]   Source: INP[18].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[19]   Source: INP[19].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[1]   Source: INP[1].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[20]   Source: INP[20].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[21]   Source: INP[21].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[22]   Source: INP[22].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[23]   Source: INP[23].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[24]   Source: INP[24].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[25]   Source: INP[25].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[26]   Source: INP[26].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[27]   Source: INP[27].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[28]   Source: INP[28].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[29]   Source: INP[29].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[2]   Source: INP[2].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[30]   Source: INP[30].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[31]   Source: INP[31].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[32]   Source: INP[32].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[33]   Source: INP[33].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[34]   Source: INP[34].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[35]   Source: INP[35].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[36]   Source: INP[36].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[37]   Source: INP[37].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[38]   Source: INP[38].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[39]   Source: INP[39].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[3]   Source: INP[3].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[40]   Source: INP[40].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[41]   Source: INP[41].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[42]   Source: INP[42].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[43]   Source: INP[43].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[44]   Source: INP[44].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[45]   Source: INP[45].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[46]   Source: INP[46].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[47]   Source: INP[47].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[4]   Source: INP[4].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[5]   Source: INP[5].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[6]   Source: INP[6].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[7]   Source: INP[7].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[8]   Source: INP[8].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[9]   Source: INP[9].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: INP_c[0]   Source: INP[0].PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: clk[2]   Source: TDC/CG/PClk/PLLInst_0.CLKOP   Loads: 6822
+   Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: TDC/DIn1[9]   Source: TDC/DataInReg/SLICE_501.F1
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 816
+
+   Clock Domain: TDC/DIn1[8]   Source: TDC/DataInReg/SLICE_500.F1
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 1
+
+   Clock Domain: TDC/DIn1[8]   Source: TDC/DataInReg/SLICE_500.F1
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 814
+
+   Clock Domain: TDC/DIn1[9]   Source: TDC/DataInReg/SLICE_501.F1
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 1
+
+   Clock Domain: SClA.Q_i   Source: SLICE_380.Q0
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 41
+
+   Clock Domain: SDa   Source: SDaA/SLICE_383.Q0
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 1
+
+   Clock Domain: TestLED_c[4]   Source: SLICE_14691.F0
+      Covered under: FREQUENCY NET "clk[2]" 50.000000 MHz ;   Transfers: 6272
+
+Clock Domain: clk[3]   Source: TDC/CG/P2Clk/PLLInst_0.CLKOS   Loads: 69
+   Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 22
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 2
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 22
+
+   Clock Domain: TDC/clk[0]   Source: TDC/CG/P1Clk/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 2
+
+   Clock Domain: TestLED_c[4]   Source: SLICE_14691.F0
+      Covered under: FREQUENCY NET "clk[3]" 25.000000 MHz ;   Transfers: 1
+
+Clock Domain: MCLK_c   Source: MCLK.PAD   Loads: 2
+   No transfer within this clock domain is found
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 161461 paths, 106 nets, and 73790 connections (85.41% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 7043 (setup), 0 (hold)
+Score: 61352554 (setup), 0 (hold)
+Cumulative negative slack: 61352554 (61352554+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

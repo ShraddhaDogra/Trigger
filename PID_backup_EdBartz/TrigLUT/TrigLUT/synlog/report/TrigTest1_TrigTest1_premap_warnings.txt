@@ -1,0 +1,23 @@
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U35.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U34.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U33.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U32.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U31.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U30.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U24.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U23.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U22.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U21.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U20.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U13.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U12.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U11.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U10.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U3.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U2.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U1.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT531 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\stretcher.v":19:4:19:5|Found signal identified as System clock which controls 18 sequential elements including U1.m.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\trigtest\source\mand6.v":32:2:32:3|Found inferred clock Top|InpD which controls 1 sequential elements including U36.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand5.v":30:2:30:3|Found inferred clock Top|InpC which controls 1 sequential elements including U25.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand4.v":28:2:28:3|Found inferred clock Top|InpB which controls 1 sequential elements including U14.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand3.v":26:2:26:3|Found inferred clock Top|InpA which controls 1 sequential elements including U5.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

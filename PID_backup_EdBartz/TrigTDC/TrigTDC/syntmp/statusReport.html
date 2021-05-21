@@ -1,0 +1,166 @@
+<html> 
+ 			<head> 			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<title>Project Status Summary Page</title>
+			<link rel="stylesheet" type="text/css" href="projectstatuspage.css" />
+			<script type = "text/javascript" src="projectstatuspage.js"></script>
+			</head>
+
+ 			<body style="background-color:#f0f0ff;">
+ 			
+<table style="border:none;" width="100%" ><tr> <td class="outline">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 	     <thead class="tablehead"><tr><th colspan="4">Project Settings</th><tr> 
+ <tr> <td class="optionTitle" align="left"> Project Name</td> <td> proj_1</td> <td class="optionTitle" align="left"> Implementation Name</td> <td> TrigTDC</td> </tr>
+ 		 </thead> 
+		 <tbody> <tr> <td class="optionTitle" align="left"> Top Module</td> <td> TriggerTDCTop</td> <td class="optionTitle" align="left"> Pipelining</td> <td> 1</td> </tr>
+<tr> <td class="optionTitle" align="left"> Retiming</td> <td> 0</td> <td class="optionTitle" align="left"> Resource Sharing</td> <td> 1</td> </tr>
+<tr> <td class="optionTitle" align="left"> Fanout Guide</td> <td> 1000</td> <td class="optionTitle" align="left"> Disable I/O Insertion</td> <td> 0</td> </tr>
+<tr> <td class="optionTitle" align="left"> Disable Sequential Optimizations</td> <td> 0</td> <td class="optionTitle" align="left"> Clock Conversion</td> <td> 1</td> </tr>
+ 
+</tbody> 
+  </table><br>	 <table width="100%" border="1" cellspacing= "0" cellpadding= "0">
+ 				   <thead class="tablehead"><tr><th colspan="9">Run Status</th></tr></thead>
+         <tbody>
+ 		<tr>
+ 			<th align="left" width="17%">Job Name</th>
+			<th align="left">Status</th>
+ 			<td class="lnote" align="center" title="Notes"></td>
+ 			<td class="lwarn" align="center" title="Warnings"></td>
+ 			<td class="lerror" align="center" title="Errors"></td>
+ 			<th align="left">CPU Time</th>
+ 			<th align="left">Real Time</th>
+ 			<th align="left">Memory</th>
+ 			<th align="left">Date/Time</th>
+         </tr>
+  <tr>
+  <td class="optionTitle"> (compiler)</td><td>Complete</td>
+ <td>302</td>
+ <td>460</td>
+<td>0</td>
+<td>-</td>
+<td>00m:03s</td>
+<td>-</td>
+<td><font size="-1">10/4/2017</font><br/><font size="-2">4:00:56 PM</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (premap)</td><td>Complete</td>
+ <td>20</td>
+ <td>56</td>
+<td>0</td>
+<td>0m:04s</td>
+<td>0m:04s</td>
+<td>243MB</td>
+<td><font size="-1">10/4/2017</font><br/><font size="-2">4:01:03 PM</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (fpga_mapper)</td><td>Complete</td>
+ <td>72</td>
+ <td>112</td>
+<td>0</td>
+<td>01m:28s</td>
+<td>01m:28s</td>
+<td>386MB</td>
+<td><font size="-1">10/4/2017</font><br/><font size="-2">4:02:32 PM</font></td>
+</tr> 
+
+<tr>
+  <td class="optionTitle">Multi-srs Generator</td>
+  <td>Complete</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>00m:01s</td><td class="empty"></td><td class="empty"></td><td><font size="-1">10/4/2017</font><br/><font size="-2">4:00:58 PM</font></td> 		</tbody>
+     </table>
+ <br> 
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0">
+ 				   <thead class="tablehead"><tr><th colspan="4">Area Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="4"></td></tr> 
+ </tfoot> 
+ <tbody> <tr> 
+<td title ="Total Register bits used" class="optionTitle" align="left">Register bits</td> <td>18431</td>
+<td title ="Total I/O cells used" class="optionTitle" align="left">I/O cells</td> <td>86</td>
+</tr>
+<tr> 
+<td title ="Total Block RAMs used" class="optionTitle" align="left">Block RAMs
+(v_ram)</td> <td>1</td>
+<td title ="Total DSPs used" class="optionTitle" align="left">DSPs
+(dsp_used)</td> <td>0</td>
+</tr>
+<tr> 
+<td title ="Total ORCA LUTs used" class="optionTitle" align="left">ORCA LUTs
+(total_luts)</td> <td>10649</td>
+<td class="optionTitle"></td><td></td></tr> 
+</tbody>
+    </table><br> 
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0">
+ 				   <thead class="tablehead"><tr><th colspan="4">Timing Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="2"></td></tr> 
+ </tfoot> 
+<tbody> 
+   <tr><th class="optionTitle" align= "left ">Clock Name</th><th class="optionTitle" align= "left ">Req Freq</th><th class="optionTitle" align= "left ">Est Freq</th><th class="optionTitle" align= "left ">Slack</th></tr> 
+<tr> <td  align="left">ComTrans|Write_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">291.4 MHz</td><td  align="left">996.568</td></tr> 
+<tr> <td  align="left">Cpll1|CLKOP_inferred_clock</td><td  align="left">920.7 MHz</td><td  align="left">391.3 MHz</td><td  align="left">-0.735</td></tr> 
+<tr> <td  align="left">Cpll1|CLKOS_inferred_clock</td><td  align="left">956.8 MHz</td><td  align="left">406.6 MHz</td><td  align="left">-0.707</td></tr> 
+<tr> <td  align="left">Cpll2|CLKOS_inferred_clock</td><td  align="left">286.7 MHz</td><td  align="left">243.7 MHz</td><td  align="left">-0.615</td></tr> 
+<tr> <td  align="left">Cpll|CLKOP_inferred_clock</td><td  align="left">35.9 MHz</td><td  align="left">63.5 MHz</td><td  align="left">6.367</td></tr> 
+<tr> <td  align="left">DeBounce_0|Q_derived_clock</td><td  align="left">35.9 MHz</td><td  align="left">193.6 MHz</td><td  align="left">25.914</td></tr> 
+<tr> <td  align="left">DeBounce_1|Q_derived_clock</td><td  align="left">35.9 MHz</td><td  align="left">89.5 MHz</td><td  align="left">8.331</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[0]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[1]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[2]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[3]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[4]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[5]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[6]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[7]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[8]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[9]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[10]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[11]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[12]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[13]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[14]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[15]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[16]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[17]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[18]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[19]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[20]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[21]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[22]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[23]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[24]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[25]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[26]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[27]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[28]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[29]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[30]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[31]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[32]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[33]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[34]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[35]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[36]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[37]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[38]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[39]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[40]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[41]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[42]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[43]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[44]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[45]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[46]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">Input_Reg_48s|Q_inferred_clock[47]</td><td  align="left">775.1 MHz</td><td  align="left">658.8 MHz</td><td  align="left">-0.228</td></tr> 
+<tr> <td  align="left">System</td><td  align="left">737.8 MHz</td><td  align="left">627.1 MHz</td><td  align="left">-0.239</td></tr> 
+</tbody> 
+ </table>
+<br> 
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0">
+ 				   <thead class="tablehead"><tr><th colspan="4">Optimizations Summary</th></tr></thead>
+ <tbody> <tr> 
+<td title ="Non-gated/non-generated clock trees / Gated/generated clock trees" class="optionTitle" align="left">Combined Clock Conversion</td> <td>50 / 53</td>
+<td class="optionTitle"></td><td></td></tr> 
+</tbody>
+    </table><br> 
+<br> 
+</td></tr></table></body> 
+ </html>

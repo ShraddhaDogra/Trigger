@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
+<ispXCF version="3.7.0">
+	<Comment></Comment>
+	<Chain>
+		<Comm>JTAG</Comm>
+		<Device>
+			<SelectedProg value="FALSE"/>
+			<Pos>1</Pos>
+			<Vendor>Lattice</Vendor>
+			<Family>LatticeECP3</Family>
+			<Name>LFE3-150EA</Name>
+			<IDCode>0x01015043</IDCode>
+			<Package>All</Package>
+			<PON>LFE3-150EA</PON>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<Operation>Fast Program</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>ispVM</SVFProcessor>
+			</Option>
+		</Device>
+		<Device>
+			<SelectedProg value="FALSE"/>
+			<Pos>2</Pos>
+			<Vendor>Lattice</Vendor>
+			<Family>LatticeECP3</Family>
+			<Name>LFE3-150EA</Name>
+			<IDCode>0x01015043</IDCode>
+			<Package>All</Package>
+			<PON>LFE3-150EA</PON>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<Operation>Fast Program</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>ispVM</SVFProcessor>
+			</Option>
+		</Device>
+		<Device>
+			<SelectedProg value="FALSE"/>
+			<Pos>3</Pos>
+			<Vendor>Lattice</Vendor>
+			<Family>LatticeECP3</Family>
+			<Name>LFE3-150EA</Name>
+			<IDCode>0x01015043</IDCode>
+			<Package>All</Package>
+			<PON>LFE3-150EA</PON>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<Operation>Fast Program</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>ispVM</SVFProcessor>
+			</Option>
+		</Device>
+		<Device>
+			<SelectedProg value="TRUE"/>
+			<Pos>4</Pos>
+			<Vendor>Lattice</Vendor>
+			<Family>LatticeECP3</Family>
+			<Name>LFE3-150EA</Name>
+			<IDCode>0x01015043</IDCode>
+			<Package>All</Package>
+			<PON>LFE3-150EA</PON>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>D:/bartz/Documents/Lattice/TrigTDC/TrigTDC/TrigTDC_TrigTDC.bit</File>
+			<FileTime>12/06/16 11:27:28</FileTime>
+			<Operation>Fast Program</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<PreloadLength>1326</PreloadLength>
+				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>ispVM</SVFProcessor>
+				<Usercode>0x00000000</Usercode>
+			</Option>
+		</Device>
+		<Device>
+			<SelectedProg value="FALSE"/>
+			<Pos>5</Pos>
+			<Vendor>Lattice</Vendor>
+			<Family>LatticeECP3</Family>
+			<Name>LFE3-150EA</Name>
+			<IDCode>0x01015043</IDCode>
+			<Package>All</Package>
+			<PON>LFE3-150EA</PON>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<Operation>Fast Program</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>ispVM</SVFProcessor>
+			</Option>
+		</Device>
+		<Device>
+			<SelectedProg value="FALSE"/>
+			<Pos>6</Pos>
+			<Vendor>Lattice</Vendor>
+			<Family>ispCLOCK</Family>
+			<Name>ispPAC-CLK5410D</Name>
+			<IDCode>0x00190043</IDCode>
+			<Package>64-pin QFNS</Package>
+			<PON>ispPAC-CLK5410D-XXSN64C</PON>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<Operation>Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>ispVM</SVFProcessor>
+			</Option>
+		</Device>
+		<Device>
+			<SelectedProg value="FALSE"/>
+			<Pos>7</Pos>
+			<Vendor>Lattice</Vendor>
+			<Family>ispCLOCK</Family>
+			<Name>ispPAC-CLK5410D</Name>
+			<IDCode>0x00190043</IDCode>
+			<Package>64-pin QFNS</Package>
+			<PON>ispPAC-CLK5410D-XXSN64C</PON>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<Operation>Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>ispVM</SVFProcessor>
+			</Option>
+		</Device>
+	</Chain>
+	<ProjectOptions>
+		<Program>SEQUENTIAL</Program>
+		<Process>ENTIRED CHAIN</Process>
+		<OperationOverride>No Override</OperationOverride>
+		<StartTAP>TLR</StartTAP>
+		<EndTAP>TLR</EndTAP>
+		<VerifyUsercode value="FALSE"/>
+		<TCKDelay>1</TCKDelay>
+	</ProjectOptions>
+	<CableOptions>
+		<CableName>USB2</CableName>
+		<PortAdd>FTUSB-0</PortAdd>
+		<USBID>FT2232H MiniModule A Location 0000 Serial FT82K6IA</USBID>
+		<JTAGPinSetting>
+			TRST	ABSENT;
+			ISPEN	ABSENT;
+		</JTAGPinSetting>
+	</CableOptions>
+</ispXCF>

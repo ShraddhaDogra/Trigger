@@ -1,0 +1,611 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "Top")
+  (DATE "Wed Mar 11 10:06:58 2015")
+  (VENDOR "Lattice")
+  (PROGRAM "ldbanno")
+  (VERSION "Diamond (64-bit) 3.1.0.96")
+  (DIVIDER /)
+  (VOLTAGE 1.26:1.20:1.14)
+  (PROCESS "default")
+  (TEMPERATURE -40:25:85)
+  (TIMESCALE 1ps)
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE U36\/SLICE_0)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D1 F1 (144:161:179)(144:161:179))
+        (IOPATH C1 F1 (144:161:179)(144:161:179))
+        (IOPATH B1 F1 (144:161:179)(144:161:179))
+        (IOPATH A1 F1 (144:161:179)(144:161:179))
+        (IOPATH D0 F0 (144:161:179)(144:161:179))
+        (IOPATH C0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE U25\/SLICE_1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D1 F1 (144:161:179)(144:161:179))
+        (IOPATH B1 F1 (144:161:179)(144:161:179))
+        (IOPATH D0 F0 (144:161:179)(144:161:179))
+        (IOPATH C0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+        (IOPATH A0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE U37\/SLICE_2)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D1 F1 (144:161:179)(144:161:179))
+        (IOPATH C1 F1 (144:161:179)(144:161:179))
+        (IOPATH B1 F1 (144:161:179)(144:161:179))
+        (IOPATH A1 F1 (144:161:179)(144:161:179))
+        (IOPATH D0 F0 (144:161:179)(144:161:179))
+        (IOPATH C0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE U26\/SLICE_3)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D1 F1 (144:161:179)(144:161:179))
+        (IOPATH B1 F1 (144:161:179)(144:161:179))
+        (IOPATH D0 F0 (144:161:179)(144:161:179))
+        (IOPATH C0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+        (IOPATH A0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE SLICE_4)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D1 F1 (144:161:179)(144:161:179))
+        (IOPATH C1 F1 (144:161:179)(144:161:179))
+        (IOPATH B1 F1 (144:161:179)(144:161:179))
+        (IOPATH A1 F1 (144:161:179)(144:161:179))
+        (IOPATH D0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+        (IOPATH A0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE SLICE_5)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH C1 F1 (144:161:179)(144:161:179))
+        (IOPATH B1 F1 (144:161:179)(144:161:179))
+        (IOPATH A1 F1 (144:161:179)(144:161:179))
+        (IOPATH D0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+        (IOPATH A0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE SLICE_6)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH C0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+        (IOPATH A0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE SLICE_7)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D0 F0 (144:161:179)(144:161:179))
+        (IOPATH C0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE U15\/SLICE_8)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D0 F0 (144:161:179)(144:161:179))
+        (IOPATH C0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+        (IOPATH A0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "SLOGICB")
+    (INSTANCE U4\/SLICE_9)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D0 F0 (144:161:179)(144:161:179))
+        (IOPATH B0 F0 (144:161:179)(144:161:179))
+        (IOPATH A0 F0 (144:161:179)(144:161:179))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpA_0_")
+    (INSTANCE OutpA\[0\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpA0 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_0_")
+    (INSTANCE INP\[0\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP0 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP0) (0:0:0))
+      (WIDTH (negedge INP0) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpD_2_")
+    (INSTANCE OutpD\[2\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpD2 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpD_1_")
+    (INSTANCE OutpD\[1\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpD1 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpD_0_")
+    (INSTANCE OutpD\[0\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpD0 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpC_2_")
+    (INSTANCE OutpC\[2\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpC2 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpC_1_")
+    (INSTANCE OutpC\[1\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpC1 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpC_0_")
+    (INSTANCE OutpC\[0\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpC0 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpB_2_")
+    (INSTANCE OutpB\[2\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpB2 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpB_1_")
+    (INSTANCE OutpB\[1\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpB1 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpB_0_")
+    (INSTANCE OutpB\[0\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpB0 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpA_2_")
+    (INSTANCE OutpA\[2\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpA2 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OutpA_1_")
+    (INSTANCE OutpA\[1\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO OutpA1 (2359:2359:2359)(2359:2359:2359))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "InpD")
+    (INSTANCE InpD_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH InpD PADDI (457:482:508)(457:482:508))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge InpD) (0:0:0))
+      (WIDTH (negedge InpD) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "InpC")
+    (INSTANCE InpC_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH InpC PADDI (457:482:508)(457:482:508))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge InpC) (0:0:0))
+      (WIDTH (negedge InpC) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "InpB")
+    (INSTANCE InpB_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH InpB PADDI (457:482:508)(457:482:508))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge InpB) (0:0:0))
+      (WIDTH (negedge InpB) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "InpA")
+    (INSTANCE InpA_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH InpA PADDI (457:482:508)(457:482:508))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge InpA) (0:0:0))
+      (WIDTH (negedge InpA) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_53_")
+    (INSTANCE INP\[53\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP53 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP53) (0:0:0))
+      (WIDTH (negedge INP53) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_52_")
+    (INSTANCE INP\[52\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP52 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP52) (0:0:0))
+      (WIDTH (negedge INP52) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_51_")
+    (INSTANCE INP\[51\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP51 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP51) (0:0:0))
+      (WIDTH (negedge INP51) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_50_")
+    (INSTANCE INP\[50\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP50 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP50) (0:0:0))
+      (WIDTH (negedge INP50) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_49_")
+    (INSTANCE INP\[49\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP49 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP49) (0:0:0))
+      (WIDTH (negedge INP49) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_48_")
+    (INSTANCE INP\[48\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP48 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP48) (0:0:0))
+      (WIDTH (negedge INP48) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_36_")
+    (INSTANCE INP\[36\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP36 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP36) (0:0:0))
+      (WIDTH (negedge INP36) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_35_")
+    (INSTANCE INP\[35\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP35 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP35) (0:0:0))
+      (WIDTH (negedge INP35) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_34_")
+    (INSTANCE INP\[34\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP34 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP34) (0:0:0))
+      (WIDTH (negedge INP34) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_33_")
+    (INSTANCE INP\[33\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP33 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP33) (0:0:0))
+      (WIDTH (negedge INP33) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_32_")
+    (INSTANCE INP\[32\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP32 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP32) (0:0:0))
+      (WIDTH (negedge INP32) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_19_")
+    (INSTANCE INP\[19\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP19 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP19) (0:0:0))
+      (WIDTH (negedge INP19) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_18_")
+    (INSTANCE INP\[18\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP18 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP18) (0:0:0))
+      (WIDTH (negedge INP18) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_17_")
+    (INSTANCE INP\[17\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP17 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP17) (0:0:0))
+      (WIDTH (negedge INP17) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_16_")
+    (INSTANCE INP\[16\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP16 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP16) (0:0:0))
+      (WIDTH (negedge INP16) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_2_")
+    (INSTANCE INP\[2\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP2 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP2) (0:0:0))
+      (WIDTH (negedge INP2) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "INP_1_")
+    (INSTANCE INP\[1\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH INP1 PADDI (449:460:472)(449:460:472))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge INP1) (0:0:0))
+      (WIDTH (negedge INP1) (0:0:0))
+    )
+  )
+  (CELL
+    (CELLTYPE "Top")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+        (INTERCONNECT INP\[48\]_I/PADDI U36\/SLICE_0/D1 (634:735:837)(634:735:837))
+        (INTERCONNECT INP\[48\]_I/PADDI U37\/SLICE_2/D1 (634:735:837)(634:735:837))
+        (INTERCONNECT INP\[52\]_I/PADDI U36\/SLICE_0/C1 (456:574:693)(456:574:693))
+        (INTERCONNECT INP\[52\]_I/PADDI U37\/SLICE_2/C1 (456:574:693)(456:574:693))
+        (INTERCONNECT INP\[49\]_I/PADDI U36\/SLICE_0/B1 (1011:1166:1322)(1011:1166:1322))
+        (INTERCONNECT INP\[49\]_I/PADDI U37\/SLICE_2/B1 (1011:1166:1322)(1011:1166:1322))
+        (INTERCONNECT INP\[53\]_I/PADDI U36\/SLICE_0/A1 (903:1079:1255)(903:1079:1255))
+        (INTERCONNECT INP\[53\]_I/PADDI U37\/SLICE_2/A1 (903:1079:1255)(903:1079:1255))
+        (INTERCONNECT INP\[50\]_I/PADDI U36\/SLICE_0/D0 (663:774:886)(663:774:886))
+        (INTERCONNECT INP\[50\]_I/PADDI U37\/SLICE_2/D0 (663:774:886)(663:774:886))
+        (INTERCONNECT INP\[51\]_I/PADDI U36\/SLICE_0/C0 (639:778:917)(639:778:917))
+        (INTERCONNECT INP\[51\]_I/PADDI U37\/SLICE_2/C0 (639:778:917)(639:778:917))
+        (INTERCONNECT U36\/SLICE_0/F1 U36\/SLICE_0/B0 (303:358:414)(303:358:414))
+        (INTERCONNECT U36\/SLICE_0/F0 SLICE_6/A0 (723:868:1013)(723:868:1013))
+        (INTERCONNECT U36\/SLICE_0/F0 OutpD\[0\]_I/PADDO (799:930:1061)(799:930:1061))
+        (INTERCONNECT INP\[34\]_I/PADDI U25\/SLICE_1/D1 (575:680:786)(575:680:786))
+        (INTERCONNECT INP\[34\]_I/PADDI U26\/SLICE_3/C0 (639:778:917)(639:778:917))
+        (INTERCONNECT INP\[33\]_I/PADDI U25\/SLICE_1/B1 (839:980:1121)(839:980:1121))
+        (INTERCONNECT INP\[33\]_I/PADDI U26\/SLICE_3/D1 (822:954:1086)(822:954:1086))
+        (INTERCONNECT INP\[36\]_I/PADDI U25\/SLICE_1/D0 (575:680:786)(575:680:786))
+        (INTERCONNECT INP\[36\]_I/PADDI U26\/SLICE_3/D0 (734:860:986)(734:860:986))
+        (INTERCONNECT INP\[35\]_I/PADDI U25\/SLICE_1/C0 (456:574:693)(456:574:693))
+        (INTERCONNECT INP\[35\]_I/PADDI U26\/SLICE_3/B0 (747:885:1024)(747:885:1024))
+        (INTERCONNECT INP\[32\]_I/PADDI U25\/SLICE_1/B0 (1011:1166:1322)(1011:1166:1322))
+        (INTERCONNECT INP\[32\]_I/PADDI U26\/SLICE_3/B1 (1011:1166:1322)(1011:1166:1322))
+        (INTERCONNECT U25\/SLICE_1/F1 U25\/SLICE_1/A0 (296:372:448)(296:372:448))
+        (INTERCONNECT U25\/SLICE_1/F0 SLICE_7/D0 (980:1127:1274)(980:1127:1274))
+        (INTERCONNECT U25\/SLICE_1/F0 OutpC\[0\]_I/PADDO (1265:1437:1609)(1265:1437:1609))
+        (INTERCONNECT U37\/SLICE_2/F1 U37\/SLICE_2/B0 (303:358:414)(303:358:414))
+        (INTERCONNECT U37\/SLICE_2/F0 OutpD\[2\]_I/PADDO (795:924:1053)(795:924:1053))
+        (INTERCONNECT U26\/SLICE_3/F1 U26\/SLICE_3/A0 (445:548:652)(445:548:652))
+        (INTERCONNECT U26\/SLICE_3/F0 OutpC\[2\]_I/PADDO (1051:1199:1347)(1051:1199:1347))
+        (INTERCONNECT INP\[17\]_I/PADDI SLICE_4/D1 (773:909:1046)(773:909:1046))
+        (INTERCONNECT INP\[17\]_I/PADDI U15\/SLICE_8/D0 (773:909:1046)(773:909:1046))
+        (INTERCONNECT INP\[18\]_I/PADDI SLICE_4/C1 (899:1058:1218)(899:1058:1218))
+        (INTERCONNECT INP\[18\]_I/PADDI U15\/SLICE_8/C0 (899:1058:1218)(899:1058:1218))
+        (INTERCONNECT INP\[16\]_I/PADDI SLICE_4/B1 (751:886:1021)(751:886:1021))
+        (INTERCONNECT INP\[16\]_I/PADDI U15\/SLICE_8/B0 (751:886:1021)(751:886:1021))
+        (INTERCONNECT INP\[19\]_I/PADDI SLICE_4/A1 (744:899:1055)(744:899:1055))
+        (INTERCONNECT INP\[19\]_I/PADDI U15\/SLICE_8/A0 (744:899:1055)(744:899:1055))
+        (INTERCONNECT SLICE_4/F0 SLICE_4/D0 (279:335:391)(279:335:391))
+        (INTERCONNECT SLICE_4/F0 OutpB\[1\]_I/PADDO (560:660:760)(560:660:760))
+        (INTERCONNECT InpB_I/PADDI SLICE_4/B0 (745:880:1015)(745:880:1015))
+        (INTERCONNECT SLICE_4/F1 SLICE_4/A0 (299:377:456)(299:377:456))
+        (INTERCONNECT SLICE_4/F1 OutpB\[0\]_I/PADDO (761:885:1010)(761:885:1010))
+        (INTERCONNECT INP\[0\]_I/PADDI SLICE_5/C1 (803:963:1123)(803:963:1123))
+        (INTERCONNECT INP\[0\]_I/PADDI U4\/SLICE_9/D0 (739:865:992)(739:865:992))
+        (INTERCONNECT INP\[2\]_I/PADDI SLICE_5/B1 (751:886:1021)(751:886:1021))
+        (INTERCONNECT INP\[2\]_I/PADDI U4\/SLICE_9/A0 (744:899:1055)(744:899:1055))
+        (INTERCONNECT INP\[1\]_I/PADDI SLICE_5/A1 (1004:1180:1356)(1004:1180:1356))
+        (INTERCONNECT INP\[1\]_I/PADDI U4\/SLICE_9/B0 (1011:1166:1322)(1011:1166:1322))
+        (INTERCONNECT SLICE_5/F1 SLICE_5/D0 (279:335:391)(279:335:391))
+        (INTERCONNECT SLICE_5/F1 OutpA\[0\]_I/PADDO (639:750:861)(639:750:861))
+        (INTERCONNECT InpA_I/PADDI SLICE_5/B0 (833:974:1115)(833:974:1115))
+        (INTERCONNECT SLICE_5/F0 SLICE_5/A0 (448:554:660)(448:554:660))
+        (INTERCONNECT SLICE_5/F0 OutpA\[1\]_I/PADDO (372:453:534)(372:453:534))
+        (INTERCONNECT InpD_I/PADDI SLICE_6/C0 (454:569:684)(454:569:684))
+        (INTERCONNECT SLICE_6/F0 SLICE_6/B0 (455:540:626)(455:540:626))
+        (INTERCONNECT SLICE_6/F0 OutpD\[1\]_I/PADDO (560:660:760)(560:660:760))
+        (INTERCONNECT InpC_I/PADDI SLICE_7/C0 (454:569:684)(454:569:684))
+        (INTERCONNECT SLICE_7/F0 SLICE_7/B0 (455:540:626)(455:540:626))
+        (INTERCONNECT SLICE_7/F0 OutpC\[1\]_I/PADDO (560:660:760)(560:660:760))
+        (INTERCONNECT U15\/SLICE_8/F0 OutpB\[2\]_I/PADDO (398:475:552)(398:475:552))
+        (INTERCONNECT U4\/SLICE_9/F0 OutpA\[2\]_I/PADDO (369:447:526)(369:447:526))
+      )
+    )
+  )
+)

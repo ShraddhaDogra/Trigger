@@ -1,0 +1,16 @@
+Resource Usage Report
+Part: lfe3_150ea-6
+
+Register bits: 0 of 149040 (0%)
+PIC Latch:       0
+I/O cells:       34
+
+Details:
+AND2:           180
+GSR:            1
+IB:             22
+OB:             12
+ORCALUT4:       52
+PUR:            1
+VHI:            1
+VLO:            23

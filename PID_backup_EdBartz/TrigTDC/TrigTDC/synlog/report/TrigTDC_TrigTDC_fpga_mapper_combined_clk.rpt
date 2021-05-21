@@ -1,0 +1,126 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+50 non-gated/non-generated clock tree(s) driving 165 clock pin(s) of sequential element(s)
+53 gated/generated clock tree(s) driving 18268 clock pin(s) of sequential element(s)
+0 instances converted, 18268 sequential instances remain driven by gated/generated clocks
+
+=================================== Non-Gated/Non-Generated Clocks ====================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                
+-------------------------------------------------------------------------------------------------------
+@K:CKID0054       INP[47:0]           port                   1          TDC.DataInReg.genblk1[0].c[0]  
+@K:CKID0055       INP[47:0]           port                   1          TDC.DataInReg.genblk1[10].c[10]
+@K:CKID0056       INP[47:0]           port                   1          TDC.DataInReg.genblk1[11].c[11]
+@K:CKID0057       INP[47:0]           port                   1          TDC.DataInReg.genblk1[12].c[12]
+@K:CKID0058       INP[47:0]           port                   1          TDC.DataInReg.genblk1[13].c[13]
+@K:CKID0059       INP[47:0]           port                   1          TDC.DataInReg.genblk1[14].c[14]
+@K:CKID0060       INP[47:0]           port                   1          TDC.DataInReg.genblk1[15].c[15]
+@K:CKID0061       INP[47:0]           port                   1          TDC.DataInReg.genblk1[16].c[16]
+@K:CKID0062       INP[47:0]           port                   1          TDC.DataInReg.genblk1[17].c[17]
+@K:CKID0063       INP[47:0]           port                   1          TDC.DataInReg.genblk1[18].c[18]
+@K:CKID0064       INP[47:0]           port                   1          TDC.DataInReg.genblk1[19].c[19]
+@K:CKID0065       INP[47:0]           port                   1          TDC.DataInReg.genblk1[1].c[1]  
+@K:CKID0066       INP[47:0]           port                   1          TDC.DataInReg.genblk1[20].c[20]
+@K:CKID0067       INP[47:0]           port                   1          TDC.DataInReg.genblk1[21].c[21]
+@K:CKID0068       INP[47:0]           port                   1          TDC.DataInReg.genblk1[22].c[22]
+@K:CKID0069       INP[47:0]           port                   1          TDC.DataInReg.genblk1[23].c[23]
+@K:CKID0070       INP[47:0]           port                   1          TDC.DataInReg.genblk1[24].c[24]
+@K:CKID0071       INP[47:0]           port                   1          TDC.DataInReg.genblk1[25].c[25]
+@K:CKID0072       INP[47:0]           port                   1          TDC.DataInReg.genblk1[26].c[26]
+@K:CKID0073       INP[47:0]           port                   1          TDC.DataInReg.genblk1[27].c[27]
+@K:CKID0074       INP[47:0]           port                   1          TDC.DataInReg.genblk1[28].c[28]
+@K:CKID0075       INP[47:0]           port                   1          TDC.DataInReg.genblk1[29].c[29]
+@K:CKID0076       INP[47:0]           port                   1          TDC.DataInReg.genblk1[2].c[2]  
+@K:CKID0077       INP[47:0]           port                   1          TDC.DataInReg.genblk1[30].c[30]
+@K:CKID0078       INP[47:0]           port                   1          TDC.DataInReg.genblk1[31].c[31]
+@K:CKID0079       INP[47:0]           port                   1          TDC.DataInReg.genblk1[32].c[32]
+@K:CKID0080       INP[47:0]           port                   1          TDC.DataInReg.genblk1[33].c[33]
+@K:CKID0081       INP[47:0]           port                   1          TDC.DataInReg.genblk1[34].c[34]
+@K:CKID0082       INP[47:0]           port                   1          TDC.DataInReg.genblk1[35].c[35]
+@K:CKID0083       INP[47:0]           port                   1          TDC.DataInReg.genblk1[36].c[36]
+@K:CKID0084       INP[47:0]           port                   1          TDC.DataInReg.genblk1[37].c[37]
+@K:CKID0085       INP[47:0]           port                   1          TDC.DataInReg.genblk1[38].c[38]
+@K:CKID0086       INP[47:0]           port                   1          TDC.DataInReg.genblk1[39].c[39]
+@K:CKID0087       INP[47:0]           port                   1          TDC.DataInReg.genblk1[3].c[3]  
+@K:CKID0088       INP[47:0]           port                   1          TDC.DataInReg.genblk1[40].c[40]
+@K:CKID0089       INP[47:0]           port                   1          TDC.DataInReg.genblk1[41].c[41]
+@K:CKID0090       INP[47:0]           port                   1          TDC.DataInReg.genblk1[42].c[42]
+@K:CKID0091       INP[47:0]           port                   1          TDC.DataInReg.genblk1[43].c[43]
+@K:CKID0092       INP[47:0]           port                   1          TDC.DataInReg.genblk1[44].c[44]
+@K:CKID0093       INP[47:0]           port                   1          TDC.DataInReg.genblk1[45].c[45]
+@K:CKID0094       INP[47:0]           port                   1          TDC.DataInReg.genblk1[46].c[46]
+@K:CKID0095       INP[47:0]           port                   1          TDC.DataInReg.genblk1[47].c[47]
+@K:CKID0096       INP[47:0]           port                   1          TDC.DataInReg.genblk1[4].c[4]  
+@K:CKID0097       INP[47:0]           port                   1          TDC.DataInReg.genblk1[5].c[5]  
+@K:CKID0098       INP[47:0]           port                   1          TDC.DataInReg.genblk1[6].c[6]  
+@K:CKID0099       INP[47:0]           port                   1          TDC.DataInReg.genblk1[7].c[7]  
+@K:CKID0100       INP[47:0]           port                   1          TDC.DataInReg.genblk1[8].c[8]  
+@K:CKID0101       INP[47:0]           port                   1          TDC.DataInReg.genblk1[9].c[9]  
+@K:CKID0102       SClA.ClkC           FD1P3AY                115        FEC.shft42.Pos.d41             
+@K:CKID0103       SDaA.ClkC           FD1P3AY                2          FEC.findstart.StopFF           
+=======================================================================================================
+========================================================================================================= Gated/Generated Clocks ==========================================================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance               Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       TDC.CG.PClk.PLLInst_0      EHXPLLF                8697       TDC.ts.RenBlk                 Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       TDC.CG.P1Clk.PLLInst_0     EHXPLLF                816        TDC.DataInReg.rst[47]         Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0003       TDC.CG.P1Clk.PLLInst_0     EHXPLLF                768        TDC.Tdc.fb47.Deg90.d7         Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0004       TDC.CG.P2Clk.PLLInst_0     EHXPLLF                83         Blink.count[31]               Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0005       TDC.CT.Write               ORCALUT4               6272       TDC.CG.Cf1.Q[31]              No gated clock conversion method for cell cell:LUCENT.FD1P3DX                                                                 
+@K:CKID0006       TDC.DataInReg.Q[0]         ORCALUT4               34         TDC.Tdc.fb0.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0007       TDC.DataInReg.Q[1]         ORCALUT4               34         TDC.Tdc.fb1.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0008       TDC.DataInReg.Q[2]         ORCALUT4               34         TDC.Tdc.fb2.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0009       TDC.DataInReg.Q[3]         ORCALUT4               34         TDC.Tdc.fb3.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0010       TDC.DataInReg.Q[4]         ORCALUT4               34         TDC.Tdc.fb4.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0011       TDC.DataInReg.Q[5]         ORCALUT4               34         TDC.Tdc.fb5.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0012       TDC.DataInReg.Q[6]         ORCALUT4               34         TDC.Tdc.fb6.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0013       TDC.DataInReg.Q[7]         ORCALUT4               34         TDC.Tdc.fb7.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0014       TDC.DataInReg.Q[8]         ORCALUT4               34         TDC.Tdc.fb8.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0015       TDC.DataInReg.Q[9]         ORCALUT4               34         TDC.Tdc.fb9.TimeLtch[31]      No clocks found on inputs                                                                                                     
+@K:CKID0016       TDC.DataInReg.Q[10]        ORCALUT4               34         TDC.Tdc.fb10.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0017       TDC.DataInReg.Q[11]        ORCALUT4               34         TDC.Tdc.fb11.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0018       TDC.DataInReg.Q[12]        ORCALUT4               34         TDC.Tdc.fb12.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0019       TDC.DataInReg.Q[13]        ORCALUT4               34         TDC.Tdc.fb13.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0020       TDC.DataInReg.Q[14]        ORCALUT4               34         TDC.Tdc.fb14.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0021       TDC.DataInReg.Q[15]        ORCALUT4               34         TDC.Tdc.fb15.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0022       TDC.DataInReg.Q[16]        ORCALUT4               34         TDC.Tdc.fb16.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0023       TDC.DataInReg.Q[17]        ORCALUT4               34         TDC.Tdc.fb17.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0024       TDC.DataInReg.Q[18]        ORCALUT4               34         TDC.Tdc.fb18.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0025       TDC.DataInReg.Q[19]        ORCALUT4               34         TDC.Tdc.fb19.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0026       TDC.DataInReg.Q[20]        ORCALUT4               34         TDC.Tdc.fb20.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0027       TDC.DataInReg.Q[21]        ORCALUT4               34         TDC.Tdc.fb21.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0028       TDC.DataInReg.Q[22]        ORCALUT4               34         TDC.Tdc.fb22.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0029       TDC.DataInReg.Q[23]        ORCALUT4               34         TDC.Tdc.fb23.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0030       TDC.DataInReg.Q[24]        ORCALUT4               34         TDC.Tdc.fb24.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0031       TDC.DataInReg.Q[25]        ORCALUT4               34         TDC.Tdc.fb25.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0032       TDC.DataInReg.Q[26]        ORCALUT4               34         TDC.Tdc.fb26.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0033       TDC.DataInReg.Q[27]        ORCALUT4               34         TDC.Tdc.fb27.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0034       TDC.DataInReg.Q[28]        ORCALUT4               34         TDC.Tdc.fb28.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0035       TDC.DataInReg.Q[29]        ORCALUT4               34         TDC.Tdc.fb29.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0036       TDC.DataInReg.Q[30]        ORCALUT4               34         TDC.Tdc.fb30.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0037       TDC.DataInReg.Q[31]        ORCALUT4               34         TDC.Tdc.fb31.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0038       TDC.DataInReg.Q[32]        ORCALUT4               34         TDC.Tdc.fb32.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0039       TDC.DataInReg.Q[33]        ORCALUT4               34         TDC.Tdc.fb33.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0040       TDC.DataInReg.Q[34]        ORCALUT4               34         TDC.Tdc.fb34.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0041       TDC.DataInReg.Q[35]        ORCALUT4               34         TDC.Tdc.fb35.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0042       TDC.DataInReg.Q[36]        ORCALUT4               34         TDC.Tdc.fb36.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0043       TDC.DataInReg.Q[37]        ORCALUT4               34         TDC.Tdc.fb37.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0044       TDC.DataInReg.Q[38]        ORCALUT4               34         TDC.Tdc.fb38.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0045       TDC.DataInReg.Q[39]        ORCALUT4               34         TDC.Tdc.fb39.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0046       TDC.DataInReg.Q[40]        ORCALUT4               34         TDC.Tdc.fb40.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0047       TDC.DataInReg.Q[41]        ORCALUT4               34         TDC.Tdc.fb41.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0048       TDC.DataInReg.Q[42]        ORCALUT4               34         TDC.Tdc.fb42.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0049       TDC.DataInReg.Q[43]        ORCALUT4               34         TDC.Tdc.fb43.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0050       TDC.DataInReg.Q[44]        ORCALUT4               34         TDC.Tdc.fb44.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0051       TDC.DataInReg.Q[45]        ORCALUT4               34         TDC.Tdc.fb45.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0052       TDC.DataInReg.Q[46]        ORCALUT4               34         TDC.Tdc.fb46.TimeLtch[31]     No clocks found on inputs                                                                                                     
+@K:CKID0053       TDC.DataInReg.Q[47]        ORCALUT4               34         TDC.Tdc.fb47.TimeLtch[31]     No clocks found on inputs                                                                                                     
+===========================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

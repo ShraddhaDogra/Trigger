@@ -1,0 +1,168 @@
+V 000039 56 114 1425404354913 OutpB_0_
+(_unit OutpB_0_
+	(_specify
+		(_modpath parallel unknown 0 61
+			(_port PADDO in )
+			(_port OutpB0 out )
+		)
+	)
+)
+V 000039 56 114 1425404354918 OutpA_0_
+(_unit OutpA_0_
+	(_specify
+		(_modpath parallel unknown 0 83
+			(_port PADDO in )
+			(_port OutpA0 out )
+		)
+	)
+)
+V 000037 56 213 1425404354923 INP_0_
+(_unit INP_0_
+	(_specify
+		(_modpath parallel unknown 0 103
+			(_port INP0 in )
+			(_port PADDI out )
+		)
+		(_tchk width 0 104
+			(_port INP0 (posedge))
+		)
+		(_tchk width 0 105
+			(_port INP0 (negedge))
+		)
+	)
+)
+V 000039 56 115 1425404354928 OutpD_2_
+(_unit OutpD_2_
+	(_specify
+		(_modpath parallel unknown 0 122
+			(_port PADDO in )
+			(_port OutpD2 out )
+		)
+	)
+)
+V 000039 56 115 1425404354933 OutpD_1_
+(_unit OutpD_1_
+	(_specify
+		(_modpath parallel unknown 0 134
+			(_port PADDO in )
+			(_port OutpD1 out )
+		)
+	)
+)
+V 000039 56 115 1425404354938 OutpD_0_
+(_unit OutpD_0_
+	(_specify
+		(_modpath parallel unknown 0 146
+			(_port PADDO in )
+			(_port OutpD0 out )
+		)
+	)
+)
+V 000039 56 115 1425404354943 OutpC_2_
+(_unit OutpC_2_
+	(_specify
+		(_modpath parallel unknown 0 158
+			(_port PADDO in )
+			(_port OutpC2 out )
+		)
+	)
+)
+V 000039 56 115 1425404354948 OutpC_1_
+(_unit OutpC_1_
+	(_specify
+		(_modpath parallel unknown 0 170
+			(_port PADDO in )
+			(_port OutpC1 out )
+		)
+	)
+)
+V 000039 56 115 1425404354953 OutpC_0_
+(_unit OutpC_0_
+	(_specify
+		(_modpath parallel unknown 0 182
+			(_port PADDO in )
+			(_port OutpC0 out )
+		)
+	)
+)
+V 000039 56 115 1425404354958 OutpB_2_
+(_unit OutpB_2_
+	(_specify
+		(_modpath parallel unknown 0 194
+			(_port PADDO in )
+			(_port OutpB2 out )
+		)
+	)
+)
+V 000039 56 115 1425404354963 OutpB_1_
+(_unit OutpB_1_
+	(_specify
+		(_modpath parallel unknown 0 206
+			(_port PADDO in )
+			(_port OutpB1 out )
+		)
+	)
+)
+V 000039 56 115 1425404354968 OutpA_2_
+(_unit OutpA_2_
+	(_specify
+		(_modpath parallel unknown 0 218
+			(_port PADDO in )
+			(_port OutpA2 out )
+		)
+	)
+)
+V 000039 56 115 1425404354973 OutpA_1_
+(_unit OutpA_1_
+	(_specify
+		(_modpath parallel unknown 0 230
+			(_port PADDO in )
+			(_port OutpA1 out )
+		)
+	)
+)
+V 000035 56 211 1425404354978 InpA
+(_unit InpA
+	(_specify
+		(_modpath parallel unknown 0 240
+			(_port InpA in )
+			(_port PADDI out )
+		)
+		(_tchk width 0 241
+			(_port InpA (posedge))
+		)
+		(_tchk width 0 242
+			(_port InpA (negedge))
+		)
+	)
+)
+V 000037 56 213 1425404354983 INP_2_
+(_unit INP_2_
+	(_specify
+		(_modpath parallel unknown 0 257
+			(_port INP2 in )
+			(_port PADDI out )
+		)
+		(_tchk width 0 258
+			(_port INP2 (posedge))
+		)
+		(_tchk width 0 259
+			(_port INP2 (negedge))
+		)
+	)
+)
+V 000037 56 213 1425404354988 INP_1_
+(_unit INP_1_
+	(_specify
+		(_modpath parallel unknown 0 269
+			(_port INP1 in )
+			(_port PADDI out )
+		)
+		(_tchk width 0 270
+			(_port INP1 (posedge))
+		)
+		(_tchk width 0 271
+			(_port INP1 (negedge))
+		)
+	)
+)

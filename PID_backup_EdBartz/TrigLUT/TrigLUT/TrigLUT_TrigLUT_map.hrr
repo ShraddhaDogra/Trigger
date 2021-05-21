@@ -1,0 +1,2806 @@
+---------------------------------------------------
+Report for cell ScatterTrig
+   Instance path: ScatterTrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1799.00        100.0
+                                 IOLGC	      12.00        100.0
+                                  LUT4	    2144.00        100.0
+                                 IOREG	         12        100.0
+                                 IOBUF	         60        100.0
+                                PFUREG	       2285        100.0
+                                RIPPLE	         17        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                 PulseStretch_2s_18s_5	          1         5.9
+                                   Or8	          1         0.1
+                                 Or8_1	          1         0.1
+                                 Or8_0	          1         0.1
+                                Or18_1	          1         0.1
+                                Or18_3	          1         0.1
+                                Or18_4	          1         0.1
+                                Or18_2	          1         0.1
+                                  Or18	          1         0.1
+                                Or18_0	          1         0.1
+                               BackOr3	          1         1.2
+                             BackOr3_1	          1         1.2
+                             BackOr3_0	          1         1.2
+                                  leds	          1         1.2
+                   PulseStretch_5s_48s	          1        17.9
+                   PulseStretch_6s_48s	          1        20.5
+               PulseStretch_2s_18s_5_0	          1         5.9
+               PulseStretch_2s_18s_5_3	          1         5.9
+                   PulseStretch_2s_48s	          1         2.6
+                   PulseStretch_4s_48s	          1        17.9
+               PulseStretch_2s_18s_5_4	          1         5.9
+               PulseStretch_2s_18s_5_2	          1         5.9
+               PulseStretch_2s_18s_5_1	          1         5.9
+---------------------------------------------------
+Report for cell leds
+   Instance path: ScatterTrig/Blink
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.00         1.2
+                                  LUT4	       4.00         0.2
+                                PFUREG	         32         1.4
+                                RIPPLE	         17        100.0
+---------------------------------------------------
+Report for cell Or8_1
+   Instance path: ScatterTrig/outOr6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.17         0.1
+                                  LUT4	       3.00         0.1
+---------------------------------------------------
+Report for cell Or8_0
+   Instance path: ScatterTrig/outOr2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.17         0.1
+                                  LUT4	       3.00         0.1
+---------------------------------------------------
+Report for cell Or8
+   Instance path: ScatterTrig/outOr4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.17         0.1
+                                  LUT4	       3.00         0.1
+---------------------------------------------------
+Report for cell Or18_4
+   Instance path: ScatterTrig/outF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.33         0.1
+                                  LUT4	       6.00         0.3
+---------------------------------------------------
+Report for cell Or18_3
+   Instance path: ScatterTrig/outC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.33         0.1
+                                  LUT4	       6.00         0.3
+---------------------------------------------------
+Report for cell PulseStretch_2s_18s_5_4
+   Instance path: ScatterTrig/LatchAnd5C
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     105.67         5.9
+                                  LUT4	     108.00         5.0
+                                PFUREG	        126         5.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    LeadDelay_2s_18s_4	          1         2.9
+                       Input_Reg_18s_4	          1         2.0
+                       ReTrigger_18s_4	          1         1.0
+---------------------------------------------------
+Report for cell LeadDelay_2s_18s_4
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.50         2.9
+                                  LUT4	      54.00         2.5
+                                PFUREG	         54         2.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       DelayBit_2s_141	          1         0.2
+                       DelayBit_2s_151	          1         0.2
+                       DelayBit_2s_153	          1         0.2
+                       DelayBit_2s_154	          1         0.2
+                       DelayBit_2s_152	          1         0.2
+                       DelayBit_2s_147	          1         0.2
+                       DelayBit_2s_149	          1         0.2
+                       DelayBit_2s_150	          1         0.2
+                       DelayBit_2s_148	          1         0.2
+                       DelayBit_2s_145	          1         0.2
+                       DelayBit_2s_146	          1         0.2
+                       DelayBit_2s_143	          1         0.2
+                       DelayBit_2s_144	          1         0.2
+                       DelayBit_2s_142	          1         0.2
+                       DelayBit_2s_137	          1         0.2
+                       DelayBit_2s_139	          1         0.2
+                       DelayBit_2s_140	          1         0.2
+                       DelayBit_2s_138	          1         0.2
+---------------------------------------------------
+Report for cell DelayBit_2s_154
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[17].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_153
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[0].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_152
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[15].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_151
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[2].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_150
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[13].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_149
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[4].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_148
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[11].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_147
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[6].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_146
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[9].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_145
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[8].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_144
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[7].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_143
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[10].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_142
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[5].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_141
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_140
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[3].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_139
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[14].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_138
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[1].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_137
+   Instance path: ScatterTrig/LatchAnd5C/leadEdgeDelay/Bitwise_Delay[16].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell ReTrigger_18s_4
+   Instance path: ScatterTrig/LatchAnd5C/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00         1.0
+                                  LUT4	      18.00         0.8
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell Input_Reg_18s_4
+   Instance path: ScatterTrig/LatchAnd5C/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.17         2.0
+                                  LUT4	      36.00         1.7
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell PulseStretch_2s_18s_5_3
+   Instance path: ScatterTrig/LatchAnd3C
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     105.67         5.9
+                                  LUT4	     108.00         5.0
+                                PFUREG	        126         5.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    LeadDelay_2s_18s_3	          1         2.9
+                       Input_Reg_18s_3	          1         2.0
+                       ReTrigger_18s_3	          1         1.0
+---------------------------------------------------
+Report for cell LeadDelay_2s_18s_3
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.50         2.9
+                                  LUT4	      54.00         2.5
+                                PFUREG	         54         2.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       DelayBit_2s_119	          1         0.2
+                       DelayBit_2s_129	          1         0.2
+                       DelayBit_2s_133	          1         0.2
+                       DelayBit_2s_135	          1         0.2
+                       DelayBit_2s_136	          1         0.2
+                       DelayBit_2s_134	          1         0.2
+                       DelayBit_2s_131	          1         0.2
+                       DelayBit_2s_132	          1         0.2
+                       DelayBit_2s_130	          1         0.2
+                       DelayBit_2s_121	          1         0.2
+                       DelayBit_2s_125	          1         0.2
+                       DelayBit_2s_127	          1         0.2
+                       DelayBit_2s_128	          1         0.2
+                       DelayBit_2s_126	          1         0.2
+                       DelayBit_2s_123	          1         0.2
+                       DelayBit_2s_124	          1         0.2
+                       DelayBit_2s_122	          1         0.2
+                       DelayBit_2s_120	          1         0.2
+---------------------------------------------------
+Report for cell DelayBit_2s_136
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[17].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_135
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[0].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_134
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[15].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_133
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[2].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_132
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[13].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_131
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[4].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_130
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_129
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[6].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_128
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[9].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_127
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[8].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_126
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[7].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_125
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_124
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[5].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_123
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[12].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_122
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[3].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_121
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[14].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_120
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[1].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_119
+   Instance path: ScatterTrig/LatchAnd3C/leadEdgeDelay/Bitwise_Delay[16].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell ReTrigger_18s_3
+   Instance path: ScatterTrig/LatchAnd3C/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00         1.0
+                                  LUT4	      18.00         0.8
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell Input_Reg_18s_3
+   Instance path: ScatterTrig/LatchAnd3C/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.17         2.0
+                                  LUT4	      36.00         1.7
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell BackOr3_1
+   Instance path: ScatterTrig/BO3C
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.33         1.2
+                                  LUT4	      52.00         2.4
+---------------------------------------------------
+Report for cell Or18_2
+   Instance path: ScatterTrig/outE
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.33         0.1
+                                  LUT4	       6.00         0.3
+---------------------------------------------------
+Report for cell Or18_1
+   Instance path: ScatterTrig/outB
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.33         0.1
+                                  LUT4	       6.00         0.3
+---------------------------------------------------
+Report for cell PulseStretch_2s_18s_5_2
+   Instance path: ScatterTrig/LatchAnd5B
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     105.67         5.9
+                                  LUT4	     108.00         5.0
+                                PFUREG	        126         5.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    LeadDelay_2s_18s_2	          1         2.9
+                       Input_Reg_18s_2	          1         2.0
+                       ReTrigger_18s_2	          1         1.0
+---------------------------------------------------
+Report for cell LeadDelay_2s_18s_2
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.50         2.9
+                                  LUT4	      54.00         2.5
+                                PFUREG	         54         2.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       DelayBit_2s_107	          1         0.2
+                       DelayBit_2s_111	          1         0.2
+                       DelayBit_2s_115	          1         0.2
+                       DelayBit_2s_117	          1         0.2
+                       DelayBit_2s_118	          1         0.2
+                       DelayBit_2s_116	          1         0.2
+                       DelayBit_2s_113	          1         0.2
+                       DelayBit_2s_114	          1         0.2
+                       DelayBit_2s_112	          1         0.2
+                       DelayBit_2s_109	          1         0.2
+                       DelayBit_2s_110	          1         0.2
+                       DelayBit_2s_108	          1         0.2
+                       DelayBit_2s_103	          1         0.2
+                       DelayBit_2s_105	          1         0.2
+                       DelayBit_2s_106	          1         0.2
+                       DelayBit_2s_104	          1         0.2
+                       DelayBit_2s_101	          1         0.2
+                       DelayBit_2s_102	          1         0.2
+---------------------------------------------------
+Report for cell DelayBit_2s_118
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[17].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_117
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[0].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_116
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[15].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_115
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[2].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_114
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[13].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_113
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[4].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_112
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[11].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_111
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[6].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_110
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[9].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_109
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[8].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_108
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[7].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_107
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[10].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_106
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[5].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_105
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[12].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_104
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[3].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_103
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[14].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_102
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[1].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_101
+   Instance path: ScatterTrig/LatchAnd5B/leadEdgeDelay/Bitwise_Delay[16].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell ReTrigger_18s_2
+   Instance path: ScatterTrig/LatchAnd5B/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00         1.0
+                                  LUT4	      18.00         0.8
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell Input_Reg_18s_2
+   Instance path: ScatterTrig/LatchAnd5B/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.17         2.0
+                                  LUT4	      36.00         1.7
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell PulseStretch_2s_18s_5_1
+   Instance path: ScatterTrig/LatchAnd3B
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     105.67         5.9
+                                  LUT4	     108.00         5.0
+                                PFUREG	        126         5.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       Input_Reg_18s_1	          1         2.0
+                    LeadDelay_2s_18s_1	          1         2.9
+                       ReTrigger_18s_1	          1         1.0
+---------------------------------------------------
+Report for cell LeadDelay_2s_18s_1
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.50         2.9
+                                  LUT4	      54.00         2.5
+                                PFUREG	         54         2.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        DelayBit_2s_95	          1         0.2
+                        DelayBit_2s_99	          1         0.2
+                        DelayBit_2s_97	          1         0.2
+                        DelayBit_2s_98	          1         0.2
+                        DelayBit_2s_96	          1         0.2
+                        DelayBit_2s_83	          1         0.2
+                        DelayBit_2s_89	          1         0.2
+                        DelayBit_2s_93	          1         0.2
+                        DelayBit_2s_94	          1         0.2
+                        DelayBit_2s_91	          1         0.2
+                        DelayBit_2s_92	          1         0.2
+                        DelayBit_2s_90	          1         0.2
+                        DelayBit_2s_87	          1         0.2
+                        DelayBit_2s_88	          1         0.2
+                        DelayBit_2s_85	          1         0.2
+                        DelayBit_2s_86	          1         0.2
+                        DelayBit_2s_84	          1         0.2
+                       DelayBit_2s_100	          1         0.2
+---------------------------------------------------
+Report for cell DelayBit_2s_100
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[17].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_99
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[0].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_98
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[15].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_97
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[2].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_96
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[13].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_95
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[4].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_94
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[11].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_93
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[6].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_92
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[9].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_91
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[8].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_90
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[7].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_89
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[10].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_88
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[5].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_87
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[12].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_86
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[3].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_85
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[14].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_84
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[1].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_83
+   Instance path: ScatterTrig/LatchAnd3B/leadEdgeDelay/Bitwise_Delay[16].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell ReTrigger_18s_1
+   Instance path: ScatterTrig/LatchAnd3B/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00         1.0
+                                  LUT4	      18.00         0.8
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell Input_Reg_18s_1
+   Instance path: ScatterTrig/LatchAnd3B/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.17         2.0
+                                  LUT4	      36.00         1.7
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell BackOr3_0
+   Instance path: ScatterTrig/BO3B
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.67         1.2
+                                  LUT4	      52.00         2.4
+---------------------------------------------------
+Report for cell Or18_0
+   Instance path: ScatterTrig/outD
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.33         0.1
+                                  LUT4	       6.00         0.3
+---------------------------------------------------
+Report for cell Or18
+   Instance path: ScatterTrig/outA
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.33         0.1
+                                  LUT4	       6.00         0.3
+---------------------------------------------------
+Report for cell PulseStretch_2s_18s_5_0
+   Instance path: ScatterTrig/LatchAnd5A
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     105.67         5.9
+                                  LUT4	     108.00         5.0
+                                PFUREG	        126         5.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    LeadDelay_2s_18s_0	          1         2.9
+                       Input_Reg_18s_0	          1         2.0
+                       ReTrigger_18s_0	          1         1.0
+---------------------------------------------------
+Report for cell LeadDelay_2s_18s_0
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.50         2.9
+                                  LUT4	      54.00         2.5
+                                PFUREG	         54         2.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        DelayBit_2s_67	          1         0.2
+                        DelayBit_2s_75	          1         0.2
+                        DelayBit_2s_79	          1         0.2
+                        DelayBit_2s_81	          1         0.2
+                        DelayBit_2s_82	          1         0.2
+                        DelayBit_2s_80	          1         0.2
+                        DelayBit_2s_77	          1         0.2
+                        DelayBit_2s_78	          1         0.2
+                        DelayBit_2s_76	          1         0.2
+                        DelayBit_2s_71	          1         0.2
+                        DelayBit_2s_73	          1         0.2
+                        DelayBit_2s_74	          1         0.2
+                        DelayBit_2s_72	          1         0.2
+                        DelayBit_2s_69	          1         0.2
+                        DelayBit_2s_70	          1         0.2
+                        DelayBit_2s_68	          1         0.2
+                        DelayBit_2s_65	          1         0.2
+                        DelayBit_2s_66	          1         0.2
+---------------------------------------------------
+Report for cell DelayBit_2s_82
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[17].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_81
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[0].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_80
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[15].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_79
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[2].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_78
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[13].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_77
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[4].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_76
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[11].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_75
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[6].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_74
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[9].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_73
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[8].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_72
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[7].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_71
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_70
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[5].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_69
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[12].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_68
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_67
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[14].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_66
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[1].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_65
+   Instance path: ScatterTrig/LatchAnd5A/leadEdgeDelay/Bitwise_Delay[16].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell ReTrigger_18s_0
+   Instance path: ScatterTrig/LatchAnd5A/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00         1.0
+                                  LUT4	      18.00         0.8
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell Input_Reg_18s_0
+   Instance path: ScatterTrig/LatchAnd5A/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.17         2.0
+                                  LUT4	      36.00         1.7
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell PulseStretch_2s_18s_5
+   Instance path: ScatterTrig/LatchAnd3A
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     105.67         5.9
+                                  LUT4	     108.00         5.0
+                                PFUREG	        126         5.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      LeadDelay_2s_18s	          1         2.9
+                         Input_Reg_18s	          1         2.0
+                         ReTrigger_18s	          1         1.0
+---------------------------------------------------
+Report for cell LeadDelay_2s_18s
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.50         2.9
+                                  LUT4	      54.00         2.5
+                                PFUREG	         54         2.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        DelayBit_2s_54	          1         0.2
+                        DelayBit_2s_59	          1         0.2
+                        DelayBit_2s_63	          1         0.2
+                        DelayBit_2s_64	          1         0.2
+                        DelayBit_2s_61	          1         0.2
+                        DelayBit_2s_62	          1         0.2
+                        DelayBit_2s_60	          1         0.2
+                        DelayBit_2s_57	          1         0.2
+                        DelayBit_2s_58	          1         0.2
+                        DelayBit_2s_56	          1         0.2
+                        DelayBit_2s_55	          1         0.2
+                        DelayBit_2s_48	          1         0.2
+                        DelayBit_2s_51	          1         0.2
+                        DelayBit_2s_52	          1         0.2
+                        DelayBit_2s_53	          1         0.2
+                        DelayBit_2s_50	          1         0.2
+                        DelayBit_2s_49	          1         0.2
+                        DelayBit_2s_47	          1         0.2
+---------------------------------------------------
+Report for cell DelayBit_2s_64
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[17].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_63
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[0].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_62
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[15].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_61
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[2].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_60
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[13].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_59
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[4].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_58
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[11].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_57
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[6].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_56
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_55
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_54
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[7].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_53
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[10].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_52
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_51
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_50
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[3].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_49
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_48
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[1].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_47
+   Instance path: ScatterTrig/LatchAnd3A/leadEdgeDelay/Bitwise_Delay[16].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell ReTrigger_18s
+   Instance path: ScatterTrig/LatchAnd3A/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00         1.0
+                                  LUT4	      18.00         0.8
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell Input_Reg_18s
+   Instance path: ScatterTrig/LatchAnd3A/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.17         2.0
+                                  LUT4	      36.00         1.7
+                                PFUREG	         36         1.6
+---------------------------------------------------
+Report for cell BackOr3
+   Instance path: ScatterTrig/BO3A
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.33         1.2
+                                  LUT4	      52.00         2.4
+---------------------------------------------------
+Report for cell PulseStretch_6s_48s
+   Instance path: ScatterTrig/ps6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     369.50        20.5
+                                  LUT4	     460.00        21.5
+                                PFUREG	        529        23.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      LeadDelay_6s_48s	          1        12.6
+                       Input_Reg_48s_2	          1         5.4
+                       ReTrigger_48s_2	          1         2.6
+---------------------------------------------------
+Report for cell LeadDelay_6s_48s
+   Instance path: ScatterTrig/ps6/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     226.17        12.6
+                                  LUT4	     322.00        15.0
+                                PFUREG	        322        14.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         DelayBit_6s_2	          1         0.3
+                        DelayBit_6s_45	          1         0.3
+                         DelayBit_6s_8	          1         0.3
+                         DelayBit_6s_9	          1         0.3
+                         DelayBit_6s_6	          1         0.3
+                         DelayBit_6s_7	          1         0.3
+                        DelayBit_6s_46	          1         0.3
+                         DelayBit_6s_5	          1         0.3
+                         DelayBit_6s_3	          1         0.3
+                        DelayBit_6s_37	          1         0.3
+                        DelayBit_6s_41	          1         0.3
+                        DelayBit_6s_43	          1         0.3
+                        DelayBit_6s_44	          1         0.3
+                        DelayBit_6s_42	          1         0.3
+                         DelayBit_6s_4	          1         0.3
+                        DelayBit_6s_40	          1         0.3
+                        DelayBit_6s_38	          1         0.3
+                        DelayBit_6s_32	          1         0.3
+                        DelayBit_6s_34	          1         0.3
+                        DelayBit_6s_35	          1         0.3
+                        DelayBit_6s_33	          1         0.3
+                        DelayBit_6s_31	          1         0.3
+                        DelayBit_6s_30	          1         0.3
+                        DelayBit_6s_27	          1         0.3
+                        DelayBit_6s_28	          1         0.3
+                        DelayBit_6s_29	          1         0.3
+                        DelayBit_6s_23	          1         0.3
+                        DelayBit_6s_25	          1         0.3
+                        DelayBit_6s_26	          1         0.3
+                        DelayBit_6s_24	          1         0.3
+                        DelayBit_6s_21	          1         0.3
+                        DelayBit_6s_22	          1         0.3
+                        DelayBit_6s_20	          1         0.3
+                         DelayBit_6s_0	          1         0.3
+                        DelayBit_6s_12	          1         0.3
+                        DelayBit_6s_16	          1         0.3
+                        DelayBit_6s_18	          1         0.3
+                        DelayBit_6s_19	          1         0.3
+                        DelayBit_6s_17	          1         0.3
+                        DelayBit_6s_14	          1         0.3
+                        DelayBit_6s_15	          1         0.3
+                        DelayBit_6s_13	          1         0.3
+                        DelayBit_6s_10	          1         0.3
+                        DelayBit_6s_11	          1         0.3
+                         DelayBit_6s_1	          1         0.3
+                           DelayBit_6s	          1         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_46
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[3].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_45
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[10].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_44
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[4].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_43
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[37].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_42
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[41].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_41
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[27].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_40
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[34].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_38
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[7].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_37
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[40].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_35
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[31].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_34
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[24].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_33
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[16].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_32
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[23].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_31
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[17].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_30
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[42].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_29
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[28].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_28
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[14].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_27
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[21].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_26
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[13].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_25
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[20].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_24
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[38].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_23
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[32].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_22
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[18].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_21
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[11].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_20
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[29].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_19
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[36].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_18
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[30].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_17
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[35].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_16
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[15].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_15
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[1].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_14
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[8].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_13
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[26].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_12
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[33].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_11
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[25].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_10
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[19].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_9
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[5].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_8
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[9].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_7
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[43].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_6
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[44].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_5
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[45].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_4
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[22].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_3
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[2].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_2
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[12].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_1
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[6].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s_0
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[39].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell DelayBit_6s
+   Instance path: ScatterTrig/ps6/leadEdgeDelay/Bitwise_Delay[0].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       7.00         0.3
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell ReTrigger_48s_2
+   Instance path: ScatterTrig/ps6/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.00         2.6
+                                  LUT4	      46.00         2.1
+                                PFUREG	         92         4.0
+---------------------------------------------------
+Report for cell Input_Reg_48s_2
+   Instance path: ScatterTrig/ps6/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      97.33         5.4
+                                  LUT4	      92.00         4.3
+                                PFUREG	        115         5.0
+---------------------------------------------------
+Report for cell PulseStretch_5s_48s
+   Instance path: ScatterTrig/ps5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     322.33        17.9
+                                  LUT4	     414.00        19.3
+                                PFUREG	        476        20.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      LeadDelay_5s_48s	          1        10.2
+                       Input_Reg_48s_1	          1         5.1
+                       ReTrigger_48s_1	          1         2.6
+---------------------------------------------------
+Report for cell LeadDelay_5s_48s
+   Instance path: ScatterTrig/ps5/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     184.17        10.2
+                                  LUT4	     276.00        12.9
+                                PFUREG	        276        12.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         DelayBit_5s_2	          1         0.2
+                        DelayBit_5s_45	          1         0.2
+                         DelayBit_5s_6	          1         0.2
+                         DelayBit_5s_8	          1         0.2
+                         DelayBit_5s_9	          1         0.2
+                         DelayBit_5s_7	          1         0.2
+                         DelayBit_5s_5	          1         0.2
+                        DelayBit_5s_46	          1         0.3
+                        DelayBit_5s_32	          1         0.2
+                        DelayBit_5s_37	          1         0.2
+                        DelayBit_5s_41	          1         0.2
+                        DelayBit_5s_43	          1         0.2
+                        DelayBit_5s_44	          1         0.3
+                        DelayBit_5s_42	          1         0.2
+                         DelayBit_5s_4	          1         0.2
+                        DelayBit_5s_40	          1         0.2
+                        DelayBit_5s_38	          1         0.2
+                        DelayBit_5s_34	          1         0.2
+                        DelayBit_5s_35	          1         0.2
+                        DelayBit_5s_33	          1         0.2
+                        DelayBit_5s_27	          1         0.2
+                         DelayBit_5s_3	          1         0.3
+                        DelayBit_5s_30	          1         0.2
+                        DelayBit_5s_31	          1         0.2
+                        DelayBit_5s_28	          1         0.2
+                        DelayBit_5s_29	          1         0.2
+                        DelayBit_5s_23	          1         0.2
+                        DelayBit_5s_25	          1         0.2
+                        DelayBit_5s_26	          1         0.2
+                        DelayBit_5s_24	          1         0.2
+                        DelayBit_5s_21	          1         0.2
+                        DelayBit_5s_22	          1         0.2
+                        DelayBit_5s_20	          1         0.2
+                        DelayBit_5s_10	          1         0.2
+                        DelayBit_5s_16	          1         0.2
+                        DelayBit_5s_18	          1         0.2
+                        DelayBit_5s_19	          1         0.2
+                        DelayBit_5s_17	          1         0.2
+                        DelayBit_5s_14	          1         0.2
+                        DelayBit_5s_15	          1         0.3
+                        DelayBit_5s_12	          1         0.2
+                        DelayBit_5s_13	          1         0.2
+                        DelayBit_5s_11	          1         0.2
+                           DelayBit_5s	          1         0.2
+                         DelayBit_5s_0	          1         0.2
+                         DelayBit_5s_1	          1         0.2
+---------------------------------------------------
+Report for cell DelayBit_5s_46
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[3].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_45
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[10].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_44
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[4].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_43
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[37].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_42
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[41].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_41
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[27].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_40
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[34].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_38
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[7].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_37
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[40].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_35
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[31].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_34
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[24].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_33
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[16].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_32
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[23].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_31
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[17].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_30
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[42].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_29
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[28].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_28
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[14].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_27
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[21].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_26
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[13].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_25
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[20].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_24
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[38].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_23
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[32].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_22
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[18].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_21
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[11].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_20
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[29].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_19
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[36].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_18
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[30].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_17
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[35].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_16
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[15].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_15
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[1].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_14
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[8].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_13
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[26].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_12
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[33].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_11
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[25].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_10
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[19].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_9
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[5].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_8
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[9].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_7
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[43].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_6
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[44].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_5
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[45].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_4
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[22].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_3
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[2].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         0.3
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_2
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[12].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_1
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[6].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s_0
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[39].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell DelayBit_5s
+   Instance path: ScatterTrig/ps5/leadEdgeDelay/Bitwise_Delay[0].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       6.00         0.3
+                                PFUREG	          6         0.3
+---------------------------------------------------
+Report for cell ReTrigger_48s_1
+   Instance path: ScatterTrig/ps5/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.00         2.6
+                                  LUT4	      46.00         2.1
+                                PFUREG	         92         4.0
+---------------------------------------------------
+Report for cell Input_Reg_48s_1
+   Instance path: ScatterTrig/ps5/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      92.17         5.1
+                                  LUT4	      92.00         4.3
+                                PFUREG	        108         4.7
+---------------------------------------------------
+Report for cell PulseStretch_4s_48s
+   Instance path: ScatterTrig/ps4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     322.50        17.9
+                                  LUT4	     368.00        17.2
+                                PFUREG	        436        19.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      LeadDelay_4s_48s	          1        10.0
+                       Input_Reg_48s_0	          1         5.4
+                       ReTrigger_48s_0	          1         2.6
+---------------------------------------------------
+Report for cell LeadDelay_4s_48s
+   Instance path: ScatterTrig/ps4/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     180.17        10.0
+                                  LUT4	     230.00        10.7
+                                PFUREG	        230        10.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        DelayBit_4s_27	          1         0.2
+                        DelayBit_4s_45	          1         0.2
+                         DelayBit_4s_6	          1         0.2
+                         DelayBit_4s_8	          1         0.2
+                         DelayBit_4s_9	          1         0.2
+                         DelayBit_4s_7	          1         0.2
+                         DelayBit_4s_5	          1         0.2
+                        DelayBit_4s_46	          1         0.2
+                        DelayBit_4s_35	          1         0.2
+                         DelayBit_4s_4	          1         0.2
+                        DelayBit_4s_43	          1         0.2
+                        DelayBit_4s_44	          1         0.2
+                        DelayBit_4s_41	          1         0.2
+                        DelayBit_4s_42	          1         0.2
+                        DelayBit_4s_40	          1         0.2
+                        DelayBit_4s_37	          1         0.2
+                        DelayBit_4s_38	          1         0.2
+                         DelayBit_4s_3	          1         0.2
+                        DelayBit_4s_32	          1         0.2
+                        DelayBit_4s_34	          1         0.2
+                        DelayBit_4s_33	          1         0.2
+                        DelayBit_4s_30	          1         0.2
+                        DelayBit_4s_31	          1         0.2
+                        DelayBit_4s_28	          1         0.2
+                        DelayBit_4s_29	          1         0.2
+                        DelayBit_4s_16	          1         0.2
+                         DelayBit_4s_2	          1         0.2
+                        DelayBit_4s_23	          1         0.2
+                        DelayBit_4s_25	          1         0.2
+                        DelayBit_4s_26	          1         0.2
+                        DelayBit_4s_24	          1         0.2
+                        DelayBit_4s_21	          1         0.2
+                        DelayBit_4s_22	          1         0.2
+                        DelayBit_4s_20	          1         0.2
+                        DelayBit_4s_18	          1         0.2
+                        DelayBit_4s_19	          1         0.2
+                        DelayBit_4s_17	          1         0.2
+                         DelayBit_4s_0	          1         0.2
+                        DelayBit_4s_12	          1         0.2
+                        DelayBit_4s_14	          1         0.2
+                        DelayBit_4s_15	          1         0.2
+                        DelayBit_4s_13	          1         0.2
+                        DelayBit_4s_10	          1         0.2
+                        DelayBit_4s_11	          1         0.2
+                         DelayBit_4s_1	          1         0.2
+                           DelayBit_4s	          1         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_46
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[3].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_45
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[10].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_44
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[4].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_43
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[37].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_42
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[41].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_41
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[27].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_40
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[34].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_38
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[7].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_37
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[40].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_35
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[31].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_34
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[24].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_33
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[16].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_32
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[23].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_31
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[17].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_30
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[42].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_29
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[28].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_28
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[14].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_27
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[21].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_26
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[13].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_25
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[20].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_24
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[38].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_23
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[32].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_22
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[18].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_21
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[11].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_20
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[29].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_19
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[36].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_18
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[30].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_17
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[35].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_16
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[15].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_15
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[1].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_14
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[8].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_13
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[26].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_12
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[33].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_11
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[25].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_10
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[19].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_9
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[5].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_8
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[9].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_7
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[43].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_6
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[44].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_5
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[45].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_4
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[22].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_3
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[2].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_2
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[12].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_1
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[6].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s_0
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[39].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell DelayBit_4s
+   Instance path: ScatterTrig/ps4/leadEdgeDelay/Bitwise_Delay[0].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.92         0.2
+                                  LUT4	       5.00         0.2
+                                PFUREG	          5         0.2
+---------------------------------------------------
+Report for cell ReTrigger_48s_0
+   Instance path: ScatterTrig/ps4/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.00         2.6
+                                  LUT4	      46.00         2.1
+                                PFUREG	         92         4.0
+---------------------------------------------------
+Report for cell Input_Reg_48s_0
+   Instance path: ScatterTrig/ps4/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      96.33         5.4
+                                  LUT4	      92.00         4.3
+                                PFUREG	        114         5.0
+---------------------------------------------------
+Report for cell PulseStretch_2s_48s
+   Instance path: ScatterTrig/ps2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.83         2.6
+                                  LUT4	      48.00         2.2
+                                PFUREG	         56         2.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      LeadDelay_2s_48s	          1         1.3
+                         Input_Reg_48s	          1         0.9
+                         ReTrigger_48s	          1         0.4
+---------------------------------------------------
+Report for cell LeadDelay_2s_48s
+   Instance path: ScatterTrig/ps2/leadEdgeDelay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.33         1.3
+                                  LUT4	      24.00         1.1
+                                PFUREG	         24         1.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        DelayBit_2s_23	          1         0.2
+                        DelayBit_2s_40	          1         0.2
+                        DelayBit_2s_43	          1         0.2
+                        DelayBit_2s_24	          1         0.2
+                        DelayBit_2s_17	          1         0.2
+                        DelayBit_2s_19	          1         0.2
+                        DelayBit_2s_12	          1         0.2
+                         DelayBit_2s_0	          1         0.2
+---------------------------------------------------
+Report for cell DelayBit_2s_43
+   Instance path: ScatterTrig/ps2/leadEdgeDelay/Bitwise_Delay[37].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_40
+   Instance path: ScatterTrig/ps2/leadEdgeDelay/Bitwise_Delay[34].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_24
+   Instance path: ScatterTrig/ps2/leadEdgeDelay/Bitwise_Delay[38].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_23
+   Instance path: ScatterTrig/ps2/leadEdgeDelay/Bitwise_Delay[32].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_19
+   Instance path: ScatterTrig/ps2/leadEdgeDelay/Bitwise_Delay[36].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_17
+   Instance path: ScatterTrig/ps2/leadEdgeDelay/Bitwise_Delay[35].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_12
+   Instance path: ScatterTrig/ps2/leadEdgeDelay/Bitwise_Delay[33].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell DelayBit_2s_0
+   Instance path: ScatterTrig/ps2/leadEdgeDelay/Bitwise_Delay[39].Dline
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.2
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell ReTrigger_48s
+   Instance path: ScatterTrig/ps2/iretrig
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00         0.4
+                                  LUT4	       8.00         0.4
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell Input_Reg_48s
+   Instance path: ScatterTrig/ps2/ireg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.50         0.9
+                                  LUT4	      16.00         0.7
+                                PFUREG	         16         0.7

@@ -1,0 +1,707 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U1.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U2.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U3.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U10.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U11.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U12.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U13.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U20.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U21.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U22.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U23.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U24.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U30.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U31.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U32.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U33.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U34.n appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U35.n appears to be an unidentified clock source. Assuming default frequency. 
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.58ns		  30 /         0
+   2		0h:00m:00s		    -0.58ns		  30 /         0
+
+
+
+   3		0h:00m:00s		    -0.58ns		  30 /         0
+
+
+   4		0h:00m:00s		    -0.58ns		  30 /         0
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+Warning: Found 22 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net U1.m
+1) instance I_22.lat_s (view:work.Top(verilog)), output net "U1.m" in work.Top(verilog)
+    net        U1.m
+    input  pin I_22.lat/I[0]
+    instance   I_22.lat (cell and)
+    output pin I_22.lat/OUT
+    net        I_22.t1
+    input  pin I_22.lat_s/I[1]
+    instance   I_22.lat_s (cell or)
+    output pin I_22.lat_s/OUT
+    net        U1.m
+@W: BN137 :|Found combinational loop during mapping at net U2.m
+2) instance I_20.lat_s (view:work.Top(verilog)), output net "U2.m" in work.Top(verilog)
+    net        U2.m
+    input  pin I_20.lat/I[0]
+    instance   I_20.lat (cell and)
+    output pin I_20.lat/OUT
+    net        I_20.t1
+    input  pin I_20.lat_s/I[1]
+    instance   I_20.lat_s (cell or)
+    output pin I_20.lat_s/OUT
+    net        U2.m
+@W: BN137 :|Found combinational loop during mapping at net U3.m
+3) instance I_18.lat_s (view:work.Top(verilog)), output net "U3.m" in work.Top(verilog)
+    net        U3.m
+    input  pin I_18.lat/I[0]
+    instance   I_18.lat (cell and)
+    output pin I_18.lat/OUT
+    net        I_18.t1
+    input  pin I_18.lat_s/I[1]
+    instance   I_18.lat_s (cell or)
+    output pin I_18.lat_s/OUT
+    net        U3.m
+@W: BN137 :|Found combinational loop during mapping at net U10.m
+4) instance I_17.lat_s (view:work.Top(verilog)), output net "U10.m" in work.Top(verilog)
+    net        U10.m
+    input  pin I_17.lat/I[0]
+    instance   I_17.lat (cell and)
+    output pin I_17.lat/OUT
+    net        I_17.t1
+    input  pin I_17.lat_s/I[1]
+    instance   I_17.lat_s (cell or)
+    output pin I_17.lat_s/OUT
+    net        U10.m
+@W: BN137 :|Found combinational loop during mapping at net U11.m
+5) instance I_16.lat_s (view:work.Top(verilog)), output net "U11.m" in work.Top(verilog)
+    net        U11.m
+    input  pin I_16.lat/I[0]
+    instance   I_16.lat (cell and)
+    output pin I_16.lat/OUT
+    net        I_16.t1
+    input  pin I_16.lat_s/I[1]
+    instance   I_16.lat_s (cell or)
+    output pin I_16.lat_s/OUT
+    net        U11.m
+@W: BN137 :|Found combinational loop during mapping at net U12.m
+6) instance I_14.lat_s (view:work.Top(verilog)), output net "U12.m" in work.Top(verilog)
+    net        U12.m
+    input  pin I_14.lat/I[0]
+    instance   I_14.lat (cell and)
+    output pin I_14.lat/OUT
+    net        I_14.t1
+    input  pin I_14.lat_s/I[1]
+    instance   I_14.lat_s (cell or)
+    output pin I_14.lat_s/OUT
+    net        U12.m
+@W: BN137 :|Found combinational loop during mapping at net U13.m
+7) instance I_15.lat_s (view:work.Top(verilog)), output net "U13.m" in work.Top(verilog)
+    net        U13.m
+    input  pin I_15.lat/I[0]
+    instance   I_15.lat (cell and)
+    output pin I_15.lat/OUT
+    net        I_15.t1
+    input  pin I_15.lat_s/I[1]
+    instance   I_15.lat_s (cell or)
+    output pin I_15.lat_s/OUT
+    net        U13.m
+@W: BN137 :|Found combinational loop during mapping at net U20.m
+8) instance I_13.lat_s (view:work.Top(verilog)), output net "U20.m" in work.Top(verilog)
+    net        U20.m
+    input  pin I_13.lat/I[0]
+    instance   I_13.lat (cell and)
+    output pin I_13.lat/OUT
+    net        I_13.t1
+    input  pin I_13.lat_s/I[1]
+    instance   I_13.lat_s (cell or)
+    output pin I_13.lat_s/OUT
+    net        U20.m
+@W: BN137 :|Found combinational loop during mapping at net U21.m
+9) instance I_11.lat_s (view:work.Top(verilog)), output net "U21.m" in work.Top(verilog)
+    net        U21.m
+    input  pin I_11.lat/I[0]
+    instance   I_11.lat (cell and)
+    output pin I_11.lat/OUT
+    net        I_11.t1
+    input  pin I_11.lat_s/I[1]
+    instance   I_11.lat_s (cell or)
+    output pin I_11.lat_s/OUT
+    net        U21.m
+@W: BN137 :|Found combinational loop during mapping at net U22.m
+10) instance I_10.lat_s (view:work.Top(verilog)), output net "U22.m" in work.Top(verilog)
+    net        U22.m
+    input  pin I_10.lat/I[0]
+    instance   I_10.lat (cell and)
+    output pin I_10.lat/OUT
+    net        I_10.t1
+    input  pin I_10.lat_s/I[1]
+    instance   I_10.lat_s (cell or)
+    output pin I_10.lat_s/OUT
+    net        U22.m
+@W: BN137 :|Found combinational loop during mapping at net U23.m
+11) instance I_9.lat_s (view:work.Top(verilog)), output net "U23.m" in work.Top(verilog)
+    net        U23.m
+    input  pin I_9.lat/I[0]
+    instance   I_9.lat (cell and)
+    output pin I_9.lat/OUT
+    net        I_9.t1
+    input  pin I_9.lat_s/I[1]
+    instance   I_9.lat_s (cell or)
+    output pin I_9.lat_s/OUT
+    net        U23.m
+@W: BN137 :|Found combinational loop during mapping at net U24.m
+12) instance I_7.lat_s (view:work.Top(verilog)), output net "U24.m" in work.Top(verilog)
+    net        U24.m
+    input  pin I_7.lat/I[0]
+    instance   I_7.lat (cell and)
+    output pin I_7.lat/OUT
+    net        I_7.t1
+    input  pin I_7.lat_s/I[1]
+    instance   I_7.lat_s (cell or)
+    output pin I_7.lat_s/OUT
+    net        U24.m
+@W: BN137 :|Found combinational loop during mapping at net U30.m
+13) instance I_6.lat_s (view:work.Top(verilog)), output net "U30.m" in work.Top(verilog)
+    net        U30.m
+    input  pin I_6.lat/I[0]
+    instance   I_6.lat (cell and)
+    output pin I_6.lat/OUT
+    net        I_6.t1
+    input  pin I_6.lat_s/I[1]
+    instance   I_6.lat_s (cell or)
+    output pin I_6.lat_s/OUT
+    net        U30.m
+@W: BN137 :|Found combinational loop during mapping at net U31.m
+14) instance I_4.lat_s (view:work.Top(verilog)), output net "U31.m" in work.Top(verilog)
+    net        U31.m
+    input  pin I_4.lat/I[0]
+    instance   I_4.lat (cell and)
+    output pin I_4.lat/OUT
+    net        I_4.t1
+    input  pin I_4.lat_s/I[1]
+    instance   I_4.lat_s (cell or)
+    output pin I_4.lat_s/OUT
+    net        U31.m
+@W: BN137 :|Found combinational loop during mapping at net U32.m
+15) instance I_5.lat_s (view:work.Top(verilog)), output net "U32.m" in work.Top(verilog)
+    net        U32.m
+    input  pin I_5.lat/I[0]
+    instance   I_5.lat (cell and)
+    output pin I_5.lat/OUT
+    net        I_5.t1
+    input  pin I_5.lat_s/I[1]
+    instance   I_5.lat_s (cell or)
+    output pin I_5.lat_s/OUT
+    net        U32.m
+@W: BN137 :|Found combinational loop during mapping at net U33.m
+16) instance I_3.lat_s (view:work.Top(verilog)), output net "U33.m" in work.Top(verilog)
+    net        U33.m
+    input  pin I_3.lat/I[0]
+    instance   I_3.lat (cell and)
+    output pin I_3.lat/OUT
+    net        I_3.t1
+    input  pin I_3.lat_s/I[1]
+    instance   I_3.lat_s (cell or)
+    output pin I_3.lat_s/OUT
+    net        U33.m
+@W: BN137 :|Found combinational loop during mapping at net U34.m
+17) instance I_2.lat_s (view:work.Top(verilog)), output net "U34.m" in work.Top(verilog)
+    net        U34.m
+    input  pin I_2.lat/I[0]
+    instance   I_2.lat (cell and)
+    output pin I_2.lat/OUT
+    net        I_2.t1
+    input  pin I_2.lat_s/I[1]
+    instance   I_2.lat_s (cell or)
+    output pin I_2.lat_s/OUT
+    net        U34.m
+@W: BN137 :|Found combinational loop during mapping at net U35.m
+18) instance I_1.lat_s (view:work.Top(verilog)), output net "U35.m" in work.Top(verilog)
+    net        U35.m
+    input  pin I_1.lat/I[0]
+    instance   I_1.lat (cell and)
+    output pin I_1.lat/OUT
+    net        I_1.t1
+    input  pin I_1.lat_s/I[1]
+    instance   I_1.lat_s (cell or)
+    output pin I_1.lat_s/OUT
+    net        U35.m
+@W: BN137 :|Found combinational loop during mapping at net OutpA_c[1]
+19) instance I_21.lat_s (view:work.Top(verilog)), output net "OutpA_c[1]" in work.Top(verilog)
+    net        OutpA_c[1]
+    input  pin I_21.lat/I[0]
+    instance   I_21.lat (cell and)
+    output pin I_21.lat/OUT
+    net        I_21.t1
+    input  pin I_21.lat_s/I[1]
+    instance   I_21.lat_s (cell or)
+    output pin I_21.lat_s/OUT
+    net        OutpA_c[1]
+@W: BN137 :|Found combinational loop during mapping at net OutpB_c[1]
+20) instance I_19.lat_s (view:work.Top(verilog)), output net "OutpB_c[1]" in work.Top(verilog)
+    net        OutpB_c[1]
+    input  pin I_19.lat/I[0]
+    instance   I_19.lat (cell and)
+    output pin I_19.lat/OUT
+    net        I_19.t1
+    input  pin I_19.lat_s/I[1]
+    instance   I_19.lat_s (cell or)
+    output pin I_19.lat_s/OUT
+    net        OutpB_c[1]
+@W: BN137 :|Found combinational loop during mapping at net OutpC_c[1]
+21) instance I_12.lat_s (view:work.Top(verilog)), output net "OutpC_c[1]" in work.Top(verilog)
+    net        OutpC_c[1]
+    input  pin I_12.lat/I[0]
+    instance   I_12.lat (cell and)
+    output pin I_12.lat/OUT
+    net        I_12.t1
+    input  pin I_12.lat_s/I[1]
+    instance   I_12.lat_s (cell or)
+    output pin I_12.lat_s/OUT
+    net        OutpC_c[1]
+@W: BN137 :|Found combinational loop during mapping at net OutpD_c[1]
+22) instance I_8.lat_s (view:work.Top(verilog)), output net "OutpD_c[1]" in work.Top(verilog)
+    net        OutpD_c[1]
+    input  pin I_8.lat/I[0]
+    instance   I_8.lat (cell and)
+    output pin I_8.lat/OUT
+    net        I_8.t1
+    input  pin I_8.lat_s/I[1]
+    instance   I_8.lat_s (cell or)
+    output pin I_8.lat_s/OUT
+    net        OutpD_c[1]
+End of loops
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 140MB)
+
+Writing Analyst data base D:\bartz\Documents\Lattice\TrigTest\TrigTest1\synwork\TrigTest1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03L-SP1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+Warning: Found 22 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net G_265
+1) instance I_22.lat_s (view:work.Top(verilog)), output net "G_265" in work.Top(verilog)
+    net        G_265
+    input  pin I_22.lat_s/C
+    instance   I_22.lat_s (cell ORCALUT4)
+    output pin I_22.lat_s/Z
+    net        U1.G_265
+@W: BN137 :|Found combinational loop during mapping at net G_266
+2) instance I_20.lat_s (view:work.Top(verilog)), output net "G_266" in work.Top(verilog)
+    net        G_266
+    input  pin I_20.lat_s/C
+    instance   I_20.lat_s (cell ORCALUT4)
+    output pin I_20.lat_s/Z
+    net        U2.G_266
+@W: BN137 :|Found combinational loop during mapping at net G_267
+3) instance I_18.lat_s (view:work.Top(verilog)), output net "G_267" in work.Top(verilog)
+    net        G_267
+    input  pin I_18.lat_s/C
+    instance   I_18.lat_s (cell ORCALUT4)
+    output pin I_18.lat_s/Z
+    net        U3.G_267
+@W: BN137 :|Found combinational loop during mapping at net G_268
+4) instance I_17.lat_s (view:work.Top(verilog)), output net "G_268" in work.Top(verilog)
+    net        G_268
+    input  pin I_17.lat_s/C
+    instance   I_17.lat_s (cell ORCALUT4)
+    output pin I_17.lat_s/Z
+    net        U10.G_268
+@W: BN137 :|Found combinational loop during mapping at net G_269
+5) instance I_16.lat_s (view:work.Top(verilog)), output net "G_269" in work.Top(verilog)
+    net        G_269
+    input  pin I_16.lat_s/C
+    instance   I_16.lat_s (cell ORCALUT4)
+    output pin I_16.lat_s/Z
+    net        U11.G_269
+@W: BN137 :|Found combinational loop during mapping at net G_270
+6) instance I_14.lat_s (view:work.Top(verilog)), output net "G_270" in work.Top(verilog)
+    net        G_270
+    input  pin I_14.lat_s/C
+    instance   I_14.lat_s (cell ORCALUT4)
+    output pin I_14.lat_s/Z
+    net        U12.G_270
+@W: BN137 :|Found combinational loop during mapping at net G_271
+7) instance I_15.lat_s (view:work.Top(verilog)), output net "G_271" in work.Top(verilog)
+    net        G_271
+    input  pin I_15.lat_s/C
+    instance   I_15.lat_s (cell ORCALUT4)
+    output pin I_15.lat_s/Z
+    net        U13.G_271
+@W: BN137 :|Found combinational loop during mapping at net G_272
+8) instance I_13.lat_s (view:work.Top(verilog)), output net "G_272" in work.Top(verilog)
+    net        G_272
+    input  pin I_13.lat_s/C
+    instance   I_13.lat_s (cell ORCALUT4)
+    output pin I_13.lat_s/Z
+    net        U20.G_272
+@W: BN137 :|Found combinational loop during mapping at net G_273
+9) instance I_11.lat_s (view:work.Top(verilog)), output net "G_273" in work.Top(verilog)
+    net        G_273
+    input  pin I_11.lat_s/C
+    instance   I_11.lat_s (cell ORCALUT4)
+    output pin I_11.lat_s/Z
+    net        U21.G_273
+@W: BN137 :|Found combinational loop during mapping at net G_274
+10) instance I_10.lat_s (view:work.Top(verilog)), output net "G_274" in work.Top(verilog)
+    net        G_274
+    input  pin I_10.lat_s/C
+    instance   I_10.lat_s (cell ORCALUT4)
+    output pin I_10.lat_s/Z
+    net        U22.G_274
+@W: BN137 :|Found combinational loop during mapping at net G_275
+11) instance I_9.lat_s (view:work.Top(verilog)), output net "G_275" in work.Top(verilog)
+    net        G_275
+    input  pin I_9.lat_s/C
+    instance   I_9.lat_s (cell ORCALUT4)
+    output pin I_9.lat_s/Z
+    net        U23.G_275
+@W: BN137 :|Found combinational loop during mapping at net G_276
+12) instance I_7.lat_s (view:work.Top(verilog)), output net "G_276" in work.Top(verilog)
+    net        G_276
+    input  pin I_7.lat_s/C
+    instance   I_7.lat_s (cell ORCALUT4)
+    output pin I_7.lat_s/Z
+    net        U24.G_276
+@W: BN137 :|Found combinational loop during mapping at net G_277
+13) instance I_6.lat_s (view:work.Top(verilog)), output net "G_277" in work.Top(verilog)
+    net        G_277
+    input  pin I_6.lat_s/C
+    instance   I_6.lat_s (cell ORCALUT4)
+    output pin I_6.lat_s/Z
+    net        U30.G_277
+@W: BN137 :|Found combinational loop during mapping at net G_278
+14) instance I_4.lat_s (view:work.Top(verilog)), output net "G_278" in work.Top(verilog)
+    net        G_278
+    input  pin I_4.lat_s/C
+    instance   I_4.lat_s (cell ORCALUT4)
+    output pin I_4.lat_s/Z
+    net        U31.G_278
+@W: BN137 :|Found combinational loop during mapping at net G_279
+15) instance I_5.lat_s (view:work.Top(verilog)), output net "G_279" in work.Top(verilog)
+    net        G_279
+    input  pin I_5.lat_s/C
+    instance   I_5.lat_s (cell ORCALUT4)
+    output pin I_5.lat_s/Z
+    net        U32.G_279
+@W: BN137 :|Found combinational loop during mapping at net G_280
+16) instance I_3.lat_s (view:work.Top(verilog)), output net "G_280" in work.Top(verilog)
+    net        G_280
+    input  pin I_3.lat_s/C
+    instance   I_3.lat_s (cell ORCALUT4)
+    output pin I_3.lat_s/Z
+    net        U33.G_280
+@W: BN137 :|Found combinational loop during mapping at net G_281
+17) instance I_2.lat_s (view:work.Top(verilog)), output net "G_281" in work.Top(verilog)
+    net        G_281
+    input  pin I_2.lat_s/C
+    instance   I_2.lat_s (cell ORCALUT4)
+    output pin I_2.lat_s/Z
+    net        U34.G_281
+@W: BN137 :|Found combinational loop during mapping at net G_282
+18) instance I_1.lat_s (view:work.Top(verilog)), output net "G_282" in work.Top(verilog)
+    net        G_282
+    input  pin I_1.lat_s/C
+    instance   I_1.lat_s (cell ORCALUT4)
+    output pin I_1.lat_s/Z
+    net        U35.G_282
+@W: BN137 :|Found combinational loop during mapping at net G_283
+19) instance I_21.lat_s (view:work.Top(verilog)), output net "G_283" in work.Top(verilog)
+    net        G_283
+    input  pin I_21.lat_s/B
+    instance   I_21.lat_s (cell ORCALUT4)
+    output pin I_21.lat_s/Z
+    net        G_283
+@W: BN137 :|Found combinational loop during mapping at net G_284
+20) instance I_19.lat_s (view:work.Top(verilog)), output net "G_284" in work.Top(verilog)
+    net        G_284
+    input  pin I_19.lat_s/B
+    instance   I_19.lat_s (cell ORCALUT4)
+    output pin I_19.lat_s/Z
+    net        G_284
+@W: BN137 :|Found combinational loop during mapping at net G_285
+21) instance I_12.lat_s (view:work.Top(verilog)), output net "G_285" in work.Top(verilog)
+    net        G_285
+    input  pin I_12.lat_s/B
+    instance   I_12.lat_s (cell ORCALUT4)
+    output pin I_12.lat_s/Z
+    net        G_285
+@W: BN137 :|Found combinational loop during mapping at net G_286
+22) instance I_8.lat_s (view:work.Top(verilog)), output net "G_286" in work.Top(verilog)
+    net        G_286
+    input  pin I_8.lat_s/B
+    instance   I_8.lat_s (cell ORCALUT4)
+    output pin I_8.lat_s/Z
+    net        G_286
+End of loops
+@W: MT420 |Found inferred clock Top|InpA with period 1000.00ns. Please declare a user-defined clock on object "p:InpA"
+
+@W: MT420 |Found inferred clock Top|InpB with period 1000.00ns. Please declare a user-defined clock on object "p:InpB"
+
+@W: MT420 |Found inferred clock Top|InpC with period 1000.00ns. Please declare a user-defined clock on object "p:InpC"
+
+@W: MT420 |Found inferred clock Top|InpD with period 1000.00ns. Please declare a user-defined clock on object "p:InpD"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Feb 18 14:04:51 2016
+#
+
+
+Top view:               Top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.320
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group                
+-----------------------------------------------------------------------------------------------------------------------
+Top|InpA           1.0 MHz       NA            1000.000      NA            NA        inferred     Autoconstr_clkgroup_3
+Top|InpB           1.0 MHz       NA            1000.000      NA            NA        inferred     Autoconstr_clkgroup_2
+Top|InpC           1.0 MHz       NA            1000.000      NA            NA        inferred     Autoconstr_clkgroup_1
+Top|InpD           1.0 MHz       NA            1000.000      NA            NA        inferred     Autoconstr_clkgroup_0
+System             740.5 MHz     970.1 MHz     1.350         1.031         0.320     system       system_clkgroup      
+=======================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+System    System  |  1.350       0.320  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                               Arrival          
+Instance       Reference     Type     Pin     Net     Time        Slack
+               Clock                                                   
+-----------------------------------------------------------------------
+U32.U1.U10     System        AND2     Z       n_0     0.000       0.320
+U23.U1.U10     System        AND2     Z       n_0     0.000       0.320
+U13.U1.U10     System        AND2     Z       n_0     0.000       0.320
+U33.U1.U10     System        AND2     Z       n_0     0.000       0.320
+U24.U1.U10     System        AND2     Z       n_0     0.000       0.320
+U20.U1.U10     System        AND2     Z       n_0     0.000       0.320
+U34.U1.U10     System        AND2     Z       n_0     0.000       0.320
+U30.U1.U10     System        AND2     Z       n_0     0.000       0.320
+U21.U1.U10     System        AND2     Z       n_0     0.000       0.320
+U35.U1.U10     System        AND2     Z       n_0     0.000       0.320
+=======================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                Required          
+Instance      Reference     Type     Pin     Net      Time         Slack
+              Clock                                                     
+------------------------------------------------------------------------
+U35.U1.U1     System        AND2     A       q[5]     1.350        0.320
+U33.U1.U1     System        AND2     A       q[3]     1.350        0.320
+U31.U1.U1     System        AND2     A       q[1]     1.350        0.320
+U24.U1.U1     System        AND2     A       p[4]     1.350        0.320
+U22.U1.U1     System        AND2     A       p[2]     1.350        0.320
+U20.U1.U1     System        AND2     A       p[0]     1.350        0.320
+U12.U1.U1     System        AND2     A       m[2]     1.350        0.320
+U34.U1.U1     System        AND2     A       q[4]     1.350        0.320
+U32.U1.U1     System        AND2     A       q[2]     1.350        0.320
+U30.U1.U1     System        AND2     A       q[0]     1.350        0.320
+========================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1.350
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.350
+
+    - Propagation time:                      1.031
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     0.320
+
+    Number of logic level(s):                2
+    Starting point:                          U32.U1.U10 / Z
+    Ending point:                            U32.U1.U1 / A
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+U32.U1.U10         AND2         Z        Out     0.000     0.000       -         
+n_0                Net          -        -       -         -           1         
+I_5.lat_s          ORCALUT4     B        In      0.000     0.000       -         
+I_5.lat_s          ORCALUT4     Z        Out     0.728     0.728       -         
+G_279              Net          -        -       -         -           2         
+U32.Y              ORCALUT4     B        In      0.000     0.728       -         
+U32.Y              ORCALUT4     Z        Out     0.302     1.031       -         
+q[2]               Net          -        -       -         -           4         
+U32.U1.U1          AND2         A        In      0.000     1.031       -         
+=================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe3_150ea-6
+
+Register bits: 0 of 149040 (0%)
+PIC Latch:       0
+I/O cells:       34
+
+
+Details:
+AND2:           180
+GSR:            1
+IB:             22
+OB:             12
+ORCALUT4:       52
+PUR:            1
+VHI:            1
+VLO:            23
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 52MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 18 14:04:51 2016
+
+###########################################################]

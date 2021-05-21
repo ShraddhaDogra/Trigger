@@ -1,0 +1,9 @@
+
+
+
+
+-g CfgMode:Disable
+-g RamCfg:Reset
+-path "D:/bartz/Documents/Lattice/TrigTDC" 
+-path "D:/bartz/Documents/Lattice/TrigTDC"
+-g ES:No

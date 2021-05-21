@@ -1,0 +1,199 @@
+timestamp=1425404355014
+
+[$root]
+A/$root=22|""|0|1*0
+BinI32/$root=3*0
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[INP_0_]
+A/INP_0_=22|./../TrigTest1_TrigTest1_vo.vo|98|1*10913
+BinI32/INP_0_=3*516
+D/INP_0_=4*306
+R=./../TrigTest1_TrigTest1_vo.vo|98
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[INP_1_]
+A/INP_1_=22|./../TrigTest1_TrigTest1_vo.vo|264|1*27003
+BinI32/INP_1_=3*2211
+D/INP_1_=4*2592
+R=./../TrigTest1_TrigTest1_vo.vo|264
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[INP_2_]
+A/INP_2_=22|./../TrigTest1_TrigTest1_vo.vo|252|1*25741
+BinI32/INP_2_=3*2082
+D/INP_2_=4*2342
+R=./../TrigTest1_TrigTest1_vo.vo|252
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[InpA]
+A/InpA=22|./../TrigTest1_TrigTest1_vo.vo|235|1*24489
+BinI32/InpA=3*1955
+D/InpA=4*2096
+R=./../TrigTest1_TrigTest1_vo.vo|235
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpA_0_]
+A/OutpA_0_=22|./../TrigTest1_TrigTest1_vo.vo|76|1*9686
+BinI32/OutpA_0_=3*385
+D/OutpA_0_=4*153
+R=./../TrigTest1_TrigTest1_vo.vo|76
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpA_1_]
+A/OutpA_1_=22|./../TrigTest1_TrigTest1_vo.vo|223|1*23254
+BinI32/OutpA_1_=3*1824
+D/OutpA_1_=4*1942
+R=./../TrigTest1_TrigTest1_vo.vo|223
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpA_2_]
+A/OutpA_2_=22|./../TrigTest1_TrigTest1_vo.vo|211|1*22019
+BinI32/OutpA_2_=3*1693
+D/OutpA_2_=4*1788
+R=./../TrigTest1_TrigTest1_vo.vo|211
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpB_0_]
+A/OutpB_0_=22|./../TrigTest1_TrigTest1_vo.vo|54|1*8463
+BinI32/OutpB_0_=3*254
+D/OutpB_0_=4*0
+R=./../TrigTest1_TrigTest1_vo.vo|54
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpB_1_]
+A/OutpB_1_=22|./../TrigTest1_TrigTest1_vo.vo|199|1*20788
+BinI32/OutpB_1_=3*1562
+D/OutpB_1_=4*1634
+R=./../TrigTest1_TrigTest1_vo.vo|199
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpB_2_]
+A/OutpB_2_=22|./../TrigTest1_TrigTest1_vo.vo|187|1*19557
+BinI32/OutpB_2_=3*1431
+D/OutpB_2_=4*1480
+R=./../TrigTest1_TrigTest1_vo.vo|187
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpC_0_]
+A/OutpC_0_=22|./../TrigTest1_TrigTest1_vo.vo|175|1*18326
+BinI32/OutpC_0_=3*1300
+D/OutpC_0_=4*1326
+R=./../TrigTest1_TrigTest1_vo.vo|175
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpC_1_]
+A/OutpC_1_=22|./../TrigTest1_TrigTest1_vo.vo|163|1*17095
+BinI32/OutpC_1_=3*1169
+D/OutpC_1_=4*1172
+R=./../TrigTest1_TrigTest1_vo.vo|163
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpC_2_]
+A/OutpC_2_=22|./../TrigTest1_TrigTest1_vo.vo|151|1*15864
+BinI32/OutpC_2_=3*1038
+D/OutpC_2_=4*1018
+R=./../TrigTest1_TrigTest1_vo.vo|151
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpD_0_]
+A/OutpD_0_=22|./../TrigTest1_TrigTest1_vo.vo|139|1*14633
+BinI32/OutpD_0_=3*907
+D/OutpD_0_=4*864
+R=./../TrigTest1_TrigTest1_vo.vo|139
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpD_1_]
+A/OutpD_1_=22|./../TrigTest1_TrigTest1_vo.vo|127|1*13402
+BinI32/OutpD_1_=3*776
+D/OutpD_1_=4*710
+R=./../TrigTest1_TrigTest1_vo.vo|127
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[OutpD_2_]
+A/OutpD_2_=22|./../TrigTest1_TrigTest1_vo.vo|115|1*12171
+BinI32/OutpD_2_=3*645
+D/OutpD_2_=4*556
+R=./../TrigTest1_TrigTest1_vo.vo|115
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[Top]
+A/Top=22|./../TrigTest1_TrigTest1_vo.vo|13|1*390
+BinI32/Top=3*128
+R=./../TrigTest1_TrigTest1_vo.vo|13
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[ec3iobuf]
+A/ec3iobuf=22|./../TrigTest1_TrigTest1_vo.vo|66|1*28265
+BinI32/ec3iobuf=3*2340
+R=./../TrigTest1_TrigTest1_vo.vo|66
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[ec3iobuf0001]
+A/ec3iobuf0001=22|./../TrigTest1_TrigTest1_vo.vo|88|1*30045
+BinI32/ec3iobuf0001=3*2597
+R=./../TrigTest1_TrigTest1_vo.vo|88
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[ec3iobuf0002]
+A/ec3iobuf0002=22|./../TrigTest1_TrigTest1_vo.vo|110|1*31841
+BinI32/ec3iobuf0002=3*2858
+R=./../TrigTest1_TrigTest1_vo.vo|110
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[ec3iobuf0003]
+A/ec3iobuf0003=22|./../TrigTest1_TrigTest1_vo.vo|247|1*32759
+BinI32/ec3iobuf0003=3*2993
+R=./../TrigTest1_TrigTest1_vo.vo|247
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[gnd]
+A/gnd=22|./../TrigTest1_TrigTest1_vo.vo|93|1*31063
+BinI32/gnd=3*2732
+R=./../TrigTest1_TrigTest1_vo.vo|93
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[vcc]
+A/vcc=22|./../TrigTest1_TrigTest1_vo.vo|71|1*29267
+BinI32/vcc=3*2471
+R=./../TrigTest1_TrigTest1_vo.vo|71
+Version=9.3.2744.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[~A]
+C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/TrigTest1_TrigTest1_vo.vo=0*6546*8696
+LastVerilogToplevel=Top
+ModifyID=139
+Version=73
+
+[~MFT]
+0=25|0work.mgf|8696|0
+1=23|1work.mgf|32759|0
+3=23|3work.mgf|2993|0
+4=15|4work.mgf|2592|0
+
+[~U]
+$root=12|0*0|
+INP_0_=12|0*2212|
+INP_1_=12|0*5310|
+INP_2_=12|0*5100|
+InpA=12|0*4898|
+OutpA_0_=12|0*1958|
+OutpA_1_=12|0*4644|
+OutpA_2_=12|0*4390|
+OutpB_0_=12|0*1712|
+OutpB_1_=12|0*4144|
+OutpB_2_=12|0*3898|
+OutpC_0_=12|0*3652|
+OutpC_1_=12|0*3406|
+OutpC_2_=12|0*3160|
+OutpD_0_=12|0*2914|
+OutpD_1_=12|0*2668|
+OutpD_2_=12|0*2422|
+Top=12|0*278||0x10
+ec3iobuf=12|0*5520|
+ec3iobuf0001=12|0*5846|
+ec3iobuf0002=12|0*6184|
+ec3iobuf0003=12|0*6364|
+gnd=12|0*6054|
+vcc=12|0*5716|
+

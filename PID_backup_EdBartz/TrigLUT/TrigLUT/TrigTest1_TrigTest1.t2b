@@ -1,0 +1,9 @@
+
+
+
+
+-g CfgMode:Disable
+-g RamCfg:Reset
+-path "D:/bartz/Documents/Lattice/TrigTest" 
+-path "D:/bartz/Documents/Lattice/TrigTest"
+-g ES:No

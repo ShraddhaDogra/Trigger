@@ -1,0 +1,43 @@
+4 potential circuit loops found in timing analysis.
+Loading design for application iotiming from file trigtest1_trigtest1.ncd.
+Design name: Top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 9
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+Loading design for application iotiming from file trigtest1_trigtest1.ncd.
+Design name: Top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: M
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+// Design: Top
+// Package: FPBGA672
+// ncd File: trigtest1_trigtest1.ncd
+// Version: Diamond (64-bit) 3.6.0.83.4
+// Written on Wed Feb 24 13:49:18 2016
+// M: Minimum Performance Grade
+// iotiming TrigTest1_TrigTest1.ncd TrigTest1_TrigTest1.prf -gui -msgset D:/bartz/Documents/Lattice/TrigTest/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+(no clock to output min/max data)

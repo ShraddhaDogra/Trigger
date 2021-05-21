@@ -1,0 +1,7 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+ERROR VCP1010 "Cannot find source file: C:/Users/bartz/Documents/Lattice/TrigTest/D:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1_tf.v"
+UPDATEPROGRESS 35
+ENDPROGRESS Compiling...
+FAILURE "Compile failure 1 Errors 0 Warnings  Analysis time: 0[s]."

@@ -1,0 +1,3438 @@
+
+         Lattice Mapping Report File for Design Module 'ScatterTrig'
+
+
+Design Information
+------------------
+
+Command line:   map -a LatticeECP3 -p LFE3-150EA -t FPBGA672 -s 8 -oc Commercial
+     TrigLUT_TrigLUT.ngd -o TrigLUT_TrigLUT_map.ncd -pr TrigLUT_TrigLUT.prf -mp
+     TrigLUT_TrigLUT.mrp -lpf
+     D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/TrigLUT_TrigLUT_synplify.lpf
+     -lpf D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf -gui -msgset
+     D:/bartz/Documents/Lattice/TrigLUT/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LFE3-150EAFPBGA672
+Target Performance:   8
+Mapper:  ep5c00,  version:  Diamond (64-bit) 3.7.1.502
+Mapped on:  09/21/16  15:40:30
+
+Design Summary
+--------------
+
+   Number of registers:   2297 out of 114060 (2%)
+      PFU registers:         2285 out of 111780 (2%)
+      PIO registers:           12 out of  2280 (1%)
+   Number of SLICEs:      1799 out of 74520 (2%)
+      SLICEs as Logic/ROM:   1799 out of 74520 (2%)
+      SLICEs as RAM:            0 out of 14220 (0%)
+      SLICEs as Carry:         17 out of 74520 (0%)
+   Number of LUT4s:        2178 out of 149040 (1%)
+      Number used as logic LUTs:        2144
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       34
+      Number used as shift registers:     0
+   Number of PIO sites used: 107 out of 380 (28%)
+      Number of PIO sites used for single ended IOs: 13
+      Number of PIO sites used for differential IOs: 94 (represented by 47 PIO
+     comps in NCD)
+   Number of PIO FIXEDDELAY:    0
+   Number of PCS (SerDes):  0 out of 2 (0%) with bonded PIO sites
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 10 (0%)
+   Number of DLLs:  0 out of 2 (0%)
+   Number of block RAMs:  0 out of 372 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18C          0
+   MULT9X9C            0
+   ALU54A              0
+   ALU24A              0
+
+                                    Page 1
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 640 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 320 (0 %)
+   Number of clocks:  155
+     Net CLK_PCLK_RIGHT_c: 1233 loads, 1106 rising, 127 falling (Driver: PIO
+     CLK_PCLK_RIGHT )
+     Net N_22_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a2_RNI4SL01[8] )
+     Net N_24_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a2_RNIAIDM1[8] )
+     Net N_26_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a2_RNI045A1[8] )
+     Net N_28_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_28_i )
+     Net N_30_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIR23T[5] )
+     Net N_32_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIBK6K[5] )
+     Net N_34_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIVQMV[5] )
+     Net N_36_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_36_i )
+     Net N_38_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a2_RNIVE501[0] )
+     Net N_6_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_6_i )
+     Net N_8_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNITJJN1[15] )
+     Net N_10_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNI12M91[15] )
+     Net N_12_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIT6261[16] )
+     Net N_14_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_14_i )
+     Net N_16_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a2_RNILNGV[11] )
+     Net N_18_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a2_RNIOJKH1[11] )
+     Net N_20_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a2_RNIR64T[9] )
+     Net N_40_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a2_RNIQ3D61[0] )
+     Net N_58_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_58_i )
+     Net N_60_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_60_i )
+     Net N_62_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a3_0_RNI3TR01[7] )
+     Net N_64_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIMU0Q[4] )
+     Net N_66_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIUL3P[4] )
+     Net N_68_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNID94C[5] )
+     Net N_70_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_70_i )
+     Net N_72_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIRIDQ[3] )
+     Net N_74_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNI37KP[3] )
+     Net N_42_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNI6MAT[15] )
+     Net N_44_i: 2 loads, 2 rising, 0 falling (Driver:
+
+                                    Page 2
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     BO3C/And5C_i_a2_RNIC6CJ1[15] )
+     Net N_46_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIHTCQ[16] )
+     Net N_48_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_48_i )
+     Net N_50_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIPSC21[14] )
+     Net N_52_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And5C_i_a2_RNIFK201[14] )
+     Net N_54_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_54_i )
+     Net N_56_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3C/And3C_i_a3_1_RNIIIES[10] )
+     Net N_76_i: 2 loads, 2 rising, 0 falling (Driver: BO3C/N_76_i )
+     Net N_1486_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And3B_i_a2_RNIVQN81[8] )
+     Net N_1487_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And3B_i_a2_RNI5HFU[8] )
+     Net N_1488_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And3B_i_a2_RNI3NJE[6] )
+     Net N_1489_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And3B_i_a2_RNI5LSS[6] )
+     Net N_1490_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And3B_i_a2_RNIBC761[6] )
+     Net N_1491_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1491_i )
+     Net N_1492_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNIIG8C1[3] )
+     Net N_1493_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNI1MOA1[2] )
+     Net N_1494_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNI5T9K1[2] )
+     Net N_4_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And3B_i_a2_RNI1R5B1[17] )
+     Net N_1479_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1479_i )
+     Net N_1480_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1480_i )
+     Net N_1481_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_0_RNIH18N[14] )
+     Net N_1482_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_0_RNI6BRA1[14] )
+     Net N_1483_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_0_RNIOI6H1[14] )
+     Net N_1484_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1484_i )
+     Net N_1485_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And3B_i_a2_RNI9MV01[9] )
+     Net N_1495_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1495_i )
+     Net N_1504_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1504_i )
+     Net N_1505_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1505_i )
+     Net N_1506_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And3B_i_a3_0_RNIUNF31[7] )
+     Net N_1507_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1507_i )
+     Net N_1508_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNI2MQF1[5] )
+     Net N_1509_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNIMPNG1[5] )
+     Net N_1510_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1510_i )
+     Net N_1511_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNI9VN21[3] )
+     Net N_1512_i: 2 loads, 2 rising, 0 falling (Driver:
+
+                                    Page 3
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     BO3B/And5B_i_a2_RNIJCO31[2] )
+     Net N_1496_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1496_i )
+     Net N_1497_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNISRL61[14] )
+     Net N_1498_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNI4Q2G1[14] )
+     Net N_1499_i: 2 loads, 2 rising, 0 falling (Driver: BO3B/N_1499_i )
+     Net N_1500_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_0_RNIA0MT[14] )
+     Net N_1501_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNIHG3F1[13] )
+     Net N_1502_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNI4MTV[13] )
+     Net N_1503_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And3B_i_a3_1_RNIDB89[10] )
+     Net N_1513_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3B/And5B_i_a2_RNI02R01[2] )
+     Net N_1567_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And3A_i_a2_RNIQPP01[8] )
+     Net N_1568_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And3A_i_a2_RNI0GHM[8] )
+     Net N_1569_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And3A_i_a2_RNIK7J51[8] )
+     Net N_1570_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1570_i )
+     Net N_1571_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNIF6HO[5] )
+     Net N_1572_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNIVRI41[5] )
+     Net N_1573_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNIL0NP[5] )
+     Net N_1574_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1574_i )
+     Net N_1575_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And3A_i_a2_RNIJMHG1[0] )
+     Net N_1559_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And3A_i_a2_RNISNHR[17] )
+     Net N_1560_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1560_i )
+     Net N_1561_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1561_i )
+     Net N_1562_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_0_RNICQ141[14] )
+     Net N_1563_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_0_RNI05KD1[14] )
+     Net N_1564_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_0_RNIICV31[14] )
+     Net N_1565_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1565_i )
+     Net N_1566_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And3A_i_a2_RNI3M0F1[9] )
+     Net N_1576_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And3A_i_a2_RNIGDB51[0] )
+     Net N_1585_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1585_i )
+     Net N_1586_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1586_i )
+     Net N_1587_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And3A_i_a3_0_RNIPI361[7] )
+     Net N_1588_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNIEEUK[4] )
+     Net N_1589_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNIKJ7P[4] )
+
+                                    Page 4
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net N_1590_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNI5TVR[5] )
+     Net N_1591_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1591_i )
+     Net N_1592_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNIHOD41[3] )
+     Net N_1593_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNIPGI81[3] )
+     Net N_1577_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1577_i )
+     Net N_1578_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNINO171[14] )
+     Net N_1579_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNIVME01[14] )
+     Net N_1580_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1580_i )
+     Net N_1581_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_0_RNI6ISV[14] )
+     Net N_1582_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNICDFV[13] )
+     Net N_1583_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And5A_i_a2_RNI0CM51[13] )
+     Net N_1584_i: 2 loads, 2 rising, 0 falling (Driver:
+     BO3A/And3A_i_a3_1_RNI84261[10] )
+     Net N_1594_i: 2 loads, 2 rising, 0 falling (Driver: BO3A/N_1594_i )
+     Net INP_c[9]: 7 loads, 7 rising, 0 falling (Driver: PIO INP[9] )
+     Net INP_c[8]: 8 loads, 8 rising, 0 falling (Driver: PIO INP[8] )
+     Net INP_c[7]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[7] )
+     Net INP_c[6]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[6] )
+     Net INP_c[5]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[5] )
+     Net INP_c[4]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[4] )
+     Net INP_c[45]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[45] )
+     Net INP_c[44]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[44] )
+     Net INP_c[43]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[43] )
+     Net INP_c[42]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[42] )
+     Net INP_c[41]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[41] )
+     Net INP_c[40]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[40] )
+     Net INP_c[3]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[3] )
+     Net INP_c[39]: 10 loads, 10 rising, 0 falling (Driver: PIO INP[39] )
+     Net INP_c[38]: 10 loads, 10 rising, 0 falling (Driver: PIO INP[38] )
+     Net INP_c[37]: 10 loads, 10 rising, 0 falling (Driver: PIO INP[37] )
+     Net INP_c[36]: 10 loads, 10 rising, 0 falling (Driver: PIO INP[36] )
+     Net INP_c[35]: 10 loads, 10 rising, 0 falling (Driver: PIO INP[35] )
+     Net INP_c[34]: 10 loads, 10 rising, 0 falling (Driver: PIO INP[34] )
+     Net INP_c[33]: 10 loads, 10 rising, 0 falling (Driver: PIO INP[33] )
+     Net INP_c[32]: 8 loads, 8 rising, 0 falling (Driver: PIO INP[32] )
+     Net INP_c[31]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[31] )
+     Net INP_c[30]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[30] )
+     Net INP_c[2]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[2] )
+     Net INP_c[29]: 8 loads, 8 rising, 0 falling (Driver: PIO INP[29] )
+     Net INP_c[28]: 7 loads, 7 rising, 0 falling (Driver: PIO INP[28] )
+     Net INP_c[27]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[27] )
+     Net INP_c[26]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[26] )
+     Net INP_c[25]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[25] )
+     Net INP_c[24]: 8 loads, 8 rising, 0 falling (Driver: PIO INP[24] )
+     Net INP_c[23]: 7 loads, 7 rising, 0 falling (Driver: PIO INP[23] )
+     Net INP_c[22]: 7 loads, 7 rising, 0 falling (Driver: PIO INP[22] )
+     Net INP_c[21]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[21] )
+     Net INP_c[20]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[20] )
+
+                                    Page 5
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net INP_c[1]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[1] )
+     Net INP_c[19]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[19] )
+     Net INP_c[18]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[18] )
+     Net INP_c[17]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[17] )
+     Net INP_c[16]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[16] )
+     Net INP_c[15]: 7 loads, 7 rising, 0 falling (Driver: PIO INP[15] )
+     Net INP_c[14]: 7 loads, 7 rising, 0 falling (Driver: PIO INP[14] )
+     Net INP_c[13]: 8 loads, 8 rising, 0 falling (Driver: PIO INP[13] )
+     Net INP_c[12]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[12] )
+     Net INP_c[11]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[11] )
+     Net INP_c[10]: 9 loads, 9 rising, 0 falling (Driver: PIO INP[10] )
+     Net INP_c[0]: 6 loads, 6 rising, 0 falling (Driver: PIO INP[0] )
+   Number of Clock Enables:  0
+   Number of local set/reset loads for net Pout6[3] merged into GSR:  7
+   Number of LSRs:  761
+     Net Pout6[32]: 5 loads, 5 LSLICEs
+     Net Pout2[38]: 3 loads, 3 LSLICEs
+     Net Pout2[39]: 3 loads, 3 LSLICEs
+     Net Pout2[32]: 3 loads, 3 LSLICEs
+     Net Pout2[33]: 3 loads, 3 LSLICEs
+     Net Pout2[34]: 3 loads, 3 LSLICEs
+     Net Pout2[35]: 3 loads, 3 LSLICEs
+     Net Pout2[36]: 3 loads, 3 LSLICEs
+     Net Pout2[37]: 3 loads, 3 LSLICEs
+     Net Pout4[32]: 4 loads, 4 LSLICEs
+     Net And5C1[6]: 3 loads, 3 LSLICEs
+     Net And5C1[7]: 3 loads, 3 LSLICEs
+     Net And5C1[8]: 3 loads, 3 LSLICEs
+     Net And5C1[9]: 3 loads, 3 LSLICEs
+     Net And5C1[3]: 3 loads, 3 LSLICEs
+     Net And5C1[4]: 3 loads, 3 LSLICEs
+     Net And5C1[5]: 3 loads, 3 LSLICEs
+     Net And5C1[0]: 3 loads, 3 LSLICEs
+     Net And5C1[1]: 3 loads, 3 LSLICEs
+     Net And5C1[16]: 3 loads, 3 LSLICEs
+     Net And5C1[17]: 3 loads, 3 LSLICEs
+     Net And5C1[12]: 3 loads, 3 LSLICEs
+     Net And5C1[13]: 3 loads, 3 LSLICEs
+     Net And5C1[14]: 3 loads, 3 LSLICEs
+     Net And5C1[15]: 3 loads, 3 LSLICEs
+     Net And5C1[2]: 3 loads, 3 LSLICEs
+     Net And5C1[10]: 3 loads, 3 LSLICEs
+     Net And5C1[11]: 3 loads, 3 LSLICEs
+     Net And3C1[6]: 3 loads, 3 LSLICEs
+     Net And3C1[7]: 3 loads, 3 LSLICEs
+     Net And3C1[8]: 3 loads, 3 LSLICEs
+     Net And3C1[9]: 3 loads, 3 LSLICEs
+     Net And3C1[3]: 3 loads, 3 LSLICEs
+     Net And3C1[4]: 3 loads, 3 LSLICEs
+     Net And3C1[5]: 3 loads, 3 LSLICEs
+     Net And3C1[0]: 3 loads, 3 LSLICEs
+     Net And3C1[1]: 3 loads, 3 LSLICEs
+     Net And3C1[16]: 3 loads, 3 LSLICEs
+     Net And3C1[17]: 3 loads, 3 LSLICEs
+     Net And3C1[12]: 3 loads, 3 LSLICEs
+     Net And3C1[13]: 3 loads, 3 LSLICEs
+
+                                    Page 6
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net And3C1[14]: 3 loads, 3 LSLICEs
+     Net And3C1[15]: 3 loads, 3 LSLICEs
+     Net And3C1[2]: 3 loads, 3 LSLICEs
+     Net And3C1[10]: 3 loads, 3 LSLICEs
+     Net And3C1[11]: 3 loads, 3 LSLICEs
+     Net LatchAnd5C/iretrig/fin[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/iretrig/fin[0]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd5C/ireg/un1_diff_4[0]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[12]: 1 loads, 1 LSLICEs
+
+                                    Page 7
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net LatchAnd3C/iretrig/fin[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/iretrig/fin[0]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd3C/ireg/un1_diff_3[0]: 1 loads, 1 LSLICEs
+     Net Pout6[24]: 5 loads, 5 LSLICEs
+     Net Pout6[7]: 5 loads, 5 LSLICEs
+     Net Pout6[9]: 5 loads, 5 LSLICEs
+     Net Pout6[31]: 5 loads, 5 LSLICEs
+     Net Pout6[30]: 5 loads, 5 LSLICEs
+     Net Pout6[29]: 5 loads, 5 LSLICEs
+     Net Pout6[15]: 5 loads, 5 LSLICEs
+     Net Pout6[14]: 5 loads, 5 LSLICEs
+     Net Pout6[40]: 5 loads, 5 LSLICEs
+     Net Pout6[45]: 5 loads, 5 LSLICEs
+     Net Pout6[21]: 5 loads, 5 LSLICEs
+     Net Pout6[0]: 5 loads, 5 LSLICEs
+     Net Pout6[6]: 5 loads, 5 LSLICEs
+     Net Pout6[1]: 5 loads, 5 LSLICEs
+     Net Pout6[42]: 5 loads, 5 LSLICEs
+     Net Pout6[44]: 5 loads, 5 LSLICEs
+     Net Pout6[4]: 5 loads, 5 LSLICEs
+     Net Pout6[43]: 5 loads, 5 LSLICEs
+     Net Pout6[2]: 5 loads, 5 LSLICEs
+     Net Pout6[5]: 5 loads, 5 LSLICEs
+     Net Pout6[41]: 5 loads, 5 LSLICEs
+     Net And5B1[6]: 3 loads, 3 LSLICEs
+     Net And5B1[7]: 3 loads, 3 LSLICEs
+     Net And5B1[8]: 3 loads, 3 LSLICEs
+     Net And5B1[9]: 3 loads, 3 LSLICEs
+     Net And5B1[3]: 3 loads, 3 LSLICEs
+     Net And5B1[4]: 3 loads, 3 LSLICEs
+     Net And5B1[5]: 3 loads, 3 LSLICEs
+     Net And5B1[0]: 3 loads, 3 LSLICEs
+     Net And5B1[1]: 3 loads, 3 LSLICEs
+     Net And5B1[16]: 3 loads, 3 LSLICEs
+     Net And5B1[17]: 3 loads, 3 LSLICEs
+     Net And5B1[12]: 3 loads, 3 LSLICEs
+     Net And5B1[13]: 3 loads, 3 LSLICEs
+     Net And5B1[14]: 3 loads, 3 LSLICEs
+
+                                    Page 8
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net And5B1[15]: 3 loads, 3 LSLICEs
+     Net And5B1[2]: 3 loads, 3 LSLICEs
+     Net And5B1[10]: 3 loads, 3 LSLICEs
+     Net And5B1[11]: 3 loads, 3 LSLICEs
+     Net And3B1[6]: 3 loads, 3 LSLICEs
+     Net And3B1[7]: 3 loads, 3 LSLICEs
+     Net And3B1[8]: 3 loads, 3 LSLICEs
+     Net And3B1[9]: 3 loads, 3 LSLICEs
+     Net And3B1[3]: 3 loads, 3 LSLICEs
+     Net And3B1[4]: 3 loads, 3 LSLICEs
+     Net And3B1[5]: 3 loads, 3 LSLICEs
+     Net And3B1[0]: 3 loads, 3 LSLICEs
+     Net And3B1[1]: 3 loads, 3 LSLICEs
+     Net And3B1[16]: 3 loads, 3 LSLICEs
+     Net And3B1[17]: 3 loads, 3 LSLICEs
+     Net And3B1[12]: 3 loads, 3 LSLICEs
+     Net And3B1[13]: 3 loads, 3 LSLICEs
+     Net And3B1[14]: 3 loads, 3 LSLICEs
+     Net And3B1[15]: 3 loads, 3 LSLICEs
+     Net And3B1[2]: 3 loads, 3 LSLICEs
+     Net And3B1[10]: 3 loads, 3 LSLICEs
+     Net And3B1[11]: 3 loads, 3 LSLICEs
+     Net LatchAnd5B/iretrig/fin[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/iretrig/fin[0]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[11]: 1 loads, 1 LSLICEs
+
+                                    Page 9
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net LatchAnd5B/ireg/un1_diff_2[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd5B/ireg/un1_diff_2[0]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/iretrig/fin[0]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd3B/ireg/un1_diff_1[0]: 1 loads, 1 LSLICEs
+     Net Pout5[13]: 4 loads, 4 LSLICEs
+     Net Pout5[30]: 4 loads, 4 LSLICEs
+     Net Pout5[28]: 4 loads, 4 LSLICEs
+     Net Pout5[6]: 4 loads, 4 LSLICEs
+     Net Pout5[8]: 4 loads, 4 LSLICEs
+     Net Pout5[7]: 4 loads, 4 LSLICEs
+     Net Pout5[21]: 4 loads, 4 LSLICEs
+     Net Pout5[23]: 4 loads, 4 LSLICEs
+     Net Pout5[22]: 4 loads, 4 LSLICEs
+     Net Pout5[44]: 4 loads, 4 LSLICEs
+     Net Pout5[45]: 4 loads, 4 LSLICEs
+     Net Pout5[31]: 4 loads, 4 LSLICEs
+     Net Pout5[33]: 4 loads, 4 LSLICEs
+     Net Pout5[34]: 4 loads, 4 LSLICEs
+     Net Pout5[36]: 4 loads, 4 LSLICEs
+     Net Pout5[37]: 4 loads, 4 LSLICEs
+     Net Pout5[39]: 4 loads, 4 LSLICEs
+     Net Pout5[0]: 4 loads, 4 LSLICEs
+
+                                   Page 10
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net Pout5[40]: 4 loads, 4 LSLICEs
+     Net Pout5[42]: 4 loads, 4 LSLICEs
+     Net Pout5[38]: 4 loads, 4 LSLICEs
+     Net Pout5[1]: 5 loads, 5 LSLICEs
+     Net Pout5[3]: 5 loads, 5 LSLICEs
+     Net Pout5[2]: 5 loads, 5 LSLICEs
+     Net Pout5[41]: 4 loads, 4 LSLICEs
+     Net Pout5[4]: 5 loads, 5 LSLICEs
+     Net Pout5[5]: 4 loads, 4 LSLICEs
+     Net Pout5[35]: 4 loads, 4 LSLICEs
+     Net Pout5[32]: 4 loads, 4 LSLICEs
+     Net Pout5[43]: 4 loads, 4 LSLICEs
+     Net And5A1[6]: 3 loads, 3 LSLICEs
+     Net And5A1[7]: 3 loads, 3 LSLICEs
+     Net And5A1[8]: 3 loads, 3 LSLICEs
+     Net And5A1[9]: 3 loads, 3 LSLICEs
+     Net And5A1[3]: 3 loads, 3 LSLICEs
+     Net And5A1[4]: 3 loads, 3 LSLICEs
+     Net And5A1[5]: 3 loads, 3 LSLICEs
+     Net And5A1[0]: 3 loads, 3 LSLICEs
+     Net And5A1[1]: 3 loads, 3 LSLICEs
+     Net And5A1[16]: 3 loads, 3 LSLICEs
+     Net And5A1[17]: 3 loads, 3 LSLICEs
+     Net And5A1[12]: 3 loads, 3 LSLICEs
+     Net And5A1[13]: 3 loads, 3 LSLICEs
+     Net And5A1[14]: 3 loads, 3 LSLICEs
+     Net And5A1[15]: 3 loads, 3 LSLICEs
+     Net And5A1[2]: 3 loads, 3 LSLICEs
+     Net And5A1[10]: 3 loads, 3 LSLICEs
+     Net And5A1[11]: 3 loads, 3 LSLICEs
+     Net And3A1[6]: 3 loads, 3 LSLICEs
+     Net And3A1[7]: 3 loads, 3 LSLICEs
+     Net And3A1[8]: 3 loads, 3 LSLICEs
+     Net And3A1[9]: 3 loads, 3 LSLICEs
+     Net And3A1[3]: 3 loads, 3 LSLICEs
+     Net And3A1[4]: 3 loads, 3 LSLICEs
+     Net And3A1[5]: 3 loads, 3 LSLICEs
+     Net And3A1[0]: 3 loads, 3 LSLICEs
+     Net And3A1[1]: 3 loads, 3 LSLICEs
+     Net And3A1[16]: 3 loads, 3 LSLICEs
+     Net And3A1[17]: 3 loads, 3 LSLICEs
+     Net And3A1[12]: 3 loads, 3 LSLICEs
+     Net And3A1[13]: 3 loads, 3 LSLICEs
+     Net And3A1[14]: 3 loads, 3 LSLICEs
+     Net And3A1[15]: 3 loads, 3 LSLICEs
+     Net And3A1[2]: 3 loads, 3 LSLICEs
+     Net And3A1[10]: 3 loads, 3 LSLICEs
+     Net And3A1[11]: 3 loads, 3 LSLICEs
+     Net LatchAnd5A/iretrig/fin[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[2]: 1 loads, 1 LSLICEs
+
+                                   Page 11
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net LatchAnd5A/iretrig/fin[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/iretrig/fin[0]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd5A/ireg/un1_diff_0[0]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[17]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/iretrig/fin[0]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[9]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[8]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[7]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[6]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[5]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[4]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[3]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[2]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[1]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[17]: 1 loads, 1 LSLICEs
+
+                                   Page 12
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net LatchAnd3A/ireg/un1_diff[16]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[15]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[14]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[13]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[12]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[11]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[10]: 1 loads, 1 LSLICEs
+     Net LatchAnd3A/ireg/un1_diff[0]: 1 loads, 1 LSLICEs
+     Net Pout4[15]: 4 loads, 4 LSLICEs
+     Net Pout4[7]: 4 loads, 4 LSLICEs
+     Net Pout4[9]: 4 loads, 4 LSLICEs
+     Net Pout4[30]: 4 loads, 4 LSLICEs
+     Net Pout4[28]: 4 loads, 4 LSLICEs
+     Net Pout4[21]: 4 loads, 4 LSLICEs
+     Net Pout4[23]: 4 loads, 4 LSLICEs
+     Net Pout4[22]: 4 loads, 4 LSLICEs
+     Net Pout4[14]: 4 loads, 4 LSLICEs
+     Net Pout4[44]: 4 loads, 4 LSLICEs
+     Net Pout4[45]: 4 loads, 4 LSLICEs
+     Net Pout4[31]: 4 loads, 4 LSLICEs
+     Net Pout4[0]: 4 loads, 4 LSLICEs
+     Net Pout4[6]: 4 loads, 4 LSLICEs
+     Net Pout4[1]: 4 loads, 4 LSLICEs
+     Net Pout4[40]: 4 loads, 4 LSLICEs
+     Net Pout4[42]: 4 loads, 4 LSLICEs
+     Net Pout4[3]: 4 loads, 4 LSLICEs
+     Net Pout4[4]: 4 loads, 4 LSLICEs
+     Net Pout4[41]: 4 loads, 4 LSLICEs
+     Net Pout4[2]: 4 loads, 4 LSLICEs
+     Net Pout4[5]: 4 loads, 4 LSLICEs
+     Net Pout4[43]: 4 loads, 4 LSLICEs
+     Net ps6/iretrig/fin[9]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[8]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[7]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[6]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[5]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[4]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[45]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[44]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[43]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[42]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[41]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[40]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[3]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[39]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[38]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[37]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[36]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[35]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[34]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[33]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[32]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[31]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[30]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[2]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[29]: 1 loads, 1 LSLICEs
+
+                                   Page 13
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net ps6/iretrig/fin[28]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[27]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[26]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[25]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[24]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[23]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[22]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[21]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[20]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[1]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[19]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[18]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[17]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[16]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[15]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[14]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[13]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[12]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[11]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[10]: 1 loads, 1 LSLICEs
+     Net ps6/iretrig/fin[0]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[9]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[8]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[8]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[7]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[6]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[5]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[4]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[45]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[44]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[43]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[42]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[41]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[40]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[3]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[39]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[39]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[38]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[38]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[37]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[37]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[36]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[36]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[35]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[35]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[34]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[34]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[33]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[33]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[32]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[31]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[30]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[2]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[29]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[28]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[28]: 5 loads, 5 LSLICEs
+
+                                   Page 14
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net ps6/ireg/diff[27]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[27]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[26]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[26]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[25]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[25]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[24]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[23]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[23]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[22]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[22]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[21]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[20]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[20]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[1]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[19]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[19]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[18]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[18]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[17]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[17]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[16]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[16]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[15]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[14]: 1 loads, 1 LSLICEs
+     Net ps6/ireg/diff[13]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[13]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[12]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[12]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[11]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[11]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[10]: 2 loads, 2 LSLICEs
+     Net ps6/ireg/C_fast[10]: 5 loads, 5 LSLICEs
+     Net ps6/ireg/diff[0]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[9]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[8]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[7]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[6]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[5]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[4]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[45]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[44]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[43]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[42]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[41]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[40]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[3]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[39]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[38]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[37]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[36]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[35]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[34]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[33]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[32]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[31]: 1 loads, 1 LSLICEs
+
+                                   Page 15
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net ps5/iretrig/fin[30]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[2]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[29]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[28]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[27]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[26]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[25]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[24]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[23]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[22]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[21]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[20]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[1]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[19]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[18]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[17]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[16]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[15]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[14]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[13]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[12]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[11]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[10]: 1 loads, 1 LSLICEs
+     Net ps5/iretrig/fin[0]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[9]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[9]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[8]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[7]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[6]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[5]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[4]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[45]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[44]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[43]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[42]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[41]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[40]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[3]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[39]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[38]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[37]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[36]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[35]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[34]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[33]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[32]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[31]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[30]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[2]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[29]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[29]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[28]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[27]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[27]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[26]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[26]: 4 loads, 4 LSLICEs
+
+                                   Page 16
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net ps5/ireg/diff[25]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[25]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[24]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[24]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[23]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[22]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[21]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[20]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[20]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[1]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[19]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[19]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[18]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[18]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[17]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[17]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[16]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[16]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[15]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[15]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[14]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[14]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[13]: 1 loads, 1 LSLICEs
+     Net ps5/ireg/diff[12]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[12]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[11]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[11]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[10]: 2 loads, 2 LSLICEs
+     Net ps5/ireg/C_fast[10]: 4 loads, 4 LSLICEs
+     Net ps5/ireg/diff[0]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[9]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[8]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[7]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[6]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[5]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[4]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[45]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[44]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[43]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[42]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[41]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[40]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[3]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[39]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[38]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[37]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[36]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[35]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[34]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[33]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[32]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[31]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[30]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[2]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[29]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[28]: 1 loads, 1 LSLICEs
+
+                                   Page 17
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net ps4/iretrig/fin[27]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[26]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[25]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[24]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[23]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[22]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[21]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[20]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[1]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[19]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[18]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[17]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[16]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[15]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[14]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[13]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[12]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[11]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[10]: 1 loads, 1 LSLICEs
+     Net ps4/iretrig/fin[0]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[9]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[8]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[8]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[7]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[6]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[5]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[4]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[45]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[44]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[43]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[42]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[41]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[40]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[3]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[39]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[39]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[38]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[38]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[37]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[37]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[36]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[36]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[35]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[35]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[34]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[34]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[33]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[33]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[32]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[31]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[30]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[2]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[29]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[29]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[28]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[27]: 2 loads, 2 LSLICEs
+
+                                   Page 18
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net ps4/ireg/C_fast[27]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[26]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[26]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[25]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[25]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[24]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[24]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[23]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[22]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[21]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[20]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[20]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[1]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[19]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[19]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[18]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[18]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[17]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[17]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[16]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[16]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[15]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[14]: 1 loads, 1 LSLICEs
+     Net ps4/ireg/diff[13]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[13]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[12]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[12]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[11]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[11]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[10]: 2 loads, 2 LSLICEs
+     Net ps4/ireg/C_fast[10]: 4 loads, 4 LSLICEs
+     Net ps4/ireg/diff[0]: 1 loads, 1 LSLICEs
+     Net ps2/iretrig/fin[32]: 1 loads, 1 LSLICEs
+     Net ps2/iretrig/fin[39]: 1 loads, 1 LSLICEs
+     Net ps2/iretrig/fin[38]: 1 loads, 1 LSLICEs
+     Net ps2/iretrig/fin[37]: 1 loads, 1 LSLICEs
+     Net ps2/iretrig/fin[36]: 1 loads, 1 LSLICEs
+     Net ps2/iretrig/fin[35]: 1 loads, 1 LSLICEs
+     Net ps2/iretrig/fin[34]: 1 loads, 1 LSLICEs
+     Net ps2/iretrig/fin[33]: 1 loads, 1 LSLICEs
+     Net ps2/ireg/diff[32]: 1 loads, 1 LSLICEs
+     Net ps2/ireg/diff[39]: 1 loads, 1 LSLICEs
+     Net ps2/ireg/diff[38]: 1 loads, 1 LSLICEs
+     Net ps2/ireg/diff[37]: 1 loads, 1 LSLICEs
+     Net ps2/ireg/diff[36]: 1 loads, 1 LSLICEs
+     Net ps2/ireg/diff[35]: 1 loads, 1 LSLICEs
+     Net ps2/ireg/diff[34]: 1 loads, 1 LSLICEs
+     Net ps2/ireg/diff[33]: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net Blink/VCC: 32 loads
+     Net Pout4[21]: 11 loads
+     Net Pout5[21]: 11 loads
+     Net Pout6[14]: 10 loads
+     Net Pout6[15]: 10 loads
+     Net Pout6[21]: 10 loads
+
+                                   Page 19
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Summary (cont)
+---------------------
+     Net Pout6[24]: 10 loads
+     Net Pout6[29]: 10 loads
+     Net Pout6[7]: 10 loads
+     Net Pout6[9]: 10 loads
+
+
+
+
+   Number of warnings:  117
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(93): Semantic
+     error in "FREQUENCY PORT "CLK_PCLK_LEFT" 200.000000 MHz ;": "CLK_PCLK_LEFT"
+     matches no ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(94): Semantic
+     error in "FREQUENCY PORT "CLK_GPLL_RIGHT" 200.000000 MHz ;":
+     "CLK_GPLL_RIGHT" matches no ports in the design.  This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(95): Semantic
+     error in "FREQUENCY PORT "CLK_GPLL_LEFT" 125.000000 MHz ;": "CLK_GPLL_LEFT"
+     matches no ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(97): Semantic
+     error in "MULTICYCLE FROM CLKNET "clk_100_i_c" TO CLKNET "CLK_PCLK_LEFT_c"
+     1.000000 X ;": "clk_100_i_c" matches no clknets in the design.
+     "CLK_PCLK_LEFT_c" matches no clknets in the design.  This preference has
+     been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(98): Semantic
+     error in "MULTICYCLE FROM CLKNET "CLK_PCLK_LEFT_c" TO CLKNET "clk_100_i_c"
+     2.000000 X ;": "CLK_PCLK_LEFT_c" matches no clknets in the design.
+     "clk_100_i_c" matches no clknets in the design.  This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(144): Semantic
+     error in "DEFINE PORT GROUP "FPGA_group" "FPGA*" ;": "FPGA*" matches no
+     ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(145): Semantic
+     error in "IOBUF GROUP "FPGA_group" IO_TYPE=LVCMOS25 PULLMODE=UP ;": Group
+     "FPGA_group", has not been defined. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(163): Semantic
+     error in "DEFINE PORT GROUP "TEST_LINE_group" "TEST_LINE*" ;": "TEST_LINE*"
+     matches no ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(164): Semantic
+     error in "IOBUF GROUP "TEST_LINE_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN ;":
+     Group "TEST_LINE_group", has not been defined. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(373): Semantic
+     error in "DEFINE PORT GROUP "OUT_group" "OUT_*" ;": "OUT_*" matches no
+     ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(374): Semantic
+     error in "IOBUF GROUP "OUT_group" IO_TYPE=LVDS25 ;": Group "OUT_group", has
+     not been defined. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(398): Semantic
+     error in "DEFINE PORT GROUP "FLASH_group" "FLASH*" ;": "FLASH*" matches no
+
+                                   Page 20
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Errors/Warnings (cont)
+-----------------------------
+     ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(399): Semantic
+     error in "IOBUF GROUP "FLASH_group" IO_TYPE=LVCMOS25 PULLMODE=NONE ;":
+     Group "FLASH_group", has not been defined. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(434): Semantic
+     error in "GSR_NET NET "reset_i";": reset_i does not match nets in the
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(440): Semantic
+     error in "MULTICYCLE TO CELL "THE_MEDIA_DOWNLINK/SCI_DATA_OUT*" 50.000000
+     ns ;": "THE_MEDIA_DOWNLINK/SCI_DATA_OUT*" matches no cells in the design.
+     This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(441): Semantic
+     error in "MULTICYCLE TO CELL "THE_MEDIA_UPLINK/SCI_DATA_OUT*" 50.000000 ns
+     ;": "THE_MEDIA_UPLINK/SCI_DATA_OUT*" matches no cells in the design.  This
+     preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(442): Semantic
+     error in "MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 30.000000 ns
+     ;": "THE_RESET_HANDLER/final_reset*" matches no cells in the design.  This
+     preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(443): Semantic
+     error in "MULTICYCLE TO CELL "THE_RESET_HANDLER/trb_reset_*" 20.000000 ns
+     ;": "THE_RESET_HANDLER/trb_reset_*" matches no cells in the design.  This
+     preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(444): Semantic
+     error in "MULTICYCLE TO CELL "gen_SPI_DAC_SPI_*io*" 20.000000 ns ;":
+     "gen_SPI_DAC_SPI_*io*" matches no cells in the design.  This preference has
+     been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(445): Semantic
+     error in "MULTICYCLE TO CELL "THE_SPI_MASTER_THE_SPI_SLIM_tx_sreg_oregio*"
+     20.000000 ns ;": "THE_SPI_MASTER_THE_SPI_SLIM_tx_sreg_oregio*" matches no
+     cells in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(447): Semantic
+     error in "BLOCK PATH TO CELL "gen_TRIGGER_LOGIC_THE_TRIG_LOGIC/out_*" ;":
+     gen_TRIGGER_LOGIC_THE_TRIG_LOGIC/out_* does not match cells in the design.
+     This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(100): Semantic
+     error in "LOCATE COMP
+     "THE_MEDIA_UPLINK/gen_serdes_1_200_THE_SERDES/PCSD_INST" SITE "PCSA" ;":
+     COMP "THE_MEDIA_UPLINK/gen_serdes_1_200_THE_SERDES/PCSD_INST" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(106): Semantic
+     error in "LOCATE COMP "CLK_PCLK_LEFT" SITE "M4" ;": COMP "CLK_PCLK_LEFT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(107): Semantic
+     error in "LOCATE COMP "CLK_SERDES_INT_RIGHT" SITE "AC18" ;": COMP
+     "CLK_SERDES_INT_RIGHT" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(108): Semantic
+     error in "LOCATE COMP "CLK_SERDES_INT_LEFT" SITE "AC10" ;": COMP
+     "CLK_SERDES_INT_LEFT" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(109): Semantic
+     error in "LOCATE COMP "CLK_GPLL_RIGHT" SITE "W1" ;": COMP "CLK_GPLL_RIGHT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(110): Semantic
+
+                                   Page 21
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Errors/Warnings (cont)
+-----------------------------
+     error in "LOCATE COMP "CLK_GPLL_LEFT" SITE "U25" ;": COMP "CLK_GPLL_LEFT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(121): Semantic
+     error in "LOCATE COMP "TRIGGER_LEFT" SITE "V3" ;": COMP "TRIGGER_LEFT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(122): Semantic
+     error in "LOCATE COMP "TRIGGER_RIGHT" SITE "N24" ;": COMP "TRIGGER_RIGHT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(123): Semantic
+     error in "IOBUF PORT "TRIGGER_RIGHT" IO_TYPE=LVDS25 ;": Port
+     "TRIGGER_RIGHT" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(124): Semantic
+     error in "IOBUF PORT "TRIGGER_LEFT" IO_TYPE=LVDS25 ;": Port "TRIGGER_LEFT"
+     does not exist in the design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(132): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_0" SITE "AD4" ;": COMP "FPGA5_COMM_0"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(133): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_1" SITE "AE3" ;": COMP "FPGA5_COMM_1"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(134): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_2" SITE "AA7" ;": COMP "FPGA5_COMM_2"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(135): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_3" SITE "AB7" ;": COMP "FPGA5_COMM_3"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(136): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_4" SITE "AD3" ;": COMP "FPGA5_COMM_4"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(137): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_5" SITE "AC4" ;": COMP "FPGA5_COMM_5"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(138): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_6" SITE "AE2" ;": COMP "FPGA5_COMM_6"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(139): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_7" SITE "AF3" ;": COMP "FPGA5_COMM_7"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(140): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_8" SITE "AE4" ;": COMP "FPGA5_COMM_8"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(141): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_9" SITE "AF4" ;": COMP "FPGA5_COMM_9"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(142): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_10" SITE "V10" ;": COMP "FPGA5_COMM_10"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(143): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_11" SITE "W10" ;": COMP "FPGA5_COMM_11"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(147): Semantic
+     error in "LOCATE COMP "TEST_LINE_0" SITE "A5" ;": COMP "TEST_LINE_0" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(148): Semantic
+     error in "LOCATE COMP "TEST_LINE_1" SITE "A6" ;": COMP "TEST_LINE_1" cannot
+
+                                   Page 22
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Errors/Warnings (cont)
+-----------------------------
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(149): Semantic
+     error in "LOCATE COMP "TEST_LINE_2" SITE "G8" ;": COMP "TEST_LINE_2" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(150): Semantic
+     error in "LOCATE COMP "TEST_LINE_3" SITE "F9" ;": COMP "TEST_LINE_3" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(151): Semantic
+     error in "LOCATE COMP "TEST_LINE_4" SITE "D9" ;": COMP "TEST_LINE_4" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(152): Semantic
+     error in "LOCATE COMP "TEST_LINE_5" SITE "D10" ;": COMP "TEST_LINE_5"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(153): Semantic
+     error in "LOCATE COMP "TEST_LINE_6" SITE "F10" ;": COMP "TEST_LINE_6"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(154): Semantic
+     error in "LOCATE COMP "TEST_LINE_7" SITE "E10" ;": COMP "TEST_LINE_7"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(155): Semantic
+     error in "LOCATE COMP "TEST_LINE_8" SITE "A8" ;": COMP "TEST_LINE_8" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(156): Semantic
+     error in "LOCATE COMP "TEST_LINE_9" SITE "B8" ;": COMP "TEST_LINE_9" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(157): Semantic
+     error in "LOCATE COMP "TEST_LINE_10" SITE "G10" ;": COMP "TEST_LINE_10"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(158): Semantic
+     error in "LOCATE COMP "TEST_LINE_11" SITE "G9" ;": COMP "TEST_LINE_11"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(159): Semantic
+     error in "LOCATE COMP "TEST_LINE_12" SITE "C9" ;": COMP "TEST_LINE_12"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(160): Semantic
+     error in "LOCATE COMP "TEST_LINE_13" SITE "C10" ;": COMP "TEST_LINE_13"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(161): Semantic
+     error in "LOCATE COMP "TEST_LINE_14" SITE "H10" ;": COMP "TEST_LINE_14"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(162): Semantic
+     error in "LOCATE COMP "TEST_LINE_15" SITE "H11" ;": COMP "TEST_LINE_15"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(321): Semantic
+     error in "LOCATE COMP "INpA" SITE "C2" ;": COMP "INpA" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(323): Semantic
+     error in "LOCATE COMP "INpB" SITE "H5" ;": COMP "INpB" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(325): Semantic
+     error in "LOCATE COMP "INpC" SITE "AD26" ;": COMP "INpC" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(327): Semantic
+     error in "LOCATE COMP "INpD" SITE "G5" ;": COMP "INpD" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(330): Semantic
+
+                                   Page 23
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Errors/Warnings (cont)
+-----------------------------
+     error in "LOCATE COMP "OutpA0" SITE "K3" ;": COMP "OutpA0" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(332): Semantic
+     error in "LOCATE COMP "OutpA1" SITE "J4" ;": COMP "OutpA1" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(334): Semantic
+     error in "LOCATE COMP "OutpA2" SITE "D1" ;": COMP "OutpA2" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(337): Semantic
+     error in "LOCATE COMP "OutpB0" SITE "F2" ;": COMP "OutpB0" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(339): Semantic
+     error in "LOCATE COMP "OutpB1" SITE "D4" ;": COMP "OutpB1" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(341): Semantic
+     error in "LOCATE COMP "OutpB2" SITE "H6" ;": COMP "OutpB2" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(344): Semantic
+     error in "LOCATE COMP "OutpC0" SITE "AA24" ;": COMP "OutpC0" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(346): Semantic
+     error in "LOCATE COMP "OutpC1" SITE "U24" ;": COMP "OutpC1" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(348): Semantic
+     error in "LOCATE COMP "OutpC2" SITE "U23" ;": COMP "OutpC2" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(351): Semantic
+     error in "LOCATE COMP "OutpD0" SITE "C3" ;": COMP "OutpD0" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(353): Semantic
+     error in "LOCATE COMP "OutpD1" SITE "L5" ;": COMP "OutpD1" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(355): Semantic
+     error in "LOCATE COMP "OutpD2" SITE "K8" ;": COMP "OutpD2" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(383): Semantic
+     error in "LOCATE COMP "SPARE_LINE_0" SITE "M25" ;": COMP "SPARE_LINE_0"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(384): Semantic
+     error in "LOCATE COMP "SPARE_LINE_1" SITE "M26" ;": COMP "SPARE_LINE_1"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(385): Semantic
+     error in "LOCATE COMP "SPARE_LINE_2" SITE "W4" ;": COMP "SPARE_LINE_2"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(386): Semantic
+     error in "LOCATE COMP "SPARE_LINE_3" SITE "W5" ;": COMP "SPARE_LINE_3"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(393): Semantic
+     error in "LOCATE COMP "FLASH_CLK" SITE "B12" ;": COMP "FLASH_CLK" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(394): Semantic
+     error in "LOCATE COMP "FLASH_CS" SITE "E11" ;": COMP "FLASH_CS" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(395): Semantic
+     error in "LOCATE COMP "FLASH_DIN" SITE "E12" ;": COMP "FLASH_DIN" cannot be
+     found in design. This preference has been disabled.
+
+                                   Page 24
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(396): Semantic
+     error in "LOCATE COMP "FLASH_DOUT" SITE "A12" ;": COMP "FLASH_DOUT" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(401): Semantic
+     error in "LOCATE COMP "PROGRAMN" SITE "B11" ;": COMP "PROGRAMN" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(402): Semantic
+     error in "IOBUF PORT "PROGRAMN" IO_TYPE=LVCMOS25 PULLMODE=UP DRIVE=8 ;":
+     Port "PROGRAMN" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(408): Semantic
+     error in "LOCATE COMP "TEMPSENS" SITE "A13" ;": COMP "TEMPSENS" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(409): Semantic
+     error in "IOBUF PORT "TEMPSENS" IO_TYPE=LVCMOS25 PULLMODE=UP DRIVE=8 ;":
+     Port "TEMPSENS" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(412): Semantic
+     error in "LOCATE COMP "CODE_LINE_1" SITE "AA20" ;": COMP "CODE_LINE_1"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(413): Semantic
+     error in "LOCATE COMP "CODE_LINE_0" SITE "Y21" ;": COMP "CODE_LINE_0"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(414): Semantic
+     error in "IOBUF PORT "CODE_LINE_1" IO_TYPE=LVCMOS25 PULLMODE=UP ;": Port
+     "CODE_LINE_1" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(415): Semantic
+     error in "IOBUF PORT "CODE_LINE_0" IO_TYPE=LVCMOS25 PULLMODE=UP ;": Port
+     "CODE_LINE_0" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(418): Semantic
+     error in "LOCATE COMP "SUPPL" SITE "C14" ;": COMP "SUPPL" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf(419): Semantic
+     error in "IOBUF PORT "SUPPL" IO_TYPE=LVDS25 ;": Port "SUPPL" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: Preference parsing results:  93 semantic errors detected.
+WARNING - map: Using local reset signal 'Pout6[3]' to infer global GSR net.
+WARNING - map: IO buffer missing for top level port INP[63:0](63)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](62)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](61)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](60)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](59)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](58)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](57)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](56)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](55)...logic will
+
+                                   Page 25
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Design Errors/Warnings (cont)
+-----------------------------
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](54)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](53)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](52)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](51)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](50)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](49)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](48)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](47)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](46)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port InpA...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port InpB...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port InpC...logic will be
+     discarded.
+WARNING - map: There are semantic errors in the preference file
+     D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.lpf.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpA[0]            | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| CLK_PCLK_RIGHT      | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| LED_YELLOW          | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| LED_RED             | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| LED_ORANGE          | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| LED_GREEN           | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpC[2]            | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpC[1]            | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpC[0]            | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpB[2]            | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpB[1]            | OUTPUT    | LVCMOS25  | OUT        |            |
+
+                                   Page 26
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+------------+
+| OutpB[0]            | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpA[2]            | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpA[1]            | OUTPUT    | LVCMOS25  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[45]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[44]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[43]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[42]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[41]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[40]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[39]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[38]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[37]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[36]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[35]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[34]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[33]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[32]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[31]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[30]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[29]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[28]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[27]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[26]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[25]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[24]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[23]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[22]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[21]             | INPUT     | LVDS25    |            |            |
+
+                                   Page 27
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+------------+
+| INP[20]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[19]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[18]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[17]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[16]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[15]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[14]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[13]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[12]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[11]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[10]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[9]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[8]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[7]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[6]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[5]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[4]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[3]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[2]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[1]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[0]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block ps2/ireg/GND undriven or does not drive anything - clipped.
+Block ps2/iretrig/VCC undriven or does not drive anything - clipped.
+Block ps2/leadEdgeDelay/Bitwise_Delay[39].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps2/leadEdgeDelay/Bitwise_Delay[33].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps2/leadEdgeDelay/Bitwise_Delay[35].Dline/GND undriven or does not drive
+     anything - clipped.
+
+                                   Page 28
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block ps2/leadEdgeDelay/Bitwise_Delay[36].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps2/leadEdgeDelay/Bitwise_Delay[32].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps2/leadEdgeDelay/Bitwise_Delay[38].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps2/leadEdgeDelay/Bitwise_Delay[34].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps2/leadEdgeDelay/Bitwise_Delay[37].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/ireg/GND undriven or does not drive anything - clipped.
+Block ps4/iretrig/VCC undriven or does not drive anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[0].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[39].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[6].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[12].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[2].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[22].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[45].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[44].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[43].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[9].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[5].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[19].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[25].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[33].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[26].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[8].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[1].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[15].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[35].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[30].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[36].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[29].Dline/GND undriven or does not drive
+     anything - clipped.
+
+                                   Page 29
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block ps4/leadEdgeDelay/Bitwise_Delay[11].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[18].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[32].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[38].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[20].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[13].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[21].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[14].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[28].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[42].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[17].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[23].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[16].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[24].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[31].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[40].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[7].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[34].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[27].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[41].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[37].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[4].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[10].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps4/leadEdgeDelay/Bitwise_Delay[3].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/ireg/GND undriven or does not drive anything - clipped.
+Block ps5/iretrig/VCC undriven or does not drive anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[0].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[39].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[6].Dline/GND undriven or does not drive
+     anything - clipped.
+
+                                   Page 30
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block ps5/leadEdgeDelay/Bitwise_Delay[12].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[2].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[22].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[45].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[44].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[43].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[9].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[5].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[19].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[25].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[33].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[26].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[8].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[1].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[15].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[35].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[30].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[36].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[29].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[11].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[18].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[32].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[38].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[20].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[13].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[21].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[14].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[28].Dline/GND undriven or does not drive
+     anything - clipped.
+
+                                   Page 31
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block ps5/leadEdgeDelay/Bitwise_Delay[42].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[17].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[23].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[16].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[24].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[31].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[40].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[7].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[34].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[27].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[41].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[37].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[4].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[10].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps5/leadEdgeDelay/Bitwise_Delay[3].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/ireg/GND undriven or does not drive anything - clipped.
+Block ps6/iretrig/VCC undriven or does not drive anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[0].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[39].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[6].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[12].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[2].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[22].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[45].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[44].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[43].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[9].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[5].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[19].Dline/GND undriven or does not drive
+     anything - clipped.
+
+                                   Page 32
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block ps6/leadEdgeDelay/Bitwise_Delay[25].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[33].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[26].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[8].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[1].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[15].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[35].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[30].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[36].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[29].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[11].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[18].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[32].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[38].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[20].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[13].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[21].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[14].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[28].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[42].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[17].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[23].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[16].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[24].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[31].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[40].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[7].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[34].Dline/GND undriven or does not drive
+     anything - clipped.
+
+                                   Page 33
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block ps6/leadEdgeDelay/Bitwise_Delay[27].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[41].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[37].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[4].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[10].Dline/GND undriven or does not drive
+     anything - clipped.
+Block ps6/leadEdgeDelay/Bitwise_Delay[3].Dline/GND undriven or does not drive
+     anything - clipped.
+Block BO3A/GND undriven or does not drive anything - clipped.
+Block LatchAnd3A/ireg/GND undriven or does not drive anything - clipped.
+Block LatchAnd3A/iretrig/VCC undriven or does not drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[16].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[1].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[3].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[10].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[7].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[6].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[11].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[4].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[13].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[2].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[15].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[0].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[17].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/ireg/GND undriven or does not drive anything - clipped.
+Block LatchAnd5A/iretrig/VCC undriven or does not drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[16].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[1].Dline/GND undriven or does not
+
+                                   Page 34
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[14].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[12].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[5].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[7].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[8].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[9].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[6].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[11].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[4].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[13].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[2].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[15].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[0].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[17].Dline/GND undriven or does not
+     drive anything - clipped.
+Block outA/GND undriven or does not drive anything - clipped.
+Block outD/GND undriven or does not drive anything - clipped.
+Block BO3B/GND undriven or does not drive anything - clipped.
+Block LatchAnd3B/ireg/GND undriven or does not drive anything - clipped.
+Block LatchAnd3B/iretrig/VCC undriven or does not drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[16].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[1].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[14].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[3].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[12].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[5].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[10].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[7].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[8].Dline/GND undriven or does not
+     drive anything - clipped.
+
+                                   Page 35
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[9].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[6].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[11].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[4].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[13].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[2].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[15].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[0].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[17].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/ireg/GND undriven or does not drive anything - clipped.
+Block LatchAnd5B/iretrig/VCC undriven or does not drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[16].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[1].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[14].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[3].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[12].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[5].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[10].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[7].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[8].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[9].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[6].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[11].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[4].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[13].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[2].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[15].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[0].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[17].Dline/GND undriven or does not
+     drive anything - clipped.
+
+                                   Page 36
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block outB/GND undriven or does not drive anything - clipped.
+Block outE/GND undriven or does not drive anything - clipped.
+Block BO3C/GND undriven or does not drive anything - clipped.
+Block LatchAnd3C/ireg/GND undriven or does not drive anything - clipped.
+Block LatchAnd3C/iretrig/VCC undriven or does not drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[16].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[1].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[14].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[3].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[12].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[5].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[7].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[8].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[9].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[6].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[4].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[13].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[2].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[15].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[0].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[17].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/ireg/GND undriven or does not drive anything - clipped.
+Block LatchAnd5C/iretrig/VCC undriven or does not drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[16].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[1].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[14].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[3].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[5].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[10].Dline/GND undriven or does not
+
+                                   Page 37
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[7].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[8].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[9].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[6].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[11].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[4].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[13].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[2].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[15].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[0].Dline/GND undriven or does not
+     drive anything - clipped.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[17].Dline/GND undriven or does not
+     drive anything - clipped.
+Block outC/GND undriven or does not drive anything - clipped.
+Block outF/GND undriven or does not drive anything - clipped.
+Block outOr4/GND undriven or does not drive anything - clipped.
+Block outOr2/GND undriven or does not drive anything - clipped.
+Block outOr6/GND undriven or does not drive anything - clipped.
+Signal ps6.ireg.input_reg[0].rst1_0_.CN was merged into signal CLK_PCLK_RIGHT_c
+Signal ps2/ireg/VCC undriven or does not drive anything - clipped.
+Signal ps2/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps2/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps2/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps2/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps2/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps2/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps2/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps2/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/ireg/VCC undriven or does not drive anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC undriven or does not drive
+
+                                   Page 38
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[22].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[45].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[44].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[43].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[19].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[25].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[26].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[30].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[29].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[18].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[20].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[21].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[28].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[42].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC undriven or does not drive
+
+                                   Page 39
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[23].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[24].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[31].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[40].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[27].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[41].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps4/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/ireg/VCC undriven or does not drive anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[22].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[45].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[44].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[43].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[19].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[25].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC undriven or does not drive
+     anything - clipped.
+
+                                   Page 40
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Signal ps5/leadEdgeDelay/Bitwise_Delay[26].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[30].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[29].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[18].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[20].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[21].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[28].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[42].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[23].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[24].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[31].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[40].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[27].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[41].Dline/VCC undriven or does not drive
+     anything - clipped.
+
+                                   Page 41
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Signal ps5/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps5/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/ireg/VCC undriven or does not drive anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[22].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[45].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[44].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[43].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[19].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[25].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[26].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[30].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[29].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[18].Dline/VCC undriven or does not drive
+
+                                   Page 42
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[20].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[21].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[28].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[42].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[23].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[24].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[31].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[40].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[27].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[41].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal ps6/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC undriven or does not drive
+     anything - clipped.
+Signal LatchAnd3A/ireg/VCC undriven or does not drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC undriven or does not
+     drive anything - clipped.
+
+                                   Page 43
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3A/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/ireg/VCC undriven or does not drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC undriven or does not
+
+                                   Page 44
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5A/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/ireg/VCC undriven or does not drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3B/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/ireg/VCC undriven or does not drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC undriven or does not
+
+                                   Page 45
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5B/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/ireg/VCC undriven or does not drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC undriven or does not
+     drive anything - clipped.
+
+                                   Page 46
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd3C/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/ireg/VCC undriven or does not drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal LatchAnd5C/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC undriven or does not
+     drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal Blink/count_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal Blink/N_1 undriven or does not drive anything - clipped.
+Signal Blink/count_s_0_S1[31] undriven or does not drive anything - clipped.
+Signal Blink/count_s_0_COUT[31] undriven or does not drive anything - clipped.
+Block ps2/ireg/input_reg[37].rst1_37_.CN was optimized away.
+Block ps2/ireg/VCC was optimized away.
+Block ps2/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC was optimized away.
+Block ps2/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC was optimized away.
+Block ps2/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC was optimized away.
+Block ps2/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC was optimized away.
+Block ps2/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC was optimized away.
+Block ps2/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC was optimized away.
+
+                                   Page 47
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block ps2/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC was optimized away.
+Block ps2/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC was optimized away.
+Block ps4/ireg/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[22].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[45].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[44].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[43].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[19].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[25].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[26].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[30].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[29].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[18].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[20].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[21].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[28].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[42].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[23].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[24].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[31].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[40].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[27].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[41].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC was optimized away.
+Block ps4/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC was optimized away.
+Block ps5/ireg/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[22].Dline/VCC was optimized away.
+
+                                   Page 48
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block ps5/leadEdgeDelay/Bitwise_Delay[45].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[44].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[43].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[19].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[25].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[26].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[30].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[29].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[18].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[20].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[21].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[28].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[42].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[23].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[24].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[31].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[40].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[27].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[41].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC was optimized away.
+Block ps5/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC was optimized away.
+Block ps6/ireg/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[22].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[45].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[44].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[43].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[19].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[25].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[26].Dline/VCC was optimized away.
+
+                                   Page 49
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block ps6/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[30].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[29].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[18].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[20].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[21].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[28].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[42].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[23].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[24].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[31].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[40].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[27].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[41].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC was optimized away.
+Block ps6/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC was optimized away.
+Block LatchAnd3A/ireg/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC was optimized away.
+Block LatchAnd3A/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC was optimized away.
+Block LatchAnd5A/ireg/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC was optimized away.
+
+                                   Page 50
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC was optimized away.
+Block LatchAnd5A/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC was optimized away.
+Block LatchAnd3B/ireg/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC was optimized away.
+Block LatchAnd3B/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC was optimized away.
+Block LatchAnd5B/ireg/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC was optimized away.
+Block LatchAnd5B/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC was optimized away.
+Block LatchAnd3C/ireg/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC was optimized away.
+
+                                   Page 51
+
+
+
+
+Design:  ScatterTrig                                   Date:  09/21/16  15:40:30
+
+Removed logic (cont)
+--------------------
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC was optimized away.
+Block LatchAnd3C/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC was optimized away.
+Block LatchAnd5C/ireg/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC was optimized away.
+Block LatchAnd5C/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC was optimized away.
+
+GSR Usage
+---------
+
+GSR Component:
+   The local reset signal 'Pout6[3]' of the design has been inferred as Global
+        Set Reset (GSR). The reset signal used for GSR control is 'Pout6[3]'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 6 secs  
+   Total REAL Time: 7 secs  
+   Peak Memory Usage: 425 MB
+        
+
+
+                                   Page 52
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights
+     reserved.

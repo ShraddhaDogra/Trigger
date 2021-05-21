@@ -1,0 +1,2 @@
+@W: MT246 :"d:\bartz\documents\lattice\trigtdc\mypll1.v":41:12:41:20|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock TriggerTDC|CLK_GPLL_RIGHT with period 3.43ns. Please declare a user-defined clock on object "p:CLK_GPLL_RIGHT"

@@ -1,0 +1,68 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Sep 21 15:42:36 2016 *
+NOTE DESIGN NAME: ScatterTrig *
+NOTE DEVICE NAME: LFE3-150EA-8FPBGA672 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS OutpA[0] : M4 : out *
+NOTE PINS CLK_PCLK_RIGHT : U20 : in *
+NOTE PINS LED_YELLOW : A16 : out *
+NOTE PINS LED_RED : A15 : out *
+NOTE PINS LED_ORANGE : G13 : out *
+NOTE PINS LED_GREEN : F12 : out *
+NOTE PINS OutpC[2] : T6 : out *
+NOTE PINS OutpC[1] : N4 : out *
+NOTE PINS OutpC[0] : L3 : out *
+NOTE PINS OutpB[2] : V4 : out *
+NOTE PINS OutpB[1] : T5 : out *
+NOTE PINS OutpB[0] : K3 : out *
+NOTE PINS OutpA[2] : V3 : out *
+NOTE PINS OutpA[1] : W3 : out *
+NOTE PINS INP[45] : AA25 : in *
+NOTE PINS INP[44] : W23 : in *
+NOTE PINS INP[43] : AE25 : in *
+NOTE PINS INP[42] : AD24 : in *
+NOTE PINS INP[41] : Y22 : in *
+NOTE PINS INP[40] : AB24 : in *
+NOTE PINS INP[39] : Y19 : in *
+NOTE PINS INP[38] : AC26 : in *
+NOTE PINS INP[37] : F25 : in *
+NOTE PINS INP[36] : K23 : in *
+NOTE PINS INP[35] : H26 : in *
+NOTE PINS INP[34] : F24 : in *
+NOTE PINS INP[33] : G26 : in *
+NOTE PINS INP[32] : J23 : in *
+NOTE PINS INP[31] : B2 : in *
+NOTE PINS INP[30] : E1 : in *
+NOTE PINS INP[29] : K4 : in *
+NOTE PINS INP[28] : K2 : in *
+NOTE PINS INP[27] : T7 : in *
+NOTE PINS INP[26] : R5 : in *
+NOTE PINS INP[25] : T3 : in *
+NOTE PINS INP[24] : P4 : in *
+NOTE PINS INP[23] : T1 : in *
+NOTE PINS INP[22] : V1 : in *
+NOTE PINS INP[21] : W8 : in *
+NOTE PINS INP[20] : AA3 : in *
+NOTE PINS INP[19] : Y6 : in *
+NOTE PINS INP[18] : AB3 : in *
+NOTE PINS INP[17] : AB5 : in *
+NOTE PINS INP[16] : AD1 : in *
+NOTE PINS INP[15] : L2 : in *
+NOTE PINS INP[14] : M5 : in *
+NOTE PINS INP[13] : H1 : in *
+NOTE PINS INP[12] : H2 : in *
+NOTE PINS INP[11] : V6 : in *
+NOTE PINS INP[10] : Y5 : in *
+NOTE PINS INP[9] : W7 : in *
+NOTE PINS INP[8] : AA1 : in *
+NOTE PINS INP[7] : AB1 : in *
+NOTE PINS INP[6] : AC2 : in *
+NOTE PINS INP[5] : N5 : in *
+NOTE PINS INP[4] : P5 : in *
+NOTE PINS INP[3] : N3 : in *
+NOTE PINS INP[2] : R1 : in *
+NOTE PINS INP[1] : T2 : in *
+NOTE PINS INP[0] : P1 : in *
+NOTE CONFIGURATION MODE: SPI *
+NOTE COMPRESSION: off *

@@ -1,0 +1,6 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: BN362 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand3.v":26:2:26:3|Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand3_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand4.v":28:2:28:3|Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand4_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand5.v":30:2:30:3|Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand5_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\bartz\documents\lattice\trigtest\source\mand6.v":32:2:32:3|Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand6_0(verilog) because there are no references to its outputs 

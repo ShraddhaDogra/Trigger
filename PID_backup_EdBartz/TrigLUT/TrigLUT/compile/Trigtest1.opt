@@ -1,0 +1,1 @@
+ -u "D:\Cad\IScc\diamond\3.2_x64\active-hdl\bin/systf.dll" -v2k5  "C:\Users\bartz\Documents\Lattice\TrigTest\D:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1_tf.v"  -cs  -g 5  -r -li "C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\compile\Trigtest1.epr" -p "C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\work" 

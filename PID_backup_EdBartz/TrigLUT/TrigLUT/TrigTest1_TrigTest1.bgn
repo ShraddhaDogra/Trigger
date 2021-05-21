@@ -1,0 +1,67 @@
+BITGEN: Bitstream Generator Diamond (64-bit) 3.6.0.83.4
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+Command: bitgen -w -g CfgMode:Disable -g RamCfg:Reset -path D:/bartz/Documents/Lattice/TrigTest -path D:/bartz/Documents/Lattice/TrigTest -g ES:No -e -s D:/bartz/Documents/Lattice/TrigTest/TrigTest1.sec -k D:/bartz/Documents/Lattice/TrigTest/TrigTest1.bek -gui -msgset D:/bartz/Documents/Lattice/TrigTest/promote.xml TrigTest1_TrigTest1.ncd TrigTest1_TrigTest1.prf 
+
+Loading design for application Bitgen from file TrigTest1_TrigTest1.ncd.
+Design name: Top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 8
+Loading device for application Bitgen from file 'ec5a124x182.nph' in environment: D:/Cad/lscc/diamond/3.6_x64/ispfpga.
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from TrigTest1_TrigTest1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        CfgMode  |                      Disable**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                             20  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                    CONFIG_MODE  |                          SPI**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                     PERSISTENT  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                             ES  |                           No**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                     ENABLE_NDR  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               CONFIG_IOVOLTAGE  |                          2.5**  |
++---------------------------------+---------------------------------+
+|                         STRTUP  |                     EXTERNAL**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.40.
+ 
+Saving bit stream in "TrigTest1_TrigTest1.bit".

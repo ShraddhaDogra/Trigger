@@ -1,0 +1,2 @@
+@E: BN314 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":123:6:123:10|Net GND in work.TriggerTDC(verilog) has multiple drivers. 
+@E: BN314 :"d:\bartz\documents\lattice\trigtdc\cpll4.v":51:12:51:20|Net GND in work.Cpll4(verilog) has multiple drivers. 

@@ -1,0 +1,8 @@
+i<>.\..\Source\Delay_buf.v
+i<>.\..\Source\Stretcher.v
+i<>.\..\Source\LeadDelay.v
+i<>.\..\Source\SR_Latch.v
+i<>.\..\Source\retrigger.v
+i<>.\..\Source\SR_Reg.v
+i<>.\..\TrigLUT\source\Top.v
+i<>.\..\Source\TrigLUT_tf.v

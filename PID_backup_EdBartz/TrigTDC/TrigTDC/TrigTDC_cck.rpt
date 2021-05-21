@@ -1,0 +1,144 @@
+# Synopsys Constraint Checker, version maplat, Build 1368R, built Jan  8 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Thu Sep 01 10:58:32 2016
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "TriggerTDC"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                       Ending                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                         System                         |     1000.000         |     No paths         |     No paths         |     No paths                         
+Cpll4|CLKOS_inferred_clock     Cpll4|CLKOS_inferred_clock     |     1.601            |     No paths         |     No paths         |     No paths                         
+=========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:INP[0]
+p:INP[1]
+p:INP[2]
+p:INP[3]
+p:INP[4]
+p:INP[5]
+p:INP[6]
+p:INP[7]
+p:INP[8]
+p:INP[9]
+p:INP[10]
+p:INP[11]
+p:INP[12]
+p:INP[13]
+p:INP[14]
+p:INP[15]
+p:INP[16]
+p:INP[17]
+p:INP[18]
+p:INP[19]
+p:INP[20]
+p:INP[21]
+p:INP[22]
+p:INP[23]
+p:INP[24]
+p:INP[25]
+p:INP[26]
+p:INP[27]
+p:INP[28]
+p:INP[29]
+p:INP[30]
+p:INP[31]
+p:INP[32]
+p:INP[33]
+p:INP[34]
+p:INP[35]
+p:INP[36]
+p:INP[37]
+p:INP[38]
+p:INP[39]
+p:INP[40]
+p:INP[41]
+p:INP[42]
+p:INP[43]
+p:INP[44]
+p:INP[45]
+p:INP[46]
+p:INP[47]
+p:INP[48]
+p:INP[49]
+p:INP[50]
+p:INP[51]
+p:INP[52]
+p:INP[53]
+p:INP[54]
+p:INP[55]
+p:INP[56]
+p:INP[57]
+p:INP[58]
+p:INP[59]
+p:INP[60]
+p:INP[61]
+p:INP[62]
+p:INP[63]
+p:IN_pA
+p:IN_pB
+p:IN_pC
+p:LED_GREEN
+p:LED_ORANGE
+p:LED_RED
+p:LED_YELLOW
+p:MCLK
+p:OUT_pA[0]
+p:OUT_pA[1]
+p:OUT_pA[2]
+p:OUT_pB[0]
+p:OUT_pB[1]
+p:OUT_pB[2]
+p:OUT_pC[0]
+p:OUT_pC[1]
+p:OUT_pC[2]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

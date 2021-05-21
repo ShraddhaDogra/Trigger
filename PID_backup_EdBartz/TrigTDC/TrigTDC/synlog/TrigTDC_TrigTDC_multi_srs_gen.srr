@@ -1,0 +1,13 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 279R, built Mar  8 2017
+@N|Running in 64-bit mode
+File D:\Cad\lscc39\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synwork\TrigTDC_TrigTDC_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 131MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct 04 16:00:58 2017
+
+###########################################################]

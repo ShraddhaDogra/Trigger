@@ -1,0 +1,24 @@
+D:\Cad\lscc\diamond\3.7_x64\synpbase\bin64\c_hdl.exe  -osyn  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_comp.srs  -top  ScatterTrig  -hdllog  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synlog\TrigLUT_TrigLUT_compiler.srr  -encrypt  -mp  4  -verilog  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I D:\bartz\Documents\Lattice\TrigLUT  -I D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\  -I D:\Cad\lscc\diamond\3.7_x64\synpbase\lib   -v2001  -devicelib  D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v  -devicelib  D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v  -encrypt  -pro  -dmgen  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr5.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Latch.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Reg.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_clr.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_pset.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\TrigLUT_tf.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\Or8.v -lib work D:\bartz\Documents\Lattice\TrigLUT\Source\Or18.v -lib work D:\bartz\Documents\Lattice\TrigLUT\leds.v 
+rc:0 success:1 runtime:2
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_comp.srs|o|1474486816|51993
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synlog\TrigLUT_TrigLUT_compiler.srr|o|1474486816|14358
+D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v|i|1449726582|120358
+D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v|i|1449726582|40584
+D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v|i|1458741919|1750
+D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr5.v|i|1458741931|1696
+D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v|i|1458843470|775
+D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v|i|1458753655|723
+D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v|i|1458660484|542
+D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v|i|1458752757|1290
+D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v|i|1458753008|514
+D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v|i|1461856292|6818
+D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Latch.v|i|1458235846|228
+D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Reg.v|i|1458328437|216
+D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_clr.v|i|1458328524|165
+D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_pset.v|i|1458309103|281
+D:\bartz\Documents\Lattice\TrigLUT\Source\TrigLUT_tf.v|i|1458766581|1887
+D:\bartz\Documents\Lattice\TrigLUT\Source\Or8.v|i|1458765878|680
+D:\bartz\Documents\Lattice\TrigLUT\Source\Or18.v|i|1458758123|888
+D:\bartz\Documents\Lattice\TrigLUT\leds.v|i|1461861694|896
+D:\Cad\lscc\diamond\3.7_x64\synpbase\bin\c_hdl.exe|i|1449730580|1311232
+D:\Cad\lscc\diamond\3.7_x64\synpbase\bin64\c_hdl.exe|i|1449730782|1936896

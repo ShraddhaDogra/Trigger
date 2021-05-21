@@ -1,0 +1,82 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+simulationfile=.\simulationfile\simulationfile.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_ecp3;pcsd_work
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+simulationfile=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\Source\SR_Latch.v=-1
+/..\..\Source\T_ff_clr.v=-1
+/..\..\Source\SR_Reg.v=-1
+/..\..\Source\T_ff_pset.v=-1
+/..\..\Source\leds.v=-1
+/..\..\Source\Or8.v=-1
+/..\..\Source\Or18.v=-1
+/..\..\Source\DelayBit.v=-1
+/..\..\Source\LeadDelay.v=-1
+/..\..\Source\retrigger.v=-1
+/..\..\Source\Input_Reg.v=-1
+/..\..\Source\PulseStretch.v=-1
+/..\..\Source\BackOr5.v=-1
+/..\..\Source\BackOr.v=-1
+/..\..\Source\ScatterTrig.v=-1
+/..\..\Source\TrigTDC_tf.v=-1
+/..\..\mypll1.v=-1
+/..\..\Source\TriggerTDC.v=-1
+/..\..\test1.v=-1
+[Files.Data]
+.\..\Source\SR_Latch.v=Verilog Source Code
+.\..\Source\T_ff_clr.v=Verilog Source Code
+.\..\Source\SR_Reg.v=Verilog Source Code
+.\..\Source\T_ff_pset.v=Verilog Source Code
+.\..\Source\leds.v=Verilog Source Code
+.\..\Source\Or8.v=Verilog Source Code
+.\..\Source\Or18.v=Verilog Source Code
+.\..\Source\DelayBit.v=Verilog Source Code
+.\..\Source\LeadDelay.v=Verilog Source Code
+.\..\Source\retrigger.v=Verilog Source Code
+.\..\Source\Input_Reg.v=Verilog Source Code
+.\..\Source\PulseStretch.v=Verilog Source Code
+.\..\Source\BackOr5.v=Verilog Source Code
+.\..\Source\BackOr.v=Verilog Source Code
+.\..\Source\ScatterTrig.v=Verilog Source Code
+.\..\Source\TrigTDC_tf.v=Verilog Source Code
+.\..\mypll1.v=Verilog Source Code
+.\..\Source\TriggerTDC.v=Verilog Source Code
+.\..\test1.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

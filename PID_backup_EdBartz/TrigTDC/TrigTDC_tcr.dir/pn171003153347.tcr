@@ -1,0 +1,8 @@
+#Start recording tcl command: 10/3/2017 10:57:46
+#Project Location: D:/bartz/Documents/Lattice/TrigTDC; Project name: TrigTDC
+prj_project open "D:/bartz/Documents/Lattice/TrigTDC/TrigTDC.ldf"
+prj_src add "D:/bartz/Desktop/EthanTDC.v"
+prj_src remove "D:/bartz/Desktop/EthanTDC.v"
+prj_project save
+prj_project close
+#Stop recording: 10/3/2017 15:33:47

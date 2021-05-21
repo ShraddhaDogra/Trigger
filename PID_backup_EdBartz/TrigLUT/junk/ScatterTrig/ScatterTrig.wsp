@@ -1,0 +1,36 @@
+[COMPILESTATUS|.\..\Source\Delay_buf.v]
+FileTimeLow=30428089
+Status=Compiled
+[COMPILESTATUS|.\..\Source\Stretcher.v]
+FileTimeLow=30428090
+Status=Compiled
+[COMPILESTATUS|.\..\Source\LeadDelay.v]
+FileTimeLow=30506897
+Status=Compiled
+[COMPILESTATUS|.\..\Source\SR_Latch.v]
+FileTimeLow=30506896
+Status=Compiled
+[COMPILESTATUS|.\..\Source\retrigger.v]
+FileTimeLow=30506901
+Status=Compiled
+[COMPILESTATUS|.\..\Source\SR_Reg.v]
+FileTimeLow=30506897
+Status=Compiled
+[COMPILESTATUS|.\..\TrigLUT\source\Top.v]
+FileTimeLow=30506942
+Status=Compiled
+[COMPILESTATUS|.\..\Source\TrigLUT_tf.v]
+FileTimeLow=30506946
+Status=Compiled
+[CACHEDOC|Aldec.Project.Generic.7|.\ScatterTrig.adf|]
+Path=/Stretcher
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\..\Source\SR_Reg.v|]
+CurrentLine=6
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////+AIAAB3AAAAxQ4AAHIDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[Gui config]
+RunFor=1000 ns

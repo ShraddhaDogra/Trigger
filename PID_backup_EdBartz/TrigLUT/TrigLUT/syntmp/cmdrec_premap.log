@@ -1,0 +1,13 @@
+D:\Cad\lscc\diamond\3.7_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT   -part LFE3_150EA  -package FN672C  -grade -8    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synlog\report\TrigLUT_TrigLUT_premap.xml  -top_level_module  ScatterTrig  -oedif  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\TrigLUT_TrigLUT.edi  -conchk_prepass  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\TrigLUT_TrigLUT_cck.rpt   -autoconstraint  -freq 1.000   D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_prem.srd  -devicelib  D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v  -devicelib  D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\syntmp\TrigLUT_TrigLUT.plg  -osyn  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_prem.srd  -prjdir  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\  -prjname  proj_1  -log  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synlog\TrigLUT_TrigLUT_premap.srr 
+rc:1 success:1 runtime:1
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\TrigLUT_TrigLUT.edi|o|1461856302|2963566
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\TrigLUT_TrigLUT_cck.rpt|o|1474486818|19453
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_mult.srs|i|1474486818|10884
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_prem.srd|o|1474486818|86934
+D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v|i|1449726582|120358
+D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v|i|1449726582|40584
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\syntmp\TrigLUT_TrigLUT.plg|o|1474486818|0
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_prem.srd|o|1474486818|86934
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synlog\TrigLUT_TrigLUT_premap.srr|o|1474486818|114236
+D:\Cad\lscc\diamond\3.7_x64\synpbase\bin\m_gen_lattice.exe|i|1452316602|17846272
+D:\Cad\lscc\diamond\3.7_x64\synpbase\bin64\m_gen_lattice.exe|i|1452317978|21336576

@@ -1,0 +1,42 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Feb 24 13:49:56 2016 *
+NOTE DESIGN NAME: Top *
+NOTE DEVICE NAME: LFE3-150EA-8FPBGA672 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS OutpA[0] : P3 : out *
+NOTE PINS INP[0] : P1 : in *
+NOTE PINS OutpD[2] : J26 : out *
+NOTE PINS OutpD[1] : R22 : out *
+NOTE PINS OutpD[0] : N23 : out *
+NOTE PINS OutpC[2] : K26 : out *
+NOTE PINS OutpC[1] : L19 : out *
+NOTE PINS OutpC[0] : N22 : out *
+NOTE PINS OutpB[2] : AD4 : out *
+NOTE PINS OutpB[1] : AE3 : out *
+NOTE PINS OutpB[0] : AB7 : out *
+NOTE PINS OutpA[2] : N5 : out *
+NOTE PINS OutpA[1] : N6 : out *
+NOTE PINS InpD : P23 : in *
+NOTE PINS InpC : K19 : in *
+NOTE PINS InpB : W8 : in *
+NOTE PINS InpA : N3 : in *
+NOTE PINS INP[53] : M22 : in *
+NOTE PINS INP[52] : L24 : in *
+NOTE PINS INP[51] : M23 : in *
+NOTE PINS INP[50] : K24 : in *
+NOTE PINS INP[49] : L20 : in *
+NOTE PINS INP[48] : H24 : in *
+NOTE PINS INP[36] : K23 : in *
+NOTE PINS INP[35] : H26 : in *
+NOTE PINS INP[34] : F24 : in *
+NOTE PINS INP[33] : G26 : in *
+NOTE PINS INP[32] : J23 : in *
+NOTE PINS INP[19] : Y6 : in *
+NOTE PINS INP[18] : AB3 : in *
+NOTE PINS INP[17] : AB5 : in *
+NOTE PINS INP[16] : AD1 : in *
+NOTE PINS INP[2] : R1 : in *
+NOTE PINS INP[1] : T2 : in *
+NOTE CONFIGURATION MODE: SPI *
+NOTE COMPRESSION: off *

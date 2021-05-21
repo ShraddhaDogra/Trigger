@@ -1,0 +1,80 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: D:\bartz\Documents\Lattice\TrigTest\TrigTest1\TrigTest1_TrigTest1_scck.rpt 
+Printing clock  summary report in "D:\bartz\Documents\Lattice\TrigTest\TrigTest1\TrigTest1_TrigTest1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: BN362 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand3.v":26:2:26:3|Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand3_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand4.v":28:2:28:3|Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand4_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand5.v":30:2:30:3|Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand5_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\bartz\documents\lattice\trigtest\source\mand6.v":32:2:32:3|Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand6_0(verilog) because there are no references to its outputs 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U35.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U34.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U33.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U32.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U31.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U30.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U24.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U23.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U22.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U21.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U20.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U13.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U12.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U11.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U10.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U3.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U2.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v":70:7:70:9|Net U1.U1.Y appears to be an unidentified clock source. Assuming default frequency. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=372  set on top level netlist Top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start        Requested     Requested     Clock        Clock              
+Clock        Frequency     Period        Type         Group              
+-------------------------------------------------------------------------
+System       200.0 MHz     5.000         system       system_clkgroup    
+Top|InpA     200.0 MHz     5.000         inferred     Inferred_clkgroup_3
+Top|InpB     200.0 MHz     5.000         inferred     Inferred_clkgroup_2
+Top|InpC     200.0 MHz     5.000         inferred     Inferred_clkgroup_1
+Top|InpD     200.0 MHz     5.000         inferred     Inferred_clkgroup_0
+=========================================================================
+
+@W: MT531 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\stretcher.v":19:4:19:5|Found signal identified as System clock which controls 18 sequential elements including U1.m.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\trigtest\source\mand6.v":32:2:32:3|Found inferred clock Top|InpD which controls 1 sequential elements including U36.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand5.v":30:2:30:3|Found inferred clock Top|InpC which controls 1 sequential elements including U25.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand4.v":28:2:28:3|Found inferred clock Top|InpB which controls 1 sequential elements including U14.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\trigtest\trigtest1\source\mand3.v":26:2:26:3|Found inferred clock Top|InpA which controls 1 sequential elements including U5.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 140MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Feb 24 13:48:15 2016
+
+###########################################################]

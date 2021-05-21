@@ -1,0 +1,1 @@
+ -erf "C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\compile\Trigtest1.erf" -work work -lc C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/library.cfg -fl C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/projlib.cfg -o C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/compile -l "work"   -dbg

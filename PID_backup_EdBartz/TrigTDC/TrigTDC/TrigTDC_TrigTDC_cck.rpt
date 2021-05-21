@@ -1,0 +1,377 @@
+# Synopsys Constraint Checker, version maplat, Build 1682R, built Mar 10 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Oct 04 16:01:03 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "TriggerTDCTop"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                               Ending                                 |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                 System                                 |     2.465            |     No paths         |     No paths         |     No paths                         
+System                                 Cpll|CLKOP_inferred_clock              |     1000.000         |     No paths         |     1000.000         |     No paths                         
+System                                 Cpll1|CLKOP_inferred_clock             |     240.613          |     No paths         |     240.613          |     No paths                         
+System                                 ComTrans|Write_inferred_clock          |     No paths         |     No paths         |     1000.000         |     No paths                         
+Cpll|CLKOP_inferred_clock              System                                 |     1000.000         |     No paths         |     No paths         |     1000.000                         
+Cpll|CLKOP_inferred_clock              Cpll|CLKOP_inferred_clock              |     1000.000         |     1000.000         |     500.000          |     500.000                          
+Cpll|CLKOP_inferred_clock              DeBounce_0|Q_derived_clock             |     1000.000         |     No paths         |     500.000          |     No paths                         
+Cpll|CLKOP_inferred_clock              DeBounce_1|Q_derived_clock             |     1000.000         |     No paths         |     500.000          |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[47]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              ComTrans|Write_inferred_clock          |     No paths         |     No paths         |     Diff grp         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[46]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[45]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[44]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[43]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[42]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[41]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[40]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[39]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[38]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[37]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[36]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[35]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[34]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[33]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[32]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[31]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[30]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[29]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[28]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[27]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[26]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[25]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[24]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[23]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[22]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[21]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[20]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[19]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[18]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[17]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[16]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[15]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[14]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[13]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[12]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[11]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[10]     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[9]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[8]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[7]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[6]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[5]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[4]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[3]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[2]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[1]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll|CLKOP_inferred_clock              Input_Reg_48s|Q_inferred_clock[0]      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll1|CLKOS_inferred_clock             Cpll1|CLKOS_inferred_clock             |     240.590          |     240.590          |     120.295          |     No paths                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[47]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[46]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[45]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[44]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[43]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[42]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[41]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[40]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[39]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[38]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[37]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[36]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[35]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[34]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[33]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[32]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[31]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[30]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[29]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[28]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[27]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[26]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[25]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[24]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[23]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[22]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[21]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[20]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[19]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[18]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[17]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[16]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[15]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[14]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[13]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[12]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[11]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[10]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[9]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[8]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[7]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[6]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[5]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[4]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[3]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[2]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[1]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOS_inferred_clock             Input_Reg_48s|Q_inferred_clock[0]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             System                                 |     No paths         |     No paths         |     No paths         |     240.613                          
+Cpll1|CLKOP_inferred_clock             Cpll1|CLKOS_inferred_clock             |     Diff grp         |     No paths         |     No paths         |     No paths                         
+Cpll1|CLKOP_inferred_clock             Cpll1|CLKOP_inferred_clock             |     240.613          |     240.613          |     120.307          |     No paths                         
+Cpll1|CLKOP_inferred_clock             Cpll2|CLKOS_inferred_clock             |     No paths         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[47]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[46]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[45]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[44]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[43]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[42]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[41]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[40]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[39]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[38]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[37]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[36]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[35]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[34]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[33]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[32]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[31]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[30]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[29]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[28]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[27]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[26]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[25]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[24]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[23]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[22]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[21]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[20]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[19]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[18]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[17]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[16]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[15]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[14]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[13]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[12]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[11]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[10]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[9]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[8]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[7]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[6]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[5]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[4]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[3]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[2]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[1]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll1|CLKOP_inferred_clock             Input_Reg_48s|Q_inferred_clock[0]      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+Cpll2|CLKOS_inferred_clock             Cpll1|CLKOP_inferred_clock             |     No paths         |     No paths         |     Diff grp         |     No paths                         
+Cpll2|CLKOS_inferred_clock             Cpll2|CLKOS_inferred_clock             |     1.601            |     No paths         |     No paths         |     No paths                         
+DeBounce_0|Q_derived_clock             Cpll|CLKOP_inferred_clock              |     1000.000         |     No paths         |     No paths         |     No paths                         
+DeBounce_0|Q_derived_clock             DeBounce_0|Q_derived_clock             |     No paths         |     1000.000         |     500.000          |     500.000                          
+DeBounce_1|Q_derived_clock             Cpll|CLKOP_inferred_clock              |     No paths         |     No paths         |     No paths         |     500.000                          
+DeBounce_1|Q_derived_clock             DeBounce_0|Q_derived_clock             |     No paths         |     1000.000         |     No paths         |     500.000                          
+DeBounce_1|Q_derived_clock             DeBounce_1|Q_derived_clock             |     No paths         |     1000.000         |     No paths         |     500.000                          
+Input_Reg_48s|Q_inferred_clock[47]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+ComTrans|Write_inferred_clock          System                                 |     No paths         |     No paths         |     No paths         |     1000.000                         
+ComTrans|Write_inferred_clock          Cpll|CLKOP_inferred_clock              |     No paths         |     No paths         |     No paths         |     Diff grp                         
+ComTrans|Write_inferred_clock          Cpll2|CLKOS_inferred_clock             |     No paths         |     No paths         |     No paths         |     Diff grp                         
+Input_Reg_48s|Q_inferred_clock[46]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[45]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[44]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[43]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[42]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[41]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[40]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[39]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[38]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[37]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[36]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[35]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[34]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[33]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[32]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[31]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[30]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[29]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[28]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[27]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[26]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[25]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[24]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[23]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[22]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[21]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[20]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[19]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[18]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[17]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[16]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[15]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[14]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[13]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[12]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[11]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[10]     Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[9]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[8]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[7]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[6]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[5]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[4]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[3]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[2]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[1]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+Input_Reg_48s|Q_inferred_clock[0]      Cpll|CLKOP_inferred_clock              |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+=========================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:INP[0]
+p:INP[1]
+p:INP[2]
+p:INP[3]
+p:INP[4]
+p:INP[5]
+p:INP[6]
+p:INP[7]
+p:INP[8]
+p:INP[9]
+p:INP[10]
+p:INP[11]
+p:INP[12]
+p:INP[13]
+p:INP[14]
+p:INP[15]
+p:INP[16]
+p:INP[17]
+p:INP[18]
+p:INP[19]
+p:INP[20]
+p:INP[21]
+p:INP[22]
+p:INP[23]
+p:INP[24]
+p:INP[25]
+p:INP[26]
+p:INP[27]
+p:INP[28]
+p:INP[29]
+p:INP[30]
+p:INP[31]
+p:INP[32]
+p:INP[33]
+p:INP[34]
+p:INP[35]
+p:INP[36]
+p:INP[37]
+p:INP[38]
+p:INP[39]
+p:INP[40]
+p:INP[41]
+p:INP[42]
+p:INP[43]
+p:INP[44]
+p:INP[45]
+p:INP[46]
+p:INP[47]
+p:IN_pA
+p:IN_pB
+p:IN_pC
+p:IN_pD
+p:LED_GREEN
+p:LED_ORANGE
+p:LED_RED
+p:LED_YELLOW
+p:MCLK
+p:OUT_pA[0]
+p:OUT_pA[1]
+p:OUT_pA[2]
+p:OUT_pB[0]
+p:OUT_pB[1]
+p:OUT_pB[2]
+p:OUT_pC[0]
+p:OUT_pC[1]
+p:OUT_pC[2]
+p:OUT_pD[0]
+p:OUT_pD[1]
+p:TestIn[0]
+p:TestIn[1]
+p:TestIn[2]
+p:TestIn[3]
+p:TestIn[4]
+p:TestIn[5]
+p:TestIn[6]
+p:TestIn[7]
+p:TestIn[8]
+p:TestIn[9]
+p:TestIn[10]
+p:TestIn[11]
+p:TestIn[12]
+p:TestIn[13]
+p:TestLED[0]
+p:TestLED[1]
+p:TestLED[2]
+p:TestLED[3]
+p:TestLED[5]
+p:TestLED[6]
+p:TestLED[7]
+p:TestOut[0]
+p:TestOut[1]
+p:TestOut[2]
+p:TestOut[3]
+p:TestOut[4]
+p:TestOut[5]
+p:TestOut[6]
+p:TestOut[7]
+p:TestOut[10]
+p:TestOut[11]
+p:reset_i
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

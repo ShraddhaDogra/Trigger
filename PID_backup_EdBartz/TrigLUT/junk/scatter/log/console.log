@@ -1,0 +1,154 @@
+# Design Explorer: Shortcut to "D:\bartz\Documents\Lattice\TrigLUT\scatter\scatter.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_ecp3
+designverlibrarysim pcsd_work
+designverdefinemacro -clear
+addfile D:/bartz/Documents/Lattice/TrigLUT/Source/LeadDelay.v
+# Adding file D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v ... Done
+addfile D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Latch.v
+# Adding file D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Latch.v ... Done
+addfile D:/bartz/Documents/Lattice/TrigLUT/Source/retrigger.v
+# Adding file D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v ... Done
+addfile D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Reg.v
+# Adding file D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Reg.v ... Done
+addfile D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/source/Top.v
+# Adding file D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\source\Top.v ... Done
+addfile D:/bartz/Documents/Lattice/TrigLUT/Source/TrigLUT_tf.v
+# Adding file D:\bartz\Documents\Lattice\TrigLUT\Source\TrigLUT_tf.v ... Done
+vlib D:/bartz/Documents/Lattice/TrigLUT/scatter/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vlog -dbg -work work D:/bartz/Documents/Lattice/TrigLUT/Source/LeadDelay.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: LeadDelay.
+# $root top modules: LeadDelay.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Latch.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 Source/SR_Latch.v : (5, 16): Implicit net declaration, symbol q_i has not been declared in module SR_Latch.
+# Info: VCP2876 Source/SR_Latch.v : (6, 19): Implicit net declaration, symbol qbar_i has not been declared in module SR_Latch.
+# Info: VCP2876 Source/SR_Latch.v : (8, 17): Implicit net declaration, symbol rbar has not been declared in module SR_Latch.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: SR_Latch.
+# $root top modules: LeadDelay SR_Latch.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/bartz/Documents/Lattice/TrigLUT/Source/retrigger.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module SR_Latch found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ReTrigger.
+# $root top modules: LeadDelay ReTrigger.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Reg.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module SR_Latch found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: SR_Reg.
+# $root top modules: LeadDelay ReTrigger SR_Reg.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/source/Top.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module SR_Reg found in current working library.
+# Info: VCP2113 Module ReTrigger found in current working library.
+# Info: VCP2113 Module LeadDelay found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ScatterTrig.
+# $root top modules: ScatterTrig.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/bartz/Documents/Lattice/TrigLUT/Source/TrigLUT_tf.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module ScatterTrig found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 Source/TrigLUT_tf.v : (39, 28): Implicit net declaration, symbol clk has not been declared in module ScatterTrig_tf.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ScatterTrig_tf.
+# $root top modules: ScatterTrig_tf.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module ScatterTrig_tf
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'ScatterTrig' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SR_Reg' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'ReTrigger' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SR_Latch' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r ScatterTrig_tf -PL pmi_work -L ovi_ecp3 -L pcsd_work
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'ScatterTrig' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SR_Reg' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'ReTrigger' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SR_Latch' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: LeadDelay.v (24): Index [-1] is out of range [4:0] of 'res'.
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 42 (100.00%) other processes in SLP
+# SLP: 82 (98.80%) signals in SLP and 1 (1.20%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5797 kB (elbread=1024 elab2=4628 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location D:\bartz\Documents\Lattice\TrigLUT\scatter\src\wave.asdb
+#  9:20 AM, Thursday, March 17, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: ScatterTrig_tf (ScatterTrig_tf)
+add wave *
+# 8 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'D:/bartz/Documents/Lattice/TrigLUT/scatter/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+#  Simulation has been stopped

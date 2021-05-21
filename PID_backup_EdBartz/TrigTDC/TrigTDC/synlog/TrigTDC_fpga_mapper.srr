@@ -1,0 +1,652 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 1368R, Built Jan  8 2016 09:37:50
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version K-2015.09L-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N:"d:\bartz\documents\lattice\trigtdc\source\leds.v":35:0:35:5|Found counter in view:work.TriggerTDC(verilog) inst Blink.count[31:0]
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.92ns		   3 /        35
+   2		0h:00m:00s		    -0.92ns		   3 /        35
+
+   3		0h:00m:00s		    -0.92ns		   3 /        35
+
+   4		0h:00m:00s		    -0.92ns		   3 /        35
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 35 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK_GPLL_RIGHT      port                   35         Blink.count[31]
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 140MB)
+
+Writing Analyst data base D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synwork\TrigTDC_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\TrigTDC.edi
+K-2015.09L-2
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+@W: MT246 :"d:\bartz\documents\lattice\trigtdc\mypll1.v":41:12:41:20|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock TriggerTDC|CLK_GPLL_RIGHT with period 3.43ns. Please declare a user-defined clock on object "p:CLK_GPLL_RIGHT"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Aug 10 15:59:03 2016
+#
+
+
+Top view:               TriggerTDC
+Requested Frequency:    291.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.606
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                              Requested     Estimated     Requested     Estimated                  Clock        Clock                
+Starting Clock                Frequency     Frequency     Period        Period        Slack        Type         Group                
+-------------------------------------------------------------------------------------------------------------------------------------
+TriggerTDC|CLK_GPLL_RIGHT     291.3 MHz     247.6 MHz     3.433         4.039         -0.606       inferred     Autoconstr_clkgroup_0
+System                        1.0 MHz       NA            1000.000      0.000         1000.000     system       system_clkgroup      
+=====================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Starting                   Ending                     |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------
+System                     System                     |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+TriggerTDC|CLK_GPLL_RIGHT  TriggerTDC|CLK_GPLL_RIGHT  |  3.433       -0.606    |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: TriggerTDC|CLK_GPLL_RIGHT
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                       Arrival           
+Instance           Reference                     Type        Pin     Net          Time        Slack 
+                   Clock                                                                            
+----------------------------------------------------------------------------------------------------
+Blink.count[0]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[0]     1.069       -0.606
+Blink.count[1]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[1]     1.069       -0.606
+Blink.count[2]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[2]     1.069       -0.556
+Blink.count[3]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[3]     1.069       -0.556
+Blink.count[4]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[4]     1.069       -0.556
+Blink.count[5]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[5]     1.069       -0.556
+Blink.count[6]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[6]     1.069       -0.506
+Blink.count[7]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[7]     1.069       -0.506
+Blink.count[8]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[8]     1.069       -0.506
+Blink.count[9]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     Q       count[9]     1.069       -0.506
+====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                          Required           
+Instance            Reference                     Type        Pin     Net             Time         Slack 
+                    Clock                                                                                
+---------------------------------------------------------------------------------------------------------
+Blink.count[31]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[31]     3.349        -0.606
+Blink.count[29]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[29]     3.349        -0.556
+Blink.count[30]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[30]     3.349        -0.556
+Blink.count[27]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[27]     3.349        -0.506
+Blink.count[28]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[28]     3.349        -0.506
+Blink.count[25]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[25]     3.349        -0.456
+Blink.count[26]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[26]     3.349        -0.456
+Blink.count[23]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[23]     3.349        -0.406
+Blink.count[24]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[24]     3.349        -0.406
+Blink.count[21]     TriggerTDC|CLK_GPLL_RIGHT     FD1S3AX     D       count_s[21]     3.349        -0.356
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.433
+    - Setup time:                            0.084
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.349
+
+    - Propagation time:                      3.955
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.606
+
+    Number of logic level(s):                14
+    Starting point:                          Blink.count[0] / Q
+    Ending point:                            Blink.count[31] / D
+    The start point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+    The end   point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+Blink.count[0]                FD1S3AX     Q        Out     1.069     1.069       -         
+count[0]                      Net         -        -       -         -           2         
+Blink.count_qxu_par_1[0]      CCU2C       A1       In      0.000     1.069       -         
+Blink.count_qxu_par_1[0]      CCU2C       COUT     Out     1.224     2.292       -         
+count_qxu_par_1_COUT[0]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[2]      CCU2C       CIN      In      0.000     2.292       -         
+Blink.count_qxu_par_1[2]      CCU2C       COUT     Out     0.050     2.342       -         
+count_qxu_par_1_COUT[2]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[6]      CCU2C       CIN      In      0.000     2.342       -         
+Blink.count_qxu_par_1[6]      CCU2C       COUT     Out     0.050     2.392       -         
+count_qxu_par_1_COUT[6]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[10]     CCU2C       CIN      In      0.000     2.392       -         
+Blink.count_qxu_par_1[10]     CCU2C       COUT     Out     0.050     2.442       -         
+count_cry[12]                 Net         -        -       -         -           1         
+Blink.count_cry_0[13]         CCU2C       CIN      In      0.000     2.442       -         
+Blink.count_cry_0[13]         CCU2C       COUT     Out     0.050     2.492       -         
+count_cry[14]                 Net         -        -       -         -           1         
+Blink.count_cry_0[15]         CCU2C       CIN      In      0.000     2.492       -         
+Blink.count_cry_0[15]         CCU2C       COUT     Out     0.050     2.542       -         
+count_cry[16]                 Net         -        -       -         -           1         
+Blink.count_cry_0[17]         CCU2C       CIN      In      0.000     2.542       -         
+Blink.count_cry_0[17]         CCU2C       COUT     Out     0.050     2.592       -         
+count_cry[18]                 Net         -        -       -         -           1         
+Blink.count_cry_0[19]         CCU2C       CIN      In      0.000     2.592       -         
+Blink.count_cry_0[19]         CCU2C       COUT     Out     0.050     2.642       -         
+count_cry[20]                 Net         -        -       -         -           1         
+Blink.count_cry_0[21]         CCU2C       CIN      In      0.000     2.642       -         
+Blink.count_cry_0[21]         CCU2C       COUT     Out     0.050     2.692       -         
+count_cry[22]                 Net         -        -       -         -           1         
+Blink.count_cry_0[23]         CCU2C       CIN      In      0.000     2.692       -         
+Blink.count_cry_0[23]         CCU2C       COUT     Out     0.050     2.742       -         
+count_cry[24]                 Net         -        -       -         -           1         
+Blink.count_cry_0[25]         CCU2C       CIN      In      0.000     2.742       -         
+Blink.count_cry_0[25]         CCU2C       COUT     Out     0.050     2.792       -         
+count_cry[26]                 Net         -        -       -         -           1         
+Blink.count_cry_0[27]         CCU2C       CIN      In      0.000     2.792       -         
+Blink.count_cry_0[27]         CCU2C       COUT     Out     0.050     2.842       -         
+count_cry[28]                 Net         -        -       -         -           1         
+Blink.count_cry_0[29]         CCU2C       CIN      In      0.000     2.842       -         
+Blink.count_cry_0[29]         CCU2C       COUT     Out     0.050     2.892       -         
+count_cry[30]                 Net         -        -       -         -           1         
+Blink.count_s_0[31]           CCU2C       CIN      In      0.000     2.892       -         
+Blink.count_s_0[31]           CCU2C       S0       Out     1.063     3.955       -         
+count_s[31]                   Net         -        -       -         -           1         
+Blink.count[31]               FD1S3AX     D        In      0.000     3.955       -         
+===========================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      3.433
+    - Setup time:                            0.084
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.349
+
+    - Propagation time:                      3.955
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.606
+
+    Number of logic level(s):                14
+    Starting point:                          Blink.count[1] / Q
+    Ending point:                            Blink.count[31] / D
+    The start point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+    The end   point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+Blink.count[1]                FD1S3AX     Q        Out     1.069     1.069       -         
+count[1]                      Net         -        -       -         -           2         
+Blink.count_qxu_par_1[0]      CCU2C       B1       In      0.000     1.069       -         
+Blink.count_qxu_par_1[0]      CCU2C       COUT     Out     1.224     2.292       -         
+count_qxu_par_1_COUT[0]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[2]      CCU2C       CIN      In      0.000     2.292       -         
+Blink.count_qxu_par_1[2]      CCU2C       COUT     Out     0.050     2.342       -         
+count_qxu_par_1_COUT[2]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[6]      CCU2C       CIN      In      0.000     2.342       -         
+Blink.count_qxu_par_1[6]      CCU2C       COUT     Out     0.050     2.392       -         
+count_qxu_par_1_COUT[6]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[10]     CCU2C       CIN      In      0.000     2.392       -         
+Blink.count_qxu_par_1[10]     CCU2C       COUT     Out     0.050     2.442       -         
+count_cry[12]                 Net         -        -       -         -           1         
+Blink.count_cry_0[13]         CCU2C       CIN      In      0.000     2.442       -         
+Blink.count_cry_0[13]         CCU2C       COUT     Out     0.050     2.492       -         
+count_cry[14]                 Net         -        -       -         -           1         
+Blink.count_cry_0[15]         CCU2C       CIN      In      0.000     2.492       -         
+Blink.count_cry_0[15]         CCU2C       COUT     Out     0.050     2.542       -         
+count_cry[16]                 Net         -        -       -         -           1         
+Blink.count_cry_0[17]         CCU2C       CIN      In      0.000     2.542       -         
+Blink.count_cry_0[17]         CCU2C       COUT     Out     0.050     2.592       -         
+count_cry[18]                 Net         -        -       -         -           1         
+Blink.count_cry_0[19]         CCU2C       CIN      In      0.000     2.592       -         
+Blink.count_cry_0[19]         CCU2C       COUT     Out     0.050     2.642       -         
+count_cry[20]                 Net         -        -       -         -           1         
+Blink.count_cry_0[21]         CCU2C       CIN      In      0.000     2.642       -         
+Blink.count_cry_0[21]         CCU2C       COUT     Out     0.050     2.692       -         
+count_cry[22]                 Net         -        -       -         -           1         
+Blink.count_cry_0[23]         CCU2C       CIN      In      0.000     2.692       -         
+Blink.count_cry_0[23]         CCU2C       COUT     Out     0.050     2.742       -         
+count_cry[24]                 Net         -        -       -         -           1         
+Blink.count_cry_0[25]         CCU2C       CIN      In      0.000     2.742       -         
+Blink.count_cry_0[25]         CCU2C       COUT     Out     0.050     2.792       -         
+count_cry[26]                 Net         -        -       -         -           1         
+Blink.count_cry_0[27]         CCU2C       CIN      In      0.000     2.792       -         
+Blink.count_cry_0[27]         CCU2C       COUT     Out     0.050     2.842       -         
+count_cry[28]                 Net         -        -       -         -           1         
+Blink.count_cry_0[29]         CCU2C       CIN      In      0.000     2.842       -         
+Blink.count_cry_0[29]         CCU2C       COUT     Out     0.050     2.892       -         
+count_cry[30]                 Net         -        -       -         -           1         
+Blink.count_s_0[31]           CCU2C       CIN      In      0.000     2.892       -         
+Blink.count_s_0[31]           CCU2C       S0       Out     1.063     3.955       -         
+count_s[31]                   Net         -        -       -         -           1         
+Blink.count[31]               FD1S3AX     D        In      0.000     3.955       -         
+===========================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      3.433
+    - Setup time:                            0.084
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.349
+
+    - Propagation time:                      3.905
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.556
+
+    Number of logic level(s):                13
+    Starting point:                          Blink.count[2] / Q
+    Ending point:                            Blink.count[31] / D
+    The start point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+    The end   point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+Blink.count[2]                FD1S3AX     Q        Out     1.069     1.069       -         
+count[2]                      Net         -        -       -         -           2         
+Blink.count_qxu_par_1[2]      CCU2C       A0       In      0.000     1.069       -         
+Blink.count_qxu_par_1[2]      CCU2C       COUT     Out     1.224     2.292       -         
+count_qxu_par_1_COUT[2]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[6]      CCU2C       CIN      In      0.000     2.292       -         
+Blink.count_qxu_par_1[6]      CCU2C       COUT     Out     0.050     2.342       -         
+count_qxu_par_1_COUT[6]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[10]     CCU2C       CIN      In      0.000     2.342       -         
+Blink.count_qxu_par_1[10]     CCU2C       COUT     Out     0.050     2.392       -         
+count_cry[12]                 Net         -        -       -         -           1         
+Blink.count_cry_0[13]         CCU2C       CIN      In      0.000     2.392       -         
+Blink.count_cry_0[13]         CCU2C       COUT     Out     0.050     2.442       -         
+count_cry[14]                 Net         -        -       -         -           1         
+Blink.count_cry_0[15]         CCU2C       CIN      In      0.000     2.442       -         
+Blink.count_cry_0[15]         CCU2C       COUT     Out     0.050     2.492       -         
+count_cry[16]                 Net         -        -       -         -           1         
+Blink.count_cry_0[17]         CCU2C       CIN      In      0.000     2.492       -         
+Blink.count_cry_0[17]         CCU2C       COUT     Out     0.050     2.542       -         
+count_cry[18]                 Net         -        -       -         -           1         
+Blink.count_cry_0[19]         CCU2C       CIN      In      0.000     2.542       -         
+Blink.count_cry_0[19]         CCU2C       COUT     Out     0.050     2.592       -         
+count_cry[20]                 Net         -        -       -         -           1         
+Blink.count_cry_0[21]         CCU2C       CIN      In      0.000     2.592       -         
+Blink.count_cry_0[21]         CCU2C       COUT     Out     0.050     2.642       -         
+count_cry[22]                 Net         -        -       -         -           1         
+Blink.count_cry_0[23]         CCU2C       CIN      In      0.000     2.642       -         
+Blink.count_cry_0[23]         CCU2C       COUT     Out     0.050     2.692       -         
+count_cry[24]                 Net         -        -       -         -           1         
+Blink.count_cry_0[25]         CCU2C       CIN      In      0.000     2.692       -         
+Blink.count_cry_0[25]         CCU2C       COUT     Out     0.050     2.742       -         
+count_cry[26]                 Net         -        -       -         -           1         
+Blink.count_cry_0[27]         CCU2C       CIN      In      0.000     2.742       -         
+Blink.count_cry_0[27]         CCU2C       COUT     Out     0.050     2.792       -         
+count_cry[28]                 Net         -        -       -         -           1         
+Blink.count_cry_0[29]         CCU2C       CIN      In      0.000     2.792       -         
+Blink.count_cry_0[29]         CCU2C       COUT     Out     0.050     2.842       -         
+count_cry[30]                 Net         -        -       -         -           1         
+Blink.count_s_0[31]           CCU2C       CIN      In      0.000     2.842       -         
+Blink.count_s_0[31]           CCU2C       S0       Out     1.063     3.905       -         
+count_s[31]                   Net         -        -       -         -           1         
+Blink.count[31]               FD1S3AX     D        In      0.000     3.905       -         
+===========================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      3.433
+    - Setup time:                            0.084
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.349
+
+    - Propagation time:                      3.905
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.556
+
+    Number of logic level(s):                13
+    Starting point:                          Blink.count[3] / Q
+    Ending point:                            Blink.count[31] / D
+    The start point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+    The end   point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+Blink.count[3]                FD1S3AX     Q        Out     1.069     1.069       -         
+count[3]                      Net         -        -       -         -           2         
+Blink.count_qxu_par_1[2]      CCU2C       B0       In      0.000     1.069       -         
+Blink.count_qxu_par_1[2]      CCU2C       COUT     Out     1.224     2.292       -         
+count_qxu_par_1_COUT[2]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[6]      CCU2C       CIN      In      0.000     2.292       -         
+Blink.count_qxu_par_1[6]      CCU2C       COUT     Out     0.050     2.342       -         
+count_qxu_par_1_COUT[6]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[10]     CCU2C       CIN      In      0.000     2.342       -         
+Blink.count_qxu_par_1[10]     CCU2C       COUT     Out     0.050     2.392       -         
+count_cry[12]                 Net         -        -       -         -           1         
+Blink.count_cry_0[13]         CCU2C       CIN      In      0.000     2.392       -         
+Blink.count_cry_0[13]         CCU2C       COUT     Out     0.050     2.442       -         
+count_cry[14]                 Net         -        -       -         -           1         
+Blink.count_cry_0[15]         CCU2C       CIN      In      0.000     2.442       -         
+Blink.count_cry_0[15]         CCU2C       COUT     Out     0.050     2.492       -         
+count_cry[16]                 Net         -        -       -         -           1         
+Blink.count_cry_0[17]         CCU2C       CIN      In      0.000     2.492       -         
+Blink.count_cry_0[17]         CCU2C       COUT     Out     0.050     2.542       -         
+count_cry[18]                 Net         -        -       -         -           1         
+Blink.count_cry_0[19]         CCU2C       CIN      In      0.000     2.542       -         
+Blink.count_cry_0[19]         CCU2C       COUT     Out     0.050     2.592       -         
+count_cry[20]                 Net         -        -       -         -           1         
+Blink.count_cry_0[21]         CCU2C       CIN      In      0.000     2.592       -         
+Blink.count_cry_0[21]         CCU2C       COUT     Out     0.050     2.642       -         
+count_cry[22]                 Net         -        -       -         -           1         
+Blink.count_cry_0[23]         CCU2C       CIN      In      0.000     2.642       -         
+Blink.count_cry_0[23]         CCU2C       COUT     Out     0.050     2.692       -         
+count_cry[24]                 Net         -        -       -         -           1         
+Blink.count_cry_0[25]         CCU2C       CIN      In      0.000     2.692       -         
+Blink.count_cry_0[25]         CCU2C       COUT     Out     0.050     2.742       -         
+count_cry[26]                 Net         -        -       -         -           1         
+Blink.count_cry_0[27]         CCU2C       CIN      In      0.000     2.742       -         
+Blink.count_cry_0[27]         CCU2C       COUT     Out     0.050     2.792       -         
+count_cry[28]                 Net         -        -       -         -           1         
+Blink.count_cry_0[29]         CCU2C       CIN      In      0.000     2.792       -         
+Blink.count_cry_0[29]         CCU2C       COUT     Out     0.050     2.842       -         
+count_cry[30]                 Net         -        -       -         -           1         
+Blink.count_s_0[31]           CCU2C       CIN      In      0.000     2.842       -         
+Blink.count_s_0[31]           CCU2C       S0       Out     1.063     3.905       -         
+count_s[31]                   Net         -        -       -         -           1         
+Blink.count[31]               FD1S3AX     D        In      0.000     3.905       -         
+===========================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      3.433
+    - Setup time:                            0.084
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.349
+
+    - Propagation time:                      3.905
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.556
+
+    Number of logic level(s):                13
+    Starting point:                          Blink.count[4] / Q
+    Ending point:                            Blink.count[31] / D
+    The start point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+    The end   point is clocked by            TriggerTDC|CLK_GPLL_RIGHT [rising] on pin CK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+Blink.count[4]                FD1S3AX     Q        Out     1.069     1.069       -         
+count[4]                      Net         -        -       -         -           2         
+Blink.count_qxu_par_1[2]      CCU2C       A1       In      0.000     1.069       -         
+Blink.count_qxu_par_1[2]      CCU2C       COUT     Out     1.224     2.292       -         
+count_qxu_par_1_COUT[2]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[6]      CCU2C       CIN      In      0.000     2.292       -         
+Blink.count_qxu_par_1[6]      CCU2C       COUT     Out     0.050     2.342       -         
+count_qxu_par_1_COUT[6]       Net         -        -       -         -           1         
+Blink.count_qxu_par_1[10]     CCU2C       CIN      In      0.000     2.342       -         
+Blink.count_qxu_par_1[10]     CCU2C       COUT     Out     0.050     2.392       -         
+count_cry[12]                 Net         -        -       -         -           1         
+Blink.count_cry_0[13]         CCU2C       CIN      In      0.000     2.392       -         
+Blink.count_cry_0[13]         CCU2C       COUT     Out     0.050     2.442       -         
+count_cry[14]                 Net         -        -       -         -           1         
+Blink.count_cry_0[15]         CCU2C       CIN      In      0.000     2.442       -         
+Blink.count_cry_0[15]         CCU2C       COUT     Out     0.050     2.492       -         
+count_cry[16]                 Net         -        -       -         -           1         
+Blink.count_cry_0[17]         CCU2C       CIN      In      0.000     2.492       -         
+Blink.count_cry_0[17]         CCU2C       COUT     Out     0.050     2.542       -         
+count_cry[18]                 Net         -        -       -         -           1         
+Blink.count_cry_0[19]         CCU2C       CIN      In      0.000     2.542       -         
+Blink.count_cry_0[19]         CCU2C       COUT     Out     0.050     2.592       -         
+count_cry[20]                 Net         -        -       -         -           1         
+Blink.count_cry_0[21]         CCU2C       CIN      In      0.000     2.592       -         
+Blink.count_cry_0[21]         CCU2C       COUT     Out     0.050     2.642       -         
+count_cry[22]                 Net         -        -       -         -           1         
+Blink.count_cry_0[23]         CCU2C       CIN      In      0.000     2.642       -         
+Blink.count_cry_0[23]         CCU2C       COUT     Out     0.050     2.692       -         
+count_cry[24]                 Net         -        -       -         -           1         
+Blink.count_cry_0[25]         CCU2C       CIN      In      0.000     2.692       -         
+Blink.count_cry_0[25]         CCU2C       COUT     Out     0.050     2.742       -         
+count_cry[26]                 Net         -        -       -         -           1         
+Blink.count_cry_0[27]         CCU2C       CIN      In      0.000     2.742       -         
+Blink.count_cry_0[27]         CCU2C       COUT     Out     0.050     2.792       -         
+count_cry[28]                 Net         -        -       -         -           1         
+Blink.count_cry_0[29]         CCU2C       CIN      In      0.000     2.792       -         
+Blink.count_cry_0[29]         CCU2C       COUT     Out     0.050     2.842       -         
+count_cry[30]                 Net         -        -       -         -           1         
+Blink.count_s_0[31]           CCU2C       CIN      In      0.000     2.842       -         
+Blink.count_s_0[31]           CCU2C       S0       Out     1.063     3.905       -         
+count_s[31]                   Net         -        -       -         -           1         
+Blink.count[31]               FD1S3AX     D        In      0.000     3.905       -         
+===========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                      Arrival             
+Instance         Reference     Type        Pin       Net       Time        Slack   
+                 Clock                                                             
+-----------------------------------------------------------------------------------
+__.PLLInst_0     System        EHXPLLF     CLKOP     CLKOP     0.000       1000.000
+===================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                      Required             
+Instance         Reference     Type        Pin       Net       Time         Slack   
+                 Clock                                                              
+------------------------------------------------------------------------------------
+__.PLLInst_0     System        EHXPLLF     CLKFB     CLKOP     1000.000     1000.000
+====================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1000.000
+
+    Number of logic level(s):                0
+    Starting point:                          __.PLLInst_0 / CLKOP
+    Ending point:                            __.PLLInst_0 / CLKFB
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin       Pin               Arrival     No. of    
+Name               Type        Name      Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+__.PLLInst_0       EHXPLLF     CLKOP     Out     0.000     0.000       -         
+CLKOP              Net         -         -       -         -           1         
+__.PLLInst_0       EHXPLLF     CLKFB     In      0.000     0.000       -         
+=================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Constraints that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe3_150ea-8
+
+Register bits: 35 of 149040 (0%)
+PIC Latch:       0
+I/O cells:       14
+
+
+Details:
+CCU2C:          21
+EHXPLLF:        1
+FD1S3AX:        32
+GSR:            1
+IB:             1
+INV:            3
+OB:             13
+OFS1P3DX:       3
+PUR:            1
+VHI:            2
+VLO:            3
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 52MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 10 15:59:03 2016
+
+###########################################################]

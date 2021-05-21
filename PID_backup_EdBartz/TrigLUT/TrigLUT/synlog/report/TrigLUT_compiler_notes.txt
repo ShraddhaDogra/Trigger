@@ -1,0 +1,28 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v":1:7:1:15|Synthesizing module Input_Reg
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":1:7:1:15|Synthesizing module ReTrigger
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v":3:7:3:15|Synthesizing module LeadDelay
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v":3:7:3:14|Synthesizing module DelayBit
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v":23:7:23:18|Synthesizing module PulseStretch
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v":3:7:3:15|Synthesizing module LeadDelay
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v":3:7:3:14|Synthesizing module DelayBit
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v":23:7:23:18|Synthesizing module PulseStretch
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v":3:7:3:15|Synthesizing module LeadDelay
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v":3:7:3:14|Synthesizing module DelayBit
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v":23:7:23:18|Synthesizing module PulseStretch
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v":3:7:3:15|Synthesizing module LeadDelay
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v":3:7:3:14|Synthesizing module DelayBit
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v":23:7:23:18|Synthesizing module PulseStretch
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v":23:7:23:13|Synthesizing module BackOr3
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr5.v":23:7:23:13|Synthesizing module BackOr5
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v":1:7:1:15|Synthesizing module Input_Reg
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":1:7:1:15|Synthesizing module ReTrigger
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v":3:7:3:15|Synthesizing module LeadDelay
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v":23:7:23:18|Synthesizing module PulseStretch
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\Or18.v":23:7:23:10|Synthesizing module Or18
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\Or8.v":23:7:23:9|Synthesizing module Or8
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v":5:7:5:17|Synthesizing module ScatterTrig
+

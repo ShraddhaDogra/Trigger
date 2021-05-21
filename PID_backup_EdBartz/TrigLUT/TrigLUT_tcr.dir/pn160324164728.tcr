@@ -1,0 +1,55 @@
+#Start recording tcl command: 3/16/2016 14:46:45
+#Project Location: D:/bartz/Documents/Lattice/TrigLUT; Project name: TrigLUT
+prj_project open "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.ldf"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT_tf.v" "D:/bartz/Documents/Lattice/TrigLUT/Pipe_Delay.v" "D:/bartz/Documents/Lattice/TrigLUT/SR_Latch.v" "D:/bartz/Documents/Lattice/TrigLUT/SR_Reg.v" "D:/bartz/Documents/Lattice/TrigLUT/LeadDelay.v" "D:/bartz/Documents/Lattice/TrigLUT/retrigger.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/Source/Delay_buf.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/LeadDelay.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/retrigger.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Latch.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Reg.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/Stretcher.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/TrigLUT_tf.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/ScatterTrig/ScatterTrig.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/ScatterTrig/ScatterTrig.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/Scattertest/Scattertest.spf"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/Source/Delay_buf.v"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/Source/Stretcher.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/scatter/scatter.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/T_ff_clr.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/T_ff_pset.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/DelayBit.v"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/scatter/scatter.spf"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/ScatterTrig/ScatterTrig.spf" "D:/bartz/Documents/Lattice/TrigLUT/Scattertest/Scattertest.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/Input_Reg.v"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Latch.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Reg.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/test/test.spf"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/source/Top.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/LeadDelay.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/retrigger.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/TrigLUT_tf.v" "D:/bartz/Documents/Lattice/TrigLUT/T_ff_clr.v" "D:/bartz/Documents/Lattice/TrigLUT/T_ff_pset.v" "D:/bartz/Documents/Lattice/TrigLUT/DelayBit.v" "D:/bartz/Documents/Lattice/TrigLUT/Input_Reg.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/Source/BackOr.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/BackOr5.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/DelayBit.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/Input_Reg.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/LeadDelay.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/PulseStretch.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/retrigger.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/ScatterTrig.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Latch.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/SR_Reg.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/T_ff_clr.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/T_ff_pset.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/TrigLUT_tf.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/TrigTest1.lpf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/Source/Or8.v" "D:/bartz/Documents/Lattice/TrigLUT/Source/Or18.v"
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Translate -impl TrigLUT
+launch_synplify_prj TrigLUT
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Synthesis -impl TrigLUT -task Synplify_Synthesis
+prj_run Export -impl TrigLUT -task Bitgen
+#Stop recording: 3/24/2016 16:47:28

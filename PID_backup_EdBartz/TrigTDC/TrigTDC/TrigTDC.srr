@@ -1,0 +1,202 @@
+#Build: Synplify Pro K-2015.09L-2, Build 126R, Dec 14 2015
+#install: D:\Cad\lscc\diamond\3.7_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: BALIN
+
+# Thu Sep 01 10:58:31 2016
+
+#Implementation: TrigTDC
+
+Synopsys HDL Compiler, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\vlog\hypermods.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\TrigTDC_tf.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\leds.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll0.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll1.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll2.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll3.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\InputBit.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Input_Bit1.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll4.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module TriggerTDC
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Source\leds.v":23:7:23:10|Synthesizing module leds.
+
+@N: CG364 :"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v":457:7:457:9|Synthesizing module INV.
+
+@N: CG364 :"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v":1029:7:1029:9|Synthesizing module VLO.
+
+@N: CG364 :"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v":1552:7:1552:13|Synthesizing module EHXPLLF.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll.v":8:7:8:10|Synthesizing module Cpll.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll0.v":8:7:8:11|Synthesizing module Cpll0.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll1.v":8:7:8:11|Synthesizing module Cpll1.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll2.v":8:7:8:11|Synthesizing module Cpll2.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll3.v":8:7:8:11|Synthesizing module Cpll3.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll4.v":8:7:8:11|Synthesizing module Cpll4.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Source\InputBit.v":1:7:1:15|Synthesizing module Input_Bit.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":3:7:3:17|Synthesizing module FineTimeBit.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":5:7:5:16|Synthesizing module TriggerTDC.
+
+@W: CL168 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":146:12:146:14|Pruning instance fb1 -- not in use ...
+
+@W: CL168 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":139:10:139:15|Pruning instance TestIn -- not in use ...
+
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":10:13:10:18|*Output OUT_pA has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":10:21:10:26|*Output OUT_pB has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":10:29:10:34|*Output OUT_pC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":8:13:8:15|Input INP is unused.
+@N: CL159 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":9:7:9:11|Input IN_pA is unused.
+@N: CL159 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":9:14:9:18|Input IN_pB is unused.
+@N: CL159 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":9:21:9:25|Input IN_pC is unused.
+@W: CL247 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":7:21:7:23|Input port bit 5 of clk[5:0] is unused
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 01 10:58:31 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 01 10:58:31 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 01 10:58:31 2016
+
+###########################################################]
+
+@A: multi_srs_gen output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Multi-srs Generator Report
+@R:"D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synlog\TrigTDC_multi_srs_gen.srr"
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1368R, Built Jan  8 2016 09:37:50
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version K-2015.09L-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\TrigTDC_scck.rpt 
+Printing clock  summary report in "D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\TrigTDC_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=372  set on top level netlist TriggerTDC
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+Clock Summary
+*****************
+
+Start                          Requested     Requested     Clock        Clock                
+Clock                          Frequency     Period        Type         Group                
+---------------------------------------------------------------------------------------------
+Cpll4|CLKOS_inferred_clock     624.8 MHz     1.601         inferred     Autoconstr_clkgroup_0
+System                         1.0 MHz       1000.000      system       system_clkgroup      
+=============================================================================================
+
+@W: MT529 :"d:\bartz\documents\lattice\trigtdc\source\leds.v":35:0:35:5|Found inferred clock Cpll4|CLKOS_inferred_clock which controls 35 sequential elements including Blink.count[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:29:10:34|Tristate driver OUT_pC_1 (in view: work.TriggerTDC(verilog)) on net OUT_pC[2] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:29:10:34|Tristate driver OUT_pC_2 (in view: work.TriggerTDC(verilog)) on net OUT_pC[1] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:29:10:34|Tristate driver OUT_pC_3 (in view: work.TriggerTDC(verilog)) on net OUT_pC[0] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:21:10:26|Tristate driver OUT_pB_1 (in view: work.TriggerTDC(verilog)) on net OUT_pB[2] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:21:10:26|Tristate driver OUT_pB_2 (in view: work.TriggerTDC(verilog)) on net OUT_pB[1] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:21:10:26|Tristate driver OUT_pB_3 (in view: work.TriggerTDC(verilog)) on net OUT_pB[0] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:13:10:18|Tristate driver OUT_pA_1 (in view: work.TriggerTDC(verilog)) on net OUT_pA[2] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:13:10:18|Tristate driver OUT_pA_2 (in view: work.TriggerTDC(verilog)) on net OUT_pA[1] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":10:13:10:18|Tristate driver OUT_pA_3 (in view: work.TriggerTDC(verilog)) on net OUT_pA[0] (in view: work.TriggerTDC(verilog)) has its enable tied to GND.
+@A: BN321 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":123:6:123:10|Found multiple drivers on net false (in view: work.TriggerTDC(verilog)); if one driver is a constant (true or false), use Resolve Mixed Drivers option to connect the net to VCC or GND.
+@E: BN314 :"d:\bartz\documents\lattice\trigtdc\source\triggertdc.v":123:6:123:10|Net GND in work.TriggerTDC(verilog) has multiple drivers. 
+@E: Net false (in view: work.TriggerTDC(verilog)) has conflicting drivers, the connections are
+Connection 1: Direction is (Output ) pin:LOCK inst:P5Clk of work.Cpll4(verilog)
+Connection 2: Direction is (Output ) pin:O[0] inst:false of PrimLib.false(prim)
+@A: BN321 :"d:\bartz\documents\lattice\trigtdc\cpll4.v":51:12:51:20|Found multiple drivers on net false (in view: work.Cpll4(verilog)); if one driver is a constant (true or false), use Resolve Mixed Drivers option to connect the net to VCC or GND.
+@E: BN314 :"d:\bartz\documents\lattice\trigtdc\cpll4.v":51:12:51:20|Net GND in work.Cpll4(verilog) has multiple drivers. 
+@E: Net false (in view: work.Cpll4(verilog)) has conflicting drivers, the connections are
+Connection 1: Direction is (Output ) pin:LOCK inst:PLLInst_0 of work.EHXPLLF(verilog)
+Connection 2: Direction is (Output ) pin:O[0] inst:false of PrimLib.false(prim)
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+ 2 Errors occurred during mapping - no output produced
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Sep 01 10:58:32 2016
+
+###########################################################]

@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/11/2016 14:46:48
+#Project Location: D:/bartz/Documents/Lattice/TrigLUT; Project name: TrigLUT
+prj_project open "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.ldf"
+prj_run Export -impl TrigLUT -task Bitgen
+#Stop recording: 4/11/2016 14:59:37

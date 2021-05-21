@@ -1,0 +1,61 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+test=.\test\test.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_ecp3;pcsd_work
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+test=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\DelayBit.v=-1
+/..\..\Source\LeadDelay.v=-1
+/..\..\Source\retrigger.v=-1
+/..\..\Input_Reg.v=-1
+/..\..\TrigLUT\source\Top.v=-1
+/..\..\Source\TrigLUT_tf.v=-1
+/..\..\T_ff_clr.v=-1
+/..\..\T_ff_pset.v=-1
+/..\..\test.awc=-1
+[Files.Data]
+.\..\DelayBit.v=Verilog Source Code
+.\..\Source\LeadDelay.v=Verilog Source Code
+.\..\Source\retrigger.v=Verilog Source Code
+.\..\Input_Reg.v=Verilog Source Code
+.\..\TrigLUT\source\Top.v=Verilog Source Code
+.\..\Source\TrigLUT_tf.v=Verilog Source Code
+.\..\T_ff_clr.v=Verilog Source Code
+.\..\T_ff_pset.v=Verilog Source Code
+.\..\test.awc=Accelerated Waveform Configuration
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

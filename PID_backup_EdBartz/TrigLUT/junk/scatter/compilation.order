@@ -1,0 +1,6 @@
+.\..\Source\LeadDelay.v
+.\..\Source\SR_Latch.v
+.\..\Source\retrigger.v
+.\..\Source\SR_Reg.v
+.\..\TrigLUT\source\Top.v
+.\..\Source\TrigLUT_tf.v

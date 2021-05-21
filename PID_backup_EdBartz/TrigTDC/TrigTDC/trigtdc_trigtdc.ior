@@ -1,0 +1,71 @@
+WARNING - trigtdc_trigtdc.prf(16097): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_*" ;": group IN_group contains a wildcard expression, "IN_*", that does not match ports in the design. This preference has been disabled.
+Loading design for application iotiming from file trigtdc_trigtdc.ncd.
+Design name: TriggerTDCTop
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 9
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+WARNING - iotiming: trigtdc_trigtdc.prf(16097): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_*" ;": group IN_group contains a wildcard expression, "IN_*", that does not match ports in the design. This preference has been disabled.
+Loading design for application iotiming from file trigtdc_trigtdc.ncd.
+Design name: TriggerTDCTop
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: M
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+WARNING - iotiming: trigtdc_trigtdc.prf(16097): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_*" ;": group IN_group contains a wildcard expression, "IN_*", that does not match ports in the design. This preference has been disabled.
+// Design: TriggerTDCTop
+// Package: FPBGA672
+// ncd File: trigtdc_trigtdc.ncd
+// Version: Diamond (64-bit) 3.9.0.99.2
+// Written on Wed May 31 10:14:30 2017
+// M: Minimum Performance Grade
+// iotiming TrigTDC_TrigTDC.ncd TrigTDC_TrigTDC.prf -gui -msgset D:/bartz/Documents/Lattice/TrigTDC/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port       Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+TestIn[12] MCLK  R     5.088      8      -1.470     M
+TestIn[13] MCLK  R     4.854      8      -1.523     M
+
+
+// Clock to Output Delay
+
+Port       Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+LED_ORANGE MCLK  R     4.069         8        2.778          M
+LED_RED    MCLK  R     4.069         8        2.778          M
+LED_YELLOW MCLK  R     4.069         8        2.778          M
+TestLED[0] MCLK  R    11.884         8        5.370          M
+TestLED[1] MCLK  R     9.364         8        4.466          M
+TestLED[4] MCLK  R    14.782         8        4.441          M
+TestLED[5] MCLK  R    17.583         8        6.412          M
+TestOut[4] MCLK  R    21.262         8        5.732          M
+TestOut[5] MCLK  R    23.049         8        6.194          M
+TestOut[6] MCLK  R    22.488         8        5.492          M
+TestOut[8] MCLK  R     7.228         8        3.724          M
+TestOut[9] MCLK  R     8.863         8        4.304          M
+
+
+// Internal_Clock to Output
+
+Port        Internal_Clock
+--------------------------------------------------------
+OUT_pD[0]   SClA.Q_i      
+OUT_pD[1]   SClA.Q_i      
+TestLED[2]  TestLED_c[4]  
+TestLED[3]  TestLED_c[4]  
+TestOut[10] SClA.Q_i      
+TestOut[4]  TestLED_c[4]  
+TestOut[5]  TestLED_c[4]  
+TestOut[6]  TestLED_c[4]  

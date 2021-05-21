@@ -1,0 +1,183 @@
+timestamp=1470852102610
+
+[~A]
+D:/bartz/Documents/Lattice/TrigTDC/Source/BackOr.v=0*20641*21291
+D:/bartz/Documents/Lattice/TrigTDC/Source/BackOr5.v=0*18897*19612
+D:/bartz/Documents/Lattice/TrigTDC/Source/DelayBit.v=0*10414*11082
+D:/bartz/Documents/Lattice/TrigTDC/Source/Input_Reg.v=0*15464*16101
+D:/bartz/Documents/Lattice/TrigTDC/Source/LeadDelay.v=0*12127*12748
+D:/bartz/Documents/Lattice/TrigTDC/Source/Or18.v=0*8860*9396
+D:/bartz/Documents/Lattice/TrigTDC/Source/Or8.v=0*7455*7910
+D:/bartz/Documents/Lattice/TrigTDC/Source/PulseStretch.v=0*17207*17863
+D:/bartz/Documents/Lattice/TrigTDC/Source/SR_Latch.v=0*350*778
+D:/bartz/Documents/Lattice/TrigTDC/Source/SR_Reg.v=0*3065*3539
+D:/bartz/Documents/Lattice/TrigTDC/Source/ScatterTrig.v=0*22540*24396
+D:/bartz/Documents/Lattice/TrigTDC/Source/T_ff_clr.v=0*1692*2120
+D:/bartz/Documents/Lattice/TrigTDC/Source/T_ff_pset.v=0*4491*4984
+D:/bartz/Documents/Lattice/TrigTDC/Source/TrigTDC_tf.v=0*25407*26221
+D:/bartz/Documents/Lattice/TrigTDC/Source/TriggerTDC.v=0*29434*30136
+D:/bartz/Documents/Lattice/TrigTDC/Source/leds.v=0*5955*6507
+D:/bartz/Documents/Lattice/TrigTDC/Source/retrigger.v=0*13789*14426
+D:/bartz/Documents/Lattice/TrigTDC/mypll1.v=0*27325*28272
+D:/bartz/Documents/Lattice/TrigTDC/test1.v=0*31013*31287
+LastVerilogToplevel=TriggerTDC
+ModifyID=19
+Version=73
+
+[$root]
+A/$root=22|||1*51966
+BinI32/$root=3*28098
+SLP=3*28202
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|c73a565f2ade592f8ac1c68f484c921626fbf6161cfe105b2f89f97ccdae9a4d
+
+[BackOr3]
+A/BackOr3=22|./../../Source/BackOr.v|23|1*29119
+BinI32/BackOr3=3*18978
+R=./../../Source/BackOr.v|23
+SLP=3*20095
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|712f6c3dc9e093fc6e1c38f5c8c03fad26527262ddaa47cb266f3a3c4d9b973a6d142702285185975b478954cc0725b1
+
+[BackOr5]
+A/BackOr5=22|./../../Source/BackOr5.v|23|1*25714
+BinI32/BackOr5=3*16205
+R=./../../Source/BackOr5.v|23
+SLP=3*17441
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|d49e15962faaf0a7eacbeb48fe92b58426527262ddaa47cb266f3a3c4d9b973ab3c040ac8b7fab21429e82de965fa6f3
+
+[DelayBit]
+A/DelayBit=22|./../../Source/DelayBit.v|3|1*13487
+BinI32/DelayBit=3*7736
+R=./../../Source/DelayBit.v|3
+SLP=3*8950
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|cb04d9afc220fe0c1747ee10a232ea8fff2c962c2e5e86fedb14d20dba066290b3101059aa22b6626ee90bb6ea773fe6
+
+[Input_Reg]
+A/Input_Reg=22|./../../Source/Input_Reg.v|1|1*20392
+BinI32/Input_Reg=3*12785
+R=./../../Source/Input_Reg.v|1
+SLP=3*14413
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|fad1b3b12f40c7d778307f1fbb91b321522ed731e436ccf4ba6651b1f0db30cfe5fbfbdb9c24c989c055bab8067b5ddc
+
+[LeadDelay]
+A/LeadDelay=22|./../../Source/LeadDelay.v|3|1*15435
+BinI32/LeadDelay=3*9727
+R=./../../Source/LeadDelay.v|3
+SLP=3*10560
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|2fdfcba5f8b86b886917e540e6ec25c23a796c1f90de32bd04b2afc97cd6cde85e2288ba430b0d5f7d0928b2f14b9145
+
+[Or18]
+A/Or18=22|./../../Source/Or18.v|23|1*10964
+BinI32/Or18=3*6212
+R=./../../Source/Or18.v|23
+SLP=3*7099
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|a8b46facb3890ba6b07ae723dbf751a20cf54f21d5e1bfffcc3ed8feb16c761c
+
+[Or8]
+A/Or8=22|./../../Source/Or8.v|23|1*9214
+BinI32/Or8=3*5138
+R=./../../Source/Or8.v|23
+SLP=3*5766
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|d77c5ef0fb1bdb262564d3c22fdafaac0e2ca797cf754e1c3700be4f57cb2117
+
+[PulseStretch]
+A/PulseStretch=22|./../../Source/PulseStretch.v|23|1*23203
+BinI32/PulseStretch=3*14956
+R=./../../Source/PulseStretch.v|23
+SLP=3*15815
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|eea52c3849e5306e9924efdffec665904fe4a0fc71c9f2ab40f29ed5dd0c84b767df9ee3e37ec3b0725b6bbce2a32f5e
+
+[ReTrigger]
+A/ReTrigger=22|./../../Source/retrigger.v|1|1*17746
+BinI32/ReTrigger=3*10922
+R=./../../Source/retrigger.v|1
+SLP=3*12219
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|f5d19be543e6e74fd64d0d0cc28238e44877877f20d1fce65a37ea0e1429368e14f949ea8dcc2f7ecbd7c8abee6dc465
+
+[SR_Latch]
+A/SR_Latch=22|./../../Source/SR_Latch.v|1|1*374
+BinI32/SR_Latch=3*172
+R=./../../Source/SR_Latch.v|1
+SLP=3*790
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|9319e6ad4d5dc37fbd7f73410ece05978c61099b69bfa858fc7536a701d86f21995861caacb9389f01865679066fc7a0
+
+[SR_Reg]
+A/SR_Reg=22|./../../Source/SR_Reg.v|2|1*3514
+BinI32/SR_Reg=3*2089
+R=./../../Source/SR_Reg.v|2
+SLP=3*2518
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|c3ac6e1ef37b4071ef8cccbec4367f9b0af6d2954a62f27c2abc6607e649ad4d
+
+[ScatterTrig]
+A/ScatterTrig=22|./../../Source/ScatterTrig.v|5|1*32234
+BinI32/ScatterTrig=3*21303
+R=./../../Source/ScatterTrig.v|5
+SLP=3*22975
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|de7d4f89f28787848804abb80d41e3e1e5460b0115b4a8850f6e460f06b2d6f7e66f72fb252a813d7b77abea3084b25a
+
+[ScatterTrig_tf]
+A/ScatterTrig_tf=22|./../../Source/TrigTDC_tf.v|18|1*43394
+BinI32/ScatterTrig_tf=3*24547
+R=./../../Source/TrigTDC_tf.v|18
+SLP=3*25900
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|8424c74a097da65d82ef96ba62b22453b664b471c228063f915caf8ece5af875b6a84c1d3e678b53866bee25bef16b73
+
+[T_ff_clr]
+A/T_ff_clr=22|./../../Source/T_ff_clr.v|2|1*2027
+BinI32/T_ff_clr=3*1197
+R=./../../Source/T_ff_clr.v|2
+SLP=3*1698
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|22eb53be632de7ae32ff0f7bf88a60efc53845400fb12f96490836e58c608d0aab7ace65e1b5a5ee35da3ef793452298
+
+[T_ff_pset]
+A/T_ff_pset=22|./../../Source/T_ff_pset.v|2|1*5342
+BinI32/T_ff_pset=3*2851
+R=./../../Source/T_ff_pset.v|2
+SLP=3*3458
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|a273528e1fecab98b8099ade5bf3144605e29bf99304b72d20622cc7b33546eecc07a2688c1542df2ab2e6720a224486
+
+[TriggerTDC]
+A/TriggerTDC=22|./../../Source/TriggerTDC.v|5|1*49436
+BinI32/TriggerTDC=3*27618
+R=./../../Source/TriggerTDC.v|5
+SLP=3*27910
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|78acd9f13e3090967b25954187ffd99ad3e243c7281feae1b13bd40730e69869aae25db93de5149495989e67bae5d32d
+
+[leds]
+A/leds=22|./../../Source/leds.v|23|1*7096
+BinI32/leds=3*3909
+R=./../../Source/leds.v|23
+SLP=3*4627
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|25c05531f87ff8c4ec46c9e95c545fc65e8059af52c911e065ed73dfb8e9938f
+
+[mypll1]
+A/mypll1=22|./../../mypll1.v|8|1*45682
+BinI32/mypll1=3*26946
+R=./../../mypll1.v|8
+SLP=3*27292
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|e13f04af40debc017fbc69e403c4762b0cc0554a2c7a4e5d28ede7ba22e78f0e
+
+[~MFT]
+0=3|0work.mgf|31287|0
+1=2|1work.mgf|51966|7484
+3=4|3work.mgf|28202|3096
+
+[~U]
+$root=12|0*30703|
+BackOr3=12|0*20454||0x10
+BackOr5=12|0*18710||0x10
+DelayBit=12|0*10187||0x10
+Input_Reg=12|0*15238||0x10
+LeadDelay=12|0*11877||0x10
+Or18=12|0*8684||0x10
+Or8=12|0*7282||0x10
+PulseStretch=12|0*16929||0x10
+ReTrigger=12|0*13560||0x10
+SR_Latch=12|0*166||0x10
+SR_Reg=12|0*2867||0x10
+ScatterTrig=12|0*22132||0x10
+ScatterTrig_tf=12|0*25242||0x10
+T_ff_clr=12|0*1509||0x10
+T_ff_pset=12|0*4300||0x10
+TriggerTDC=12|0*29122||0x10
+leds=12|0*5748||0x10
+mypll1=12|0*27082||0x10

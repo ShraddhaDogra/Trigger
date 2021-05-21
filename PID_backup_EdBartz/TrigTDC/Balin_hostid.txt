@@ -1,0 +1,8 @@
+Computer/Hostname
+	Balin
+Ethernet Address
+	"00133b0fa82a 00133b0fa82b 086266c881c2"
+IP Address
+	2002:8006:ef62::8006:ef62
+FLEXID
+	"00133b0fa82a 00133b0fa82b 086266c881c2"

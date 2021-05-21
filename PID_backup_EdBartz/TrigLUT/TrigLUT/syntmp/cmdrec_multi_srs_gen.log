@@ -1,0 +1,7 @@
+D:\Cad\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  ScatterTrig  -incremental_debug  -multisrs  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_comp.srs  -osyn  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_mult.srs  -log  D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synlog\TrigLUT_TrigLUT_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_comp.srs|i|1474486816|51993
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synwork\TrigLUT_TrigLUT_mult.srs|o|1474486818|10884
+D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\synlog\TrigLUT_TrigLUT_multi_srs_gen.srr|o|1474486818|600
+D:\Cad\lscc\diamond\3.7_x64\synpbase\bin\syn_nfilter.exe|i|1449730674|3110400
+D:\Cad\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe|i|1449730876|4182528

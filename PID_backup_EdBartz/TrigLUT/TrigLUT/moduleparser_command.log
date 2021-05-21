@@ -1,0 +1,1 @@
+D:/Cad/IScc/diamond/3.2_x64/bin/nt64/moduleparser.exe -PROJ trigtest1 -pf D:/Cad/IScc/diamond/3.2_x64/cae_library/synthesis/vhdl/ecp3.vhd -lib ecp3 -top Top -pkg D:/Cad/IScc/diamond/3.2_x64/cae_library/vhdl_packages/vdbs -lst C:/Users/bartz/Documents/Lattice/TrigTest/trigtest1/source_files.lst

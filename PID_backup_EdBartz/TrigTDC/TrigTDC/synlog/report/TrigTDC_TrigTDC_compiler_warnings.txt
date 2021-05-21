@@ -1,0 +1,461 @@
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|Removing wire DataOutLA, as there is no assignment to it.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_4[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_9[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_14[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_19[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_24[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_29[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_34[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_39[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_44[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_49[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_54[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_59[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_64[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_69[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_74[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_79[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_84[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_89[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_94[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_99[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_104[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_109[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_114[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_119[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_124[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_129[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_134[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_139[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_144[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_149[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_154[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_159[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_164[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_169[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_174[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_179[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_184[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_189[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_194[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_199[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_204[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_209[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_214[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_219[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_224[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_229[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_234[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v":21:11:21:13|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":90:0:90:5|Pruning unused register CIn[0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Removing unused bit 0 of TimeLtch50_239[35:0]. Either assign all bits or reduce the width of the signal.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Ch48.v":25:18:25:21|Removing wire test, as there is no assignment to it.
+@W: CS263 :"D:\bartz\Documents\Lattice\TrigTDC\Source\timestatics.v":102:4:102:4|Port-width mismatch for port Q. The port definition is 16 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CG133 :"D:\bartz\Documents\Lattice\TrigTDC\Source\timestatics.v":21:12:21:14|Object ack is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\timestatics.v":25:38:25:43|Removing wire tofifo, as there is no assignment to it.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\timestatics.v":51:5:51:8|Removing wire full, as there is no assignment to it.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\timestatics.v":51:11:51:12|Removing wire en, as there is no assignment to it.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\timestatics.v":54:5:54:8|Removing wire test, as there is no assignment to it.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":14:13:14:18|Removing wire OUT_pD, as there is no assignment to it.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":16:19:16:25|Removing wire TestOut, as there is no assignment to it.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":49:5:49:13|Removing wire StartTest, as there is no assignment to it.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDCTop.v":15:13:15:18|Removing wire OUT_pB, as there is no assignment to it.
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDCTop.v":16:13:16:18|Removing wire OUT_pC, as there is no assignment to it.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDCTop.v":15:13:15:18|*Output OUT_pB has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDCTop.v":16:13:16:18|*Output OUT_pC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":14:13:14:18|*Output OUT_pD has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":16:19:16:25|*Output TestOut has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\timestatics.v":15:17:15:19|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\timestatics.v":15:17:15:19|Input port bits 1 to 0 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Ch48.v":25:18:25:21|*Output test has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL279 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":185:0:185:5|Pruning register bits 35 to 33 of TimeLtch50[35:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":14:21:14:23|Input port bits 5 to 3 of clk[5:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":31:66:31:74|*Input DataOutLA[31:0] to expression [or] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\ClockGen.v":12:18:12:20|*Output clk has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\ClockGen.v":21:17:21:19|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL138 :"D:\bartz\Documents\Lattice\TrigTDC\Source\ComTrans.v":35:0:35:5|Removing register 'nack' because it is only assigned 0 or its original value.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\comnet.v":24:18:24:21|*Output test has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

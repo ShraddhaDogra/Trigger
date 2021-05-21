@@ -1,0 +1,17 @@
+#Start recording tcl command: 3/14/2016 14:47:44
+#Project Location: D:/bartz/Documents/Lattice/TrigLUT; Project name: TrigLUT
+prj_project open "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT.ldf"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/TrigtestA/TrigtestA.spf"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/TrigLUT.spf"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/testtrig1/testtrig1.spf"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/testrig1/testrig1.spf"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/Pipe_Delay.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/SR_Latch.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/SR_Reg.v"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/source/Delay_buf.v" "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/source/Mand3.v" "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/source/Mand4.v" "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/source/Mand5.v" "D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/source/Stretcher.v"
+prj_src remove "D:/bartz/Documents/Lattice/TrigLUT/Source/Mand6.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/LeadDelay.v"
+prj_src add "D:/bartz/Documents/Lattice/TrigLUT/retrigger.v"
+prj_project save
+prj_project close
+#Stop recording: 3/16/2016 14:19:14

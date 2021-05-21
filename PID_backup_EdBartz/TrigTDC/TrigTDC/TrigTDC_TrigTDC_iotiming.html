@@ -1,0 +1,136 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+WARNING - trigtdc_trigtdc.prf(16097): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_*" ;": group IN_group contains a wildcard expression, "IN_*", that does not match ports in the design. This preference has been disabled.
+Loading design for application iotiming from file trigtdc_trigtdc.ncd.
+Design name: TriggerTDCTop
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 9
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+WARNING - iotiming: trigtdc_trigtdc.prf(16097): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_*" ;": group IN_group contains a wildcard expression, "IN_*", that does not match ports in the design. This preference has been disabled.
+Loading design for application iotiming from file trigtdc_trigtdc.ncd.
+Design name: TriggerTDCTop
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: M
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+WARNING - iotiming: trigtdc_trigtdc.prf(16097): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_*" ;": group IN_group contains a wildcard expression, "IN_*", that does not match ports in the design. This preference has been disabled.
+// Design: TriggerTDCTop
+// Package: FPBGA672
+// ncd File: trigtdc_trigtdc.ncd
+// Version: Diamond (64-bit) 3.9.0.99.2
+// Written on Wed May 31 10:14:30 2017
+// M: Minimum Performance Grade
+// iotiming TrigTDC_TrigTDC.ncd TrigTDC_TrigTDC.prf -gui -msgset D:/bartz/Documents/Lattice/TrigTDC/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port       Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+TestIn[12] MCLK  R     5.088      8      -1.470     M
+TestIn[13] MCLK  R     4.854      8      -1.523     M
+
+
+// Clock to Output Delay
+
+Port       Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+LED_ORANGE MCLK  R     4.069         8        2.778          M
+LED_RED    MCLK  R     4.069         8        2.778          M
+LED_YELLOW MCLK  R     4.069         8        2.778          M
+TestLED[0] MCLK  R    11.884         8        5.370          M
+TestLED[1] MCLK  R     9.364         8        4.466          M
+TestLED[4] MCLK  R    14.782         8        4.441          M
+TestLED[5] MCLK  R    17.583         8        6.412          M
+TestOut[4] MCLK  R    21.262         8        5.732          M
+TestOut[5] MCLK  R    23.049         8        6.194          M
+TestOut[6] MCLK  R    22.488         8        5.492          M
+TestOut[8] MCLK  R     7.228         8        3.724          M
+TestOut[9] MCLK  R     8.863         8        4.304          M
+
+
+// Internal_Clock to Output
+
+Port        Internal_Clock
+--------------------------------------------------------
+OUT_pD[0]   SClA.Q_i      
+OUT_pD[1]   SClA.Q_i      
+TestLED[2]  TestLED_c[4]  
+TestLED[3]  TestLED_c[4]  
+TestOut[10] SClA.Q_i      
+TestOut[4]  TestLED_c[4]  
+TestOut[5]  TestLED_c[4]  
+TestOut[6]  TestLED_c[4]  
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

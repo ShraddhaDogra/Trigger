@@ -1,0 +1,105 @@
+Synopsys HDL Compiler, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\vlog\hypermods.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\TrigTDC_tf.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\leds.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll0.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll1.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll2.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll3.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Source\InputBit.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Input_Bit1.v"
+@I::"D:\bartz\Documents\Lattice\TrigTDC\Cpll4.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module TriggerTDC
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Source\leds.v":23:7:23:10|Synthesizing module leds.
+
+@N: CG364 :"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v":457:7:457:9|Synthesizing module INV.
+
+@N: CG364 :"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v":1029:7:1029:9|Synthesizing module VLO.
+
+@N: CG364 :"D:\Cad\lscc\diamond\3.7_x64\synpbase\lib\lucent\ecp3.v":1552:7:1552:13|Synthesizing module EHXPLLF.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll.v":8:7:8:10|Synthesizing module Cpll.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll0.v":8:7:8:11|Synthesizing module Cpll0.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll1.v":8:7:8:11|Synthesizing module Cpll1.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll2.v":8:7:8:11|Synthesizing module Cpll2.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll3.v":8:7:8:11|Synthesizing module Cpll3.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Cpll4.v":8:7:8:11|Synthesizing module Cpll4.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Source\InputBit.v":1:7:1:15|Synthesizing module Input_Bit.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":3:7:3:17|Synthesizing module FineTimeBit.
+
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":5:7:5:16|Synthesizing module TriggerTDC.
+
+@W: CL168 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":146:12:146:14|Pruning instance fb1 -- not in use ...
+
+@W: CL168 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":139:10:139:15|Pruning instance TestIn -- not in use ...
+
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":10:13:10:18|*Output OUT_pA has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":10:21:10:26|*Output OUT_pB has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":10:29:10:34|*Output OUT_pC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":8:13:8:15|Input INP is unused.
+@N: CL159 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":9:7:9:11|Input IN_pA is unused.
+@N: CL159 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":9:14:9:18|Input IN_pB is unused.
+@N: CL159 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":9:21:9:25|Input IN_pC is unused.
+@W: CL247 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":7:21:7:23|Input port bit 5 of clk[5:0] is unused
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 01 10:58:31 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 01 10:58:31 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 01 10:58:31 2016
+
+###########################################################]

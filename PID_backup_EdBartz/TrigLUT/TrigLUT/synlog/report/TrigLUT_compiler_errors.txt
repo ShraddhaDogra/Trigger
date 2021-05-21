@@ -1,0 +1,2 @@
+@E: CL172 :"D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v":12:18:12:20|Only one always block can assign a given variable dstage[0].res_86[6:0]
+

@@ -1,0 +1,1 @@
+@W: MT529 :"d:\bartz\documents\lattice\trigtdc\source\leds.v":35:0:35:5|Found inferred clock Cpll4|CLKOS_inferred_clock which controls 35 sequential elements including Blink.count[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,0 +1,20 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\comnet.v":43:7:43:14|Tristate driver test_1 (in view: work.comnet(verilog)) on net test_1 (in view: work.comnet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\comnet.v":43:7:43:14|Tristate driver test_2 (in view: work.comnet(verilog)) on net test_2 (in view: work.comnet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\comnet.v":43:7:43:14|Tristate driver test_3 (in view: work.comnet(verilog)) on net test_3 (in view: work.comnet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\comnet.v":43:7:43:14|Tristate driver test_4 (in view: work.comnet(verilog)) on net test_4 (in view: work.comnet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\clockgen.v":21:17:21:19|Tristate driver LED_1 (in view: work.ClockGen(verilog)) on net LED_1 (in view: work.ClockGen(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\clockgen.v":12:18:12:20|Tristate driver clk_1 (in view: work.ClockGen(verilog)) on net clk_1 (in view: work.ClockGen(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\clockgen.v":12:18:12:20|Tristate driver clk_2 (in view: work.ClockGen(verilog)) on net clk_2 (in view: work.ClockGen(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\ch48.v":25:18:25:21|Tristate driver test_1 (in view: work.Ch48(verilog)) on net test_1 (in view: work.Ch48(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\ch48.v":25:18:25:21|Tristate driver test_2 (in view: work.Ch48(verilog)) on net test_2 (in view: work.Ch48(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\bartz\documents\lattice\trigtdc\source\ch48.v":25:18:25:21|Tristate driver test_3 (in view: work.Ch48(verilog)) on net test_3 (in view: work.Ch48(verilog)) has its enable tied to GND.
+@N: BN362 :"d:\bartz\documents\lattice\trigtdc\source\ltch42.v":345:8:345:10|Removing sequential instance d41 (in view: work.Ltch42_0(verilog)) of type view:LUCENT.FD1P3AY(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\trigtdc\readoutfifo.v":507:12:507:16|Removing sequential instance FF_13 (in view: work.readoutfifo(verilog)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\trigtdc\readoutfifo.v":510:12:510:16|Removing sequential instance FF_12 (in view: work.readoutfifo(verilog)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\trigtdc\readoutfifo.v":513:12:513:16|Removing sequential instance FF_11 (in view: work.readoutfifo(verilog)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\trigtdc\readoutfifo.v":516:12:516:16|Removing sequential instance FF_10 (in view: work.readoutfifo(verilog)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\trigtdc\readoutfifo.v":519:12:519:15|Removing sequential instance FF_9 (in view: work.readoutfifo(verilog)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\trigtdc\readoutfifo.v":522:12:522:15|Removing sequential instance FF_8 (in view: work.readoutfifo(verilog)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\trigtdc\source\teststate.v":27:1:27:6|Removing sequential instance rden (in view: work.teststate(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.

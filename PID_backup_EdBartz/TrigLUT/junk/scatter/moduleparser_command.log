@@ -1,0 +1,1 @@
+D:/Cad/lscc/diamond/3.6_x64/bin/nt64/moduleparser.exe -PROJ scatter -pf D:/Cad/lscc/diamond/3.6_x64/cae_library/synthesis/vhdl/ecp3.vhd -lib ecp3 -pkg D:/Cad/lscc/diamond/3.6_x64/cae_library/vhdl_packages/vdbs -lst D:/bartz/Documents/Lattice/TrigLUT/scatter/source_files.lst

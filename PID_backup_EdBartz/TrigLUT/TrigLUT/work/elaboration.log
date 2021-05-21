@@ -1,0 +1,29 @@
+Active-HDL 9.3.2744.4995  2015-03-03 11:48:54
+
+Elaboration top modules:
+Verilog Module                Top_tf
+
+
+--------------------------------------------------------------------------------------------
+Verilog Module          | Library  | Info | Compiler Version         | Compilation Options
+--------------------------------------------------------------------------------------------
+Top_tf                  | work     |      | 9.3.2744.4995  (Windows) | -l work -dbg
+Top                     | work     |      | 9.3.2744.4995  (Windows) | -l work -dbg
+Mand3                   | work     |      | 9.3.2744.4995  (Windows) | -l work -dbg
+Stretcher               | work     |      | 9.3.2744.4995  (Windows) | -l work -dbg
+Delay_buf               | work     |      | 9.3.2744.4995  (Windows) | -l work -dbg
+AND2                    | ovi_ecp3 |      | 9.3.2744.4995  (Windows) | -vendor lattice -v2k
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+Library                 | Comment
+--------------------------------------------------------------------------------------------
+ovi_ecp3                | LATTICE Diamond 3.1, ECP3 VERILOG LIBRARY
+work                    | None
+--------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r Top_tf -PL pmi_work -L ovi_ecp3 -L pcsd_work
+
+
+The performance of simulation is reduced. Version Lattice Edition

@@ -1,0 +1,29 @@
+SCUBA, Version Diamond (64-bit) 3.6.0.83.4
+Wed Mar 16 14:05:35 2016
+  
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+  
+BEGIN SCUBA Module Synthesis
+  
+    Issued command   : D:\Cad\lscc\diamond\3.6_x64\ispfpga\bin\nt64\scuba.exe -w -n mypll -lang verilog -synth synplify -arch ep5c00 -type pll -fin 200 -phase_cntl STATIC -fclkop 400 -fclkop_tol 0.0 -fb_mode CLOCKTREE -noclkos -noclkok -norst -noclkok2 -bw 
+    Circuit name     : mypll
+    Module type      : pll
+    Module Version   : 5.7
+    Ports            : 
+    Inputs       : CLK
+    Outputs      : CLKOP, LOCK
+    I/O buffer       : not inserted
+    EDIF output      : mypll.edn
+    Verilog output   : mypll.v
+    Verilog template : mypll_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : not used
+    Report output    : mypll.srp
+    Estimated Resource Usage:
+  
+END   SCUBA Module Synthesis
+

@@ -1,0 +1,87 @@
+//-----------------------------------------------------                                  
+// Design Name	: Lanalyzer                                                         
+// File Name	: Lanalyzer  .v                                                       
+// Function		: Uses Fifo like Logic analyzer                                                 
+// Written By	: Ed Bartz
+// Notes		: Read out 32 bit data, at single address 0x90xx                                                 
+//-----------------------------------------------------     
+`timescale 1ns / 1ps
+
+module Lanalyzer #(
+    parameter MYAD=8'hFF,
+    parameter TrigAD=8'hFE,
+    parameter ContAD=8'hFD
+    )(
+input wire [31:0] Data,
+input wire DClk,   
+//Com Link
+output wire [31:0] DataOut,
+input wire [31:0] DataIn,
+input wire [7:0] Address,
+input wire Read,
+input wire Write,
+input wire rdclk,
+input wire rst,
+output reg ack
+);
+
+wire [31:0] DataOut1, DataOut2, DataOut3;
+
+//assign DataOut = DataOut1 | DataOut2 | DataOut3;
+assign DataOut = DataOut1 | DataOut2;
+
+wire [31:0] Trigger;
+Register #(TrigAD,32'h0) Trigger1
+(
+	.DataOut(DataOut1),
+	.DataIn(DataIn),
+	.Address(Address),
+	.Read(Read),
+	.Write(Write),
+	.rst(rst),
+	.Q(Trigger)
+);
+
+wire [31:0] Cont;
+Register #(ContAD,32'h0) Cont1
+(
+	.DataOut(DataOut2),
+	.DataIn(DataIn),
+	.Address(Address),
+	.Read(Read),
+	.Write(Write),
+	.rst(rst),
+	.Q(Cont)
+);
+
+wire full, en, addred, rdaddr;
+wire [31:0] Q;
+
+assign en = Cont[0] & ~full;
+assign addred = (Address==MYAD);
+assign rdaddr = ~(addred & Read);
+
+genvar i;
+
+generate
+	for ( i = 0; i < 32; i = i+1 )	
+assign DataOut3[i] = rdaddr & Q[i];
+endgenerate
+
+LA_FIFO Laf(
+	.Data(Data), 
+	.WrClock(DClk), 
+	.RdClock(rdclk), 
+	.WrEn(en),
+	.RdEn(addred),
+	.Reset(Cont[1]),
+	.RPReset(Cont[1]), 
+	.Q(Q), 
+	.Empty(), 
+	.Full(full), 
+	.AlmostEmpty(), 
+	.AlmostFull()
+	);
+    
+    
+endmodule

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\bartz\Documents\Lattice\TrigTDC\TrigTDC\synlog\TrigTDC_TrigTDC_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>ComTrans|Write_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>291.4 MHz</data>
+<data>996.568</data>
+</row>
+<row>
+<data>Cpll1|CLKOP_inferred_clock</data>
+<data>920.7 MHz</data>
+<data>391.3 MHz</data>
+<data>-0.735</data>
+</row>
+<row>
+<data>Cpll1|CLKOS_inferred_clock</data>
+<data>956.8 MHz</data>
+<data>406.6 MHz</data>
+<data>-0.707</data>
+</row>
+<row>
+<data>Cpll2|CLKOS_inferred_clock</data>
+<data>286.7 MHz</data>
+<data>243.7 MHz</data>
+<data>-0.615</data>
+</row>
+<row>
+<data>Cpll|CLKOP_inferred_clock</data>
+<data>35.9 MHz</data>
+<data>63.5 MHz</data>
+<data>6.367</data>
+</row>
+<row>
+<data>DeBounce_0|Q_derived_clock</data>
+<data>35.9 MHz</data>
+<data>193.6 MHz</data>
+<data>25.914</data>
+</row>
+<row>
+<data>DeBounce_1|Q_derived_clock</data>
+<data>35.9 MHz</data>
+<data>89.5 MHz</data>
+<data>8.331</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[0]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[1]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[2]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[3]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[4]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[5]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[6]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[7]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[8]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[9]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[10]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[11]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[12]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[13]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[14]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[15]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[16]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[17]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[18]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[19]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[20]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[21]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[22]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[23]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[24]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[25]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[26]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[27]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[28]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[29]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[30]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[31]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[32]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[33]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[34]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[35]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[36]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[37]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[38]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[39]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[40]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[41]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[42]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[43]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[44]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[45]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[46]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>Input_Reg_48s|Q_inferred_clock[47]</data>
+<data>775.1 MHz</data>
+<data>658.8 MHz</data>
+<data>-0.228</data>
+</row>
+<row>
+<data>System</data>
+<data>737.8 MHz</data>
+<data>627.1 MHz</data>
+<data>-0.239</data>
+</row>
+</report_table>

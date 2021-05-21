@@ -1,0 +1,336 @@
+---------------------------------------------------
+Report for cell Top
+   Instance path: Top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.00        100.0
+                                  LUT4	      16.00        100.0
+                                 IOBUF	         34        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Stretcher_4	          1         0.0
+                           Stretcher_8	          1         2.5
+                           Stretcher_9	          1         0.0
+                           Stretcher_6	          1         0.0
+                           Stretcher_7	          1         0.0
+                           Stretcher_5	          1         0.0
+                           Stretcher_0	          1         0.0
+                          Stretcher_14	          1         0.0
+                           Stretcher_2	          1         5.0
+                           Stretcher_3	          1         0.0
+                          Stretcher_15	          1         0.0
+                          Stretcher_16	          1         0.0
+                          Stretcher_11	          1         2.5
+                          Stretcher_13	          1         2.5
+                          Stretcher_12	          1         0.0
+                          Stretcher_10	          1         0.0
+                           Stretcher_1	          1         0.0
+                             Stretcher	          1         5.0
+                               Mand6_0	          1         5.0
+                               Mand6_1	          1        10.0
+                               Mand5_1	          1        10.0
+                               Mand5_0	          1         5.0
+                               Mand4_1	          1         5.0
+                               Mand4_0	          1         5.0
+                               Mand3_0	          1         5.0
+                               Mand3_1	          1         5.0
+---------------------------------------------------
+Report for cell Mand6_0
+   Instance path: Top/U37
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         5.0
+                                  LUT4	       1.00         6.3
+---------------------------------------------------
+Report for cell Stretcher_16
+   Instance path: Top/U35
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          Delay_buf_16	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_16
+   Instance path: Top/U35/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_15
+   Instance path: Top/U34
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          Delay_buf_15	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_15
+   Instance path: Top/U34/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_14
+   Instance path: Top/U33
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          Delay_buf_14	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_14
+   Instance path: Top/U33/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_13
+   Instance path: Top/U32
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         2.5
+                                  LUT4	       0.50         3.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          Delay_buf_13	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_13
+   Instance path: Top/U32/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_12
+   Instance path: Top/U31
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          Delay_buf_12	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_12
+   Instance path: Top/U31/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_11
+   Instance path: Top/U30
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         2.5
+                                  LUT4	       0.50         3.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          Delay_buf_11	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_11
+   Instance path: Top/U30/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Mand6_1
+   Instance path: Top/U36
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        10.0
+                                  LUT4	       2.00        12.5
+---------------------------------------------------
+Report for cell Mand5_0
+   Instance path: Top/U26
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         5.0
+                                  LUT4	       1.00         6.3
+---------------------------------------------------
+Report for cell Stretcher_10
+   Instance path: Top/U24
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          Delay_buf_10	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_10
+   Instance path: Top/U24/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_9
+   Instance path: Top/U23
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_9	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_9
+   Instance path: Top/U23/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_8
+   Instance path: Top/U22
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         2.5
+                                  LUT4	       0.50         3.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_8	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_8
+   Instance path: Top/U22/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_7
+   Instance path: Top/U21
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_7	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_7
+   Instance path: Top/U21/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_6
+   Instance path: Top/U20
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_6	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_6
+   Instance path: Top/U20/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Mand5_1
+   Instance path: Top/U25
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        10.0
+                                  LUT4	       2.00        12.5
+---------------------------------------------------
+Report for cell Mand4_0
+   Instance path: Top/U15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         5.0
+                                  LUT4	       0.50         3.1
+---------------------------------------------------
+Report for cell Stretcher_5
+   Instance path: Top/U13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_5	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_5
+   Instance path: Top/U13/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_4
+   Instance path: Top/U12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_4	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_4
+   Instance path: Top/U12/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_3
+   Instance path: Top/U11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_3	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_3
+   Instance path: Top/U11/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_2
+   Instance path: Top/U10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         5.0
+                                  LUT4	       0.50         3.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_2	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_2
+   Instance path: Top/U10/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Mand4_1
+   Instance path: Top/U14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         5.0
+                                  LUT4	       1.00         6.3
+---------------------------------------------------
+Report for cell Mand3_0
+   Instance path: Top/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         5.0
+                                  LUT4	       0.50         3.1
+---------------------------------------------------
+Report for cell Stretcher_1
+   Instance path: Top/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_1	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_1
+   Instance path: Top/U3/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher_0
+   Instance path: Top/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           Delay_buf_0	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf_0
+   Instance path: Top/U2/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Stretcher
+   Instance path: Top/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         5.0
+                                  LUT4	       0.50         3.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             Delay_buf	          1         0.0
+---------------------------------------------------
+Report for cell Delay_buf
+   Instance path: Top/U1/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell Mand3_1
+   Instance path: Top/U5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         5.0
+                                  LUT4	       1.00         6.3

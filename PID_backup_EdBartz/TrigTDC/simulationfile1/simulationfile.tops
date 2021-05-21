@@ -1,0 +1,5 @@
+ScatterTrig,/,D:/bartz/Documents/Lattice/TrigTDC/Source/ScatterTrig.v
+SR_Latch,/,D:/bartz/Documents/Lattice/TrigTDC/Source/SR_Latch.v
+SR_Reg,/,D:/bartz/Documents/Lattice/TrigTDC/Source/SR_Reg.v
+T_ff_pset,/,D:/bartz/Documents/Lattice/TrigTDC/Source/T_ff_pset.v
+ScatterTrig_tf,/,D:/bartz/Documents/Lattice/TrigTDC/Source/TrigTDC_tf.v

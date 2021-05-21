@@ -1,0 +1,56 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+scatter=.\scatter\scatter.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_ecp3;pcsd_work
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+scatter=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\Source\LeadDelay.v=-1
+/..\..\Source\SR_Latch.v=-1
+/..\..\Source\retrigger.v=-1
+/..\..\Source\SR_Reg.v=-1
+/..\..\TrigLUT\source\Top.v=-1
+/..\..\Source\TrigLUT_tf.v=-1
+[Files.Data]
+.\..\Source\LeadDelay.v=Verilog Source Code
+.\..\Source\SR_Latch.v=Verilog Source Code
+.\..\Source\retrigger.v=Verilog Source Code
+.\..\Source\SR_Reg.v=Verilog Source Code
+.\..\TrigLUT\source\Top.v=Verilog Source Code
+.\..\Source\TrigLUT_tf.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

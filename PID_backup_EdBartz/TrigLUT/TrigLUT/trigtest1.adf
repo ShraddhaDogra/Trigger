@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+trigtest1=.\trigtest1\trigtest1.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+VsimAdditionalOptions=+transport_path_delays +transport_int_delays
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_ecp3;pcsd_work
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+trigtest1=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\TrigTest1_TrigTest1_vo.vo=-1
+/..\TrigTest1_TrigTest1_vo.sdf=-1
+[Files.Data]
+.\TrigTest1_TrigTest1_vo.vo=Verilog Source Code
+.\TrigTest1_TrigTest1_vo.sdf=SDF File
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

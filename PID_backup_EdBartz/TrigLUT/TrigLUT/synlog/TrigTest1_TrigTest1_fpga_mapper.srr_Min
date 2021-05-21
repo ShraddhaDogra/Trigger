@@ -1,0 +1,59 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Feb 24 13:48:16 2016
+#
+
+
+Top view:               Top
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        10
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.000
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+Top|InpA           200.0 MHz     NA            5.000         NA            NA        inferred     Inferred_clkgroup_3
+Top|InpB           200.0 MHz     NA            5.000         NA            NA        inferred     Inferred_clkgroup_2
+Top|InpC           200.0 MHz     NA            5.000         NA            NA        inferred     Inferred_clkgroup_1
+Top|InpD           200.0 MHz     NA            5.000         NA            NA        inferred     Inferred_clkgroup_0
+System             200.0 MHz     858.1 MHz     5.000         1.165         3.835     system       system_clkgroup    
+=====================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+System    System  |  0.000       0.000  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+

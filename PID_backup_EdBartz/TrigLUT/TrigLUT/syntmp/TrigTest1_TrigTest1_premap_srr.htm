@@ -1,0 +1,54 @@
+<html><body><samp><pre>
+<!@TC:1424356265>
+<a name=mapperReport2>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 908R, Built Apr 16 2014 10:10:17</a>
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09L-SP1-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Linked File: <a href="C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\TrigTest1_TrigTest1_scck.rpt:@XP_FILE">TrigTest1_TrigTest1_scck.rpt</a>
+Printing clock  summary report in "C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\TrigTest1_TrigTest1_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1424356265> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1424356265> | Clock conversion enabled  
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\bartz\documents\lattice\trigtest\trigtest1\source\mand3.v:26:2:26:4:@N:BN362:@XP_MSG">mand3.v(26)</a><!@TM:1424356265> | Removing sequential instance L_OUT of view:PrimLib.lats(prim) in hierarchy view:work.Mand3_U4(verilog) because there are no references to its outputs 
+<font color=#A52A2A>@W:<a href="@W:MT462:@XP_HELP">MT462</a> : <a href="c:\users\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v:70:7:70:10:@W:MT462:@XP_MSG">delay_buf.v(70)</a><!@TM:1424356265> | Net U3.U1.Y appears to be an unidentified clock source. Assuming default frequency. </font>
+<font color=#A52A2A>@W:<a href="@W:MT462:@XP_HELP">MT462</a> : <a href="c:\users\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v:70:7:70:10:@W:MT462:@XP_MSG">delay_buf.v(70)</a><!@TM:1424356265> | Net U2.U1.Y appears to be an unidentified clock source. Assuming default frequency. </font>
+<font color=#A52A2A>@W:<a href="@W:MT462:@XP_HELP">MT462</a> : <a href="c:\users\bartz\documents\lattice\trigtest\trigtest1\source\delay_buf.v:70:7:70:10:@W:MT462:@XP_MSG">delay_buf.v(70)</a><!@TM:1424356265> | Net U1.U1.Y appears to be an unidentified clock source. Assuming default frequency. </font>
+syn_allowed_resources : blockrams=372  set on top level netlist Top
+
+
+<a name=mapperReport3>Clock Summary</a>
+**************
+
+Start        Requested      Requested     Clock        Clock                
+Clock        Frequency      Period        Type         Group                
+----------------------------------------------------------------------------
+System       2842.5 MHz     0.352         system       system_clkgroup      
+Top|InpA     1.0 MHz        1000.000      inferred     Autoconstr_clkgroup_0
+============================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT531:@XP_HELP">MT531</a> : <a href="c:\users\bartz\documents\lattice\trigtest\trigtest1\source\stretcher.v:19:4:19:6:@W:MT531:@XP_MSG">stretcher.v(19)</a><!@TM:1424356265> | Found signal identified as System clock which controls 3 sequential elements including U1.m.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\users\bartz\documents\lattice\trigtest\trigtest1\source\mand3.v:26:2:26:4:@W:MT529:@XP_MSG">mand3.v(26)</a><!@TM:1424356265> | Found inferred clock Top|InpA which controls 1 sequential elements including U5.L_OUT. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 140MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 19 09:31:05 2015
+
+###########################################################]
+
+</pre></samp></body></html>

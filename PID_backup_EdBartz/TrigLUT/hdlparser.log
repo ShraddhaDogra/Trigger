@@ -1,0 +1,10 @@
+all messages logged in file hdlparser.log
+Analyzing Verilog file D:/Cad/lscc/diamond/3.6_x64/cae_library/synthesis/verilog/ecp3.v (VERI-1482)
+Analyzing Verilog file D:/bartz/Documents/Lattice/TrigTest/TrigTest1/source/Delay_buf.v (VERI-1482)
+Analyzing Verilog file D:/bartz/Documents/Lattice/TrigTest/TrigTest1/source/Mand3.v (VERI-1482)
+Analyzing Verilog file D:/bartz/Documents/Lattice/TrigTest/TrigTest1/source/Mand4.v (VERI-1482)
+Analyzing Verilog file D:/bartz/Documents/Lattice/TrigTest/TrigTest1/source/Mand5.v (VERI-1482)
+Analyzing Verilog file D:/bartz/Documents/Lattice/TrigTest/TrigTest1/source/Stretcher.v (VERI-1482)
+Analyzing Verilog file D:/bartz/Documents/Lattice/TrigTest/TrigTest1/source/Top.v (VERI-1482)
+Analyzing Verilog file D:/bartz/Documents/Lattice/TrigTest/TrigTest1_tf.v (VERI-1482)
+Analyzing Verilog file D:/bartz/Documents/Lattice/TrigTest/Source/Mand6.v (VERI-1482)

@@ -1,0 +1,235 @@
+<html><body><samp><pre>
+<!@TC:1458828050>
+#Build: Synplify Pro J-2015.03L-SP1, Build 123R, Aug 18 2015
+#install: D:\Cad\lscc\diamond\3.6_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: BALIN
+
+#Implementation: TrigLUT
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015</a>
+@N: : <!@TM:1458828050> | Running in 64-bit mode 
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015</a>
+@N: : <!@TM:1458828050> | Running in 64-bit mode 
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: : <!@TM:1458828050> | : Running Verilog Compiler in System Verilog mode 
+@N: : <!@TM:1458828050> | : Running Verilog Compiler in Multiple File Compilation Unit mode 
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\lucent\ecp3.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\hypermods.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\umr_capim.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\scemi_objects.v"
+@I::"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr5.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Latch.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\SR_Reg.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_clr.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\T_ff_pset.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\TrigLUT_tf.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\Or8.v"
+@I::"D:\bartz\Documents\Lattice\TrigLUT\Source\Or18.v"
+Verilog syntax check successful!
+Selecting top level module ScatterTrig
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v:1:7:1:16:@N:CG364:@XP_MSG">Input_Reg.v(1)</a><!@TM:1458828050> | Synthesizing module Input_Reg
+
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = Input_Reg_48s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:1:7:1:16:@N:CG364:@XP_MSG">retrigger.v(1)</a><!@TM:1458828050> | Synthesizing module ReTrigger
+
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = ReTrigger_48s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v:3:7:3:16:@N:CG364:@XP_MSG">LeadDelay.v(3)</a><!@TM:1458828050> | Synthesizing module LeadDelay
+
+	STAGES=32'b00000000000000000000000000000010
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = LeadDelay_2s_48s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:3:7:3:15:@N:CG364:@XP_MSG">DelayBit.v(3)</a><!@TM:1458828050> | Synthesizing module DelayBit
+
+	STAGES=32'b00000000000000000000000000000010
+   Generated name = DelayBit_2s
+
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[0].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[1].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v:23:7:23:19:@N:CG364:@XP_MSG">PulseStretch.v(23)</a><!@TM:1458828050> | Synthesizing module PulseStretch
+
+	STAGES=32'b00000000000000000000000000000010
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = PulseStretch_2s_48s
+
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v:32:25:32:31:@W:CG360:@XP_MSG">PulseStretch.v(32)</a><!@TM:1458828050> | No assignment to wire InLtch</font>
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v:3:7:3:16:@N:CG364:@XP_MSG">LeadDelay.v(3)</a><!@TM:1458828050> | Synthesizing module LeadDelay
+
+	STAGES=32'b00000000000000000000000000000100
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = LeadDelay_4s_48s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:3:7:3:15:@N:CG364:@XP_MSG">DelayBit.v(3)</a><!@TM:1458828050> | Synthesizing module DelayBit
+
+	STAGES=32'b00000000000000000000000000000100
+   Generated name = DelayBit_4s
+
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[0].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[1].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[2].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[3].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v:23:7:23:19:@N:CG364:@XP_MSG">PulseStretch.v(23)</a><!@TM:1458828050> | Synthesizing module PulseStretch
+
+	STAGES=32'b00000000000000000000000000000100
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = PulseStretch_4s_48s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v:3:7:3:16:@N:CG364:@XP_MSG">LeadDelay.v(3)</a><!@TM:1458828050> | Synthesizing module LeadDelay
+
+	STAGES=32'b00000000000000000000000000000101
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = LeadDelay_5s_48s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:3:7:3:15:@N:CG364:@XP_MSG">DelayBit.v(3)</a><!@TM:1458828050> | Synthesizing module DelayBit
+
+	STAGES=32'b00000000000000000000000000000101
+   Generated name = DelayBit_5s
+
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[0].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[1].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[2].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[3].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[4].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v:23:7:23:19:@N:CG364:@XP_MSG">PulseStretch.v(23)</a><!@TM:1458828050> | Synthesizing module PulseStretch
+
+	STAGES=32'b00000000000000000000000000000101
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = PulseStretch_5s_48s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v:3:7:3:16:@N:CG364:@XP_MSG">LeadDelay.v(3)</a><!@TM:1458828050> | Synthesizing module LeadDelay
+
+	STAGES=32'b00000000000000000000000000000110
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = LeadDelay_6s_48s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:3:7:3:15:@N:CG364:@XP_MSG">DelayBit.v(3)</a><!@TM:1458828050> | Synthesizing module DelayBit
+
+	STAGES=32'b00000000000000000000000000000110
+   Generated name = DelayBit_6s
+
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[0].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[1].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[2].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[3].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[4].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A:<a href="@A:CL291:@XP_HELP">CL291</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:28:8:28:14:@A:CL291:@XP_MSG">DelayBit.v(28)</a><!@TM:1458828050> | Register dstage[5].res with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v:23:7:23:19:@N:CG364:@XP_MSG">PulseStretch.v(23)</a><!@TM:1458828050> | Synthesizing module PulseStretch
+
+	STAGES=32'b00000000000000000000000000000110
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = PulseStretch_6s_48s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v:23:7:23:14:@N:CG364:@XP_MSG">BackOr.v(23)</a><!@TM:1458828050> | Synthesizing module BackOr3
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr5.v:23:7:23:14:@N:CG364:@XP_MSG">BackOr5.v(23)</a><!@TM:1458828050> | Synthesizing module BackOr5
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v:1:7:1:16:@N:CG364:@XP_MSG">Input_Reg.v(1)</a><!@TM:1458828050> | Synthesizing module Input_Reg
+
+	WIDTH=32'b00000000000000000000000000010010
+   Generated name = Input_Reg_18s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:1:7:1:16:@N:CG364:@XP_MSG">retrigger.v(1)</a><!@TM:1458828050> | Synthesizing module ReTrigger
+
+	WIDTH=32'b00000000000000000000000000010010
+   Generated name = ReTrigger_18s
+
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 18 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 19 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 20 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 21 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 22 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 23 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 24 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 25 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 26 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 27 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 28 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 29 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 30 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 31 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 32 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 33 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 34 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 35 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 36 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 37 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 38 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 39 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 40 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 41 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 42 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 43 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 44 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 45 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 46 of fin</font>
+<font color=#A52A2A>@W:<a href="@W:CG134:@XP_HELP">CG134</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v:11:10:11:13:@W:CG134:@XP_MSG">retrigger.v(11)</a><!@TM:1458828050> | No assignment to bit 47 of fin</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\LeadDelay.v:3:7:3:16:@N:CG364:@XP_MSG">LeadDelay.v(3)</a><!@TM:1458828050> | Synthesizing module LeadDelay
+
+	STAGES=32'b00000000000000000000000000000010
+	WIDTH=32'b00000000000000000000000000010010
+   Generated name = LeadDelay_2s_18s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v:23:7:23:19:@N:CG364:@XP_MSG">PulseStretch.v(23)</a><!@TM:1458828050> | Synthesizing module PulseStretch
+
+	STAGES=32'b00000000000000000000000000000010
+	WIDTH=32'b00000000000000000000000000010010
+   Generated name = PulseStretch_2s_18s
+
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v:38:9:38:23:@W:CS263:@XP_MSG">PulseStretch.v(38)</a><!@TM:1458828050> | Port-width mismatch for port set. Formal has width 48, Actual 18</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v:39:9:39:12:@W:CS263:@XP_MSG">PulseStretch.v(39)</a><!@TM:1458828050> | Port-width mismatch for port rst. Formal has width 48, Actual 18</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v:41:7:41:10:@W:CS263:@XP_MSG">PulseStretch.v(41)</a><!@TM:1458828050> | Port-width mismatch for port Q. Formal has width 48, Actual 18</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\Or18.v:23:7:23:11:@N:CG364:@XP_MSG">Or18.v(23)</a><!@TM:1458828050> | Synthesizing module Or18
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\Or8.v:23:7:23:10:@N:CG364:@XP_MSG">Or8.v(23)</a><!@TM:1458828050> | Synthesizing module Or8
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v:5:7:5:18:@N:CG364:@XP_MSG">ScatterTrig.v(5)</a><!@TM:1458828050> | Synthesizing module ScatterTrig
+
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v:16:12:16:15:@W:CG360:@XP_MSG">ScatterTrig.v(16)</a><!@TM:1458828050> | No assignment to wire res</font>
+
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v:16:16:16:22:@W:CG360:@XP_MSG">ScatterTrig.v(16)</a><!@TM:1458828050> | No assignment to wire InLtch</font>
+
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v:16:23:16:27:@W:CG360:@XP_MSG">ScatterTrig.v(16)</a><!@TM:1458828050> | No assignment to wire retr</font>
+
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v:8:13:8:16:@W:CL246:@XP_MSG">ScatterTrig.v(8)</a><!@TM:1458828050> | Input port bits 63 to 48 of INP[63:0] are unused</font>
+
+<font color=#A52A2A>@W:<a href="@W:CL159:@XP_HELP">CL159</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v:9:7:9:11:@W:CL159:@XP_MSG">ScatterTrig.v(9)</a><!@TM:1458828050> | Input InpA is unused</font>
+<font color=#A52A2A>@W:<a href="@W:CL159:@XP_HELP">CL159</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v:9:13:9:17:@W:CL159:@XP_MSG">ScatterTrig.v(9)</a><!@TM:1458828050> | Input InpB is unused</font>
+<font color=#A52A2A>@W:<a href="@W:CL159:@XP_HELP">CL159</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v:9:19:9:23:@W:CL159:@XP_MSG">ScatterTrig.v(9)</a><!@TM:1458828050> | Input InpC is unused</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v:4:21:4:24:@W:CL246:@XP_MSG">Input_Reg.v(4)</a><!@TM:1458828050> | Input port bits 47 to 18 of rst[47:0] are unused</font>
+
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v:4:17:4:20:@W:CL246:@XP_MSG">Input_Reg.v(4)</a><!@TM:1458828050> | Input port bits 47 to 18 of set[47:0] are unused</font>
+
+<font color=#A52A2A>@W:<a href="@W:CL247:@XP_HELP">CL247</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v:24:17:24:21:@W:CL247:@XP_MSG">BackOr.v(24)</a><!@TM:1458828050> | Input port bit 27 of back[27:0] is unused</font>
+
+<font color=#A52A2A>@W:<a href="@W:CL247:@XP_HELP">CL247</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v:24:17:24:21:@W:CL247:@XP_MSG">BackOr.v(24)</a><!@TM:1458828050> | Input port bit 0 of back[27:0] is unused</font>
+
+<a name=error3></a><font color=red>@E:<a href="@E:CL172:@XP_HELP">CL172</a> : <a href="D:\bartz\Documents\Lattice\TrigLUT\Source\DelayBit.v:12:18:12:21:@E:CL172:@XP_MSG">DelayBit.v(12)</a><!@TM:1458828050> | Only one always block can assign a given variable dstage[0].res_86[6:0]</font>
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Mar 24 10:00:50 2016
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Mar 24 10:00:50 2016
+
+###########################################################]
+
+</pre></samp></body></html>

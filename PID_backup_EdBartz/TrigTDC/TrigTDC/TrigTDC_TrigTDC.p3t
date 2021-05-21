@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "TrigTDC_TrigTDC.log"
+-o "TrigTDC_TrigTDC.csv"
+-pr "TrigTDC_TrigTDC.prf"

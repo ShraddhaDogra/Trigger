@@ -1,0 +1,241 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\bartz\\Documents\\Lattice\\TrigTDC\\TrigTDC\\synwork\\TrigTDC_TrigTDC_comp.srs|-top|TriggerTDCTop|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|D:\\bartz\\Documents\\Lattice\\TrigTDC|-I|D:\\bartz\\Documents\\Lattice\\TrigTDC\\TrigTDC\\|-I|D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\lib|-v2001|-devicelib|D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\ecp3.v|-devicelib|D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\bin64\\c_ver.exe":1489219408
+#CUR:"D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\ecp3.v":1489043644
+#CUR:"D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v":1489043644
+#CUR:"D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\hypermods.v":1489039400
+#CUR:"D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\umr_capim.v":1489039400
+#CUR:"D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1489039400
+#CUR:"D:\\Cad\\lscc39\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1489039400
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Ch48.v":1496235737
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\ClockGen.v":1491943058
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\comnet.v":1489091584
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\ComTrans.v":1491507402
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\DeBounce_v.v":1485193200
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\FineTimeBit.v":1496235267
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\hit_cntr.v":1492437414
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Input_Reg.v":1489764240
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\InputBit.v":1473882138
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Lanalyzer.v":1489758466
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\leds.v":1461861696
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Ltch8.v":1482173228
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Ltch32.v":1488210116
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Ltch33.v":1486566404
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Ltch40.v":1481140298
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Ltch42.v":1487967732
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Mux3x32.v":1475262332
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Mux16x32.v":1475262306
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Register.v":1488319522
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\SFineTimeBit.v":1492020696
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Shift33.v":1486566736
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Shift40.v":1485193548
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Shift42.v":1488317484
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Shiftout32.v":1488309290
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\StrSt.v":1485192844
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\sync_cntr.v":1492448842
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Teststate.v":1492446076
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\timestatics.v":1492437710
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\TriggerTDC.v":1490109360
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\TriggerTDCTop.v":1507147244
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\wcomp.v":1475767352
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Cpll0.v":1491494874
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Cpll1.v":1491841252
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Cpll2.v":1484860000
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Cpll3.v":1472739554
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Cpll.v":1495733320
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Cpll4.v":1472741850
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\readoutfifo.v":1488402430
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\LA_FIFO.v":1487017950
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\Lanalyzer0.v":1495568200
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\SFineTimeBit0.v":1495568447
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\SFineTimeBit1.v":1495634162
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\SFineTimeBit2.v":1495634151
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\SFineTimeBit3.v":1495634197
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\SFineTimeBit4.v":1495634221
+#CUR:"D:\\bartz\\Documents\\Lattice\\TrigTDC\\Source\\SFineTimeBit5.v":1495634245
+0			"D:\bartz\Documents\Lattice\TrigTDC\Source\Ch48.v" verilog
+1			"D:\bartz\Documents\Lattice\TrigTDC\Source\ClockGen.v" verilog
+2			"D:\bartz\Documents\Lattice\TrigTDC\Source\comnet.v" verilog
+3			"D:\bartz\Documents\Lattice\TrigTDC\Source\ComTrans.v" verilog
+4			"D:\bartz\Documents\Lattice\TrigTDC\Source\DeBounce_v.v" verilog
+5			"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v" verilog
+6			"D:\bartz\Documents\Lattice\TrigTDC\Source\hit_cntr.v" verilog
+7			"D:\bartz\Documents\Lattice\TrigTDC\Source\Input_Reg.v" verilog
+8			"D:\bartz\Documents\Lattice\TrigTDC\Source\InputBit.v" verilog
+9			"D:\bartz\Documents\Lattice\TrigTDC\Source\Lanalyzer.v" verilog
+10			"D:\bartz\Documents\Lattice\TrigTDC\Source\leds.v" verilog
+11			"D:\bartz\Documents\Lattice\TrigTDC\Source\Ltch8.v" verilog
+12			"D:\bartz\Documents\Lattice\TrigTDC\Source\Ltch32.v" verilog
+13			"D:\bartz\Documents\Lattice\TrigTDC\Source\Ltch33.v" verilog
+14			"D:\bartz\Documents\Lattice\TrigTDC\Source\Ltch40.v" verilog
+15			"D:\bartz\Documents\Lattice\TrigTDC\Source\Ltch42.v" verilog
+16			"D:\bartz\Documents\Lattice\TrigTDC\Source\Mux3x32.v" verilog
+17			"D:\bartz\Documents\Lattice\TrigTDC\Source\Mux16x32.v" verilog
+18			"D:\bartz\Documents\Lattice\TrigTDC\Source\Register.v" verilog
+19			"D:\bartz\Documents\Lattice\TrigTDC\Source\SFineTimeBit.v" verilog
+20			"D:\bartz\Documents\Lattice\TrigTDC\Source\Shift33.v" verilog
+21			"D:\bartz\Documents\Lattice\TrigTDC\Source\Shift40.v" verilog
+22			"D:\bartz\Documents\Lattice\TrigTDC\Source\Shift42.v" verilog
+23			"D:\bartz\Documents\Lattice\TrigTDC\Source\Shiftout32.v" verilog
+24			"D:\bartz\Documents\Lattice\TrigTDC\Source\StrSt.v" verilog
+25			"D:\bartz\Documents\Lattice\TrigTDC\Source\sync_cntr.v" verilog
+26			"D:\bartz\Documents\Lattice\TrigTDC\Source\Teststate.v" verilog
+27			"D:\bartz\Documents\Lattice\TrigTDC\Source\timestatics.v" verilog
+28			"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v" verilog
+29			"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDCTop.v" verilog
+30			"D:\bartz\Documents\Lattice\TrigTDC\Source\wcomp.v" verilog
+31			"D:\bartz\Documents\Lattice\TrigTDC\Cpll0.v" verilog
+32			"D:\bartz\Documents\Lattice\TrigTDC\Cpll1.v" verilog
+33			"D:\bartz\Documents\Lattice\TrigTDC\Cpll2.v" verilog
+34			"D:\bartz\Documents\Lattice\TrigTDC\Cpll3.v" verilog
+35			"D:\bartz\Documents\Lattice\TrigTDC\Cpll.v" verilog
+36			"D:\bartz\Documents\Lattice\TrigTDC\Cpll4.v" verilog
+37			"D:\bartz\Documents\Lattice\TrigTDC\readoutfifo.v" verilog
+38			"D:\bartz\Documents\Lattice\TrigTDC\LA_FIFO.v" verilog
+39			"D:\bartz\Documents\Lattice\TrigTDC\Source\Lanalyzer0.v" verilog
+40			"D:\bartz\Documents\Lattice\TrigTDC\Source\SFineTimeBit0.v" verilog
+41			"D:\bartz\Documents\Lattice\TrigTDC\Source\SFineTimeBit1.v" verilog
+42			"D:\bartz\Documents\Lattice\TrigTDC\Source\SFineTimeBit2.v" verilog
+43			"D:\bartz\Documents\Lattice\TrigTDC\Source\SFineTimeBit3.v" verilog
+44			"D:\bartz\Documents\Lattice\TrigTDC\Source\SFineTimeBit4.v" verilog
+45			"D:\bartz\Documents\Lattice\TrigTDC\Source\SFineTimeBit5.v" verilog
+#Dependency Lists(Uses List)
+0 16 17 5
+1 33 32 35 18
+2 23 22 24
+3 -1
+4 -1
+5 30 11 18
+6 25
+7 -1
+8 -1
+9 38 18
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 30 9 11 18
+20 13
+21 14
+22 15
+23 12
+24 -1
+25 -1
+26 -1
+27 37 26 6
+28 27 0 7 1 3 18
+29 28 2 4 10
+30 -1
+31 -1
+32 -1
+33 -1
+34 -1
+35 -1
+36 -1
+37 -1
+38 -1
+39 38 18
+40 30 9 11 18
+41 30 39 11 18
+42 30 39 11 18
+43 30 39 11 18
+44 30 39 11 18
+45 30 39 11 18
+#Dependency Lists(Users Of)
+0 28
+1 28
+2 29
+3 28
+4 29
+5 0
+6 27
+7 28
+8 -1
+9 40 19
+10 29
+11 45 44 43 42 41 40 19 5
+12 23
+13 20
+14 21
+15 22
+16 0
+17 0
+18 45 44 43 42 41 40 39 28 19 9 5 1
+19 -1
+20 -1
+21 -1
+22 2
+23 2
+24 2
+25 6
+26 27
+27 28
+28 29
+29 -1
+30 45 44 43 42 41 40 19 5
+31 -1
+32 1
+33 1
+34 -1
+35 1
+36 -1
+37 27
+38 39 9
+39 45 44 43 42 41
+40 -1
+41 -1
+42 -1
+43 -1
+44 -1
+45 -1
+#Design Unit to File Association
+module work SFineTimeBit5 45
+module work SFineTimeBit4 44
+module work SFineTimeBit3 43
+module work SFineTimeBit2 42
+module work SFineTimeBit1 41
+module work SFineTimeBit0 40
+module work Lanalyzer0 39
+module work Cpll4 36
+module work Cpll3 34
+module work Cpll0 31
+module work TriggerTDCTop 29
+module work TriggerTDC 28
+module work timestatics 27
+module work readoutfifo 37
+module work teststate 26
+module work Shift40 21
+module work Shift33 20
+module work SFineTimeBit 19
+module work Ltch42 15
+module work Ltch40 14
+module work Ltch33 13
+module work Ltch32 12
+module work leds 10
+module work Lanalyzer 9
+module work LA_FIFO 38
+module work Input_Bit 8
+module work Input_Reg 7
+module work hit_counter 6
+module work sync_counter 25
+module work wcomp 30
+module work Ltch8 11
+module work DeBounce 4
+module work ComTrans 3
+module work comnet 2
+module work Shiftout32 23
+module work Shift42 22
+module work StrSt 24
+module work ClockGen 1
+module work Cpll2 33
+module work Cpll1 32
+module work Cpll 35
+module work Register 18
+module work Ch48 0
+module work Mux3x32 16
+module work Mux16x32 17
+module work FineTimeBit 5

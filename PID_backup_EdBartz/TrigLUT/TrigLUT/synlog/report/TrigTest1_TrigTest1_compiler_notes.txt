@@ -1,0 +1,16 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v":5:7:5:11|Synthesizing module Mand3
+@N: CG179 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand3.v":38:12:38:16|Removing redundant assignment
+@N: CG364 :"D:\Cad\lscc\diamond\3.6_x64\synpbase\lib\lucent\ecp3.v":43:7:43:10|Synthesizing module AND2
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Delay_buf.v":5:7:5:15|Synthesizing module Delay_buf
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Stretcher.v":5:7:5:15|Synthesizing module Stretcher
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand4.v":5:7:5:11|Synthesizing module Mand4
+@N: CG179 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand4.v":40:12:40:16|Removing redundant assignment
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand5.v":5:7:5:11|Synthesizing module Mand5
+@N: CG179 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Mand5.v":42:12:42:16|Removing redundant assignment
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\Source\Mand6.v":5:7:5:11|Synthesizing module Mand6
+@N: CG179 :"D:\bartz\Documents\Lattice\TrigTest\Source\Mand6.v":44:12:44:16|Removing redundant assignment
+@N: CG364 :"D:\bartz\Documents\Lattice\TrigTest\TrigTest1\source\Top.v":5:7:5:9|Synthesizing module Top
+@N|Running in 64-bit mode
+

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "TrigLUT_TrigLUT.log"
+-o "TrigLUT_TrigLUT.csv"
+-pr "TrigLUT_TrigLUT.prf"

@@ -1,0 +1,578 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1368R, Built Jan  8 2016 09:37:50
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version K-2015.09L-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\TrigLUT_TrigLUT_scck.rpt 
+Printing clock  summary report in "D:\bartz\Documents\Lattice\TrigLUT\TrigLUT\TrigLUT_TrigLUT_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 115MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 117MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[0] appears to be an unidentified clock source. Assuming default frequency. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=372  set on top level netlist ScatterTrig
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 154MB peak: 155MB)
+
+
+
+Clock Summary
+*****************
+
+Start                          Requested      Requested     Clock        Clock                 
+Clock                          Frequency      Period        Type         Group                 
+-----------------------------------------------------------------------------------------------
+ScatterTrig|CLK_PCLK_RIGHT     4.2 MHz        240.553       inferred     Autoconstr_clkgroup_0 
+ScatterTrig|INP[0]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_48
+ScatterTrig|INP[1]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_47
+ScatterTrig|INP[2]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_46
+ScatterTrig|INP[3]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_45
+ScatterTrig|INP[4]             1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_44
+ScatterTrig|INP[5]             1694.1 MHz     0.590         inferred     Autoconstr_clkgroup_43
+ScatterTrig|INP[6]             1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_42
+ScatterTrig|INP[7]             1549.2 MHz     0.646         inferred     Autoconstr_clkgroup_41
+ScatterTrig|INP[8]             1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_40
+ScatterTrig|INP[9]             1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_39
+ScatterTrig|INP[10]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_38
+ScatterTrig|INP[11]            1511.3 MHz     0.662         inferred     Autoconstr_clkgroup_37
+ScatterTrig|INP[12]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_36
+ScatterTrig|INP[13]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_35
+ScatterTrig|INP[14]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_34
+ScatterTrig|INP[15]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_33
+ScatterTrig|INP[16]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_32
+ScatterTrig|INP[17]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_31
+ScatterTrig|INP[18]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_30
+ScatterTrig|INP[19]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_29
+ScatterTrig|INP[20]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_28
+ScatterTrig|INP[21]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_27
+ScatterTrig|INP[22]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_26
+ScatterTrig|INP[23]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_25
+ScatterTrig|INP[24]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_24
+ScatterTrig|INP[25]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_23
+ScatterTrig|INP[26]            1511.3 MHz     0.662         inferred     Autoconstr_clkgroup_22
+ScatterTrig|INP[27]            1516.5 MHz     0.659         inferred     Autoconstr_clkgroup_21
+ScatterTrig|INP[28]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_20
+ScatterTrig|INP[29]            1527.2 MHz     0.655         inferred     Autoconstr_clkgroup_19
+ScatterTrig|INP[30]            1549.2 MHz     0.646         inferred     Autoconstr_clkgroup_18
+ScatterTrig|INP[31]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_17
+ScatterTrig|INP[32]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_16
+ScatterTrig|INP[33]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_15
+ScatterTrig|INP[34]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_14
+ScatterTrig|INP[35]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_13
+ScatterTrig|INP[36]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_12
+ScatterTrig|INP[37]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_11
+ScatterTrig|INP[38]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_10
+ScatterTrig|INP[39]            1582.8 MHz     0.632         inferred     Autoconstr_clkgroup_9 
+ScatterTrig|INP[40]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_8 
+ScatterTrig|INP[41]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_7 
+ScatterTrig|INP[42]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_6 
+ScatterTrig|INP[43]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_5 
+ScatterTrig|INP[44]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_4 
+ScatterTrig|INP[45]            1630.5 MHz     0.613         inferred     Autoconstr_clkgroup_3 
+ScatterTrig|INP[46]            1807.0 MHz     0.553         inferred     Autoconstr_clkgroup_2 
+ScatterTrig|INP[47]            1807.0 MHz     0.553         inferred     Autoconstr_clkgroup_1 
+System                         1694.1 MHz     0.590         system       system_clkgroup       
+===============================================================================================
+
+@W: MT531 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found signal identified as System clock which controls 216 sequential elements including LatchAnd3A.ireg.input_reg\[0\]\.C[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Found inferred clock ScatterTrig|CLK_PCLK_RIGHT which controls 1976 sequential elements including ps2.ireg.input_reg\[0\]\.rst1[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[47] which controls 8 sequential elements including ps2.ireg.input_reg\[47\]\.C[47]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[46] which controls 8 sequential elements including ps2.ireg.input_reg\[46\]\.C[46]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[45] which controls 8 sequential elements including ps2.ireg.input_reg\[45\]\.C[45]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[44] which controls 8 sequential elements including ps2.ireg.input_reg\[44\]\.C[44]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[43] which controls 8 sequential elements including ps2.ireg.input_reg\[43\]\.C[43]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[42] which controls 8 sequential elements including ps2.ireg.input_reg\[42\]\.C[42]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[41] which controls 8 sequential elements including ps2.ireg.input_reg\[41\]\.C[41]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[40] which controls 8 sequential elements including ps2.ireg.input_reg\[40\]\.C[40]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[39] which controls 8 sequential elements including ps2.ireg.input_reg\[39\]\.C[39]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[38] which controls 8 sequential elements including ps2.ireg.input_reg\[38\]\.C[38]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[37] which controls 8 sequential elements including ps2.ireg.input_reg\[37\]\.C[37]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[36] which controls 8 sequential elements including ps2.ireg.input_reg\[36\]\.C[36]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[35] which controls 8 sequential elements including ps2.ireg.input_reg\[35\]\.C[35]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[34] which controls 8 sequential elements including ps2.ireg.input_reg\[34\]\.C[34]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[33] which controls 8 sequential elements including ps2.ireg.input_reg\[33\]\.C[33]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[32] which controls 8 sequential elements including ps2.ireg.input_reg\[32\]\.C[32]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[31] which controls 8 sequential elements including ps2.ireg.input_reg\[31\]\.C[31]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[30] which controls 8 sequential elements including ps2.ireg.input_reg\[30\]\.C[30]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[29] which controls 8 sequential elements including ps2.ireg.input_reg\[29\]\.C[29]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[28] which controls 8 sequential elements including ps2.ireg.input_reg\[28\]\.C[28]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[27] which controls 8 sequential elements including ps2.ireg.input_reg\[27\]\.C[27]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[26] which controls 8 sequential elements including ps2.ireg.input_reg\[26\]\.C[26]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[25] which controls 8 sequential elements including ps2.ireg.input_reg\[25\]\.C[25]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[24] which controls 8 sequential elements including ps2.ireg.input_reg\[24\]\.C[24]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[23] which controls 8 sequential elements including ps2.ireg.input_reg\[23\]\.C[23]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[22] which controls 8 sequential elements including ps2.ireg.input_reg\[22\]\.C[22]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[21] which controls 8 sequential elements including ps2.ireg.input_reg\[21\]\.C[21]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[20] which controls 8 sequential elements including ps2.ireg.input_reg\[20\]\.C[20]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[19] which controls 8 sequential elements including ps2.ireg.input_reg\[19\]\.C[19]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[18] which controls 8 sequential elements including ps2.ireg.input_reg\[18\]\.C[18]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[17] which controls 8 sequential elements including ps2.ireg.input_reg\[17\]\.C[17]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[16] which controls 8 sequential elements including ps2.ireg.input_reg\[16\]\.C[16]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[15] which controls 8 sequential elements including ps2.ireg.input_reg\[15\]\.C[15]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[14] which controls 8 sequential elements including ps2.ireg.input_reg\[14\]\.C[14]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[13] which controls 8 sequential elements including ps2.ireg.input_reg\[13\]\.C[13]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[12] which controls 8 sequential elements including ps2.ireg.input_reg\[12\]\.C[12]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[11] which controls 8 sequential elements including ps2.ireg.input_reg\[11\]\.C[11]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[10] which controls 8 sequential elements including ps2.ireg.input_reg\[10\]\.C[10]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[9] which controls 8 sequential elements including ps2.ireg.input_reg\[9\]\.C[9]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[8] which controls 8 sequential elements including ps2.ireg.input_reg\[8\]\.C[8]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[7] which controls 8 sequential elements including ps2.ireg.input_reg\[7\]\.C[7]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[6] which controls 8 sequential elements including ps2.ireg.input_reg\[6\]\.C[6]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[5] which controls 8 sequential elements including ps2.ireg.input_reg\[5\]\.C[5]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[4] which controls 8 sequential elements including ps2.ireg.input_reg\[4\]\.C[4]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[3] which controls 8 sequential elements including ps2.ireg.input_reg\[3\]\.C[3]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[2] which controls 8 sequential elements including ps2.ireg.input_reg\[2\]\.C[2]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[1] which controls 8 sequential elements including ps2.ireg.input_reg\[1\]\.C[1]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Found inferred clock ScatterTrig|INP[0] which controls 8 sequential elements including ps2.ireg.input_reg\[0\]\.C[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 155MB)
+
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[3\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[10\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[4\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[41\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[27\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[46\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[7\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[40\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[47\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[31\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[24\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[16\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[23\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[17\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[42\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[28\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[14\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[21\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[13\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[20\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[18\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[11\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[29\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[30\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[15\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[1\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[8\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[26\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[25\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[19\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[5\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[9\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[43\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[44\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[45\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[22\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[2\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[12\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[6\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\delaybit.v":14:0:14:5|Removing sequential instance leadEdgeDelay.Bitwise_Delay\[0\]\.Dline.res[2:0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[0\]\.retr[0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[1\]\.retr[1] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[2\]\.retr[2] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[3\]\.retr[3] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[4\]\.retr[4] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[5\]\.retr[5] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[6\]\.retr[6] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[7\]\.retr[7] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[8\]\.retr[8] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[9\]\.retr[9] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[10\]\.retr[10] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[11\]\.retr[11] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[12\]\.retr[12] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[13\]\.retr[13] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[14\]\.retr[14] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[15\]\.retr[15] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[16\]\.retr[16] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[17\]\.retr[17] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[18\]\.retr[18] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[19\]\.retr[19] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[20\]\.retr[20] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[21\]\.retr[21] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[22\]\.retr[22] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[23\]\.retr[23] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[24\]\.retr[24] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[25\]\.retr[25] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[26\]\.retr[26] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[27\]\.retr[27] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[28\]\.retr[28] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[29\]\.retr[29] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[30\]\.retr[30] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[31\]\.retr[31] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[40\]\.retr[40] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[41\]\.retr[41] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[42\]\.retr[42] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[43\]\.retr[43] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[44\]\.retr[44] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[45\]\.retr[45] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[46\]\.retr[46] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":17:2:17:7|Removing sequential instance iretrig.retrigger\[47\]\.retr[47] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[47\]\.fin[47] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[46\]\.fin[46] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[45\]\.fin[45] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[44\]\.fin[44] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[43\]\.fin[43] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[42\]\.fin[42] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[41\]\.fin[41] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[40\]\.fin[40] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[31\]\.fin[31] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[30\]\.fin[30] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[29\]\.fin[29] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[28\]\.fin[28] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[27\]\.fin[27] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[26\]\.fin[26] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[25\]\.fin[25] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[24\]\.fin[24] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[23\]\.fin[23] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[22\]\.fin[22] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[21\]\.fin[21] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[20\]\.fin[20] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[19\]\.fin[19] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[18\]\.fin[18] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[17\]\.fin[17] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[16\]\.fin[16] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[15\]\.fin[15] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[14\]\.fin[14] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[13\]\.fin[13] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[12\]\.fin[12] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[11\]\.fin[11] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[10\]\.fin[10] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[9\]\.fin[9] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[8\]\.fin[8] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[7\]\.fin[7] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[6\]\.fin[6] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[5\]\.fin[5] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[4\]\.fin[4] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[3\]\.fin[3] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[2\]\.fin[2] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[1\]\.fin[1] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\retrigger.v":24:2:24:7|Removing sequential instance iretrig.retrigger\[0\]\.fin[0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[0\]\.rst1[0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[1\]\.rst1[1] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[2\]\.rst1[2] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[3\]\.rst1[3] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[4\]\.rst1[4] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[5\]\.rst1[5] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[6\]\.rst1[6] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[7\]\.rst1[7] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[8\]\.rst1[8] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[9\]\.rst1[9] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[10\]\.rst1[10] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[11\]\.rst1[11] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[12\]\.rst1[12] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[13\]\.rst1[13] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[14\]\.rst1[14] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[15\]\.rst1[15] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[16\]\.rst1[16] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[17\]\.rst1[17] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[18\]\.rst1[18] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[19\]\.rst1[19] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[20\]\.rst1[20] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[21\]\.rst1[21] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[22\]\.rst1[22] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[23\]\.rst1[23] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[24\]\.rst1[24] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[25\]\.rst1[25] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[26\]\.rst1[26] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[27\]\.rst1[27] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[28\]\.rst1[28] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[29\]\.rst1[29] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[30\]\.rst1[30] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[31\]\.rst1[31] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[40\]\.rst1[40] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[41\]\.rst1[41] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[42\]\.rst1[42] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[43\]\.rst1[43] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[44\]\.rst1[44] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[45\]\.rst1[45] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[46\]\.rst1[46] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":18:0:18:5|Removing sequential instance ireg.input_reg\[47\]\.rst1[47] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[0\]\.C[0] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[1\]\.C[1] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[2\]\.C[2] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[3\]\.C[3] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[4\]\.C[4] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[5\]\.C[5] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[6\]\.C[6] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[7\]\.C[7] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[8\]\.C[8] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[9\]\.C[9] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[10\]\.C[10] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[11\]\.C[11] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[12\]\.C[12] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[13\]\.C[13] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[14\]\.C[14] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[15\]\.C[15] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[16\]\.C[16] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[17\]\.C[17] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[18\]\.C[18] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[19\]\.C[19] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[20\]\.C[20] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[21\]\.C[21] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[22\]\.C[22] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[23\]\.C[23] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[24\]\.C[24] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[25\]\.C[25] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[26\]\.C[26] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[27\]\.C[27] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[28\]\.C[28] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[29\]\.C[29] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[30\]\.C[30] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[31\]\.C[31] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[40\]\.C[40] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[41\]\.C[41] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[42\]\.C[42] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[43\]\.C[43] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[44\]\.C[44] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[45\]\.C[45] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[46\]\.C[46] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\bartz\documents\lattice\triglut\source\input_reg.v":21:0:21:5|Removing sequential instance ireg.input_reg\[47\]\.C[47] (in view: work.PulseStretch_2s_48s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":225:19:225:33|Net And5C[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":224:19:224:33|Net And3C[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":157:23:157:37|Net And5B[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":156:23:156:37|Net And3B[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":90:23:90:37|Net And5A[0] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[17] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[16] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[15] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[14] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[13] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[12] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[11] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[10] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[9] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[8] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[7] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[6] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[5] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[4] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[3] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[2] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[1] appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"d:\bartz\documents\lattice\triglut\source\scattertrig.v":89:23:89:37|Net And3A[0] appears to be an unidentified clock source. Assuming default frequency. 
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 158MB peak: 160MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 160MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Sep 21 15:40:18 2016
+
+###########################################################]

@@ -1,0 +1,333 @@
+[ START MERGED ]
+ps6.ireg.input_reg[0].rst1_0_.CN CLK_PCLK_RIGHT_c
+[ END MERGED ]
+[ START CLIPPED ]
+ps2/ireg/VCC
+ps2/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC
+ps2/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC
+ps2/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC
+ps2/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC
+ps2/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC
+ps2/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC
+ps2/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC
+ps2/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC
+ps4/ireg/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[22].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[45].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[44].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[43].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[19].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[25].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[26].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[30].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[29].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[18].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[20].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[21].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[28].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[42].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[23].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[24].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[31].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[40].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[27].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[41].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC
+ps4/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC
+ps5/ireg/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[22].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[45].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[44].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[43].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[19].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[25].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[26].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[30].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[29].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[18].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[20].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[21].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[28].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[42].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[23].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[24].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[31].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[40].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[27].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[41].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC
+ps5/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC
+ps6/ireg/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[39].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[22].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[45].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[44].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[43].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[19].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[25].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[33].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[26].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[35].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[30].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[36].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[29].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[18].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[32].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[38].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[20].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[21].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[28].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[42].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[23].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[24].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[31].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[40].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[34].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[27].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[41].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[37].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC
+ps6/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC
+LatchAnd3A/ireg/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC
+LatchAnd3A/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC
+LatchAnd5A/ireg/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC
+LatchAnd5A/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC
+LatchAnd3B/ireg/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC
+LatchAnd3B/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC
+LatchAnd5B/ireg/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC
+LatchAnd5B/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC
+LatchAnd3C/ireg/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC
+LatchAnd3C/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC
+LatchAnd5C/ireg/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[16].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[1].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[14].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[3].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[12].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[5].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[10].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[7].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[8].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[9].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[6].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[11].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[4].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[13].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[2].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[15].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[0].Dline/VCC
+LatchAnd5C/leadEdgeDelay/Bitwise_Delay[17].Dline/VCC
+VCC
+Blink/count_cry_0_S0[0]
+Blink/N_1
+Blink/count_s_0_S1[31]
+Blink/count_s_0_COUT[31]
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.7.1.502 -- WARNING: Map write only section -- Wed Sep 21 15:40:36 2016
+
+SYSCONFIG PERSISTENT=OFF CONFIG_MODE=SPI DONE_OD=ON DONE_EX=OFF MCCLK_FREQ=20 CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF COMPRESS_CONFIG=OFF ENABLE_NDR=OFF CONFIG_IOVOLTAGE=2.5 STRTUP=EXTERNAL ;
+LOCATE COMP "CLK_PCLK_RIGHT" SITE "U20" ;
+LOCATE COMP "LED_YELLOW" SITE "A16" ;
+LOCATE COMP "LED_RED" SITE "A15" ;
+LOCATE COMP "LED_ORANGE" SITE "G13" ;
+LOCATE COMP "LED_GREEN" SITE "F12" ;
+LOCATE COMP "INP[45]" SITE "AA25" ;
+LOCATE COMP "INP[44]" SITE "W23" ;
+LOCATE COMP "INP[43]" SITE "AE25" ;
+LOCATE COMP "INP[42]" SITE "AD24" ;
+LOCATE COMP "INP[41]" SITE "Y22" ;
+LOCATE COMP "INP[40]" SITE "AB24" ;
+LOCATE COMP "INP[39]" SITE "Y19" ;
+LOCATE COMP "INP[38]" SITE "AC26" ;
+LOCATE COMP "INP[37]" SITE "F25" ;
+LOCATE COMP "INP[36]" SITE "K23" ;
+LOCATE COMP "INP[35]" SITE "H26" ;
+LOCATE COMP "INP[34]" SITE "F24" ;
+LOCATE COMP "INP[33]" SITE "G26" ;
+LOCATE COMP "INP[32]" SITE "J23" ;
+LOCATE COMP "INP[31]" SITE "B2" ;
+LOCATE COMP "INP[30]" SITE "E1" ;
+LOCATE COMP "INP[29]" SITE "K4" ;
+LOCATE COMP "INP[28]" SITE "K2" ;
+LOCATE COMP "INP[27]" SITE "T7" ;
+LOCATE COMP "INP[26]" SITE "R5" ;
+LOCATE COMP "INP[25]" SITE "T3" ;
+LOCATE COMP "INP[24]" SITE "P4" ;
+LOCATE COMP "INP[23]" SITE "T1" ;
+LOCATE COMP "INP[22]" SITE "V1" ;
+LOCATE COMP "INP[21]" SITE "W8" ;
+LOCATE COMP "INP[20]" SITE "AA3" ;
+LOCATE COMP "INP[19]" SITE "Y6" ;
+LOCATE COMP "INP[18]" SITE "AB3" ;
+LOCATE COMP "INP[17]" SITE "AB5" ;
+LOCATE COMP "INP[16]" SITE "AD1" ;
+LOCATE COMP "INP[15]" SITE "L2" ;
+LOCATE COMP "INP[14]" SITE "M5" ;
+LOCATE COMP "INP[13]" SITE "H1" ;
+LOCATE COMP "INP[12]" SITE "H2" ;
+LOCATE COMP "INP[11]" SITE "V6" ;
+LOCATE COMP "INP[10]" SITE "Y5" ;
+LOCATE COMP "INP[9]" SITE "W7" ;
+LOCATE COMP "INP[8]" SITE "AA1" ;
+LOCATE COMP "INP[7]" SITE "AB1" ;
+LOCATE COMP "INP[6]" SITE "AC2" ;
+LOCATE COMP "INP[5]" SITE "N5" ;
+LOCATE COMP "INP[4]" SITE "P5" ;
+LOCATE COMP "INP[3]" SITE "N3" ;
+LOCATE COMP "INP[2]" SITE "R1" ;
+LOCATE COMP "INP[1]" SITE "T2" ;
+LOCATE COMP "INP[0]" SITE "P1" ;
+FREQUENCY PORT "CLK_PCLK_RIGHT" 200.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

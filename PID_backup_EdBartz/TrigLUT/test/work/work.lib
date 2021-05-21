@@ -1,0 +1,93 @@
+timestamp=1458593439839
+
+[~A]
+D:/bartz/Documents/Lattice/TrigLUT/DelayBit.v=0*393*1006
+D:/bartz/Documents/Lattice/TrigLUT/DelayBit.v_Input_Reg.v=0*21387*22268
+D:/bartz/Documents/Lattice/TrigLUT/Input_Reg.v=0*17489*18071
+D:/bartz/Documents/Lattice/TrigLUT/Source/LeadDelay.v=0*1964*2569
+D:/bartz/Documents/Lattice/TrigLUT/Source/TrigLUT_tf.v=0*8267*9049
+D:/bartz/Documents/Lattice/TrigLUT/Source/retrigger.v=0*3508*4113
+D:/bartz/Documents/Lattice/TrigLUT/T_ff_clr.v=0*10013*10434
+D:/bartz/Documents/Lattice/TrigLUT/T_ff_pset.v=0*11397*11867
+D:/bartz/Documents/Lattice/TrigLUT/TrigLUT/source/Top.v=0*6649*7336
+LastVerilogToplevel=T_ff_pset
+ModifyID=14
+Version=73
+
+[$root]
+A/$root=22|||1*31999
+BinI32/$root=3*21695
+SLP=3*21799
+Version=10.2.3312.5682  (Windows)|0000000f789cd3f53752d02d33ca368590001d4003d9|c73a565f2ade592f8ac1c68f484c9216a0e77d6a732af5f71f7be4e867dd2ab8
+
+[DelayBit]
+A/DelayBit=22|./../../DelayBit.v|3|1*32405
+BinI32/DelayBit=3*21867
+R=./../../DelayBit.v|3
+SLP=3*23305
+Version=10.2.3312.5682  (Windows)|0000000f789cd3f53752d02d33ca368590001d4003d9|cb04d9afc220fe0c1747ee10a232ea8fff2c962c2e5e86fedb14d20dba06629076d94e25776f97b6551146fe5d980100
+
+[Input_Reg]
+A/Input_Reg=22|./../../Input_Reg.v|2|1*34322
+BinI32/Input_Reg=3*23628
+R=./../../Input_Reg.v|2
+SLP=3*24864
+Version=10.2.3312.5682  (Windows)|0000000f789cd3f53752d02d33ca368590001d4003d9|fad1b3b12f40c7d778307f1fbb91b321522ed731e436ccf4ba6651b1f0db30cf56642790e0cdebb7de34fd1b0a8b4afb
+
+[LeadDelay]
+A/LeadDelay=22|./../../Source/LeadDelay.v|3|1*2685
+BinI32/LeadDelay=3*2202
+R=./../../Source/LeadDelay.v|3
+SLP=3*3038
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|2fdfcba5f8b86b886917e540e6ec25c23a796c1f90de32bd04b2afc97cd6cde8f01e20e9eb5eeb03bbb1343dde52a1c9
+
+[ReTrigger]
+A/ReTrigger=22|./../../Source/retrigger.v|2|1*4940
+BinI32/ReTrigger=3*3400
+R=./../../Source/retrigger.v|2
+SLP=3*4503
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|f5d19be543e6e74fd64d0d0cc28238e44877877f20d1fce65a37ea0e1429368eaba7a2d0b3fd4cf16b7a372fb798e8b7
+
+[ScatterTrig]
+A/ScatterTrig=22|./../../TrigLUT/source/Top.v|5|1*9821
+BinI32/ScatterTrig=3*6657
+R=./../../TrigLUT/source/Top.v|5
+SLP=3*6950
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|de7d4f89f28787848804abb80d41e3e1e5460b0115b4a8850f6e460f06b2d6f7eb3ae58461247ffd73e198c9c74fe8d7
+
+[ScatterTrig_tf]
+A/ScatterTrig_tf=22|./../../Source/TrigLUT_tf.v|18|1*12423
+BinI32/ScatterTrig_tf=3*7349
+R=./../../Source/TrigLUT_tf.v|18
+SLP=3*8658
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|8424c74a097da65d82ef96ba62b22453b664b471c228063f915caf8ece5af875309f2bd45a206a6c4680cb08729f32f1
+
+[T_ff_clr]
+A/T_ff_clr=22|./../../T_ff_clr.v|2|1*14536
+BinI32/T_ff_clr=3*9594
+R=./../../T_ff_clr.v|2
+SLP=3*10095
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|22eb53be632de7ae32ff0f7bf88a60efc53845400fb12f96490836e58c608d0a7bfe96cff9fbe3d3967760f2668494b8
+
+[T_ff_pset]
+A/T_ff_pset=22|./../../T_ff_pset.v|2|1*16025
+BinI32/T_ff_pset=3*10486
+R=./../../T_ff_pset.v|2
+SLP=3*11092
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|a273528e1fecab98b8099ade5bf3144605e29bf99304b72d20622cc7b33546eed7f268076d56baa1bf2c38df74cb5696
+
+[~MFT]
+0=7|0work.mgf|22268|5887
+1=6|1work.mgf|34322|21703
+3=12|3work.mgf|24864|14991
+
+[~U]
+$root=12|0*20726|
+DelayBit=12|0*20956|
+Input_Reg=12|0*21183|
+LeadDelay=12|0*1714||0x10
+ReTrigger=12|0*3301||0x10
+ScatterTrig=12|0*6356||0x10
+ScatterTrig_tf=12|0*8102||0x10
+T_ff_clr=12|0*9830||0x10
+T_ff_pset=12|0*11206||0x10

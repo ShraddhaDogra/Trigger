@@ -1,0 +1,83 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1682R, built Mar 10 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Oct 04 16:00:59 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "TriggerTDCTop"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                  Requested     Requested     Clock                                        Clock                      Clock
+Clock                                  Frequency     Period        Type                                         Group                      Load 
+------------------------------------------------------------------------------------------------------------------------------------------------
+ComTrans|Write_inferred_clock          1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_5      6272 
+Cpll1|CLKOP_inferred_clock             4.2 MHz       240.613       inferred                                     Autoconstr_clkgroup_2      816  
+Cpll1|CLKOS_inferred_clock             4.2 MHz       240.590       inferred                                     Autoconstr_clkgroup_1      768  
+Cpll2|CLKOS_inferred_clock             624.8 MHz     1.601         inferred                                     Autoconstr_clkgroup_3      83   
+Cpll|CLKOP_inferred_clock              1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_0      10281
+DeBounce_0|Q_derived_clock             1.0 MHz       1000.000      derived (from Cpll|CLKOP_inferred_clock)     Autoconstr_clkgroup_0      121  
+DeBounce_1|Q_derived_clock             1.0 MHz       1000.000      derived (from Cpll|CLKOP_inferred_clock)     Autoconstr_clkgroup_0      3    
+Input_Reg_48s|Q_inferred_clock[0]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_52     34   
+Input_Reg_48s|Q_inferred_clock[1]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_51     34   
+Input_Reg_48s|Q_inferred_clock[2]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_50     34   
+Input_Reg_48s|Q_inferred_clock[3]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_49     34   
+Input_Reg_48s|Q_inferred_clock[4]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_48     34   
+Input_Reg_48s|Q_inferred_clock[5]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_47     34   
+Input_Reg_48s|Q_inferred_clock[6]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_46     34   
+Input_Reg_48s|Q_inferred_clock[7]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_45     34   
+Input_Reg_48s|Q_inferred_clock[8]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_44     34   
+Input_Reg_48s|Q_inferred_clock[9]      1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_43     34   
+Input_Reg_48s|Q_inferred_clock[10]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_42     34   
+Input_Reg_48s|Q_inferred_clock[11]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_41     34   
+Input_Reg_48s|Q_inferred_clock[12]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_40     34   
+Input_Reg_48s|Q_inferred_clock[13]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_39     34   
+Input_Reg_48s|Q_inferred_clock[14]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_38     34   
+Input_Reg_48s|Q_inferred_clock[15]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_37     34   
+Input_Reg_48s|Q_inferred_clock[16]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_36     34   
+Input_Reg_48s|Q_inferred_clock[17]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_35     34   
+Input_Reg_48s|Q_inferred_clock[18]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_34     34   
+Input_Reg_48s|Q_inferred_clock[19]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_33     34   
+Input_Reg_48s|Q_inferred_clock[20]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_32     34   
+Input_Reg_48s|Q_inferred_clock[21]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_31     34   
+Input_Reg_48s|Q_inferred_clock[22]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_30     34   
+Input_Reg_48s|Q_inferred_clock[23]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_29     34   
+Input_Reg_48s|Q_inferred_clock[24]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_28     34   
+Input_Reg_48s|Q_inferred_clock[25]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_27     34   
+Input_Reg_48s|Q_inferred_clock[26]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_26     34   
+Input_Reg_48s|Q_inferred_clock[27]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_25     34   
+Input_Reg_48s|Q_inferred_clock[28]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_24     34   
+Input_Reg_48s|Q_inferred_clock[29]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_23     34   
+Input_Reg_48s|Q_inferred_clock[30]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_22     34   
+Input_Reg_48s|Q_inferred_clock[31]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_21     34   
+Input_Reg_48s|Q_inferred_clock[32]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_20     34   
+Input_Reg_48s|Q_inferred_clock[33]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_19     34   
+Input_Reg_48s|Q_inferred_clock[34]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_18     34   
+Input_Reg_48s|Q_inferred_clock[35]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_17     34   
+Input_Reg_48s|Q_inferred_clock[36]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_16     34   
+Input_Reg_48s|Q_inferred_clock[37]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_15     34   
+Input_Reg_48s|Q_inferred_clock[38]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_14     34   
+Input_Reg_48s|Q_inferred_clock[39]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_13     34   
+Input_Reg_48s|Q_inferred_clock[40]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_12     34   
+Input_Reg_48s|Q_inferred_clock[41]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_11     34   
+Input_Reg_48s|Q_inferred_clock[42]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_10     34   
+Input_Reg_48s|Q_inferred_clock[43]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_9      34   
+Input_Reg_48s|Q_inferred_clock[44]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_8      34   
+Input_Reg_48s|Q_inferred_clock[45]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_7      34   
+Input_Reg_48s|Q_inferred_clock[46]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_6      34   
+Input_Reg_48s|Q_inferred_clock[47]     1.0 MHz       1000.000      inferred                                     Autoconstr_clkgroup_4      34   
+System                                 405.7 MHz     2.465         system                                       system_clkgroup            48   
+================================================================================================================================================

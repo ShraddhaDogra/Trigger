@@ -1,0 +1,2 @@
+@E: CS168 :"D:\bartz\Documents\Lattice\TrigTDC\Source\Ch48.v":44:6:44:6|Port test does not exist
+

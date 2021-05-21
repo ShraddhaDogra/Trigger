@@ -1,0 +1,617 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>
+<!--
+.blink {text-decoration:blink}
+.ms  {font-size: 9pt; font-family: monospace; font-weight: normal}
+.msb {font-size: 9pt; font-family: monospace; font-weight: bold  }
+-->
+</STYLE>
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY><B>
+</B>
+<BR><PRE><A name="Report Header"></A>
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.2.0.134
+Wed Mar 04 12:17:55 2015
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design file:     Top
+Device,speed:    LFE3-150EA,6
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+
+
+</A><A name="Unconstrained: CLOCK_DOMAIN
+"></A>================================================================================
+Preference: Unconstrained: CLOCK_DOMAIN
+            0 unconstrained paths found
+--------------------------------------------------------------------------------
+
+
+</A><A name="Unconstrained: INPUT_SETUP
+"></A>================================================================================
+Preference: Unconstrained: INPUT_SETUP
+            0 unconstrained paths found
+--------------------------------------------------------------------------------
+
+
+</A><A name="Unconstrained: CLOCK_TO_OUT
+"></A>================================================================================
+Preference: Unconstrained: CLOCK_TO_OUT
+            0 unconstrained paths found
+--------------------------------------------------------------------------------
+
+
+</A><A name="Unconstrained: MAXDELAY
+"></A>================================================================================
+Preference: Unconstrained: MAXDELAY
+            33 unconstrained paths found
+--------------------------------------------------------------------------------
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[34]" TO PORT "OutpC[1]" 
+
+Report:    5.943ns delay INP[34] to OutpC[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        F24.PAD to      F24.PADDI <A href="#@comp:INP[34]">INP[34]</A>
+ROUTE         2     1.371<A href="#@net:INP_c[34]:F24.PADDI:R44C181A.B1:1.371">      F24.PADDI to R44C181A.B1   </A> <A href="#@net:INP_c[34]">INP_c[34]</A>
+CTOF_DEL    ---     0.179    R44C181A.B1 to    R44C181A.F1 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.422<A href="#@net:OutpC_c[0]:R44C181A.F1:R44C181A.B0:0.422">    R44C181A.F1 to R44C181A.B0   </A> <A href="#@net:OutpC_c[0]">OutpC_c[0]</A>
+CTOF_DEL    ---     0.179    R44C181A.B0 to    R44C181A.F0 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.961<A href="#@net:OutpC_c_0[1]:R44C181A.F0:L20.PADDO:0.961">    R44C181A.F0 to L20.PADDO     </A> <A href="#@net:OutpC_c_0[1]">OutpC_c_0[1]</A>
+DOPAD_DEL   ---     2.359      L20.PADDO to        L20.PAD <A href="#@comp:OutpC[1]">OutpC[1]</A>
+                  --------
+                    5.943   (53.7% logic, 46.3% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[0]" TO PORT "OutpA[1]" 
+
+Report:    5.715ns delay INP[0] to OutpA[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         P1.PAD to       P1.PADDI <A href="#@comp:INP[0]">INP[0]</A>
+ROUTE         2     1.174<A href="#@net:INP_c[0]:P1.PADDI:R65C2A.C1:1.174">       P1.PADDI to R65C2A.C1     </A> <A href="#@net:INP_c[0]">INP_c[0]</A>
+CTOF_DEL    ---     0.179      R65C2A.C1 to      R65C2A.F1 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     0.391<A href="#@net:OutpA_c[0]:R65C2A.F1:R65C2A.D0:0.391">      R65C2A.F1 to R65C2A.D0     </A> <A href="#@net:OutpA_c[0]">OutpA_c[0]</A>
+CTOF_DEL    ---     0.179      R65C2A.D0 to      R65C2A.F0 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     0.961<A href="#@net:OutpA_c_0[1]:R65C2A.F0:N5.PADDO:0.961">      R65C2A.F0 to N5.PADDO      </A> <A href="#@net:OutpA_c_0[1]">OutpA_c_0[1]</A>
+DOPAD_DEL   ---     2.359       N5.PADDO to         N5.PAD <A href="#@comp:OutpA[1]">OutpA[1]</A>
+                  --------
+                    5.715   (55.8% logic, 44.2% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[1]" TO PORT "OutpA[1]" 
+
+Report:    5.613ns delay INP[1] to OutpA[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         T2.PAD to       T2.PADDI <A href="#@comp:INP[1]">INP[1]</A>
+ROUTE         2     1.072<A href="#@net:INP_c[1]:T2.PADDI:R65C2A.B1:1.072">       T2.PADDI to R65C2A.B1     </A> <A href="#@net:INP_c[1]">INP_c[1]</A>
+CTOF_DEL    ---     0.179      R65C2A.B1 to      R65C2A.F1 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     0.391<A href="#@net:OutpA_c[0]:R65C2A.F1:R65C2A.D0:0.391">      R65C2A.F1 to R65C2A.D0     </A> <A href="#@net:OutpA_c[0]">OutpA_c[0]</A>
+CTOF_DEL    ---     0.179      R65C2A.D0 to      R65C2A.F0 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     0.961<A href="#@net:OutpA_c_0[1]:R65C2A.F0:N5.PADDO:0.961">      R65C2A.F0 to N5.PADDO      </A> <A href="#@net:OutpA_c_0[1]">OutpA_c_0[1]</A>
+DOPAD_DEL   ---     2.359       N5.PADDO to         N5.PAD <A href="#@comp:OutpA[1]">OutpA[1]</A>
+                  --------
+                    5.613   (56.8% logic, 43.2% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[36]" TO PORT "OutpC[1]" 
+
+Report:    5.577ns delay INP[36] to OutpC[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        K23.PAD to      K23.PADDI <A href="#@comp:INP[36]">INP[36]</A>
+ROUTE         2     1.005<A href="#@net:INP_c[36]:K23.PADDI:R44C181A.C1:1.005">      K23.PADDI to R44C181A.C1   </A> <A href="#@net:INP_c[36]">INP_c[36]</A>
+CTOF_DEL    ---     0.179    R44C181A.C1 to    R44C181A.F1 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.422<A href="#@net:OutpC_c[0]:R44C181A.F1:R44C181A.B0:0.422">    R44C181A.F1 to R44C181A.B0   </A> <A href="#@net:OutpC_c[0]">OutpC_c[0]</A>
+CTOF_DEL    ---     0.179    R44C181A.B0 to    R44C181A.F0 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.961<A href="#@net:OutpC_c_0[1]:R44C181A.F0:L20.PADDO:0.961">    R44C181A.F0 to L20.PADDO     </A> <A href="#@net:OutpC_c_0[1]">OutpC_c_0[1]</A>
+DOPAD_DEL   ---     2.359      L20.PADDO to        L20.PAD <A href="#@comp:OutpC[1]">OutpC[1]</A>
+                  --------
+                    5.577   (57.2% logic, 42.8% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[18]" TO PORT "OutpB[1]" 
+
+Report:    5.489ns delay INP[18] to OutpB[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        AB3.PAD to      AB3.PADDI <A href="#@comp:INP[18]">INP[18]</A>
+ROUTE         2     1.218<A href="#@net:INP_c[18]:AB3.PADDI:R123C2D.C1:1.218">      AB3.PADDI to R123C2D.C1    </A> <A href="#@net:INP_c[18]">INP_c[18]</A>
+CTOF_DEL    ---     0.179     R123C2D.C1 to     R123C2D.F1 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     0.522<A href="#@net:OutpB_c[0]:R123C2D.F1:R123C2D.C0:0.522">     R123C2D.F1 to R123C2D.C0    </A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+CTOF_DEL    ---     0.179     R123C2D.C0 to     R123C2D.F0 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     0.560<A href="#@net:OutpB_c_0[1]:R123C2D.F0:AE3.PADDO:0.560">     R123C2D.F0 to AE3.PADDO     </A> <A href="#@net:OutpB_c_0[1]">OutpB_c_0[1]</A>
+DOPAD_DEL   ---     2.359      AE3.PADDO to        AE3.PAD <A href="#@comp:OutpB[1]">OutpB[1]</A>
+                  --------
+                    5.489   (58.1% logic, 41.9% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[35]" TO PORT "OutpC[1]" 
+
+Report:    5.458ns delay INP[35] to OutpC[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        H26.PAD to      H26.PADDI <A href="#@comp:INP[35]">INP[35]</A>
+ROUTE         2     0.886<A href="#@net:INP_c[35]:H26.PADDI:R44C181A.D1:0.886">      H26.PADDI to R44C181A.D1   </A> <A href="#@net:INP_c[35]">INP_c[35]</A>
+CTOF_DEL    ---     0.179    R44C181A.D1 to    R44C181A.F1 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.422<A href="#@net:OutpC_c[0]:R44C181A.F1:R44C181A.B0:0.422">    R44C181A.F1 to R44C181A.B0   </A> <A href="#@net:OutpC_c[0]">OutpC_c[0]</A>
+CTOF_DEL    ---     0.179    R44C181A.B0 to    R44C181A.F0 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.961<A href="#@net:OutpC_c_0[1]:R44C181A.F0:L20.PADDO:0.961">    R44C181A.F0 to L20.PADDO     </A> <A href="#@net:OutpC_c_0[1]">OutpC_c_0[1]</A>
+DOPAD_DEL   ---     2.359      L20.PADDO to        L20.PAD <A href="#@comp:OutpC[1]">OutpC[1]</A>
+                  --------
+                    5.458   (58.4% logic, 41.6% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[19]" TO PORT "OutpB[1]" 
+
+Report:    5.326ns delay INP[19] to OutpB[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         Y6.PAD to       Y6.PADDI <A href="#@comp:INP[19]">INP[19]</A>
+ROUTE         2     1.055<A href="#@net:INP_c[19]:Y6.PADDI:R123C2D.A1:1.055">       Y6.PADDI to R123C2D.A1    </A> <A href="#@net:INP_c[19]">INP_c[19]</A>
+CTOF_DEL    ---     0.179     R123C2D.A1 to     R123C2D.F1 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     0.522<A href="#@net:OutpB_c[0]:R123C2D.F1:R123C2D.C0:0.522">     R123C2D.F1 to R123C2D.C0    </A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+CTOF_DEL    ---     0.179     R123C2D.C0 to     R123C2D.F0 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     0.560<A href="#@net:OutpB_c_0[1]:R123C2D.F0:AE3.PADDO:0.560">     R123C2D.F0 to AE3.PADDO     </A> <A href="#@net:OutpB_c_0[1]">OutpB_c_0[1]</A>
+DOPAD_DEL   ---     2.359      AE3.PADDO to        AE3.PAD <A href="#@comp:OutpB[1]">OutpB[1]</A>
+                  --------
+                    5.326   (59.9% logic, 40.1% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[17]" TO PORT "OutpB[1]" 
+
+Report:    5.317ns delay INP[17] to OutpB[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        AB5.PAD to      AB5.PADDI <A href="#@comp:INP[17]">INP[17]</A>
+ROUTE         2     1.046<A href="#@net:INP_c[17]:AB5.PADDI:R123C2D.D1:1.046">      AB5.PADDI to R123C2D.D1    </A> <A href="#@net:INP_c[17]">INP_c[17]</A>
+CTOF_DEL    ---     0.179     R123C2D.D1 to     R123C2D.F1 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     0.522<A href="#@net:OutpB_c[0]:R123C2D.F1:R123C2D.C0:0.522">     R123C2D.F1 to R123C2D.C0    </A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+CTOF_DEL    ---     0.179     R123C2D.C0 to     R123C2D.F0 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     0.560<A href="#@net:OutpB_c_0[1]:R123C2D.F0:AE3.PADDO:0.560">     R123C2D.F0 to AE3.PADDO     </A> <A href="#@net:OutpB_c_0[1]">OutpB_c_0[1]</A>
+DOPAD_DEL   ---     2.359      AE3.PADDO to        AE3.PAD <A href="#@comp:OutpB[1]">OutpB[1]</A>
+                  --------
+                    5.317   (60.0% logic, 40.0% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[16]" TO PORT "OutpB[1]" 
+
+Report:    5.292ns delay INP[16] to OutpB[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        AD1.PAD to      AD1.PADDI <A href="#@comp:INP[16]">INP[16]</A>
+ROUTE         2     1.021<A href="#@net:INP_c[16]:AD1.PADDI:R123C2D.B1:1.021">      AD1.PADDI to R123C2D.B1    </A> <A href="#@net:INP_c[16]">INP_c[16]</A>
+CTOF_DEL    ---     0.179     R123C2D.B1 to     R123C2D.F1 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     0.522<A href="#@net:OutpB_c[0]:R123C2D.F1:R123C2D.C0:0.522">     R123C2D.F1 to R123C2D.C0    </A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+CTOF_DEL    ---     0.179     R123C2D.C0 to     R123C2D.F0 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     0.560<A href="#@net:OutpB_c_0[1]:R123C2D.F0:AE3.PADDO:0.560">     R123C2D.F0 to AE3.PADDO     </A> <A href="#@net:OutpB_c_0[1]">OutpB_c_0[1]</A>
+DOPAD_DEL   ---     2.359      AE3.PADDO to        AE3.PAD <A href="#@comp:OutpB[1]">OutpB[1]</A>
+                  --------
+                    5.292   (60.3% logic, 39.7% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[18]" TO PORT "OutpB[2]" 
+
+Report:    5.284ns delay INP[18] to OutpB[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        AB3.PAD to      AB3.PADDI <A href="#@comp:INP[18]">INP[18]</A>
+ROUTE         2     1.522<A href="#@net:INP_c[18]:AB3.PADDI:R123C2B.B0:1.522">      AB3.PADDI to R123C2B.B0    </A> <A href="#@net:INP_c[18]">INP_c[18]</A>
+CTOF_DEL    ---     0.179     R123C2B.B0 to     R123C2B.F0 <A href="#@comp:U15/SLICE_5">U15/SLICE_5</A>
+ROUTE         1     0.752<A href="#@net:OutpB_c[2]:R123C2B.F0:AD4.PADDO:0.752">     R123C2B.F0 to AD4.PADDO     </A> <A href="#@net:OutpB_c[2]">OutpB_c[2]</A>
+DOPAD_DEL   ---     2.359      AD4.PADDO to        AD4.PAD <A href="#@comp:OutpB[2]">OutpB[2]</A>
+                  --------
+                    5.284   (57.0% logic, 43.0% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[0]" TO PORT "OutpA[2]" 
+
+Report:    5.275ns delay INP[0] to OutpA[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         P1.PAD to       P1.PADDI <A href="#@comp:INP[0]">INP[0]</A>
+ROUTE         2     1.312<A href="#@net:INP_c[0]:P1.PADDI:R65C2B.A0:1.312">       P1.PADDI to R65C2B.A0     </A> <A href="#@net:INP_c[0]">INP_c[0]</A>
+CTOF_DEL    ---     0.179      R65C2B.A0 to      R65C2B.F0 <A href="#@comp:U4/SLICE_6">U4/SLICE_6</A>
+ROUTE         1     0.953<A href="#@net:OutpA_c[2]:R65C2B.F0:N6.PADDO:0.953">      R65C2B.F0 to N6.PADDO      </A> <A href="#@net:OutpA_c[2]">OutpA_c[2]</A>
+DOPAD_DEL   ---     2.359       N6.PADDO to         N6.PAD <A href="#@comp:OutpA[2]">OutpA[2]</A>
+                  --------
+                    5.275   (57.1% logic, 42.9% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[18]" TO PORT "OutpB[0]" 
+
+Report:    5.238ns delay INP[18] to OutpB[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        AB3.PAD to      AB3.PADDI <A href="#@comp:INP[18]">INP[18]</A>
+ROUTE         2     1.218<A href="#@net:INP_c[18]:AB3.PADDI:R123C2D.C1:1.218">      AB3.PADDI to R123C2D.C1    </A> <A href="#@net:INP_c[18]">INP_c[18]</A>
+CTOF_DEL    ---     0.179     R123C2D.C1 to     R123C2D.F1 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     1.010<A href="#@net:OutpB_c[0]:R123C2D.F1:AB7.PADDO:1.010">     R123C2D.F1 to AB7.PADDO     </A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+DOPAD_DEL   ---     2.359      AB7.PADDO to        AB7.PAD <A href="#@comp:OutpB[0]">OutpB[0]</A>
+                  --------
+                    5.238   (57.5% logic, 42.5% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[0]" TO PORT "OutpA[0]" 
+
+Report:    5.194ns delay INP[0] to OutpA[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         P1.PAD to       P1.PADDI <A href="#@comp:INP[0]">INP[0]</A>
+ROUTE         2     1.174<A href="#@net:INP_c[0]:P1.PADDI:R65C2A.C1:1.174">       P1.PADDI to R65C2A.C1     </A> <A href="#@net:INP_c[0]">INP_c[0]</A>
+CTOF_DEL    ---     0.179      R65C2A.C1 to      R65C2A.F1 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     1.010<A href="#@net:OutpA_c[0]:R65C2A.F1:P3.PADDO:1.010">      R65C2A.F1 to P3.PADDO      </A> <A href="#@net:OutpA_c[0]">OutpA_c[0]</A>
+DOPAD_DEL   ---     2.359       P3.PADDO to         P3.PAD <A href="#@comp:OutpA[0]">OutpA[0]</A>
+                  --------
+                    5.194   (58.0% logic, 42.0% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "InpC" TO PORT "OutpC[1]" 
+
+Report:    5.144ns delay InpC to OutpC[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.508        L21.PAD to      L21.PADDI <A href="#@comp:InpC">InpC</A>
+ROUTE         1     1.137<A href="#@net:InpC_c:L21.PADDI:R44C181A.A0:1.137">      L21.PADDI to R44C181A.A0   </A> <A href="#@net:InpC_c">InpC_c</A>
+CTOF_DEL    ---     0.179    R44C181A.A0 to    R44C181A.F0 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.961<A href="#@net:OutpC_c_0[1]:R44C181A.F0:L20.PADDO:0.961">    R44C181A.F0 to L20.PADDO     </A> <A href="#@net:OutpC_c_0[1]">OutpC_c_0[1]</A>
+DOPAD_DEL   ---     2.359      L20.PADDO to        L20.PAD <A href="#@comp:OutpC[1]">OutpC[1]</A>
+                  --------
+                    5.144   (59.2% logic, 40.8% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[34]" TO PORT "OutpC[0]" 
+
+Report:    5.141ns delay INP[34] to OutpC[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        F24.PAD to      F24.PADDI <A href="#@comp:INP[34]">INP[34]</A>
+ROUTE         2     1.371<A href="#@net:INP_c[34]:F24.PADDI:R44C181A.B1:1.371">      F24.PADDI to R44C181A.B1   </A> <A href="#@net:INP_c[34]">INP_c[34]</A>
+CTOF_DEL    ---     0.179    R44C181A.B1 to    R44C181A.F1 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.760<A href="#@net:OutpC_c[0]:R44C181A.F1:G25.PADDO:0.760">    R44C181A.F1 to G25.PADDO     </A> <A href="#@net:OutpC_c[0]">OutpC_c[0]</A>
+DOPAD_DEL   ---     2.359      G25.PADDO to        G25.PAD <A href="#@comp:OutpC[0]">OutpC[0]</A>
+                  --------
+                    5.141   (58.5% logic, 41.5% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[34]" TO PORT "OutpC[2]" 
+
+Report:    5.133ns delay INP[34] to OutpC[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        F24.PAD to      F24.PADDI <A href="#@comp:INP[34]">INP[34]</A>
+ROUTE         2     1.371<A href="#@net:INP_c[34]:F24.PADDI:R44C181D.B0:1.371">      F24.PADDI to R44C181D.B0   </A> <A href="#@net:INP_c[34]">INP_c[34]</A>
+CTOF_DEL    ---     0.179    R44C181D.B0 to    R44C181D.F0 <A href="#@comp:U26/SLICE_4">U26/SLICE_4</A>
+ROUTE         1     0.752<A href="#@net:OutpC_c[2]:R44C181D.F0:H24.PADDO:0.752">    R44C181D.F0 to H24.PADDO     </A> <A href="#@net:OutpC_c[2]">OutpC_c[2]</A>
+DOPAD_DEL   ---     2.359      H24.PADDO to        H24.PAD <A href="#@comp:OutpC[2]">OutpC[2]</A>
+                  --------
+                    5.133   (58.6% logic, 41.4% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[36]" TO PORT "OutpC[2]" 
+
+Report:    5.105ns delay INP[36] to OutpC[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        K23.PAD to      K23.PADDI <A href="#@comp:INP[36]">INP[36]</A>
+ROUTE         2     1.343<A href="#@net:INP_c[36]:K23.PADDI:R44C181D.A0:1.343">      K23.PADDI to R44C181D.A0   </A> <A href="#@net:INP_c[36]">INP_c[36]</A>
+CTOF_DEL    ---     0.179    R44C181D.A0 to    R44C181D.F0 <A href="#@comp:U26/SLICE_4">U26/SLICE_4</A>
+ROUTE         1     0.752<A href="#@net:OutpC_c[2]:R44C181D.F0:H24.PADDO:0.752">    R44C181D.F0 to H24.PADDO     </A> <A href="#@net:OutpC_c[2]">OutpC_c[2]</A>
+DOPAD_DEL   ---     2.359      H24.PADDO to        H24.PAD <A href="#@comp:OutpC[2]">OutpC[2]</A>
+                  --------
+                    5.105   (59.0% logic, 41.0% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[2]" TO PORT "OutpA[1]" 
+
+Report:    5.103ns delay INP[2] to OutpA[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         R1.PAD to       R1.PADDI <A href="#@comp:INP[2]">INP[2]</A>
+ROUTE         2     0.562<A href="#@net:INP_c[2]:R1.PADDI:R65C2A.D1:0.562">       R1.PADDI to R65C2A.D1     </A> <A href="#@net:INP_c[2]">INP_c[2]</A>
+CTOF_DEL    ---     0.179      R65C2A.D1 to      R65C2A.F1 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     0.391<A href="#@net:OutpA_c[0]:R65C2A.F1:R65C2A.D0:0.391">      R65C2A.F1 to R65C2A.D0     </A> <A href="#@net:OutpA_c[0]">OutpA_c[0]</A>
+CTOF_DEL    ---     0.179      R65C2A.D0 to      R65C2A.F0 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     0.961<A href="#@net:OutpA_c_0[1]:R65C2A.F0:N5.PADDO:0.961">      R65C2A.F0 to N5.PADDO      </A> <A href="#@net:OutpA_c_0[1]">OutpA_c_0[1]</A>
+DOPAD_DEL   ---     2.359       N5.PADDO to         N5.PAD <A href="#@comp:OutpA[1]">OutpA[1]</A>
+                  --------
+                    5.103   (62.5% logic, 37.5% route), 4 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[1]" TO PORT "OutpA[0]" 
+
+Report:    5.092ns delay INP[1] to OutpA[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         T2.PAD to       T2.PADDI <A href="#@comp:INP[1]">INP[1]</A>
+ROUTE         2     1.072<A href="#@net:INP_c[1]:T2.PADDI:R65C2A.B1:1.072">       T2.PADDI to R65C2A.B1     </A> <A href="#@net:INP_c[1]">INP_c[1]</A>
+CTOF_DEL    ---     0.179      R65C2A.B1 to      R65C2A.F1 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     1.010<A href="#@net:OutpA_c[0]:R65C2A.F1:P3.PADDO:1.010">      R65C2A.F1 to P3.PADDO      </A> <A href="#@net:OutpA_c[0]">OutpA_c[0]</A>
+DOPAD_DEL   ---     2.359       P3.PADDO to         P3.PAD <A href="#@comp:OutpA[0]">OutpA[0]</A>
+                  --------
+                    5.092   (59.1% logic, 40.9% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[19]" TO PORT "OutpB[0]" 
+
+Report:    5.075ns delay INP[19] to OutpB[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         Y6.PAD to       Y6.PADDI <A href="#@comp:INP[19]">INP[19]</A>
+ROUTE         2     1.055<A href="#@net:INP_c[19]:Y6.PADDI:R123C2D.A1:1.055">       Y6.PADDI to R123C2D.A1    </A> <A href="#@net:INP_c[19]">INP_c[19]</A>
+CTOF_DEL    ---     0.179     R123C2D.A1 to     R123C2D.F1 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     1.010<A href="#@net:OutpB_c[0]:R123C2D.F1:AB7.PADDO:1.010">     R123C2D.F1 to AB7.PADDO     </A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+DOPAD_DEL   ---     2.359      AB7.PADDO to        AB7.PAD <A href="#@comp:OutpB[0]">OutpB[0]</A>
+                  --------
+                    5.075   (59.3% logic, 40.7% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[17]" TO PORT "OutpB[0]" 
+
+Report:    5.066ns delay INP[17] to OutpB[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        AB5.PAD to      AB5.PADDI <A href="#@comp:INP[17]">INP[17]</A>
+ROUTE         2     1.046<A href="#@net:INP_c[17]:AB5.PADDI:R123C2D.D1:1.046">      AB5.PADDI to R123C2D.D1    </A> <A href="#@net:INP_c[17]">INP_c[17]</A>
+CTOF_DEL    ---     0.179     R123C2D.D1 to     R123C2D.F1 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     1.010<A href="#@net:OutpB_c[0]:R123C2D.F1:AB7.PADDO:1.010">     R123C2D.F1 to AB7.PADDO     </A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+DOPAD_DEL   ---     2.359      AB7.PADDO to        AB7.PAD <A href="#@comp:OutpB[0]">OutpB[0]</A>
+                  --------
+                    5.066   (59.4% logic, 40.6% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[16]" TO PORT "OutpB[0]" 
+
+Report:    5.041ns delay INP[16] to OutpB[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        AD1.PAD to      AD1.PADDI <A href="#@comp:INP[16]">INP[16]</A>
+ROUTE         2     1.021<A href="#@net:INP_c[16]:AD1.PADDI:R123C2D.B1:1.021">      AD1.PADDI to R123C2D.B1    </A> <A href="#@net:INP_c[16]">INP_c[16]</A>
+CTOF_DEL    ---     0.179     R123C2D.B1 to     R123C2D.F1 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     1.010<A href="#@net:OutpB_c[0]:R123C2D.F1:AB7.PADDO:1.010">     R123C2D.F1 to AB7.PADDO     </A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+DOPAD_DEL   ---     2.359      AB7.PADDO to        AB7.PAD <A href="#@comp:OutpB[0]">OutpB[0]</A>
+                  --------
+                    5.041   (59.7% logic, 40.3% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[1]" TO PORT "OutpA[2]" 
+
+Report:    5.035ns delay INP[1] to OutpA[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         T2.PAD to       T2.PADDI <A href="#@comp:INP[1]">INP[1]</A>
+ROUTE         2     1.072<A href="#@net:INP_c[1]:T2.PADDI:R65C2B.B0:1.072">       T2.PADDI to R65C2B.B0     </A> <A href="#@net:INP_c[1]">INP_c[1]</A>
+CTOF_DEL    ---     0.179      R65C2B.B0 to      R65C2B.F0 <A href="#@comp:U4/SLICE_6">U4/SLICE_6</A>
+ROUTE         1     0.953<A href="#@net:OutpA_c[2]:R65C2B.F0:N6.PADDO:0.953">      R65C2B.F0 to N6.PADDO      </A> <A href="#@net:OutpA_c[2]">OutpA_c[2]</A>
+DOPAD_DEL   ---     2.359       N6.PADDO to         N6.PAD <A href="#@comp:OutpA[2]">OutpA[2]</A>
+                  --------
+                    5.035   (59.8% logic, 40.2% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "InpA" TO PORT "OutpA[1]" 
+
+Report:    5.022ns delay InpA to OutpA[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.508         N3.PAD to       N3.PADDI <A href="#@comp:InpA">InpA</A>
+ROUTE         1     1.015<A href="#@net:InpA_c:N3.PADDI:R65C2A.B0:1.015">       N3.PADDI to R65C2A.B0     </A> <A href="#@net:InpA_c">InpA_c</A>
+CTOF_DEL    ---     0.179      R65C2A.B0 to      R65C2A.F0 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     0.961<A href="#@net:OutpA_c_0[1]:R65C2A.F0:N5.PADDO:0.961">      R65C2A.F0 to N5.PADDO      </A> <A href="#@net:OutpA_c_0[1]">OutpA_c_0[1]</A>
+DOPAD_DEL   ---     2.359       N5.PADDO to         N5.PAD <A href="#@comp:OutpA[1]">OutpA[1]</A>
+                  --------
+                    5.022   (60.7% logic, 39.3% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[19]" TO PORT "OutpB[2]" 
+
+Report:    4.879ns delay INP[19] to OutpB[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         Y6.PAD to       Y6.PADDI <A href="#@comp:INP[19]">INP[19]</A>
+ROUTE         2     1.117<A href="#@net:INP_c[19]:Y6.PADDI:R123C2B.C0:1.117">       Y6.PADDI to R123C2B.C0    </A> <A href="#@net:INP_c[19]">INP_c[19]</A>
+CTOF_DEL    ---     0.179     R123C2B.C0 to     R123C2B.F0 <A href="#@comp:U15/SLICE_5">U15/SLICE_5</A>
+ROUTE         1     0.752<A href="#@net:OutpB_c[2]:R123C2B.F0:AD4.PADDO:0.752">     R123C2B.F0 to AD4.PADDO     </A> <A href="#@net:OutpB_c[2]">OutpB_c[2]</A>
+DOPAD_DEL   ---     2.359      AD4.PADDO to        AD4.PAD <A href="#@comp:OutpB[2]">OutpB[2]</A>
+                  --------
+                    4.879   (61.7% logic, 38.3% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[16]" TO PORT "OutpB[2]" 
+
+Report:    4.817ns delay INP[16] to OutpB[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        AD1.PAD to      AD1.PADDI <A href="#@comp:INP[16]">INP[16]</A>
+ROUTE         2     1.055<A href="#@net:INP_c[16]:AD1.PADDI:R123C2B.A0:1.055">      AD1.PADDI to R123C2B.A0    </A> <A href="#@net:INP_c[16]">INP_c[16]</A>
+CTOF_DEL    ---     0.179     R123C2B.A0 to     R123C2B.F0 <A href="#@comp:U15/SLICE_5">U15/SLICE_5</A>
+ROUTE         1     0.752<A href="#@net:OutpB_c[2]:R123C2B.F0:AD4.PADDO:0.752">     R123C2B.F0 to AD4.PADDO     </A> <A href="#@net:OutpB_c[2]">OutpB_c[2]</A>
+DOPAD_DEL   ---     2.359      AD4.PADDO to        AD4.PAD <A href="#@comp:OutpB[2]">OutpB[2]</A>
+                  --------
+                    4.817   (62.5% logic, 37.5% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[17]" TO PORT "OutpB[2]" 
+
+Report:    4.808ns delay INP[17] to OutpB[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        AB5.PAD to      AB5.PADDI <A href="#@comp:INP[17]">INP[17]</A>
+ROUTE         2     1.046<A href="#@net:INP_c[17]:AB5.PADDI:R123C2B.D0:1.046">      AB5.PADDI to R123C2B.D0    </A> <A href="#@net:INP_c[17]">INP_c[17]</A>
+CTOF_DEL    ---     0.179     R123C2B.D0 to     R123C2B.F0 <A href="#@comp:U15/SLICE_5">U15/SLICE_5</A>
+ROUTE         1     0.752<A href="#@net:OutpB_c[2]:R123C2B.F0:AD4.PADDO:0.752">     R123C2B.F0 to AD4.PADDO     </A> <A href="#@net:OutpB_c[2]">OutpB_c[2]</A>
+DOPAD_DEL   ---     2.359      AD4.PADDO to        AD4.PAD <A href="#@comp:OutpB[2]">OutpB[2]</A>
+                  --------
+                    4.808   (62.6% logic, 37.4% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[36]" TO PORT "OutpC[0]" 
+
+Report:    4.775ns delay INP[36] to OutpC[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        K23.PAD to      K23.PADDI <A href="#@comp:INP[36]">INP[36]</A>
+ROUTE         2     1.005<A href="#@net:INP_c[36]:K23.PADDI:R44C181A.C1:1.005">      K23.PADDI to R44C181A.C1   </A> <A href="#@net:INP_c[36]">INP_c[36]</A>
+CTOF_DEL    ---     0.179    R44C181A.C1 to    R44C181A.F1 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.760<A href="#@net:OutpC_c[0]:R44C181A.F1:G25.PADDO:0.760">    R44C181A.F1 to G25.PADDO     </A> <A href="#@net:OutpC_c[0]">OutpC_c[0]</A>
+DOPAD_DEL   ---     2.359      G25.PADDO to        G25.PAD <A href="#@comp:OutpC[0]">OutpC[0]</A>
+                  --------
+                    4.775   (63.0% logic, 37.0% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[35]" TO PORT "OutpC[0]" 
+
+Report:    4.656ns delay INP[35] to OutpC[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        H26.PAD to      H26.PADDI <A href="#@comp:INP[35]">INP[35]</A>
+ROUTE         2     0.886<A href="#@net:INP_c[35]:H26.PADDI:R44C181A.D1:0.886">      H26.PADDI to R44C181A.D1   </A> <A href="#@net:INP_c[35]">INP_c[35]</A>
+CTOF_DEL    ---     0.179    R44C181A.D1 to    R44C181A.F1 <A href="#@comp:SLICE_1">SLICE_1</A>
+ROUTE         2     0.760<A href="#@net:OutpC_c[0]:R44C181A.F1:G25.PADDO:0.760">    R44C181A.F1 to G25.PADDO     </A> <A href="#@net:OutpC_c[0]">OutpC_c[0]</A>
+DOPAD_DEL   ---     2.359      G25.PADDO to        G25.PAD <A href="#@comp:OutpC[0]">OutpC[0]</A>
+                  --------
+                    4.656   (64.6% logic, 35.4% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "InpB" TO PORT "OutpB[1]" 
+
+Report:    4.655ns delay InpB to OutpB[1]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.508        AA7.PAD to      AA7.PADDI <A href="#@comp:InpB">InpB</A>
+ROUTE         1     1.049<A href="#@net:InpB_c:AA7.PADDI:R123C2D.A0:1.049">      AA7.PADDI to R123C2D.A0    </A> <A href="#@net:InpB_c">InpB_c</A>
+CTOF_DEL    ---     0.179     R123C2D.A0 to     R123C2D.F0 <A href="#@comp:SLICE_2">SLICE_2</A>
+ROUTE         2     0.560<A href="#@net:OutpB_c_0[1]:R123C2D.F0:AE3.PADDO:0.560">     R123C2D.F0 to AE3.PADDO     </A> <A href="#@net:OutpB_c_0[1]">OutpB_c_0[1]</A>
+DOPAD_DEL   ---     2.359      AE3.PADDO to        AE3.PAD <A href="#@comp:OutpB[1]">OutpB[1]</A>
+                  --------
+                    4.655   (65.4% logic, 34.6% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[35]" TO PORT "OutpC[2]" 
+
+Report:    4.648ns delay INP[35] to OutpC[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472        H26.PAD to      H26.PADDI <A href="#@comp:INP[35]">INP[35]</A>
+ROUTE         2     0.886<A href="#@net:INP_c[35]:H26.PADDI:R44C181D.D0:0.886">      H26.PADDI to R44C181D.D0   </A> <A href="#@net:INP_c[35]">INP_c[35]</A>
+CTOF_DEL    ---     0.179    R44C181D.D0 to    R44C181D.F0 <A href="#@comp:U26/SLICE_4">U26/SLICE_4</A>
+ROUTE         1     0.752<A href="#@net:OutpC_c[2]:R44C181D.F0:H24.PADDO:0.752">    R44C181D.F0 to H24.PADDO     </A> <A href="#@net:OutpC_c[2]">OutpC_c[2]</A>
+DOPAD_DEL   ---     2.359      H24.PADDO to        H24.PAD <A href="#@comp:OutpC[2]">OutpC[2]</A>
+                  --------
+                    4.648   (64.8% logic, 35.2% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[2]" TO PORT "OutpA[0]" 
+
+Report:    4.582ns delay INP[2] to OutpA[0]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         R1.PAD to       R1.PADDI <A href="#@comp:INP[2]">INP[2]</A>
+ROUTE         2     0.562<A href="#@net:INP_c[2]:R1.PADDI:R65C2A.D1:0.562">       R1.PADDI to R65C2A.D1     </A> <A href="#@net:INP_c[2]">INP_c[2]</A>
+CTOF_DEL    ---     0.179      R65C2A.D1 to      R65C2A.F1 <A href="#@comp:SLICE_0">SLICE_0</A>
+ROUTE         2     1.010<A href="#@net:OutpA_c[0]:R65C2A.F1:P3.PADDO:1.010">      R65C2A.F1 to P3.PADDO      </A> <A href="#@net:OutpA_c[0]">OutpA_c[0]</A>
+DOPAD_DEL   ---     2.359       P3.PADDO to         P3.PAD <A href="#@comp:OutpA[0]">OutpA[0]</A>
+                  --------
+                    4.582   (65.7% logic, 34.3% route), 3 logic levels.
+
+Unconstrained Preference:
+   MAXDELAY FROM PORT "INP[2]" TO PORT "OutpA[2]" 
+
+Report:    4.525ns delay INP[2] to OutpA[2]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.472         R1.PAD to       R1.PADDI <A href="#@comp:INP[2]">INP[2]</A>
+ROUTE         2     0.562<A href="#@net:INP_c[2]:R1.PADDI:R65C2B.D0:0.562">       R1.PADDI to R65C2B.D0     </A> <A href="#@net:INP_c[2]">INP_c[2]</A>
+CTOF_DEL    ---     0.179      R65C2B.D0 to      R65C2B.F0 <A href="#@comp:U4/SLICE_6">U4/SLICE_6</A>
+ROUTE         1     0.953<A href="#@net:OutpA_c[2]:R65C2B.F0:N6.PADDO:0.953">      R65C2B.F0 to N6.PADDO      </A> <A href="#@net:OutpA_c[2]">OutpA_c[2]</A>
+DOPAD_DEL   ---     2.359       N6.PADDO to         N6.PAD <A href="#@comp:OutpA[2]">OutpA[2]</A>
+                  --------
+                    4.525   (66.5% logic, 33.5% route), 3 logic levels.
+
+<A name="Report Summary"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="Clock Domains Analysis"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 0 clocks:
+
+
+--------------------------------------------------------------------------------
+
+                <A name="Connections not covered by the preferences"></A><B><U><big>Connections not covered by the preferences</big></U></B>
+--------------------------------------------------------------------------------
+
+     Delay                        Element                 Net
+
+    0.391ns<A href="#@net:OutpA_c[0]:R65C2A.F1:R65C2A.D0:0.391"> SLICE_0.F1 to SLICE_0.D0</A> <A href="#@net:OutpA_c[0]">OutpA_c[0]</A>
+    1.010ns<A href="#@net:OutpA_c[0]:R65C2A.F1:P3.PADDO:1.010"> SLICE_0.F1 to OutpA[0].PADDO</A> <A href="#@net:OutpA_c[0]">OutpA_c[0]</A>
+    1.174ns<A href="#@net:INP_c[0]:P1.PADDI:R65C2A.C1:1.174"> INP[0].PADDI to SLICE_0.C1</A> <A href="#@net:INP_c[0]">INP_c[0]</A>
+    1.312ns<A href="#@net:INP_c[0]:P1.PADDI:R65C2B.A0:1.312"> INP[0].PADDI to U4/SLICE_6.A0</A> <A href="#@net:INP_c[0]">INP_c[0]</A>
+    1.005ns<A href="#@net:INP_c[36]:K23.PADDI:R44C181A.C1:1.005"> INP[36].PADDI to SLICE_1.C1</A> <A href="#@net:INP_c[36]">INP_c[36]</A>
+    1.343ns<A href="#@net:INP_c[36]:K23.PADDI:R44C181D.A0:1.343"> INP[36].PADDI to U26/SLICE_4.A0</A> <A href="#@net:INP_c[36]">INP_c[36]</A>
+    0.752ns<A href="#@net:OutpC_c[2]:R44C181D.F0:H24.PADDO:0.752"> U26/SLICE_4.F0 to OutpC[2].PADDO</A> <A href="#@net:OutpC_c[2]">OutpC_c[2]</A>
+    0.886ns<A href="#@net:INP_c[35]:H26.PADDI:R44C181A.D1:0.886"> INP[35].PADDI to SLICE_1.D1</A> <A href="#@net:INP_c[35]">INP_c[35]</A>
+    0.886ns<A href="#@net:INP_c[35]:H26.PADDI:R44C181D.D0:0.886"> INP[35].PADDI to U26/SLICE_4.D0</A> <A href="#@net:INP_c[35]">INP_c[35]</A>
+    1.371ns<A href="#@net:INP_c[34]:F24.PADDI:R44C181A.B1:1.371"> INP[34].PADDI to SLICE_1.B1</A> <A href="#@net:INP_c[34]">INP_c[34]</A>
+    1.371ns<A href="#@net:INP_c[34]:F24.PADDI:R44C181D.B0:1.371"> INP[34].PADDI to U26/SLICE_4.B0</A> <A href="#@net:INP_c[34]">INP_c[34]</A>
+    0.422ns<A href="#@net:OutpC_c[0]:R44C181A.F1:R44C181A.B0:0.422"> SLICE_1.F1 to SLICE_1.B0</A> <A href="#@net:OutpC_c[0]">OutpC_c[0]</A>
+    0.760ns<A href="#@net:OutpC_c[0]:R44C181A.F1:G25.PADDO:0.760"> SLICE_1.F1 to OutpC[0].PADDO</A> <A href="#@net:OutpC_c[0]">OutpC_c[0]</A>
+    0.752ns<A href="#@net:OutpB_c[2]:R123C2B.F0:AD4.PADDO:0.752"> U15/SLICE_5.F0 to OutpB[2].PADDO</A> <A href="#@net:OutpB_c[2]">OutpB_c[2]</A>
+    1.055ns<A href="#@net:INP_c[19]:Y6.PADDI:R123C2D.A1:1.055"> INP[19].PADDI to SLICE_2.A1</A> <A href="#@net:INP_c[19]">INP_c[19]</A>
+    1.117ns<A href="#@net:INP_c[19]:Y6.PADDI:R123C2B.C0:1.117"> INP[19].PADDI to U15/SLICE_5.C0</A> <A href="#@net:INP_c[19]">INP_c[19]</A>
+    1.218ns<A href="#@net:INP_c[18]:AB3.PADDI:R123C2D.C1:1.218"> INP[18].PADDI to SLICE_2.C1</A> <A href="#@net:INP_c[18]">INP_c[18]</A>
+    1.522ns<A href="#@net:INP_c[18]:AB3.PADDI:R123C2B.B0:1.522"> INP[18].PADDI to U15/SLICE_5.B0</A> <A href="#@net:INP_c[18]">INP_c[18]</A>
+    1.046ns<A href="#@net:INP_c[17]:AB5.PADDI:R123C2D.D1:1.046"> INP[17].PADDI to SLICE_2.D1</A> <A href="#@net:INP_c[17]">INP_c[17]</A>
+    1.046ns<A href="#@net:INP_c[17]:AB5.PADDI:R123C2B.D0:1.046"> INP[17].PADDI to U15/SLICE_5.D0</A> <A href="#@net:INP_c[17]">INP_c[17]</A>
+    1.021ns<A href="#@net:INP_c[16]:AD1.PADDI:R123C2D.B1:1.021"> INP[16].PADDI to SLICE_2.B1</A> <A href="#@net:INP_c[16]">INP_c[16]</A>
+    1.055ns<A href="#@net:INP_c[16]:AD1.PADDI:R123C2B.A0:1.055"> INP[16].PADDI to U15/SLICE_5.A0</A> <A href="#@net:INP_c[16]">INP_c[16]</A>
+    0.522ns<A href="#@net:OutpB_c[0]:R123C2D.F1:R123C2D.C0:0.522"> SLICE_2.F1 to SLICE_2.C0</A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+    1.010ns<A href="#@net:OutpB_c[0]:R123C2D.F1:AB7.PADDO:1.010"> SLICE_2.F1 to OutpB[0].PADDO</A> <A href="#@net:OutpB_c[0]">OutpB_c[0]</A>
+    0.562ns<A href="#@net:INP_c[2]:R1.PADDI:R65C2A.D1:0.562"> INP[2].PADDI to SLICE_0.D1</A> <A href="#@net:INP_c[2]">INP_c[2]</A>
+    0.562ns<A href="#@net:INP_c[2]:R1.PADDI:R65C2B.D0:0.562"> INP[2].PADDI to U4/SLICE_6.D0</A> <A href="#@net:INP_c[2]">INP_c[2]</A>
+    0.953ns<A href="#@net:OutpA_c[2]:R65C2B.F0:N6.PADDO:0.953"> U4/SLICE_6.F0 to OutpA[2].PADDO</A> <A href="#@net:OutpA_c[2]">OutpA_c[2]</A>
+    1.072ns<A href="#@net:INP_c[1]:T2.PADDI:R65C2A.B1:1.072"> INP[1].PADDI to SLICE_0.B1</A> <A href="#@net:INP_c[1]">INP_c[1]</A>
+    1.072ns<A href="#@net:INP_c[1]:T2.PADDI:R65C2B.B0:1.072"> INP[1].PADDI to U4/SLICE_6.B0</A> <A href="#@net:INP_c[1]">INP_c[1]</A>
+    0.660ns<A href="#@net:OutpA_c_0[1]:R65C2A.F0:R65C2A.A0:0.660"> SLICE_0.F0 to SLICE_0.A0</A> <A href="#@net:OutpA_c_0[1]">OutpA_c_0[1]</A>
+    0.961ns<A href="#@net:OutpA_c_0[1]:R65C2A.F0:N5.PADDO:0.961"> SLICE_0.F0 to OutpA[1].PADDO</A> <A href="#@net:OutpA_c_0[1]">OutpA_c_0[1]</A>
+    1.015ns<A href="#@net:InpA_c:N3.PADDI:R65C2A.B0:1.015"> InpA.PADDI to SLICE_0.B0</A> <A href="#@net:InpA_c">InpA_c</A>
+    0.522ns<A href="#@net:OutpC_c_0[1]:R44C181A.F0:R44C181A.C0:0.522"> SLICE_1.F0 to SLICE_1.C0</A> <A href="#@net:OutpC_c_0[1]">OutpC_c_0[1]</A>
+    0.961ns<A href="#@net:OutpC_c_0[1]:R44C181A.F0:L20.PADDO:0.961"> SLICE_1.F0 to OutpC[1].PADDO</A> <A href="#@net:OutpC_c_0[1]">OutpC_c_0[1]</A>
+    1.137ns<A href="#@net:InpC_c:L21.PADDI:R44C181A.A0:1.137"> InpC.PADDI to SLICE_1.A0</A> <A href="#@net:InpC_c">InpC_c</A>
+    0.626ns<A href="#@net:OutpB_c_0[1]:R123C2D.F0:R123C2D.B0:0.626"> SLICE_2.F0 to SLICE_2.B0</A> <A href="#@net:OutpB_c_0[1]">OutpB_c_0[1]</A>
+    0.560ns<A href="#@net:OutpB_c_0[1]:R123C2D.F0:AE3.PADDO:0.560"> SLICE_2.F0 to OutpB[1].PADDO</A> <A href="#@net:OutpB_c_0[1]">OutpB_c_0[1]</A>
+    1.049ns<A href="#@net:InpB_c:AA7.PADDI:R123C2D.A0:1.049"> InpB.PADDI to SLICE_2.A0</A> <A href="#@net:InpB_c">InpB_c</A>
+
+--------------------------------------------------------------------------------
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 0 paths, 0 nets, and 3 connections (7.3% coverage)
+

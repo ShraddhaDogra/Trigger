@@ -1,0 +1,44 @@
+Base address is 0h90xx. All Registers are 32bit.     
+
+0x00-0xBF are 48 channels.  
+
+First channel is 0x00 to 0x03.
+0x00 
+[0] = 1 = Enable Electron Window		
+[1] = 1 = Enable Pion Window
+[2] = 1 = Enable Muon Window
+
+0x01 = Electron window 
+0x02 = Pion window
+0x03 = Muon window
+
+48th channel = 0xBC-0xBF.
+
+0xC0 = Clock Phase	  8008027F
+
+CFig [3:0] 50Mhz phase - default = 0xF
+CFig [7:4] 50MHz fine phase - default = 0x7
+	
+CFig [11:8] First 400Mhz phase - default = 0x2
+CFig [15:12] First 400Mhz fine phase - default = 0x0
+CFig [19:16] First 400Mhz duty cycle - default = 0x8
+
+CFig [23:20] Second 400Mhz phase - default = 0x0
+CFig [27:24] Second 400Mhz fine phase - default = 0x0
+CFig [31:28] Second  400Mhz duty cycle - default = 0x8
+
+0xC1 = Main Config
+
+CFig[7:0] 8 LEDs on test board
+	
+0xC2 = Channel Histogram Test data config. 000000000 = stay on channel 0
+
+CFig[16] - increment by 1 or 0.  
+CFig[13:8] - max value (should be 6'h2F i.e.47)
+CFig[5:0] - reset value if count = Max value 
+
+0xC3 = Clock Phase	  0000002F
+
+CFig [3:0] 50Mhz Test Phase - default = 0x2
+CFig [7:4] 50MHz Fine Test Phase - default = 0x0
+	

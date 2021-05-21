@@ -1,0 +1,55 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_ecp3
+designverlibrarysim pcsd_work
+designverdefinemacro -clear
+addfile C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/TrigTest1_TrigTest1_vo.vo
+# Adding file C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\TrigTest1_TrigTest1_vo.vo ... Done
+addfile C:/Users/bartz/Documents/Lattice/TrigTest/D:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1_tf.v
+# Design: Error: File "C:\Users\bartz\Documents\Lattice\TrigTest\D:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1_tf.v" does not exist or does not have READ permission
+# Error: Cannot add file C:\Users\bartz\Documents\Lattice\TrigTest\D:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1_tf.v to current design
+addfile -sdf C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/TrigTest1_TrigTest1_vo.sdf
+# Adding file C:\Users\bartz\Documents\Lattice\TrigTest\TrigTest1\TrigTest1_TrigTest1_vo.sdf ... Done
+vlib C:/Users/bartz/Documents/Lattice/TrigTest/trigtest1/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/TrigTest1_TrigTest1_vo.vo
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: Top.
+# $root top modules: Top.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg C:/Users/bartz/Documents/Lattice/TrigTest/D:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1_tf.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP1010 Cannot find source file: C:/Users/bartz/Documents/Lattice/TrigTest/D:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1_tf.v
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+module Top_tf
+# Cannot select this module.
+designsdffile C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/TrigTest1_TrigTest1_vo.sdf /Top_tf/UUT -sdfmax -load yes
+# Error: Top level not selected
+designsimaddoptions +transport_path_delays +transport_int_delays
+vsim +access +r Top_tf -sdfmax /Top_tf/UUT="C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/TrigTest1_TrigTest1_vo.sdf" -PL pmi_work -L ovi_ecp3 -L pcsd_work +transport_path_delays +transport_int_delays
+# Error: vsim: cannot select specified top-level
+add wave *
+# Waveform file 'untitled.awc' connected to 'C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /* not found in C:/Users/bartz/Documents/Lattice/TrigTest/TrigTest1/src/wave.asdb.
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "C:/Users/bartz/Documents/Lattice/TrigTest/trigtest1/trigtest1.ado" line 32)
+#     invoked from within
+# "source {C:/Users/bartz/Documents/Lattice/TrigTest/trigtest1/trigtest1.ado}"
+#     invoked from within
+# "interp eval $slave "source $source_file""

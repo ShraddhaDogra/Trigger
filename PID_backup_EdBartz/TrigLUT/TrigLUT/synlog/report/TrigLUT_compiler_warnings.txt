@@ -1,0 +1,46 @@
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v":32:25:32:30|No assignment to wire InLtch
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 18 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 19 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 20 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 21 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 22 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 23 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 24 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 25 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 26 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 27 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 28 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 29 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 30 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 31 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 32 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 33 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 34 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 35 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 36 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 37 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 38 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 39 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 40 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 41 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 42 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 43 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 44 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 45 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 46 of fin
+@W: CG134 :"D:\bartz\Documents\Lattice\TrigLUT\Source\retrigger.v":11:10:11:12|No assignment to bit 47 of fin
+@W: CS263 :"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v":38:9:38:22|Port-width mismatch for port set. Formal has width 48, Actual 18
+@W: CS263 :"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v":39:9:39:11|Port-width mismatch for port rst. Formal has width 48, Actual 18
+@W: CS263 :"D:\bartz\Documents\Lattice\TrigLUT\Source\PulseStretch.v":41:7:41:9|Port-width mismatch for port Q. Formal has width 48, Actual 18
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v":16:12:16:14|No assignment to wire res
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v":16:16:16:21|No assignment to wire InLtch
+@W: CG360 :"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v":16:23:16:26|No assignment to wire retr
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v":8:13:8:15|Input port bits 63 to 48 of INP[63:0] are unused
+@W: CL159 :"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v":9:7:9:10|Input InpA is unused
+@W: CL159 :"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v":9:13:9:16|Input InpB is unused
+@W: CL159 :"D:\bartz\Documents\Lattice\TrigLUT\Source\ScatterTrig.v":9:19:9:22|Input InpC is unused
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v":4:21:4:23|Input port bits 47 to 18 of rst[47:0] are unused
+@W: CL246 :"D:\bartz\Documents\Lattice\TrigLUT\Source\Input_Reg.v":4:17:4:19|Input port bits 47 to 18 of set[47:0] are unused
+@W: CL247 :"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v":24:17:24:20|Input port bit 27 of back[27:0] is unused
+@W: CL247 :"D:\bartz\Documents\Lattice\TrigLUT\Source\BackOr.v":24:17:24:20|Input port bit 0 of back[27:0] is unused
+

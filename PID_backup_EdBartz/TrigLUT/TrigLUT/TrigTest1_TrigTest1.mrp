@@ -1,0 +1,1194 @@
+
+             Lattice Mapping Report File for Design Module 'Top'
+
+
+Design Information
+------------------
+
+Command line:   map -a LatticeECP3 -p LFE3-150EA -t FPBGA672 -s 8 -oc Commercial
+     TrigTest1_TrigTest1.ngd -o TrigTest1_TrigTest1_map.ncd -pr
+     TrigTest1_TrigTest1.prf -mp TrigTest1_TrigTest1.mrp
+     D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf -gui -msgset
+     D:/bartz/Documents/Lattice/TrigTest/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LFE3-150EAFPBGA672
+Target Performance:   8
+Mapper:  ep5c00,  version:  Diamond (64-bit) 3.6.0.83.4
+Mapped on:  02/24/16  13:48:17
+
+Design Summary
+--------------
+
+   Number of registers:      0 out of 114060 (0%)
+      PFU registers:            0 out of 111780 (0%)
+      PIO registers:            0 out of  2280 (0%)
+   Number of SLICEs:        10 out of 74520 (0%)
+      SLICEs as Logic/ROM:     10 out of 74520 (0%)
+      SLICEs as RAM:            0 out of 14220 (0%)
+      SLICEs as Carry:          0 out of 74520 (0%)
+   Number of LUT4s:         16 out of 149040 (0%)
+      Number used as logic LUTs:         16
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 52 out of 380 (14%)
+      Number of PIO sites used for single ended IOs: 16
+      Number of PIO sites used for differential IOs: 36 (represented by 18 PIO
+     comps in NCD)
+   Number of PIO FIXEDDELAY:    0
+   Number of PCS (SerDes):  0 out of 2 (0%) with bonded PIO sites
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 10 (0%)
+   Number of DLLs:  0 out of 2 (0%)
+   Number of block RAMs:  0 out of 372 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18C          0
+   MULT9X9C            0
+   ALU54A              0
+   ALU24A              0
+   --------------------------------
+
+                                    Page 1
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Design Summary (cont)
+---------------------
+   Number of Used DSP MULT Sites:  0 out of 640 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 320 (0 %)
+   Number of clocks:  0
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net INP_c[0]: 2 loads
+     Net INP_c[33]: 2 loads
+     Net INP_c[48]: 2 loads
+     Net INP_c[49]: 2 loads
+     Net INP_c[50]: 2 loads
+     Net INP_c[51]: 2 loads
+     Net INP_c[52]: 2 loads
+     Net INP_c[53]: 2 loads
+     Net OutpA_c[0]: 2 loads
+     Net OutpD_c[0]: 2 loads
+
+
+
+
+   Number of warnings:  151
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(92): Semantic
+     error in "FREQUENCY PORT "CLK_PCLK_RIGHT" 200.000000 MHz ;":
+     "CLK_PCLK_RIGHT" matches no ports in the design.  This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(93): Semantic
+     error in "FREQUENCY PORT "CLK_PCLK_LEFT" 200.000000 MHz ;": "CLK_PCLK_LEFT"
+     matches no ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(94): Semantic
+     error in "FREQUENCY PORT "CLK_GPLL_RIGHT" 200.000000 MHz ;":
+     "CLK_GPLL_RIGHT" matches no ports in the design.  This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(95): Semantic
+     error in "FREQUENCY PORT "CLK_GPLL_LEFT" 125.000000 MHz ;": "CLK_GPLL_LEFT"
+     matches no ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(97): Semantic
+     error in "MULTICYCLE FROM CLKNET "clk_100_i_c" TO CLKNET "CLK_PCLK_LEFT_c"
+     1.000000 X ;": "clk_100_i_c" matches no clknets in the design.
+     "CLK_PCLK_LEFT_c" matches no clknets in the design.  This preference has
+     been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(98): Semantic
+     error in "MULTICYCLE FROM CLKNET "CLK_PCLK_LEFT_c" TO CLKNET "clk_100_i_c"
+     2.000000 X ;": "CLK_PCLK_LEFT_c" matches no clknets in the design.
+     "clk_100_i_c" matches no clknets in the design.  This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(112): Semantic
+     error in "DEFINE PORT GROUP "CLK_group" "CLK*" ;": "CLK*" matches no ports
+     in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(113): Semantic
+
+                                    Page 2
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Design Errors/Warnings (cont)
+-----------------------------
+     error in "IOBUF GROUP "CLK_group" IO_TYPE=LVDS25 ;": Group "CLK_group", has
+     not been defined. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(144): Semantic
+     error in "DEFINE PORT GROUP "FPGA_group" "FPGA*" ;": "FPGA*" matches no
+     ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(145): Semantic
+     error in "IOBUF GROUP "FPGA_group" IO_TYPE=LVCMOS25 PULLMODE=UP ;": Group
+     "FPGA_group", has not been defined. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(163): Semantic
+     error in "DEFINE PORT GROUP "TEST_LINE_group" "TEST_LINE*" ;": "TEST_LINE*"
+     matches no ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(164): Semantic
+     error in "IOBUF GROUP "TEST_LINE_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN ;":
+     Group "TEST_LINE_group", has not been defined. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(373): Semantic
+     error in "DEFINE PORT GROUP "OUT_group" "OUT_*" ;": "OUT_*" matches no
+     ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(374): Semantic
+     error in "IOBUF GROUP "OUT_group" IO_TYPE=LVDS25 ;": Group "OUT_group", has
+     not been defined. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(398): Semantic
+     error in "DEFINE PORT GROUP "FLASH_group" "FLASH*" ;": "FLASH*" matches no
+     ports in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(399): Semantic
+     error in "IOBUF GROUP "FLASH_group" IO_TYPE=LVCMOS25 PULLMODE=NONE ;":
+     Group "FLASH_group", has not been defined. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(429): Semantic
+     error in "DEFINE PORT GROUP "LED_group" "LED*" ;": "LED*" matches no ports
+     in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(430): Semantic
+     error in "IOBUF GROUP "LED_group" IO_TYPE=LVCMOS25 PULLMODE=NONE DRIVE=12
+     ;": Group "LED_group", has not been defined. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(434): Semantic
+     error in "GSR_NET NET "reset_i";": reset_i does not match nets in the
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(440): Semantic
+     error in "MULTICYCLE TO CELL "THE_MEDIA_DOWNLINK/SCI_DATA_OUT*" 50.000000
+     ns ;": "THE_MEDIA_DOWNLINK/SCI_DATA_OUT*" matches no cells in the design.
+     This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(441): Semantic
+     error in "MULTICYCLE TO CELL "THE_MEDIA_UPLINK/SCI_DATA_OUT*" 50.000000 ns
+     ;": "THE_MEDIA_UPLINK/SCI_DATA_OUT*" matches no cells in the design.  This
+     preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(442): Semantic
+     error in "MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 30.000000 ns
+     ;": "THE_RESET_HANDLER/final_reset*" matches no cells in the design.  This
+     preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(443): Semantic
+     error in "MULTICYCLE TO CELL "THE_RESET_HANDLER/trb_reset_*" 20.000000 ns
+     ;": "THE_RESET_HANDLER/trb_reset_*" matches no cells in the design.  This
+     preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(444): Semantic
+     error in "MULTICYCLE TO CELL "gen_SPI_DAC_SPI_*io*" 20.000000 ns ;":
+
+                                    Page 3
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Design Errors/Warnings (cont)
+-----------------------------
+     "gen_SPI_DAC_SPI_*io*" matches no cells in the design.  This preference has
+     been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(445): Semantic
+     error in "MULTICYCLE TO CELL "THE_SPI_MASTER_THE_SPI_SLIM_tx_sreg_oregio*"
+     20.000000 ns ;": "THE_SPI_MASTER_THE_SPI_SLIM_tx_sreg_oregio*" matches no
+     cells in the design.  This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(447): Semantic
+     error in "BLOCK PATH TO CELL "gen_TRIGGER_LOGIC_THE_TRIG_LOGIC/out_*" ;":
+     gen_TRIGGER_LOGIC_THE_TRIG_LOGIC/out_* does not match cells in the design.
+     This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(100): Semantic
+     error in "LOCATE COMP
+     "THE_MEDIA_UPLINK/gen_serdes_1_200_THE_SERDES/PCSD_INST" SITE "PCSA" ;":
+     COMP "THE_MEDIA_UPLINK/gen_serdes_1_200_THE_SERDES/PCSD_INST" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(105): Semantic
+     error in "LOCATE COMP "CLK_PCLK_RIGHT" SITE "U20" ;": COMP "CLK_PCLK_RIGHT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(106): Semantic
+     error in "LOCATE COMP "CLK_PCLK_LEFT" SITE "M4" ;": COMP "CLK_PCLK_LEFT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(107): Semantic
+     error in "LOCATE COMP "CLK_SERDES_INT_RIGHT" SITE "AC18" ;": COMP
+     "CLK_SERDES_INT_RIGHT" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(108): Semantic
+     error in "LOCATE COMP "CLK_SERDES_INT_LEFT" SITE "AC10" ;": COMP
+     "CLK_SERDES_INT_LEFT" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(109): Semantic
+     error in "LOCATE COMP "CLK_GPLL_RIGHT" SITE "W1" ;": COMP "CLK_GPLL_RIGHT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(110): Semantic
+     error in "LOCATE COMP "CLK_GPLL_LEFT" SITE "U25" ;": COMP "CLK_GPLL_LEFT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(121): Semantic
+     error in "LOCATE COMP "TRIGGER_LEFT" SITE "V3" ;": COMP "TRIGGER_LEFT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(122): Semantic
+     error in "LOCATE COMP "TRIGGER_RIGHT" SITE "N24" ;": COMP "TRIGGER_RIGHT"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(123): Semantic
+     error in "IOBUF PORT "TRIGGER_RIGHT" IO_TYPE=LVDS25 ;": Port
+     "TRIGGER_RIGHT" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(124): Semantic
+     error in "IOBUF PORT "TRIGGER_LEFT" IO_TYPE=LVDS25 ;": Port "TRIGGER_LEFT"
+     does not exist in the design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(132): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_0" SITE "AD4" ;": COMP "FPGA5_COMM_0"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(133): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_1" SITE "AE3" ;": COMP "FPGA5_COMM_1"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(134): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_2" SITE "AA7" ;": COMP "FPGA5_COMM_2"
+
+                                    Page 4
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Design Errors/Warnings (cont)
+-----------------------------
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(135): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_3" SITE "AB7" ;": COMP "FPGA5_COMM_3"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(136): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_4" SITE "AD3" ;": COMP "FPGA5_COMM_4"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(137): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_5" SITE "AC4" ;": COMP "FPGA5_COMM_5"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(138): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_6" SITE "AE2" ;": COMP "FPGA5_COMM_6"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(139): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_7" SITE "AF3" ;": COMP "FPGA5_COMM_7"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(140): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_8" SITE "AE4" ;": COMP "FPGA5_COMM_8"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(141): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_9" SITE "AF4" ;": COMP "FPGA5_COMM_9"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(142): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_10" SITE "V10" ;": COMP "FPGA5_COMM_10"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(143): Semantic
+     error in "LOCATE COMP "FPGA5_COMM_11" SITE "W10" ;": COMP "FPGA5_COMM_11"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(147): Semantic
+     error in "LOCATE COMP "TEST_LINE_0" SITE "A5" ;": COMP "TEST_LINE_0" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(148): Semantic
+     error in "LOCATE COMP "TEST_LINE_1" SITE "A6" ;": COMP "TEST_LINE_1" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(149): Semantic
+     error in "LOCATE COMP "TEST_LINE_2" SITE "G8" ;": COMP "TEST_LINE_2" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(150): Semantic
+     error in "LOCATE COMP "TEST_LINE_3" SITE "F9" ;": COMP "TEST_LINE_3" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(151): Semantic
+     error in "LOCATE COMP "TEST_LINE_4" SITE "D9" ;": COMP "TEST_LINE_4" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(152): Semantic
+     error in "LOCATE COMP "TEST_LINE_5" SITE "D10" ;": COMP "TEST_LINE_5"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(153): Semantic
+     error in "LOCATE COMP "TEST_LINE_6" SITE "F10" ;": COMP "TEST_LINE_6"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(154): Semantic
+     error in "LOCATE COMP "TEST_LINE_7" SITE "E10" ;": COMP "TEST_LINE_7"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(155): Semantic
+     error in "LOCATE COMP "TEST_LINE_8" SITE "A8" ;": COMP "TEST_LINE_8" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(156): Semantic
+
+                                    Page 5
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Design Errors/Warnings (cont)
+-----------------------------
+     error in "LOCATE COMP "TEST_LINE_9" SITE "B8" ;": COMP "TEST_LINE_9" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(157): Semantic
+     error in "LOCATE COMP "TEST_LINE_10" SITE "G10" ;": COMP "TEST_LINE_10"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(158): Semantic
+     error in "LOCATE COMP "TEST_LINE_11" SITE "G9" ;": COMP "TEST_LINE_11"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(159): Semantic
+     error in "LOCATE COMP "TEST_LINE_12" SITE "C9" ;": COMP "TEST_LINE_12"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(160): Semantic
+     error in "LOCATE COMP "TEST_LINE_13" SITE "C10" ;": COMP "TEST_LINE_13"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(161): Semantic
+     error in "LOCATE COMP "TEST_LINE_14" SITE "H10" ;": COMP "TEST_LINE_14"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(162): Semantic
+     error in "LOCATE COMP "TEST_LINE_15" SITE "H11" ;": COMP "TEST_LINE_15"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(321): Semantic
+     error in "LOCATE COMP "INpA" SITE "C2" ;": COMP "INpA" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(323): Semantic
+     error in "LOCATE COMP "INpB" SITE "H5" ;": COMP "INpB" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(325): Semantic
+     error in "LOCATE COMP "INpC" SITE "AD26" ;": COMP "INpC" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(327): Semantic
+     error in "LOCATE COMP "INpD" SITE "G5" ;": COMP "INpD" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(330): Semantic
+     error in "LOCATE COMP "OutpA0" SITE "K3" ;": COMP "OutpA0" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(332): Semantic
+     error in "LOCATE COMP "OutpA1" SITE "J4" ;": COMP "OutpA1" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(334): Semantic
+     error in "LOCATE COMP "OutpA2" SITE "D1" ;": COMP "OutpA2" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(337): Semantic
+     error in "LOCATE COMP "OutpB0" SITE "F2" ;": COMP "OutpB0" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(339): Semantic
+     error in "LOCATE COMP "OutpB1" SITE "D4" ;": COMP "OutpB1" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(341): Semantic
+     error in "LOCATE COMP "OutpB2" SITE "H6" ;": COMP "OutpB2" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(344): Semantic
+     error in "LOCATE COMP "OutpC0" SITE "AA24" ;": COMP "OutpC0" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(346): Semantic
+     error in "LOCATE COMP "OutpC1" SITE "U24" ;": COMP "OutpC1" cannot be found
+     in design. This preference has been disabled.
+
+                                    Page 6
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(348): Semantic
+     error in "LOCATE COMP "OutpC2" SITE "U23" ;": COMP "OutpC2" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(351): Semantic
+     error in "LOCATE COMP "OutpD0" SITE "C3" ;": COMP "OutpD0" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(353): Semantic
+     error in "LOCATE COMP "OutpD1" SITE "L5" ;": COMP "OutpD1" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(355): Semantic
+     error in "LOCATE COMP "OutpD2" SITE "K8" ;": COMP "OutpD2" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(383): Semantic
+     error in "LOCATE COMP "SPARE_LINE_0" SITE "M25" ;": COMP "SPARE_LINE_0"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(384): Semantic
+     error in "LOCATE COMP "SPARE_LINE_1" SITE "M26" ;": COMP "SPARE_LINE_1"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(385): Semantic
+     error in "LOCATE COMP "SPARE_LINE_2" SITE "W4" ;": COMP "SPARE_LINE_2"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(386): Semantic
+     error in "LOCATE COMP "SPARE_LINE_3" SITE "W5" ;": COMP "SPARE_LINE_3"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(393): Semantic
+     error in "LOCATE COMP "FLASH_CLK" SITE "B12" ;": COMP "FLASH_CLK" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(394): Semantic
+     error in "LOCATE COMP "FLASH_CS" SITE "E11" ;": COMP "FLASH_CS" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(395): Semantic
+     error in "LOCATE COMP "FLASH_DIN" SITE "E12" ;": COMP "FLASH_DIN" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(396): Semantic
+     error in "LOCATE COMP "FLASH_DOUT" SITE "A12" ;": COMP "FLASH_DOUT" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(401): Semantic
+     error in "LOCATE COMP "PROGRAMN" SITE "B11" ;": COMP "PROGRAMN" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(402): Semantic
+     error in "IOBUF PORT "PROGRAMN" IO_TYPE=LVCMOS25 PULLMODE=UP DRIVE=8 ;":
+     Port "PROGRAMN" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(408): Semantic
+     error in "LOCATE COMP "TEMPSENS" SITE "A13" ;": COMP "TEMPSENS" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(409): Semantic
+     error in "IOBUF PORT "TEMPSENS" IO_TYPE=LVCMOS25 PULLMODE=UP DRIVE=8 ;":
+     Port "TEMPSENS" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(412): Semantic
+     error in "LOCATE COMP "CODE_LINE_1" SITE "AA20" ;": COMP "CODE_LINE_1"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(413): Semantic
+     error in "LOCATE COMP "CODE_LINE_0" SITE "Y21" ;": COMP "CODE_LINE_0"
+     cannot be found in design. This preference has been disabled.
+
+                                    Page 7
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(414): Semantic
+     error in "IOBUF PORT "CODE_LINE_1" IO_TYPE=LVCMOS25 PULLMODE=UP ;": Port
+     "CODE_LINE_1" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(415): Semantic
+     error in "IOBUF PORT "CODE_LINE_0" IO_TYPE=LVCMOS25 PULLMODE=UP ;": Port
+     "CODE_LINE_0" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(418): Semantic
+     error in "LOCATE COMP "SUPPL" SITE "C14" ;": COMP "SUPPL" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(419): Semantic
+     error in "IOBUF PORT "SUPPL" IO_TYPE=LVDS25 ;": Port "SUPPL" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(425): Semantic
+     error in "LOCATE COMP "LED_GREEN" SITE "F12" ;": COMP "LED_GREEN" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(426): Semantic
+     error in "LOCATE COMP "LED_ORANGE" SITE "G13" ;": COMP "LED_ORANGE" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(427): Semantic
+     error in "LOCATE COMP "LED_RED" SITE "A15" ;": COMP "LED_RED" cannot be
+     found in design. This preference has been disabled.
+WARNING - map: D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf(428): Semantic
+     error in "LOCATE COMP "LED_YELLOW" SITE "A16" ;": COMP "LED_YELLOW" cannot
+     be found in design. This preference has been disabled.
+WARNING - map: Preference parsing results:  103 semantic errors detected.
+WARNING - map: IO buffer missing for top level port INP[63:0](63)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](62)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](61)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](60)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](59)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](58)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](57)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](56)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](55)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](54)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](47)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](46)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](45)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](44)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](43)...logic will
+
+                                    Page 8
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Design Errors/Warnings (cont)
+-----------------------------
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](42)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](41)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](40)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](39)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](38)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](37)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](31)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](30)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](29)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](28)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](27)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](26)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](25)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](24)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](23)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](22)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](21)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](20)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](15)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](14)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](13)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](12)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](11)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](10)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](9)...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](8)...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](7)...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](6)...logic will be
+
+                                    Page 9
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Design Errors/Warnings (cont)
+-----------------------------
+     discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](5)...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](4)...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port INP[63:0](3)...logic will be
+     discarded.
+WARNING - map: There are semantic errors in the preference file
+     D:/bartz/Documents/Lattice/TrigTest/TrigTest1.lpf.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpA[0]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[0]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpD[2]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpD[1]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpD[0]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpC[2]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpC[1]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpC[0]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpB[2]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpB[1]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpB[0]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpA[2]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| OutpA[1]            | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| InpD                | INPUT     | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| InpC                | INPUT     | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| InpB                | INPUT     | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| InpA                | INPUT     | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[53]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[52]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[51]             | INPUT     | LVDS25    |            |            |
+
+                                   Page 10
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+------------+
+| INP[50]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[49]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[48]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[36]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[35]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[34]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[33]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[32]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[19]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[18]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[17]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[16]             | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[2]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+| INP[1]              | INPUT     | LVDS25    |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+Removed logic
+-------------
+
+Block U1/U1/U1 undriven or does not drive anything - clipped.
+Block U2/U1/U1 undriven or does not drive anything - clipped.
+Block U3/U1/U1 undriven or does not drive anything - clipped.
+Block U10/U1/U1 undriven or does not drive anything - clipped.
+Block U11/U1/U1 undriven or does not drive anything - clipped.
+Block U12/U1/U1 undriven or does not drive anything - clipped.
+Block U13/U1/U1 undriven or does not drive anything - clipped.
+Block U20/U1/U1 undriven or does not drive anything - clipped.
+Block U21/U1/U1 undriven or does not drive anything - clipped.
+Block U22/U1/U1 undriven or does not drive anything - clipped.
+Block U23/U1/U1 undriven or does not drive anything - clipped.
+Block U24/U1/U1 undriven or does not drive anything - clipped.
+Block U30/U1/U1 undriven or does not drive anything - clipped.
+Block U31/U1/U1 undriven or does not drive anything - clipped.
+Block U32/U1/U1 undriven or does not drive anything - clipped.
+Block U33/U1/U1 undriven or does not drive anything - clipped.
+Block U34/U1/U1 undriven or does not drive anything - clipped.
+Block U35/U1/U1 undriven or does not drive anything - clipped.
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block U5/GND undriven or does not drive anything - clipped.
+Block U1/GND undriven or does not drive anything - clipped.
+
+                                   Page 11
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Removed logic (cont)
+--------------------
+Block U2/GND undriven or does not drive anything - clipped.
+Block U3/GND undriven or does not drive anything - clipped.
+Block U10/GND undriven or does not drive anything - clipped.
+Block U11/GND undriven or does not drive anything - clipped.
+Block U12/GND undriven or does not drive anything - clipped.
+Block U13/GND undriven or does not drive anything - clipped.
+Block U25/GND undriven or does not drive anything - clipped.
+Block U20/GND undriven or does not drive anything - clipped.
+Block U21/GND undriven or does not drive anything - clipped.
+Block U22/GND undriven or does not drive anything - clipped.
+Block U23/GND undriven or does not drive anything - clipped.
+Block U24/GND undriven or does not drive anything - clipped.
+Block U26/GND undriven or does not drive anything - clipped.
+Block U36/GND undriven or does not drive anything - clipped.
+Block U30/GND undriven or does not drive anything - clipped.
+Block U31/GND undriven or does not drive anything - clipped.
+Block U32/GND undriven or does not drive anything - clipped.
+Block U33/GND undriven or does not drive anything - clipped.
+Block U34/GND undriven or does not drive anything - clipped.
+Block U35/GND undriven or does not drive anything - clipped.
+Signal U1/U1/u was merged into signal n[0]
+Signal U1/U1/t was merged into signal n[0]
+Signal U1/U1/s was merged into signal n[0]
+Signal U1/U1/r was merged into signal n[0]
+Signal U1/U1/q was merged into signal n[0]
+Signal U1/U1/p was merged into signal n[0]
+Signal U1/U1/o was merged into signal n[0]
+Signal U1/U1/n was merged into signal n[0]
+Signal U1.n was merged into signal U1/U1/u
+Signal U2.n was merged into signal n[1]
+Signal U2/U1/u was merged into signal n[1]
+Signal U2/U1/t was merged into signal n[1]
+Signal U2/U1/s was merged into signal n[1]
+Signal U2/U1/r was merged into signal n[1]
+Signal U2/U1/q was merged into signal n[1]
+Signal U2/U1/p was merged into signal n[1]
+Signal U2/U1/o was merged into signal n[1]
+Signal U2/U1/n was merged into signal n[1]
+Signal U3.n was merged into signal U3/n[2]
+Signal U3/U1/u was merged into signal U3/n[2]
+Signal U3/U1/t was merged into signal U3/n[2]
+Signal U3/U1/s was merged into signal U3/n[2]
+Signal U3/U1/r was merged into signal U3/n[2]
+Signal U3/U1/q was merged into signal U3/n[2]
+Signal U3/U1/p was merged into signal U3/n[2]
+Signal U3/U1/o was merged into signal U3/n[2]
+Signal U3/U1/n was merged into signal U3/n[2]
+Signal U10.n was merged into signal m[0]
+Signal U10/U1/u was merged into signal m[0]
+Signal U10/U1/t was merged into signal m[0]
+Signal U10/U1/s was merged into signal m[0]
+Signal U10/U1/r was merged into signal m[0]
+Signal U10/U1/q was merged into signal m[0]
+Signal U10/U1/p was merged into signal m[0]
+Signal U10/U1/o was merged into signal m[0]
+Signal U10/U1/n was merged into signal m[0]
+
+                                   Page 12
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Removed logic (cont)
+--------------------
+Signal U11.n was merged into signal m[1]
+Signal U11/U1/u was merged into signal m[1]
+Signal U11/U1/t was merged into signal m[1]
+Signal U11/U1/s was merged into signal m[1]
+Signal U11/U1/r was merged into signal m[1]
+Signal U11/U1/q was merged into signal m[1]
+Signal U11/U1/p was merged into signal m[1]
+Signal U11/U1/o was merged into signal m[1]
+Signal U11/U1/n was merged into signal m[1]
+Signal U12.n was merged into signal m[2]
+Signal U12/U1/u was merged into signal m[2]
+Signal U12/U1/t was merged into signal m[2]
+Signal U12/U1/s was merged into signal m[2]
+Signal U12/U1/r was merged into signal m[2]
+Signal U12/U1/q was merged into signal m[2]
+Signal U12/U1/p was merged into signal m[2]
+Signal U12/U1/o was merged into signal m[2]
+Signal U12/U1/n was merged into signal m[2]
+Signal U13.n was merged into signal m[3]
+Signal U13/U1/u was merged into signal m[3]
+Signal U13/U1/t was merged into signal m[3]
+Signal U13/U1/s was merged into signal m[3]
+Signal U13/U1/r was merged into signal m[3]
+Signal U13/U1/q was merged into signal m[3]
+Signal U13/U1/p was merged into signal m[3]
+Signal U13/U1/o was merged into signal m[3]
+Signal U13/U1/n was merged into signal m[3]
+Signal U20.n was merged into signal p[0]
+Signal U20/U1/u was merged into signal p[0]
+Signal U20/U1/t was merged into signal p[0]
+Signal U20/U1/s was merged into signal p[0]
+Signal U20/U1/r was merged into signal p[0]
+Signal U20/U1/q was merged into signal p[0]
+Signal U20/U1/p was merged into signal p[0]
+Signal U20/U1/o was merged into signal p[0]
+Signal U20/U1/n was merged into signal p[0]
+Signal U21.n was merged into signal U21/p[1]
+Signal U21/U1/u was merged into signal U21/p[1]
+Signal U21/U1/t was merged into signal U21/p[1]
+Signal U21/U1/s was merged into signal U21/p[1]
+Signal U21/U1/r was merged into signal U21/p[1]
+Signal U21/U1/q was merged into signal U21/p[1]
+Signal U21/U1/p was merged into signal U21/p[1]
+Signal U21/U1/o was merged into signal U21/p[1]
+Signal U21/U1/n was merged into signal U21/p[1]
+Signal U22.n was merged into signal p[2]
+Signal U22/U1/u was merged into signal p[2]
+Signal U22/U1/t was merged into signal p[2]
+Signal U22/U1/s was merged into signal p[2]
+Signal U22/U1/r was merged into signal p[2]
+Signal U22/U1/q was merged into signal p[2]
+Signal U22/U1/p was merged into signal p[2]
+Signal U22/U1/o was merged into signal p[2]
+Signal U22/U1/n was merged into signal p[2]
+Signal U23.n was merged into signal p[3]
+Signal U23/U1/u was merged into signal p[3]
+
+                                   Page 13
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Removed logic (cont)
+--------------------
+Signal U23/U1/t was merged into signal p[3]
+Signal U23/U1/s was merged into signal p[3]
+Signal U23/U1/r was merged into signal p[3]
+Signal U23/U1/q was merged into signal p[3]
+Signal U23/U1/p was merged into signal p[3]
+Signal U23/U1/o was merged into signal p[3]
+Signal U23/U1/n was merged into signal p[3]
+Signal U24.n was merged into signal p[4]
+Signal U24/U1/u was merged into signal p[4]
+Signal U24/U1/t was merged into signal p[4]
+Signal U24/U1/s was merged into signal p[4]
+Signal U24/U1/r was merged into signal p[4]
+Signal U24/U1/q was merged into signal p[4]
+Signal U24/U1/p was merged into signal p[4]
+Signal U24/U1/o was merged into signal p[4]
+Signal U24/U1/n was merged into signal p[4]
+Signal U30.n was merged into signal q[0]
+Signal U30/U1/u was merged into signal q[0]
+Signal U30/U1/t was merged into signal q[0]
+Signal U30/U1/s was merged into signal q[0]
+Signal U30/U1/r was merged into signal q[0]
+Signal U30/U1/q was merged into signal q[0]
+Signal U30/U1/p was merged into signal q[0]
+Signal U30/U1/o was merged into signal q[0]
+Signal U30/U1/n was merged into signal q[0]
+Signal U31.n was merged into signal q[1]
+Signal U31/U1/u was merged into signal q[1]
+Signal U31/U1/t was merged into signal q[1]
+Signal U31/U1/s was merged into signal q[1]
+Signal U31/U1/r was merged into signal q[1]
+Signal U31/U1/q was merged into signal q[1]
+Signal U31/U1/p was merged into signal q[1]
+Signal U31/U1/o was merged into signal q[1]
+Signal U31/U1/n was merged into signal q[1]
+Signal U32.n was merged into signal q[2]
+Signal U32/U1/u was merged into signal q[2]
+Signal U32/U1/t was merged into signal q[2]
+Signal U32/U1/s was merged into signal q[2]
+Signal U32/U1/r was merged into signal q[2]
+Signal U32/U1/q was merged into signal q[2]
+Signal U32/U1/p was merged into signal q[2]
+Signal U32/U1/o was merged into signal q[2]
+Signal U32/U1/n was merged into signal q[2]
+Signal U33.n was merged into signal U33/q[3]
+Signal U33/U1/u was merged into signal U33/q[3]
+Signal U33/U1/t was merged into signal U33/q[3]
+Signal U33/U1/s was merged into signal U33/q[3]
+Signal U33/U1/r was merged into signal U33/q[3]
+Signal U33/U1/q was merged into signal U33/q[3]
+Signal U33/U1/p was merged into signal U33/q[3]
+Signal U33/U1/o was merged into signal U33/q[3]
+Signal U33/U1/n was merged into signal U33/q[3]
+Signal U34.n was merged into signal q[4]
+Signal U34/U1/u was merged into signal q[4]
+Signal U34/U1/t was merged into signal q[4]
+Signal U34/U1/s was merged into signal q[4]
+
+                                   Page 14
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Removed logic (cont)
+--------------------
+Signal U34/U1/r was merged into signal q[4]
+Signal U34/U1/q was merged into signal q[4]
+Signal U34/U1/p was merged into signal q[4]
+Signal U34/U1/o was merged into signal q[4]
+Signal U34/U1/n was merged into signal q[4]
+Signal U35.n was merged into signal q[5]
+Signal U35/U1/u was merged into signal q[5]
+Signal U35/U1/t was merged into signal q[5]
+Signal U35/U1/s was merged into signal q[5]
+Signal U35/U1/r was merged into signal q[5]
+Signal U35/U1/q was merged into signal q[5]
+Signal U35/U1/p was merged into signal q[5]
+Signal U35/U1/o was merged into signal q[5]
+Signal U35/U1/n was merged into signal q[5]
+Signal U1/U1/m undriven or does not drive anything - clipped.
+Signal U2/U1/m undriven or does not drive anything - clipped.
+Signal U3/U1/m undriven or does not drive anything - clipped.
+Signal U10/U1/m undriven or does not drive anything - clipped.
+Signal U11/U1/m undriven or does not drive anything - clipped.
+Signal U12/U1/m undriven or does not drive anything - clipped.
+Signal U13/U1/m undriven or does not drive anything - clipped.
+Signal U20/U1/m undriven or does not drive anything - clipped.
+Signal U21/U1/m undriven or does not drive anything - clipped.
+Signal U22/U1/m undriven or does not drive anything - clipped.
+Signal U23/U1/m undriven or does not drive anything - clipped.
+Signal U24/U1/m undriven or does not drive anything - clipped.
+Signal U30/U1/m undriven or does not drive anything - clipped.
+Signal U31/U1/m undriven or does not drive anything - clipped.
+Signal U32/U1/m undriven or does not drive anything - clipped.
+Signal U33/U1/m undriven or does not drive anything - clipped.
+Signal U34/U1/m undriven or does not drive anything - clipped.
+Signal U35/U1/m undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Block U1/U1/U9 was optimized away.
+Block U1/U1/U8 was optimized away.
+Block U1/U1/U7 was optimized away.
+Block U1/U1/U6 was optimized away.
+Block U1/U1/U5 was optimized away.
+Block U1/U1/U4 was optimized away.
+Block U1/U1/U3 was optimized away.
+Block U1/U1/U2 was optimized away.
+Block U1/U1/U10 was optimized away.
+Block U2/U1/U10 was optimized away.
+Block U2/U1/U9 was optimized away.
+Block U2/U1/U8 was optimized away.
+Block U2/U1/U7 was optimized away.
+Block U2/U1/U6 was optimized away.
+Block U2/U1/U5 was optimized away.
+Block U2/U1/U4 was optimized away.
+Block U2/U1/U3 was optimized away.
+Block U2/U1/U2 was optimized away.
+Block U3/U1/U10 was optimized away.
+Block U3/U1/U9 was optimized away.
+Block U3/U1/U8 was optimized away.
+Block U3/U1/U7 was optimized away.
+Block U3/U1/U6 was optimized away.
+
+                                   Page 15
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Removed logic (cont)
+--------------------
+Block U3/U1/U5 was optimized away.
+Block U3/U1/U4 was optimized away.
+Block U3/U1/U3 was optimized away.
+Block U3/U1/U2 was optimized away.
+Block U10/U1/U10 was optimized away.
+Block U10/U1/U9 was optimized away.
+Block U10/U1/U8 was optimized away.
+Block U10/U1/U7 was optimized away.
+Block U10/U1/U6 was optimized away.
+Block U10/U1/U5 was optimized away.
+Block U10/U1/U4 was optimized away.
+Block U10/U1/U3 was optimized away.
+Block U10/U1/U2 was optimized away.
+Block U11/U1/U10 was optimized away.
+Block U11/U1/U9 was optimized away.
+Block U11/U1/U8 was optimized away.
+Block U11/U1/U7 was optimized away.
+Block U11/U1/U6 was optimized away.
+Block U11/U1/U5 was optimized away.
+Block U11/U1/U4 was optimized away.
+Block U11/U1/U3 was optimized away.
+Block U11/U1/U2 was optimized away.
+Block U12/U1/U10 was optimized away.
+Block U12/U1/U9 was optimized away.
+Block U12/U1/U8 was optimized away.
+Block U12/U1/U7 was optimized away.
+Block U12/U1/U6 was optimized away.
+Block U12/U1/U5 was optimized away.
+Block U12/U1/U4 was optimized away.
+Block U12/U1/U3 was optimized away.
+Block U12/U1/U2 was optimized away.
+Block U13/U1/U10 was optimized away.
+Block U13/U1/U9 was optimized away.
+Block U13/U1/U8 was optimized away.
+Block U13/U1/U7 was optimized away.
+Block U13/U1/U6 was optimized away.
+Block U13/U1/U5 was optimized away.
+Block U13/U1/U4 was optimized away.
+Block U13/U1/U3 was optimized away.
+Block U13/U1/U2 was optimized away.
+Block U20/U1/U10 was optimized away.
+Block U20/U1/U9 was optimized away.
+Block U20/U1/U8 was optimized away.
+Block U20/U1/U7 was optimized away.
+Block U20/U1/U6 was optimized away.
+Block U20/U1/U5 was optimized away.
+Block U20/U1/U4 was optimized away.
+Block U20/U1/U3 was optimized away.
+Block U20/U1/U2 was optimized away.
+Block U21/U1/U10 was optimized away.
+Block U21/U1/U9 was optimized away.
+Block U21/U1/U8 was optimized away.
+Block U21/U1/U7 was optimized away.
+Block U21/U1/U6 was optimized away.
+Block U21/U1/U5 was optimized away.
+Block U21/U1/U4 was optimized away.
+
+                                   Page 16
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Removed logic (cont)
+--------------------
+Block U21/U1/U3 was optimized away.
+Block U21/U1/U2 was optimized away.
+Block U22/U1/U10 was optimized away.
+Block U22/U1/U9 was optimized away.
+Block U22/U1/U8 was optimized away.
+Block U22/U1/U7 was optimized away.
+Block U22/U1/U6 was optimized away.
+Block U22/U1/U5 was optimized away.
+Block U22/U1/U4 was optimized away.
+Block U22/U1/U3 was optimized away.
+Block U22/U1/U2 was optimized away.
+Block U23/U1/U10 was optimized away.
+Block U23/U1/U9 was optimized away.
+Block U23/U1/U8 was optimized away.
+Block U23/U1/U7 was optimized away.
+Block U23/U1/U6 was optimized away.
+Block U23/U1/U5 was optimized away.
+Block U23/U1/U4 was optimized away.
+Block U23/U1/U3 was optimized away.
+Block U23/U1/U2 was optimized away.
+Block U24/U1/U10 was optimized away.
+Block U24/U1/U9 was optimized away.
+Block U24/U1/U8 was optimized away.
+Block U24/U1/U7 was optimized away.
+Block U24/U1/U6 was optimized away.
+Block U24/U1/U5 was optimized away.
+Block U24/U1/U4 was optimized away.
+Block U24/U1/U3 was optimized away.
+Block U24/U1/U2 was optimized away.
+Block U30/U1/U10 was optimized away.
+Block U30/U1/U9 was optimized away.
+Block U30/U1/U8 was optimized away.
+Block U30/U1/U7 was optimized away.
+Block U30/U1/U6 was optimized away.
+Block U30/U1/U5 was optimized away.
+Block U30/U1/U4 was optimized away.
+Block U30/U1/U3 was optimized away.
+Block U30/U1/U2 was optimized away.
+Block U31/U1/U10 was optimized away.
+Block U31/U1/U9 was optimized away.
+Block U31/U1/U8 was optimized away.
+Block U31/U1/U7 was optimized away.
+Block U31/U1/U6 was optimized away.
+Block U31/U1/U5 was optimized away.
+Block U31/U1/U4 was optimized away.
+Block U31/U1/U3 was optimized away.
+Block U31/U1/U2 was optimized away.
+Block U32/U1/U10 was optimized away.
+Block U32/U1/U9 was optimized away.
+Block U32/U1/U8 was optimized away.
+Block U32/U1/U7 was optimized away.
+Block U32/U1/U6 was optimized away.
+Block U32/U1/U5 was optimized away.
+Block U32/U1/U4 was optimized away.
+Block U32/U1/U3 was optimized away.
+Block U32/U1/U2 was optimized away.
+
+                                   Page 17
+
+
+
+
+Design:  Top                                           Date:  02/24/16  13:48:17
+
+Removed logic (cont)
+--------------------
+Block U33/U1/U10 was optimized away.
+Block U33/U1/U9 was optimized away.
+Block U33/U1/U8 was optimized away.
+Block U33/U1/U7 was optimized away.
+Block U33/U1/U6 was optimized away.
+Block U33/U1/U5 was optimized away.
+Block U33/U1/U4 was optimized away.
+Block U33/U1/U3 was optimized away.
+Block U33/U1/U2 was optimized away.
+Block U34/U1/U10 was optimized away.
+Block U34/U1/U9 was optimized away.
+Block U34/U1/U8 was optimized away.
+Block U34/U1/U7 was optimized away.
+Block U34/U1/U6 was optimized away.
+Block U34/U1/U5 was optimized away.
+Block U34/U1/U4 was optimized away.
+Block U34/U1/U3 was optimized away.
+Block U34/U1/U2 was optimized away.
+Block U35/U1/U10 was optimized away.
+Block U35/U1/U9 was optimized away.
+Block U35/U1/U8 was optimized away.
+Block U35/U1/U7 was optimized away.
+Block U35/U1/U6 was optimized away.
+Block U35/U1/U5 was optimized away.
+Block U35/U1/U4 was optimized away.
+Block U35/U1/U3 was optimized away.
+Block U35/U1/U2 was optimized away.
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 2 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 403 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 18
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights
+     reserved.

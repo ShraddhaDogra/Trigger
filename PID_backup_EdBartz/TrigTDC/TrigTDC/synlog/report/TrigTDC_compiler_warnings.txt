@@ -1,0 +1,7 @@
+@W: CL168 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":146:12:146:14|Pruning instance fb1 -- not in use ...
+@W: CL168 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":139:10:139:15|Pruning instance TestIn -- not in use ...
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":10:13:10:18|*Output OUT_pA has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":10:21:10:26|*Output OUT_pB has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\bartz\Documents\Lattice\TrigTDC\Source\TriggerTDC.v":10:29:10:34|*Output OUT_pC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL247 :"D:\bartz\Documents\Lattice\TrigTDC\Source\FineTimeBit.v":7:21:7:23|Input port bit 5 of clk[5:0] is unused
+
