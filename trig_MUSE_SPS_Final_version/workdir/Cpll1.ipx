@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="Cpll1" module="Cpll1" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2017 04 10 12:20:53.414" version="5.8" type="Module" synthesis="synplify" source_format="Verilog HDL">
+  <Package>
+		<File name="Cpll1.lpc" type="lpc" modified="2017 04 10 12:20:51.674"/>
+		<File name="Cpll1.v" type="top_level_verilog" modified="2017 04 10 12:20:51.715"/>
+		<File name="Cpll1_tmpl.v" type="template_verilog" modified="2017 04 10 12:20:51.715"/>
+  </Package>
+</DiamondModule>
