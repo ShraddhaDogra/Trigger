@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="lattice_ecp3_fifo_18x16_dualport_oreg" module="FIFO_DC" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2015 04 24 16:53:33.866" version="5.7" type="Module" synthesis="synplify" source_format="VHDL">
+  <Package>
+		<File name="lattice_ecp3_fifo_18x16_dualport_oreg.lpc" type="lpc" modified="2015 04 24 16:53:32.000"/>
+		<File name="lattice_ecp3_fifo_18x16_dualport_oreg.vhd" type="top_level_vhdl" modified="2015 04 24 16:53:32.000"/>
+		<File name="lattice_ecp3_fifo_18x16_dualport_oreg_tmpl.vhd" type="template_vhdl" modified="2015 04 24 16:53:32.000"/>
+		<File name="tb_lattice_ecp3_fifo_18x16_dualport_oreg_tmpl.vhd" type="testbench_vhdl" modified="2015 04 24 16:53:32.000"/>
+  </Package>
+</DiamondModule>

@@ -1,0 +1,9 @@
+
+
+
+
+-g CfgMode:Disable
+-g RamCfg:Reset
+-path "E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project" 
+-path "E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project"
+-g ES:No

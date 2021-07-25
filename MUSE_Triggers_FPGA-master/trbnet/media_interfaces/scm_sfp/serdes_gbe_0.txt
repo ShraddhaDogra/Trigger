@@ -1,0 +1,40 @@
+
+# This file is used by the simulation model as well as the ispLEVER bitstream
+# generation process to automatically initialize the PCS quad to the mode
+# selected in the IPexpress. This file is expected to be modified by the
+# end user to adjust the PCS quad to the final design requirements.
+# channel_0 is in "Gigabit Ethernet" mode
+# channel_1 is in "Disabled" mode
+# channel_2 is in "Disabled" mode
+# channel_3 is in "Disabled" mode
+
+ch0 13 03  # Powerup Channel
+ch0 00 09  # rx_sof enabled
+quad 00 00
+quad 01 E4  
+quad 28 40  # Reference clock multiplier
+quad 29 01  # set to 01
+quad 02 00  # ref_pclk source is ch0
+# quad 18 00  # Gigabit Ethernet Mode
+quad 14 7F  # Word Alignment Mask
+quad 15 03  # +ve K
+quad 16 7C  # -ve K
+quad 0D 97  # Watermark level on CTC
+quad 0E 0B  # insertion/deletion control of CTC
+quad 11 BC  # /I2/ pattern for CTC match
+quad 12 50
+quad 13 04
+quad 1D 57  # GbE Tx CRC polynomial
+quad 1E 1E  # GbE Rx CRC polynomial
+quad 19 0C  # FPGA bus width is 16-bit/20-bit
+ch0 14 90  # 16% pre-emphasis 
+ch0 15 10  # +6dB equalization
+
+# These lines must appear last in the autoconfig file.  These lines apply the correct 
+# reset sequence to the PCS block upon bitstream configuration
+quad 41 00  # de-assert serdes_rst
+quad 40 ff  # assert datapath reset for all channels
+quad 40 00  # de-assert datapath reset for all channels
+
+
+

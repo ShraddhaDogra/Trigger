@@ -1,0 +1,20 @@
+COMMERCIAL ;
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+BLOCK RD_DURING_WR_PATHS ;
+
+#################################################################
+# Basic Settings
+#################################################################
+
+BLOCK PATH TO   PORT "LED*";
+BLOCK PATH TO   PORT "SFP*";
+BLOCK PATH FROM PORT "SFP*";
+BLOCK PATH TO   PORT "PROGRAMN";
+BLOCK PATH TO   PORT "TEMPSENS";
+BLOCK PATH FROM PORT "TEMPSENS";
+BLOCK PATH TO   PORT "TEST_LINE";
+
+PROHIBIT PRIMARY   NET "ENPIRION_CLOCK_c" ;
+PROHIBIT SECONDARY NET "ENPIRION_CLOCK_c" ;
+

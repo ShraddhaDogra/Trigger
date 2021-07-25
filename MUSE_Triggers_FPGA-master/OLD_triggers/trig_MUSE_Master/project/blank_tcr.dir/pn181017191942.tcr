@@ -1,0 +1,4 @@
+#Start recording tcl command: 10/17/2018 19:18:52
+#Project Location: E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project; Project name: blank
+prj_project open "E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project/trb3_periph_blank.ldf"
+#Stop recording: 10/17/2018 19:19:42

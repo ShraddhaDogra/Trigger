@@ -1,0 +1,1260 @@
+
+       Lattice Mapping Report File for Design Module 'panda_dirc_wasa'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-4000HC -t FTBGA256 -s 6 -oc Commercial
+     padiwalcd_padiwalcd.ngd -o padiwalcd_padiwalcd_map.ncd -pr
+     padiwalcd_padiwalcd.prf -mp padiwalcd_padiwalcd.mrp -lpf
+     C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/project/pad
+     iwalcd/padiwalcd_padiwalcd_synplify.lpf -lpf C:/Users/lavry/Google
+     Drive/FPGA_programming/padiwa/trb3/base/panda_dirc_wasa1.lpf -c 0 -gui
+     -msgset C:/Users/lavry/Google
+     Drive/FPGA_programming/padiwa/trb3/padiwa/project/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-4000HCFTBGA256
+Target Performance:   6
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.1.112
+Mapped on:  04/02/18  11:56:15
+
+Design Summary
+--------------
+
+   Number of registers:   1657 out of  4941 (34%)
+      PFU registers:         1620 out of  4320 (38%)
+      PIO registers:           37 out of   621 (6%)
+   Number of SLICEs:      1079 out of  2160 (50%)
+      SLICEs as Logic/ROM:   1055 out of  2160 (49%)
+      SLICEs as RAM:           24 out of  1620 (1%)
+      SLICEs as Carry:        515 out of  2160 (24%)
+   Number of LUT4s:        2133 out of  4320 (49%)
+      Number used as logic LUTs:        1055
+      Number used as distributed RAM:    48
+      Number used as ripple logic:      1030
+      Number used as shift registers:     0
+   Number of PIO sites used: 115 + 4(JTAG) out of 207 (57%)
+      Number of PIO sites used for single ended IOs: 45
+      Number of PIO sites used for differential IOs: 74 (represented by 37 PIO
+     comps in NCD)
+   Number of block RAMs:  1 out of 10 (10%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       Yes
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+
+                                    Page 1
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Design Summary (cont)
+---------------------
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  3
+     Net clk_osc: 1 loads, 1 rising, 0 falling (Driver: clk_source )
+     Net clk_i: 768 loads, 768 rising, 0 falling (Driver: THE_PLL/PLLInst_0 )
+     Net clk_26: 164 loads, 164 rising, 0 falling (Driver: THE_PLL/PLLInst_0 )
+   Number of Clock Enables:  104
+     Net N_1733_i: 8 loads, 8 LSLICEs
+     Net fsm_copydat[1]: 10 loads, 10 LSLICEs
+     Net PROC_CTRL_FLASH.un2_spi_write_i_0_o2: 3 loads, 3 LSLICEs
+     Net THE_SPI_SLAVE.PROC_OUTPUT.un5_spi_clk_reg: 1 loads, 0 LSLICEs
+     Net led_status_1_sqmuxa: 3 loads, 3 LSLICEs
+     Net PROC_CTRL_FLASH_ENABLE.un17_spi_write_i: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/state[2]: 8 loads, 8 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_15_0_a2_2_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_20_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_26_0_a2_1_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_30_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_19_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_24_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_10_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_9_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_28_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_5_0_a2_1_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_6_0_a2_1_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_13_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_14_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_3_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_7_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_17_0_a2_1_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_18_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_2_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_8_0_a2_2_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_23_0_a2_1_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_21_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_22_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_11_0_a2_1_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_12_0_a2_2_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_31_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_29_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_4_0_a2_1_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_16_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_32_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_25_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/un1_bitcnt_27_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/bitcnt_1_sqmuxa: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/bitcnt_1_sqmuxa_2: 1 loads, 1 LSLICEs
+     Net spi_write_i[1]: 1 loads, 1 LSLICEs
+     Net THE_SPI_SLAVE/data_write_0_sqmuxa: 8 loads, 8 LSLICEs
+     Net N_1774_i: 1 loads, 1 LSLICEs
+     Net gen_input_counter.0.proc_cnt.un7_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.1.proc_cnt.un23_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.2.proc_cnt.un39_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.3.proc_cnt.un55_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.4.proc_cnt.un71_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.5.proc_cnt.un87_last_inp: 13 loads, 13 LSLICEs
+
+                                    Page 2
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Design Summary (cont)
+---------------------
+     Net gen_input_counter.6.proc_cnt.un103_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.7.proc_cnt.un119_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.8.proc_cnt.un135_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.9.proc_cnt.un151_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.10.proc_cnt.un167_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.11.proc_cnt.un183_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.12.proc_cnt.un199_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.13.proc_cnt.un215_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.14.proc_cnt.un231_last_inp: 13 loads, 13 LSLICEs
+     Net gen_input_counter.15.proc_cnt.un247_last_inp: 13 loads, 13 LSLICEs
+     Net THE_FLASH/un1_n_state_6_sqmuxa_0_0_0: 1 loads, 1 LSLICEs
+     Net THE_FLASH/un1_n_busy54_3_0: 1 loads, 1 LSLICEs
+     Net THE_FLASH/un22_0_0_0: 1 loads, 1 LSLICEs
+     Net THE_FLASH/n_data_frm_ufm_0_sqmuxa: 4 loads, 4 LSLICEs
+     Net flashram_cen_i: 2 loads, 0 LSLICEs
+     Net THE_FLASH/sm_addre: 2 loads, 2 LSLICEs
+     Net fsm_copydat[2]: 4 loads, 4 LSLICEs
+     Net comp_setting_1_sqmuxa: 8 loads, 8 LSLICEs
+     Net input_enable_0_sqmuxa: 8 loads, 8 LSLICEs
+     Net inp_invert_1_sqmuxa: 8 loads, 8 LSLICEs
+     Net inp_select_1_sqmuxa: 3 loads, 3 LSLICEs
+     Net N_128_i: 2 loads, 2 LSLICEs
+     Net inp_stretch_1_sqmuxa: 8 loads, 8 LSLICEs
+     Net un1_spi_reg20_i63_i: 8 loads, 8 LSLICEs
+     Net THE_ONEWIRE/un1_next_send_rom_0_sqmuxa_0_0_o3: 1 loads, 1 LSLICEs
+     Net THE_ONEWIRE/reset_i: 3 loads, 3 LSLICEs
+     Net THE_ONEWIRE/N_92: 1 loads, 1 LSLICEs
+     Net THE_ONEWIRE/reading_temp_RNO: 1 loads, 1 LSLICEs
+     Net THE_ONEWIRE/N_1527_i: 9 loads, 9 LSLICEs
+     Net THE_ONEWIRE/state[9]: 1 loads, 1 LSLICEs
+     Net THE_ONEWIRE/un1_next_recv_bit_0_sqmuxa_0_0: 1 loads, 1 LSLICEs
+     Net THE_ONEWIRE/id_write_i: 6 loads, 6 LSLICEs
+     Net THE_ONEWIRE/un1_next_output_tmp_1_sqmuxa_0_0: 1 loads, 1 LSLICEs
+     Net THE_ONEWIRE/un1_next_send_rom_0_sqmuxa_3_0_i_o3: 1 loads, 1 LSLICEs
+     Net THE_ONEWIRE/buf_TEMP_OUT_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net idram_3_1_sqmuxa: 8 loads, 8 LSLICEs
+     Net idram_2_1_sqmuxa: 8 loads, 8 LSLICEs
+     Net idram_1_1_sqmuxa: 8 loads, 8 LSLICEs
+     Net idram_0_1_sqmuxa: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_9_0_a2: 9 loads, 9 LSLICEs
+     Net THE_PWM_GEN/un1_i_8_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/i_RNIUIDI[3]: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_6_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_5_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_4_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_3_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_2_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_15_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_1_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_14_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_13_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_12_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_11_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_10_0_a2: 8 loads, 8 LSLICEs
+     Net THE_PWM_GEN/un1_i_0_0_a2: 8 loads, 8 LSLICEs
+   Number of LSRs:  6
+
+                                    Page 3
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Design Summary (cont)
+---------------------
+     Net PROC_IDMEM.onewire_reset: 34 loads, 33 LSLICEs
+     Net fsm_copydat_nss[0]: 1 loads, 1 LSLICEs
+     Net N_1774_i: 2 loads, 2 LSLICEs
+     Net THE_ONEWIRE/reset_i: 29 loads, 29 LSLICEs
+     Net THE_ONEWIRE/timecounter[0]: 1 loads, 1 LSLICEs
+     Net THE_ONEWIRE/reset_bitcounter: 4 loads, 4 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net spi_channel_i[3]: 190 loads
+     Net spi_channel_i[1]: 118 loads
+     Net THE_FLASH/c_state[2]: 61 loads
+     Net THE_FLASH/c_state[1]: 55 loads
+     Net THE_SPI_SLAVE/spi_channel_i[2]: 55 loads
+     Net spi_channel_i[0]: 52 loads
+     Net spi_channel_i_2_rep2: 52 loads
+     Net THE_SPI_SLAVE/spi_channel_i_2_rep1: 52 loads
+     Net THE_FLASH/c_state[4]: 51 loads
+     Net THE_FLASH/c_state[5]: 51 loads
+
+
+
+
+   Number of warnings:  2
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: C:/Users/lavry/Google
+     Drive/FPGA_programming/padiwa/trb3/base/panda_dirc_wasa1.lpf(11): Semantic
+     error in "FREQUENCY NET "clk_i_inferred_clock" 133.000000 MHz ;":
+     clk_i_inferred_clock matches no clock nets in the design.  This preference
+     has been disabled.
+WARNING - map: UFM was enabled in EFB: Enabling the configuration interface will
+     temporarily disable certain features of the device including Power
+     Controller, GSR, Hardened User SPI Port, Hardened Primary User I2C Port.
+     Functionality is restored after the Flash Memory (UFM/Configuration)
+     Interface is disabled using Disable Configuration Interface command 0x26
+     followed by Bypass command 0xFF. 
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| TEMP_LINE           | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SPI_OUT             | OUTPUT    | LVDS25    | OUT/TRI    |
++---------------------+-----------+-----------+------------+
+| CON[1]              | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| INP[1]              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+
+                                    Page 4
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| TEST_LINE[15]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[14]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[13]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[12]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[11]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[10]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[9]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[8]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[7]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[6]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[5]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[4]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[3]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[2]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[1]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| TEST_LINE[0]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SPI_IN              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| SPI_CS              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| SPI_CLK             | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| LED_YELLOW          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED_RED             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED_ORANGE          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED_GREEN           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SPARE_LVDS          | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| SPARE_LINE[3]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SPARE_LINE[2]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SPARE_LINE[1]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SPARE_LINE[0]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 5
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| PWM[16]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[15]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[14]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[13]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[12]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[11]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[10]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[9]              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[8]              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[7]              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[6]              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[5]              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[4]              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[3]              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[2]              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| PWM[1]              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| INP[16]             | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[15]             | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[14]             | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[13]             | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[12]             | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[11]             | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[10]             | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[9]              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[8]              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[7]              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[6]              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[5]              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+
+                                    Page 6
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| INP[4]              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[3]              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| INP[2]              | INPUT     | LVDS25    | IN         |
++---------------------+-----------+-----------+------------+
+| CON[16]             | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[15]             | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[14]             | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[13]             | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[12]             | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[11]             | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[10]             | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[9]              | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[8]              | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[7]              | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[6]              | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[5]              | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[4]              | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[3]              | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+| CON[2]              | OUTPUT    | LVDS25    |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block THE_FLASH/VCC undriven or does not drive anything - clipped.
+Block THE_FLASH/GSR_INST undriven or does not drive anything - clipped.
+Block THE_PLL/VCC undriven or does not drive anything - clipped.
+Block THE_PWM_GEN/VCC undriven or does not drive anything - clipped.
+Block THE_SPI_SLAVE/VCC undriven or does not drive anything - clipped.
+Signal THE_ONEWIRE/reset_i_i was merged into signal THE_ONEWIRE/reset_i
+Signal id_write_i_i was merged into signal THE_ONEWIRE/id_write_i
+Signal THE_PLL/GND undriven or does not drive anything - clipped.
+Signal THE_FLASH_RAM/VCC undriven or does not drive anything - clipped.
+Signal THE_FLASH_RAM/GND undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/GND undriven or does not drive anything - clipped.
+Signal THE_ONEWIRE/GND undriven or does not drive anything - clipped.
+Signal signal_gen/GND undriven or does not drive anything - clipped.
+Signal THE_FLASH/GND undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/VCC undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/GND undriven or does not drive anything - clipped.
+
+                                    Page 7
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Removed logic (cont)
+--------------------
+Signal THE_SPI_SLAVE/GND undriven or does not drive anything - clipped.
+Signal THE_FLASH/VCC undriven or does not drive anything - clipped.
+Signal PROC_TIMER.timer_cry_0_COUT[17] undriven or does not drive anything -
+     clipped.
+Signal gen_input_counter.0.proc_cnt.input_counter_0_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_2 undriven or does not drive anything - clipped.
+Signal gen_input_counter.0.proc_cnt.input_counter_0_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.0.proc_cnt.input_counter_0_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.1.proc_cnt.input_counter_1_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_3 undriven or does not drive anything - clipped.
+Signal gen_input_counter.1.proc_cnt.input_counter_1_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.1.proc_cnt.input_counter_1_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.2.proc_cnt.input_counter_2_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_4 undriven or does not drive anything - clipped.
+Signal gen_input_counter.2.proc_cnt.input_counter_2_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.2.proc_cnt.input_counter_2_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.3.proc_cnt.input_counter_3_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_5 undriven or does not drive anything - clipped.
+Signal gen_input_counter.3.proc_cnt.input_counter_3_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.3.proc_cnt.input_counter_3_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.4.proc_cnt.input_counter_4_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_6 undriven or does not drive anything - clipped.
+Signal gen_input_counter.4.proc_cnt.input_counter_4_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.4.proc_cnt.input_counter_4_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.5.proc_cnt.input_counter_5_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_7 undriven or does not drive anything - clipped.
+Signal gen_input_counter.5.proc_cnt.input_counter_5_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.5.proc_cnt.input_counter_5_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.6.proc_cnt.input_counter_6_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_8 undriven or does not drive anything - clipped.
+Signal gen_input_counter.6.proc_cnt.input_counter_6_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.6.proc_cnt.input_counter_6_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.7.proc_cnt.input_counter_7_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_10 undriven or does not drive anything - clipped.
+
+                                    Page 8
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Removed logic (cont)
+--------------------
+Signal gen_input_counter.7.proc_cnt.input_counter_7_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.7.proc_cnt.input_counter_7_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.8.proc_cnt.input_counter_8_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_12 undriven or does not drive anything - clipped.
+Signal gen_input_counter.8.proc_cnt.input_counter_8_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.8.proc_cnt.input_counter_8_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.9.proc_cnt.input_counter_9_cry_0_S0[0] undriven or does
+     not drive anything - clipped.
+Signal N_14 undriven or does not drive anything - clipped.
+Signal gen_input_counter.9.proc_cnt.input_counter_9_s_0_S1[23] undriven or does
+     not drive anything - clipped.
+Signal gen_input_counter.9.proc_cnt.input_counter_9_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.10.proc_cnt.input_counter_10_cry_0_S0[0] undriven or
+     does not drive anything - clipped.
+Signal N_15 undriven or does not drive anything - clipped.
+Signal gen_input_counter.10.proc_cnt.input_counter_10_s_0_S1[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.10.proc_cnt.input_counter_10_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.11.proc_cnt.input_counter_11_cry_0_S0[0] undriven or
+     does not drive anything - clipped.
+Signal N_16 undriven or does not drive anything - clipped.
+Signal gen_input_counter.11.proc_cnt.input_counter_11_s_0_S1[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.11.proc_cnt.input_counter_11_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.12.proc_cnt.input_counter_12_cry_0_S0[0] undriven or
+     does not drive anything - clipped.
+Signal N_17 undriven or does not drive anything - clipped.
+Signal gen_input_counter.12.proc_cnt.input_counter_12_s_0_S1[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.12.proc_cnt.input_counter_12_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.13.proc_cnt.input_counter_13_cry_0_S0[0] undriven or
+     does not drive anything - clipped.
+Signal N_18 undriven or does not drive anything - clipped.
+Signal gen_input_counter.13.proc_cnt.input_counter_13_s_0_S1[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.13.proc_cnt.input_counter_13_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.14.proc_cnt.input_counter_14_cry_0_S0[0] undriven or
+     does not drive anything - clipped.
+Signal N_19 undriven or does not drive anything - clipped.
+Signal gen_input_counter.14.proc_cnt.input_counter_14_s_0_S1[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.14.proc_cnt.input_counter_14_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.15.proc_cnt.input_counter_15_cry_0_S0[0] undriven or
+     does not drive anything - clipped.
+Signal N_20 undriven or does not drive anything - clipped.
+
+                                    Page 9
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Removed logic (cont)
+--------------------
+Signal gen_input_counter.15.proc_cnt.input_counter_15_s_0_S1[23] undriven or
+     does not drive anything - clipped.
+Signal gen_input_counter.15.proc_cnt.input_counter_15_s_0_COUT[23] undriven or
+     does not drive anything - clipped.
+Signal madd_3_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal madd_3_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal N_21 undriven or does not drive anything - clipped.
+Signal madd_3_cry_15_0_S1 undriven or does not drive anything - clipped.
+Signal madd_3_cry_15_0_COUT undriven or does not drive anything - clipped.
+Signal madd_4_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal madd_4_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal N_22 undriven or does not drive anything - clipped.
+Signal madd_4_cry_15_0_0_S1 undriven or does not drive anything - clipped.
+Signal madd_4_cry_15_0_0_COUT undriven or does not drive anything - clipped.
+Signal madd_5_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal madd_5_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal N_23 undriven or does not drive anything - clipped.
+Signal madd_5_cry_16_0_COUT undriven or does not drive anything - clipped.
+Signal madd_7_cry_2_0_S1 undriven or does not drive anything - clipped.
+Signal madd_7_cry_2_0_S0 undriven or does not drive anything - clipped.
+Signal N_24 undriven or does not drive anything - clipped.
+Signal madd_7_cry_18_0_S1 undriven or does not drive anything - clipped.
+Signal madd_7_cry_18_0_COUT undriven or does not drive anything - clipped.
+Signal madd_8_cry_2_0_S1 undriven or does not drive anything - clipped.
+Signal madd_8_cry_2_0_S0 undriven or does not drive anything - clipped.
+Signal N_25 undriven or does not drive anything - clipped.
+Signal madd_8_s_19_0_S1 undriven or does not drive anything - clipped.
+Signal madd_8_s_19_0_COUT undriven or does not drive anything - clipped.
+Signal madd_1_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal madd_1_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal N_26 undriven or does not drive anything - clipped.
+Signal madd_1_cry_15_0_S1 undriven or does not drive anything - clipped.
+Signal madd_1_cry_15_0_COUT undriven or does not drive anything - clipped.
+Signal madd_2_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal madd_2_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal N_27 undriven or does not drive anything - clipped.
+Signal madd_2_cry_15_0_S1 undriven or does not drive anything - clipped.
+Signal madd_2_cry_15_0_COUT undriven or does not drive anything - clipped.
+Signal madd_0_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal madd_0_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_28 undriven or does not drive anything - clipped.
+Signal madd_0_cry_14_0_S1 undriven or does not drive anything - clipped.
+Signal madd_0_cry_14_0_COUT undriven or does not drive anything - clipped.
+Signal madd_6_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal madd_6_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_29 undriven or does not drive anything - clipped.
+Signal madd_6_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal madd_6_cry_16_0_S1 undriven or does not drive anything - clipped.
+Signal madd_6_cry_16_0_COUT undriven or does not drive anything - clipped.
+Signal madd_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal madd_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_30 undriven or does not drive anything - clipped.
+Signal madd_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal madd_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal madd_cry_3_0_S0 undriven or does not drive anything - clipped.
+Signal madd_s_19_0_S1 undriven or does not drive anything - clipped.
+
+                                   Page 10
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Removed logic (cont)
+--------------------
+Signal madd_s_19_0_COUT undriven or does not drive anything - clipped.
+Signal madd_9_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal madd_9_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_31 undriven or does not drive anything - clipped.
+Signal madd_9_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal madd_9_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal madd_9_cry_3_0_S0 undriven or does not drive anything - clipped.
+Signal madd_9_cry_19_0_COUT undriven or does not drive anything - clipped.
+Signal madd_4_cry_4_1_S1 undriven or does not drive anything - clipped.
+Signal madd_4_cry_4_1_S0 undriven or does not drive anything - clipped.
+Signal N_32 undriven or does not drive anything - clipped.
+Signal madd_4_s_19_0_S1 undriven or does not drive anything - clipped.
+Signal madd_4_s_19_0_COUT undriven or does not drive anything - clipped.
+Signal THE_PLL/PLLDATO0_0 undriven or does not drive anything - clipped.
+Signal THE_PLL/PLLDATO1_0 undriven or does not drive anything - clipped.
+Signal THE_PLL/PLLDATO2_0 undriven or does not drive anything - clipped.
+Signal THE_PLL/PLLDATO3_0 undriven or does not drive anything - clipped.
+Signal THE_PLL/PLLDATO4_0 undriven or does not drive anything - clipped.
+Signal THE_PLL/PLLDATO5_0 undriven or does not drive anything - clipped.
+Signal THE_PLL/PLLDATO6_0 undriven or does not drive anything - clipped.
+Signal THE_PLL/PLLDATO7_0 undriven or does not drive anything - clipped.
+Signal THE_PLL/PLLACK undriven or does not drive anything - clipped.
+Signal THE_PLL/DPHSRC undriven or does not drive anything - clipped.
+Signal THE_PLL/REFCLK undriven or does not drive anything - clipped.
+Signal THE_PLL/INTLOCK undriven or does not drive anything - clipped.
+Signal THE_PLL/pll_lock undriven or does not drive anything - clipped.
+Signal THE_PLL/CLKOS3 undriven or does not drive anything - clipped.
+Signal THE_PLL/CLKOS2 undriven or does not drive anything - clipped.
+Signal THE_FLASH_RAM/flashram_0_0_0_0_DOB8 undriven or does not drive anything -
+     clipped.
+Signal THE_FLASH_RAM/flashram_0_0_0_0_DOA8 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un73_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un73_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_4 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un73_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un66_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un66_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_5 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un66_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un59_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un59_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_6 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un59_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un52_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un52_cnt_cry_0_0_S0 undriven or does not drive anything -
+
+                                   Page 11
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal THE_PWM_GEN/N_7 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un52_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un45_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un45_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_8 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un45_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un38_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un38_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_9 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un38_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un31_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un31_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_10 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un31_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un24_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un24_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_11 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un24_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un4_set_tmp_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un4_set_tmp_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_12 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un4_set_tmp_s_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un4_set_tmp_s_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un129_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un129_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_13 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un129_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un122_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un122_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_14 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un122_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un115_cnt_cry_0_0_S1 undriven or does not drive anything -
+
+                                   Page 12
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal THE_PWM_GEN/un115_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_15 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un115_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un108_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un108_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_16 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un108_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un101_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un101_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_17 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un101_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un94_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un94_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_18 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un94_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un87_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un87_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_19 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un87_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un80_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/un80_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_PWM_GEN/N_20 undriven or does not drive anything - clipped.
+Signal THE_PWM_GEN/un80_cnt_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_ONEWIRE/un2_timecounter_1_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal THE_ONEWIRE/un2_timecounter_1_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal THE_ONEWIRE/N_1 undriven or does not drive anything - clipped.
+Signal THE_ONEWIRE/un2_timecounter_1_s_27_0_S1 undriven or does not drive
+     anything - clipped.
+Signal THE_ONEWIRE/un2_timecounter_1_s_27_0_COUT undriven or does not drive
+     anything - clipped.
+Signal signal_gen/counter_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal signal_gen/counter_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal signal_gen/N_1 undriven or does not drive anything - clipped.
+Signal signal_gen/counter_1_s_13_0_S1 undriven or does not drive anything -
+
+                                   Page 13
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal signal_gen/counter_1_s_13_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_FLASH/un1_count_5_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal THE_FLASH/un1_count_5_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal THE_FLASH/N_64 undriven or does not drive anything - clipped.
+Signal THE_FLASH/un1_count_5_cry_3_0_COUT undriven or does not drive anything -
+     clipped.
+Signal THE_FLASH/inst1/CFGSTDBY undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/CFGWAKE undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/wbc_ufm_irq undriven or does not drive anything -
+     clipped.
+Signal THE_FLASH/inst1/TCOC undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/TCINT undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIIRQO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPICSNEN undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMCSN0 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMCSN1 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMCSN2 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMCSN3 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMCSN4 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMCSN5 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMCSN6 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMCSN7 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMOSIEN undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMOSIO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMISOEN undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPIMISOO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPISCKEN undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/SPISCKO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/I2C2IRQO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/I2C1IRQO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/I2C2SDAOEN undriven or does not drive anything - clipped.
+     
+Signal THE_FLASH/inst1/I2C2SDAO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/I2C2SCLOEN undriven or does not drive anything - clipped.
+     
+Signal THE_FLASH/inst1/I2C2SCLO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/I2C1SDAOEN undriven or does not drive anything - clipped.
+     
+Signal THE_FLASH/inst1/I2C1SDAO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/I2C1SCLOEN undriven or does not drive anything - clipped.
+     
+Signal THE_FLASH/inst1/I2C1SCLO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLDATO0 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLDATO1 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLDATO2 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLDATO3 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLDATO4 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLDATO5 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLDATO6 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLDATO7 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLADRO0 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLADRO1 undriven or does not drive anything - clipped.
+
+                                   Page 14
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Removed logic (cont)
+--------------------
+Signal THE_FLASH/inst1/PLLADRO2 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLADRO3 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLADRO4 undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLWEO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLL1STBO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLL0STBO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLRSTO undriven or does not drive anything - clipped.
+Signal THE_FLASH/inst1/PLLCLKO undriven or does not drive anything - clipped.
+Signal THE_SPI_SLAVE/un1_bitcnt_33_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal THE_SPI_SLAVE/un1_bitcnt_33_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal THE_SPI_SLAVE/N_9 undriven or does not drive anything - clipped.
+Signal THE_SPI_SLAVE/un1_bitcnt_33_cry_3_0_COUT undriven or does not drive
+     anything - clipped.
+Signal PROC_TIMER.timer_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Signal clk_source_SEDSTDBY undriven or does not drive anything - clipped.
+Block THE_ONEWIRE/reset_i_RNIIIB was optimized away.
+Block THE_ONEWIRE/ram_wr_RNIFRJ3 was optimized away.
+Block THE_PLL/GND was optimized away.
+Block THE_FLASH_RAM/VCC was optimized away.
+Block THE_FLASH_RAM/GND was optimized away.
+Block THE_PWM_GEN/GND was optimized away.
+Block THE_ONEWIRE/GND was optimized away.
+Block signal_gen/GND was optimized away.
+Block THE_FLASH/GND was optimized away.
+Block THE_FLASH/inst1/VCC was optimized away.
+Block THE_FLASH/inst1/GND was optimized away.
+Block THE_SPI_SLAVE/GND was optimized away.
+
+Memory Usage
+------------
+
+/:
+    EBRs: 0
+    RAM SLICEs: 8
+    Logic SLICEs: 590
+    PFU Registers: 1055
+/THE_FLASH_RAM:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR flashram_0_0_0_0:  TYPE= DP8KC,  Width_A= 8,  Width_B= 8,
+         Depth_A= 16,  Depth_B= 16,  REGMODE_A= NOREG,  REGMODE_B= NOREG,
+         RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,
+         MEM_LPC_FILE= flashram.lpc
+/THE_PWM_GEN:
+    EBRs: 0
+    RAM SLICEs: 8
+    Logic SLICEs: 179
+    PFU Registers: 357
+/THE_PWM_GEN/PROC_MEM.set_1_ram:
+
+                                   Page 15
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+Memory Usage (cont)
+-------------------
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/THE_PWM_GEN/PROC_MEM.set_1_ram_0:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/THE_PWM_GEN/PROC_MEM.set_1_ram_1:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/THE_PWM_GEN/PROC_MEM.set_1_ram_2:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/THE_PWM_GEN/PROC_MEM.set_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/THE_PWM_GEN/PROC_MEM.set_ram_0:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/THE_PWM_GEN/PROC_MEM.set_ram_1:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/THE_PWM_GEN/PROC_MEM.set_ram_2:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+
+     
+
+PLL/DLL Summary
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                THE_PLL/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             NODE     clk_osc
+  Output Clock(P):                         NODE     clk_26
+  Output Clock(S):                         NODE     clk_i
+  Output Clock(S2):                                 NONE
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     THE_PLL/CLKFB_t
+  Reset Signal:                                     NONE
+  M Divider Reset Signal:                           NONE
+
+                                   Page 16
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+PLL/DLL Summary (cont)
+----------------------
+  C Divider Reset Signal:                           NONE
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                                  NONE
+  PLL Data bus CLK Signal:                          NONE
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      133.0000
+  Output Clock(P) Frequency (MHz):                  26.6000
+  Output Clock(S) Frequency (MHz):                  133.0000
+  Output Clock(S2) Frequency (MHz):                 NA
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       REFCLK
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              VCO_PHASE
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               REFCLK
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          INT_OP
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    1
+  CLKOP Divider:                                    5
+  CLKOS Divider:                                    1
+  CLKOS2 Divider:                                   1
+  CLKOS3 Divider:                                   1
+  Fractional N Divider:                             0
+  CLKOP Desired Phase Shift(degree):                0
+
+                                   Page 17
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+PLL/DLL Summary (cont)
+----------------------
+  CLKOP Trim Option Rising/Falling:                 FALLING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                0
+  CLKOS Trim Option Rising/Falling:                 FALLING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS3 Desired Phase Shift(degree):               0
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                clk_source
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     clk_osc
+  OSC Nominal Frequency (MHz):                      133.00
+
+Embedded Functional Block Connection Summary:
+---------------------------------------------
+
+   Desired WISHBONE clock frequency: 33.3 MHz
+   Clock source:                     clk_26
+   Reset source:                     PROC_IDMEM.onewire_reset
+   Functions mode:
+      I2C #1 (Primary) Function:     DISABLED
+      I2C #2 (Secondary) Function:   DISABLED
+      SPI Function:                  DISABLED
+      Timer/Counter Function:        DISABLED
+      Timer/Counter Mode:            WB
+      UFM Connection:                ENABLED
+      PLL0 Connection:               DISABLED
+      PLL1 Connection:               DISABLED
+   I2C Function Summary:
+   --------------------
+      None
+   SPI Function Summary:
+   --------------------
+      None
+   Timer/Counter Function Summary:
+   ------------------------------
+      None
+   UFM Function Summary:
+   --------------------
+      UFM Utilization:        General Purpose Flash Memory
+      Initialized UFM Pages:  0 Pages (0*128 Bits)
+      Available General
+      Purpose Flash Memory:   767 Pages (767*128 Bits)
+
+           EBR Blocks with Unique
+      Initialization Data:    0
+
+           WID		EBR Instance
+      ---		------------
+      0b0000000001	THE_FLASH_RAM/flashram_0_0_0_0
+
+
+                                   Page 18
+
+
+
+
+Design:  panda_dirc_wasa                               Date:  04/02/18  11:56:15
+
+
+ASIC Components
+---------------
+
+Instance Name: clk_source
+         Type: OSCH
+Instance Name: THE_FLASH/inst1/EFBInst_0
+         Type: EFB
+Instance Name: THE_FLASH_RAM/flashram_0_0_0_0
+         Type: DP8KC
+Instance Name: THE_PLL/PLLInst_0
+         Type: EHXPLLJ
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 3 secs  
+   Total REAL Time: 9 secs  
+   Peak Memory Usage: 69 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 19
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

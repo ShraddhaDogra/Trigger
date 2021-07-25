@@ -1,0 +1,79 @@
+
+# This file is used by the simulation model as well as the ispLEVER bitstream
+# generation process to automatically initialize the PCS quad to the mode
+# selected in the IPexpress. This file is expected to be modified by the
+# end user to adjust the PCS quad to the final design requirements.
+# channel_0 is in "8b10b" mode
+# channel_1 is in "Disabled" mode
+# channel_2 is in "Disabled" mode
+# channel_3 is in "Disabled" mode
+
+ch0  13 03  # Powerup Channel 0 TX/RX
+ch0  00 01  # link state machine enabled
+quad 00 00  # some standard settings?
+quad 01 E4  # RX clock select
+quad 28 40  # Reference clock multiplier
+quad 29 11  # JM101203 core clock as reference # set to 01
+quad 30 04  # JM101203 TX sync enable   #sync TX clock from all channels
+quad 02 00  # ref_pclk source is ch0, rxa_pclk is ch0, rxb_pclk is ch0
+quad 04 00  # MCA enable 4 channels
+
+quad 18 10  # 8b10b Mode
+
+#Here default values are used by SM
+# quad 14 FF  # Word Alignment Mask [7:0]
+# quad 15 83  # +ve K [7:0] -> COMMA_A = 11_0000_0101 - its inverted (see register convention in datasheet)!
+# quad 16 7c  # -ve K [7:0] -> COMMA_B = 00_1111_1010 - its inverted !
+# quad 17 36  # upper bits of CA,CB,CM
+
+
+# quad 0D 97  # Watermark level on CTC: 9 high, 7 low
+# quad 0E 08  # JM101203 was 0B # insertion/deletion control of CTC: two char matching
+# quad 11 BC  # /I2/ pattern for CTC match (K28.5)
+# quad 12 50  # (D16.2)
+# quad 13 04  # (use comma)
+
+quad 19 0C  # Disable word_align_en port, FPGA bus width is 16-bit/20-bit
+ch0  14 90  # 16% pre-emphasis
+ch0  15 18  # JM101203 was 10 # +6dB equalization
+
+# These lines must appear last in the autoconfig file.  These lines apply the correct
+# reset sequence to the PCS block upon bitstream configuration
+quad 41 00  # de-assert serdes_rst
+quad 40 ff  # assert datapath reset for all channels
+quad 40 00  # de-assert datapath reset for all channels
+
+# # This file is used by the simulation model as well as the ispLEVER bitstream
+# # generation process to automatically initialize the PCS quad to the mode
+# # selected in the IPexpress. This file is expected to be modified by the
+# # end user to adjust the PCS quad to the final design requirements.
+# # channel_0 is in "8b10b" mode
+# # channel_1 is in "Disabled" mode
+# # channel_2 is in "Disabled" mode
+# # channel_3 is in "Disabled" mode
+#
+# ch0 13 03  # Powerup Channel
+# ch0 00 00
+# quad 00 00
+# quad 01 E4
+# quad 28 40  # Reference clock multiplier
+# quad 29 01  # set to 01
+# quad 02 00  # ref_pclk source is ch0
+# quad 04 00  # MCA enable 4 channels
+#
+# quad 18 10  # 8b10b Mode
+# # quad 14 7F  # Word Alignment Mask
+# # quad 15 03  # +ve K
+# # quad 16 7C  # -ve K
+# quad 19 8C  # Enable word_align_en port, FPGA bus width is 16-bit/20-bit
+# ch0 14 90  # 16% pre-emphasis
+# ch0 15 10  # +6dB equalization
+#
+# # These lines must appear last in the autoconfig file.  These lines apply the correct
+# # reset sequence to the PCS block upon bitstream configuration
+# quad 41 00  # de-assert serdes_rst
+# quad 40 ff  # assert datapath reset for all channels
+# quad 40 00  # de-assert datapath reset for all channels
+#
+#
+#

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  trb3_periph_blank  -multisrs  E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\project\trb3_periph_blank\synwork\blank_trb3_periph_blank_comp.srs  -osyn  E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\project\trb3_periph_blank\synwork\blank_trb3_periph_blank_mult.srs  -log  E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\project\trb3_periph_blank\synlog\blank_trb3_periph_blank_multi_srs_gen.srr 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top trb3_periph_blank -multisrs ..\synwork\blank_trb3_periph_blank_comp.srs -osyn ..\synwork\blank_trb3_periph_blank_mult.srs -log ..\synlog\blank_trb3_periph_blank_multi_srs_gen.srr
+rc:0 success:1 runtime:2
+file:..\synwork\blank_trb3_periph_blank_comp.srs|io:i|time:1544007405|size:537737|exec:0|csum:35FAF69D284C96E82C6EF4DF4B9D10DC
+file:..\synwork\blank_trb3_periph_blank_mult.srs|io:o|time:1544007410|size:32157|exec:0|csum:
+file:..\synlog\blank_trb3_periph_blank_multi_srs_gen.srr|io:o|time:1544007410|size:549|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501906590|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

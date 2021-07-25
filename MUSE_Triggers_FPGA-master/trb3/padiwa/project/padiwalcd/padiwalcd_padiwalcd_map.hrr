@@ -1,0 +1,90 @@
+---------------------------------------------------
+Report for cell panda_dirc_wasa
+   Instance path: panda_dirc_wasa
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1079.00        100.0
+                                 IOLGC	      36.00        100.0
+                                  LUT4	    1055.00        100.0
+                               DISTRAM	      24.00        100.0
+                                 IOREG	         37        100.0
+                                 IOBUF	         78        100.0
+                                PFUREG	       1620        100.0
+                                RIPPLE	        515        100.0
+                                   EBR	          1        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                trb_net_onewire_1_0_33	          1         6.1
+                        signal_gen_x16	          1         1.4
+                             spi_slave	          1        20.0
+                         pwm_generator	          1        23.7
+                                   pll	          1         0.0
+                              flashram	          1         0.0
+                                UFM_WB	          1        11.3
+---------------------------------------------------
+Report for cell spi_slave
+   Instance path: panda_dirc_wasa/THE_SPI_SLAVE
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     216.15        20.0
+                                  LUT4	     520.00        49.3
+                                PFUREG	         98         6.0
+                                RIPPLE	          3         0.6
+---------------------------------------------------
+Report for cell UFM_WB
+   Instance path: panda_dirc_wasa/THE_FLASH
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     122.10        11.3
+                                  LUT4	     313.00        29.7
+                                PFUREG	         46         2.8
+                                RIPPLE	          3         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 flash	          1         0.0
+---------------------------------------------------
+Report for cell flash
+   Instance path: panda_dirc_wasa/THE_FLASH/inst1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.33         0.0
+                                  LUT4	       1.00         0.1
+---------------------------------------------------
+Report for cell signal_gen_x16
+   Instance path: panda_dirc_wasa/signal_gen
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.42         1.4
+                                  LUT4	      24.00         2.3
+                                PFUREG	         17         1.0
+                                RIPPLE	          8         1.6
+---------------------------------------------------
+Report for cell trb_net_onewire_1_0_33
+   Instance path: panda_dirc_wasa/THE_ONEWIRE
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      65.75         6.1
+                                  LUT4	     130.00        12.3
+                                PFUREG	         90         5.6
+                                RIPPLE	         15         2.9
+---------------------------------------------------
+Report for cell pwm_generator
+   Instance path: panda_dirc_wasa/THE_PWM_GEN
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     255.87        23.7
+                                  LUT4	      53.00         5.0
+                               DISTRAM	      24.00        100.0
+                                PFUREG	        564        34.8
+                                RIPPLE	        153        29.7
+---------------------------------------------------
+Report for cell flashram
+   Instance path: panda_dirc_wasa/THE_FLASH_RAM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        100.0
+---------------------------------------------------
+Report for cell pll
+   Instance path: panda_dirc_wasa/THE_PLL
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

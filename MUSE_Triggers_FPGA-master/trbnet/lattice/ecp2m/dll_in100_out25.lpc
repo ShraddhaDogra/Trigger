@@ -1,0 +1,39 @@
+[Device]
+Family=latticeecp2m
+PartType=LFE2M100E
+PartName=LFE2M100E-5F900I
+SpeedGrade=-5
+Package=FPBGA900
+OperatingCondition=IND
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=DLL
+CoreRevision=3.5
+ModuleName=dll_in100_out25
+SourceFormat=Schematic/VHDL
+ParameterFileVersion=1.0
+Date=08/19/2010
+Time=13:33:44
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+dlltype=Clock Injection Delay Removal
+fin=100
+clkos_div=4
+clkos_ph=0
+Mode=CLKOP
+Freq=CLKI
+Smiports=0
+RSTNport=0
+reset_en=0
+DCNTL=0

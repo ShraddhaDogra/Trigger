@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+SignalDelay_tb=SignalDelay_tb.adf
+[Settings]
+Active=SignalDelay_tb
+[Expand]
+signaldelay_tb=1
+[Browser]
+sort=order
+mode=desc
+[Order]
+order=1
+macro=

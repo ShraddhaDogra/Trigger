@@ -1,0 +1,8 @@
+#Start recording tcl command: 3/1/2018 18:17:42
+#Project Location: C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/project; Project name: padiwalcd
+prj_project open "C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/project/padiwa.ldf"
+pgr_project open "C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/project/padiwalcd/padiwalcd.xcf"
+pgr_project close
+pgr_program run
+pgr_project close
+#Stop recording: 3/1/2018 18:19:25

@@ -1,0 +1,7 @@
+vhdl work "../trb_net_std.vhd"
+vhdl work "../trb_net_fifo.vhd"
+vhdl work "../xilinx/trb_net_fifo_arch.vhd"
+vhdl work "../xilinx/shift_lut_x16.vhd"
+vhdl work "../trb_net_active_api.vhd"
+vhdl work "trb_net_dummy_apl.vhd"
+vhdl work "trb_net_dummy_apl_api_chain_testbench.vhd"

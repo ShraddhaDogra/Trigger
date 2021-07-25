@@ -1,0 +1,5 @@
+MODULE serdes_gbe_0 DEFIN serdes_gbe_0.vhd
+	SUBMODULE PCSC
+		INSTANCE PCSC_INST
+	SUBMODULE VLO
+		INSTANCE vlo_inst

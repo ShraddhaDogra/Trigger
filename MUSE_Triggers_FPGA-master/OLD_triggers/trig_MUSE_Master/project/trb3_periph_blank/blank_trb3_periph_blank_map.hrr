@@ -1,0 +1,2079 @@
+---------------------------------------------------
+Report for cell trb3_periph_blank
+   Instance path: trb3_periph_blank
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    8454.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	    8600.00        100.0
+                               DISTRAM	     357.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	         99        100.0
+                                PFUREG	       8651        100.0
+                                RIPPLE	       1875        100.0
+                                   EBR	         25        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    trigger_master_top	          1         9.5
+trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.3
+trb_net16_regio_bus_handler_record_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.5
+trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         3.2
+trb_net16_endpoint_hades_full_handler_record_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1        42.3
+                            trb3_tools	          1        41.3
+                      pll_in200_out100	          1         0.0
+---------------------------------------------------
+Report for cell trb_net16_endpoint_hades_full_handler_record_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    3577.92        42.3
+                                  LUT4	    3655.00        42.5
+                               DISTRAM	      12.00         3.4
+                                PFUREG	       3725        43.1
+                                RIPPLE	        970        51.7
+                                   EBR	         19        76.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net16_regio_bus_handler_record_work_trb3_periph_blank_trb3_periph_blank_arch_2layer0	          1         1.1
+trb_net16_endpoint_hades_full_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1        34.2
+handler_trigger_and_data_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         5.9
+                bus_register_handler_3	          1         0.2
+                bus_register_handler_5	          1         0.3
+---------------------------------------------------
+Report for cell handler_trigger_and_data_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_TRIGGER_DATA
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     498.75         5.9
+                                  LUT4	     301.00         3.5
+                                PFUREG	        574         6.6
+                                RIPPLE	        265        14.1
+                                   EBR	          6        24.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         handler_ipu_1	          1         1.0
+     handler_data_1_11_32_1024_1_9_496	          1         2.9
+---------------------------------------------------
+Report for cell handler_ipu_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_TRIGGER_DATA/THE_IPU_HANDLER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      83.08         1.0
+                                  LUT4	     109.50         1.3
+                                PFUREG	         87         1.0
+                                RIPPLE	         14         0.7
+---------------------------------------------------
+Report for cell handler_data_1_11_32_1024_1_9_496
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_TRIGGER_DATA/THE_DATA_HANDLER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     247.83         2.9
+                                  LUT4	      45.50         0.5
+                                PFUREG	        290         3.4
+                                RIPPLE	        160         8.5
+                                   EBR	          6        24.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   fifo_var_oreg_36_11	          1         0.8
+                    fifo_var_oreg_36_9	          1         0.7
+                    fifo_var_oreg_18_9	          1         0.7
+---------------------------------------------------
+Report for cell fifo_var_oreg_18_9
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_TRIGGER_DATA/THE_DATA_HANDLER/gen_length_fifo.0.THE_LENGTH_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      58.33         0.7
+                                  LUT4	       7.00         0.1
+                                PFUREG	         62         0.7
+                                RIPPLE	         45         2.4
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      fifo_18x512_oreg	          1         0.7
+---------------------------------------------------
+Report for cell fifo_18x512_oreg
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_TRIGGER_DATA/THE_DATA_HANDLER/gen_length_fifo.0.THE_LENGTH_FIFO/gen_18_512.THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      58.33         0.7
+                                  LUT4	       7.00         0.1
+                                PFUREG	         62         0.7
+                                RIPPLE	         45         2.4
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell fifo_var_oreg_36_9
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_TRIGGER_DATA/THE_DATA_HANDLER/THE_HDR_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      60.00         0.7
+                                  LUT4	       8.00         0.1
+                                PFUREG	         62         0.7
+                                RIPPLE	         45         2.4
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      fifo_36x512_oreg	          1         0.7
+---------------------------------------------------
+Report for cell fifo_36x512_oreg
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_TRIGGER_DATA/THE_DATA_HANDLER/THE_HDR_FIFO/gen_36_512.THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      60.00         0.7
+                                  LUT4	       8.00         0.1
+                                PFUREG	         62         0.7
+                                RIPPLE	         45         2.4
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell fifo_var_oreg_36_11
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_TRIGGER_DATA/THE_DATA_HANDLER/gen_fifos.0.THE_DAT_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      67.42         0.8
+                                  LUT4	       6.50         0.1
+                                PFUREG	         74         0.9
+                                RIPPLE	         52         2.8
+                                   EBR	          4        16.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       fifo_36x2k_oreg	          1         0.8
+---------------------------------------------------
+Report for cell fifo_36x2k_oreg
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_TRIGGER_DATA/THE_DATA_HANDLER/gen_fifos.0.THE_DAT_FIFO/gen_36_2k.THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      67.42         0.8
+                                  LUT4	       6.50         0.1
+                                PFUREG	         74         0.9
+                                RIPPLE	         52         2.8
+                                   EBR	          4        16.0
+---------------------------------------------------
+Report for cell bus_register_handler_3
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_STATUS_REGS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.00         0.2
+                                  LUT4	      32.00         0.4
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell bus_register_handler_5
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_HANDLER_INFO_REGS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.67         0.3
+                                  LUT4	      53.00         0.6
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell trb_net16_endpoint_hades_full_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2891.17        34.2
+                                  LUT4	    3036.00        35.3
+                               DISTRAM	      12.00         3.4
+                                PFUREG	       2931        33.9
+                                RIPPLE	        705        37.6
+                                   EBR	         13        52.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net_onewire_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         1.0
+                    trb_net16_term_buf	          1         0.3
+                 trb_net16_trigger_1_1	          1         0.6
+trb_net16_regIO_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         7.1
+trb_net16_iobuf_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0	          1         2.9
+trb_net16_ipudata_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         1.9
+trb_net16_iobuf_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0_0	          1         2.9
+trb_net16_iobuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         2.2
+trb_net16_io_multiplexer_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         6.5
+trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1	          1         3.4
+trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0	          1         3.0
+                        handler_lvl1_1	          1         2.2
+---------------------------------------------------
+Report for cell handler_lvl1_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/THE_LVL1_HANDLER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     186.17         2.2
+                                  LUT4	     114.00         1.3
+                                PFUREG	        252         2.9
+                                RIPPLE	         83         4.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     signal_sync_1_2_1	          1         0.0
+                         pulse_stretch	          1         0.0
+---------------------------------------------------
+Report for cell signal_sync_1_2_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/THE_LVL1_HANDLER/GEN_SYNC.THE_TIMING_TRG_SYNC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell pulse_stretch
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/THE_LVL1_HANDLER/THE_PULSE_STRETCH
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.00         0.0
+                                  LUT4	       6.00         0.1
+                                PFUREG	          5         0.1
+---------------------------------------------------
+Report for cell trb_net16_io_multiplexer_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     552.00         6.5
+                                  LUT4	     509.00         5.9
+                                PFUREG	        490         5.7
+                                RIPPLE	        180         9.6
+                                   EBR	          6        24.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    trb_net16_sbuf_5_0	          1         0.8
+            trb_net_priority_arbiter_8	          1         0.3
+                    trb_net16_sbuf_5_1	          1         0.8
+                    trb_net16_sbuf_5_2	          1         1.2
+                  trb_net16_sbuf_5_0_0	          1         1.0
+                  trb_net16_sbuf_5_0_1	          1         0.7
+                  trb_net16_sbuf_0_4_2	          1         0.2
+                      trb_net16_sbuf_5	          1         0.9
+---------------------------------------------------
+Report for cell trb_net16_sbuf_0_4_2
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/MUX_SBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.75         0.2
+                                  LUT4	      28.00         0.3
+                                PFUREG	         40         0.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_2	          1         0.2
+---------------------------------------------------
+Report for cell trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_2
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/MUX_SBUF/gen_version_0.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.75         0.2
+                                  LUT4	      28.00         0.3
+                                PFUREG	         40         0.5
+---------------------------------------------------
+Report for cell trb_net_priority_arbiter_8
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/ARBITER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.75         0.3
+                                  LUT4	      42.00         0.5
+                                PFUREG	          8         0.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+            trb_net_priority_encoder_8	          1         0.2
+---------------------------------------------------
+Report for cell trb_net_priority_encoder_8
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/ARBITER/ENC1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.75         0.2
+                                  LUT4	      27.00         0.3
+---------------------------------------------------
+Report for cell trb_net16_sbuf_5_0_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.0.gen_input_sbuf.THE_SBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      63.25         0.7
+                                  LUT4	      51.50         0.6
+                                PFUREG	         60         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     trb_net_sbuf5_0_1	          1         0.7
+---------------------------------------------------
+Report for cell trb_net_sbuf5_0_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.0.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      63.25         0.7
+                                  LUT4	      51.50         0.6
+                                PFUREG	         60         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   fifo_19x16_obuf_1_1	          1         0.5
+---------------------------------------------------
+Report for cell fifo_19x16_obuf_1_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.0.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf/THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.67         0.5
+                                  LUT4	       7.00         0.1
+                                PFUREG	         32         0.4
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_sbuf_5_0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.6.gen_input_sbuf.THE_SBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      80.75         1.0
+                                  LUT4	      74.50         0.9
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     trb_net_sbuf5_0_0	          1         1.0
+---------------------------------------------------
+Report for cell trb_net_sbuf5_0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.6.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      80.75         1.0
+                                  LUT4	      74.50         0.9
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   fifo_19x16_obuf_1_0	          1         0.5
+---------------------------------------------------
+Report for cell fifo_19x16_obuf_1_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.6.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf/THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.67         0.5
+                                  LUT4	       7.00         0.1
+                                PFUREG	         32         0.4
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_sbuf_5_2
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.1.gen_input_sbuf.THE_SBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      98.33         1.2
+                                  LUT4	      99.00         1.2
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       trb_net_sbuf5_2	          1         1.2
+---------------------------------------------------
+Report for cell trb_net_sbuf5_2
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.1.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      98.33         1.2
+                                  LUT4	      99.00         1.2
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     fifo_19x16_obuf_2	          1         0.5
+---------------------------------------------------
+Report for cell fifo_19x16_obuf_2
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.1.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf/THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.67         0.5
+                                  LUT4	       8.00         0.1
+                                PFUREG	         32         0.4
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_sbuf_5_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.3.gen_input_sbuf.THE_SBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      65.00         0.8
+                                  LUT4	      53.50         0.6
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       trb_net_sbuf5_1	          1         0.8
+---------------------------------------------------
+Report for cell trb_net_sbuf5_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.3.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      65.00         0.8
+                                  LUT4	      53.50         0.6
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     fifo_19x16_obuf_0	          1         0.5
+---------------------------------------------------
+Report for cell fifo_19x16_obuf_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.3.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf/THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.67         0.5
+                                  LUT4	       8.00         0.1
+                                PFUREG	         32         0.4
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_sbuf_5
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.7.gen_input_sbuf.THE_SBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      72.33         0.9
+                                  LUT4	      62.00         0.7
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         trb_net_sbuf5	          1         0.9
+---------------------------------------------------
+Report for cell trb_net_sbuf5
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.7.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      72.33         0.9
+                                  LUT4	      62.00         0.7
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       fifo_19x16_obuf	          1         0.5
+---------------------------------------------------
+Report for cell fifo_19x16_obuf
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.7.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf/THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.67         0.5
+                                  LUT4	       8.00         0.1
+                                PFUREG	         32         0.4
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_sbuf_5_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.2.gen_input_sbuf.THE_SBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      64.00         0.8
+                                  LUT4	      52.50         0.6
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       trb_net_sbuf5_0	          1         0.8
+---------------------------------------------------
+Report for cell trb_net_sbuf5_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.2.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      64.00         0.8
+                                  LUT4	      52.50         0.6
+                                PFUREG	         61         0.7
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     fifo_19x16_obuf_1	          1         0.5
+---------------------------------------------------
+Report for cell fifo_19x16_obuf_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/MPLEX/gen_sbuf.2.gen_input_sbuf.THE_SBUF/gen_version_5.sbuf/THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.67         0.5
+                                  LUT4	       7.00         0.1
+                                PFUREG	         32         0.4
+                                RIPPLE	         30         1.6
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_term_buf
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.2.gentermbuf.termbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.00         0.3
+                                  LUT4	      33.00         0.4
+                                PFUREG	         33         0.4
+---------------------------------------------------
+Report for cell trb_net_onewire_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_regio.gen_1wire.onewire_interface
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      80.92         1.0
+                                  LUT4	      87.00         1.0
+                                PFUREG	         92         1.1
+                                RIPPLE	         19         1.0
+---------------------------------------------------
+Report for cell trb_net16_regIO_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_regio.regIO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     597.67         7.1
+                                  LUT4	     750.00         8.7
+                               DISTRAM	      12.00         3.4
+                                PFUREG	        482         5.6
+                                RIPPLE	         71         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net16_addresses_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         4.2
+rom_16x8_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.1
+---------------------------------------------------
+Report for cell rom_16x8_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_regio.regIO/board_rom
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.42         0.1
+                                  LUT4	       9.00         0.1
+                                PFUREG	         10         0.1
+---------------------------------------------------
+Report for cell trb_net16_addresses_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_regio.regIO/the_addresses
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     351.25         4.2
+                                  LUT4	     634.00         7.4
+                               DISTRAM	      12.00         3.4
+                                PFUREG	         55         0.6
+                                RIPPLE	         14         0.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+ram_16x16_dp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.3
+---------------------------------------------------
+Report for cell ram_16x16_dp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_regio.regIO/the_addresses/THE_STAT_RAM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.00         0.3
+                                  LUT4	      16.00         0.2
+                               DISTRAM	      12.00         3.4
+                                PFUREG	         16         0.2
+---------------------------------------------------
+Report for cell trb_net16_ipudata_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_ipu_apl.the_ipudata_apl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     158.42         1.9
+                                  LUT4	     158.00         1.8
+                                PFUREG	        135         1.6
+                                RIPPLE	         25         1.3
+---------------------------------------------------
+Report for cell trb_net16_trigger_1_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.0.geniobuf.gentrgapi.the_trigger_apl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      53.33         0.6
+                                  LUT4	     100.00         1.2
+                                PFUREG	         79         0.9
+---------------------------------------------------
+Report for cell trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     250.00         3.0
+                                  LUT4	     259.00         3.0
+                                PFUREG	        289         3.3
+                                RIPPLE	         80         4.3
+                                   EBR	          2         8.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    trb_net_sbuf_3_0_0	          1         0.1
+                  trb_net16_sbuf_0_2_0	          1         0.3
+                  trb_net16_sbuf_0_0_0	          1         0.2
+trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0	          1         0.5
+trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0_1	          1         0.4
+---------------------------------------------------
+Report for cell trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API/GEN_FIFO_TO_INT.FIFO_TO_INT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.77         0.4
+                                  LUT4	       5.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+         lattice_ecp3_fifo_18x1k_2_1_1	          1         0.4
+---------------------------------------------------
+Report for cell lattice_ecp3_fifo_18x1k_2_1_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API/GEN_FIFO_TO_INT.FIFO_TO_INT/fifo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.77         0.4
+                                  LUT4	       5.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API/FIFO_TO_APL
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.90         0.5
+                                  LUT4	       5.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+             lattice_ecp3_fifo_18x1k_3	          1         0.5
+---------------------------------------------------
+Report for cell lattice_ecp3_fifo_18x1k_3
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API/FIFO_TO_APL/fifo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.90         0.5
+                                  LUT4	       5.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net_sbuf_3_0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API/SBUF_TO_APL2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.17         0.1
+                                  LUT4	       7.00         0.1
+                                PFUREG	          8         0.1
+---------------------------------------------------
+Report for cell trb_net16_sbuf_0_2_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API/SBUF_TO_APL
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.33         0.3
+                                  LUT4	      29.00         0.3
+                                PFUREG	         42         0.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_1_0	          1         0.3
+---------------------------------------------------
+Report for cell trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_1_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API/SBUF_TO_APL/gen_version_0.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.33         0.3
+                                  LUT4	      29.00         0.3
+                                PFUREG	         42         0.5
+---------------------------------------------------
+Report for cell trb_net16_sbuf_0_0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API/SBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.67         0.2
+                                  LUT4	      24.00         0.3
+                                PFUREG	         38         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0_0	          1         0.2
+---------------------------------------------------
+Report for cell trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.gen_api.DAT_PASSIVE_API/SBUF/gen_version_0.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.67         0.2
+                                  LUT4	      24.00         0.3
+                                PFUREG	         38         0.4
+---------------------------------------------------
+Report for cell trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     288.00         3.4
+                                  LUT4	     263.00         3.1
+                                PFUREG	        349         4.0
+                                RIPPLE	         80         4.3
+                                   EBR	          2         8.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      trb_net_sbuf_3_0	          1         0.1
+                    trb_net16_sbuf_0_2	          1         0.4
+                    trb_net16_sbuf_0_0	          1         0.3
+trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0_0	          1         0.5
+trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.5
+---------------------------------------------------
+Report for cell trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API/GEN_FIFO_TO_INT.FIFO_TO_INT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.75         0.5
+                                  LUT4	       5.50         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+         lattice_ecp3_fifo_18x1k_2_1_0	          1         0.5
+---------------------------------------------------
+Report for cell lattice_ecp3_fifo_18x1k_2_1_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API/GEN_FIFO_TO_INT.FIFO_TO_INT/fifo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.75         0.5
+                                  LUT4	       5.50         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API/FIFO_TO_APL
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.08         0.5
+                                  LUT4	       5.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+             lattice_ecp3_fifo_18x1k_2	          1         0.5
+---------------------------------------------------
+Report for cell lattice_ecp3_fifo_18x1k_2
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API/FIFO_TO_APL/fifo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.08         0.5
+                                  LUT4	       5.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net_sbuf_3_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API/SBUF_TO_APL2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.83         0.1
+                                  LUT4	       7.00         0.1
+                                PFUREG	         12         0.1
+---------------------------------------------------
+Report for cell trb_net16_sbuf_0_2
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API/SBUF_TO_APL
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.08         0.4
+                                  LUT4	      28.50         0.3
+                                PFUREG	         62         0.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_1	          1         0.4
+---------------------------------------------------
+Report for cell trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API/SBUF_TO_APL/gen_version_0.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.08         0.4
+                                  LUT4	      28.50         0.3
+                                PFUREG	         62         0.7
+---------------------------------------------------
+Report for cell trb_net16_sbuf_0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API/SBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.50         0.3
+                                  LUT4	      25.50         0.3
+                                PFUREG	         56         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0	          1         0.3
+---------------------------------------------------
+Report for cell trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.gen_api.DAT_PASSIVE_API/SBUF/gen_version_0.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.50         0.3
+                                  LUT4	      25.50         0.3
+                                PFUREG	         56         0.6
+---------------------------------------------------
+Report for cell trb_net16_iobuf_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     248.33         2.9
+                                  LUT4	     286.00         3.3
+                                PFUREG	        251         2.9
+                                RIPPLE	         57         3.0
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+               trb_net16_obuf_nodata_1	          1         0.1
+                trb_net16_obuf_1_1_7_3	          1         1.2
+          trb_net16_ibuf_6_1_1_0_1_0_0	          1         1.6
+---------------------------------------------------
+Report for cell trb_net16_obuf_1_1_7_3
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF/genREPLYOBUF1.REPLYOBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     105.50         1.2
+                                  LUT4	     157.00         1.8
+                                PFUREG	         75         0.9
+                                RIPPLE	         13         0.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       trb_net_CRC_0_0	          1         0.2
+---------------------------------------------------
+Report for cell trb_net_CRC_0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF/genREPLYOBUF1.REPLYOBUF/GEN_CRC.CRC_gen
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.08         0.2
+                                  LUT4	      39.00         0.5
+                                PFUREG	         16         0.2
+---------------------------------------------------
+Report for cell trb_net16_obuf_nodata_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF/genINITOBUF2.gen_INITOBUF3.INITOBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.50         0.1
+                                  LUT4	      13.00         0.2
+                                PFUREG	          9         0.1
+---------------------------------------------------
+Report for cell trb_net16_ibuf_6_1_1_0_1_0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF/GEN_IBUF.THE_IBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     134.33         1.6
+                                  LUT4	     116.00         1.3
+                                PFUREG	        167         1.9
+                                RIPPLE	         44         2.3
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       trb_net_CRC_2_0	          1         0.2
+                    trb_net16_sbuf_0_3	          1         0.3
+trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_2layer0_1	          1         0.5
+---------------------------------------------------
+Report for cell trb_net16_sbuf_0_3
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/gen_init_sbuf.SBUF_INIT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00         0.3
+                                  LUT4	      30.00         0.3
+                                PFUREG	         42         0.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_2_0	          1         0.3
+---------------------------------------------------
+Report for cell trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_2_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/gen_init_sbuf.SBUF_INIT/gen_version_0.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00         0.3
+                                  LUT4	      30.00         0.3
+                                PFUREG	         42         0.5
+---------------------------------------------------
+Report for cell trb_net_CRC_2_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/gen_crc.THE_CRC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.17         0.2
+                                  LUT4	      40.00         0.5
+                                PFUREG	         16         0.2
+---------------------------------------------------
+Report for cell trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_2layer0_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.50         0.5
+                                  LUT4	       8.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+             lattice_ecp3_fifo_18x1k_1	          1         0.5
+---------------------------------------------------
+Report for cell lattice_ecp3_fifo_18x1k_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.3.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/THE_FIFO/fifo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.50         0.5
+                                  LUT4	       8.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_iobuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.0.geniobuf.IOBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     186.00         2.2
+                                  LUT4	     155.00         1.8
+                                PFUREG	        212         2.5
+                                RIPPLE	         57         3.0
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+               trb_net16_obuf_nodata_0	          1         0.1
+                trb_net16_obuf_1_0_7_6	          1         0.8
+          trb_net16_ibuf_6_1_1_0_0_1_0	          1         1.3
+---------------------------------------------------
+Report for cell trb_net16_obuf_1_0_7_6
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.0.geniobuf.IOBUF/genREPLYOBUF1.REPLYOBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      66.17         0.8
+                                  LUT4	      83.00         1.0
+                                PFUREG	         53         0.6
+                                RIPPLE	         13         0.7
+---------------------------------------------------
+Report for cell trb_net16_obuf_nodata_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.0.geniobuf.IOBUF/genINITOBUF2.gen_INITOBUF3.INITOBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.50         0.1
+                                  LUT4	      13.00         0.2
+                                PFUREG	          9         0.1
+---------------------------------------------------
+Report for cell trb_net16_ibuf_6_1_1_0_0_1_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.0.geniobuf.IOBUF/GEN_IBUF.THE_IBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     111.33         1.3
+                                  LUT4	      59.00         0.7
+                                PFUREG	        150         1.7
+                                RIPPLE	         44         2.3
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    trb_net16_sbuf_0_1	          1         0.3
+trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_2layer0_0	          1         0.5
+---------------------------------------------------
+Report for cell trb_net16_sbuf_0_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.0.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/gen_init_sbuf.SBUF_INIT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.25         0.3
+                                  LUT4	      27.50         0.3
+                                PFUREG	         42         0.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1	          1         0.3
+---------------------------------------------------
+Report for cell trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.0.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/gen_init_sbuf.SBUF_INIT/gen_version_0.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.25         0.3
+                                  LUT4	      27.50         0.3
+                                PFUREG	         42         0.5
+---------------------------------------------------
+Report for cell trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_2layer0_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.0.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.25         0.5
+                                  LUT4	       7.50         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+             lattice_ecp3_fifo_18x1k_0	          1         0.5
+---------------------------------------------------
+Report for cell lattice_ecp3_fifo_18x1k_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.0.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/THE_FIFO/fifo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.25         0.5
+                                  LUT4	       7.50         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_iobuf_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     245.00         2.9
+                                  LUT4	     292.00         3.4
+                                PFUREG	        254         2.9
+                                RIPPLE	         53         2.8
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                 trb_net16_obuf_nodata	          1         0.1
+                trb_net16_obuf_1_1_7_1	          1         1.2
+          trb_net16_ibuf_6_1_1_1_0_1_0	          1         1.6
+---------------------------------------------------
+Report for cell trb_net16_obuf_1_1_7_1
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF/genREPLYOBUF1.REPLYOBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     101.50         1.2
+                                  LUT4	     163.00         1.9
+                                PFUREG	         77         0.9
+                                RIPPLE	          9         0.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         trb_net_CRC_0	          1         0.2
+---------------------------------------------------
+Report for cell trb_net_CRC_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF/genREPLYOBUF1.REPLYOBUF/GEN_CRC.CRC_gen
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.33         0.2
+                                  LUT4	      39.00         0.5
+                                PFUREG	         16         0.2
+---------------------------------------------------
+Report for cell trb_net16_obuf_nodata
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF/genINITOBUF2.gen_INITOBUF3.INITOBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00         0.1
+                                  LUT4	      13.00         0.2
+                                PFUREG	          9         0.1
+---------------------------------------------------
+Report for cell trb_net16_ibuf_6_1_1_1_0_1_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF/GEN_IBUF.THE_IBUF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     135.50         1.6
+                                  LUT4	     116.00         1.3
+                                PFUREG	        168         1.9
+                                RIPPLE	         44         2.3
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         trb_net_CRC_2	          1         0.2
+                      trb_net16_sbuf_0	          1         0.3
+trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_2layer0	          1         0.5
+---------------------------------------------------
+Report for cell trb_net16_sbuf_0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/gen_init_sbuf.SBUF_INIT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00         0.3
+                                  LUT4	      30.00         0.3
+                                PFUREG	         42         0.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_2	          1         0.3
+---------------------------------------------------
+Report for cell trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_2
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/gen_init_sbuf.SBUF_INIT/gen_version_0.sbuf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00         0.3
+                                  LUT4	      30.00         0.3
+                                PFUREG	         42         0.5
+---------------------------------------------------
+Report for cell trb_net_CRC_2
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/gen_crc.THE_CRC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.17         0.2
+                                  LUT4	      40.00         0.5
+                                PFUREG	         16         0.2
+---------------------------------------------------
+Report for cell trb_net16_fifo_work_trb3_periph_blank_trb3_periph_blank_arch_2layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.50         0.5
+                                  LUT4	       8.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+               lattice_ecp3_fifo_18x1k	          1         0.5
+---------------------------------------------------
+Report for cell lattice_ecp3_fifo_18x1k
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_ENDPOINT/genbuffers.1.geniobuf.IOBUF/GEN_IBUF.THE_IBUF/THE_FIFO/fifo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.50         0.5
+                                  LUT4	       8.00         0.1
+                                PFUREG	         33         0.4
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net16_regio_bus_handler_record_work_trb3_periph_blank_trb3_periph_blank_arch_2layer0
+   Instance path: trb3_periph_blank/THE_ENDPOINT/THE_INTERNAL_BUS_HANDLER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      91.47         1.1
+                                  LUT4	     170.50         2.0
+                                PFUREG	         97         1.1
+---------------------------------------------------
+Report for cell trigger_master_top
+   Instance path: trb3_periph_blank/Master_Trigger
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     802.33         9.5
+                                  LUT4	     871.00        10.1
+                               DISTRAM	     192.00        53.8
+                                PFUREG	        393         4.5
+                                RIPPLE	        147         7.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    trigger_OR_enabled	          1         0.0
+                  trigger_OR_enabled_0	          1         2.0
+                      trigger_master_0	          1         0.5
+                        trigger_master	          1         0.5
+                     signal_stretch_20	          1         0.1
+                      signal_stretch_5	          1         0.0
+                   signal_delay_1_5_32	          1         0.1
+                    signal_delay_1_5_4	          1         0.1
+                    signal_delay_1_5_5	          1         0.1
+                    signal_delay_1_5_8	          1         0.1
+                      signal_gated_100	          1         0.6
+                    signal_delay_1_5_9	          1         0.1
+                    signal_delay_1_5_6	          1         0.1
+                    signal_delay_1_5_7	          1         0.1
+                   signal_delay_1_5_43	          1         0.1
+                   signal_delay_1_5_45	          1         0.1
+                   signal_delay_1_5_46	          1         0.1
+                   signal_delay_1_5_44	          1         0.1
+                   signal_delay_1_5_41	          1         0.1
+                   signal_delay_1_5_42	          1         0.1
+                   signal_delay_1_5_40	          1         0.1
+                   signal_delay_1_5_36	          1         0.1
+                   signal_delay_1_5_38	          1         0.1
+                   signal_delay_1_5_39	          1         0.1
+                   signal_delay_1_5_37	          1         0.1
+                   signal_delay_1_5_34	          1         0.1
+                   signal_delay_1_5_35	          1         0.1
+                   signal_delay_1_5_33	          1         0.1
+                   signal_delay_1_5_18	          1         0.1
+                   signal_delay_1_5_25	          1         0.1
+                   signal_delay_1_5_29	          1         0.1
+                   signal_delay_1_5_30	          1         0.1
+                   signal_delay_1_5_31	          1         0.1
+                    signal_delay_1_5_3	          1         0.1
+                   signal_delay_1_5_27	          1         0.1
+                   signal_delay_1_5_28	          1         0.1
+                   signal_delay_1_5_26	          1         0.1
+                   signal_delay_1_5_21	          1         0.1
+                   signal_delay_1_5_23	          1         0.1
+                   signal_delay_1_5_24	          1         0.1
+                   signal_delay_1_5_22	          1         0.1
+                    signal_delay_1_5_2	          1         0.1
+                   signal_delay_1_5_20	          1         0.1
+                   signal_delay_1_5_19	          1         0.1
+                   signal_delay_1_5_11	          1         0.1
+                   signal_delay_1_5_15	          1         0.1
+                   signal_delay_1_5_17	          1         0.1
+                   signal_delay_1_5_16	          1         0.1
+                   signal_delay_1_5_13	          1         0.1
+                   signal_delay_1_5_14	          1         0.1
+                   signal_delay_1_5_12	          1         0.1
+                    signal_delay_1_5_1	          1         0.1
+                   signal_delay_1_5_10	          1         0.1
+                    signal_delay_1_5_0	          1         0.1
+                      signal_delay_1_5	          1         0.1
+---------------------------------------------------
+Report for cell signal_stretch_20
+   Instance path: trb3_periph_blank/Master_Trigger/Trig_Gated_150ns
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.45         0.1
+                                  LUT4	       0.50         0.0
+                                PFUREG	         10         0.1
+---------------------------------------------------
+Report for cell signal_stretch_5
+   Instance path: trb3_periph_blank/Master_Trigger/Trig_Gated_50ns
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.85         0.0
+                                  LUT4	       7.50         0.1
+---------------------------------------------------
+Report for cell signal_gated_100
+   Instance path: trb3_periph_blank/Master_Trigger/Trig_Gated
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.45         0.6
+                                  LUT4	      33.00         0.4
+                                PFUREG	         90         1.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    signal_stretch_100	          1         0.6
+---------------------------------------------------
+Report for cell signal_stretch_100
+   Instance path: trb3_periph_blank/Master_Trigger/Trig_Gated/GATE_Proc
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.20         0.6
+                                  LUT4	      32.00         0.4
+                                PFUREG	         90         1.0
+---------------------------------------------------
+Report for cell trigger_OR_enabled_0
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_TRIG_OR_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     168.92         2.0
+                                  LUT4	     332.00         3.9
+---------------------------------------------------
+Report for cell trigger_OR_enabled
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_TRIG_OR_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.0
+                                  LUT4	       1.00         0.0
+---------------------------------------------------
+Report for cell trigger_master_0
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_TRIG_LOGIC_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      42.25         0.5
+                                  LUT4	      79.00         0.9
+---------------------------------------------------
+Report for cell trigger_master
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_TRIG_LOGIC_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      44.42         0.5
+                                  LUT4	     105.00         1.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_46
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.4.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_45
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.44.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_44
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.43.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.75         0.1
+                                  LUT4	       6.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_43
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.17.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.83         0.1
+                                  LUT4	       6.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_42
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.11.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_41
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.5.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_40
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.14.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_39
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.6.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.33         0.1
+                                  LUT4	       6.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_38
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.0.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_37
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.7.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_36
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.27.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_35
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.8.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_34
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.2.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_33
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.9.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_32
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.36.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_31
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.29.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.83         0.1
+                                  LUT4	       6.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_30
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.30.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_29
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.24.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.25         0.1
+                                  LUT4	       6.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_28
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.18.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.75         0.1
+                                  LUT4	       6.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_27
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.1.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_26
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.19.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_25
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.26.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_24
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.20.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_23
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.40.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_22
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.21.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_21
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.15.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_20
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.22.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_19
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.23.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_18
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.16.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_17
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.45.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_16
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.37.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_15
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.31.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.83         0.1
+                                  LUT4	       6.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_14
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.12.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.25         0.1
+                                  LUT4	       6.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_13
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.32.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_12
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.13.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_11
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.33.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_10
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.38.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_9
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.34.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_8
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.28.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_7
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.35.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_6
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.10.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_5
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.3.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.83         0.1
+                                  LUT4	       6.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_4
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.47.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_3
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.39.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.25         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_2
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.46.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_1
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.25.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell signal_delay_1_5_0
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.41.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	         11         0.1
+                                RIPPLE	          6         0.3
+---------------------------------------------------
+Report for cell signal_delay_1_5
+   Instance path: trb3_periph_blank/Master_Trigger/GEN_DELAY.42.DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         0.1
+                                  LUT4	       5.00         0.1
+                               DISTRAM	       4.00         1.1
+                                PFUREG	          6         0.1
+                                RIPPLE	          3         0.2
+---------------------------------------------------
+Report for cell trb3_tools
+   Instance path: trb3_periph_blank/THE_TOOLS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    3487.75        41.3
+                                  LUT4	    3785.00        44.0
+                               DISTRAM	      57.00        16.0
+                                PFUREG	       3626        41.9
+                                RIPPLE	        661        35.3
+                                   EBR	          4        16.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net16_regio_bus_handler_record_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0	          1         1.5
+                              sedcheck	          1         0.8
+      spi_flash_and_fpga_reload_record	          1         2.9
+spi_ltc2600_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         3.3
+    input_to_trigger_logic_record_32_4	          1        11.8
+load_settings_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         5.4
+               input_statistics_36_0_1	          1        15.5
+---------------------------------------------------
+Report for cell input_statistics_36_0_1
+   Instance path: trb3_periph_blank/THE_TOOLS/gen_STATISTICS.THE_STAT_LOGIC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1306.33        15.5
+                                  LUT4	    1213.00        14.1
+                                PFUREG	       1378        15.9
+                                RIPPLE	        486        25.9
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       fifo_18x1k_oreg	          1         0.6
+---------------------------------------------------
+Report for cell fifo_18x1k_oreg
+   Instance path: trb3_periph_blank/THE_TOOLS/gen_STATISTICS.THE_STAT_LOGIC/gen_small_fifo.gen_single_fifo.THE_FIFO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      48.50         0.6
+                                  LUT4	       6.00         0.1
+                                PFUREG	         53         0.6
+                                RIPPLE	         35         1.9
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell input_to_trigger_logic_record_32_4
+   Instance path: trb3_periph_blank/THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1001.00        11.8
+                                  LUT4	    1292.00        15.0
+                               DISTRAM	       9.00         2.5
+                                PFUREG	        838         9.7
+                                RIPPLE	          8         0.4
+---------------------------------------------------
+Report for cell spi_ltc2600_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_TOOLS/gen_SPI.THE_SPI
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     282.00         3.3
+                                  LUT4	     230.00         2.7
+                               DISTRAM	      48.00        13.4
+                                PFUREG	        373         4.3
+                                RIPPLE	         16         0.9
+---------------------------------------------------
+Report for cell sedcheck
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_SED
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      66.17         0.8
+                                  LUT4	      65.00         0.8
+                                PFUREG	        104         1.2
+                                RIPPLE	         10         0.5
+---------------------------------------------------
+Report for cell load_settings_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_FLASH_REGS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     457.92         5.4
+                                  LUT4	     454.00         5.3
+                                PFUREG	        534         6.2
+                                RIPPLE	        126         6.7
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+spi_master_generic_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.4
+                               ram_8_8	          1         0.0
+---------------------------------------------------
+Report for cell ram_8_8
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_FLASH_REGS/THE_PAGE_RAM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell spi_master_generic_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_FLASH_REGS/THE_SPI_MASTER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.00         0.4
+                                  LUT4	      32.00         0.4
+                                PFUREG	         42         0.5
+---------------------------------------------------
+Report for cell spi_flash_and_fpga_reload_record
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_SPI_RELOAD
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     247.33         2.9
+                                  LUT4	     307.00         3.6
+                                PFUREG	        304         3.5
+                                RIPPLE	         15         0.8
+                                   EBR	          2         8.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+trb_net16_regio_bus_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.6
+                    spi_databus_memory	          1         0.1
+                            spi_master	          1         2.1
+                           fpga_reboot	          1         0.2
+---------------------------------------------------
+Report for cell fpga_reboot
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_SPI_RELOAD/THE_FPGA_REBOOT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.67         0.2
+                                  LUT4	      19.00         0.2
+                                PFUREG	         13         0.2
+                                RIPPLE	          7         0.4
+---------------------------------------------------
+Report for cell spi_databus_memory
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_SPI_RELOAD/THE_SPI_MEMORY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.00         0.1
+                                  LUT4	       9.00         0.1
+                                PFUREG	          8         0.1
+                                   EBR	          2         8.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     spi_dpram_32_to_8	          1         0.0
+---------------------------------------------------
+Report for cell spi_dpram_32_to_8
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_SPI_RELOAD/THE_SPI_MEMORY/THE_BUS_SPI_DPRAM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2         8.0
+---------------------------------------------------
+Report for cell spi_master
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_SPI_RELOAD/THE_SPI_MASTER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     177.00         2.1
+                                  LUT4	     195.00         2.3
+                                PFUREG	        202         2.3
+                                RIPPLE	          8         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+spi_slim_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         1.5
+---------------------------------------------------
+Report for cell spi_slim_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_SPI_RELOAD/THE_SPI_MASTER/THE_SPI_SLIM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     128.00         1.5
+                                  LUT4	     165.00         1.9
+                                PFUREG	        123         1.4
+                                RIPPLE	          8         0.4
+---------------------------------------------------
+Report for cell trb_net16_regio_bus_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_SPI_RELOAD/THE_BUS_HANDLER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.67         0.6
+                                  LUT4	      84.00         1.0
+                                PFUREG	         81         0.9
+---------------------------------------------------
+Report for cell trb_net16_regio_bus_handler_record_work_trb3_periph_blank_trb3_periph_blank_arch_1layer0
+   Instance path: trb3_periph_blank/THE_TOOLS/THE_BUS_HANDLER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     124.58         1.5
+                                  LUT4	     219.50         2.6
+                                PFUREG	         95         1.1
+---------------------------------------------------
+Report for cell trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     274.00         3.2
+                                  LUT4	     190.00         2.2
+                                PFUREG	        382         4.4
+                                RIPPLE	         79         4.2
+                                   EBR	          2         8.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+  trb_net_fifo_16bit_bram_dualport_0_0	          1         0.7
+  trb_net_fifo_16bit_bram_dualport_0_1	          1         0.5
+trb_net16_lsm_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.5
+                       signal_sync_2_3	          1         0.0
+                       signal_sync_4_1	          1         0.0
+                     signal_sync_2_2_0	          1         0.0
+                     signal_sync_2_2_1	          1         0.0
+                       signal_sync_2_1	          1         0.0
+                       signal_sync_1_1	          1         0.0
+                     signal_sync_1_2_0	          1         0.0
+                      signal_sync_16_2	          1         0.2
+sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.5
+---------------------------------------------------
+Report for cell trb_net_fifo_16bit_bram_dualport_0_0
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_FIFO_FPGA_TO_SFP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      56.00         0.7
+                                  LUT4	      27.50         0.3
+                                PFUREG	         69         0.8
+                                RIPPLE	         27         1.4
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+    lattice_ecp3_fifo_16bit_dualport_1	          1         0.7
+---------------------------------------------------
+Report for cell lattice_ecp3_fifo_16bit_dualport_1
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_FIFO_FPGA_TO_SFP/FIFO_DP_BRAM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      56.00         0.7
+                                  LUT4	      27.50         0.3
+                                PFUREG	         69         0.8
+                                RIPPLE	         27         1.4
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell trb_net_fifo_16bit_bram_dualport_0_1
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_FIFO_SFP_TO_FPGA
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.33         0.5
+                                  LUT4	      25.00         0.3
+                                PFUREG	         62         0.7
+                                RIPPLE	         18         1.0
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+    lattice_ecp3_fifo_16bit_dualport_0	          1         0.5
+---------------------------------------------------
+Report for cell lattice_ecp3_fifo_16bit_dualport_0
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_FIFO_SFP_TO_FPGA/FIFO_DP_BRAM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.33         0.5
+                                  LUT4	      25.00         0.3
+                                PFUREG	         62         0.7
+                                RIPPLE	         18         1.0
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      45.00         0.5
+                                  LUT4	      37.00         0.4
+                                PFUREG	         68         0.8
+                                RIPPLE	         20         1.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+tx_reset_sm_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.2
+rx_reset_sm_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0	          1         0.3
+---------------------------------------------------
+Report for cell tx_reset_sm_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/tx_reset_sm_ch
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.67         0.2
+                                  LUT4	      16.00         0.2
+                                PFUREG	         31         0.4
+                                RIPPLE	         10         0.5
+---------------------------------------------------
+Report for cell rx_reset_sm_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/rx_reset_sm_ch1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.00         0.3
+                                  LUT4	      18.00         0.2
+                                PFUREG	         35         0.4
+                                RIPPLE	         10         0.5
+---------------------------------------------------
+Report for cell trb_net16_lsm_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_SFP_LSM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      43.33         0.5
+                                  LUT4	      47.00         0.5
+                                PFUREG	         48         0.6
+                                RIPPLE	         14         0.7
+---------------------------------------------------
+Report for cell signal_sync_2_1
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_TX_SYNC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.83         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell signal_sync_2_2_0
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_RX_ALLOW_SYNC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.83         0.0
+                                PFUREG	          4         0.0
+---------------------------------------------------
+Report for cell signal_sync_1_2_0
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_RX_ALLOW_RX
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell signal_sync_1_1
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_RX_RESET
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.67         0.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell signal_sync_2_2_1
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_RX_K_DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         0.0
+                                PFUREG	          4         0.0
+---------------------------------------------------
+Report for cell signal_sync_16_2
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_RX_DATA_DELAY
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         0.2
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell signal_sync_4_1
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_RX_K_SYNC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.67         0.0
+                                PFUREG	          4         0.0
+---------------------------------------------------
+Report for cell signal_sync_2_3
+   Instance path: trb3_periph_blank/THE_MEDIA_UPLINK/THE_SFP_STATUS_SYNC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00         0.0
+                                PFUREG	          6         0.1
+---------------------------------------------------
+Report for cell pll_in200_out100
+   Instance path: trb3_periph_blank/THE_MAIN_PLL
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+---------------------------------------------------
+Report for cell trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_RESET_HANDLER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.58         0.3
+                                  LUT4	      11.00         0.1
+                                PFUREG	         31         0.4
+                                RIPPLE	          9         0.5
+---------------------------------------------------
+Report for cell trb_net16_regio_bus_handler_record_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0
+   Instance path: trb3_periph_blank/THE_BUS_HANDLER
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      45.92         0.5
+                                  LUT4	      78.00         0.9
+                                PFUREG	         87         1.0

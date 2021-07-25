@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
+<ispXCF version="17.0 Linux Beta">
+	<Comment></Comment>
+	<Chain>
+		<Comm>JTAG</Comm>
+		<Device>
+			<Pos>1</Pos>
+			<Vendor>NA</Vendor>
+			<Family>Generic JTAG Device</Family>
+			<Name>JTAG-NOP</Name>
+			<Package>All</Package>
+			<PON>JTAG-NOP</PON>
+			<Bypass>
+				<InstrLen>10</InstrLen>
+				<InstrVal>1111111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<Operation>Bypass</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>SVF Processor</SVFProcessor>
+			</Option>
+		</Device>
+		<Device>
+			<Pos>2</Pos>
+			<Ref>hub</Ref>
+			<Vendor>Lattice</Vendor>
+			<Family>LatticeSCM</Family>
+			<Name>LFSCM3GA25E</Name>
+			<IDCode>0x0a812157</IDCode>
+			<Package>1020-ball FFBGA</Package>
+			<PON>LFSCM3GA25EP1-XXFF1020</PON>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>/home/marek/trbnet/optical_link/workdir/hub.bit</File>
+			<MaskFile>/home/marek/.isplever_lin1/ispvmsystem/Database/xpga/sc/lfsc3ga25e.msk</MaskFile>
+			<FileTime>3/31/2009 22:28:11</FileTime>
+			<Operation>Fast Program</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<PreloadLength>1095</PreloadLength>
+				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>SVF Processor</SVFProcessor>
+				<AccessMode>JTAG</AccessMode>
+			</Option>
+		</Device>
+		<Device>
+			<Pos>3</Pos>
+			<Ref>power</Ref>
+			<Vendor>NA</Vendor>
+			<Family>Generic JTAG Device</Family>
+			<Name>JTAG-NOP</Name>
+			<Package>All</Package>
+			<PON>JTAG-NOP</PON>
+			<Bypass>
+				<InstrLen>4</InstrLen>
+				<InstrVal>1111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<Operation>Bypass</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>SVF Processor</SVFProcessor>
+			</Option>
+		</Device>
+	</Chain>
+	<ProjectOptions>
+		<Program>SEQUENTIAL</Program>
+		<Process>ENTIRED CHAIN</Process>
+		<OperationOverride>No Override</OperationOverride>
+		<StartTAP>TLR</StartTAP>
+		<EndTAP>TLR</EndTAP>
+		<DeGlitch value="TRUE"/>
+		<VerifyUsercode value="TRUE"/>
+		<PinSetting>
+			TMS	LOW;
+			TCK	LOW;
+			TDI	LOW;
+			TDO	LOW;
+			CableEN	HIGH;
+		</PinSetting>
+	</ProjectOptions>
+</ispXCF>

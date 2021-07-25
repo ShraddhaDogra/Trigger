@@ -1,0 +1,12 @@
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\project\trb3_periph_blank\synwork\blank_trb3_periph_blank_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Dec  5 05:56:50 2018
+
+###########################################################]

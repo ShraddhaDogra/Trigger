@@ -1,0 +1,58 @@
+[Device]
+Family=latticescm
+PartType=LFSCM3GA40EP1
+PartName=LFSCM3GA40EP1-7FFA1020C
+SpeedGrade=7
+Package=FFABGA1020
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=PLL
+CoreRevision=5.2
+ModuleName=pll_in100_out150
+SourceFormat=VHDL
+ParameterFileVersion=1.0
+Date=01/07/2011
+Time=18:19:55
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+Clki_freq=100
+U_OFrq=150
+OP_Tol=0.0
+ClkOP_Freq= 150.000000
+U_SFrq=100
+OS_Tol=0.0
+ClkOS_Freq= 100.000000
+Phase=180
+FineDelay=0
+FeedbackClk=CLKOP
+Frequency= 150.000000
+enSpectrum=0
+smiport=0
+enRSTN=0
+Clki_boosting=DEL0
+Clkfb_boosting=DEL0
+Clki_fine=0
+Clkfb_fine=0
+enSpread=0
+modulation=1
+Desired=30
+Actual=30
+lock=Frequency
+enGSR=0
+VcoRate= 450.000000
+Bandwidth= 4.074303
+enHighBand=0
+enBypassP=0
+enBypassS=1

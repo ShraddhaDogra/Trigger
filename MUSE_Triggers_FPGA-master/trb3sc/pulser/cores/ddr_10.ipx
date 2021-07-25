@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="ddr_10" module="DDR_GENERIC" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2015 07 03 12:59:08.310" version="5.4" type="Module" synthesis="" source_format="VHDL">
+  <Package>
+		<File name="ddr_10.lpc" type="lpc" modified="2015 07 03 12:58:57.000"/>
+		<File name="ddr_10.vhd" type="top_level_vhdl" modified="2015 07 03 12:58:57.000"/>
+		<File name="ddr_10_tmpl.vhd" type="template_vhdl" modified="2015 07 03 12:58:57.000"/>
+  </Package>
+</DiamondModule>

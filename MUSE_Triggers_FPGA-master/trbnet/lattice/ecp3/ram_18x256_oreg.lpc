@@ -1,0 +1,56 @@
+[Device]
+Family=latticeecp3
+PartType=LAE3-17EA
+PartName=LAE3-17EA-6FN484E
+SpeedGrade=6
+Package=FPBGA484
+OperatingCondition=AUTO
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=RAM_DP
+CoreRevision=6.5
+ModuleName=ram_18x256_oreg
+SourceFormat=VHDL
+ParameterFileVersion=1.0
+Date=07/09/2015
+Time=14:23:59
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+RAddress=256
+RData=18
+WAddress=256
+WData=18
+enByte=0
+ByteSize=9
+adPipeline=0
+inPipeline=0
+outPipeline=1
+MOR=0
+InData=Registered
+AdControl=Registered
+MemFile=
+MemFormat=bin
+Reset=Sync
+GSR=Enabled
+Pad=0
+EnECC=0
+Optimization=Speed
+EnSleep=ENABLED
+Pipeline=0
+
+[FilesGenerated]
+=mem
+
+[Command]
+cmd_line= -w -n ram_18x256_oreg -lang vhdl -synth synplify -bus_exp 7 -bb -arch ep5c00 -device LAE3-17EA -type ramdps -raddr_width 8 -rwidth 18 -waddr_width 8 -wwidth 18 -rnum_words 256 -wnum_words 256 -outdata REGISTERED -cascade -1

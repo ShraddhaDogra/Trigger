@@ -1,0 +1,1345 @@
+# Mon Apr  2 11:55:00 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM.idram_7[15:0] because it is equivalent to instance PROC_IDMEM.idram_6[15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM.idram_6[15:0] because it is equivalent to instance PROC_IDMEM.idram_5[15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "00000000" on instance THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[7:0].
+@N: FX493 |Applying initial value "11111" on instance THE_SPI_SLAVE.PROC_INPUT_SHIFT\.bitcnt[4:0].
+@N: FX493 |Applying initial value "0000" on instance THE_SPI_SLAVE.PROC_GEN_SIGNALS\.operation_i[3:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance THE_SPI_SLAVE.PROC_GEN_SIGNALS\.write_i[15:0].
+@N: FX493 |Applying initial value "0000" on instance PROC_TIMER\.leds[3:0].
+@N: FX493 |Applying initial value "10000" on instance THE_IO_REG_WRITE\.led_status[4:0].
+@N: FX493 |Applying initial value "00000" on instance THE_IO_REG_WRITE\.inp_select[4:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance last_inp[15:0].
+@N: FX493 |Applying initial value "00000" on instance count[4:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+Encoding state machine fsm_copydat[0:4] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.15\.proc_cnt\.input_counter_15[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.14\.proc_cnt\.input_counter_14[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.13\.proc_cnt\.input_counter_13[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.12\.proc_cnt\.input_counter_12[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.11\.proc_cnt\.input_counter_11[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.10\.proc_cnt\.input_counter_10[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.9\.proc_cnt\.input_counter_9[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.8\.proc_cnt\.input_counter_8[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.7\.proc_cnt\.input_counter_7[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.6\.proc_cnt\.input_counter_6[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.5\.proc_cnt\.input_counter_5[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.4\.proc_cnt\.input_counter_4[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.3\.proc_cnt\.input_counter_3[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.2\.proc_cnt\.input_counter_2[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.1\.proc_cnt\.input_counter_1[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":260:7:260:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.0\.proc_cnt\.input_counter_0[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":214:7:214:11|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance PROC_TIMER\.timer[18:0] 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[15] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[15] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[14] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[14] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[13] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[13] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[12] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[12] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[11] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[11] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[10] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[10] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[9] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[9] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[8] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[8] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[7] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[7] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[6] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[6] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[5] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[5] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[4] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[4] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[3] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[3] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[2] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[2] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[1] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[1] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_5[0] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_5[0] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing instance PROC_IDMEM.idram_4[13] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing instance PROC_IDMEM.idram_4[14] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing instance PROC_IDMEM.idram_4[15] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine state[0:13] (in view: work.trb_net_onewire_1_0_33(trb_net_onewire_arch))
+original code -> new code
+   00000000000001 -> 00000000000001
+   00000000000010 -> 00000000000010
+   00000000000100 -> 00000000000100
+   00000000001000 -> 00000000001000
+   00000000010000 -> 00000000010000
+   00000000100000 -> 00000000100000
+   00000001000000 -> 00000001000000
+   00000010000000 -> 00000010000000
+   00000100000000 -> 00000100000000
+   00001000000000 -> 00001000000000
+   00010000000000 -> 00010000000000
+   00100000000000 -> 00100000000000
+   01000000000000 -> 01000000000000
+   10000000000000 -> 10000000000000
+Encoding state machine c_state[61:0] (in view: work.UFM_WB(verilog))
+original code -> new code
+   00000000 -> 000000
+   00000001 -> 000001
+   00000010 -> 000011
+   00000011 -> 000010
+   00000100 -> 000110
+   00000101 -> 000111
+   00000110 -> 000101
+   00000111 -> 000100
+   00001000 -> 001100
+   00001001 -> 001101
+   00001010 -> 001111
+   00001011 -> 001110
+   00001100 -> 001010
+   00001101 -> 001011
+   00001110 -> 001001
+   00001111 -> 001000
+   00010000 -> 011000
+   00010001 -> 011001
+   00010010 -> 011011
+   00010011 -> 011010
+   00010100 -> 011110
+   00010101 -> 011111
+   00010110 -> 011101
+   00010111 -> 011100
+   00011000 -> 010100
+   00011001 -> 010101
+   00011010 -> 010111
+   00011011 -> 010110
+   00011100 -> 010010
+   00011101 -> 010011
+   00011110 -> 010001
+   00011111 -> 010000
+   00100000 -> 110000
+   00100001 -> 110001
+   00100010 -> 110011
+   00100011 -> 110010
+   00100100 -> 110110
+   00100101 -> 110111
+   00100110 -> 110101
+   00100111 -> 110100
+   00101000 -> 111100
+   00101001 -> 111101
+   00101010 -> 111111
+   00101011 -> 111110
+   00101100 -> 111010
+   00101101 -> 111011
+   00101110 -> 111001
+   00101111 -> 111000
+   00110000 -> 101000
+   00110001 -> 101001
+   00110010 -> 101011
+   00110011 -> 101010
+   00110100 -> 101110
+   00110101 -> 101111
+   00110110 -> 101101
+   00110111 -> 101100
+   00111000 -> 100100
+   00111001 -> 100101
+   00111010 -> 100111
+   00111011 -> 100110
+   00111100 -> 100010
+   00111101 -> 100011
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\ufm_wb.v":246:3:246:8|Found counter in view:work.UFM_WB(verilog) instance sm_addr[3:0] 
+Encoding state machine state[0:5] (in view: work.spi_slave(spi_slave_arch))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":56:7:56:11|Removing sequential instance state[0] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 151MB)
+
+Auto Dissolve of THE_PWM_GEN (inst of view:work.pwm_generator(pwm_arch))
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Removing sequential instance PROC_IDMEM\.idram_4[12] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":173:7:173:11|Boundary register PROC_IDMEM\.idram_4[12] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 157MB peak: 157MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 158MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 158MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 172MB)
+
+@N: FA113 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":612:15:612:46|Pipelining module temp_calc_i_1[27:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":612:0:612:10|Pushed in register temp_calc_i[27:12].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:06s; Memory used current: 157MB peak: 172MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:08s; Memory used current: 157MB peak: 172MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:09s; Memory used current: 156MB peak: 172MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:10s; Memory used current: 158MB peak: 172MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:13s; Memory used current: 203MB peak: 238MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:14s		    -3.10ns		1043 /      1615
+   2		0h:00m:14s		    -3.10ns		1044 /      1615
+   3		0h:00m:14s		    -3.10ns		1044 /      1615
+   4		0h:00m:14s		    -3.08ns		1044 /      1615
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[1] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 21 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[0] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 20 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":611:0:611:13|Replicating instance comp_setting_s[0] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 12 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":611:0:611:13|Replicating instance comp_setting_s[1] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 12 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[2] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[3] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":611:0:611:13|Replicating instance comp_setting_s[3] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 13 loads 1 time to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":611:0:611:13|Replicating instance comp_setting_s[2] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 13 loads 1 time to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[4] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[5] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\signal_gen_x16.v":23:0:23:5|Replicating instance signal_gen.counter[0] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":611:0:611:13|Replicating instance comp_setting_s[5] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 13 loads 1 time to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":611:0:611:13|Replicating instance comp_setting_s[4] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 13 loads 1 time to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[6] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[7] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[8] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[9] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[11] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 19 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":610:0:610:14|Replicating instance temperature_i_s[10] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\ufm_wb.v":246:3:246:8|Replicating instance THE_FLASH.c_state[0] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 64 loads 3 times to improve timing.
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\ufm_wb.v":246:3:246:8|Replicating instance THE_FLASH.c_state[3] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 57 loads 3 times to improve timing.
+Timing driven replication report
+Added 39 Registers via timing driven replication
+Added 7 LUTs via timing driven replication
+
+   5		0h:00m:16s		    -2.94ns		1055 /      1654
+   6		0h:00m:16s		    -2.94ns		1056 /      1654
+@N: FX271 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":53:7:53:15|Replicating instance THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[2] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) with 187 loads 3 times to improve timing.
+Added 3 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+   7		0h:00m:17s		    -2.94ns		1058 /      1657
+   8		0h:00m:17s		    -2.94ns		1058 /      1657
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:17s; Memory used current: 203MB peak: 238MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Generating RAM THE_PWM_GEN.PROC_MEM\.set_1[15:0]
+@N: FO126 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Generating RAM THE_PWM_GEN.PROC_MEM\.set[15:0]
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":231:7:231:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_5_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":231:7:231:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_4_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":231:7:231:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_3_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":231:7:231:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_2_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":231:7:231:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_1_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_15_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_14_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_13_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_12_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_11_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_10_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_9_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_8_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_7_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_6_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_5_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_4_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_3_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_2_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_1_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_0_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.ram_addr_1_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.ram_addr_0_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_11_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_10_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_9_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_8_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_7_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_6_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_5_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_4_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_3_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_2_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_1_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_0_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:20s; Memory used current: 205MB peak: 238MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 1667 clock pin(s) of sequential element(s)
+0 instances converted, 1667 sequential instances remain driven by gated/generated clocks
+
+=========================================================================================================== Gated/Generated Clocks ===========================================================================================================
+Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance                       Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       THE_PLL.PLLInst_0     EHXPLLJ                1382       PROC_CTRL_FLASH\.flash_command[0]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       THE_PLL.PLLInst_0     EHXPLLJ                285        comp_setting_s[0]                     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==============================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:35s; CPU Time elapsed 0h:00m:21s; Memory used current: 166MB peak: 238MB)
+
+Writing Analyst data base C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\synwork\padiwalcd_padiwalcd_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:22s; Memory used current: 205MB peak: 238MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\padiwalcd_padiwalcd.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:23s; Memory used current: 210MB peak: 238MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:24s; Memory used current: 207MB peak: 238MB)
+
+@W: MT246 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flash.vhd":136:4:136:12|Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\pll.vhd":113:4:113:12|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock pll|CLKOP_inferred_clock with period 7.84ns. Please declare a user-defined clock on object "n:THE_PLL.CLKOP"
+@W: MT420 |Found inferred clock pll|CLKOS_inferred_clock with period 7.58ns. Please declare a user-defined clock on object "n:THE_PLL.CLKOS"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Apr  2 11:55:41 2018
+#
+
+
+Top view:               panda_dirc_wasa
+Requested Frequency:    127.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.384
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                             Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock               Frequency     Frequency     Period        Period        Slack      Type         Group                
+----------------------------------------------------------------------------------------------------------------------------------
+pll|CLKOP_inferred_clock     127.5 MHz     108.4 MHz     7.842         9.226         -1.384     inferred     Autoconstr_clkgroup_1
+pll|CLKOS_inferred_clock     131.9 MHz     112.2 MHz     7.579         8.916         -1.337     inferred     Autoconstr_clkgroup_0
+System                       1.0 MHz       1.0 MHz       1000.000      998.787       1.213      system       system_clkgroup      
+==================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                              |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Starting                  Ending                    |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------
+System                    System                    |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+System                    pll|CLKOP_inferred_clock  |  7.842       1.213     |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOS_inferred_clock  System                    |  7.579       6.211     |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOS_inferred_clock  pll|CLKOS_inferred_clock  |  7.579       -1.338    |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOS_inferred_clock  pll|CLKOP_inferred_clock  |  Diff grp    -         |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOP_inferred_clock  System                    |  7.842       6.516     |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOP_inferred_clock  pll|CLKOS_inferred_clock  |  Diff grp    -         |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOP_inferred_clock  pll|CLKOP_inferred_clock  |  7.842       -1.384    |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pll|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                                                     Arrival           
+Instance                    Reference                    Type        Pin     Net                         Time        Slack 
+                            Clock                                                                                          
+---------------------------------------------------------------------------------------------------------------------------
+temperature_i_s_fast[1]     pll|CLKOP_inferred_clock     FD1S3AX     Q       temperature_i_s_fast[1]     1.148       -1.384
+temperature_i_s_fast[0]     pll|CLKOP_inferred_clock     FD1S3AX     Q       temperature_i_s_fast[0]     1.108       -1.344
+comp_setting_s_fast[0]      pll|CLKOP_inferred_clock     FD1S3AX     Q       comp_setting_s_fast[0]      1.044       -1.280
+comp_setting_s_fast[1]      pll|CLKOP_inferred_clock     FD1S3AX     Q       comp_setting_s_fast[1]      1.044       -1.280
+comp_setting_s_fast[2]      pll|CLKOP_inferred_clock     FD1S3AX     Q       comp_setting_s_fast[2]      1.180       -1.273
+comp_setting_s_fast[3]      pll|CLKOP_inferred_clock     FD1S3AX     Q       comp_setting_s_fast[3]      1.180       -1.273
+comp_setting_s_0_rep1       pll|CLKOP_inferred_clock     FD1S3AX     Q       comp_setting_s_0_rep1       1.148       -1.241
+comp_setting_s_1_rep1       pll|CLKOP_inferred_clock     FD1S3AX     Q       comp_setting_s_1_rep1       1.148       -1.241
+temperature_i_s_fast[2]     pll|CLKOP_inferred_clock     FD1S3AX     Q       temperature_i_s_fast[2]     1.108       -1.201
+temperature_i_s_fast[3]     pll|CLKOP_inferred_clock     FD1S3AX     Q       temperature_i_s_fast[3]     1.108       -1.201
+===========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                      Starting                                                                      Required           
+Instance                              Reference                    Type        Pin     Net                          Time         Slack 
+                                      Clock                                                                                            
+---------------------------------------------------------------------------------------------------------------------------------------
+temp_calc_i_1.temp_calc_i_pipe_55     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_8[27]     7.737        -1.384
+temp_calc_i_1.temp_calc_i_pipe_53     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_8[25]     7.737        -1.241
+temp_calc_i_1.temp_calc_i_pipe_54     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_8[26]     7.737        -1.241
+temp_calc_i_1.temp_calc_i_pipe_51     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_8[23]     7.737        -1.098
+temp_calc_i_1.temp_calc_i_pipe_52     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_8[24]     7.737        -1.098
+temp_calc_i_1.temp_calc_i_pipe_68     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_7[23]     7.737        -1.098
+temp_calc_i_1.temp_calc_i_pipe_49     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_8[21]     7.737        -0.956
+temp_calc_i_1.temp_calc_i_pipe_50     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_8[22]     7.737        -0.956
+temp_calc_i_1.temp_calc_i_pipe_66     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_7[21]     7.737        -0.956
+temp_calc_i_1.temp_calc_i_pipe_67     pll|CLKOP_inferred_clock     FD1S3AX     D       temp_calc_i_1.madd_7[22]     7.737        -0.956
+=======================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.842
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.737
+
+    - Propagation time:                      9.120
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.384
+
+    Number of logic level(s):                16
+    Starting point:                          temperature_i_s_fast[1] / Q
+    Ending point:                            temp_calc_i_1.temp_calc_i_pipe_55 / D
+    The start point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+temperature_i_s_fast[1]               FD1S3AX     Q        Out     1.148     1.148       -         
+temperature_i_s_fast[1]               Net         -        -       -         -           4         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       C1       In      0.000     1.148       -         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       COUT     Out     1.544     2.692       -         
+temp_calc_i_1.madd_0_cry_0            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       CIN      In      0.000     2.692       -         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       COUT     Out     0.143     2.835       -         
+temp_calc_i_1.madd_0_cry_2            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       CIN      In      0.000     2.835       -         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       COUT     Out     0.143     2.978       -         
+temp_calc_i_1.madd_0_cry_4            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       CIN      In      0.000     2.978       -         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       COUT     Out     0.143     3.121       -         
+temp_calc_i_1.madd_0_cry_6            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       CIN      In      0.000     3.121       -         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       COUT     Out     0.143     3.264       -         
+temp_calc_i_1.madd_0_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       CIN      In      0.000     3.264       -         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       S0       Out     1.621     4.885       -         
+temp_calc_i_1.madd_0[10]              Net         -        -       -         -           2         
+temp_calc_i_1.madd_8_cry_2_0          CCU2D       B1       In      0.000     4.885       -         
+temp_calc_i_1.madd_8_cry_2_0          CCU2D       COUT     Out     1.544     6.429       -         
+temp_calc_i_1.madd_8_cry_2            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_3_0          CCU2D       CIN      In      0.000     6.429       -         
+temp_calc_i_1.madd_8_cry_3_0          CCU2D       COUT     Out     0.143     6.572       -         
+temp_calc_i_1.madd_8_cry_4            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_5_0          CCU2D       CIN      In      0.000     6.572       -         
+temp_calc_i_1.madd_8_cry_5_0          CCU2D       COUT     Out     0.143     6.715       -         
+temp_calc_i_1.madd_8_cry_6            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       CIN      In      0.000     6.715       -         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       COUT     Out     0.143     6.857       -         
+temp_calc_i_1.madd_8_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       CIN      In      0.000     6.857       -         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       COUT     Out     0.143     7.000       -         
+temp_calc_i_1.madd_8_cry_10           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       CIN      In      0.000     7.000       -         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       COUT     Out     0.143     7.143       -         
+temp_calc_i_1.madd_8_cry_12           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       CIN      In      0.000     7.143       -         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       COUT     Out     0.143     7.286       -         
+temp_calc_i_1.madd_8_cry_14           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       CIN      In      0.000     7.286       -         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       COUT     Out     0.143     7.429       -         
+temp_calc_i_1.madd_8_cry_16           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       CIN      In      0.000     7.429       -         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       COUT     Out     0.143     7.571       -         
+temp_calc_i_1.madd_8_cry_18           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       CIN      In      0.000     7.571       -         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       S0       Out     1.549     9.120       -         
+temp_calc_i_1.madd_8[27]              Net         -        -       -         -           1         
+temp_calc_i_1.temp_calc_i_pipe_55     FD1S3AX     D        In      0.000     9.120       -         
+===================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      7.842
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.737
+
+    - Propagation time:                      9.080
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.344
+
+    Number of logic level(s):                16
+    Starting point:                          temperature_i_s_fast[0] / Q
+    Ending point:                            temp_calc_i_1.temp_calc_i_pipe_55 / D
+    The start point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+temperature_i_s_fast[0]               FD1S3AX     Q        Out     1.108     1.108       -         
+temperature_i_s_fast[0]               Net         -        -       -         -           3         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       B1       In      0.000     1.108       -         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       COUT     Out     1.544     2.652       -         
+temp_calc_i_1.madd_0_cry_0            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       CIN      In      0.000     2.652       -         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       COUT     Out     0.143     2.795       -         
+temp_calc_i_1.madd_0_cry_2            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       CIN      In      0.000     2.795       -         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       COUT     Out     0.143     2.938       -         
+temp_calc_i_1.madd_0_cry_4            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       CIN      In      0.000     2.938       -         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       COUT     Out     0.143     3.081       -         
+temp_calc_i_1.madd_0_cry_6            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       CIN      In      0.000     3.081       -         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       COUT     Out     0.143     3.224       -         
+temp_calc_i_1.madd_0_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       CIN      In      0.000     3.224       -         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       S0       Out     1.621     4.845       -         
+temp_calc_i_1.madd_0[10]              Net         -        -       -         -           2         
+temp_calc_i_1.madd_8_cry_2_0          CCU2D       B1       In      0.000     4.845       -         
+temp_calc_i_1.madd_8_cry_2_0          CCU2D       COUT     Out     1.544     6.389       -         
+temp_calc_i_1.madd_8_cry_2            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_3_0          CCU2D       CIN      In      0.000     6.389       -         
+temp_calc_i_1.madd_8_cry_3_0          CCU2D       COUT     Out     0.143     6.532       -         
+temp_calc_i_1.madd_8_cry_4            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_5_0          CCU2D       CIN      In      0.000     6.532       -         
+temp_calc_i_1.madd_8_cry_5_0          CCU2D       COUT     Out     0.143     6.675       -         
+temp_calc_i_1.madd_8_cry_6            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       CIN      In      0.000     6.675       -         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       COUT     Out     0.143     6.817       -         
+temp_calc_i_1.madd_8_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       CIN      In      0.000     6.817       -         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       COUT     Out     0.143     6.960       -         
+temp_calc_i_1.madd_8_cry_10           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       CIN      In      0.000     6.960       -         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       COUT     Out     0.143     7.103       -         
+temp_calc_i_1.madd_8_cry_12           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       CIN      In      0.000     7.103       -         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       COUT     Out     0.143     7.246       -         
+temp_calc_i_1.madd_8_cry_14           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       CIN      In      0.000     7.246       -         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       COUT     Out     0.143     7.389       -         
+temp_calc_i_1.madd_8_cry_16           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       CIN      In      0.000     7.389       -         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       COUT     Out     0.143     7.531       -         
+temp_calc_i_1.madd_8_cry_18           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       CIN      In      0.000     7.531       -         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       S0       Out     1.549     9.080       -         
+temp_calc_i_1.madd_8[27]              Net         -        -       -         -           1         
+temp_calc_i_1.temp_calc_i_pipe_55     FD1S3AX     D        In      0.000     9.080       -         
+===================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      7.842
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.737
+
+    - Propagation time:                      9.048
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.312
+
+    Number of logic level(s):                16
+    Starting point:                          temperature_i_s_fast[1] / Q
+    Ending point:                            temp_calc_i_1.temp_calc_i_pipe_55 / D
+    The start point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+temperature_i_s_fast[1]               FD1S3AX     Q        Out     1.148     1.148       -         
+temperature_i_s_fast[1]               Net         -        -       -         -           4         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       C1       In      0.000     1.148       -         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       COUT     Out     1.544     2.692       -         
+temp_calc_i_1.madd_0_cry_0            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       CIN      In      0.000     2.692       -         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       COUT     Out     0.143     2.835       -         
+temp_calc_i_1.madd_0_cry_2            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       CIN      In      0.000     2.835       -         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       COUT     Out     0.143     2.978       -         
+temp_calc_i_1.madd_0_cry_4            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       CIN      In      0.000     2.978       -         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       COUT     Out     0.143     3.121       -         
+temp_calc_i_1.madd_0_cry_6            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       CIN      In      0.000     3.121       -         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       COUT     Out     0.143     3.264       -         
+temp_calc_i_1.madd_0_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       CIN      In      0.000     3.264       -         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       COUT     Out     0.143     3.406       -         
+temp_calc_i_1.madd_0_cry_10           Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_11_0         CCU2D       CIN      In      0.000     3.406       -         
+temp_calc_i_1.madd_0_cry_11_0         CCU2D       S0       Out     1.549     4.955       -         
+temp_calc_i_1.madd_0[12]              Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_3_0          CCU2D       B1       In      0.000     4.955       -         
+temp_calc_i_1.madd_8_cry_3_0          CCU2D       COUT     Out     1.544     6.500       -         
+temp_calc_i_1.madd_8_cry_4            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_5_0          CCU2D       CIN      In      0.000     6.500       -         
+temp_calc_i_1.madd_8_cry_5_0          CCU2D       COUT     Out     0.143     6.643       -         
+temp_calc_i_1.madd_8_cry_6            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       CIN      In      0.000     6.643       -         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       COUT     Out     0.143     6.785       -         
+temp_calc_i_1.madd_8_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       CIN      In      0.000     6.785       -         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       COUT     Out     0.143     6.928       -         
+temp_calc_i_1.madd_8_cry_10           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       CIN      In      0.000     6.928       -         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       COUT     Out     0.143     7.071       -         
+temp_calc_i_1.madd_8_cry_12           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       CIN      In      0.000     7.071       -         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       COUT     Out     0.143     7.214       -         
+temp_calc_i_1.madd_8_cry_14           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       CIN      In      0.000     7.214       -         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       COUT     Out     0.143     7.357       -         
+temp_calc_i_1.madd_8_cry_16           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       CIN      In      0.000     7.357       -         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       COUT     Out     0.143     7.499       -         
+temp_calc_i_1.madd_8_cry_18           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       CIN      In      0.000     7.499       -         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       S0       Out     1.549     9.048       -         
+temp_calc_i_1.madd_8[27]              Net         -        -       -         -           1         
+temp_calc_i_1.temp_calc_i_pipe_55     FD1S3AX     D        In      0.000     9.048       -         
+===================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      7.842
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.737
+
+    - Propagation time:                      9.048
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.312
+
+    Number of logic level(s):                16
+    Starting point:                          temperature_i_s_fast[1] / Q
+    Ending point:                            temp_calc_i_1.temp_calc_i_pipe_55 / D
+    The start point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+temperature_i_s_fast[1]               FD1S3AX     Q        Out     1.148     1.148       -         
+temperature_i_s_fast[1]               Net         -        -       -         -           4         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       C1       In      0.000     1.148       -         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       COUT     Out     1.544     2.692       -         
+temp_calc_i_1.madd_0_cry_0            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       CIN      In      0.000     2.692       -         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       COUT     Out     0.143     2.835       -         
+temp_calc_i_1.madd_0_cry_2            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       CIN      In      0.000     2.835       -         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       COUT     Out     0.143     2.978       -         
+temp_calc_i_1.madd_0_cry_4            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       CIN      In      0.000     2.978       -         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       COUT     Out     0.143     3.121       -         
+temp_calc_i_1.madd_0_cry_6            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       CIN      In      0.000     3.121       -         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       COUT     Out     0.143     3.264       -         
+temp_calc_i_1.madd_0_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       CIN      In      0.000     3.264       -         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       COUT     Out     0.143     3.406       -         
+temp_calc_i_1.madd_0_cry_10           Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_11_0         CCU2D       CIN      In      0.000     3.406       -         
+temp_calc_i_1.madd_0_cry_11_0         CCU2D       COUT     Out     0.143     3.549       -         
+temp_calc_i_1.madd_0_cry_12           Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_13_0         CCU2D       CIN      In      0.000     3.549       -         
+temp_calc_i_1.madd_0_cry_13_0         CCU2D       COUT     Out     0.143     3.692       -         
+temp_calc_i_1.madd_0_cry_14_cry       Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_14_0         CCU2D       CIN      In      0.000     3.692       -         
+temp_calc_i_1.madd_0_cry_14_0         CCU2D       S0       Out     1.549     5.241       -         
+temp_calc_i_1.madd_0[16]              Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       B1       In      0.000     5.241       -         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       COUT     Out     1.544     6.785       -         
+temp_calc_i_1.madd_8_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       CIN      In      0.000     6.785       -         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       COUT     Out     0.143     6.928       -         
+temp_calc_i_1.madd_8_cry_10           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       CIN      In      0.000     6.928       -         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       COUT     Out     0.143     7.071       -         
+temp_calc_i_1.madd_8_cry_12           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       CIN      In      0.000     7.071       -         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       COUT     Out     0.143     7.214       -         
+temp_calc_i_1.madd_8_cry_14           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       CIN      In      0.000     7.214       -         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       COUT     Out     0.143     7.357       -         
+temp_calc_i_1.madd_8_cry_16           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       CIN      In      0.000     7.357       -         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       COUT     Out     0.143     7.499       -         
+temp_calc_i_1.madd_8_cry_18           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       CIN      In      0.000     7.499       -         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       S0       Out     1.549     9.048       -         
+temp_calc_i_1.madd_8[27]              Net         -        -       -         -           1         
+temp_calc_i_1.temp_calc_i_pipe_55     FD1S3AX     D        In      0.000     9.048       -         
+===================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      7.842
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.737
+
+    - Propagation time:                      9.016
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.280
+
+    Number of logic level(s):                16
+    Starting point:                          comp_setting_s_fast[0] / Q
+    Ending point:                            temp_calc_i_1.temp_calc_i_pipe_55 / D
+    The start point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+comp_setting_s_fast[0]                FD1S3AX     Q        Out     1.044     1.044       -         
+comp_setting_s_fast[0]                Net         -        -       -         -           2         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       D1       In      0.000     1.044       -         
+temp_calc_i_1.madd_0_cry_0_0          CCU2D       COUT     Out     1.544     2.588       -         
+temp_calc_i_1.madd_0_cry_0            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       CIN      In      0.000     2.588       -         
+temp_calc_i_1.madd_0_cry_1_0          CCU2D       COUT     Out     0.143     2.731       -         
+temp_calc_i_1.madd_0_cry_2            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       CIN      In      0.000     2.731       -         
+temp_calc_i_1.madd_0_cry_3_0          CCU2D       COUT     Out     0.143     2.874       -         
+temp_calc_i_1.madd_0_cry_4            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       CIN      In      0.000     2.874       -         
+temp_calc_i_1.madd_0_cry_5_0          CCU2D       COUT     Out     0.143     3.017       -         
+temp_calc_i_1.madd_0_cry_6            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       CIN      In      0.000     3.017       -         
+temp_calc_i_1.madd_0_cry_7_0          CCU2D       COUT     Out     0.143     3.159       -         
+temp_calc_i_1.madd_0_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       CIN      In      0.000     3.159       -         
+temp_calc_i_1.madd_0_cry_9_0          CCU2D       S0       Out     1.621     4.780       -         
+temp_calc_i_1.madd_0[10]              Net         -        -       -         -           2         
+temp_calc_i_1.madd_8_cry_2_0          CCU2D       B1       In      0.000     4.780       -         
+temp_calc_i_1.madd_8_cry_2_0          CCU2D       COUT     Out     1.544     6.325       -         
+temp_calc_i_1.madd_8_cry_2            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_3_0          CCU2D       CIN      In      0.000     6.325       -         
+temp_calc_i_1.madd_8_cry_3_0          CCU2D       COUT     Out     0.143     6.468       -         
+temp_calc_i_1.madd_8_cry_4            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_5_0          CCU2D       CIN      In      0.000     6.468       -         
+temp_calc_i_1.madd_8_cry_5_0          CCU2D       COUT     Out     0.143     6.611       -         
+temp_calc_i_1.madd_8_cry_6            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       CIN      In      0.000     6.611       -         
+temp_calc_i_1.madd_8_cry_7_0          CCU2D       COUT     Out     0.143     6.753       -         
+temp_calc_i_1.madd_8_cry_8            Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       CIN      In      0.000     6.753       -         
+temp_calc_i_1.madd_8_cry_9_0          CCU2D       COUT     Out     0.143     6.896       -         
+temp_calc_i_1.madd_8_cry_10           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       CIN      In      0.000     6.896       -         
+temp_calc_i_1.madd_8_cry_11_0         CCU2D       COUT     Out     0.143     7.039       -         
+temp_calc_i_1.madd_8_cry_12           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       CIN      In      0.000     7.039       -         
+temp_calc_i_1.madd_8_cry_13_0         CCU2D       COUT     Out     0.143     7.182       -         
+temp_calc_i_1.madd_8_cry_14           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       CIN      In      0.000     7.182       -         
+temp_calc_i_1.madd_8_cry_15_0         CCU2D       COUT     Out     0.143     7.325       -         
+temp_calc_i_1.madd_8_cry_16           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       CIN      In      0.000     7.325       -         
+temp_calc_i_1.madd_8_cry_17_0         CCU2D       COUT     Out     0.143     7.467       -         
+temp_calc_i_1.madd_8_cry_18           Net         -        -       -         -           1         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       CIN      In      0.000     7.467       -         
+temp_calc_i_1.madd_8_s_19_0           CCU2D       S0       Out     1.549     9.016       -         
+temp_calc_i_1.madd_8[27]              Net         -        -       -         -           1         
+temp_calc_i_1.temp_calc_i_pipe_55     FD1S3AX     D        In      0.000     9.016       -         
+===================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: pll|CLKOS_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                             Arrival           
+Instance                       Reference                    Type        Pin     Net                 Time        Slack 
+                               Clock                                                                                  
+----------------------------------------------------------------------------------------------------------------------
+signal_gen.counter_fast[0]     pll|CLKOS_inferred_clock     FD1S3AX     Q       counter_fast[0]     1.044       -1.337
+signal_gen.counter[1]          pll|CLKOS_inferred_clock     FD1S3AX     Q       counter[1]          0.972       -1.123
+signal_gen.counter[2]          pll|CLKOS_inferred_clock     FD1S3AX     Q       counter[2]          0.972       -1.123
+signal_gen.counter[3]          pll|CLKOS_inferred_clock     FD1S3AX     Q       counter[3]          0.972       -0.980
+signal_gen.counter[4]          pll|CLKOS_inferred_clock     FD1S3AX     Q       counter[4]          0.972       -0.980
+signal_gen.counter[5]          pll|CLKOS_inferred_clock     FD1S3AX     Q       counter[5]          0.972       -0.837
+signal_gen.counter[6]          pll|CLKOS_inferred_clock     FD1S3AX     Q       counter[6]          0.972       -0.837
+signal_gen.counter[7]          pll|CLKOS_inferred_clock     FD1S3AX     Q       counter[7]          0.972       -0.694
+signal_gen.counter[8]          pll|CLKOS_inferred_clock     FD1S3AX     Q       counter[8]          0.972       -0.694
+signal_gen.counter[9]          pll|CLKOS_inferred_clock     FD1S3AX     Q       counter[9]          0.972       -0.551
+======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                                                       Required           
+Instance                            Reference                    Type        Pin     Net                                           Time         Slack 
+                                    Clock                                                                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------------
+signal_gen.pulse_out_1[0]           pll|CLKOS_inferred_clock     FD1S3AX     D       pulse_out_1_1[0]                              7.668        -1.337
+signal_gen.spare_out                pll|CLKOS_inferred_clock     FD1S3AX     D       spare_out_1                                   7.668        -1.337
+signal_gen.counter[5]               pll|CLKOS_inferred_clock     FD1S3AX     D       counterd_0[5]                                 7.668        -0.720
+signal_gen.counter[6]               pll|CLKOS_inferred_clock     FD1S3AX     D       counterd_0[6]                                 7.668        -0.720
+signal_gen.counter[7]               pll|CLKOS_inferred_clock     FD1S3AX     D       counterd_0[7]                                 7.668        -0.720
+signal_gen.counter[9]               pll|CLKOS_inferred_clock     FD1S3AX     D       counterd_0[9]                                 7.668        -0.720
+signal_gen.counter[10]              pll|CLKOS_inferred_clock     FD1S3AX     D       counterd_0[10]                                7.668        -0.720
+signal_gen.counter[11]              pll|CLKOS_inferred_clock     FD1S3AX     D       counterd_0[11]                                7.668        -0.720
+signal_gen.counter[13]              pll|CLKOS_inferred_clock     FD1S3AX     D       counterd_0[13]                                7.668        -0.720
+THE_IO_REG_READ\.spi_reg20_i[0]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15_0_iv_i[0]     7.473        0.782 
+======================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.579
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.668
+
+    - Propagation time:                      9.005
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.338
+
+    Number of logic level(s):                12
+    Starting point:                          signal_gen.counter_fast[0] / Q
+    Ending point:                            signal_gen.pulse_out_1[0] / D
+    The start point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+signal_gen.counter_fast[0]                FD1S3AX      Q        Out     1.044     1.044       -         
+counter_fast[0]                           Net          -        -       -         -           2         
+signal_gen.counter_1_cry_0_0              CCU2D        A1       In      0.000     1.044       -         
+signal_gen.counter_1_cry_0_0              CCU2D        COUT     Out     1.544     2.588       -         
+counter_1_cry_0                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_1_0              CCU2D        CIN      In      0.000     2.588       -         
+signal_gen.counter_1_cry_1_0              CCU2D        COUT     Out     0.143     2.731       -         
+counter_1_cry_2                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_3_0              CCU2D        CIN      In      0.000     2.731       -         
+signal_gen.counter_1_cry_3_0              CCU2D        COUT     Out     0.143     2.874       -         
+counter_1_cry_4                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_5_0              CCU2D        CIN      In      0.000     2.874       -         
+signal_gen.counter_1_cry_5_0              CCU2D        COUT     Out     0.143     3.017       -         
+counter_1_cry_6                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_7_0              CCU2D        CIN      In      0.000     3.017       -         
+signal_gen.counter_1_cry_7_0              CCU2D        COUT     Out     0.143     3.159       -         
+counter_1_cry_8                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_9_0              CCU2D        CIN      In      0.000     3.159       -         
+signal_gen.counter_1_cry_9_0              CCU2D        COUT     Out     0.143     3.302       -         
+counter_1_cry_10                          Net          -        -       -         -           1         
+signal_gen.counter_1_cry_11_0             CCU2D        CIN      In      0.000     3.302       -         
+signal_gen.counter_1_cry_11_0             CCU2D        COUT     Out     0.143     3.445       -         
+counter_1_cry_12                          Net          -        -       -         -           1         
+signal_gen.counter_1_s_13_0               CCU2D        CIN      In      0.000     3.445       -         
+signal_gen.counter_1_s_13_0               CCU2D        S0       Out     1.685     5.130       -         
+counter_1[13]                             Net          -        -       -         -           3         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     D        In      0.000     5.130       -         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     Z        Out     1.017     6.147       -         
+g0_0_1_1                                  Net          -        -       -         -           1         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     B        In      0.000     6.147       -         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     Z        Out     1.153     7.300       -         
+pulse_out6                                Net          -        -       -         -           3         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     D        In      0.000     7.300       -         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     Z        Out     1.089     8.389       -         
+counter_1_cry_1_0_RNIOJ199                Net          -        -       -         -           2         
+signal_gen.pulse_out_1_1[0]               ORCALUT4     B        In      0.000     8.389       -         
+signal_gen.pulse_out_1_1[0]               ORCALUT4     Z        Out     0.617     9.005       -         
+pulse_out_1_1[0]                          Net          -        -       -         -           1         
+signal_gen.pulse_out_1[0]                 FD1S3AX      D        In      0.000     9.005       -         
+========================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      7.579
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.668
+
+    - Propagation time:                      9.005
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.338
+
+    Number of logic level(s):                12
+    Starting point:                          signal_gen.counter_fast[0] / Q
+    Ending point:                            signal_gen.spare_out / D
+    The start point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+signal_gen.counter_fast[0]                FD1S3AX      Q        Out     1.044     1.044       -         
+counter_fast[0]                           Net          -        -       -         -           2         
+signal_gen.counter_1_cry_0_0              CCU2D        A1       In      0.000     1.044       -         
+signal_gen.counter_1_cry_0_0              CCU2D        COUT     Out     1.544     2.588       -         
+counter_1_cry_0                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_1_0              CCU2D        CIN      In      0.000     2.588       -         
+signal_gen.counter_1_cry_1_0              CCU2D        COUT     Out     0.143     2.731       -         
+counter_1_cry_2                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_3_0              CCU2D        CIN      In      0.000     2.731       -         
+signal_gen.counter_1_cry_3_0              CCU2D        COUT     Out     0.143     2.874       -         
+counter_1_cry_4                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_5_0              CCU2D        CIN      In      0.000     2.874       -         
+signal_gen.counter_1_cry_5_0              CCU2D        COUT     Out     0.143     3.017       -         
+counter_1_cry_6                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_7_0              CCU2D        CIN      In      0.000     3.017       -         
+signal_gen.counter_1_cry_7_0              CCU2D        COUT     Out     0.143     3.159       -         
+counter_1_cry_8                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_9_0              CCU2D        CIN      In      0.000     3.159       -         
+signal_gen.counter_1_cry_9_0              CCU2D        COUT     Out     0.143     3.302       -         
+counter_1_cry_10                          Net          -        -       -         -           1         
+signal_gen.counter_1_cry_11_0             CCU2D        CIN      In      0.000     3.302       -         
+signal_gen.counter_1_cry_11_0             CCU2D        COUT     Out     0.143     3.445       -         
+counter_1_cry_12                          Net          -        -       -         -           1         
+signal_gen.counter_1_s_13_0               CCU2D        CIN      In      0.000     3.445       -         
+signal_gen.counter_1_s_13_0               CCU2D        S0       Out     1.685     5.130       -         
+counter_1[13]                             Net          -        -       -         -           3         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     D        In      0.000     5.130       -         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     Z        Out     1.017     6.147       -         
+g0_0_1_1                                  Net          -        -       -         -           1         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     B        In      0.000     6.147       -         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     Z        Out     1.153     7.300       -         
+pulse_out6                                Net          -        -       -         -           3         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     D        In      0.000     7.300       -         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     Z        Out     1.089     8.389       -         
+counter_1_cry_1_0_RNIOJ199                Net          -        -       -         -           2         
+signal_gen.spare_out_1                    ORCALUT4     B        In      0.000     8.389       -         
+signal_gen.spare_out_1                    ORCALUT4     Z        Out     0.617     9.005       -         
+spare_out_1                               Net          -        -       -         -           1         
+signal_gen.spare_out                      FD1S3AX      D        In      0.000     9.005       -         
+========================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      7.579
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.668
+
+    - Propagation time:                      8.863
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.195
+
+    Number of logic level(s):                11
+    Starting point:                          signal_gen.counter_fast[0] / Q
+    Ending point:                            signal_gen.pulse_out_1[0] / D
+    The start point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+signal_gen.counter_fast[0]                FD1S3AX      Q        Out     1.044     1.044       -         
+counter_fast[0]                           Net          -        -       -         -           2         
+signal_gen.counter_1_cry_0_0              CCU2D        A1       In      0.000     1.044       -         
+signal_gen.counter_1_cry_0_0              CCU2D        COUT     Out     1.544     2.588       -         
+counter_1_cry_0                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_1_0              CCU2D        CIN      In      0.000     2.588       -         
+signal_gen.counter_1_cry_1_0              CCU2D        COUT     Out     0.143     2.731       -         
+counter_1_cry_2                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_3_0              CCU2D        CIN      In      0.000     2.731       -         
+signal_gen.counter_1_cry_3_0              CCU2D        COUT     Out     0.143     2.874       -         
+counter_1_cry_4                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_5_0              CCU2D        CIN      In      0.000     2.874       -         
+signal_gen.counter_1_cry_5_0              CCU2D        COUT     Out     0.143     3.017       -         
+counter_1_cry_6                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_7_0              CCU2D        CIN      In      0.000     3.017       -         
+signal_gen.counter_1_cry_7_0              CCU2D        COUT     Out     0.143     3.159       -         
+counter_1_cry_8                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_9_0              CCU2D        CIN      In      0.000     3.159       -         
+signal_gen.counter_1_cry_9_0              CCU2D        COUT     Out     0.143     3.302       -         
+counter_1_cry_10                          Net          -        -       -         -           1         
+signal_gen.counter_1_cry_11_0             CCU2D        CIN      In      0.000     3.302       -         
+signal_gen.counter_1_cry_11_0             CCU2D        S0       Out     1.685     4.987       -         
+counter_1[11]                             Net          -        -       -         -           3         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     B        In      0.000     4.987       -         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     Z        Out     1.017     6.004       -         
+g0_0_1_1                                  Net          -        -       -         -           1         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     B        In      0.000     6.004       -         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     Z        Out     1.153     7.157       -         
+pulse_out6                                Net          -        -       -         -           3         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     D        In      0.000     7.157       -         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     Z        Out     1.089     8.246       -         
+counter_1_cry_1_0_RNIOJ199                Net          -        -       -         -           2         
+signal_gen.pulse_out_1_1[0]               ORCALUT4     B        In      0.000     8.246       -         
+signal_gen.pulse_out_1_1[0]               ORCALUT4     Z        Out     0.617     8.863       -         
+pulse_out_1_1[0]                          Net          -        -       -         -           1         
+signal_gen.pulse_out_1[0]                 FD1S3AX      D        In      0.000     8.863       -         
+========================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      7.579
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.668
+
+    - Propagation time:                      8.863
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.195
+
+    Number of logic level(s):                11
+    Starting point:                          signal_gen.counter_fast[0] / Q
+    Ending point:                            signal_gen.pulse_out_1[0] / D
+    The start point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+signal_gen.counter_fast[0]                FD1S3AX      Q        Out     1.044     1.044       -         
+counter_fast[0]                           Net          -        -       -         -           2         
+signal_gen.counter_1_cry_0_0              CCU2D        A1       In      0.000     1.044       -         
+signal_gen.counter_1_cry_0_0              CCU2D        COUT     Out     1.544     2.588       -         
+counter_1_cry_0                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_1_0              CCU2D        CIN      In      0.000     2.588       -         
+signal_gen.counter_1_cry_1_0              CCU2D        COUT     Out     0.143     2.731       -         
+counter_1_cry_2                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_3_0              CCU2D        CIN      In      0.000     2.731       -         
+signal_gen.counter_1_cry_3_0              CCU2D        COUT     Out     0.143     2.874       -         
+counter_1_cry_4                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_5_0              CCU2D        CIN      In      0.000     2.874       -         
+signal_gen.counter_1_cry_5_0              CCU2D        COUT     Out     0.143     3.017       -         
+counter_1_cry_6                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_7_0              CCU2D        CIN      In      0.000     3.017       -         
+signal_gen.counter_1_cry_7_0              CCU2D        COUT     Out     0.143     3.159       -         
+counter_1_cry_8                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_9_0              CCU2D        CIN      In      0.000     3.159       -         
+signal_gen.counter_1_cry_9_0              CCU2D        COUT     Out     0.143     3.302       -         
+counter_1_cry_10                          Net          -        -       -         -           1         
+signal_gen.counter_1_cry_11_0             CCU2D        CIN      In      0.000     3.302       -         
+signal_gen.counter_1_cry_11_0             CCU2D        S1       Out     1.685     4.987       -         
+counter_1[12]                             Net          -        -       -         -           3         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     C        In      0.000     4.987       -         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     Z        Out     1.017     6.004       -         
+g0_0_1_1                                  Net          -        -       -         -           1         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     B        In      0.000     6.004       -         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     Z        Out     1.153     7.157       -         
+pulse_out6                                Net          -        -       -         -           3         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     D        In      0.000     7.157       -         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     Z        Out     1.089     8.246       -         
+counter_1_cry_1_0_RNIOJ199                Net          -        -       -         -           2         
+signal_gen.pulse_out_1_1[0]               ORCALUT4     B        In      0.000     8.246       -         
+signal_gen.pulse_out_1_1[0]               ORCALUT4     Z        Out     0.617     8.863       -         
+pulse_out_1_1[0]                          Net          -        -       -         -           1         
+signal_gen.pulse_out_1[0]                 FD1S3AX      D        In      0.000     8.863       -         
+========================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      7.579
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.668
+
+    - Propagation time:                      8.863
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.195
+
+    Number of logic level(s):                11
+    Starting point:                          signal_gen.counter_fast[0] / Q
+    Ending point:                            signal_gen.spare_out / D
+    The start point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+signal_gen.counter_fast[0]                FD1S3AX      Q        Out     1.044     1.044       -         
+counter_fast[0]                           Net          -        -       -         -           2         
+signal_gen.counter_1_cry_0_0              CCU2D        A1       In      0.000     1.044       -         
+signal_gen.counter_1_cry_0_0              CCU2D        COUT     Out     1.544     2.588       -         
+counter_1_cry_0                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_1_0              CCU2D        CIN      In      0.000     2.588       -         
+signal_gen.counter_1_cry_1_0              CCU2D        COUT     Out     0.143     2.731       -         
+counter_1_cry_2                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_3_0              CCU2D        CIN      In      0.000     2.731       -         
+signal_gen.counter_1_cry_3_0              CCU2D        COUT     Out     0.143     2.874       -         
+counter_1_cry_4                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_5_0              CCU2D        CIN      In      0.000     2.874       -         
+signal_gen.counter_1_cry_5_0              CCU2D        COUT     Out     0.143     3.017       -         
+counter_1_cry_6                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_7_0              CCU2D        CIN      In      0.000     3.017       -         
+signal_gen.counter_1_cry_7_0              CCU2D        COUT     Out     0.143     3.159       -         
+counter_1_cry_8                           Net          -        -       -         -           1         
+signal_gen.counter_1_cry_9_0              CCU2D        CIN      In      0.000     3.159       -         
+signal_gen.counter_1_cry_9_0              CCU2D        COUT     Out     0.143     3.302       -         
+counter_1_cry_10                          Net          -        -       -         -           1         
+signal_gen.counter_1_cry_11_0             CCU2D        CIN      In      0.000     3.302       -         
+signal_gen.counter_1_cry_11_0             CCU2D        S0       Out     1.685     4.987       -         
+counter_1[11]                             Net          -        -       -         -           3         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     B        In      0.000     4.987       -         
+signal_gen.counter_1_s_13_0_RNI6NV91      ORCALUT4     Z        Out     1.017     6.004       -         
+g0_0_1_1                                  Net          -        -       -         -           1         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     B        In      0.000     6.004       -         
+signal_gen.counter_1_s_13_0_RNISPGK4      ORCALUT4     Z        Out     1.153     7.157       -         
+pulse_out6                                Net          -        -       -         -           3         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     D        In      0.000     7.157       -         
+signal_gen.counter_1_cry_1_0_RNIOJ199     ORCALUT4     Z        Out     1.089     8.246       -         
+counter_1_cry_1_0_RNIOJ199                Net          -        -       -         -           2         
+signal_gen.spare_out_1                    ORCALUT4     B        In      0.000     8.246       -         
+signal_gen.spare_out_1                    ORCALUT4     Z        Out     0.617     8.863       -         
+spare_out_1                               Net          -        -       -         -           1         
+signal_gen.spare_out                      FD1S3AX      D        In      0.000     8.863       -         
+========================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                               Arrival             
+Instance                      Reference     Type        Pin          Net             Time        Slack   
+                              Clock                                                                      
+---------------------------------------------------------------------------------------------------------
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBACKO       wb_ack_o        0.000       1.213   
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO7      wb_dat_o[7]     0.000       4.088   
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO0      wb_dat_o[0]     0.000       7.737   
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO1      wb_dat_o[1]     0.000       7.737   
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO2      wb_dat_o[2]     0.000       7.737   
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO3      wb_dat_o[3]     0.000       7.737   
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO4      wb_dat_o[4]     0.000       7.737   
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO5      wb_dat_o[5]     0.000       7.737   
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO6      wb_dat_o[6]     0.000       7.737   
+THE_PLL.PLLInst_0             System        EHXPLLJ     CLKINTFB     CLKFB_t         0.000       1000.000
+=========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                Required          
+Instance                  Reference     Type        Pin     Net                   Time         Slack
+                          Clock                                                                     
+----------------------------------------------------------------------------------------------------
+THE_FLASH.wb_dat_i[7]     System        FD1S3DX     D       n_wb_dat_i[7]         7.931        1.213
+THE_FLASH.count[3]        System        FD1S3BX     D       n_count[3]            7.931        1.612
+THE_FLASH.count[4]        System        FD1S3DX     D       N_1720_i              7.931        1.612
+THE_FLASH.wb_dat_i[3]     System        FD1S3DX     D       n_wb_dat_i[3]         7.931        1.678
+THE_FLASH.count[1]        System        FD1S3BX     D       n_count[1]            7.931        1.755
+THE_FLASH.count[2]        System        FD1S3BX     D       n_count_0_iv_i[2]     7.931        1.755
+THE_FLASH.wb_dat_i[1]     System        FD1S3DX     D       n_wb_dat_i[1]         7.931        1.814
+THE_FLASH.sm_addr[0]      System        FD1P3DX     SP      sm_addre              7.370        2.703
+THE_FLASH.sm_addr[1]      System        FD1P3DX     SP      sm_addre              7.370        2.703
+THE_FLASH.sm_addr[2]      System        FD1P3DX     SP      sm_addre              7.370        2.703
+====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.842
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.931
+
+    - Propagation time:                      6.718
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.213
+
+    Number of logic level(s):                7
+    Starting point:                          THE_FLASH.inst1.EFBInst_0 / WBACKO
+    Ending point:                            THE_FLASH.wb_dat_i[7] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                         Pin        Pin               Arrival     No. of    
+Name                                      Type         Name       Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+THE_FLASH.inst1.EFBInst_0                 EFB          WBACKO     Out     0.000     0.000       -         
+wb_ack_o                                  Net          -          -       -         -           30        
+THE_FLASH.c_state_ns_0_i_a8_0_0[3]        ORCALUT4     B          In      0.000     0.000       -         
+THE_FLASH.c_state_ns_0_i_a8_0_0[3]        ORCALUT4     Z          Out     1.017     1.017       -         
+c_state_ns_0_i_a8_0_0[3]                  Net          -          -       -         -           1         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_a8_1[7]     ORCALUT4     D          In      0.000     1.017       -         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_a8_1[7]     ORCALUT4     Z          Out     1.017     2.034       -         
+N_1889                                    Net          -          -       -         -           1         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1_0[7]      ORCALUT4     B          In      0.000     2.034       -         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1_0[7]      ORCALUT4     Z          Out     1.017     3.050       -         
+n_wb_dat_i_2_iv_0_0_1_0[7]                Net          -          -       -         -           1         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1_2[7]      ORCALUT4     D          In      0.000     3.050       -         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1_2[7]      ORCALUT4     Z          Out     1.017     4.067       -         
+n_wb_dat_i_2_iv_0_0_1_2[7]                Net          -          -       -         -           1         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1_4[7]      ORCALUT4     C          In      0.000     4.067       -         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1_4[7]      ORCALUT4     Z          Out     1.017     5.084       -         
+n_wb_dat_i_2_iv_0_0_1_4[7]                Net          -          -       -         -           1         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1_6[7]      ORCALUT4     B          In      0.000     5.084       -         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1_6[7]      ORCALUT4     Z          Out     1.017     6.101       -         
+n_wb_dat_i_2_iv_0_0_1_6[7]                Net          -          -       -         -           1         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1[7]        ORCALUT4     D          In      0.000     6.101       -         
+THE_FLASH.n_wb_dat_i_2_iv_0_0_1[7]        ORCALUT4     Z          Out     0.617     6.718       -         
+n_wb_dat_i[7]                             Net          -          -       -         -           1         
+THE_FLASH.wb_dat_i[7]                     FD1S3DX      D          In      0.000     6.718       -         
+==========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:24s; Memory used current: 207MB peak: 238MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:24s; Memory used current: 207MB peak: 238MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_4000hc-6
+
+Register bits: 1657 of 4320 (38%)
+PIC Latch:       0
+I/O cells:       78
+Block Rams : 1 of 10 (10%)
+
+
+Details:
+BB:             1
+CCU2D:          515
+DP8KC:          1
+DPR16X4C:       4
+FD1P3AX:        920
+FD1P3AY:        1
+FD1P3BX:        1
+FD1P3DX:        14
+FD1P3IX:        45
+FD1P3JX:        1
+FD1S3AX:        574
+FD1S3AY:        6
+FD1S3BX:        4
+FD1S3DX:        27
+FD1S3IX:        25
+FD1S3JX:        2
+GSR:            1
+IB:             19
+IFS1P3DX:       19
+INV:            9
+L6MUX21:        63
+OB:             57
+OBZ:            1
+OFS1P3DX:       18
+ORCALUT4:       1048
+OSCH:           1
+PFUMX:          106
+PUR:            1
+SPR16X4C:       4
+VHI:            9
+VLO:            9
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:24s; Memory used current: 40MB peak: 238MB)
+
+Process took 0h:00m:41s realtime, 0h:00m:24s cputime
+# Mon Apr  2 11:55:41 2018
+
+###########################################################]

@@ -1,0 +1,190 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+70 potential circuit loops found in timing analysis.
+Loading design for application iotiming from file blank_trb3_periph_blank.ncd.
+Design name: trb3_periph_blank
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 9
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+Loading design for application iotiming from file blank_trb3_periph_blank.ncd.
+Design name: trb3_periph_blank
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: M
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+// Design: trb3_periph_blank
+// Package: FPBGA672
+// ncd File: blank_trb3_periph_blank.ncd
+// Version: Diamond (64-bit) 3.10.2.115
+// Written on Wed Dec 05 06:42:42 2018
+// M: Minimum Performance Grade
+// iotiming blank_trb3_periph_blank.ncd blank_trb3_periph_blank.prf -gui -msgset E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port          Clock          Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+CODE_LINE[0]  CLK_GPLL_RIGHT R     6.256      8      -1.953     M
+CODE_LINE[1]  CLK_GPLL_RIGHT R     6.228      8      -1.940     M
+FLASH_DOUT    CLK_GPLL_RIGHT R     2.110      8       2.714     8
+FPGA5_COMM[0] CLK_GPLL_RIGHT R     3.091      8      -0.757     M
+INP[0]        CLK_GPLL_RIGHT R     9.530      8      -0.594     M
+INP[10]       CLK_GPLL_RIGHT R    10.806      8      -1.072     M
+INP[11]       CLK_GPLL_RIGHT R    10.911      8      -1.072     M
+INP[12]       CLK_GPLL_RIGHT R     9.042      8      -0.480     M
+INP[13]       CLK_GPLL_RIGHT R     7.996      8      -0.394     M
+INP[14]       CLK_GPLL_RIGHT R     8.779      8      -0.376     M
+INP[15]       CLK_GPLL_RIGHT R     8.665      8      -0.162     M
+INP[16]       CLK_GPLL_RIGHT R    12.282      8      -1.146     M
+INP[17]       CLK_GPLL_RIGHT R    13.421      8      -1.424     M
+INP[18]       CLK_GPLL_RIGHT R    11.914      8      -1.147     M
+INP[19]       CLK_GPLL_RIGHT R    11.368      8      -1.300     M
+INP[1]        CLK_GPLL_RIGHT R     8.844      8      -0.310     M
+INP[20]       CLK_GPLL_RIGHT R    13.316      8      -1.401     M
+INP[21]       CLK_GPLL_RIGHT R    12.717      8      -1.471     M
+INP[22]       CLK_GPLL_RIGHT R     8.867      8      -0.429     M
+INP[23]       CLK_GPLL_RIGHT R     9.243      8      -0.506     M
+INP[24]       CLK_GPLL_RIGHT R     9.113      8      -0.520     M
+INP[25]       CLK_GPLL_RIGHT R     8.618      8      -0.789     M
+INP[26]       CLK_GPLL_RIGHT R     9.119      8      -0.481     M
+INP[27]       CLK_GPLL_RIGHT R     8.852      8      -0.538     M
+INP[28]       CLK_GPLL_RIGHT R     7.827      8      -0.323     M
+INP[29]       CLK_GPLL_RIGHT R     7.832      8      -0.252     M
+INP[2]        CLK_GPLL_RIGHT R     7.952      8      -0.408     M
+INP[30]       CLK_GPLL_RIGHT R     7.915      8      -0.265     M
+INP[31]       CLK_GPLL_RIGHT R     7.755      8      -0.645     M
+INP[32]       CLK_GPLL_RIGHT R     3.354      8      -0.942     M
+INP[33]       CLK_GPLL_RIGHT R     3.906      8      -1.080     M
+INP[34]       CLK_GPLL_RIGHT R     3.071      8      -0.697     M
+INP[35]       CLK_GPLL_RIGHT R     3.440      8      -0.839     M
+INP[36]       CLK_GPLL_RIGHT R     2.872      8      -0.762     M
+INP[37]       CLK_GPLL_RIGHT R     3.310      8      -0.865     M
+INP[38]       CLK_GPLL_RIGHT R     4.641      8      -1.377     M
+INP[39]       CLK_GPLL_RIGHT R     4.817      8      -1.377     M
+INP[3]        CLK_GPLL_RIGHT R     7.886      8      -0.638     M
+INP[40]       CLK_GPLL_RIGHT R     4.662      8      -1.365     M
+INP[41]       CLK_GPLL_RIGHT R     5.045      8      -1.582     M
+INP[42]       CLK_GPLL_RIGHT R     4.534      8      -1.175     M
+INP[43]       CLK_GPLL_RIGHT R     4.191      8      -1.274     M
+INP[44]       CLK_GPLL_RIGHT R     4.356      8      -1.274     M
+INP[45]       CLK_GPLL_RIGHT R     3.931      8      -1.165     M
+INP[46]       CLK_GPLL_RIGHT R     3.722      8      -0.919     M
+INP[47]       CLK_GPLL_RIGHT R     3.758      8      -0.953     M
+INP[4]        CLK_GPLL_RIGHT R     8.773      8      -0.562     M
+INP[5]        CLK_GPLL_RIGHT R     9.931      8      -0.562     M
+INP[6]        CLK_GPLL_RIGHT R    12.113      8      -1.201     M
+INP[7]        CLK_GPLL_RIGHT R    12.930      8      -1.366     M
+INP[8]        CLK_GPLL_RIGHT R    11.851      8      -1.171     M
+INP[9]        CLK_GPLL_RIGHT R    12.503      8      -1.259     M
+TEMPSENS      CLK_GPLL_RIGHT R     4.380      8      -0.046     M
+TEST_LINE[5]  CLK_GPLL_RIGHT R     1.113      8      -0.082     M
+TRIGGER_LEFT  CLK_GPLL_RIGHT R     4.762      8      -1.453     M
+
+
+// Clock to Output Delay
+
+Port           Clock          Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+FLASH_CLK      CLK_GPLL_RIGHT R     8.437         8        3.596          M
+FLASH_CS       CLK_GPLL_RIGHT R     8.268         8        3.588          M
+FLASH_DIN      CLK_GPLL_RIGHT R     8.437         8        3.545          M
+FPGA5_COMM[10] CLK_GPLL_RIGHT R    17.550         8        5.403          M
+FPGA5_COMM[2]  CLK_GPLL_RIGHT R    10.605         8        4.759          M
+FPGA5_COMM[7]  CLK_GPLL_RIGHT R    17.592         8        5.426          M
+FPGA5_COMM[8]  CLK_GPLL_RIGHT R    17.652         8        5.457          M
+FPGA5_COMM[9]  CLK_GPLL_RIGHT R    16.912         8        5.193          M
+OUT_pA[0]      CLK_GPLL_RIGHT R    12.917         8        3.624          M
+OUT_pA[1]      CLK_GPLL_RIGHT R    13.117         8        3.842          M
+OUT_pB[0]      CLK_GPLL_RIGHT R    16.553         8        3.541          M
+OUT_pB[1]      CLK_GPLL_RIGHT R    16.826         8        3.646          M
+OUT_pB[2]      CLK_GPLL_RIGHT R    16.786         8        3.634          M
+OUT_pC[0]      CLK_GPLL_RIGHT R    17.804         8        3.858          M
+OUT_pC[1]      CLK_GPLL_RIGHT R    15.935         8        3.155          M
+OUT_pC[2]      CLK_GPLL_RIGHT R    15.941         8        3.158          M
+PROGRAMN       CLK_GPLL_RIGHT R     7.791         8        4.024          M
+TEMPSENS       CLK_GPLL_RIGHT R     8.138         8        3.846          M
+TEST_LINE[2]   CLK_GPLL_RIGHT R     9.157         8        4.403          M
+TEST_LINE[3]   CLK_GPLL_RIGHT R     9.881         8        4.427          M
+TEST_LINE[4]   CLK_GPLL_RIGHT R     8.490         8        3.853          M
+TRIG_OUT[0]    CLK_GPLL_RIGHT R    14.503         8        2.749          M
+TRIG_OUT[1]    CLK_GPLL_RIGHT R    14.305         8        2.682          M
+TRIG_OUT[2]    CLK_GPLL_RIGHT R    15.201         8        2.880          M
+TRIG_OUT[3]    CLK_GPLL_RIGHT R    14.975         8        2.929          M
+TRIG_OUT[4]    CLK_GPLL_RIGHT R    14.777         8        2.861          M
+TRIG_OUT[5]    CLK_GPLL_RIGHT R    12.328         8        3.394          M
+TRIG_OUT[6]    CLK_GPLL_RIGHT R    12.357         8        3.587          M
+WARNING: you must also run trce with hold speed: 8
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

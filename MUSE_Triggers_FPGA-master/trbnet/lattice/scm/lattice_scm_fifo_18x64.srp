@@ -1,0 +1,43 @@
+SCUBA, Version ispLever_v70_Prod_Build (55)
+Fri Feb  8 13:40:40 2008
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2007 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : /opt/lattice/isplever7.0/isptools/ispfpga/bin/lin/scuba -w -n lattice_scm_fifo_18x64 -lang vhdl -synth synplify -bus_exp 7 -bb -arch or5s00 -type ebfifo -depth 64 -width 18 -rwidth 18 -pfu_fifo -no_enable -pe -1 -pf -1 -sync_reset -e 
+    Circuit name     : lattice_scm_fifo_18x64
+    Module type      : ebfifo
+    Module Version   : 4.2
+    Ports            : 
+	Inputs       : Data[17:0], WrClock, RdClock, WrEn, RdEn, Reset, RPReset
+	Outputs      : Q[17:0], Empty, Full
+    I/O buffer       : not inserted
+    EDIF output      : suppressed
+    VHDL output      : lattice_scm_fifo_18x64.vhd
+    VHDL template    : lattice_scm_fifo_18x64_tmpl.vhd
+    VHDL testbench    : tb_lattice_scm_fifo_18x64_tmpl.vhd
+    VHDL purpose     : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : lattice_scm_fifo_18x64.srp
+    Element Usage    :
+        DPR16X2 : 36
+        ROM16X1 : 20
+          MUX41 : 18
+           AND2 : 2
+            OR2 : 1
+           XOR2 : 12
+            INV : 4
+          FADD2 : 2
+            CU2 : 8
+          AGEB2 : 8
+        FD1P3BX : 2
+        FD1P3DX : 58
+        FD1S3BX : 1
+        FD1S3DX : 29
+    Estimated Resource Usage:
+            LUT : 89
+           DRAM : 72
+            Reg : 90

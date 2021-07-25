@@ -1,0 +1,44 @@
+[Device]
+Family=latticeecp2m
+PartType=LFE2M20E
+PartName=LFE2M20E-5F256C
+SpeedGrade=-5
+Package=FPBGA256
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=FIFO
+CoreRevision=4.7
+ModuleName=fifo_36x2k_oreg
+SourceFormat=Schematic/VHDL
+ParameterFileVersion=1.0
+Date=03/31/2010
+Time=11:36:33
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+FIFOImp=EBR Based
+Depth=2048
+Width=36
+regout=1
+CtrlByRdEn=0
+EmpFlg=0
+PeMode=Static - Dual Threshold
+PeAssert=10
+PeDeassert=12
+FullFlg=1
+PfMode=Dynamic - Single Threshold
+PfAssert=508
+PfDeassert=506
+RDataCount=1
+EnECC=0

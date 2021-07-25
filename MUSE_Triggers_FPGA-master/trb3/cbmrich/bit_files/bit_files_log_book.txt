@@ -1,0 +1,47 @@
+	FILE
+cbmrich_20120626.bit	31 channels with 32x512 FIFO. caused problems with the
+			readout, because the size of the tdc bufers are too
+			big for the endpoint buffers.
+
+cbmrich_20120705.bit	31 channels. Tdc channel buffer size is decreased to
+			32x32. During tests at gsi lab there were no
+			problems with old hades DAQ setup
+			(scntr+hub+cts). Later with trb3 hub the daq hangs
+			after few triggers.
+
+cbmrich_20120721.bit	2 channels. Recompiled to test the previous
+			problem. The DAQ runs just fine. But there is no data
+			from the reference channel. TDL line is somehow corrupt.
+
+cbmrich_20120725.bit	31 channels. Went back to the version 0.2 in order to
+			get rid of the problem with the TDL. PAR successful
+			but has to be tested (26.07.2012)
+
+cbmrich_20120802.bit	31 channels in order to test the missing events from
+			the reference channel.
+
+cbmrich_20120810.bit	32 channels.
+
+cbmrich_20120813.bit	65 channels. Channel 28, spi_dac and a debug signal in
+			endpoint don't meet the timing constraints.
+
+cbrich_20120903.bit	65 channels without any timing problems. Also some
+			bugs are fixed with the coarse counter.
+
+cbmrich_20121009.bit	5 channels test design with the new epoch counter and
+			scaler counter.
+
+cbmrich_20121010.bit	33 channel version of the cbmrich_20121009.bit
+
+cbmrich_20121025.bit	65 channel version of the new design with the epoch
+			counter.
+
+cbmrich_20121107.bit	The status registers are moved to the 0xc100 bus. Also
+			some debug counters are written to the bus 0xc200
+			0xc300 0xc400.
+
+cbmrich_20121122.bit	The channels are separated to be used for rising and
+			falling edge detection. Odd channels are for the
+			rising edge, even channels are for the falling
+			edge. Channel 0 is for the rising edge of the
+			reference signal.

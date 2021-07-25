@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.10_x64/bin/nt64/moduleparser.exe -PROJ trigger_master_tb -pf C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/ecp3.vhd -lib ecp3 -pkg C:/lscc/diamond/3.10_x64/cae_library/vhdl_packages/vdbs -lst E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/test_bench/trigger_master_tb/source_files.lst

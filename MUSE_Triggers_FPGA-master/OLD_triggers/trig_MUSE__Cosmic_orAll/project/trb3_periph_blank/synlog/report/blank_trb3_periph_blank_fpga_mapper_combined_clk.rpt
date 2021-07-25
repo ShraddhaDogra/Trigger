@@ -1,0 +1,75 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+49 non-gated/non-generated clock tree(s) driving 663 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 8073 clock pin(s) of sequential element(s)
+0 instances converted, 8073 sequential instances remain driven by gated/generated clocks
+
+==================================================================== Non-Gated/Non-Generated Clocks =====================================================================
+Clock Tree ID     Driving Element                                             Drive Element Type     Fanout     Sample Instance                                          
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0004       CLK_PCLK_RIGHT                                              port                   460        ScatterTrigger.OutpA_1[0]                                
+@K:CKID0005       THE_MEDIA_UPLINK.gen_serdes_1_200\.THE_SERDES.PCSD_INST     PCSD                   110        THE_MEDIA_UPLINK.THE_BYTE_SWAP_PROC\.fifo_rx_din[0]      
+@K:CKID0006       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[0\]\.retr[0]       
+@K:CKID0007       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[10\]\.retr[10]     
+@K:CKID0008       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[11\]\.retr[11]     
+@K:CKID0009       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[12\]\.retr[12]     
+@K:CKID0010       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[13\]\.retr[13]     
+@K:CKID0011       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[14\]\.retr[14]     
+@K:CKID0012       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[15\]\.retr[15]     
+@K:CKID0013       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[16\]\.retr[16]     
+@K:CKID0014       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[17\]\.retr[17]     
+@K:CKID0015       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[18\]\.retr[18]     
+@K:CKID0016       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[19\]\.retr[19]     
+@K:CKID0017       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[1\]\.retr[1]       
+@K:CKID0018       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[20\]\.retr[20]     
+@K:CKID0019       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[21\]\.retr[21]     
+@K:CKID0020       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[22\]\.retr[22]     
+@K:CKID0021       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[23\]\.retr[23]     
+@K:CKID0022       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[24\]\.retr[24]     
+@K:CKID0023       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[25\]\.retr[25]     
+@K:CKID0024       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[26\]\.retr[26]     
+@K:CKID0025       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[27\]\.retr[27]     
+@K:CKID0026       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[28\]\.retr[28]     
+@K:CKID0027       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[29\]\.retr[29]     
+@K:CKID0028       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[2\]\.retr[2]       
+@K:CKID0029       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[30\]\.retr[30]     
+@K:CKID0030       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[31\]\.retr[31]     
+@K:CKID0031       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[32\]\.retr[32]     
+@K:CKID0032       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[33\]\.retr[33]     
+@K:CKID0033       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[34\]\.retr[34]     
+@K:CKID0034       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[35\]\.retr[35]     
+@K:CKID0035       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[36\]\.retr[36]     
+@K:CKID0036       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[37\]\.retr[37]     
+@K:CKID0037       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[38\]\.retr[38]     
+@K:CKID0038       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[39\]\.retr[39]     
+@K:CKID0039       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[3\]\.retr[3]       
+@K:CKID0040       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[40\]\.retr[40]     
+@K:CKID0041       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[41\]\.retr[41]     
+@K:CKID0042       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[42\]\.retr[42]     
+@K:CKID0043       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[43\]\.retr[43]     
+@K:CKID0044       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[44\]\.retr[44]     
+@K:CKID0045       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[45\]\.retr[45]     
+@K:CKID0046       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[4\]\.retr[4]       
+@K:CKID0047       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[5\]\.retr[5]       
+@K:CKID0048       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[6\]\.retr[6]       
+@K:CKID0049       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[7\]\.retr[7]       
+@K:CKID0050       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[8\]\.retr[8]       
+@K:CKID0051       INP[47:0]                                                   port                   2          ScatterTrigger.ps6.iretrig.retrigger\[9\]\.retr[9]       
+@K:CKID0052       TRIGGER_LEFT                                                port                   1          THE_ENDPOINT.THE_ENDPOINT.THE_LVL1_HANDLER.tmg_edge_async
+=========================================================================================================================================================================
+==================================================================================================================== Gated/Generated Clocks ====================================================================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                                    Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       THE_MAIN_PLL.PLLInst_0     EHXPLLF                7974       THE_RDO\.readout_tx_0\.busy_release                Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       THE_MAIN_PLL.PLLInst_0     EHXPLLF                96         THE_RESET_HANDLER.async_pulse                      Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0003       ScatterTrigger.fire        ORCALUT4               3          ScatterTrigger.Latch.ireg.input_reg\[0\]\.C[0]     No clocks found on inputs                                                                                                     
+================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

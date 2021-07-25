@@ -1,0 +1,78 @@
+
+# PROHIBIT PRIMARY   NET "THE_MEDIA_INTERFACE/clk_rx_full" ;
+# PROHIBIT SECONDARY NET "THE_MEDIA_INTERFACE/clk_rx_full" ;
+# PROHIBIT PRIMARY   NET "THE_MEDIA_INTERFACE/clk_tx_full" ;
+# PROHIBIT SECONDARY NET "THE_MEDIA_INTERFACE/clk_tx_full" ;
+
+MULTICYCLE FROM CLKNET clk_sys TO CLKNET THE_PULSER/clk_slow_right 20 ns;
+MULTICYCLE FROM CLKNET clk_sys TO CLKNET THE_PULSER/clk_slow_left  20 ns;
+
+
+
+BLOCK NET "THE_PULSER/period*" ;
+BLOCK NET "THE_PULSER/length*" ;
+BLOCK NET "THE_PULSER/offset*" ;
+BLOCK NET "THE_PULSER/pulser_reset*" ;
+BLOCK NET "THE_PULSER/pulser_enable*" ;
+BLOCK NET "THE_PULSER/use_add*" ;
+
+CLOCK_TO_OUT "OUTP*" 30 NS CLKNET = "THE_PULSER/THE_LEFT_DDR/clkop";
+CLOCK_TO_OUT "OUTP*" 30 NS CLKNET = "THE_PULSER/THE_RIGHT_DDR/clkop";
+CLOCK_TO_OUT "SEL*" 40 NS CLKNET = "clk_sys";
+
+
+# REGION "REGION_PULSER_LEFT" "R2C2D" 114 36 DEVSIZE;
+UGROUP "Pulser_left" BBOX 114 30
+  BLKNAME THE_PULSER/multi_ch_pulser_left.0.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.1.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.2.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.3.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.4.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.5.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.6.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.7.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.8.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.9.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.10.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.11.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.12.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.13.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.14.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.15.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.16.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.17.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.18.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_left.19.pulser  
+  BLKNAME THE_PULSER/multi_ch_pulser_addleft.0.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_addleft.1.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_addleft.2.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_addleft.3.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_addleft.4.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_addleft.5.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_addleft.6.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_addleft.7.pulser
+#  BLKNAME THE_PULSER/multi_ch_pulser_addleft.8.pulser
+#  BLKNAME THE_PULSER/multi_ch_pulser_addleft.9.pulser
+#  BLKNAME THE_PULSER/multi_ch_pulser_addleft.10.pulser
+#  BLKNAME THE_PULSER/multi_ch_pulser_addleft.11.pulser
+#  BLKNAME THE_PULSER/multi_ch_pulser_addleft.12.pulser
+#  BLKNAME THE_PULSER/multi_ch_pulser_addleft.13.pulser
+#  BLKNAME THE_PULSER/multi_ch_pulser_addleft.14.pulser
+#  BLKNAME THE_PULSER/multi_ch_pulser_addleft.15.pulser
+  ;
+LOCATE UGROUP "Pulser_left" SITE "R2C2D";
+
+# REGION "REGION_PULSER_RIGHT" "R2C147D" 114 35 DEVSIZE;
+UGROUP "Pulser_right" BBOX 114 30
+  BLKNAME THE_PULSER/multi_ch_pulser_right.0.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_right.1.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_right.2.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_right.3.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_right.4.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_right.5.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_right.6.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_right.7.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_right.8.pulser
+  BLKNAME THE_PULSER/multi_ch_pulser_right.9.pulser
+  ;
+LOCATE UGROUP "Pulser_right" SITE "R2C142D";

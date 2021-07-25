@@ -1,0 +1,476 @@
+#####################################################################
+# Default
+#####################################################################
+  IOBUF ALLPORTS IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+#####################################################################
+# Clocks & Resets
+#####################################################################
+
+  LOCATE COMP  "ADDON_RESET"   SITE "F11";
+  IOBUF  PORT  "ADDON_RESET"   IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+  LOCATE COMP  "RESET_F3"      SITE "H11";
+  IOBUF  PORT  "RESET_F3"      IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+  LOCATE COMP  "ADO_CLK_OUT"   SITE "Y1";
+  IOBUF  PORT  "ADO_CLK_OUT"   IO_TYPE=LVDS25 PULLMODE=NONE ;
+
+  LOCATE COMP  "CLK_100_IN"    SITE "N1";  #F3_GPCLOCK100_P
+  IOBUF  PORT  "CLK_100_IN"    IO_TYPE=LVDS25 PULLMODE=NONE ;
+
+  LOCATE COMP  "CLK_125_IN"    SITE "T5";  #F3_GPCLOCK125_P
+  IOBUF  PORT  "CLK_125_IN"    IO_TYPE=LVDS25 PULLMODE=NONE ;
+
+
+#####################################################################
+# Connection to TRB
+#####################################################################
+
+  LOCATE COMP  "ADO_LV_0"     SITE "H9";
+  LOCATE COMP  "ADO_LV_1"     SITE "J10";
+  LOCATE COMP  "ADO_LV_2"     SITE "G9";
+  LOCATE COMP  "ADO_LV_3"     SITE "H8";
+  LOCATE COMP  "ADO_LV_4"     SITE "G7";
+  LOCATE COMP  "ADO_LV_5"     SITE "H6";
+  LOCATE COMP  "ADO_LV_6"     SITE "J8";
+  LOCATE COMP  "ADO_LV_7"     SITE "H7";
+  LOCATE COMP  "ADO_LV_8"     SITE "G6";
+  LOCATE COMP  "ADO_LV_9"     SITE "F5";
+  LOCATE COMP  "ADO_LV_10"    SITE "H5";
+  LOCATE COMP  "ADO_LV_11"    SITE "H4";
+  LOCATE COMP  "ADO_LV_12"    SITE "H3";
+  LOCATE COMP  "ADO_LV_13"    SITE "H2";
+  LOCATE COMP  "ADO_LV_14"    SITE "J3";
+  LOCATE COMP  "ADO_LV_15"    SITE "J2";
+  LOCATE COMP  "ADO_LV_16"    SITE "L5";
+  LOCATE COMP  "ADO_LV_17"    SITE "L4";
+  LOCATE COMP  "ADO_LV_18"    SITE "K2";
+  LOCATE COMP  "ADO_LV_19"    SITE "K1";
+  LOCATE COMP  "ADO_LV_20"    SITE "M6";
+  LOCATE COMP  "ADO_LV_21"    SITE "M5";
+  LOCATE COMP  "ADO_LV_22"    SITE "M4";
+  LOCATE COMP  "ADO_LV_23"    SITE "M3";
+  LOCATE COMP  "ADO_LV_24"    SITE "L3";
+  LOCATE COMP  "ADO_LV_25"    SITE "L2";
+  LOCATE COMP  "ADO_LV_26"    SITE "L1";
+  LOCATE COMP  "ADO_LV_27"    SITE "M2";
+  LOCATE COMP  "ADO_LV_28"    SITE "J9";
+  LOCATE COMP  "ADO_LV_29"    SITE "K9";
+  LOCATE COMP  "ADO_LV_30"    SITE "G8";
+  LOCATE COMP  "ADO_LV_31"    SITE "F8";
+  LOCATE COMP  "ADO_LV_32"    SITE "D2";
+  DEFINE PORT GROUP "ado_lv_group" "ADO_LV*" ;
+  IOBUF  GROUP "ado_lv_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN ;
+
+  LOCATE COMP  "ADO_TTL_0"    SITE "AJ14";
+  LOCATE COMP  "ADO_TTL_1"    SITE "AK14";
+  LOCATE COMP  "ADO_TTL_2"    SITE "AK15";
+  LOCATE COMP  "ADO_TTL_3"    SITE "AK16";
+  LOCATE COMP  "ADO_TTL_4"    SITE "AF18";
+  LOCATE COMP  "ADO_TTL_5"    SITE "AD16";
+  LOCATE COMP  "ADO_TTL_6"    SITE "AJ15";
+  LOCATE COMP  "ADO_TTL_7"    SITE "AG16";
+  LOCATE COMP  "ADO_TTL_8"    SITE "AC17";
+  LOCATE COMP  "ADO_TTL_9"    SITE "AE17";
+  LOCATE COMP  "ADO_TTL_10"   SITE "AH16";
+  LOCATE COMP  "ADO_TTL_11"   SITE "AK17";
+  LOCATE COMP  "ADO_TTL_12"   SITE "AG20";
+  LOCATE COMP  "ADO_TTL_13"   SITE "AG21";
+  LOCATE COMP  "ADO_TTL_14"   SITE "AG18";
+  LOCATE COMP  "ADO_TTL_15"   SITE "AJ16";
+  LOCATE COMP  "ADO_TTL_16"   SITE "AF21";
+  LOCATE COMP  "ADO_TTL_17"   SITE "AG22";
+  LOCATE COMP  "ADO_TTL_18"   SITE "AD17";
+  LOCATE COMP  "ADO_TTL_19"   SITE "AF19";
+  LOCATE COMP  "ADO_TTL_20"   SITE "AH17";
+  LOCATE COMP  "ADO_TTL_21"   SITE "AJ17";
+  LOCATE COMP  "ADO_TTL_22"   SITE "AF26";
+  LOCATE COMP  "ADO_TTL_23"   SITE "AE25";
+  LOCATE COMP  "ADO_TTL_24"   SITE "AD24";
+  LOCATE COMP  "ADO_TTL_25"   SITE "AE24";
+  LOCATE COMP  "ADO_TTL_26"   SITE "AD18";
+  LOCATE COMP  "ADO_TTL_27"   SITE "AC18";
+  LOCATE COMP  "ADO_TTL_28"   SITE "AE18";
+  LOCATE COMP  "ADO_TTL_29"   SITE "AG19";
+  LOCATE COMP  "ADO_TTL_30"   SITE "AC19";
+  LOCATE COMP  "ADO_TTL_31"   SITE "AD20";
+  LOCATE COMP  "ADO_TTL_32"   SITE "AB18";
+  DEFINE PORT GROUP "ado_ttl_group" "ADO_TTL*" ;
+  IOBUF  GROUP "ado_ttl_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+
+#####################################################################
+# LED
+#####################################################################
+
+  LOCATE COMP  "DADC_OFF"   SITE "AF11";
+  LOCATE COMP  "DBUSY"      SITE "AG11";
+  LOCATE COMP  "DEADTIME"   SITE "AH15";
+  LOCATE COMP  "DTRIGGER"   SITE "AE16";
+  LOCATE COMP  "DWAIT"      SITE "AC16";
+
+  IOBUF  PORT  "DADC_OFF" IO_TYPE=LVCMOS25 PULLMODE=UP ;
+  IOBUF  PORT  "DBUSY"    IO_TYPE=LVCMOS25 PULLMODE=UP ;
+  IOBUF  PORT  "DEADTIME" IO_TYPE=LVCMOS25 PULLMODE=UP ;
+  IOBUF  PORT  "DTRIGGER" IO_TYPE=LVCMOS25 PULLMODE=UP ;
+  IOBUF  PORT  "DWAIT"    IO_TYPE=LVCMOS25 PULLMODE=UP ;
+
+
+#####################################################################
+# To FPGA 1
+#####################################################################
+
+  LOCATE COMP  "F1_F3_0"     SITE "M30";
+  LOCATE COMP  "F1_F3_1"     SITE "M29";
+  LOCATE COMP  "F1_F3_2"     SITE "P23";
+  LOCATE COMP  "F1_F3_3"     SITE "P24";
+  LOCATE COMP  "F1_F3_4"     SITE "R26";
+  LOCATE COMP  "F1_F3_5"     SITE "P27";
+  LOCATE COMP  "F1_F3_6"     SITE "P25";
+  LOCATE COMP  "F1_F3_7"     SITE "P26";
+  LOCATE COMP  "F1_F3_8"     SITE "K30";
+  LOCATE COMP  "F1_F3_9"     SITE "K29";
+  LOCATE COMP  "F1_F3_10"    SITE "N22";
+  LOCATE COMP  "F1_F3_11"    SITE "P22";
+  LOCATE COMP  "F1_F3_12"    SITE "J30";
+  LOCATE COMP  "F1_F3_13"    SITE "J29";
+  LOCATE COMP  "F1_F3_14"    SITE "N24";
+  LOCATE COMP  "F1_F3_15"    SITE "N23";
+  LOCATE COMP  "F1_F3_16"    SITE "N25";
+  LOCATE COMP  "F1_F3_17"    SITE "N26";
+  LOCATE COMP  "F1_F3_18"    SITE "M27";
+  LOCATE COMP  "F1_F3_19"    SITE "M28";
+  LOCATE COMP  "F1_F3_20"    SITE "H30";
+  LOCATE COMP  "F1_F3_21"    SITE "G30";
+  LOCATE COMP  "F1_F3_22"    SITE "M25";
+#  LOCATE COMP  "F1_F3_23"    SITE "M26"; ONEWIRE_MONITOR_F1_OUT
+  DEFINE PORT GROUP "f1f3_group" "F1_F3*" ;
+  IOBUF  GROUP "f1f3_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+
+#####################################################################
+# To FPGA 2
+#####################################################################
+
+  LOCATE COMP  "F2_F3_0"     SITE "H29";
+  LOCATE COMP  "F2_F3_1"     SITE "G29";
+  LOCATE COMP  "F2_F3_2"     SITE "L22";
+  LOCATE COMP  "F2_F3_3"     SITE "M22";
+  LOCATE COMP  "F2_F3_4"     SITE "F30";
+  LOCATE COMP  "F2_F3_5"     SITE "F29";
+  LOCATE COMP  "F2_F3_6"     SITE "E30";
+  LOCATE COMP  "F2_F3_7"     SITE "E29";
+  LOCATE COMP  "F2_F3_8"     SITE "L25";
+  LOCATE COMP  "F2_F3_9"     SITE "L26";
+  LOCATE COMP  "F2_F3_10"    SITE "H28";
+  LOCATE COMP  "F2_F3_11"    SITE "J28";
+  LOCATE COMP  "F2_F3_12"    SITE "G28";
+  LOCATE COMP  "F2_F3_13"    SITE "G27";
+  LOCATE COMP  "F2_F3_14"    SITE "K23";
+  LOCATE COMP  "F2_F3_15"    SITE "K22";
+  LOCATE COMP  "F2_F3_16"    SITE "J22";
+  LOCATE COMP  "F2_F3_17"    SITE "J23";
+  LOCATE COMP  "F2_F3_18"    SITE "G24";
+  LOCATE COMP  "F2_F3_19"    SITE "H25";
+  LOCATE COMP  "F2_F3_20"    SITE "D27";
+  LOCATE COMP  "F2_F3_21"    SITE "E27";
+  LOCATE COMP  "F2_F3_22"    SITE "F26";
+# LOCATE COMP  "F2_F3_23"    SITE "G25"; ONEWIRE_MONITOR_F2_OUT
+  DEFINE PORT GROUP "f2f3_group" "F2_F3*" ;
+  IOBUF  GROUP "f2f3_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+#####################################################################
+# To Etrax
+#####################################################################
+
+
+  LOCATE COMP  "FS_PE_5"    SITE "B12";
+  LOCATE COMP  "FS_PE_6"    SITE "A12";
+  LOCATE COMP  "FS_PE_7"    SITE "B8";
+  LOCATE COMP  "FS_PE_8"    SITE "A8";
+  LOCATE COMP  "FS_PE_9"    SITE "B9";
+  LOCATE COMP  "FS_PE_10"   SITE "A9";
+  LOCATE COMP  "FS_PE_11"   SITE "B11";
+  LOCATE COMP  "FS_PE_12"   SITE "A11";
+  LOCATE COMP  "FS_PE_13"   SITE "E7";
+  LOCATE COMP  "FS_PE_14"   SITE "D7";
+  LOCATE COMP  "FS_PE_15"   SITE "B6";
+  LOCATE COMP  "FS_PE_16"   SITE "A6";
+  LOCATE COMP  "FS_PE_17"   SITE "B5";
+  DEFINE PORT GROUP "fs_pe_group" "FS_PE*" ;
+  IOBUF  GROUP "fs_pe_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+
+#####################################################################
+# RAM 1
+#####################################################################
+
+  LOCATE COMP  "RAM1_A_0"     SITE "R3";  #A_0
+  LOCATE COMP  "RAM1_A_1"     SITE "R2";  #A_1
+  LOCATE COMP  "RAM1_A_2"     SITE "R1";  #AI_1
+  LOCATE COMP  "RAM1_A_3"     SITE "T1";  #AI_2
+  LOCATE COMP  "RAM1_A_4"     SITE "T3";  #AI_3
+  LOCATE COMP  "RAM1_A_5"     SITE "T2";  #AI_4
+  LOCATE COMP  "RAM1_A_6"     SITE "U9";  #AI_5
+  LOCATE COMP  "RAM1_A_7"     SITE "U8";  #AI_6
+  LOCATE COMP  "RAM1_A_8"     SITE "U5";  #AI_7
+  LOCATE COMP  "RAM1_A_9"     SITE "U4";  #AI_8
+  LOCATE COMP  "RAM1_A_10"    SITE "V9";  #AI_9
+  LOCATE COMP  "RAM1_A_11"    SITE "V7";  #AI_10
+  LOCATE COMP  "RAM1_A_12"    SITE "U3";  #AI_11
+  LOCATE COMP  "RAM1_A_13"    SITE "U2";  #AI_12
+  LOCATE COMP  "RAM1_A_14"    SITE "V8";  #AI_13
+  LOCATE COMP  "RAM1_A_15"    SITE "U6";  #AI_14
+  LOCATE COMP  "RAM1_A_16"    SITE "U1";  #AI_15
+  LOCATE COMP  "RAM1_A_17"    SITE "V2";  #AI_16
+  LOCATE COMP  "RAM1_A_18"    SITE "V5";  #AI_17
+  LOCATE COMP  "RAM1_A_19"    SITE "V6";  #AI_18
+  LOCATE COMP  "RAM1_DQ_0"    SITE "AC1";  # DQPA
+  LOCATE COMP  "RAM1_DQ_1"    SITE "AC2";  # DQA_1
+  LOCATE COMP  "RAM1_DQ_2"    SITE "AC4";  # DQA_2
+  LOCATE COMP  "RAM1_DQ_3"    SITE "AC3";  # DQA_3
+  LOCATE COMP  "RAM1_DQ_4"    SITE "AC7";  # DQA_4
+  LOCATE COMP  "RAM1_DQ_5"    SITE "AC6";  # DQA_5
+  LOCATE COMP  "RAM1_DQ_6"    SITE "AC5";  # DQA_6
+  LOCATE COMP  "RAM1_DQ_7"    SITE "AD3";  # DQA_7
+  LOCATE COMP  "RAM1_DQ_8"    SITE "AD2";  # DQA_8
+  LOCATE COMP  "RAM1_DQ_9"    SITE "AD1";  # DQPB
+  LOCATE COMP  "RAM1_DQ_10"   SITE "AD4";  # DQB_1
+  LOCATE COMP  "RAM1_DQ_11"   SITE "AD5";  # DQB_2
+  LOCATE COMP  "RAM1_DQ_12"   SITE "AE5";  # DQB_3
+  LOCATE COMP  "RAM1_DQ_13"   SITE "AF5";  # DQB_4
+  LOCATE COMP  "RAM1_DQ_14"   SITE "AE6";  # DQB_5
+  LOCATE COMP  "RAM1_DQ_15"   SITE "AC8";  # DQB_6
+  LOCATE COMP  "RAM1_DQ_16"   SITE "AD6";  # DQB_7
+  LOCATE COMP  "RAM1_DQ_17"   SITE "AE7";  # DQB_8
+  LOCATE COMP  "RAM1_ADSCB"   SITE "W6";
+  LOCATE COMP  "RAM1_ADSPB"   SITE "W3";
+  LOCATE COMP  "RAM1_ADVB"    SITE "AD7";
+  LOCATE COMP  "RAM1_CE"      SITE "W5";
+  LOCATE COMP  "RAM1_CLK"     SITE "V1";
+  LOCATE COMP  "RAM1_GWB"     SITE "W1";
+  LOCATE COMP  "RAM1_OEB"     SITE "AD8";
+
+  DEFINE PORT GROUP "ram1_group" "RAM1_*" ;
+  IOBUF  GROUP "ram1_group" IO_TYPE=LVCMOS25 PULLMODE=UP ;
+
+
+#####################################################################
+# RAM 2
+#####################################################################
+
+  LOCATE COMP  "RAM2_A_0"     SITE "AF10";  #A_0
+  LOCATE COMP  "RAM2_A_1"     SITE "AE8";   #A_1
+  LOCATE COMP  "RAM2_A_2"     SITE "AE11";  #AI_1
+  LOCATE COMP  "RAM2_A_3"     SITE "AD9";   #AI_2
+  LOCATE COMP  "RAM2_A_4"     SITE "AE10";  #AI_3
+  LOCATE COMP  "RAM2_A_5"     SITE "AD10";  #AI_4
+  LOCATE COMP  "RAM2_A_6"     SITE "AE13";  #AI_5
+  LOCATE COMP  "RAM2_A_7"     SITE "AC12";  #AI_6
+  LOCATE COMP  "RAM2_A_8"     SITE "AG2";   #AI_7
+  LOCATE COMP  "RAM2_A_9"     SITE "AG3";   #AI_8
+  LOCATE COMP  "RAM2_A_10"    SITE "AD13";  #AI_9
+  LOCATE COMP  "RAM2_A_11"    SITE "AC13";  #AI_10
+  LOCATE COMP  "RAM2_A_12"    SITE "AE14";  #AI_11
+  LOCATE COMP  "RAM2_A_13"    SITE "AC14";  #AI_12
+  LOCATE COMP  "RAM2_A_14"    SITE "AF3";   #AI_13
+  LOCATE COMP  "RAM2_A_15"    SITE "AF4";   #AI_14
+  LOCATE COMP  "RAM2_A_16"    SITE "AK2";   #AI_15
+  LOCATE COMP  "RAM2_A_17"    SITE "AJ2";   #AI_16
+  LOCATE COMP  "RAM2_A_18"    SITE "AK3";   #AI_17
+  LOCATE COMP  "RAM2_A_19"    SITE "AJ3";   #AI_18
+  LOCATE COMP  "RAM2_DQ_0"    SITE "AK8";    # DQPA
+  LOCATE COMP  "RAM2_DQ_1"    SITE "AJ8";    # DQA_1
+  LOCATE COMP  "RAM2_DQ_2"    SITE "AK9";    # DQA_2
+  LOCATE COMP  "RAM2_DQ_3"    SITE "AJ9";    # DQA_3
+  LOCATE COMP  "RAM2_DQ_4"    SITE "AK11";   # DQA_4
+  LOCATE COMP  "RAM2_DQ_5"    SITE "AJ11";   # DQA_5
+  LOCATE COMP  "RAM2_DQ_6"    SITE "AK12";   # DQA_6
+  LOCATE COMP  "RAM2_DQ_7"    SITE "AJ12";   # DQA_7
+  LOCATE COMP  "RAM2_DQ_8"    SITE "AG4";    # DQA_8
+  LOCATE COMP  "RAM2_DQ_9"    SITE "AG5";    # DQPB
+  LOCATE COMP  "RAM2_DQ_10"   SITE "AD11";   # DQB_1
+  LOCATE COMP  "RAM2_DQ_11"   SITE "AF13";   # DQB_2
+  LOCATE COMP  "RAM2_DQ_12"   SITE "AF12";   # DQB_3
+  LOCATE COMP  "RAM2_DQ_13"   SITE "AD14";   # DQB_4
+  LOCATE COMP  "RAM2_DQ_14"   SITE "AG8";    # DQB_5
+  LOCATE COMP  "RAM2_DQ_15"   SITE "AF8";    # DQB_6
+  LOCATE COMP  "RAM2_DQ_16"   SITE "AE15";   # DQB_7
+  LOCATE COMP  "RAM2_DQ_17"   SITE "AC15";   # DQB_8
+  LOCATE COMP  "RAM2_CE"      SITE "AD15";
+  LOCATE COMP  "RAM2_CLK"     SITE "AK5";
+  LOCATE COMP  "RAM2_ADSCB"   SITE "AH14";
+  LOCATE COMP  "RAM2_ADSPB"   SITE "AG9";
+  LOCATE COMP  "RAM2_ADVB"    SITE "AG10";
+  LOCATE COMP  "RAM2_GWB"     SITE "AJ5";
+  LOCATE COMP  "RAM2_OEB"     SITE "AF15";
+
+  DEFINE PORT GROUP "ram2_group" "RAM2_*" ;
+  IOBUF  GROUP "ram2_group" IO_TYPE=LVCMOS25 PULLMODE=UP ;
+
+#####################################################################
+# RAM JTAG
+#####################################################################
+  LOCATE COMP  "M1I"        SITE "AF7";
+  LOCATE COMP  "M2O"        SITE "AG7";
+  LOCATE COMP  "MEM_TCK"    SITE "AJ6";
+  LOCATE COMP  "MEM_TMS"    SITE "AK6";
+
+  IOBUF  PORT  "M1I"     IO_TYPE=LVCMOS25 PULLMODE=DOWN ;
+  IOBUF  PORT  "M2O"     IO_TYPE=LVCMOS25 PULLMODE=DOWN ;
+  IOBUF  PORT  "MEM_TCK" IO_TYPE=LVCMOS25 PULLMODE=DOWN ;
+  IOBUF  PORT  "MEM_TMS" IO_TYPE=LVCMOS25 PULLMODE=DOWN ;
+
+
+#####################################################################
+# Serdes Control & LED
+#####################################################################
+  LOCATE COMP  "TRBNET_LOS"      SITE "D26";
+  LOCATE COMP  "TRBNET_MOD_0"    SITE "E26";
+  LOCATE COMP  "TRBNET_MOD_1"    SITE "E23";
+  LOCATE COMP  "TRBNET_MOD_2"    SITE "G22";
+# LOCATE COMP  "TRB_RATE_SEL" SITE "D22";
+  LOCATE COMP  "TRBNET_TXDIS"    SITE "E21";
+# LOCATE COMP  "TRB_TX_FAULT" SITE "D23";
+
+  LOCATE COMP  "TRBNET_OK"   SITE "G16";
+  LOCATE COMP  "TRBNET_RX"   SITE "H16";
+  LOCATE COMP  "TRBNET_TX"   SITE "F16";
+
+  DEFINE PORT GROUP "trb__group" "TRBNET_*" ;
+  IOBUF  GROUP "trb__group" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+
+
+
+
+  LOCATE COMP  "GBE_LOS"      SITE "A17";
+  LOCATE COMP  "GBE_MOD_0"    SITE "B17";
+  LOCATE COMP  "GBE_MOD_1"    SITE "A16";
+  LOCATE COMP  "GBE_MOD_2"    SITE "B16";
+# LOCATE COMP  "GBE_RATE_SEL" SITE "G17";
+  LOCATE COMP  "GBE_TXDIS"    SITE "C17";
+# LOCATE COMP  "GBE_TX_FAULT" SITE "D18";
+  LOCATE COMP  "GBE_OK"    SITE "F21";
+  LOCATE COMP  "GBE_RX"    SITE "G18";
+  LOCATE COMP  "GBE_TX"    SITE "H18";
+
+
+  DEFINE PORT GROUP "gbe_group" "G_*" ;
+  IOBUF  GROUP "gbe_group" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+
+#####################################################################
+# Displays
+#####################################################################
+  LOCATE COMP  "SLR_A_0"    SITE "C16";
+  LOCATE COMP  "SLR_A_1"    SITE "G15";
+  LOCATE COMP  "SLR_D_0"    SITE "D16";
+  LOCATE COMP  "SLR_D_1"    SITE "J15";
+  LOCATE COMP  "SLR_D_2"    SITE "H15";
+  LOCATE COMP  "SLR_D_3"    SITE "A15";
+  LOCATE COMP  "SLR_D_4"    SITE "B15";
+  LOCATE COMP  "SLR_D_5"    SITE "F15";
+  LOCATE COMP  "SLR_D_6"    SITE "E16";
+  LOCATE COMP  "SLR_RW"     SITE "J16";
+  DEFINE PORT GROUP "slr_group" "SLR_*" ;
+  IOBUF  GROUP "slr_group" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+  LOCATE COMP  "DIS1_0"    SITE "U29";
+  LOCATE COMP  "DIS1_1"    SITE "V29";
+  LOCATE COMP  "DIS1_2"    SITE "V30";
+  LOCATE COMP  "DIS2_0"    SITE "U27";
+  LOCATE COMP  "DIS2_1"    SITE "U23";
+  LOCATE COMP  "DIS2_2"    SITE "V23";
+  DEFINE PORT GROUP "dis_group" "DIS*" ;
+  IOBUF  GROUP "dis_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+
+#####################################################################
+# Temperature Sensor
+#####################################################################
+  LOCATE COMP  "ONEWIRE"    SITE "E18";  #TEMP_LINE
+  IOBUF  PORT  "ONEWIRE" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+  LOCATE COMP  "ONEWIRE_MONITOR_OUT_1"    SITE "M26";
+  LOCATE COMP  "ONEWIRE_MONITOR_OUT_2"    SITE "G25";
+  IOBUF  PORT  "ONEWIRE_MONITOR_OUT_1" IO_TYPE=LVTTL33 PULLMODE=UP ;
+  IOBUF  PORT  "ONEWIRE_MONITOR_OUT_2" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+
+#####################################################################
+# Flash & Reboot Control
+#####################################################################
+  LOCATE COMP  "PROGRAMB"   SITE "D11";   # PGRAMN_F_3
+  IOBUF  PORT  "PROGRAMB" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+  LOCATE COMP  "SPI_CLK_OUT"  SITE "E20"; # L3_SPI_F3CLK
+  LOCATE COMP  "SPI_CS_OUT"   SITE "D21"; # L3_SPI_F3CS
+  LOCATE COMP  "SPI_SO_IN"    SITE "D19"; # L3_SPI_F3OUT
+  LOCATE COMP  "SPI_SI_OUT"   SITE "E19"; # L3_SPI_F3IN
+  DEFINE PORT GROUP "spi_group" "SPI_*" ;
+  IOBUF  GROUP "spi_group" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+
+#####################################################################
+# Trigger
+#####################################################################
+  LOCATE COMP  "HOLD"        SITE "F24";
+  LOCATE COMP  "RESERVE_0"   SITE "L28";
+  LOCATE COMP  "RESERVE_1"   SITE "L27";
+  LOCATE COMP  "SPARE_INP"   SITE "F25";
+
+  IOBUF  PORT  "HOLD"      IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+  IOBUF  PORT  "RESERVE_0" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+  IOBUF  PORT  "RESERVE_1" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+  IOBUF  PORT  "SPARE_INP" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+
+#####################################################################
+# Other, fixed Ports
+#####################################################################
+# LOCATE COMP  "FS_PE_1"      SITE "AF2";
+# LOCATE COMP  "FS_PE_2"      SITE "AE2";
+# LOCATE COMP  "F3O"          SITE "AF1";
+# LOCATE COMP  "F2O_F3I"      SITE "AE1";
+# LOCATE COMP  "F3_CFG_0"     SITE "AG28";
+# LOCATE COMP  "F3_CFG_1"     SITE "AD25";
+# LOCATE COMP  "F3_CFG_2"     SITE "AG27";
+# LOCATE COMP  "SPI_F3CLK"    SITE "AG29";
+# LOCATE COMP  "SPI_F3CS"     SITE "AA22";
+# LOCATE COMP  "SPI_F3IN"     SITE "AA23";
+# LOCATE COMP  "SPI_F3OUT"    SITE "AD30";
+# LOCATE COMP  "SPI_FAST_3"   SITE "AF29";
+# LOCATE COMP  "INITN_F_3"    SITE "AC24";
+# LOCATE COMP  "DONE_F_3"   SITE "AF27";
+#
+#These pins are mirrored in RX/TX! VHDL uses right names.
+# LOCATE COMP  "F1_100_RXN"   SITE "B23";
+# LOCATE COMP  "F1_100_RXP"   SITE "A23";
+# LOCATE COMP  "F1_100_TXN"   SITE "B20";
+# LOCATE COMP  "F1_100_TXP"   SITE "A20";
+# LOCATE COMP  "F1_125_RXN"   SITE "AJ23";
+# LOCATE COMP  "F1_125_RXP"   SITE "AK23";
+# LOCATE COMP  "F1_125_TXN"   SITE "AJ20";
+# LOCATE COMP  "F1_125_TXP"   SITE "AK20";
+#
+# LOCATE COMP  "F2_100_RXN"   SITE "B22";
+# LOCATE COMP  "F2_100_RXP"   SITE "A22";
+# LOCATE COMP  "F2_100_TXN"   SITE "B19";
+# LOCATE COMP  "F2_100_TXP"   SITE "A19";
+# LOCATE COMP  "F2_125_RXN"   SITE "AJ22";
+# LOCATE COMP  "F2_125_RXP"   SITE "AK22";
+# LOCATE COMP  "F2_125_TXN"   SITE "AJ19";
+# LOCATE COMP  "F2_125_TXP"   SITE "AK19";
+
+#####################################################################
+# Basic constraints
+#####################################################################
+  COMMERCIAL ;
+  BLOCK RESETPATHS ;
+  BLOCK ASYNCPATHS ;
+  BLOCK RD_DURING_WR_PATHS ;
+
+  FREQUENCY PORT CLK_100_IN 100.000000 MHz ;
+  FREQUENCY PORT CLK_125_IN 125.000000 MHz ;

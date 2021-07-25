@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "padiwalcd_padiwalcd.log"
+-o "padiwalcd_padiwalcd.csv"
+-pr "padiwalcd_padiwalcd.prf"

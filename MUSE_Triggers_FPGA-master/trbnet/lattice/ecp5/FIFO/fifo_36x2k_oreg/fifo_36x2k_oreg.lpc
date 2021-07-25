@@ -1,0 +1,50 @@
+[Device]
+Family=ecp5um
+PartType=LFE5UM-85F
+PartName=LFE5UM-85F-8MG285C
+SpeedGrade=8
+Package=CSFBGA285
+OperatingCondition=COM
+Status=C
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=FIFO
+CoreRevision=5.0
+ModuleName=fifo_36x2k_oreg
+SourceFormat=VHDL
+ParameterFileVersion=1.0
+Date=03/20/2015
+Time=11:39:22
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+FIFOImp=EBR Based
+Depth=2048
+Width=36
+regout=1
+CtrlByRdEn=0
+EmpFlg=0
+PeMode=Static - Dual Threshold
+PeAssert=10
+PeDeassert=12
+FullFlg=1
+PfMode=Dynamic - Single Threshold
+PfAssert=508
+PfDeassert=506
+Reset=Async
+Reset1=Sync
+RDataCount=1
+EnECC=0
+EnFWFT=0
+
+[Command]
+cmd_line= -w -n fifo_36x2k_oreg -lang vhdl -synth synplify -bus_exp 7 -bb -arch sa5p00m -type ebfifo -sync_mode -depth 2048 -width 36 -regout -no_enable -pe -1 -pf 0 -reset_rel SYNC -fill

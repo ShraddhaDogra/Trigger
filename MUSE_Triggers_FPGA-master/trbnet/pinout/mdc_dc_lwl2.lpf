@@ -1,0 +1,129 @@
+COMMERCIAL ;
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+
+#################################################################
+# Constraints
+#################################################################
+ FREQUENCY PORT CLK 25.000000 MHz;
+
+ IOBUF ALLPORTS IO_TYPE=LVTTL33 PULLMODE=NONE ;
+
+
+
+#################################################################
+#Clocks
+#################################################################
+ LOCATE COMP  "CLK"    SITE "T7";
+#LOCATE COMP  "CLK_N"    SITE "T8";
+ IOBUF PORT "CLK" IO_TYPE=LVDS25;
+
+
+#################################################################
+#LED
+#################################################################
+ LOCATE COMP  "D_1"    SITE "F1";
+ LOCATE COMP  "D_2"    SITE "G1";
+ LOCATE COMP  "D_3"    SITE "B1";
+ LOCATE COMP  "D_4"    SITE "C1";
+
+
+#################################################################
+#SPI
+#################################################################
+#LOCATE COMP  "SPIFASTN"  SITE "N15";
+#LOCATE COMP  "SPI_CLK"   SITE "J11";
+#LOCATE COMP  "SPI_CS"    SITE "J16";
+#LOCATE COMP  "SPI_DIN"   SITE "G16";
+#LOCATE COMP  "SPI_SI"    SITE "J15";
+
+
+
+#################################################################
+#Misc TTL Ports
+#################################################################
+ LOCATE COMP  "TAD_0"    SITE "P8";
+ LOCATE COMP  "TAD_1"    SITE "N8";
+ LOCATE COMP  "TAD_2"    SITE "R7";
+ LOCATE COMP  "TAD_3"    SITE "R8";
+ LOCATE COMP  "TAD_4"    SITE "N7";
+ LOCATE COMP  "TAD_5"    SITE "M8";
+ LOCATE COMP  "TAD_6"    SITE "R9";
+ LOCATE COMP  "TAD_7"    SITE "T9";
+ LOCATE COMP  "TAD_8"    SITE "R10";
+
+ LOCATE COMP  "ADI0"       SITE "L9";
+ LOCATE COMP  "ADI1"       SITE "M9";
+ LOCATE COMP  "CMS"        SITE "R2";
+#LOCATE COMP  "CLK_FF"     SITE "D15";
+#LOCATE COMP  "CS_1"       SITE "E12";
+#LOCATE COMP  "CS_2"       SITE "F11";
+#LOCATE COMP  "DATA_FF"    SITE "D16";
+
+ LOCATE COMP  "GDE"        SITE "F16";
+#LOCATE COMP  "INITN"      SITE "H11";
+ LOCATE COMP  "MODD"       SITE "P3";
+ LOCATE COMP  "MRES"       SITE "P1";
+#LOCATE COMP  "PROGRAMN"   SITE "N12";
+ LOCATE COMP  "RDYI"       SITE "P16";         #token IN respect OEPB
+ LOCATE COMP  "RES"        SITE "P4";
+ LOCATE COMP  "TACK"       SITE "P14";
+#LOCATE COMP  "TADS_0"     SITE "N9";
+#LOCATE COMP  "TADS_1"     SITE "P10";
+ LOCATE COMP  "TAOD"       SITE "T5";
+#LOCATE COMP  "TCDE_0"     SITE "R13";
+#LOCATE COMP  "TDRA"       SITE "N10";
+#LOCATE COMP  "TDRB"       SITE "T14";
+#LOCATE COMP  "TDRE"       SITE "R11";
+ LOCATE COMP  "TDST"       SITE "R16";
+#LOCATE COMP  "TENB"       SITE "T11";
+#LOCATE COMP  "TENR"       SITE "T13";
+ LOCATE COMP  "TOK"        SITE "P2";
+#LOCATE COMP  "TOR"        SITE "R14";
+ LOCATE COMP  "TRDYO"      SITE "P15";         #token IN respect OEPB
+#LOCATE COMP  "TREN"       SITE "T12";
+ LOCATE COMP  "TRSV"       SITE "T4";          #reserv 11th bit of dataword
+ LOCATE COMP  "WRM"        SITE "R15";
+
+
+
+#################################################################
+#Misc LVDS Ports
+#################################################################
+#LOCATE COMP  "COM_STOP_P" SITE "H4";
+#LOCATE COMP  "COM_STOP_N" SITE "H5";
+ IOBUF PORT "COM_STOP_P" IO_TYPE=LVDS25;
+
+
+#################################################################
+#Logic Analyzer Connection (Jan)
+#################################################################
+ LOCATE COMP  "LB_0"       SITE "L9";
+ LOCATE COMP  "LB_1"       SITE "M9";
+ LOCATE COMP  "LB_2"       SITE "N10";
+ LOCATE COMP  "LB_3"       SITE "T13";
+ LOCATE COMP  "LB_4"       SITE "T14";
+ LOCATE COMP  "LB_5"       SITE "T11";
+ LOCATE COMP  "LB_6"       SITE "R11";
+ LOCATE COMP  "LB_7"       SITE "T12";
+
+#################################################################
+# 1-wire
+#################################################################
+ LOCATE COMP  "ONEWIRE"    SITE "R1";          #Temperature Sensor
+ IOBUF PORT "ONEWIRE" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+#################################################################
+#Optical Link Status
+#################################################################
+ LOCATE COMP  "SD"         SITE "G14";         #FOT signal detect
+
+
+#################################################################
+#JTAG
+#################################################################
+#LOCATE COMP  "TDA"        SITE "L5";
+#LOCATE COMP  "TCK"        SITE "K6";
+#LOCATE COMP  "TMS"        SITE "N4";
+#LOCATE COMP  "TDZ"        SITE "N6";
+

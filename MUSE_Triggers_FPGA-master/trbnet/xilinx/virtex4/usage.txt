@@ -1,0 +1,3 @@
+Use fifos with ise / xst:
+The xco files can directly be included to your project on ise9.1.
+For earlier ise versions, the ngc files have to be copied to the project directory, the corresponding xco files must not be included in this case.

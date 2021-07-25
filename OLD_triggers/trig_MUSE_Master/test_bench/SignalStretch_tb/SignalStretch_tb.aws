@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+SignalStretch_tb=SignalStretch_tb.adf
+[Settings]
+Active=SignalStretch_tb
+[Expand]
+signalstretch_tb=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

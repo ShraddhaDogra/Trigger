@@ -1,0 +1,10 @@
+*.jhd
+*.naf
+*.srp
+*.sym
+*.log
+*tmpl.vhd
+*pp
+*readme
+*tft
+*sort

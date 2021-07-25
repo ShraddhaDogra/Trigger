@@ -1,0 +1,11 @@
+
+MULTICYCLE FROM CELL "THE_CLOCK_RESET/THE_RESET_HANDLER/final_reset*" CLKNET clk_sys TO CLKNET clk_sys 5x;
+MULTICYCLE FROM CELL "THE_CLOCK_RESET/THE_RESET_HANDLER/final_reset*" CLKNET clk_sys TO CELL "THE_TDC/*Channe*/Channel200/RingBuffer*FIFO/*" 5x;
+
+MULTICYCLE FROM CELL "THE_TDC/reset_tdc*" TO CLKNET clk_full_osc 2x;
+MULTICYCLE FROM CELL "THE_TDC/reset_tdc*" TO CLKNET clk_full 2x;
+
+FREQUENCY NET "gen_GBE.GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/clk_int.SERDES_GBE/sd_rx_clk_1" 125.0 MHz;
+FREQUENCY NET "gen_GBE.GBE/clk_125_rx_from_pcs[3]" 125 MHz;
+
+LOCATE COMP "gen_GBE.GBE/physical_impl_gen.physical/impl_gen.gbe_serdes/PCSD_INST" SITE "PCSD";

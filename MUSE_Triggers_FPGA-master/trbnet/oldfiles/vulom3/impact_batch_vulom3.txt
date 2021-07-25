@@ -1,0 +1,6 @@
+setMode -bs
+setMode -bs
+setCable -port stapl -file "../trigger_box1.stapl"
+addDevice -p 1 -file "vlogic_1.bit"
+Program -p 1 -defaultVersion 0
+quit

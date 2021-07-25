@@ -1,0 +1,17 @@
+#Start recording tcl command: 3/5/2018 10:45:29
+#Project Location: C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/project; Project name: padiwalcd
+prj_project open "C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/project/padiwa.ldf"
+prj_src add "C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/signal_gen_x16.v"
+prj_run Export -impl padiwalcd -task Jedecgen
+prj_run Synthesis -impl padiwalcd -task Synplify_Synthesis
+prj_run Export -impl padiwalcd -task Jedecgen
+pgr_project open "C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/project/padiwalcd/padiwalcd.xcf"
+pgr_project close
+pgr_project save "C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/project/padiwalcd/padiwalcd.xcf"
+pgr_program run
+pgr_program run
+prj_run Export -impl padiwalcd -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/padiwa/project/padiwalcd/padiwalcd.xcf"
+pgr_project close
+#Stop recording: 3/5/2018 13:03:24

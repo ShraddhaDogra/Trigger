@@ -1,0 +1,4 @@
+MESSAGE "File: E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\signal_gated_tb.vhd" 
+MESSAGE "Compile Entity "tb_signal_gated"" 
+MESSAGE "Compile Architecture "behavior" of Entity "tb_signal_gated"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

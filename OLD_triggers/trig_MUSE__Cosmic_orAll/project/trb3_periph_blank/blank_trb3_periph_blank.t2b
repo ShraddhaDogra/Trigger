@@ -1,0 +1,9 @@
+
+
+
+
+-g CfgMode:Disable
+-g RamCfg:Reset
+-path "E:/FPGA/trigger_FPGA_MUSE/trig_MUSE__Cosmic_orAll/project" 
+-path "E:/FPGA/trigger_FPGA_MUSE/trig_MUSE__Cosmic_orAll/project"
+-g ES:No

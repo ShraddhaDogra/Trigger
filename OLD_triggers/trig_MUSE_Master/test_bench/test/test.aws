@@ -1,0 +1,8 @@
+[Version]
+Version=10.3
+[Designs]
+test=test.adf
+[Settings]
+Active=test
+[Expand]
+test=1

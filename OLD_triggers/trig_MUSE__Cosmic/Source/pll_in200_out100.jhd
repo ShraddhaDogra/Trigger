@@ -1,0 +1,5 @@
+MODULE pll_in200_out100 DEFIN pll_in200_out100.vhd
+	SUBMODULE EHXPLLF
+		INSTANCE PLLInst_0
+	SUBMODULE VLO
+		INSTANCE scuba_vlo_inst

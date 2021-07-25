@@ -1,0 +1,139 @@
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\Input_Reg.v":1:7:1:15|Synthesizing module Input_Reg in library work.
+
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = Input_Reg_48s
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":1:7:1:15|Synthesizing module ReTrigger in library work.
+
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = ReTrigger_48s
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\LeadDelay.v":3:7:3:15|Synthesizing module LeadDelay in library work.
+
+	STAGES=32'b00000000000000000000000000000110
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = LeadDelay_6s_48s
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\DelayBit.v":3:7:3:14|Synthesizing module DelayBit in library work.
+
+	STAGES=32'b00000000000000000000000000000110
+   Generated name = DelayBit_6s
+@W: CL265 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\DelayBit.v":14:0:14:5|Removing unused bit 7 of res_18[7:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":23:7:23:18|Synthesizing module PulseStretch in library work.
+
+	STAGES=32'b00000000000000000000000000000110
+	WIDTH=32'b00000000000000000000000000110000
+   Generated name = PulseStretch_6s_48s
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":32:25:32:30|Removing wire InLtch, as there is no assignment to it.
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\Input_Reg.v":1:7:1:15|Synthesizing module Input_Reg in library work.
+
+	WIDTH=32'b00000000000000000000000000000001
+   Generated name = Input_Reg_1s
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":1:7:1:15|Synthesizing module ReTrigger in library work.
+
+	WIDTH=32'b00000000000000000000000000000001
+   Generated name = ReTrigger_1s
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 1 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 2 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 3 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 4 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 5 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 6 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 7 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 8 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 9 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 10 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 11 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 12 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 13 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 14 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 15 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 16 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 17 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 18 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 19 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 20 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 21 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 22 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 23 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 24 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 25 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 26 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 27 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 28 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 29 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 30 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 31 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 32 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 33 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 34 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 35 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 36 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 37 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 38 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 39 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 40 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 41 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 42 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 43 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 44 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 45 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 46 of fin
+@W: CG134 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v":11:10:11:12|No assignment to bit 47 of fin
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\LeadDelay.v":3:7:3:15|Synthesizing module LeadDelay in library work.
+
+	STAGES=32'b00000000000000000000000000000110
+	WIDTH=32'b00000000000000000000000000000001
+   Generated name = LeadDelay_6s_1s
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":23:7:23:18|Synthesizing module PulseStretch in library work.
+
+	STAGES=32'b00000000000000000000000000000110
+	WIDTH=32'b00000000000000000000000000000001
+   Generated name = PulseStretch_6s_1s
+@W: CS263 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":38:9:38:22|Port-width mismatch for port set. The port definition is 48 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":39:9:39:11|Port-width mismatch for port rst. The port definition is 48 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":41:7:41:9|Port-width mismatch for port Q. The port definition is 48 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\LeadDelay.v":3:7:3:15|Synthesizing module LeadDelay in library work.
+
+	STAGES=32'b00000000000000000000000000010100
+	WIDTH=32'b00000000000000000000000000000001
+   Generated name = LeadDelay_20s_1s
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\DelayBit.v":3:7:3:14|Synthesizing module DelayBit in library work.
+
+	STAGES=32'b00000000000000000000000000010100
+   Generated name = DelayBit_20s
+@W: CS101 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\DelayBit.v":37:19:37:21|Index 20 is out of range for variable res
+@W: CL169 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\DelayBit.v":14:0:14:5|Pruning unused register res[7:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":23:7:23:18|Synthesizing module PulseStretch in library work.
+
+	STAGES=32'b00000000000000000000000000010100
+	WIDTH=32'b00000000000000000000000000000001
+   Generated name = PulseStretch_20s_1s
+@W: CS263 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":38:9:38:22|Port-width mismatch for port set. The port definition is 48 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":39:9:39:11|Port-width mismatch for port rst. The port definition is 48 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v":41:7:41:9|Port-width mismatch for port Q. The port definition is 48 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\leds.v":23:7:23:10|Synthesizing module leds in library work.
+@N: CG364 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":6:7:6:17|Synthesizing module ScatterTrig in library work.
+@W: CG133 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":18:22:18:26|Object OutpC is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":17:5:17:8|Removing wire InpA, as there is no assignment to it.
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":17:10:17:13|Removing wire InpB, as there is no assignment to it.
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":17:15:17:18|Removing wire InpC, as there is no assignment to it.
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":20:12:20:14|Removing wire res, as there is no assignment to it.
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":20:16:20:21|Removing wire InLtch, as there is no assignment to it.
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":20:23:20:26|Removing wire retr, as there is no assignment to it.
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":26:12:26:16|Removing wire Pout2, as there is no assignment to it.
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":26:18:26:22|Removing wire Pout4, as there is no assignment to it.
+@W: CG360 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":26:24:26:28|Removing wire Pout5, as there is no assignment to it.
+@W: CL169 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":79:0:79:5|Pruning unused register OutpA[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":80:0:80:5|Pruning unused register OutpA[2]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":82:0:82:5|Pruning unused register OutpB[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":83:0:83:5|Pruning unused register OutpB[2]. Make sure that there are no unused intermediate registers.
+@A: CL153 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":18:22:18:26|*Unassigned bits of OutpC[2:0] are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL157 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":13:7:13:17|*Output trig_out_OR has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":13:20:13:31|*Output trig_out_dir has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":13:34:13:45|*Output trig_out_lat has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":13:48:13:64|*Output trig_out_50ns_lat has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":13:66:13:83|*Output trig_out_150ns_lat has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v":14:13:14:21|Input trig_mask is unused.
+@N: CL159 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\DelayBit.v":6:16:6:20|Input DlyIn is unused.
+@N: CL159 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\DelayBit.v":7:16:7:21|Input reTrig is unused.
+@N: CL159 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\DelayBit.v":9:15:9:17|Input clk is unused.
+@W: CL246 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\Input_Reg.v":4:21:4:23|Input port bits 47 to 1 of rst[47:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\Input_Reg.v":4:17:4:19|Input port bits 47 to 1 of set[47:0] are unused. Assign logic for all port bits or change the input port size.

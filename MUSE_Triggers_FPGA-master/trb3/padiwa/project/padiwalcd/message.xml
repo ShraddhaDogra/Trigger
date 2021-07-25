@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100523</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/base/panda_dirc_wasa1.lpf(11): Semantic error in &quot;FREQUENCY NET &quot;clk_i_inferred_clock&quot; 133.000000 MHz ;&quot;: </Dynamic>
+            <Dynamic>clk_i_inferred_clock matches no clock nets in the design. </Dynamic>
+            <Navigation>C:/Users/lavry/Google Drive/FPGA_programming/padiwa/trb3/base/panda_dirc_wasa1.lpf</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>52101273</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=clk_osc loads=1 clock_loads=1</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=clk_osc loads=1 clock_loads=1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>READ_DELAY</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_DEAD</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>TDCTEST</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>TEMP_CORRECTION</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PADIWA_FLAVOUR</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLCLKO</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLCLKO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLRSTO</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLRSTO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLL0STBO</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLL0STBO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLL1STBO</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLL1STBO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLWEO</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLWEO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLADRO4</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLADRO4</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLADRO3</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLADRO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLADRO2</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLADRO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLADRO1</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLADRO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLADRO0</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLADRO0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLDATO7</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLDATO7</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLDATO6</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLDATO6</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLDATO5</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLDATO5</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLDATO4</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLDATO4</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLDATO3</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLDATO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLDATO2</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLDATO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLDATO1</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLDATO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/PLLDATO0</Dynamic>
+            <Navigation>THE_FLASH/inst1/PLLDATO0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C1SCLO</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C1SCLO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C1SCLOEN</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C1SCLOEN</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C1SDAO</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C1SDAO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C1SDAOEN</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C1SDAOEN</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C2SCLO</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C2SCLO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C2SCLOEN</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C2SCLOEN</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C2SDAO</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C2SDAO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C2SDAOEN</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C2SDAOEN</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C1IRQO</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C1IRQO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/I2C2IRQO</Dynamic>
+            <Navigation>THE_FLASH/inst1/I2C2IRQO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPISCKO</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPISCKO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPISCKEN</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPISCKEN</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMISOO</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMISOO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMISOEN</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMISOEN</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMOSIO</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMOSIO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMOSIEN</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMOSIEN</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMCSN7</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMCSN7</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMCSN6</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMCSN6</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMCSN5</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMCSN5</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMCSN4</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMCSN4</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMCSN3</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMCSN3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMCSN2</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMCSN2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMCSN1</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMCSN1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIMCSN0</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIMCSN0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPICSNEN</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPICSNEN</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/SPIIRQO</Dynamic>
+            <Navigation>THE_FLASH/inst1/SPIIRQO</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/TCINT</Dynamic>
+            <Navigation>THE_FLASH/inst1/TCINT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/TCOC</Dynamic>
+            <Navigation>THE_FLASH/inst1/TCOC</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/wbc_ufm_irq</Dynamic>
+            <Navigation>THE_FLASH/inst1/wbc_ufm_irq</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/CFGWAKE</Dynamic>
+            <Navigation>THE_FLASH/inst1/CFGWAKE</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH/inst1/CFGSTDBY</Dynamic>
+            <Navigation>THE_FLASH/inst1/CFGSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH_RAM/flashram_0_0_0_0_DOA8</Dynamic>
+            <Navigation>THE_FLASH_RAM/flashram_0_0_0_0_DOA8</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_FLASH_RAM/flashram_0_0_0_0_DOB8</Dynamic>
+            <Navigation>THE_FLASH_RAM/flashram_0_0_0_0_DOB8</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/CLKOS2</Dynamic>
+            <Navigation>THE_PLL/CLKOS2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/CLKOS3</Dynamic>
+            <Navigation>THE_PLL/CLKOS3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/pll_lock</Dynamic>
+            <Navigation>THE_PLL/pll_lock</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/INTLOCK</Dynamic>
+            <Navigation>THE_PLL/INTLOCK</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/REFCLK</Dynamic>
+            <Navigation>THE_PLL/REFCLK</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/DPHSRC</Dynamic>
+            <Navigation>THE_PLL/DPHSRC</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/PLLACK</Dynamic>
+            <Navigation>THE_PLL/PLLACK</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/PLLDATO7_0</Dynamic>
+            <Navigation>THE_PLL/PLLDATO7_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/PLLDATO6_0</Dynamic>
+            <Navigation>THE_PLL/PLLDATO6_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/PLLDATO5_0</Dynamic>
+            <Navigation>THE_PLL/PLLDATO5_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/PLLDATO4_0</Dynamic>
+            <Navigation>THE_PLL/PLLDATO4_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/PLLDATO3_0</Dynamic>
+            <Navigation>THE_PLL/PLLDATO3_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/PLLDATO2_0</Dynamic>
+            <Navigation>THE_PLL/PLLDATO2_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/PLLDATO1_0</Dynamic>
+            <Navigation>THE_PLL/PLLDATO1_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>THE_PLL/PLLDATO0_0</Dynamic>
+            <Navigation>THE_PLL/PLLDATO0_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_source_SEDSTDBY</Dynamic>
+            <Navigation>clk_source_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>67</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:429:53:429:57|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:436:24:436:26|Variable tmp read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>436</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>436</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Variable tmp read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:446:53:446:57|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>446</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>446</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:429:53:429:57|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:436:24:436:26|Variable tmp read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>436</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>436</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Variable tmp read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>438</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD603 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:446:53:446:57|Variable count read before being assigned? This may cause a simulation mismatch</Dynamic>
+            <Navigation>CD603</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>446</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>446</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>Variable count read before being assigned? This may cause a simulation mismatch </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:161:7:161:13|Signal reset_i is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>161</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>161</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Signal reset_i is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:162:7:162:15|Signal reset_cnt is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Signal reset_cnt is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:175:7:175:9|Signal ram is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>175</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>175</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Signal ram is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:189:7:189:22|Signal last_spi_channel is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>189</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>189</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Signal last_spi_channel is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:197:7:197:20|Signal flashram_reset is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>197</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>197</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Signal flashram_reset is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:220:7:220:12|Signal inp_or is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>220</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>220</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal inp_or is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:221:7:221:17|Signal inp_long_or is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>221</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>221</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Signal inp_long_or is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:222:7:222:18|Signal inp_long_reg is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>Signal inp_long_reg is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:223:7:223:23|Signal last_inp_long_reg is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>223</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>223</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>Signal last_inp_long_reg is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:226:7:226:19|Signal inp_stretched is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>226</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>226</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Signal inp_stretched is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:227:7:227:14|Signal inp_hold is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Signal inp_hold is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:228:7:228:15|Signal inp_gated is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>228</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>228</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Signal inp_gated is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:229:7:229:18|Signal inp_hold_reg is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>229</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>229</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>Signal inp_hold_reg is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:230:7:230:23|Signal last_inp_hold_reg is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>230</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>230</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>Signal last_inp_hold_reg is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:245:7:245:20|Signal ram_fsm_data_i is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Signal ram_fsm_data_i is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Signal ffarr_data is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Signal ffarr_data is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:257:7:257:16|Signal ffarr_read is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>257</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Signal ffarr_read is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd&quot;:342:6:342:7|Pruning register bit 2 of ram_addr(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd</Navigation>
+            <Navigation>342</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>342</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning register bit 2 of ram_addr(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:42:7:42:17|Signal buf_spi_out is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Signal buf_spi_out is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 16 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 16 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 17 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 17 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 18 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 18 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 19 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 19 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 20 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 20 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 21 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 21 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 22 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 22 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 23 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 23 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 24 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 24 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 25 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 25 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 26 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 26 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 27 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 27 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 28 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 28 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 29 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 29 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 30 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 30 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:45:7:45:17|Bit 31 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Bit 31 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:42:7:42:17|Signal buf_SPI_OUT is floating; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Signal buf_SPI_OUT is floating; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd&quot;:51:7:51:17|Pruning unused register next_output_cl. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Pruning unused register next_output_cl. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 0 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 0 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 1 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 1 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 2 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 2 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 3 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 3 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 4 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 4 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 5 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 5 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 6 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 6 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 7 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 7 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 8 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 8 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 9 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 9 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 10 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 10 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 11 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 11 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 12 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 12 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 13 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 13 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 14 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 14 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:256:7:256:16|Bit 15 of signal ffarr_data is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 15 of signal ffarr_data is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:245:7:245:20|Bit 0 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Bit 0 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:245:7:245:20|Bit 1 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Bit 1 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:245:7:245:20|Bit 2 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Bit 2 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:245:7:245:20|Bit 3 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Bit 3 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:245:7:245:20|Bit 4 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Bit 4 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:245:7:245:20|Bit 5 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Bit 5 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:245:7:245:20|Bit 6 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Bit 6 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:245:7:245:20|Bit 7 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>245</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Bit 7 of signal ram_fsm_data_i is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:197:7:197:20|Signal flashram_reset is floating; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>197</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>197</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Signal flashram_reset is floating; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:612:0:612:10|Pruning unused bits 11 to 0 of temp_calc_i_2(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>612</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>612</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Pruning unused bits 11 to 0 of temp_calc_i_2(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL265 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:244:7:244:13|Removing unused bit 1 of PROC_DATA_COPY.fsm_job(1 downto 0). Either assign all bits or reduce the width of the signal.</Dynamic>
+            <Navigation>CL265</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>244</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>244</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing unused bit 1 of PROC_DATA_COPY.fsm_job(1 downto 0). Either assign all bits or reduce the width of the signal.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL167 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:373:0:373:12|Input resetb of instance THE_FLASH_RAM is floating</Dynamic>
+            <Navigation>CL167</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>373</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>373</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Input resetb of instance THE_FLASH_RAM is floating</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:217:7:217:15|All reachable assignments to PROC_TIMER.last_leds(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>All reachable assignments to PROC_TIMER.last_leds(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:217:7:217:15|All reachable assignments to PROC_TIMER.last_leds(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>All reachable assignments to PROC_TIMER.last_leds(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:217:7:217:15|All reachable assignments to PROC_TIMER.last_leds(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>All reachable assignments to PROC_TIMER.last_leds(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:217:7:217:15|All reachable assignments to PROC_TIMER.last_leds(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>All reachable assignments to PROC_TIMER.last_leds(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:247:7:247:21|All reachable assignments to PROC_DATA_COPY.ram_fsm_write_i are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>247</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>247</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>All reachable assignments to PROC_DATA_COPY.ram_fsm_write_i are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v&quot;:246:3:246:8|Pruning unused register sm_addr_MSB. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning unused register sm_addr_MSB. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v&quot;:227:3:227:8|Optimizing register bit wb_adr_i[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit wb_adr_i[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v&quot;:227:3:227:8|Optimizing register bit wb_adr_i[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit wb_adr_i[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v&quot;:227:3:227:8|Optimizing register bit wb_adr_i[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit wb_adr_i[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v&quot;:227:3:227:8|Pruning register bit 7 of wb_adr_i[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning register bit 7 of wb_adr_i[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v&quot;:227:3:227:8|Pruning register bits 3 to 2 of wb_adr_i[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of wb_adr_i[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v&quot;:227:3:227:8|Pruning register bits 6 to 5 of wb_adr_i[6:4]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning register bits 6 to 5 of wb_adr_i[6:4]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v&quot;:246:3:246:8|Sharing sequential element efb_flag. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Sharing sequential element efb_flag. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v&quot;:227:3:227:8|Pruning unused register wb_adr_i[4]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>227</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning unused register wb_adr_i[4]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\signal_gen_x16.v&quot;:23:0:23:5|Pruning register bits 15 to 1 of pulse_out[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\signal_gen_x16.v</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 15 to 1 of pulse_out[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Z198 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\pll.vhd&quot;:113:4:113:12|Unbound component EHXPLLJ of instance PLLInst_0</Dynamic>
+            <Navigation>Z198</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\pll.vhd</Navigation>
+            <Navigation>113</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>113</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Unbound component EHXPLLJ of instance PLLInst_0 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Z198 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flashram.vhd&quot;:119:4:119:19|Unbound component DP8KC of instance flashram_0_0_0_0</Dynamic>
+            <Navigation>Z198</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flashram.vhd</Navigation>
+            <Navigation>119</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>119</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Unbound component DP8KC of instance flashram_0_0_0_0 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Z198 :&quot;C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd&quot;:136:4:136:12|Unbound component EFB of instance EFBInst_0</Dynamic>
+            <Navigation>Z198</Navigation>
+            <Navigation>C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd</Navigation>
+            <Navigation>136</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>136</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Unbound component EFB of instance EFBInst_0 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flashram.vhd&quot;:119:4:119:19|Found inferred clock pll|CLKOS_inferred_clock which controls 1455 sequential elements including THE_FLASH_RAM.flashram_0_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flashram.vhd</Navigation>
+            <Navigation>119</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>119</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Found inferred clock pll|CLKOS_inferred_clock which controls 1455 sequential elements including THE_FLASH_RAM.flashram_0_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flashram.vhd&quot;:119:4:119:19|Found inferred clock pll|CLKOP_inferred_clock which controls 247 sequential elements including THE_FLASH_RAM.flashram_0_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flashram.vhd</Navigation>
+            <Navigation>119</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>119</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Found inferred clock pll|CLKOP_inferred_clock which controls 247 sequential elements including THE_FLASH_RAM.flashram_0_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:173:7:173:11|Removing sequential instance PROC_IDMEM.idram_7[15:0] because it is equivalent to instance PROC_IDMEM.idram_6[15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Removing sequential instance PROC_IDMEM.idram_7[15:0] because it is equivalent to instance PROC_IDMEM.idram_6[15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:173:7:173:11|Removing sequential instance PROC_IDMEM.idram_6[15:0] because it is equivalent to instance PROC_IDMEM.idram_5[15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Removing sequential instance PROC_IDMEM.idram_6[15:0] because it is equivalent to instance PROC_IDMEM.idram_5[15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:173:7:173:11|Removing instance PROC_IDMEM.idram_4[13] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Removing instance PROC_IDMEM.idram_4[13] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:173:7:173:11|Removing instance PROC_IDMEM.idram_4[14] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Removing instance PROC_IDMEM.idram_4[14] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd&quot;:173:7:173:11|Removing instance PROC_IDMEM.idram_4[15] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Removing instance PROC_IDMEM.idram_4[15] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flash.vhd&quot;:136:4:136:12|Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flash.vhd</Navigation>
+            <Navigation>136</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>136</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\pll.vhd&quot;:113:4:113:12|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\pll.vhd</Navigation>
+            <Navigation>113</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>113</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock pll|CLKOP_inferred_clock with period 7.84ns. Please declare a user-defined clock on object &quot;n:THE_PLL.CLKOP&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock pll|CLKOP_inferred_clock with period 7.84ns. Please declare a user-defined clock on object &quot;n:THE_PLL.CLKOP&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock pll|CLKOS_inferred_clock with period 7.58ns. Please declare a user-defined clock on object &quot;n:THE_PLL.CLKOS&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock pll|CLKOS_inferred_clock with period 7.58ns. Please declare a user-defined clock on object &quot;n:THE_PLL.CLKOS&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

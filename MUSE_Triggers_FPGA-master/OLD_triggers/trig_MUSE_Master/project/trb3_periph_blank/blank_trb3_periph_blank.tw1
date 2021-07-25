@@ -1,0 +1,708 @@
+
+Loading design for application trce from file blank_trb3_periph_blank_map.ncd.
+Design name: trb3_periph_blank
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 8
+Loading device for application trce from file 'ec5a124x182.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.10.2.115
+Wed Dec 05 06:03:44 2018
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o blank_trb3_periph_blank.tw1 -gui -msgset E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project/promote.xml blank_trb3_periph_blank_map.ncd blank_trb3_periph_blank.prf 
+Design file:     blank_trb3_periph_blank_map.ncd
+Preference file: blank_trb3_periph_blank.prf
+Device,speed:    LFE3-150EA,8
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+70 potential circuit loops found in timing analysis.
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK RD_DURING_WR_PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "CLK_GPLL_RIGHT_c" 200.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "clk_100_i" 100.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 2.570ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/coincidence_config_2_6[4]  (from clk_100_i +)
+   Destination:    FF         Data in        THE_TOOLS/gen_STATISTICS.THE_STAT_LOGIC/inp_reg[32]  (to clk_100_i +)
+
+   Delay:               7.369ns  (28.6% logic, 71.4% route), 12 logic levels.
+
+ Constraint Details:
+
+      7.369ns physical path delay THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/SLICE_5315 to THE_TOOLS/gen_STATISTICS.THE_STAT_LOGIC/SLICE_5052 meets
+     10.000ns delay constraint less
+      0.061ns DIN_SET requirement (totaling 9.939ns) by 2.570ns
+
+ Physical Path Details:
+
+      Data path THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/SLICE_5315 to THE_TOOLS/gen_STATISTICS.THE_STAT_LOGIC/SLICE_5052:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243 *LICE_5315.CLK to *SLICE_5315.Q0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/SLICE_5315 (from clk_100_i)
+ROUTE        16   e 0.561 *SLICE_5315.Q0 to *SLICE_6651.A1 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/coincidence_config_2_6[4]
+CTOOFX_DEL  ---     0.281 *SLICE_6651.A1 to *ICE_6651.OFX0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/loop6.un532_t_3/SLICE_6651
+ROUTE         1   e 0.561 *ICE_6651.OFX0 to *SLICE_6352.A0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/N_1535
+CTOOFX_DEL  ---     0.281 *SLICE_6352.A0 to *ICE_6352.OFX0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/loop6.un532_t_15/SLICE_6352
+ROUTE         1   e 0.001 *ICE_6352.OFX0 to *LICE_6351.FXA THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/N_1547
+FXTOOFX_DE  ---     0.129 *LICE_6351.FXA to *ICE_6351.OFX1 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/loop6.un532_t_30/SLICE_6351
+ROUTE         1   e 0.561 *ICE_6351.OFX1 to *SLICE_5331.C0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/un532_t
+CTOF_DEL    ---     0.147 *SLICE_5331.C0 to *SLICE_5331.F0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/SLICE_5331
+ROUTE         1   e 0.561 *SLICE_5331.F0 to *SLICE_7191.D1 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/un527_t
+CTOF_DEL    ---     0.147 *SLICE_7191.D1 to *SLICE_7191.F1 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/SLICE_7191
+ROUTE         1   e 0.208 *SLICE_7191.F1 to *SLICE_7191.A0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/got_coincidence_2
+CTOF_DEL    ---     0.147 *SLICE_7191.A0 to *SLICE_7191.F0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/SLICE_7191
+ROUTE         1   e 0.561 *SLICE_7191.F0 to *SLICE_7190.C0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/got_coincidence_9
+CTOF_DEL    ---     0.147 *SLICE_7190.C0 to *SLICE_7190.F0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/SLICE_7190
+ROUTE         4   e 0.561 *SLICE_7190.F0 to *SLICE_5595.B0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/got_coincidence
+CTOF_DEL    ---     0.147 *SLICE_5595.B0 to *SLICE_5595.F0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/SLICE_5595
+ROUTE         1   e 0.561 *SLICE_5595.F0 to *SLICE_5589.A0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/output_i
+CTOF_DEL    ---     0.147 *SLICE_5589.A0 to *SLICE_5589.F0 THE_TOOLS/gen_TRIG_LOGIC.THE_TRIG_LOGIC/SLICE_5589
+ROUTE         4   e 0.561 *SLICE_5589.F0 to *SLICE_5091.A0 FPGA5_COMM_c[7]
+CTOF_DEL    ---     0.147 *SLICE_5091.A0 to *SLICE_5091.F0 THE_TOOLS/gen_STATISTICS.THE_STAT_LOGIC/SLICE_5091
+ROUTE         2   e 0.561 *SLICE_5091.F0 to *SLICE_5052.B0 THE_TOOLS/gen_STATISTICS.THE_STAT_LOGIC/inp_stretch[32]
+CTOF_DEL    ---     0.147 *SLICE_5052.B0 to *SLICE_5052.F0 THE_TOOLS/gen_STATISTICS.THE_STAT_LOGIC/SLICE_5052
+ROUTE         1   e 0.001 *SLICE_5052.F0 to *LICE_5052.DI0 THE_TOOLS/gen_STATISTICS.THE_STAT_LOGIC/inp_stretch_1[32] (to clk_100_i)
+                  --------
+                    7.369   (28.6% logic, 71.4% route), 12 logic levels.
+
+Report:  134.590MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "THE_MEDIA_UPLINK/ff_rxhalfclk" 100.000000 MHz ;
+            330 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 7.039ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_MEDIA_UPLINK/THE_BYTE_SWAP_PROC.fifo_rx_din[8]  (from THE_MEDIA_UPLINK/ff_rxhalfclk +)
+   Destination:    FF         Data in        THE_MEDIA_UPLINK/THE_CNT_RESET_PROC.reset_word_cnt[1]  (to THE_MEDIA_UPLINK/ff_rxhalfclk +)
+                   FF                        THE_MEDIA_UPLINK/THE_CNT_RESET_PROC.reset_word_cnt[0]
+
+   Delay:               2.575ns  (26.6% logic, 73.4% route), 4 logic levels.
+
+ Constraint Details:
+
+      2.575ns physical path delay THE_MEDIA_UPLINK/SLICE_3986 to THE_MEDIA_UPLINK/SLICE_4026 meets
+     10.000ns delay constraint less
+      0.386ns LSR_SET requirement (totaling 9.614ns) by 7.039ns
+
+ Physical Path Details:
+
+      Data path THE_MEDIA_UPLINK/SLICE_3986 to THE_MEDIA_UPLINK/SLICE_4026:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243 *LICE_3986.CLK to *SLICE_3986.Q0 THE_MEDIA_UPLINK/SLICE_3986 (from THE_MEDIA_UPLINK/ff_rxhalfclk)
+ROUTE         3   e 0.561 *SLICE_3986.Q0 to *SLICE_7274.D1 THE_MEDIA_UPLINK/fifo_rx_din[8]
+CTOF_DEL    ---     0.147 *SLICE_7274.D1 to *SLICE_7274.F1 THE_MEDIA_UPLINK/SLICE_7274
+ROUTE         1   e 0.208 *SLICE_7274.F1 to *SLICE_7274.C0 THE_MEDIA_UPLINK/fifo_rx_din_RNI3R35[0]
+CTOF_DEL    ---     0.147 *SLICE_7274.C0 to *SLICE_7274.F0 THE_MEDIA_UPLINK/SLICE_7274
+ROUTE         1   e 0.561 *SLICE_7274.F0 to *SLICE_7276.D0 THE_MEDIA_UPLINK/sync_q_1_RNI6MOQ[1]
+CTOF_DEL    ---     0.147 *SLICE_7276.D0 to *SLICE_7276.F0 THE_MEDIA_UPLINK/SLICE_7276
+ROUTE         3   e 0.561 *SLICE_7276.F0 to *LICE_4026.LSR THE_MEDIA_UPLINK/THE_N_7_mux_i (to THE_MEDIA_UPLINK/ff_rxhalfclk)
+                  --------
+                    2.575   (26.6% logic, 73.4% route), 4 logic levels.
+
+Report:  337.724MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "clk_200_i_0" 200.000000 MHz ;
+            814 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 2.571ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_RESET_HANDLER/reset_cnt[14]  (from clk_200_i_0 +)
+   Destination:    FF         Data in        THE_RESET_HANDLER/reset  (to clk_200_i_0 +)
+
+   Delay:               2.368ns  (28.9% logic, 71.1% route), 4 logic levels.
+
+ Constraint Details:
+
+      2.368ns physical path delay THE_RESET_HANDLER/SLICE_1865 to THE_RESET_HANDLER/SLICE_4294 meets
+      5.000ns delay constraint less
+      0.061ns DIN_SET requirement (totaling 4.939ns) by 2.571ns
+
+ Physical Path Details:
+
+      Data path THE_RESET_HANDLER/SLICE_1865 to THE_RESET_HANDLER/SLICE_4294:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243 *LICE_1865.CLK to *SLICE_1865.Q1 THE_RESET_HANDLER/SLICE_1865 (from clk_200_i_0)
+ROUTE         2   e 0.561 *SLICE_1865.Q1 to *SLICE_8481.C0 THE_RESET_HANDLER/reset_cnt[14]
+CTOF_DEL    ---     0.147 *SLICE_8481.C0 to *SLICE_8481.F0 THE_RESET_HANDLER/SLICE_8481
+ROUTE         1   e 0.561 *SLICE_8481.F0 to *SLICE_7277.C0 THE_RESET_HANDLER/un5_reset_cnt_10
+CTOF_DEL    ---     0.147 *SLICE_7277.C0 to *SLICE_7277.F0 THE_RESET_HANDLER/SLICE_7277
+ROUTE         2   e 0.561 *SLICE_7277.F0 to *SLICE_4294.A0 THE_RESET_HANDLER/un5_reset_cnt
+CTOF_DEL    ---     0.147 *SLICE_4294.A0 to *SLICE_4294.F0 THE_RESET_HANDLER/SLICE_4294
+ROUTE         1   e 0.001 *SLICE_4294.F0 to *LICE_4294.DI0 THE_RESET_HANDLER/reset_cnt_0_sqmuxa_i (to clk_200_i_0)
+                  --------
+                    2.368   (28.9% logic, 71.1% route), 4 logic levels.
+
+Report:  411.692MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK_GPLL_RIGHT" 200.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 4.380ns
+         The internal maximum frequency of the following component is 1612.903 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    FSLICE     CLK            THE_RESET_HANDLER/SLICE_4296
+
+   Delay:               0.620ns -- based on Minimum Pulse Width
+
+Report:  1612.903MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 20.000000 ns ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 30.000000 ns ;
+            3 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 29.062ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_RESET_HANDLER/final_reset[0]  (from clk_100_i +)
+   Destination:    FF         Data in        THE_RESET_HANDLER/final_reset[1]  (to clk_100_i +)
+
+   Delay:               0.804ns  (30.2% logic, 69.8% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.804ns physical path delay THE_RESET_HANDLER/SLICE_4293 to SLICE_5758 meets
+     30.000ns delay constraint less
+      0.134ns M_SET requirement (totaling 29.866ns) by 29.062ns
+
+ Physical Path Details:
+
+      Data path THE_RESET_HANDLER/SLICE_4293 to SLICE_5758:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243 *LICE_4293.CLK to *SLICE_4293.Q0 THE_RESET_HANDLER/SLICE_4293 (from clk_100_i)
+ROUTE         2   e 0.561 *SLICE_4293.Q0 to  SLICE_5758.M0 THE_RESET_HANDLER/final_reset[0] (to clk_100_i)
+                  --------
+                    0.804   (30.2% logic, 69.8% route), 1 logic levels.
+
+Report:    0.938ns is the minimum delay for this preference.
+
+
+================================================================================
+Preference: MULTICYCLE TO CELL "THE_RESET_HANDLER/trb_reset_*" 20.000000 ns ;
+            2 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 19.062ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_ENDPOINT/THE_ENDPOINT/last_make_trbnet_reset  (from clk_100_i +)
+   Destination:    FF         Data in        THE_RESET_HANDLER/trb_reset_pulse[0]  (to clk_200_i_0 +)
+
+   Delay:               0.804ns  (30.2% logic, 69.8% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.804ns physical path delay THE_ENDPOINT/THE_ENDPOINT/SLICE_4287 to THE_RESET_HANDLER/SLICE_4296 meets
+     20.000ns delay constraint less
+      0.134ns M_SET requirement (totaling 19.866ns) by 19.062ns
+
+ Physical Path Details:
+
+      Data path THE_ENDPOINT/THE_ENDPOINT/SLICE_4287 to THE_RESET_HANDLER/SLICE_4296:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243 *LICE_4287.CLK to *SLICE_4287.Q0 THE_ENDPOINT/THE_ENDPOINT/SLICE_4287 (from clk_100_i)
+ROUTE         2   e 0.561 *SLICE_4287.Q0 to *SLICE_4296.M0 THE_RESET_HANDLER.trb_reset_buffer (to clk_200_i_0)
+                  --------
+                    0.804   (30.2% logic, 69.8% route), 1 logic levels.
+
+Report:    0.938ns is the minimum delay for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "CLK_GPLL_RIGHT_c"        |             |             |
+200.000000 MHz ;                        |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "clk_100_i" 100.000000    |             |             |
+MHz ;                                   |  100.000 MHz|  134.590 MHz|  12  
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"THE_MEDIA_UPLINK/ff_rxhalfclk"         |             |             |
+100.000000 MHz ;                        |  100.000 MHz|  337.724 MHz|   4  
+                                        |             |             |
+FREQUENCY NET "clk_200_i_0" 200.000000  |             |             |
+MHz ;                                   |  200.000 MHz|  411.692 MHz|   4  
+                                        |             |             |
+FREQUENCY PORT "CLK_GPLL_RIGHT"         |             |             |
+200.000000 MHz ;                        |  200.000 MHz| 1612.903 MHz|   0  
+                                        |             |             |
+MULTICYCLE TO CELL                      |             |             |
+"THE_RESET_HANDLER/final_reset*"        |             |             |
+20.000000 ns ;                          |            -|            -|   0  
+                                        |             |             |
+MULTICYCLE TO CELL                      |             |             |
+"THE_RESET_HANDLER/final_reset*"        |             |             |
+30.000000 ns ;                          |    30.000 ns|     0.938 ns|   1  
+                                        |             |             |
+MULTICYCLE TO CELL                      |             |             |
+"THE_RESET_HANDLER/trb_reset_*"         |             |             |
+20.000000 ns ;                          |    20.000 ns|     0.938 ns|   1  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 7 clocks:
+
+Clock Domain: clk_200_i_0   Source: THE_MAIN_PLL/PLLInst_0.CLKOK   Loads: 60
+   Covered under: FREQUENCY NET "clk_200_i_0" 200.000000 MHz ;
+   Covered under: MULTICYCLE TO CELL "THE_RESET_HANDLER/trb_reset_*" 20.000000 ns ;
+
+   Data transfers from:
+   Clock Domain: clk_100_i   Source: THE_MAIN_PLL/PLLInst_0.CLKOP
+      Covered under: MULTICYCLE TO CELL "THE_RESET_HANDLER/trb_reset_*" 20.000000 ns ;   Transfers: 1
+
+Clock Domain: TRIGGER_LEFT_c   Source: TRIGGER_LEFT.PAD   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: CLK_GPLL_RIGHT_c   Source: CLK_GPLL_RIGHT.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1   Loads: 62
+   No transfer within this clock domain is found
+
+Clock Domain: THE_MAIN_PLL/CLKFB_t   Source: THE_MAIN_PLL/PLLInst_0.CLKINTFB   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: clk_100_i   Source: THE_MAIN_PLL/PLLInst_0.CLKOP   Loads: 4987
+   Covered under: FREQUENCY NET "clk_100_i" 100.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: TRIGGER_LEFT_c   Source: TRIGGER_LEFT.PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+      Covered under: FREQUENCY NET "clk_100_i" 100.000000 MHz ;   Transfers: 1760
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+      Covered under: FREQUENCY NET "clk_100_i" 100.000000 MHz ;   Transfers: 2674
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+
+Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1   Loads: 62
+   Covered under: FREQUENCY NET "THE_MEDIA_UPLINK/ff_rxhalfclk" 100.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: clk_200_i_0   Source: THE_MAIN_PLL/PLLInst_0.CLKOK
+      Covered under: MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 30.000000 ns ;   Transfers: 1
+
+   Clock Domain: clk_100_i   Source: THE_MAIN_PLL/PLLInst_0.CLKOP
+      Not reported because source and destination domains are unrelated.
+      Covered under: MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 30.000000 ns ;   Transfers: 1
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 193325 paths, 124 nets, and 56320 connections (90.84% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.10.2.115
+Wed Dec 05 06:03:48 2018
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o blank_trb3_periph_blank.tw1 -gui -msgset E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project/promote.xml blank_trb3_periph_blank_map.ncd blank_trb3_periph_blank.prf 
+Design file:     blank_trb3_periph_blank_map.ncd
+Preference file: blank_trb3_periph_blank.prf
+Device,speed:    LFE3-150EA,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+70 potential circuit loops found in timing analysis.
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK RD_DURING_WR_PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "CLK_GPLL_RIGHT_c" 200.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "clk_100_i" 100.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.066ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_MEDIA_UPLINK/tx_data[3]  (from clk_100_i +)
+   Destination:    PCSD       Port           THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST(ASIC)  (to clk_100_i +)
+
+   Delay:               0.364ns  (26.4% logic, 73.6% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.364ns physical path delay THE_MEDIA_UPLINK/SLICE_4053 to THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST meets
+      0.298ns FFTXD_HLD and
+      0.000ns delay constraint requirement (totaling 0.298ns) by 0.066ns
+
+ Physical Path Details:
+
+      Data path THE_MEDIA_UPLINK/SLICE_4053 to THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096 *LICE_4053.CLK to *SLICE_4053.Q1 THE_MEDIA_UPLINK/SLICE_4053 (from clk_100_i)
+ROUTE         1   e 0.268 *SLICE_4053.Q1 to *A.FF_TX_D_1_3 THE_MEDIA_UPLINK/tx_data[3] (to clk_100_i)
+                  --------
+                    0.364   (26.4% logic, 73.6% route), 1 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "THE_MEDIA_UPLINK/ff_rxhalfclk" 100.000000 MHz ;
+            330 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.223ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_MEDIA_UPLINK/THE_RX_ALLOW_RX/sync_q[1]  (from THE_MEDIA_UPLINK/ff_rxhalfclk +)
+   Destination:    FF         Data in        THE_MEDIA_UPLINK/THE_RX_ALLOW_RX/sync_q[2]  (to THE_MEDIA_UPLINK/ff_rxhalfclk +)
+
+   Delay:               0.174ns  (55.2% logic, 44.8% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.174ns physical path delay THE_MEDIA_UPLINK/THE_RX_ALLOW_RX/SLICE_4031 to THE_MEDIA_UPLINK/THE_RX_ALLOW_RX/SLICE_4031 meets
+     -0.049ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.049ns) by 0.223ns
+
+ Physical Path Details:
+
+      Data path THE_MEDIA_UPLINK/THE_RX_ALLOW_RX/SLICE_4031 to THE_MEDIA_UPLINK/THE_RX_ALLOW_RX/SLICE_4031:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096 *LICE_4031.CLK to *SLICE_4031.Q1 THE_MEDIA_UPLINK/THE_RX_ALLOW_RX/SLICE_4031 (from THE_MEDIA_UPLINK/ff_rxhalfclk)
+ROUTE         1   e 0.078 *SLICE_4031.Q1 to *SLICE_4031.M0 THE_MEDIA_UPLINK/THE_RX_ALLOW_RX/sync_q_1[1] (to THE_MEDIA_UPLINK/ff_rxhalfclk)
+                  --------
+                    0.174   (55.2% logic, 44.8% route), 1 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "clk_200_i_0" 200.000000 MHz ;
+            814 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.223ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_RESET_HANDLER/async_sampler[0]  (from clk_200_i_0 +)
+   Destination:    FF         Data in        THE_RESET_HANDLER/async_sampler[1]  (to clk_200_i_0 +)
+
+   Delay:               0.174ns  (55.2% logic, 44.8% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.174ns physical path delay THE_RESET_HANDLER/SLICE_4289 to THE_RESET_HANDLER/SLICE_4289 meets
+     -0.049ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.049ns) by 0.223ns
+
+ Physical Path Details:
+
+      Data path THE_RESET_HANDLER/SLICE_4289 to THE_RESET_HANDLER/SLICE_4289:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096 *LICE_4289.CLK to *SLICE_4289.Q0 THE_RESET_HANDLER/SLICE_4289 (from clk_200_i_0)
+ROUTE         1   e 0.078 *SLICE_4289.Q0 to *SLICE_4289.M1 THE_RESET_HANDLER/async_sampler[0] (to clk_200_i_0)
+                  --------
+                    0.174   (55.2% logic, 44.8% route), 1 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK_GPLL_RIGHT" 200.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 20.000000 ns ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 30.000000 ns ;
+            3 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.223ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_RESET_HANDLER/final_reset[0]  (from clk_100_i +)
+   Destination:    FF         Data in        THE_RESET_HANDLER/final_reset_iso[1]  (to clk_100_i +)
+
+   Delay:               0.174ns  (55.2% logic, 44.8% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.174ns physical path delay THE_RESET_HANDLER/SLICE_4293 to THE_RESET_HANDLER/SLICE_4293 meets
+     -0.049ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.049ns) by 0.223ns
+
+ Physical Path Details:
+
+      Data path THE_RESET_HANDLER/SLICE_4293 to THE_RESET_HANDLER/SLICE_4293:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096 *LICE_4293.CLK to *SLICE_4293.Q0 THE_RESET_HANDLER/SLICE_4293 (from clk_100_i)
+ROUTE         2   e 0.078 *SLICE_4293.Q0 to *SLICE_4293.M1 THE_RESET_HANDLER/final_reset[0] (to clk_100_i)
+                  --------
+                    0.174   (55.2% logic, 44.8% route), 1 logic levels.
+
+
+================================================================================
+Preference: MULTICYCLE TO CELL "THE_RESET_HANDLER/trb_reset_*" 20.000000 ns ;
+            2 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.223ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              THE_RESET_HANDLER/trb_reset_pulse[0]  (from clk_200_i_0 +)
+   Destination:    FF         Data in        THE_RESET_HANDLER/trb_reset_pulse[1]  (to clk_200_i_0 +)
+
+   Delay:               0.174ns  (55.2% logic, 44.8% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.174ns physical path delay THE_RESET_HANDLER/SLICE_4296 to THE_RESET_HANDLER/SLICE_4296 meets
+     -0.049ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.049ns) by 0.223ns
+
+ Physical Path Details:
+
+      Data path THE_RESET_HANDLER/SLICE_4296 to THE_RESET_HANDLER/SLICE_4296:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096 *LICE_4296.CLK to *SLICE_4296.Q0 THE_RESET_HANDLER/SLICE_4296 (from clk_200_i_0)
+ROUTE         1   e 0.078 *SLICE_4296.Q0 to *SLICE_4296.M1 THE_RESET_HANDLER/trb_reset_pulse[0] (to clk_200_i_0)
+                  --------
+                    0.174   (55.2% logic, 44.8% route), 1 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "CLK_GPLL_RIGHT_c"        |             |             |
+200.000000 MHz ;                        |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "clk_100_i" 100.000000    |             |             |
+MHz ;                                   |     0.000 ns|     0.066 ns|   1  
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"THE_MEDIA_UPLINK/ff_rxhalfclk"         |             |             |
+100.000000 MHz ;                        |     0.000 ns|     0.223 ns|   1  
+                                        |             |             |
+FREQUENCY NET "clk_200_i_0" 200.000000  |             |             |
+MHz ;                                   |     0.000 ns|     0.223 ns|   1  
+                                        |             |             |
+FREQUENCY PORT "CLK_GPLL_RIGHT"         |             |             |
+200.000000 MHz ;                        |            -|            -|   0  
+                                        |             |             |
+MULTICYCLE TO CELL                      |             |             |
+"THE_RESET_HANDLER/final_reset*"        |             |             |
+20.000000 ns ;                          |            -|            -|   0  
+                                        |             |             |
+MULTICYCLE TO CELL                      |             |             |
+"THE_RESET_HANDLER/final_reset*"        |             |             |
+30.000000 ns ;                          |            -|            -|   1  
+                                        |             |             |
+MULTICYCLE TO CELL                      |             |             |
+"THE_RESET_HANDLER/trb_reset_*"         |             |             |
+20.000000 ns ;                          |            -|            -|   1  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 7 clocks:
+
+Clock Domain: clk_200_i_0   Source: THE_MAIN_PLL/PLLInst_0.CLKOK   Loads: 60
+   Covered under: FREQUENCY NET "clk_200_i_0" 200.000000 MHz ;
+   Covered under: MULTICYCLE TO CELL "THE_RESET_HANDLER/trb_reset_*" 20.000000 ns ;
+
+   Data transfers from:
+   Clock Domain: clk_100_i   Source: THE_MAIN_PLL/PLLInst_0.CLKOP
+      Covered under: MULTICYCLE TO CELL "THE_RESET_HANDLER/trb_reset_*" 20.000000 ns ;   Transfers: 1
+
+Clock Domain: TRIGGER_LEFT_c   Source: TRIGGER_LEFT.PAD   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: CLK_GPLL_RIGHT_c   Source: CLK_GPLL_RIGHT.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1   Loads: 62
+   No transfer within this clock domain is found
+
+Clock Domain: THE_MAIN_PLL/CLKFB_t   Source: THE_MAIN_PLL/PLLInst_0.CLKINTFB   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: clk_100_i   Source: THE_MAIN_PLL/PLLInst_0.CLKOP   Loads: 4987
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: TRIGGER_LEFT_c   Source: TRIGGER_LEFT.PAD
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+      Covered under: FREQUENCY NET "clk_100_i" 100.000000 MHz ;   Transfers: 1736
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+      Covered under: FREQUENCY NET "clk_100_i" 100.000000 MHz ;   Transfers: 2732
+
+   Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1
+      Not reported because source and destination domains are unrelated.
+
+Clock Domain: THE_MEDIA_UPLINK/ff_rxhalfclk   Source: THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST.FF_RX_H_CLK_1   Loads: 62
+   Covered under: FREQUENCY NET "THE_MEDIA_UPLINK/ff_rxhalfclk" 100.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: clk_200_i_0   Source: THE_MAIN_PLL/PLLInst_0.CLKOK
+      Covered under: MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 30.000000 ns ;   Transfers: 1
+
+   Clock Domain: clk_100_i   Source: THE_MAIN_PLL/PLLInst_0.CLKOP
+      Not reported because source and destination domains are unrelated.
+      Covered under: MULTICYCLE TO CELL "THE_RESET_HANDLER/final_reset*" 30.000000 ns ;   Transfers: 1
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 193325 paths, 124 nets, and 58149 connections (93.79% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

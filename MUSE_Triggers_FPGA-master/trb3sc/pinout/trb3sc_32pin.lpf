@@ -1,0 +1,380 @@
+#################################################################
+# Clock I/O
+#################################################################
+LOCATE COMP "CLK_SUPPL_PLL_RIGHT"            SITE "Y28";           #was SUPPL_CLOCK1_P
+LOCATE COMP "CLK_SUPPL_PLL_LEFT"             SITE "Y9";            #was SUPPL_CLOCK2_P
+LOCATE COMP "CLK_SUPPL_PCLK"                 SITE "V9";            #was SUPPL_CLOCK3_P
+LOCATE COMP "CLK_CORE_PCLK"                  SITE "U9";            #was "CORE_CLOCK0_P"
+LOCATE COMP "CLK_CORE_PLL_LEFT"              SITE "U6";            #was "CORE_CLOCK1_P"
+LOCATE COMP "CLK_CORE_PLL_RIGHT"             SITE "V34";           #was "CORE_CLOCK2_P"
+LOCATE COMP "CLK_EXT_PCLK"                   SITE "U28";           #was "EXT_CLOCK0_P"
+LOCATE COMP "CLK_EXT_PLL_RIGHT"              SITE "P30";           #was "EXT_CLOCK1_P"
+LOCATE COMP "CLK_EXT_PLL_LEFT"               SITE "N7";            #was "EXT_CLOCK2_P"
+DEFINE PORT GROUP "CLK_group" "CLK*" ;
+IOBUF GROUP  "CLK_group" IO_TYPE=LVDS25  DIFFRESISTOR=100;
+
+
+LOCATE COMP "TRIG_PLL"                       SITE "AJ34";
+LOCATE COMP "TRIG_RIGHT"                     SITE "P34";
+LOCATE COMP "TRIG_LEFT"                      SITE "T6";
+DEFINE PORT GROUP "TRIG_group" "TRIG*" ;
+IOBUF GROUP  "TRIG_group" IO_TYPE=LVDS25  DIFFRESISTOR=100;
+
+
+
+
+#################################################################
+# Backplane I/O
+#################################################################
+LOCATE COMP "BACK_GPIO_0"                    SITE "C26";
+LOCATE COMP "BACK_GPIO_1"                    SITE "D26";
+LOCATE COMP "BACK_GPIO_2"                    SITE "B27";
+LOCATE COMP "BACK_GPIO_3"                    SITE "C27";
+LOCATE COMP "BACK_GPIO_4"                    SITE "D27";
+LOCATE COMP "BACK_GPIO_5"                    SITE "E27";
+LOCATE COMP "BACK_GPIO_6"                    SITE "B28";
+LOCATE COMP "BACK_GPIO_7"                    SITE "A28";
+LOCATE COMP "BACK_GPIO_8"                    SITE "A26";
+LOCATE COMP "BACK_GPIO_9"                    SITE "A27";
+LOCATE COMP "BACK_GPIO_10"                   SITE "A29";
+LOCATE COMP "BACK_GPIO_11"                   SITE "A30";
+LOCATE COMP "BACK_GPIO_12"                   SITE "H26";
+LOCATE COMP "BACK_GPIO_13"                   SITE "H25";
+LOCATE COMP "BACK_GPIO_14"                   SITE "A31";
+LOCATE COMP "BACK_GPIO_15"                   SITE "B31";
+DEFINE PORT GROUP "BACK_GPIO_group" "BACK_GPIO*" ;
+IOBUF GROUP  "BACK_GPIO_group" IO_TYPE=LVCMOS25 PULLMODE=UP;
+
+LOCATE COMP "BACK_LVDS_0"                   SITE "V2";
+LOCATE COMP "BACK_LVDS_1"                   SITE "T4";
+# LOCATE COMP "BACK_LVDS_0_N"                   SITE "V1";
+# LOCATE COMP "BACK_LVDS_1_N"                   SITE "T3";
+DEFINE PORT GROUP "BACK_LVDS_group" "BACK_LVDS*" ;
+IOBUF GROUP  "BACK_LVDS_group" IO_TYPE=LVDS25;
+
+LOCATE COMP "BACK_3V3_0"                    SITE "E11";
+LOCATE COMP "BACK_3V3_1"                    SITE "F12";
+LOCATE COMP "BACK_3V3_2"                    SITE "F10";
+LOCATE COMP "BACK_3V3_3"                    SITE "E10";
+DEFINE PORT GROUP "BACK_3V3_group" "BACK_3V3*" ;
+IOBUF GROUP  "BACK_3V3_group" IO_TYPE=LVTTL33 PULLMODE=DOWN;
+
+#################################################################
+# AddOn Connector
+#################################################################
+
+LOCATE COMP "INP_0"            SITE "AA2";    #was "DQLL0_0_P" 1
+LOCATE COMP "INP_1"            SITE "AB2";    #was "DQLL0_1_P" 5
+LOCATE COMP "INP_2"            SITE "AA4";    #was "DQLL0_2_P" 9
+LOCATE COMP "INP_3"            SITE "AA10";   #was "DQSLL0_T"  13
+LOCATE COMP "INP_4"            SITE "AA5";    #was "DQLL0_3_P" 17
+LOCATE COMP "INP_5"            SITE "Y7";     #was "DQLL0_4_P" 21
+LOCATE COMP "INP_6"            SITE "AC5";    #was "DQLL2_0_P" 25
+LOCATE COMP "INP_7"            SITE "AC2";    #was "DQLL2_1_P" 29
+LOCATE COMP "INP_8"            SITE "AB4";    #was "DQLL2_2_P" 33
+LOCATE COMP "INP_9"            SITE "AD5";    #was "DQSLL2_T"  37
+LOCATE COMP "INP_10"           SITE "AA9";    #was "DQLL2_3_P" 41
+LOCATE COMP "INP_11"           SITE "AB7";    #was "DQLL2_4_P" 45
+LOCATE COMP "INP_12"           SITE "N4";     #was "DQUL3_0_P" 49
+LOCATE COMP "INP_13"           SITE "N2";     #was "DQUL3_1_P" 53
+LOCATE COMP "INP_14"           SITE "M5";     #was "DQUL3_2_P" 57
+LOCATE COMP "INP_15"           SITE "M10";    #was "DQSUL3_T"  61
+LOCATE COMP "INP_16"           SITE "AE4";    #was "DQLL3_0_P" 2
+LOCATE COMP "INP_17"           SITE "AB10";   #was "DQLL3_1_P" 6
+LOCATE COMP "INP_18"           SITE "AE2";    #was "DQLL3_2_P" 10
+LOCATE COMP "INP_19"           SITE "AJ1";    #was "DQSLL3_T"  14
+LOCATE COMP "INP_20"           SITE "AD4";    #was "DQLL3_3_P" 18
+LOCATE COMP "INP_21"           SITE "AC9";    #was "DQLL3_4_P" 22
+LOCATE COMP "INP_22"           SITE "Y2";     #was "DQLL1_0_P" 26
+LOCATE COMP "INP_23"           SITE "W4";     #was "DQLL1_1_P" 30
+LOCATE COMP "INP_24"           SITE "W2";     #was "DQLL1_2_P" 34
+LOCATE COMP "INP_25"           SITE "W6";     #was "DQSLL1_T"  38
+LOCATE COMP "INP_26"           SITE "W8";     #was "DQLL1_3_P" 42
+LOCATE COMP "INP_27"           SITE "Y8";     #was "DQLL1_4_P" 46
+LOCATE COMP "INP_28"           SITE "F2";     #was "DQUL2_0_P" 50
+LOCATE COMP "INP_29"           SITE "F3";     #was "DQUL2_1_P" 54
+LOCATE COMP "INP_30"           SITE "G2";     #was "DQUL2_2_P" 58
+LOCATE COMP "INP_31"           SITE "G3";     #was "DQSUL2_T"  62
+
+LOCATE COMP  "DAC_IN_SDI_1"     SITE "N9";     #was "DQSUL0_T"  86
+LOCATE COMP  "DAC_OUT_SCK_1"    SITE "K6";     #was "DQUL0_2_P" 82
+LOCATE COMP  "DAC_OUT_CS_1"     SITE "M7";     #was "DQUL0_4_P" 94
+LOCATE COMP  "DAC_OUT_SDO_1"    SITE "M4";     #was "DQUL0_1_P" 78
+LOCATE COMP  "RES"              SITE "Y34";    #was "DQLR2_3_P" 186
+
+DEFINE PORT GROUP "INP_group" "INP*" ;
+IOBUF GROUP  "INP_group" IO_TYPE=LVDS25 DIFFRESISTOR=100; 
+
+DEFINE PORT GROUP "DAC_IN_group" "DAC_IN_*" ;
+IOBUF GROUP "DAC_IN_group" IO_TYPE=LVDS25 DIFFRESISTOR=100;
+
+DEFINE PORT GROUP "DAC_OUT_group" "DAC_OUT_*" ;
+IOBUF GROUP "DAC_OUT_group" IO_TYPE=LVDS25;
+IOBUF PORT "RES" IO_TYPE=LVDS25;
+
+
+#################################################################
+# Pin-header IO
+#################################################################
+LOCATE COMP "HDR_IO_1"                     SITE "AP28";
+LOCATE COMP "HDR_IO_2"                     SITE "AN28";
+LOCATE COMP "HDR_IO_3"                     SITE "AP27";
+LOCATE COMP "HDR_IO_4"                     SITE "AN27";
+LOCATE COMP "HDR_IO_5"                     SITE "AM27";
+LOCATE COMP "HDR_IO_6"                     SITE "AL27";
+LOCATE COMP "HDR_IO_7"                     SITE "AH26";
+LOCATE COMP "HDR_IO_8"                     SITE "AG26";
+LOCATE COMP "HDR_IO_9"                     SITE "AM28";
+LOCATE COMP "HDR_IO_10"                    SITE "AL28";
+DEFINE PORT GROUP "HDR_group" "HDR*" ;
+IOBUF GROUP  "HDR_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN ;
+
+#################################################################
+# KEL Connector
+#################################################################
+# # LOCATE COMP "KEL1_N"                         SITE "AP6";
+# # LOCATE COMP "KEL2_N"                         SITE "AP3";
+# # LOCATE COMP "KEL3_N"                         SITE "AN2";
+# # LOCATE COMP "KEL4_N"                         SITE "AM3";
+# # LOCATE COMP "KEL5_N"                         SITE "AM5";
+# # LOCATE COMP "KEL6_N"                         SITE "AN6";
+# # LOCATE COMP "KEL7_N"                         SITE "AM4";
+# # LOCATE COMP "KEL8_N"                         SITE "AJ6";
+# # LOCATE COMP "KEL9_N"                         SITE "AJ3";
+# # LOCATE COMP "KEL10_N"                        SITE "AK3";
+# # LOCATE COMP "KEL11_N"                        SITE "AD8";
+# # LOCATE COMP "KEL12_N"                        SITE "AK4";
+# # LOCATE COMP "KEL13_N"                        SITE "V3";
+# # LOCATE COMP "KEL14_N"                        SITE "W5";
+# # LOCATE COMP "KEL15_N"                        SITE "T8";
+# # LOCATE COMP "KEL16_N"                        SITE "T1";
+# # LOCATE COMP "KEL17_N"                        SITE "P6";
+# # LOCATE COMP "KEL18_N"                        SITE "T7";
+# # LOCATE COMP "KEL19_N"                        SITE "R1";
+# # LOCATE COMP "KEL20_N"                        SITE "P10";
+# # LOCATE COMP "KEL21_N"                        SITE "AP30";
+# # LOCATE COMP "KEL22_N"                        SITE "AP32";
+# # LOCATE COMP "KEL23_N"                        SITE "AN33";
+# # LOCATE COMP "KEL24_N"                        SITE "AN31";
+# # LOCATE COMP "KEL25_N"                        SITE "AM32";
+# # LOCATE COMP "KEL26_N"                        SITE "AN29";
+# # LOCATE COMP "KEL27_N"                        SITE "AM31";
+# # LOCATE COMP "KEL28_N"                        SITE "AM30";
+# # LOCATE COMP "KEL29_N"                        SITE "AL33";
+# # LOCATE COMP "KEL30_N"                        SITE "AK31";
+# # LOCATE COMP "KEL31_N"                        SITE "AJ33";
+# # LOCATE COMP "KEL32_N"                        SITE "AK32";
+# # LOCATE COMP "KEL33_N"                        SITE "AF31";
+# # LOCATE COMP "KEL34_N"                        SITE "AE31";
+# # LOCATE COMP "KEL35_N"                        SITE "AE29";
+# # LOCATE COMP "KEL36_N"                        SITE "AD25";
+# # LOCATE COMP "KEL37_N"                        SITE "L30";
+# # LOCATE COMP "KEL38_N"                        SITE "AB27";
+# # LOCATE COMP "KEL39_N"                        SITE "M33";
+# # LOCATE COMP "KEL40_N"                        SITE "M28";
+LOCATE COMP "KEL_1"                         SITE "AP5";
+LOCATE COMP "KEL_2"                         SITE "AP2";
+LOCATE COMP "KEL_3"                         SITE "AN1";
+LOCATE COMP "KEL_4"                         SITE "AN3";
+LOCATE COMP "KEL_5"                         SITE "AL5";
+LOCATE COMP "KEL_6"                         SITE "AM6";
+LOCATE COMP "KEL_7"                         SITE "AL4";
+LOCATE COMP "KEL_8"                         SITE "AJ5";
+LOCATE COMP "KEL_9"                         SITE "AJ2";
+LOCATE COMP "KEL_10"                        SITE "AL3";
+LOCATE COMP "KEL_11"                        SITE "AD9";
+LOCATE COMP "KEL_12"                        SITE "AJ4";
+LOCATE COMP "KEL_13"                        SITE "V4";
+LOCATE COMP "KEL_14"                        SITE "V5";
+LOCATE COMP "KEL_15"                        SITE "T9";
+LOCATE COMP "KEL_16"                        SITE "T2";
+LOCATE COMP "KEL_17"                        SITE "P7";
+LOCATE COMP "KEL_18"                        SITE "R8";
+LOCATE COMP "KEL_19"                        SITE "R2";
+LOCATE COMP "KEL_20"                        SITE "P9";
+LOCATE COMP "KEL_21"                        SITE "AP29";
+LOCATE COMP "KEL_22"                        SITE "AP33";
+LOCATE COMP "KEL_23"                        SITE "AN34";
+LOCATE COMP "KEL_24"                        SITE "AP31";
+LOCATE COMP "KEL_25"                        SITE "AN32";
+LOCATE COMP "KEL_26"                        SITE "AM29";
+LOCATE COMP "KEL_27"                        SITE "AL31";
+LOCATE COMP "KEL_28"                        SITE "AL30";
+LOCATE COMP "KEL_29"                        SITE "AL34";
+LOCATE COMP "KEL_30"                        SITE "AJ31";
+LOCATE COMP "KEL_31"                        SITE "AH33";
+LOCATE COMP "KEL_32"                        SITE "AL32";
+LOCATE COMP "KEL_33"                        SITE "AF32";
+LOCATE COMP "KEL_34"                        SITE "AE32";
+LOCATE COMP "KEL_35"                        SITE "AE30";
+LOCATE COMP "KEL_36"                        SITE "AD26";
+LOCATE COMP "KEL_37"                        SITE "M29";
+LOCATE COMP "KEL_38"                        SITE "AC28";
+LOCATE COMP "KEL_39"                        SITE "M34";
+LOCATE COMP "KEL_40"                        SITE "L28";
+DEFINE PORT GROUP "KEL_group" "KEL*" ;
+IOBUF GROUP  "KEL_group" IO_TYPE=LVDS25  DIFFRESISTOR=100;
+
+#################################################################
+# Many LED
+#################################################################
+LOCATE COMP "LED_RJ_GREEN_0"                 SITE "C25";
+LOCATE COMP "LED_RJ_RED_0"                   SITE "D25";
+LOCATE COMP "LED_GREEN"                      SITE "D24";
+LOCATE COMP "LED_ORANGE"                     SITE "E24";
+LOCATE COMP "LED_RED"                        SITE "K23";
+LOCATE COMP "LED_RJ_GREEN_1"                 SITE "G26";
+LOCATE COMP "LED_RJ_RED_1"                   SITE "G25";
+LOCATE COMP "LED_YELLOW"                     SITE "K24";
+IOBUF  PORT "LED_RJ_GREEN_0"    IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_RJ_RED_0"      IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_GREEN"         IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_ORANGE"        IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_RED"           IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_RJ_GREEN_1"    IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_RJ_RED_1"      IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_YELLOW"        IO_TYPE=LVCMOS25 ;
+
+LOCATE COMP "LED_SFP_GREEN_0"                SITE "B4";
+LOCATE COMP "LED_SFP_GREEN_1"                SITE "A6";
+LOCATE COMP "LED_SFP_RED_0"                  SITE "A3";
+LOCATE COMP "LED_SFP_RED_1"                  SITE "A8";
+DEFINE PORT GROUP "LED_SFP_group" "LED_SFP*" ;
+IOBUF GROUP  "LED_SFP_group" IO_TYPE=LVTTL33 ;
+
+LOCATE COMP "LED_WHITE_0"                    SITE "A32";
+LOCATE COMP "LED_WHITE_1"                    SITE "A33";
+DEFINE PORT GROUP "LED_WHITE_group" "LED_WHITE*" ;
+IOBUF GROUP  "LED_WHITE_group" IO_TYPE=LVTTL33 ;
+
+#################################################################
+# SFP Control Signals
+#################################################################
+LOCATE COMP "SFP_LOS_0"                      SITE "B6";
+LOCATE COMP "SFP_LOS_1"                      SITE "C9";
+LOCATE COMP "SFP_MOD0_0"                     SITE "A5";
+LOCATE COMP "SFP_MOD0_1"                     SITE "K11";
+LOCATE COMP "SFP_MOD1_0"                     SITE "B7";
+LOCATE COMP "SFP_MOD1_1"                     SITE "J11";
+LOCATE COMP "SFP_MOD2_0"                     SITE "A7";
+LOCATE COMP "SFP_MOD2_1"                     SITE "D9";
+# LOCATE COMP "SFP_RATE_SEL_0"                 SITE "A4";
+# LOCATE COMP "SFP_RATE_SEL_1"                 SITE "C8";
+LOCATE COMP "SFP_TX_DIS_0"                   SITE "D6";
+LOCATE COMP "SFP_TX_DIS_1"                   SITE "A9";
+# LOCATE COMP "SFP_TX_FAULT_0"                 SITE "C5";
+# LOCATE COMP "SFP_TX_FAULT_1"                 SITE "B8";
+DEFINE PORT GROUP "SFP_group" "SFP*" ;
+IOBUF GROUP  "SFP_group" IO_TYPE=LVTTL33 ;
+
+
+
+#################################################################
+# Serdes Output Switch
+#################################################################
+LOCATE COMP "PCSSW_ENSMB"                  SITE "B3";
+LOCATE COMP "PCSSW_EQ_0"                   SITE "B1";
+LOCATE COMP "PCSSW_EQ_1"                   SITE "B2";
+LOCATE COMP "PCSSW_EQ_2"                   SITE "E4";
+LOCATE COMP "PCSSW_EQ_3"                   SITE "D4";
+LOCATE COMP "PCSSW_PE_0"                   SITE "C3";
+LOCATE COMP "PCSSW_PE_1"                   SITE "C4";
+LOCATE COMP "PCSSW_PE_2"                   SITE "D3";
+LOCATE COMP "PCSSW_PE_3"                   SITE "C2";
+LOCATE COMP "PCSSW_1"                      SITE "D5";
+LOCATE COMP "PCSSW_0"                      SITE "A2";
+LOCATE COMP "PCSSW_2"                      SITE "E13";
+LOCATE COMP "PCSSW_3"                      SITE "F13";
+LOCATE COMP "PCSSW_4"                      SITE "G13";
+LOCATE COMP "PCSSW_5"                      SITE "H14";
+LOCATE COMP "PCSSW_6"                      SITE "A13";
+LOCATE COMP "PCSSW_7"                      SITE "B13";
+DEFINE PORT GROUP "PCSSW_group" "PCSSW*" ;
+IOBUF GROUP  "PCSSW_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+
+#################################################################
+# ADC
+#################################################################
+LOCATE COMP "ADC_CLK"                        SITE "A14";    
+LOCATE COMP "ADC_CS"                         SITE "B14";    
+LOCATE COMP "ADC_DIN"                        SITE "G17";    
+LOCATE COMP "ADC_DOUT"                       SITE "G16";    
+IOBUF  PORT "ADC_CLK"  IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=4 ;
+IOBUF  PORT "ADC_CS"   IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=4 ;
+IOBUF  PORT "ADC_DIN"  IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=4 ;
+IOBUF  PORT "ADC_DOUT" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+
+
+#################################################################
+# RJ-45 connectors
+#################################################################
+LOCATE COMP "RJ_IO_0"                      SITE "R28";
+LOCATE COMP "RJ_IO_1"                      SITE "R31";
+LOCATE COMP "RJ_IO_2"                      SITE "R26";
+LOCATE COMP "RJ_IO_3"                      SITE "R34";
+#LOCATE COMP "RJ_IO_1_N"                      SITE "R27";
+#LOCATE COMP "RJ_IO_2_N"                      SITE "R30";
+#LOCATE COMP "RJ_IO_3_N"                      SITE "R25";
+#LOCATE COMP "RJ_IO_4_N"                      SITE "R33";
+IOBUF  PORT "RJ_IO_0" IO_TYPE=LVDS25 ;
+IOBUF  PORT "RJ_IO_1" IO_TYPE=LVDS25 ;
+IOBUF  PORT "RJ_IO_2" IO_TYPE=LVDS25E ;
+IOBUF  PORT "RJ_IO_3" IO_TYPE=LVDS25E ;
+
+
+LOCATE COMP "SPARE_IN_0"                    SITE "K31";
+LOCATE COMP "SPARE_IN_1"                    SITE "R4";
+#LOCATE COMP "SPARE_IN0_N"                    SITE "K32";
+#LOCATE COMP "SPARE_IN1_N"                    SITE "R3";
+IOBUF  PORT "SPARE_IN_1" IO_TYPE=LVDS25 DIFFRESISTOR=100 ;
+IOBUF  PORT "SPARE_IN_2" IO_TYPE=LVDS25 DIFFRESISTOR=100 ;
+
+
+
+#################################################################
+# Flash ROM and Reboot
+#################################################################
+LOCATE COMP "FLASH_CLK"                        SITE "F34";         #was "SPI_CLK"
+LOCATE COMP "FLASH_CS"                         SITE "D34";         #was "SPI_CS" 
+LOCATE COMP "FLASH_IN"                         SITE "F33";         #was "SPI_IN" 
+LOCATE COMP "FLASH_OUT"                        SITE "F32";         #was "SPI_OUT"
+LOCATE COMP "PROGRAMN"                         SITE "C31";
+
+DEFINE PORT GROUP "FLASH_group" "FLASH*" ;
+IOBUF GROUP "FLASH_group" IO_TYPE=LVTTL33 PULLMODE=NONE;
+IOBUF  PORT "PROGRAMN" IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=8  ;
+
+LOCATE COMP "ENPIRION_CLOCK"                 SITE "H23";
+IOBUF  PORT "ENPIRION_CLOCK" IO_TYPE=LVCMOS25 PULLMODE=UP DRIVE=8  ;
+
+
+#################################################################
+# Misc
+#################################################################
+LOCATE COMP  "TEMPSENS"    SITE "J13";                             #was TEMP_OWB
+IOBUF  PORT "TEMPSENS" IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=8  ;
+
+
+#################################################################
+# Trigger I/O
+#################################################################
+LOCATE COMP "TEST_LINE_0"                     SITE "A19";
+LOCATE COMP "TEST_LINE_1"                     SITE "B19";
+LOCATE COMP "TEST_LINE_2"                     SITE "K20";
+LOCATE COMP "TEST_LINE_3"                     SITE "L19";
+LOCATE COMP "TEST_LINE_4"                     SITE "C19";
+LOCATE COMP "TEST_LINE_5"                     SITE "D19";
+LOCATE COMP "TEST_LINE_6"                     SITE "J19";
+LOCATE COMP "TEST_LINE_7"                     SITE "K19";
+LOCATE COMP "TEST_LINE_8"                     SITE "A20";
+LOCATE COMP "TEST_LINE_9"                     SITE "B20";
+LOCATE COMP "TEST_LINE_10"                    SITE "G20";
+LOCATE COMP "TEST_LINE_11"                    SITE "G21";
+LOCATE COMP "TEST_LINE_12"                    SITE "C20";
+LOCATE COMP "TEST_LINE_13"                    SITE "D20";
+LOCATE COMP "TEST_LINE_14"                    SITE "F21";
+LOCATE COMP "TEST_LINE_15"                    SITE "F22";
+DEFINE PORT GROUP "TEST_LINE_group" "TEST_LINE*" ;
+IOBUF GROUP "TEST_LINE_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN DRIVE=8;

@@ -1,0 +1,10 @@
+-w
+-i 15
+-l 5
+-y
+-s 12
+-t 26
+-c 1
+-e 2
+#-g guidefile.ncd
+-exp parCDP=1:parCDR=1:parPlcInLimit=0:parPlcInNeighborSize=1:parPathBased=ON:parHold=ON:parHoldLimit=10000:paruseNBR=1

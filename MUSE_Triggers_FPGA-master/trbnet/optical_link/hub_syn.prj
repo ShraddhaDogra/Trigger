@@ -1,0 +1,112 @@
+#-- Synopsys, Inc.
+#-- Version 9.6L2
+#-- Project file /home/marek/trbnet/optical_link/hub_syn.prj
+#-- Written on Thu Apr  2 10:51:38 2009
+
+
+#add_file options
+add_file -vhdl -lib work "./version.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net_onewire.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_addresses.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_hub_func.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/lattice/scm/lattice_scm_fifo_18x1k.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/lattice/scm/lattice_scm_fifo_18x16.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/lattice/scm/lattice_scm_fifo_18x32.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/lattice/scm/lattice_scm_fifo_18x64.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/lattice/scm/trb_net16_fifo_arch.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_io_multiplexer.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_regIO.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_api_base.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_obuf.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_ibuf.vhd"
+add_file -vhdl -lib work "./simple_hub.vhd"
+add_file -vhdl -lib work "./cross_clk.vhd"
+add_file -vhdl -lib work "/home/marek/trbv2/etrax_interfacev2.vhd"
+add_file -vhdl -lib work "./simpleupcounter_32bit.vhd"
+add_file -vhdl -lib work "./hub_etrax_interface.vhd"
+add_file -vhdl -lib work "./hub.vhd"
+add_file -vhdl -lib work "./f_divider.vhd"
+add_file -vhdl -lib work "./simpleupcounter_16bit.vhd"
+add_file -vhdl -lib work "./simpleupcounter_8bit.vhd"
+add_file -vhdl -lib work "./flexi_PCS_synch.vhd"
+add_file -vhdl -lib work "./flexi_PCS_channel_synch.vhd"
+add_file -vhdl -lib work "./flexi_PCS_fifo_LUT.vhd"
+add_file -vhdl -lib work "./flexi_PCS_fifo_EBR.vhd"
+add_file -vhdl -lib work "./serdes_fpga_ref_clk.vhd"
+add_file -vhdl -lib work "./pll_ref.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net_std.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_iobuf.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net_CRC.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net_dummy_fifo.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net_pattern_gen.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net_priority_arbiter.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net_priority_encoder.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net_sbuf.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_sbuf.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_hub_base.vhd"
+add_file -vhdl -lib work "/home/marek/trbnet/trb_net16_hub_logic.vhd"
+add_file -vhdl -lib work "../basics/ram_16x8_dp.vhd"
+add_file -vhdl -lib work "../basics/ram_16x16_dp.vhd"
+add_file -vhdl -lib work "../basics/ram_dp_rw.vhd"
+add_file -vhdl -lib work "../basics/ram_dp.vhd"
+add_file -vhdl -lib work "../basics/ram_true_dp.vhd"
+add_file -vhdl -lib work "../basics/ram.vhd"
+add_file -vhdl -lib work "../basics/rom_16x8.vhd"
+add_file -vhdl -lib work "../basics/rom_16x16.vhd"
+add_file -vhdl -lib work "../basics/rom_18x128.vhd"
+add_file -vhdl -lib work "../basics/signal_sync.vhd"
+add_file -vhdl -lib work "../basics/wide_adder_17x16.vhd"
+add_file -vhdl -lib work "../basics/wide_adder.vhd"
+add_file -vhdl -lib work "../trb_net16_term_buf.vhd"
+add_file -vhdl -lib work "../../trbv2/up_down_counter.vhd"
+add_file -vhdl -lib work "../trb_net16_hub_ipu_logic.vhd"
+
+
+#implementation: "workdir"
+impl -add workdir -type fpga
+
+#device options
+set_option -technology LATTICE-SCM
+set_option -part LFSCM3GA25EP1
+set_option -package FF1020C
+set_option -speed_grade -5
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -default_enum_encoding onehot
+set_option -resource_sharing 1
+set_option -top_module "hub"
+
+#map options
+set_option -frequency 110.000
+set_option -vendor_xcompatible_mode 0
+set_option -vendor_xcompatible_mode 0
+set_option -fanout_limit 100
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 0
+set_option -fixgatedclocks 0
+set_option -fixgeneratedclocks 3
+set_option -force_gsr no
+
+
+#sequential_optimizations options
+set_option -symbolic_fsm_compiler 1
+
+#simulation options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 0
+
+#set result format/file last
+project -result_file "./workdir/hub.edf"
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -synthesis_onoff_pragma 0
+set_option -project_relative_includes 1
+impl -active "workdir"

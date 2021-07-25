@@ -1,0 +1,4 @@
+clk  i
+clkop  o
+clkos  o
+lock  o

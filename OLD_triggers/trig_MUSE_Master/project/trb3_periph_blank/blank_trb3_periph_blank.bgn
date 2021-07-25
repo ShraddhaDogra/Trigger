@@ -1,0 +1,68 @@
+BITGEN: Bitstream Generator Diamond (64-bit) 3.10.2.115
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Command: bitgen -w -g CfgMode:Disable -g RamCfg:Reset -path E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project -path E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project -g ES:No -e -s E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project/blank.sec -k E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project/blank.bek -gui -msgset E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/project/promote.xml blank_trb3_periph_blank.ncd blank_trb3_periph_blank.prf 
+
+Loading design for application Bitgen from file blank_trb3_periph_blank.ncd.
+Design name: trb3_periph_blank
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 8
+Loading device for application Bitgen from file 'ec5a124x182.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from blank_trb3_periph_blank.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        CfgMode  |                      Disable**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                             20  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                    CONFIG_MODE  |                          SPI**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                     PERSISTENT  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                             ES  |                           No**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                     ENABLE_NDR  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               CONFIG_IOVOLTAGE  |                          2.5**  |
++---------------------------------+---------------------------------+
+|                         STRTUP  |                     EXTERNAL**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+PCSD THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/PCSD_INST: Reading CONFIG_FILE 'sfp_1_200_int.ptx' which is created from 'sfp_1_200_int.txt'...
+ 
+Bitstream Status: Final           Version 1.40.
+ 
+Saving bit stream in "blank_trb3_periph_blank.bit".

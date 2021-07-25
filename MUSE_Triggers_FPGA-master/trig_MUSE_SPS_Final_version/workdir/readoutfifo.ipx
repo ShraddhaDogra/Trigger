@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="readoutfifo" module="readoutfifo" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2017 03 01 16:07:09.760" version="5.8" type="Module" synthesis="synplify" source_format="Verilog HDL">
+  <Package>
+		<File name="readoutfifo.lpc" type="lpc" modified="2017 03 01 16:07:08.002"/>
+		<File name="readoutfifo.v" type="top_level_verilog" modified="2017 03 01 16:07:08.047"/>
+		<File name="readoutfifo_tmpl.v" type="template_verilog" modified="2017 03 01 16:07:08.047"/>
+		<File name="tb_readoutfifo_tmpl.v" type="testbench_verilog" modified="2017 03 01 16:07:08.055"/>
+  </Package>
+</DiamondModule>

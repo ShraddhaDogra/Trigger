@@ -1,0 +1,38 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\lcd.vhd":9:7:9:9|Top entity is set to lcd.
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":14:7:14:21|Top entity is set to panda_dirc_wasa.
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":15:7:15:21|Synthesizing work.panda_dirc_wasa.panda_dirc_wasa_arch.
+@N: CD231 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":238:15:238:16|Using onehot encoding for type fsm_state. For example, enumeration idle is mapped to "10000".
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":10:7:10:21|Synthesizing work.trb_net_onewire.trb_net_onewire_arch.
+@N: CD231 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":36:15:36:16|Using onehot encoding for type state_t. For example, enumeration start is mapped to "10000000000000".
+@N: CD604 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":262:8:262:21|OTHERS clause is not synthesized.
+@N: CL189 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":293:6:293:7|Register bit strong_pullup is always 0.
+@N: CL189 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Register bit ram_addr(2) is always 0.
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd":7:7:7:19|Synthesizing work.pwm_generator.pwm_arch.
+@N: CL134 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Found RAM set, depth=16, width=16
+@N: CL134 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Found RAM set, depth=16, width=16
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flashram.vhd":14:7:14:14|Synthesizing work.flashram.structure.
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":12:7:12:15|Synthesizing work.spi_slave.spi_slave_arch.
+@N: CD231 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":55:13:55:14|Using onehot encoding for type state_t. For example, enumeration idle is mapped to "100000".
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\pll.vhd":14:7:14:9|Synthesizing work.pll.structure.
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":56:7:56:11|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":293:6:293:7|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":239:7:239:17|Trying to extract state machine for register fsm_copydat.
+@N: CG364 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\signal_gen_x16.v":3:7:3:20|Synthesizing module signal_gen_x16 in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v":1032:7:1032:9|Synthesizing module PUR in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v":494:7:494:9|Synthesizing module GSR in library work.
+@N: CG364 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":50:7:50:12|Synthesizing module UFM_WB in library work.
+@N: CG794 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":144:9:144:13|Using module flash from library work
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":246:3:246:8|Trying to extract state machine for register c_state.
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd":14:7:14:11|Top entity is set to flash.
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd":14:7:14:11|Synthesizing work.flash.structure.
+@N|Running in 64-bit mode
+

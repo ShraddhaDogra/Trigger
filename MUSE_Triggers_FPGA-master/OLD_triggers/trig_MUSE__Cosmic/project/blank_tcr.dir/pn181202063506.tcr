@@ -1,0 +1,6 @@
+#Start recording tcl command: 12/2/2018 04:57:46
+#Project Location: C:/Users/muse/Desktop/MUSE_Triggers_FPGA/trig_MUSE__Cosmic_rev1/project; Project name: blank
+prj_project open "C:/Users/muse/Desktop/MUSE_Triggers_FPGA/trig_MUSE__Cosmic_rev1/project/trb3_periph_blank.ldf"
+prj_src add "C:/Users/muse/Desktop/MUSE_Triggers_FPGA/trig_MUSE__Cosmic_rev1/Source/Or6.v"
+prj_run Export -impl trb3_periph_blank -task Bitgen
+#Stop recording: 12/2/2018 06:35:06

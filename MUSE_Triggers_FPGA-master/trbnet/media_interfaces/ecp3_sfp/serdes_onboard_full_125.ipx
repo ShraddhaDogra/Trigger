@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="serdes_onboard_full_125" module="PCS" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2011 10 18 18:25:40.048" version="8.1" type="Module" synthesis="" source_format="VHDL">
+  <Package>
+		<File name="serdes_onboard_full_125.lpc" type="lpc" modified="2011 10 18 18:25:36.000"/>
+		<File name="serdes_onboard_full_125.pp" type="pp" modified="2011 10 18 18:25:36.000"/>
+		<File name="serdes_onboard_full_125.tft" type="tft" modified="2011 10 18 18:25:36.000"/>
+		<File name="serdes_onboard_full_125.txt" type="pcs_module" modified="2011 10 18 18:25:36.000"/>
+		<File name="serdes_onboard_full_125.vhd" type="top_level_vhdl" modified="2011 10 18 18:25:36.000"/>
+  </Package>
+</DiamondModule>

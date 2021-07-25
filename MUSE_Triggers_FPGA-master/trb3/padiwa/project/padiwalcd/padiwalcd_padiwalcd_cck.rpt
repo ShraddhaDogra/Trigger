@@ -1,0 +1,148 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Mon Apr  2 11:54:59 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "panda_dirc_wasa"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                     Ending                       |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                       System                       |     1000.000         |     No paths         |     No paths         |     No paths                         
+System                       pll|CLKOP_inferred_clock     |     5.827            |     No paths         |     No paths         |     No paths                         
+pll|CLKOS_inferred_clock     System                       |     4.533            |     No paths         |     No paths         |     No paths                         
+pll|CLKOS_inferred_clock     pll|CLKOS_inferred_clock     |     4.533            |     No paths         |     No paths         |     No paths                         
+pll|CLKOS_inferred_clock     pll|CLKOP_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pll|CLKOP_inferred_clock     System                       |     5.827            |     No paths         |     No paths         |     No paths                         
+pll|CLKOP_inferred_clock     pll|CLKOS_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pll|CLKOP_inferred_clock     pll|CLKOP_inferred_clock     |     5.827            |     No paths         |     No paths         |     No paths                         
+=====================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:CON[1]
+p:CON[2]
+p:CON[3]
+p:CON[4]
+p:CON[5]
+p:CON[6]
+p:CON[7]
+p:CON[8]
+p:CON[9]
+p:CON[10]
+p:CON[11]
+p:CON[12]
+p:CON[13]
+p:CON[14]
+p:CON[15]
+p:CON[16]
+p:INP[1]
+p:INP[2]
+p:INP[3]
+p:INP[4]
+p:INP[5]
+p:INP[6]
+p:INP[7]
+p:INP[8]
+p:INP[9]
+p:INP[10]
+p:INP[11]
+p:INP[12]
+p:INP[13]
+p:INP[14]
+p:INP[15]
+p:INP[16]
+p:LED_GREEN
+p:LED_ORANGE
+p:LED_RED
+p:LED_YELLOW
+p:PWM[1]
+p:PWM[2]
+p:PWM[3]
+p:PWM[4]
+p:PWM[5]
+p:PWM[6]
+p:PWM[7]
+p:PWM[8]
+p:PWM[9]
+p:PWM[10]
+p:PWM[11]
+p:PWM[12]
+p:PWM[13]
+p:PWM[14]
+p:PWM[15]
+p:PWM[16]
+p:SPARE_LINE[0]
+p:SPARE_LINE[1]
+p:SPARE_LINE[2]
+p:SPARE_LINE[3]
+p:SPARE_LVDS
+p:SPI_CLK
+p:SPI_CS
+p:SPI_IN
+p:SPI_OUT
+p:TEMP_LINE (bidir end point)
+p:TEMP_LINE (bidir start point)
+p:TEST_LINE[0]
+p:TEST_LINE[1]
+p:TEST_LINE[2]
+p:TEST_LINE[3]
+p:TEST_LINE[4]
+p:TEST_LINE[5]
+p:TEST_LINE[6]
+p:TEST_LINE[7]
+p:TEST_LINE[8]
+p:TEST_LINE[9]
+p:TEST_LINE[10]
+p:TEST_LINE[11]
+p:TEST_LINE[12]
+p:TEST_LINE[13]
+p:TEST_LINE[14]
+p:TEST_LINE[15]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

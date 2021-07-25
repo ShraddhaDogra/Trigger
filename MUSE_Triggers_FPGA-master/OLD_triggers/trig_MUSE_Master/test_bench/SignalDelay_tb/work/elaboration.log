@@ -1,0 +1,35 @@
+Active-HDL 10.3.3558.6081  2018-11-26 16:57:04
+
+Elaboration top modules:
+Architecture                  behavior(tb_signal_delay)
+
+
+--------------------------------------------------------------------------------------------------
+Entity          | Architecture | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+tb_signal_delay | behavior     | work    |      | 10.3.3558.6081  (Windows) | -dbg
+signal_delay    | arch         | work    |      | 10.3.3558.6081  (Windows) | -dbg
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+VHDL Package                   | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+standard                       | std     |      |                           | <unavailable>
+TEXTIO                         | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164                 | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+NUMERIC_STD                    | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+Library                        | Comment
+--------------------------------------------------------------------------------------------------
+ieee                           | Standard IEEE packages library
+std                            | Standard VHDL library
+work                           | None
+--------------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r tb_signal_delay -PL pmi_work -L ovi_ecp3 -L pcsd_work
+
+
+The performance of simulation is reduced. Version Lattice Edition

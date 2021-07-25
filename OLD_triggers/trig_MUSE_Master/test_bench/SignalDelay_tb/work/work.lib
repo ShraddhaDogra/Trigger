@@ -1,0 +1,1433 @@
+timestamp=1543269411115
+
+[~A]
+E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll.v=0*162046*163184
+E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll0.v=0*164269*165584
+E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll1.v=0*166657*167956
+E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll2.v=0*169013*170152
+E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll3.v=0*171209*172332
+E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll4.v=0*173406*174529
+E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/LA_FIFO.v=0*176457*186847
+E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/readoutfifo.v=0*188480*194329
+LastVerilogToplevel=readoutfifo
+ModifyID=116
+Version=74
+
+[$root]
+A/$root=22|||1*185853
+BinI32/$root=3*9048
+SLP=3*9152
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c73a565f2ade592f8ac1c68f484c92162f567538a52d0eed0d410dff2bf68aa8
+
+[Cpll]
+A/Cpll=22|./../../../workdir/Cpll.v|8|1*81519
+BinI32/Cpll=3*3635
+R=./../../../workdir/Cpll.v|8
+SLP=3*3976
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|80960985682b106df3b7d20be5c70db5874cd273d49531509ac44093eebd8674
+
+[Cpll0]
+A/Cpll0=22|./../../../workdir/Cpll0.v|8|1*85913
+BinI32/Cpll0=3*4320
+R=./../../../workdir/Cpll0.v|8
+SLP=3*4659
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|62599b7f916d35a7ba975fc4205f72289064a1673cdbacea87e5aac7c60a3c4c
+
+[Cpll1]
+A/Cpll1=22|./../../../workdir/Cpll1.v|8|1*91287
+BinI32/Cpll1=3*5018
+R=./../../../workdir/Cpll1.v|8
+SLP=3*5360
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|8ed61171b86338981d9eb358cac667ba9b1779f0ccf9cc20c514868171d0d2ce
+
+[Cpll2]
+A/Cpll2=22|./../../../workdir/Cpll2.v|8|1*96522
+BinI32/Cpll2=3*5714
+R=./../../../workdir/Cpll2.v|8
+SLP=3*6056
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b37ef43321164c10cc408fb3ee49804ff8ea71777c211cd0e8a5e8465497fb74
+
+[Cpll3]
+A/Cpll3=22|./../../../workdir/Cpll3.v|8|1*100865
+BinI32/Cpll3=3*6401
+R=./../../../workdir/Cpll3.v|8
+SLP=3*6741
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|851bc9dc22486cc7a3555b33607f2e988bdb6ab51eda48df45af64148a9cc05f
+
+[Cpll4]
+A/Cpll4=22|./../../../workdir/Cpll4.v|8|1*105208
+BinI32/Cpll4=3*7086
+R=./../../../workdir/Cpll4.v|8
+SLP=3*7428
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|4917835d4ce74781a1a8ee3ad1f77e4064e05401d06f7fbc159fb438194a05ef
+
+[LA_FIFO]
+A/LA_FIFO=22|./../../../workdir/LA_FIFO.v|8|1*109567
+BinI32/LA_FIFO=3*7773
+R=./../../../workdir/LA_FIFO.v|8
+SLP=3*8181
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|cbd25e2a14acbeddb9cdbdc1a7e0eed826527262ddaa47cb266f3a3c4d9b973af52dba8cff9d260d42ac6be9f61ad16d
+
+[basic_type_declaration]
+E=1*80525
+I=0*161244
+M=3|0|vd0|1543269279541|./../../../Source/basic_type_declaration.vhd|0*160788*0xf611a48505aadf892ccfd14981d6e06cdfa993a8|0*161124*0x23b75c12e3e89f2ef000564498faa8c2
+R=./../../../Source/basic_type_declaration.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f35fd2c41110100a3648dbfe44639a03612149947baf50984d8bb3bdd52b0f3be7d1353d35df0cd84bba3d120e63839a
+
+[bus_register_handler]
+A/behavioral=A/Behavioral 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/bus_register_handler.vhd|27|1*3018564
+BinI32/behavioral=3*139444
+I=0*1358991
+I/behavioral=I/Behavioral 0*1360778
+M=11|0|vd0|1543269332454|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/bus_register_handler.vhd|0*1358198*0x4ca8c338e23a9e39fa3f8f0b13e4659899edfa4f|0*1358852*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1543269332473|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/bus_register_handler.vhd|0*1359354*0x9ebca2e2349d66f2629edb5dd279aff971f7caaa|0*1360625*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/bus_register_handler.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|228de685d65f2a79c92918609198abca638c589fe6952016dbd7e0fdf7e0bfe0d4fe7ba0844314652f9b9af3cbd6a155
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4642dcccedeeabb23255e37714cd3749a
+
+[config]
+E=1*16982
+I=0*20098
+M=3|0|vd0|1543269275554|./../../../config.vhd|0*16751*0xfca143ac5396c9109005e8e56af1c7c4ea0be752|0*20017*0x23b75c12e3e89f2ef000564498faa8c2
+R=./../../../config.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|85e4ee2e4a8cbcd1e2a9784b188acdfb33c859ad669385823de2cf12829d55f5
+
+[debuguart]
+I=0*493443
+M=11|0|vd0|1543269303009|E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/debuguart.vhd|0*492803*0x5556482ee5ebe5fb6d98b232a5a73f420133a853|0*493329*0x23b75c12e3e89f2ef000564498faa8c2
+R=E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/debuguart.vhd|10
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|1f4ac61d0caa34460fc2b489cd86e321b9026f15b4eda400c3832a21ffdbeabd0a7eaa6673a8cce5b30e9f17d4886e09
+
+[edge_to_pulse]
+A/arch_edge_to_pulse=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|97|1*583587
+BinI32/arch_edge_to_pulse=3*24565
+I=0*393133
+I/arch_edge_to_pulse=0*394455
+M=11|0|vd0|1543269296123|E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|0*392631*0x4b6d8a798db33d4e2c7459f46221e41f99f3d471|0*393007*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch_edge_to_pulse=21|0|vd0|1543269296132|E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|0*393420*0x22f1365165897b03d8cad962357b4d7d0e67c5e4|0*394307*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|87
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6278c2867bcd5f48be3dd1d455a94a16b75a3a796de4946e7db5c2fc4f6dacd54c3c0829bcf79eb31898733c44e3fda2
+Version/arch_edge_to_pulse=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d1133fe4a0598333652d6b9fe6b431a166601c284a1ee8b3da8417c42567bee3d9a138f87db3cbfddc2008c53eefb5b7
+
+[f_divider]
+A/arch_f_divider=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|23|1*582159
+BinI32/arch_f_divider=3*23110
+I=0*390809
+I/arch_f_divider=0*392122
+M=11|0|vd0|1543269296091|E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|0*390319*0xda14df6f7625c724e76bb0d2da20a01228eb5960|0*390687*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch_f_divider=21|0|vd0|1543269296093|E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|0*391092*0xab8097432734cda6e1dd374a5273e50915a68596|0*391982*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|7
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f5c26f25dc6386b812a315617573582b068f673cb80690eb3befc401eddf8c981e2bd525f0cdc892fe8115e433a8ee43
+Version/arch_f_divider=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|10e36978cff88afc8a111fe7e072235957e73823c8d4944ed45d82154b7703b7499d45af610d58da4ba3669eefe34d4b
+
+[fifo_18x1k_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x1k_oreg.vhd|29|1*598612
+BinI32/structure=3*29818
+I=0*411388
+I/structure=I/Structure 0*440429
+M=11|0|vd0|1543269299361|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x1k_oreg.vhd|0*410669*0x781acbcc3512509eac10ffdd9ba8ddf3387ee163|0*411249*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269299712|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x1k_oreg.vhd|0*411633*0x363b5c80f55047a735eaa701f3712a07f02dd0f0|0*440277*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x1k_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|31c9dd10ac468011eba1a32eecfddd18dfc081ee10747b1b859729145b35023f45fd0b076671ea91d0cc7ac983e3bf5d
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680e93959642fcb64ebab20705fb6b05507
+
+[fifo_18x256_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x256_oreg.vhd|29|1*1048474
+BinI32/structure=3*113689
+I=0*677349
+I/structure=I/Structure 0*703224
+M=11|0|vd0|1543269318653|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x256_oreg.vhd|0*676624*0xc41119607a145557c7b788d43c4f071fabc8ec45|0*677208*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269319285|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x256_oreg.vhd|0*677595*0x13dceca52b58163a6368a5bc996c89d9f83522d7|0*703070*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x256_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b6e7fb67087e591ab84f9866b38d391bb851a514277adb0aef823a0720feaa7838ea0a902d32d55088f6cefa02a64196
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa6806512e0ba26e8fc8b64567ad219f183ab
+
+[fifo_18x2k_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x2k_oreg.vhd|29|1*886944
+BinI32/structure=3*111633
+I=0*611770
+I/structure=I/Structure 0*644133
+M=11|0|vd0|1543269316006|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x2k_oreg.vhd|0*611051*0xe88238343d5e1b754de76adde796995415d6cf14|0*611631*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269316184|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x2k_oreg.vhd|0*612015*0x9657ebe41ec4616e0f0d31785bd4bef008890b26|0*643981*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x2k_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|13ddae8f13cb38ac3123844ced3c95d9ef118a325bf3b62923b70162b6c92002130a625618abb2e6d40859235c03978d
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa6805ed2757f973cbbea86c2d343b5c0baa2
+
+[fifo_18x512_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x512_oreg.vhd|29|1*977000
+BinI32/structure=3*112721
+I=0*647530
+I/structure=I/Structure 0*673937
+M=11|0|vd0|1543269317196|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x512_oreg.vhd|0*646805*0x060e937567f37ad846d2dde61a7985d3d2feee78|0*647389*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269317827|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x512_oreg.vhd|0*647776*0x95a9b7903102eb8cade738a3bf4cd5fc385117d8|0*673783*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x512_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|0d12a0991aa49572079d81728679a84a6c908fd84d64b8a1b8492c80d28c507bd0e441beb3d3d97e0d3dea8ae5873d8d
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa6808343ea35da11b1f0e44eb47f20377f47
+
+[fifo_19x16_obuf]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_19x16_obuf.vhd|29|1*3045648
+BinI32/structure=3*155036
+I=0*1386604
+I/structure=I/Structure 0*1405688
+M=11|0|vd0|1543269337097|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_19x16_obuf.vhd|0*1385885*0x99e7763102426fa5f4945d195f968538af3b955c|0*1386465*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269337741|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_19x16_obuf.vhd|0*1386849*0x745ea86555d19194531b8ab4fe809873bf6408f4|0*1405536*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_19x16_obuf.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eb1531d966a4d9e660e5c47c284b14714c3552fa15529a67c16030bf4e888af787c1e29b789b6fca7b4907449aa3ac41
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa68063af62f48455fa39e7fb743684195c7d
+
+[fifo_36x16k_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x16k_oreg.vhd|29|1*1909770
+BinI32/structure=3*116962
+I=0*954354
+I/structure=I/Structure 0*1080534
+M=11|0|vd0|1543269321740|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x16k_oreg.vhd|0*953629*0x7ae1138c680db569ae9a4bb2b0c9a15bccafa26d|0*954213*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269322156|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x16k_oreg.vhd|0*954600*0xfc6041cd895e8acd604f0654a55a3aa219339293|0*1080380*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x16k_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6a84f0059af7c6425ec8cdb0b3b97b30e369c8c709b58fbf383837557dc035cab70b44a369fd2be69f50ba7669957062
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa68067ada04e661726de78c69221c51bd0a4
+
+[fifo_36x1k_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x1k_oreg.vhd|29|1*2816533
+BinI32/structure=3*122486
+I=0*1264561
+I/structure=I/Structure 0*1295937
+M=11|0|vd0|1543269326016|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x1k_oreg.vhd|0*1263842*0x5b3547773600b83f5d99fa75a5854d878ea83b58|0*1264422*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269326244|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x1k_oreg.vhd|0*1264806*0x6c1cf8466c1d5c82223a42da7572ce113dba0bdb|0*1295785*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x1k_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eb4fd228c6693201401241fab606d003877e26e0b0793cf0f70f1fced73fcae1f7e8629d81af20b1fe11cbf30f929199
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa6807e8665be4c6cbdaf3002d47ac575f8c1
+
+[fifo_36x256_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x256_oreg.vhd|29|1*366144
+BinI32/structure=3*16420
+I=0*268427
+I/structure=I/Structure 0*293880
+M=11|0|vd0|1543269294379|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x256_oreg.vhd|0*267702*0x1afcfbaf278bd398d70ca91e61c8bd946c1a38c0|0*268286*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269294700|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x256_oreg.vhd|0*268673*0x28512a39ecd55708b1a9a35416cdfba529f94165|0*293726*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x256_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|3bdac73ddc1428056d140eb116214abf9f1b72a8436e0c8f0bedfc1200b07ee494735586508d8e6de5adf6b6bd3bdb46
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680be1159eb7ea0d32359c094488e236755
+
+[fifo_36x2k_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x2k_oreg.vhd|29|1*2709166
+BinI32/structure=3*121348
+I=0*1224240
+I/structure=I/Structure 0*1261171
+M=11|0|vd0|1543269324989|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x2k_oreg.vhd|0*1223521*0xf4b4fb07215dd74bc7d4ec2a4f3c405a0acf348e|0*1224101*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269325149|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x2k_oreg.vhd|0*1224485*0x2c6f03209a373ea35e68a869daa6a09f3841cdae|0*1261019*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x2k_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ec873c6f29079fec8929d947b29ac312acb66524185a19e3d855a8095715f532ad142b9b70ac6be70491f627782cbada
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680864bcef56d28a2417e1516a2308ef583
+
+[fifo_36x32k_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x32k_oreg.vhd|29|1*1119049
+BinI32/structure=3*114677
+I=0*706629
+I/structure=I/Structure 0*950847
+M=11|0|vd0|1543269320059|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x32k_oreg.vhd|0*705904*0x82843d2b91c9ec2387dbccfb8b2383b21d511fb0|0*706488*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269320732|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x32k_oreg.vhd|0*706875*0x6f3d436bab174f94560514239e4295d109f48eca|0*950693*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x32k_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|af5231e51bc7c57cf1b825dcccfa634b2324e19d1baccebe8ebc66d6977fb418c1d2859dd028a15233d1830679c9c77e
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa68072af743940cf0812537919045511463f
+
+[fifo_36x4k_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x4k_oreg.vhd|29|1*2548244
+BinI32/structure=3*120107
+I=0*1166289
+I/structure=I/Structure 0*1220749
+M=11|0|vd0|1543269323981|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x4k_oreg.vhd|0*1165570*0x2244523fe0ae3e134bd14fdbd60866a1a268332c|0*1166150*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269324238|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x4k_oreg.vhd|0*1166534*0xe8c1d9b81e06353dfa88d72e9d264040624ac863|0*1220597*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x4k_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9aacec4c521c4d6dd0f48647a77947b41720e9cc6cd87b411fefdcd60abd2ebd2d9ef98cc1ff7e696fde01c8103ee6e5
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa68043820f5893d16514ebcb1958e04a8b01
+
+[fifo_36x512_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x512_oreg.vhd|29|1*2903929
+BinI32/structure=3*123546
+I=0*1299334
+I/structure=I/Structure 0*1325831
+M=11|0|vd0|1543269327018|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x512_oreg.vhd|0*1298609*0x2131c8c8e4ed87fe677262080e9e4165a0dd2564|0*1299193*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269327625|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x512_oreg.vhd|0*1299580*0xc0c04ee74ebb82e68fa049494cd6fc09710663a0|0*1325677*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x512_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|674ec3c4fb6c32ff1dfb4aff960ee8fde17e9fa0a7fb834aea3715fd271ff38264b73ad8e02c59ca79438c1a62f188dd
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680ac01cd6022f3ee3ed84c5ea0ca01d48c
+
+[fifo_36x8k_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x8k_oreg.vhd|29|1*2307723
+BinI32/structure=3*118700
+I=0*1084031
+I/structure=I/Structure 0*1162795
+M=11|0|vd0|1543269323022|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x8k_oreg.vhd|0*1083312*0xcd8f5cd0d031f6948ac10c5894aac3d44682f0ad|0*1083892*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269323270|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x8k_oreg.vhd|0*1084276*0x123569b1431a6ee04c600105e08c31a53f9b7619|0*1162643*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x8k_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|50247a31d6294dca63515a75b833b727b20f6b97d1e882fc568bad9ddce3cb8b36880b5ac1fe3bfa41e3f97872cac027
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680e7e08f532c96ca4f835c4f2c2ad039e9
+
+[fifo_9x2k_oreg]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_9x2k_oreg.vhd|26|1*694575
+BinI32/structure=3*46194
+I=0*462450
+I/structure=I/Structure 0*483393
+M=11|0|vd0|1543269301155|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_9x2k_oreg.vhd|0*461845*0xd92ff1d2bd5b9e8f0cb904fe1e60615271b84a9a|0*462313*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269301529|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_9x2k_oreg.vhd|0*462694*0x3d237b68472dc4eccfe0d1a1341e0decadd2cfc3|0*483243*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_9x2k_oreg.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|52116e2932904c037cc13d20de7b85ccbe393d8e8ae02c7ea3cf4588e72ea12fa510d832195e327bb843b3ffb2e234ba
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa6803665c59bf961b154592e622f1fcdd0aa
+
+[fifo_var_oreg]
+I=0*1329484
+M=11|0|vd0|1543269328433|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp2m/fifo/fifo_var_oreg.vhd|0*1328570*0xda93c2548ce5c722c81aec60d0b562bb44abfcd5|0*1329348*0x23b75c12e3e89f2ef000564498faa8c2
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp2m/fifo/fifo_var_oreg.vhd|10
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|329fe1ccf2b13534b00b7fd7aa8966b37fc822f10c52ac769cdbce1099f971ed36724782486a1fa35de2410b3ef15e69
+
+[fpga_reboot]
+A/fpga_reboot_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/fpga_reboot.vhd|15|1*790159
+BinI32/fpga_reboot_arch=3*74054
+I=0*534813
+I/fpga_reboot_arch=0*535948
+M=11|0|vd0|1543269308633|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/fpga_reboot.vhd|0*534369*0x3dbf4eb9dd02b128d08c0508951420fd49361592|0*534692*0x23b75c12e3e89f2ef000564498faa8c2
+M/fpga_reboot_arch=21|0|vd0|1543269308635|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/fpga_reboot.vhd|0*535055*0x39f1d676749aac24ff6069ca9e890b33e58e190b|0*535807*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/fpga_reboot.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|154918cc870d6181d654d94050b3dbd8670f1b9bf588b7323d2879c7dd772fd5afa3a041472306c413d11b03761208cf
+Version/fpga_reboot_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|91097426b17e928542c396a020dc521a7b8c6120d9a966fd33696147e1bda62abeaa5a548040b2dd7bebf294fd73d5f3
+
+[handler_data]
+A/handler_data_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_data.vhd|96|1*2975385
+BinI32/handler_data_arch=3*124514
+I=0*1332910
+I/handler_data_arch=0*1344561
+M=11|0|vd0|1543269330361|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_data.vhd|0*1330533*0x949d459d6701c2dd55e7b15fe2747345afc9e24e|0*1332787*0x23b75c12e3e89f2ef000564498faa8c2
+M/handler_data_arch=21|0|vd0|1543269330665|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_data.vhd|0*1333340*0xfb7643b6f02c30df32850c8982c59e4bfffd7fbf|0*1344417*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_data.vhd|10
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|1ddf9da3bb6a9443602c2311f33337b6a1dc5161190750833e014765af4a0868f72edb4ca542fc365b35623708cb49cf
+Version/handler_data_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|4cd80e866d84f617c50c029871d2b0c532b71912c85d1e096a852d3cf91fcdf48a77e3f350c55ff6280280416081e4e0
+
+[handler_ipu]
+A/handler_ipu_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_ipu.vhd|51|1*873335
+BinI32/handler_ipu_arch=3*102047
+I=0*598354
+I/handler_ipu_arch=0*610367
+M=11|0|vd0|1543269314859|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_ipu.vhd|0*596873*0x7f9ea5549fa40fcb89b483ec8d6747286b7ff5a9|0*598233*0x23b75c12e3e89f2ef000564498faa8c2
+M/handler_ipu_arch=21|0|vd0|1543269315065|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_ipu.vhd|0*598742*0x84fcecb0ca065349c6db73e7758214f98d2b0608|0*610226*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_ipu.vhd|15
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ec4d2a9cb293290c6be654dd695b0455ebf2905d865fd7f8bc35deb6a22bebbfe21781182ae3443a94ccaca85e527509
+Version/handler_ipu_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|7db11bf32d2d6981cc3e437894ece29345a0a787102fe3e6af6ecad546242ab907427df7745c902b1355c9cc23e1c096
+
+[handler_lvl1]
+A/handler_lvl1_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_lvl1.vhd|61|1*3025746
+BinI32/handler_lvl1_arch=3*143879
+I=0*1368280
+I/handler_lvl1_arch=0*1382653
+M=11|0|vd0|1543269334872|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_lvl1.vhd|0*1366403*0xea39a93c30b45c60301030904e4bdd1e916dcef3|0*1368157*0x23b75c12e3e89f2ef000564498faa8c2
+M/handler_lvl1_arch=21|0|vd0|1543269335299|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_lvl1.vhd|0*1368669*0x0ab59e29d9ee3bfafa6066f6d2d00c1636c479f8|0*1382509*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_lvl1.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|003ce6fcaf34127fbe5a1e58896657df5e2535b9c78b4bd6154f6a833f8f8e98e99d76da926a1b241ae7b2546b056b78
+Version/handler_lvl1_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|5d2ec82b706eb05ed957fb541abe04876072b28aaa267692d407e99d432c5087b112ac3476853b8482d8c2ac40b48b93
+
+[handler_trigger_and_data]
+A/handler_trigger_and_data_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_trigger_and_data.vhd|92|1*2994871
+BinI32/handler_trigger_and_data_arch=3*134030
+I=0*1348780
+I/handler_trigger_and_data_arch=0*1357354
+M=11|0|vd0|1543269331544|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_trigger_and_data.vhd|0*1345788*0x8ac3383b78e1515605bf6e0111b3123d958f3916|0*1348633*0x23b75c12e3e89f2ef000564498faa8c2
+M/handler_trigger_and_data_arch=21|0|vd0|1543269331717|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_trigger_and_data.vhd|0*1349181*0x3ee6298970e2192a844ce59b6fc98b5f997a118b|0*1357174*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_trigger_and_data.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e910b76f9ffef5e7be2fe266c2a5d1ef979054bccc01253499d72b4f7e4df767600ef6744037128f71a6dd06254bd093
+Version/handler_trigger_and_data_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e910b76f9ffef5e7be2fe266c2a5d1efbc6b990144d63f91f7a48d5230964eb3a2b30bf5896ce69847d78aa08a9502bb6d19449b779b8ecb0c1a983b8b79dba6
+
+[input_statistics]
+A/input_statistics_arch=21|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_statistics.vhd|29|1*677333
+BinI32/input_statistics_arch=3*30849
+I=0*443972
+I/input_statistics_arch=0*451319
+M=11|0|vd0|1543269300123|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_statistics.vhd|0*443171*0x5aa1e6b1dace97d73a3590ebbde10b11174beeed|0*443841*0x23b75c12e3e89f2ef000564498faa8c2
+M/input_statistics_arch=21|0|vd0|1543269300141|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_statistics.vhd|0*444331*0xa617c75d53f7f43fff2376d923de5c9e9ed1ad97|0*451163*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_statistics.vhd|7
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|fff372e9ee806550906172d7c8b5f9e51c254f08afdcb8e3ad48292d98d191387003386f80e03f0ffdbe42c6ce558841
+Version/input_statistics_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|fff372e9ee806550906172d7c8b5f9e519dc8630d06a289aae24a9da69f1487ab3971291622f30808b4149cebc312454
+
+[input_to_trigger_logic_record]
+A/input_to_trigger_logic_arch=21|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_to_trigger_logic_record.vhd|24|1*686820
+BinI32/input_to_trigger_logic_arch=3*37380
+I=0*452764
+I/input_to_trigger_logic_arch=0*461199
+M=11|0|vd0|1543269300624|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_to_trigger_logic_record.vhd|0*452071*0x28ad896213bd8c75f05a5b2c3a855e40c8e43e85|0*452607*0x23b75c12e3e89f2ef000564498faa8c2
+M/input_to_trigger_logic_arch=21|0|vd0|1543269300633|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_to_trigger_logic_record.vhd|0*453136*0xdedac6e30e1ca12d7004a9747055596a97fe573b|0*461011*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_to_trigger_logic_record.vhd|7
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|69f7e2af07ff1a8e848e75213f23e2574ef3fe0145bfb09dead934c3ee385117b240cfa08d1ba2318c975cb2e6358a7d61326646e362b603ee581d6df5cf429b
+Version/input_to_trigger_logic_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|69f7e2af07ff1a8e848e75213f23e2576fd2faa30a4bdbf4ca974c1132e5755a72226e0625c410cd80d77530e0da51b8717be6135d8a37dac0974dc040aca51b
+
+[lattice_ecp2m_fifo]
+E=1*76316
+I=0*160000
+M=3|0|vd0|1543269278898|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp2m_fifo.vhd|0*153990*0xa28455d29e69d83fd65ebe4b6567bea2f305009b|0*159860*0x23b75c12e3e89f2ef000564498faa8c2
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp2m_fifo.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|38ed9de235757abe305a16e6390ef6080c47dd8904de019e34e253bc9ddd00f629708e7d1d8b8cc3481d3375e48a0186
+
+[lattice_ecp3_fifo_16bit_dualport]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16bit_dualport.vhd|29|1*3589707
+BinI32/structure=3*283509
+I=0*1721951
+I/structure=I/Structure 0*1749484
+M=11|0|vd0|1543269379586|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16bit_dualport.vhd|0*1721168*0x21b226f726afaa377fcab2c60e5b0979eea2e583|0*1721783*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269382499|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16bit_dualport.vhd|0*1722213*0x8dd21453bc9679ef91b826f26406737742377cf2|0*1749303*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16bit_dualport.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|078434bd1c87727264007e4f4c6f7db7090501f3caf14db0ee94dc19b9cc138ba45052f4b991d27d0d2b008c7a99bb91102a297ec43c8e0beb7e72ae407d54ed
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680a1f623422bb98dd69ed9c6a0dc2c30d8
+
+[lattice_ecp3_fifo_16x16_dualport]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16x16_dualport.vhd|29|1*233827
+BinI32/structure=3*15792
+I=0*210274
+I/structure=I/Structure 0*235585
+M=11|0|vd0|1543269292964|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16x16_dualport.vhd|0*209491*0xb8b9751749ec6b09031ac52e18e9e73daefbd059|0*210106*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269293296|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16x16_dualport.vhd|0*210536*0x6586f9d8e22876e51be5daedbf6cdf46f032369a|0*235404*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16x16_dualport.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|078434bd1c87727264007e4f4c6f7db7001f3307acc8e3bb9060dbd0e42e7f809aa5e68aa40b893c4538a356f4042cb480e1f698d3aa42f93286cf3b74611ca7
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa68068477ea41da07bb894d88231fa494d9f
+
+[lattice_ecp3_fifo_18x16_dualport]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x16_dualport.vhd|29|1*299170
+BinI32/structure=3*16106
+I=0*238960
+I/structure=I/Structure 0*265122
+M=11|0|vd0|1543269293630|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x16_dualport.vhd|0*238177*0x5bbe9a72672cdf562b8fbcd8db2ecae27ea3f141|0*238792*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269293929|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x16_dualport.vhd|0*239222*0xd7439457a1fc258e61564f27fc876e55cf2d4d57|0*264941*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x16_dualport.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|078434bd1c87727264007e4f4c6f7db7301db6bd4f6cd05a7b1897f55999afe9f8c6b99d48ebdc7788419a6f9fc1626ae3d80f4c3c38ac74adbb26fd24feb04b
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa6807ebac5093768a42913620a562e4766cc
+
+[lattice_ecp3_fifo_18x1k]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x1k.vhd|27|1*3243615
+BinI32/structure=3*222000
+I=0*1540805
+I/structure=I/Structure 0*1562993
+M=11|0|vd0|1543269356341|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x1k.vhd|0*1540128*0x2a3d5bfe36f6594fb41c826abb53c4559d332ccb|0*1540655*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269357417|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x1k.vhd|0*1541058*0x559ab8164b52c56f82e08e26ae7a6a6fc895c7ee|0*1562830*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x1k.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|078434bd1c87727264007e4f4c6f7db7fbefb94dca41e43c9848283d2b4e24de26527262ddaa47cb266f3a3c4d9b973a46557d0fb946d59429d37ae4943d1168
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680435954e59e0b776e05e9accc85f7949e
+
+[lcd]
+I=0*507418
+M=11|0|vd0|1543269305446|E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/lcd.vhd|0*506865*0x8dd1f2e055d41f5448662f3e24d1646612649eda|0*507316*0x23b75c12e3e89f2ef000564498faa8c2
+R=E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/lcd.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|7514c2287cd4b160fb0616dc829a8d56f9946d82f54d33545df5b60b67c3c148
+
+[load_settings]
+A/load_settings_arch=21|E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/load_settings.vhd|38|1*779689
+BinI32/load_settings_arch=3*65999
+I=0*520947
+I/load_settings_arch=0*533703
+M=11|0|vd0|1543269308079|E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/load_settings.vhd|0*520158*0x51ca1675c5553eb29bcddc7f69d3329bc522c07a|0*520825*0x23b75c12e3e89f2ef000564498faa8c2
+M/load_settings_arch=21|0|vd0|1543269308215|E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/load_settings.vhd|0*521303*0x7ea90486122b0c8fb6d892df2bf2e5760d0b00d1|0*533559*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/load_settings.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|7e2c77288b18925d77c8508efacba38da5d8a933ebc79e229640bb8b5b9b50c564f9446806a1b6299db5cfb01f62593b
+Version/load_settings_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|7e2c77288b18925d77c8508efacba38d45a81ba55b38541e97b53f3939f8ab9eaf3a13298017aa21b76480ef47d2b3e5
+
+[pcsd]
+A/pcsd_arch=A/PCSD_arch 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|517|1*3668451
+BinI32/pcsd_arch=3*284735
+I=0*313557
+I/pcsd_arch=I/PCSD_arch 0*1755337
+M=11|0|vd0|1543269295278|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|0*298253*0x625baa68bf665e0df98dddfea2819038fa27d88b|0*313423*0x23b75c12e3e89f2ef000564498faa8c2
+M/pcsd_arch=M/PCSD_arch 21|0|vd0|1543269390461|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|0*313753*0x1d87982ddbdb9f8cdb03f5a59ff447ad08e0864f|0*344940*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|11
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e212812b0b898c4f0c9fa333d2828aec32730257a90769e36bcd97543c7c412b
+Version/pcsd_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|05d7c9ecae37157416ab4e097d9d696b59e4ed595574a5656b8ead9383b9757a55959ffb4cdaadf929193ee42873d850
+
+[pll_in200_out100]
+A/structure=A/Structure 21|./../../../workdir/pll_in200_out100.vhd|25|1*3876760
+BinI32/structure=3*303511
+I=0*1836497
+I/structure=I/Structure 0*1839535
+M=11|0|vd0|1543269402528|./../../../workdir/pll_in200_out100.vhd|0*1835966*0x80d4d05b18b2dc3d39ac5c4491adf22de1dd8c74|0*1836388*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269402588|./../../../workdir/pll_in200_out100.vhd|0*1836743*0x6431b0aff8f0e7b75d723d4b8f9e16b34e8ecb6a|0*1839413*0x9065d32a2e40e13794b29a2731812845
+R=./../../../workdir/pll_in200_out100.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|7f1ab396e5bbd1fdf443affdde3edeaa37bf1d17b9fada28c7d681e9c6b7237c99584d9ad3ac39ce9e77a2b28ea6e169
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680e017ffbe8c90b350b3c3e48744e793da
+
+[pulse_stretch]
+A/behavioral=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_stretch.vhd|17|1*3023789
+BinI32/behavioral=3*142657
+I=0*1364355
+I/behavioral=0*1365623
+M=11|0|vd0|1543269333971|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_stretch.vhd|0*1363850*0xb17306b289fe6d28938778f1c720f6e6694ba62c|0*1364231*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|0|vd0|1543269333987|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_stretch.vhd|0*1364599*0x5c285ffe1be7bcbf7e49dee65179c24ae5875582|0*1365485*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_stretch.vhd|7
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|0ce1021df47f4f65d6c2b64753df83cd7428f0035ce5be19cf405d0345620f4860a4720c674b84b653d07ba203a3be42
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff456ba66dc07463a0b04f97e7527fbcb88
+
+[pulse_sync]
+A/behavioral=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_sync.vhd|20|1*225259
+BinI32/behavioral=3*11546
+I=0*198596
+I/behavioral=0*199966
+M=11|0|vd0|1543269290757|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_sync.vhd|0*198042*0x5ebc48a4e0ef324f642784d3300bda3acfdb7c13|0*198478*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|0|vd0|1543269290764|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_sync.vhd|0*198880*0x766b96982253957da9f439a868db5a10e5f10745|0*199834*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_sync.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|af44e5b68fdae69a94b05e25b18bd3c83ab045b7ba10442b5e4a516841f0feac12d1e98b7b0b723f7e530a7704e87761
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff412d1e98b7b0b723f7e530a7704e87761
+
+[ram]
+A/ram_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram.vhd|23|1*774570
+BinI32/ram_arch=3*62519
+I=0*514166
+I/ram_arch=0*514961
+M=11|0|vd0|1543269307019|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram.vhd|0*513569*0xb4305fc4f24921931d46a617ea49f068f44fe50d|0*514062*0x23b75c12e3e89f2ef000564498faa8c2
+M/ram_arch=21|0|vd0|1543269307021|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram.vhd|0*514477*0xa2cdd13b1ab77668784b8de73c07ea074b2bd90f|0*514845*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a936fc2a703b3f48871772595baaafeb71ec4d92d07b62cca274b988f5e47e89
+Version/ram_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|da194d248fa93d6f950bd4e969353d2521fbe190f4161edc23c1a73ed41f53ddc8c9f22a3a0bad04407d67bfc72c0b82
+
+[ram_16x16_dp]
+A/ram_16x16_dp_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x16_dp.vhd|36|1*3167845
+BinI32/ram_16x16_dp_arch=3*185289
+I=0*1469958
+I/ram_16x16_dp_arch=0*1471002
+M=11|0|vd0|1543269347457|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x16_dp.vhd|0*1468290*0x0bf213597ebae4743e7366d493d140464025b6ef|0*1469836*0x23b75c12e3e89f2ef000564498faa8c2
+M/ram_16x16_dp_arch=21|0|vd0|1543269347476|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x16_dp.vhd|0*1470244*0x673e3d346ecbe362f834b7efe1279a5219c862b0|0*1470859*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x16_dp.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d2a74f31bace1d0b43e59ca1779691825bbb7f76a54cbc6d3f8ad46beeb544bbef4d0b2d2f5887da23d8be1bcf6bf38b
+Version/ram_16x16_dp_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|636bf7888bad3de73d907c000b798ac67289fa1f949b8af401578fd01c37f97f85eed446e88ebf2b7667153ad84c2447
+
+[ram_16x8_dp]
+A/ram_16x8_dp_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x8_dp.vhd|31|1*227985
+BinI32/ram_16x8_dp_arch=3*13202
+I=0*203591
+I/ram_16x8_dp_arch=0*204550
+M=11|0|vd0|1543269291667|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x8_dp.vhd|0*202421*0x0e2fa455a458e44805dc1d232dcb8f26663cb1af|0*203471*0x23b75c12e3e89f2ef000564498faa8c2
+M/ram_16x8_dp_arch=21|0|vd0|1543269291669|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x8_dp.vhd|0*203910*0x81b6b913bf798b232ad0c5f126076a0850785946|0*204410*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x8_dp.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|391d0cf4a3b251c8d3e8a1eae740f6978f283f619ba8656771f0f34ae184afe2ab9c213dffc7fec859b052674cc5241f
+Version/ram_16x8_dp_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ed38a0577e9534b0d83058a077b4b58e858e5cac7b0f6eabaa421484083d39be3f8b0bd2a14c6fa499bc78f445361f35
+
+[ram_dp]
+A/ram_dp_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp.vhd|25|1*230039
+BinI32/ram_dp_arch=3*14028
+I=0*205851
+I/ram_dp_arch=0*206738
+M=11|0|vd0|1543269292071|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp.vhd|0*205148*0x3204c8c1b44c81da4d84c833f18a9afb2df5682d|0*205741*0x23b75c12e3e89f2ef000564498faa8c2
+M/ram_dp_arch=21|0|vd0|1543269292078|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp.vhd|0*206165*0x8fef9cf02d73b9aa97b2b63a6e25f79a9d0f5388|0*206613*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e6578184505ede7e356ca1f8b4511b55d64c95d8948991e7936a28b3a7aa8ba6
+Version/ram_dp_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|11fbea72e3b7fb8cb146238eb01c02095d0d060f13b519ad864d2ae3bb87699b9772291395605f8564badbbcb8daf8fb
+
+[ram_dp_rw]
+A/ram_dp_rw_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp_rw.vhd|26|1*231981
+BinI32/ram_dp_rw_arch=3*14946
+I=0*208001
+I/ram_dp_rw_arch=0*208868
+M=11|0|vd0|1543269292505|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp_rw.vhd|0*207328*0x9caa7b4901c24c6345d807df0252947114f81a47|0*207885*0x23b75c12e3e89f2ef000564498faa8c2
+M/ram_dp_rw_arch=21|0|vd0|1543269292516|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp_rw.vhd|0*208318*0x51fc48c541e11b2d88649865dbc714c2f6e34ca1|0*208734*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp_rw.vhd|11
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|7561d0e47ad2725935dc3187d6cb5551420c16976db74be355c9c116369787f6efc7c69568d52a46f7747027d31e2133
+Version/ram_dp_rw_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|0281c98c6ddca89fd884575a4af7c88be066fa06b167901df1ba107c86b9e5b06d14affc81a920642423deaebd7a9bf7
+
+[readoutfifo]
+A/readoutfifo=22|./../../../workdir/readoutfifo.v|8|1*186275
+BinI32/readoutfifo=3*9220
+R=./../../../workdir/readoutfifo.v|8
+SLP=3*9568
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|09990a73398968b4c18b4772f31b3e6f1f41e9f669c07067776296f61385a9af4ff4ca6c46796c3bf8d4e80a04181821
+
+[rom_16x8]
+A/rom_16x8_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/rom_16x8.vhd|27|1*3165556
+BinI32/rom_16x8_arch=3*184378
+I=0*1466627
+I/rom_16x8_arch=0*1467623
+M=11|0|vd0|1543269346728|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/rom_16x8.vhd|0*1465602*0x84f885c3d6edc6d7986277dbb80da5384d9b9960|0*1466513*0x23b75c12e3e89f2ef000564498faa8c2
+M/rom_16x8_arch=21|0|vd0|1543269346745|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/rom_16x8.vhd|0*1466943*0xcbf6dcb9ead414a120ea5cdd9c9914643de894be|0*1467492*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/rom_16x8.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|5414880ae6d3881f57f20952c3618a02e5f53674f3a7aeb8993b2406d54c965a1e00de4eadd4f61c0872568b982a4caf
+Version/rom_16x8_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|0bae1ff9b981accee1865dbf9d71f963e3e66465114a5370a4e47ffb3a235f2e8bacf656efd1ed09c112e36f19db9789
+
+[rx_reset_sm]
+A/rx_reset_sm_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|1541|1*3758017
+BinI32/rx_reset_sm_arch=3*285034
+I=0*1756535
+I/rx_reset_sm_arch=0*1760036
+M=11|0|vd0|1543269390558|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|0*1755821*0x14e5c1eab6d573c7e1726316077e3371ae81a75f|0*1756394*0x23b75c12e3e89f2ef000564498faa8c2
+M/rx_reset_sm_arch=21|0|vd0|1543269390898|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|0*1756854*0xc35bc2fed0381eca223caab627f9f97e960d7aa6|0*1759875*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|1528
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d4cc652dd700ed228da839908f6adf4cc69b741f36ecf4df78d295f759fd7ed437a47cb1ad25e2d527c1cf4ef57e1108
+Version/rx_reset_sm_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6ac74bab73d96b69ee25840560f2f7ce7ef3252eb4aedd4bcc1ba32ebb6ffd481779628a92e147a6b3654ca5c448cbe2
+
+[rx_reset_sm_125]
+A/rx_reset_sm_125arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|1541|1*524485
+BinI32/rx_reset_sm_125arch=3*17663
+I=0*346308
+I/rx_reset_sm_125arch=0*349817
+M=11|0|vd0|1543269295333|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|0*345578*0xecabef47e5a29f7b71c376985d31dba0bf8fbf9b|0*346163*0x23b75c12e3e89f2ef000564498faa8c2
+M/rx_reset_sm_125arch=21|0|vd0|1543269295343|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|0*346631*0x0c466a85c696bd42e07d8bd316aabe2e70f9f31f|0*349649*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|1528
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|8125479bdd890b732c1937e92046fd8e4cc5be6d41eece4df727e9fed4fb9f7714f9f773679f8006e5ce91b4c229c1a0
+Version/rx_reset_sm_125arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|8125479bdd890b732c1937e92046fd8e3b8261712c64842d200c698524c33df09b1f4f7942b368ab57fbbd3ffd65d5c1
+
+[sedcheck]
+A/sed_arch=21|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/sedcheck.vhd|20|1*767791
+BinI32/sed_arch=3*59013
+I=0*508545
+I/sed_arch=0*513193
+M=11|0|vd0|1543269306572|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/sedcheck.vhd|0*508045*0xbc978a91efd3817372c2f80c737606c852decfea|0*508430*0x23b75c12e3e89f2ef000564498faa8c2
+M/sed_arch=21|0|vd0|1543269306574|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/sedcheck.vhd|0*508896*0x8d5219e8b4615b8ec90f7e023d78351989d09ac1|0*513066*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/sedcheck.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|3471ce9c38eccb6b99a9926bc9c437e26b143096d3c51d0a9c6fa1cf847b2f86869c56c3394a0a7b1649807344708e7d
+Version/sed_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|2888be6bd1e0699af1ffdb310d0e0d909fe9f5d45387e315d0c1768e206a1b0d773aa312a70af1b96662c22c5491a42d
+
+[sfp_1_125_int]
+A/sfp_1_125_int_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|1934|1*529913
+BinI32/sfp_1_125_int_arch=3*22006
+I=0*356529
+I/sfp_1_125_int_arch=0*389953
+M=11|0|vd0|1543269295565|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|0*354690*0x58be87138b8759e667c161fc632d65f175b4bcab|0*356386*0x23b75c12e3e89f2ef000564498faa8c2
+M/sfp_1_125_int_arch=21|0|vd0|1543269295599|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|0*356772*0x3cb9e29857a2e56aabb2a30691d7256f33506b9b|0*389788*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|1883
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|828ac162b853d1ee070ba6e82ea02de8e80d5faaf89800ddb3f6b78d2be3043efa6a90e14380320e1b08b88d62be75f4
+Version/sfp_1_125_int_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|828ac162b853d1ee070ba6e82ea02de859f837a7c05a28028ce2952f165ffcd345a6864e15a611c967061b0400e372b1
+
+[sfp_1_200_int]
+A/sfp_1_200_int_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|1934|1*3763416
+BinI32/sfp_1_200_int_arch=3*289370
+I=0*1766715
+I/sfp_1_200_int_arch=0*1800099
+M=11|0|vd0|1543269392278|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|0*1764876*0x6e71a29b194aed6e20bdd7d0340ec770a7ce992e|0*1766572*0x23b75c12e3e89f2ef000564498faa8c2
+M/sfp_1_200_int_arch=21|0|vd0|1543269392502|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|0*1766958*0xd1ba32ab624c77992feee73bf541e745a02f7574|0*1799934*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|1883
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|de1d60c62591140f64e2828cb5aa92bdafee0660338ef53ce8bf2ef5f3f75b9046fe63b3552b166c0dfca17afa293342
+Version/sfp_1_200_int_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|de1d60c62591140f64e2828cb5aa92bd9f871940b69da61ba352f5f6ef5181bdcf50b9beb7b4a7722502f675266c531f
+
+[signal_delay]
+A/arch=21|./../../../Source/SignalDelay.vhd|25|1*590647
+BinI32/arch=3*28104
+I=0*404486
+I/arch=0*405473
+M=11|0|vd0|1543269298357|./../../../Source/SignalDelay.vhd|0*403940*0x6c170f97a17d66ad9a5763a11bee7e66ca7b7a71|0*404387*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch=21|0|vd0|1543269298366|./../../../Source/SignalDelay.vhd|0*404729*0x9d352dc3eca4227d2a12055d55ad5adcd3705ea9|0*405366*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/SignalDelay.vhd|12
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|7a0ec243fb1436d9bf287a4e5f461db78f08e11eb86e5dcfaafbb5c87d5636ddc3aceb9b1a2b0643c6c0c24ebe48a958
+Version/arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|907f1eb2ab5faaca81dadc47e735a03a01684ea494585103ecf4f995123fe9ac
+
+[signal_gated]
+A/arch=21|./../../../Source/signal_gated.vhd|19|1*586638
+BinI32/arch=3*26249
+I=0*398404
+I/arch=0*399446
+M=11|0|vd0|1543269297077|./../../../Source/signal_gated.vhd|0*397994*0x32e956a76fe78ec4c157fd8c233c88d68b167745|0*398304*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch=21|0|vd0|1543269297086|./../../../Source/signal_gated.vhd|0*398647*0x49324867e3a7127d0ac822931902b62530b9dc1d|0*399338*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/signal_gated.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|682dfb394c7220f80682e002a7cf5bfb857f90b442cca31dcc5c522d4f3db826349c3f1db0db8a70ad0d0dfcdee9b949
+Version/arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|907f1eb2ab5faaca81dadc47e735a03a6f3cf1c44db49116bc4e792a4e9be00e
+
+[signal_stretch]
+A/arch=21|./../../../Source/SignalStretch.vhd|23|1*585336
+BinI32/arch=3*25443
+I=0*396477
+I/arch=0*397397
+M=11|0|vd0|1543269296601|./../../../Source/SignalStretch.vhd|0*396025*0x3eafa4fd7e3a8acf3b176ac53046974ab8661786|0*396374*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch=21|0|vd0|1543269296603|./../../../Source/SignalStretch.vhd|0*396834*0xf5b5908ec4fdcb2d28b139deada7b25d319f5317|0*397286*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/SignalStretch.vhd|12
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e70de0484f7216dad10a00834e3219682a7139eeea86f443530e57cf3c90833b381afdaf3c9a83733a0c463c884a321b
+Version/arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|907f1eb2ab5faaca81dadc47e735a03aeac47edc87dd6e916edb51e7982733ab
+
+[signal_sync]
+A/behavioral=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/signal_sync.vhd|22|1*3021728
+BinI32/behavioral=3*140895
+I=0*1362000
+I/behavioral=0*1363320
+M=11|0|vd0|1543269333228|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/signal_sync.vhd|0*1361412*0x0fb551e69c9a891434d834b257a516a7c6993062|0*1361880*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|0|vd0|1543269333240|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/signal_sync.vhd|0*1362285*0x8357bd55a9175a64555c55db3412901c600b9910|0*1363186*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/signal_sync.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ef86b13da425b146f96f7a26c0ccc34fea5862cf91902d6306e8e20885423cd9c14b20eb1d1867c8cf033fea48108ef2
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4d15a9c6280cd0ac1920d5c80388bb7ea
+
+[spi_databus_memory]
+A/behavioral=A/Behavioral 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_databus_memory.vhd|31|1*817937
+BinI32/behavioral=3*75292
+I=0*548382
+I/behavioral=I/Behavioral 0*550981
+M=11|0|vd0|1543269309890|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_databus_memory.vhd|0*547432*0xf3d215eb2b23b387c6768e63266eb27cfe8e9b8e|0*548247*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1543269309916|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_databus_memory.vhd|0*548777*0xc9941d719bfb9bf119ae7ecc34da698ae4c5c0b5|0*550832*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_databus_memory.vhd|10
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e949951716511ee4684ea20e60b7f4bec5041a3e9e6af9bd5b046258b2f938d6593cfe051679bca95307913f7120894d
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4973f5c5d6122f6072ab56859d5eb9751
+
+[spi_dpram_32_to_8]
+A/structure=A/Structure 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/spi_dpram_32_to_8.vhd|32|1*791501
+I=0*537314
+I/structure=I/Structure 0*546058
+M=11|0|vd0|1543269309315|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/spi_dpram_32_to_8.vhd|0*536489*0x6c930be03d08b8e827d274baf22b82e6d8812b2a|0*537176*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=M/Structure 21|0|vd0|1543269309339|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/spi_dpram_32_to_8.vhd|0*537561*0x1d65d5048b6cd3a7f37e43366feab7fada6e9949|0*545907*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/spi_dpram_32_to_8.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|0897b7cf7eff25cef9f598dc7fda2dd31c998417bf874342bbfb69f2076913d791becdd5d6214f6a30f7ea0b96495bbf
+Version/structure=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680f02a2620c945f715be6848ac3f66718b
+
+[spi_flash_and_fpga_reload_record]
+I=0*580500
+M=11|0|vd0|1543269312412|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_flash_and_fpga_reload_record.vhd|0*579712*0xe2076ab6646ff3bed4558a0b4b1391213b99d202|0*580337*0x23b75c12e3e89f2ef000564498faa8c2
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_flash_and_fpga_reload_record.vhd|11
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b4e7399fe0b3314d7dfeb4ea149a338492196537dfc4da3f52b97ae8aaf7c12402b451abf4dd309f017fb454c5c4f8a7da6c5858b940013b1ff1e58fb1cf1c76
+
+[spi_ltc2600]
+A/spi_ltc2600_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_ltc2600.vhd|32|1*762523
+BinI32/spi_ltc2600_arch=3*53869
+I=0*500687
+I/spi_ltc2600_arch=0*506374
+M=11|0|vd0|1543269304890|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_ltc2600.vhd|0*499803*0xbd43bf04c88774d09b86b57d0b59a79ef812eb03|0*500566*0x23b75c12e3e89f2ef000564498faa8c2
+M/spi_ltc2600_arch=21|0|vd0|1543269304892|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_ltc2600.vhd|0*500929*0xc68ddee8df07b159703254fe12ddb7b6f91f8056|0*506233*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_ltc2600.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|1759fecf846751f8f8ee0befc5b4f1e933851cd9a707eb426905594c7588efc38bc8b94fd45d4667bbd3e844287f692d
+Version/spi_ltc2600_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d24c08271c69b6234f3dc837b5040753f51cd62472edd77864fe0cde529fc9ccba647bc9e938c1dd7474f5de672caa67
+
+[spi_master]
+A/behavioral=A/Behavioral 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_master.vhd|37|1*836734
+BinI32/behavioral=3*88831
+I=0*567147
+I/behavioral=I/Behavioral 0*571878
+M=11|0|vd0|1543269311127|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_master.vhd|0*566094*0x7372b8040767ac19ccd552b160c608efe0754f3d|0*567028*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1543269311153|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_master.vhd|0*567534*0xd8573c2a2ebb6a67a075396e61a185dc0169cc6c|0*571745*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_master.vhd|10
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d1256530a4d29ff9ec8c51bb757f76d67bca822e3b193d76ae7bdf8a2d46ede3e4cfb4365bc62cb2645348a4045ad496
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4e4cfb4365bc62cb2645348a4045ad496
+
+[spi_master_generic]
+A/spi_master_generic_arch=21|E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/spi_master_generic.vhd|37|1*776223
+BinI32/spi_master_generic_arch=3*63322
+I=0*516405
+I/spi_master_generic_arch=0*519421
+M=11|0|vd0|1543269307501|E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/spi_master_generic.vhd|0*515620*0x1500bf4ef64de6c51590018a09b3c6cc99323030|0*516273*0x23b75c12e3e89f2ef000564498faa8c2
+M/spi_master_generic_arch=21|0|vd0|1543269307503|E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/spi_master_generic.vhd|0*516766*0x02f701ee84810e0efd7398f6bc7e40cac46a870f|0*519262*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/spi_master_generic.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b444036c6136922d6487ba1d6ffa2d837edc8cfc6838f3eb2db457e0d16c3dc4534488151c48cfd6cf42b2c1f8c9f931
+Version/spi_master_generic_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b444036c6136922d6487ba1d6ffa2d831157219acdd32353da742b5b3bc458a826527262ddaa47cb266f3a3c4d9b973ac6b29f04c9ae58afc7574a2f691b080d
+
+[spi_slim]
+A/behavioral=A/Behavioral 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_slim.vhd|44|1*822907
+BinI32/behavioral=3*76787
+I=0*552961
+I/behavioral=I/Behavioral 0*565394
+M=11|0|vd0|1543269310460|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_slim.vhd|0*551782*0x5194a4023a21401909b06c9aac9b5b63ab91df12|0*552846*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1543269310621|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_slim.vhd|0*553346*0x6de9985caaa86d37b8c7c5c96b4e219ec44c0f3b|0*565265*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_slim.vhd|12
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d6d529a31a23f10593c50434341730a58daf0fa33d45c70b25ec0f1d61b92b1f12b22a99e471201d4cc9ad5a3daa794f
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff41ac24c7fe2e007c6b08dd3b4c18b53a0
+
+[state_sync]
+A/behavioral=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/state_sync.vhd|18|1*226848
+BinI32/behavioral=3*12614
+I=0*200967
+I/behavioral=0*201849
+M=11|0|vd0|1543269291201|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/state_sync.vhd|0*200473*0x790284d484fb37f2af54f0b55e00a990673df26c|0*200849*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|0|vd0|1543269291203|E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/state_sync.vhd|0*201251*0xce75433250d5721480407d331556d5c9aa11bef2|0*201717*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/state_sync.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|1f78ea97f7c3b82a6f5b51b5ee8ae96ac375476e1391e700f0f0a79dced628f031643cd23bde41243d6f90a0ad6fc473
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff431643cd23bde41243d6f90a0ad6fc473
+
+[structure_con]
+BinI32/structure_con=3*303768
+Configures=pll_in200_out100.Structure
+E=1*3883347
+I=0*1840275
+M=2|0|vd0|1543269402661|./../../../workdir/pll_in200_out100.vhd|0*1839857*0x249ad0a44f6184e03aca8b9b202db1b4f1eb5d53|0*1840150*0x9065d32a2e40e13794b29a2731812845
+R=./../../../workdir/pll_in200_out100.vhd|96
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|91bab8d02e27836b7ffe05e485a1ca605405807a56299549a0eccf38ac4ca909a5ea2022692542f3e3f7e99fa1e0d65d
+
+[support]
+E=1*584869
+I=0*395595
+M=3|0|vd0|1543269296157|E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|0*395041*0x2dd7f7e38f9c5fe4e7111be14ca7f624177b5100|0*395475*0x23b75c12e3e89f2ef000564498faa8c2
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd|153
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ec3ded63a5e8ef112684b2cf2050447726527262ddaa47cb266f3a3c4d9b973a2444c09f7803dea4f31efded7fe32974
+
+[tb_signal_delay]
+A/behavior=21|./../../../Source/SignalDelay_tb.vhd|16|1*3919845
+BinI32/behavior=3*311719
+I=0*1862929
+I/behavior=0*1864659
+M=11|0|vd0|1543269408536|./../../../Source/SignalDelay_tb.vhd|0*1862604*0x1adcf654562fc8e4df815719566c8b6b45682eda|0*1862824*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavior=21|0|vd0|1543269408558|./../../../Source/SignalDelay_tb.vhd|0*1863175*0x7429b712f4800d57d90f61863b4b6a30e808caa7|0*1864542*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/SignalDelay_tb.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|4952e0c69e7c7850601fc7eefde0f427ff629bdb24cd5f2824184db2dfb900cf4a520da8a1a7e120484d0fc8bad427e3
+Version/behavior=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f4c1b94c5438c14eced7bfe3a1c528d4d
+
+[tb_signal_gated]
+A/behavior=21|./../../../Source/signal_gated_tb.vhd|16|1*3923853
+BinI32/behavior=3*313549
+I=0*1867447
+I/behavior=0*1868656
+M=11|0|vd0|1543269410931|./../../../Source/signal_gated_tb.vhd|0*1867120*0x77ccbc699b8b024d853aabe27b84669ab0b95cb3|0*1867341*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavior=21|0|vd0|1543269410953|./../../../Source/signal_gated_tb.vhd|0*1867693*0xf166cb1f0bf3115bd5bca73941a5b4f384536403|0*1868538*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/signal_gated_tb.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|5ae64e67d9df8d1ac6cef4ab09060ab2cef8f22dbab96c52ab38a1a46ccaaa03a7e3f7dd5fa4d704250290abcc244861
+Version/behavior=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fca620d6202fcc2165887c060243ba1ac
+
+[tb_signal_stretch]
+A/behavior=21|./../../../Source/SignalStretch_tb.vhd|16|1*3922323
+BinI32/behavior=3*312776
+I=0*1865430
+I/behavior=0*1866683
+M=11|0|vd0|1543269409772|./../../../Source/SignalStretch_tb.vhd|0*1865093*0x46787ebfafba6c6a652e3391f864c0b998b263c1|0*1865321*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavior=21|0|vd0|1543269409808|./../../../Source/SignalStretch_tb.vhd|0*1865678*0xbc0c62d416cf54c272faffaa73436e12d903ac8f|0*1866562*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/SignalStretch_tb.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d1c97a12ddb31d359c2f7e1b9d8e47058285b1c4d4a88ba4d5511eee57e968d62c3189045e0eeb140b1d1823a0ebd961
+Version/behavior=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f5a33d17623741aff4c320a86ffc4037a
+
+[tb_trigger_master]
+A/behavior=21|./../../../Source/trigger_master_tb.vhd|16|1*3917300
+BinI32/behavior=3*310758
+I=0*1859118
+I/behavior=0*1862166
+M=11|0|vd0|1543269407369|./../../../Source/trigger_master_tb.vhd|0*1858779*0x67ef784858f1ea410353b5768070c9c2e22dead5|0*1859008*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavior=21|0|vd0|1543269407418|./../../../Source/trigger_master_tb.vhd|0*1859366*0x548455ef5f6b333a39a3b484a94554a6d1fb045a|0*1862044*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/trigger_master_tb.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d7d9d253c45c4846ba054b2e49d7a99ac76e048f20ed25462c1a61e57a2bdedac30e0f60374ebf8ebdf9db04e2860faa
+Version/behavior=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fedb9ffe6505b5e1b362eafe4ae655d54
+
+[trb3_components]
+E=1*68883
+I=0*153177
+M=3|0|vd0|1543269278415|E:/FPGA/trigger_FPGA_MUSE/trb3/base/trb3_components.vhd|0*113578*0x90445e6579480a9c474691fe4e695184ca9ae7af|0*153053*0x23b75c12e3e89f2ef000564498faa8c2
+R=E:/FPGA/trigger_FPGA_MUSE/trb3/base/trb3_components.vhd|7
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c91d5a576354476c06d26e1a36e0a1caad8b976c2228844cc16645bef99eaacece7fd2f3f521fb5951d51dd5cfc06574
+
+[trb3_periph_blank]
+A/trb3_periph_blank_arch=21|./../../../trb3_periph_blank.vhd|89|1*3888816
+BinI32/trb3_periph_blank_arch=3*306264
+I=0*1847032
+I/trb3_periph_blank_arch=0*1857815
+M=11|0|vd0|1543269405503|./../../../trb3_periph_blank.vhd|0*1845036*0x9b033c6d1eb4093aaff5ff5f4bc03e25180ab52f|0*1846929*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb3_periph_blank_arch=21|0|vd0|1543269406093|./../../../trb3_periph_blank.vhd|0*1847560*0x269ac5c2416316aeded9ea7faba20cc47611f117|0*1857686*0x9065d32a2e40e13794b29a2731812845
+R=./../../../trb3_periph_blank.vhd|15
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b72102fe16d166bba39e276d4dafb8155bf5b22dae04f6e2c1692200b650fedebff2422220c572ff07fdad6c33e03699
+Version/trb3_periph_blank_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b72102fe16d166bba39e276d4dafb8154ee78860ce757b780dd19d0863fa56dc0e2b90c6232aa238995a91c1da21c271
+
+[trb3_tools]
+A/trb3_tools_arch=21|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/trb3_tools.vhd|63|1*857933
+BinI32/trb3_tools_arch=3*99928
+I=0*589178
+I/trb3_tools_arch=0*595713
+M=11|0|vd0|1543269314271|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/trb3_tools.vhd|0*587606*0xace63d9f35bbd6ccd879f7792250bff261fefe2b|0*589059*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb3_tools_arch=21|0|vd0|1543269314397|E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/trb3_tools.vhd|0*589627*0xb054c8b923c7427c685f25ac1a38c740550ea8c2|0*595575*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/trb3_tools.vhd|11
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|042ea253f9dc992710105afdcdfbe4661c1cc2de8f6aff42cd43d2537f90d681261cd2ade2d2de6f6bacc79d21ceba82
+Version/trb3_tools_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|790bbaee946aeace95cde6420d3f17a9b1a83f611ae4f5a351de2c48d4aab112c8c8db1d3cc5e43219bfe904aee00067
+
+[trb_net16_addresses]
+A/trb_net16_addresses_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_addresses.vhd|40|1*3170414
+BinI32/trb_net16_addresses_arch=3*186227
+I=0*1473375
+I/trb_net16_addresses_arch=0*1480707
+M=11|0|vd0|1543269348442|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_addresses.vhd|0*1471758*0xef67f5edabacf3401ce94b4c041f269702b15907|0*1473246*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_addresses_arch=21|0|vd0|1543269348676|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_addresses.vhd|0*1473702*0xc21b1c32a555bed6af9deef1c08aad87fe1f7d73|0*1480550*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_addresses.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f0884acff70f849fcbe14cb3fe33bcae1d013f2b0a2390d18a8f89d2965d50ef824e5a3d87737a62a528abe0c7f8ef76
+Version/trb_net16_addresses_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f0884acff70f849fcbe14cb3fe33bcae88566ebe326ef0a12020e6b940eab0fd3de928612a4f300a0130f3a4cd5eb21f7d517ae5e34069432f817dc79ba4ee4f
+
+[trb_net16_api_base]
+A/trb_net16_api_base_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_api_base.vhd|92|1*3313360
+BinI32/trb_net16_api_base_arch=3*225955
+I=0*1577368
+I/trb_net16_api_base_arch=0*1602730
+M=11|0|vd0|1543269361116|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_api_base.vhd|0*1574358*0x0f235c6a6da93cbebb870a998a0ff68cdb6c1977|0*1577241*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_api_base_arch=21|0|vd0|1543269361999|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_api_base.vhd|0*1577763*0x77a4f297fd509c058f71e7465c5e23a0e0af4d5b|0*1602576*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_api_base.vhd|10
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|362fe703256e0d31756823dc74566ecb92c38fdd49e72f99254903d85f4111f7cbd3b65d751cb346a1259a03ae4bbf83
+Version/trb_net16_api_base_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|362fe703256e0d31756823dc74566ecb8d4ccc757f53e052763ebe826c6f91a626527262ddaa47cb266f3a3c4d9b973adcf4792acbfba0a0bc3ab367e821b3cb
+
+[trb_net16_dummy_fifo]
+A/arch_trb_net16_dummy_fifo=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_dummy_fifo.vhd|28|1*3240175
+BinI32/arch_trb_net16_dummy_fifo=3*221465
+I=0*1537816
+I/arch_trb_net16_dummy_fifo=0*1539440
+M=11|0|vd0|1543269355268|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_dummy_fifo.vhd|0*1536986*0x02fd7fad9367437eda3353d3d179e1fcd54ae859|0*1537685*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch_trb_net16_dummy_fifo=21|0|vd0|1543269355270|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_dummy_fifo.vhd|0*1538173*0xc4b53888d42a61f9f3e45f22efb3fabcf87600ac|0*1539280*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_dummy_fifo.vhd|11
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b0316a104567a97f000b3bacdbc2b736d83d66fd7609ed2ce2d659ad49958815095ba1c1f3cbbd4ba31c069b3c3196da
+Version/arch_trb_net16_dummy_fifo=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|cefaf628953e70aacaabab0f5c2862f2e28e1eecba17f320223d43c8de0d81ce892dfea146599c589788d6218c78223ac479a9c1995f8f2340ee988f0364eb24
+
+[trb_net16_endpoint_hades_full]
+A/trb_net16_endpoint_hades_full_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full.vhd|168|1*3437891
+BinI32/trb_net16_endpoint_hades_full_arch=3*266620
+I=0*1668122
+I/trb_net16_endpoint_hades_full_arch=0*1699436
+M=11|0|vd0|1543269372961|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full.vhd|0*1661180*0xb6418911524077415f6035572fe2edbd7e286b00|0*1667973*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_endpoint_hades_full_arch=21|0|vd0|1543269373393|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full.vhd|0*1668528*0x1c8c57f9e24f7b95b875675be9d60a3fc328730c|0*1699249*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|84e9827fa6aeeef4c960ca844f9fe91fc95171a622b856cb302d608643dec2c149844ab5ccaad4570ed4ddf60f590193a5c26652c2c3143886ecc7266e00248f
+Version/trb_net16_endpoint_hades_full_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|84e9827fa6aeeef4c960ca844f9fe91fc95171a622b856cb302d608643dec2c1de0a90e67032822d6f05f8d98a86a8c23fe0e15bc9225beb0f484d1680e0cca0
+
+[trb_net16_endpoint_hades_full_handler_record]
+A/trb_net16_endpoint_hades_full_handler_record_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full_handler_record.vhd|87|1*3533291
+BinI32/trb_net16_endpoint_hades_full_handler_record_arch=3*276938
+I=0*1703523
+I/trb_net16_endpoint_hades_full_handler_record_arch=0*1720204
+M=11|0|vd0|1543269375319|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full_handler_record.vhd|0*1700561*0x8ef204b5d38b73a1fc9d8b6bf8e100d472ab9b94|0*1703344*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_endpoint_hades_full_handler_record_arch=21|0|vd0|1543269376126|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full_handler_record.vhd|0*1703977*0xb88619101ede01d0421bf9816c73ff3dc82bee10|0*1719972*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full_handler_record.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|84e9827fa6aeeef4c960ca844f9fe91fc95171a622b856cb302d608643dec2c1151a920ae01b9e752a703f0c5c0cd12584872ab1e2f5ff6e42251aa6381bd51aea430269c234fbbe671796876cf061ec
+Version/trb_net16_endpoint_hades_full_handler_record_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|84e9827fa6aeeef4c960ca844f9fe91fc95171a622b856cb302d608643dec2c149c3a9deae93a83c495d3e532a3c38847b81dd4533681c462c7d3cd4d35f18495e6c5169898dc01927a5530ac3b9385c
+
+[trb_net16_fifo]
+A/arch_trb_net16_fifo=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net16_fifo_arch.vhd|30|1*3303964
+BinI32/arch_trb_net16_fifo=3*222694
+I=0*1566546
+I/arch_trb_net16_fifo=0*1568032
+M=11|0|vd0|1543269358669|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net16_fifo_arch.vhd|0*1565592*0x5e7c9684e3a5b3585c004a07962178b95b34bf7e|0*1566409*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch_trb_net16_fifo=21|0|vd0|1543269358756|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net16_fifo_arch.vhd|0*1566929*0xde9f0b2de0e28afcaa76804ea577e07fbcbf29ea|0*1567872*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net16_fifo_arch.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|3ab6ee0740386aa88cb230868d23a74e3001e5ec190add1ca7e2ddd7fe97587c6886ebc8bcbab88a514a3b591f67c008
+Version/arch_trb_net16_fifo=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|cefaf628953e70aacaabab0f5c2862f2943772d9e33412a12e707bf63d53ed038129a8763efbfe76e383bb1bfad6e9cd
+
+[trb_net16_ibuf]
+A/trb_net16_ibuf_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ibuf.vhd|52|1*3391033
+BinI32/trb_net16_ibuf_arch=3*256650
+I=0*1634456
+I/trb_net16_ibuf_arch=0*1648077
+M=11|0|vd0|1543269368960|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ibuf.vhd|0*1632722*0x5d6f45be9dda1efc3d702a09f17c12dd26fd601a|0*1634337*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_ibuf_arch=21|0|vd0|1543269369681|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ibuf.vhd|0*1634847*0x166ebc5346729f1b72a1acfcce7e79b955d836ab|0*1647935*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ibuf.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6e342ab1f076cbc14b9512ef85adfc538eb6758dc128304d77c3cda100ad01c324beebcbbcc51eee546947afc5622731
+Version/trb_net16_ibuf_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6e342ab1f076cbc14b9512ef85adfc5352d0632c3f85ad66ed7e2607b3449a37423b91e8bb3f440ea50dd7e7dda5a494
+
+[trb_net16_io_multiplexer]
+A/trb_net16_io_multiplexer_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_io_multiplexer.vhd|51|1*3132804
+BinI32/trb_net16_io_multiplexer_arch=3*167243
+I=0*1437436
+I/trb_net16_io_multiplexer_arch=0*1446378
+M=11|0|vd0|1543269342730|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_io_multiplexer.vhd|0*1435755*0xaf1e9e10064c3d242bcb481a10a71cf0b0ad016b|0*1437297*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_io_multiplexer_arch=21|0|vd0|1543269343123|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_io_multiplexer.vhd|0*1437837*0xdc3437dda4ed8b68c877b11173737e00726a9881|0*1446206*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_io_multiplexer.vhd|11
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|2800e95de09e337bb8b2b79b43741b905c8527b9400fba1e067f4b56ab326395a6693d157d5fce2b91c6bec3cade0b539b15a44247c3e69a6d79b22b7010146a
+Version/trb_net16_io_multiplexer_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|2800e95de09e337bb8b2b79b43741b90cfa520cfd39731238049014ac18c4fcc64500b72aaf24d308185a0722cb1544e6683ad8a150e1f0c1b86d982847482fb
+
+[trb_net16_iobuf]
+A/trb_net16_iobuf_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_iobuf.vhd|85|1*3413959
+BinI32/trb_net16_iobuf_arch=3*264868
+I=0*1652387
+I/trb_net16_iobuf_arch=0*1659145
+M=11|0|vd0|1543269371529|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_iobuf.vhd|0*1649261*0xccf0b93888caa00110b3556db821a7101c4e2de4|0*1652266*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_iobuf_arch=21|0|vd0|1543269371857|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_iobuf.vhd|0*1652779*0x84f614cb28d2519f73158d0cd38f916affbff558|0*1659000*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_iobuf.vhd|12
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|372b017193b4d9e5a19e8ebbbd51d28c192cf9b81663dc5db9b97370499115ac62163a57b9cdcac0ab72d6e33c651a95
+Version/trb_net16_iobuf_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|372b017193b4d9e5a19e8ebbbd51d28c96e24391f325b4c12c4ddcf28780922a84884bd69c5495f6fd68546424487b12
+
+[trb_net16_ipudata]
+A/trb_net16_ipudata_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ipudata.vhd|60|1*3217007
+BinI32/trb_net16_ipudata_arch=3*209669
+I=0*1518251
+I/trb_net16_ipudata_arch=0*1525365
+M=11|0|vd0|1543269351744|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ipudata.vhd|0*1516433*0x3e8e919b43f9e87658169000d0140bca695cbe09|0*1518126*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_ipudata_arch=21|0|vd0|1543269352371|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ipudata.vhd|0*1518576*0xf91ad8c837fdac24dbfe1009859795ae91ec51b7|0*1525214*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ipudata.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|26c7bc7182d67ef5bc3e66b502fa69dbd042d6ed61f969324753f9c55f7f083639b27ebe1fc8553537a18f1dc6878c6b
+Version/trb_net16_ipudata_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|26c7bc7182d67ef5bc3e66b502fa69db3f45fca049b1c6cd12cfe51224dcea6f2d6762df3764c05e90825c0184282007
+
+[trb_net16_lsm_sfp]
+A/lsm_sfp=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_lsm_sfp.vhd|48|1*3815210
+BinI32/lsm_sfp=3*290474
+I=0*1802113
+I/lsm_sfp=0*1810711
+M=11|0|vd0|1543269395879|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_lsm_sfp.vhd|0*1800921*0x3e3cc7ceddfa5604ff661a886d370f8a35586f04|0*1801971*0x23b75c12e3e89f2ef000564498faa8c2
+M/lsm_sfp=21|0|vd0|1543269396804|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_lsm_sfp.vhd|0*1802438*0xbee5d7ea8b8d77ecbb8fd2e06c0dbd17413f3502|0*1810558*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_lsm_sfp.vhd|16
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|5aa6fefa3ad76e3aaacb612d5a3ebeff5b2664a25e268e7a0191d470402d8c65a6b8cad380167a5fad9bfe03efadf0aa
+Version/lsm_sfp=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bed6936b3ec5f7f27d7585df4ec1c62026527262ddaa47cb266f3a3c4d9b973a068b3122e7c5cd5630bfb6c023be4771
+
+[trb_net16_med_ecp3_sfp]
+A/trb_net16_med_ecp3_sfp_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd|66|1*3823360
+BinI32/trb_net16_med_ecp3_sfp_arch=3*296967
+I=0*1813392
+I/trb_net16_med_ecp3_sfp_arch=0*1835595
+M=11|0|vd0|1543269399524|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd|0*1811574*0xcc9a2501ca5d12ab4cb62dc733389e761fc2ad13|0*1813240*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_med_ecp3_sfp_arch=21|0|vd0|1543269400930|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd|0*1813820*0x93a7e55c758616e91ab870853c54db8063c4fd13|0*1835412*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6f0c2dfe7faefc93abf498b0f44ed59840d7a0bea876c700b0fc9048b08a162ba82e65482f6db74539978a1efce05807
+Version/trb_net16_med_ecp3_sfp_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6f0c2dfe7faefc93abf498b0f44ed598cbe6482c9b63c79161f65be57d64315d3cc1066f1c4c418bf66bff8d9e97e8938850f845a42474f7f09af9a2045d2412
+
+[trb_net16_obuf]
+A/trb_net16_obuf_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf.vhd|41|1*3364614
+BinI32/trb_net16_obuf_arch=3*244972
+I=0*1613067
+I/trb_net16_obuf_arch=0*1625482
+M=11|0|vd0|1543269365705|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf.vhd|0*1611777*0x7d3028ec5fe2b4de803757e92167533121721386|0*1612948*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_obuf_arch=21|0|vd0|1543269366727|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf.vhd|0*1613458*0x728dfab5a9eae948bbe3e52f5e2ab44a9446b04c|0*1625340*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9e829f302d7ce17952e6fdb94902bf0552c8e70eeb014e8b0457793ddf6403f9088ed7a0d48c794e084a38fe66b31eb4
+Version/trb_net16_obuf_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9e829f302d7ce17952e6fdb94902bf05a38d78146fab4b121e1a84d36d292f8adb599927cd284db7cf027cefac96c295
+
+[trb_net16_obuf_nodata]
+A/trb_net16_obuf_nodata_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf_nodata.vhd|28|1*3355745
+BinI32/trb_net16_obuf_nodata_arch=3*241261
+I=0*1604445
+I/trb_net16_obuf_nodata_arch=0*1607406
+M=11|0|vd0|1543269363367|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf_nodata.vhd|0*1603611*0x29cca691bebbe84e909af7ea4194068ddf441785|0*1604312*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_obuf_nodata_arch=21|0|vd0|1543269363369|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf_nodata.vhd|0*1604774*0x2811bd21f5bcf510324fd688b53873ba79209182|0*1607243*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf_nodata.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9e829f302d7ce17952e6fdb94902bf056e42c8db1045261fec88bc856fcb7b408b95650c2065c487cce2cceca91d02c7
+Version/trb_net16_obuf_nodata_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9e829f302d7ce17952e6fdb94902bf05bee0be0c4528bafc8fc091d8a99871098c4a775afa4c2f5ce02b69f1b2ec3c5ed44b019bc2d34264a90a72a3323644f6
+
+[trb_net16_regio]
+A/trb_net16_regio_arch=A/trb_net16_regIO_arch 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regIO.vhd|101|1*3182193
+BinI32/trb_net16_regio_arch=3*191518
+I=0*1487781
+I/trb_net16_regio_arch=I/trb_net16_regIO_arch 0*1515374
+M=11|0|vd0|1543269350517|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regIO.vhd|0*1484009*0xc37eb5e30af53d803f3977db2538249051e4e023|0*1487660*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_regio_arch=M/trb_net16_regIO_arch 21|0|vd0|1543269350858|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regIO.vhd|0*1488207*0x3144a857fd09a3b6544a2e73615dbb3a4fabf1cc|0*1515229*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regIO.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6ec551201dc9b514915ebf74a3e90b76d166fceaabe937fc6675cb104c8aa6431afda18bd5578e0a79b410ddca89e283
+Version/trb_net16_regio_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6ec551201dc9b514915ebf74a3e90b7653b420207792708002e321b54a55d8c01c067e64365244f23f5632986e082039
+
+[trb_net16_regio_bus_handler]
+A/regio_bus_handler_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler.vhd|49|1*844037
+BinI32/regio_bus_handler_arch=3*91709
+I=0*574649
+I/regio_bus_handler_arch=0*578972
+M=11|0|vd0|1543269311744|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler.vhd|0*572831*0x8077ed7ab353ac6b9c3d8d20fc385f363bb3002a|0*574504*0x23b75c12e3e89f2ef000564498faa8c2
+M/regio_bus_handler_arch=21|0|vd0|1543269311759|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler.vhd|0*575053*0x2309ff215a79551094e4fab5396a7bf0553b8685|0*578801*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler.vhd|10
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6ec551201dc9b514915ebf74a3e90b76ebf8d516093b0cfa424e37ebf96048435d8c7418d7457dcf3a8eb15f73351d5065d84bcbae5c2782db9b005373ded9c2
+Version/regio_bus_handler_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|60846e3d2408512e4c17acc617460d7dfa76dcab8096d10ecfae613bc8e832f846bae2efe871256f099970b7ac49b31c
+
+[trb_net16_regio_bus_handler_record]
+A/regio_bus_handler_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler_record.vhd|46|1*851516
+BinI32/regio_bus_handler_arch=3*95992
+I=0*582279
+I/regio_bus_handler_arch=0*586727
+M=11|0|vd0|1543269313558|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler_record.vhd|0*581344*0xa8119a9ec0a13f8682ae015343485002e4a162a7|0*582120*0x23b75c12e3e89f2ef000564498faa8c2
+M/regio_bus_handler_arch=21|0|vd0|1543269313560|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler_record.vhd|0*582656*0x4d6854d720cfef890b65a893e95d43ebb9cba98b|0*586542*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler_record.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6ec551201dc9b514915ebf74a3e90b7636b579b774ab9bb3b6d9f38781306c399da6b276138d991930c667642e170f6e5ece0bd6229298e8da0de9dcc585831b
+Version/regio_bus_handler_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|60846e3d2408512e4c17acc617460d7dfa76dcab8096d10ecfae613bc8e832f89ca7c95725551cd0dfa8ae2fc6c9244d
+
+[trb_net16_sbuf]
+A/trb_net16_sbuf_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_sbuf.vhd|55|1*3109294
+BinI32/trb_net16_sbuf_arch=3*162243
+I=0*1422758
+I/trb_net16_sbuf_arch=0*1426586
+M=11|0|vd0|1543269340270|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_sbuf.vhd|0*1421728*0x6c968fa3075d8df6956ba9eee0f5e66fc3d4a046|0*1422639*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_sbuf_arch=21|0|vd0|1543269340280|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_sbuf.vhd|0*1423149*0xe3b7e6e4485abddb1c789931aa5fd443a01514a0|0*1426444*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_sbuf.vhd|29
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9c1046b254fcbc9b7c858244b9268a8bf8afec48d76401cd3946b039dbd0a8ec6177936048a220296a364b3010c1c22d
+Version/trb_net16_sbuf_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9c1046b254fcbc9b7c858244b9268a8b17a16e4c91206fd0d123023010dd6657899714571d9397062079bf265c9cd852
+
+[trb_net16_term]
+A/trb_net16_term_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term.vhd|43|1*3307619
+BinI32/trb_net16_term_arch=3*223179
+I=0*1569848
+I/trb_net16_term_arch=0*1573316
+M=11|0|vd0|1543269359784|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term.vhd|0*1568837*0x733499425841fe735c2c9cb3fa881e65037921d9|0*1569729*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_term_arch=21|0|vd0|1543269359840|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term.vhd|0*1570170*0x12c74c2078af72e9a0af7e6ba2096e2c33ef44c5|0*1573174*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term.vhd|16
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b3cc354e5a0dcfb725a56c84d678ebe8b22dd67c265205e91d5185d6d67e3d1472d4960568a8b78008776fa5e9939765
+Version/trb_net16_term_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b3cc354e5a0dcfb725a56c84d678ebe85f5be3f7107e9b368e0841e254f8e8b393b8cadcb7a2582cb3b741e0afc4c5a2
+
+[trb_net16_term_buf]
+A/trb_net16_term_buf_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_buf.vhd|36|1*3149776
+BinI32/trb_net16_term_buf_arch=3*172593
+I=0*1448307
+I/trb_net16_term_buf_arch=0*1454361
+M=11|0|vd0|1543269344250|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_buf.vhd|0*1447200*0xc9739608119f5d8580bdeba5322c780d0c17274a|0*1448180*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_term_buf_arch=21|0|vd0|1543269344268|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_buf.vhd|0*1448633*0xf83d7e9c1ef3041c520970ebfb9402510e033f2c|0*1454207*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_buf.vhd|12
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b3cc354e5a0dcfb725a56c84d678ebe8b9676dab55fcd4cab3a6e5da4867073fe630d232a07be6310c7221b42fe157fe
+Version/trb_net16_term_buf_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b3cc354e5a0dcfb725a56c84d678ebe8c51afdec6ce248982bd4092fb4a2c2c326527262ddaa47cb266f3a3c4d9b973ac9e4a42dc2e02c2bf88796e559cb3a60
+
+[trb_net16_term_ibuf]
+A/trb_net16_term_ibuf_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_ibuf.vhd|44|1*3382719
+BinI32/trb_net16_term_ibuf_arch=3*253918
+I=0*1627472
+I/trb_net16_term_ibuf_arch=0*1631842
+M=11|0|vd0|1543269367778|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_ibuf.vhd|0*1626345*0x8cbb5cd70a32357b3a6d24f24d0f8ef818b3a740|0*1627343*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_term_ibuf_arch=21|0|vd0|1543269367869|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_ibuf.vhd|0*1627799*0xa3c3d6e5d55fcdf14f79d8830d5a1fcff5c57ed4|0*1631685*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_ibuf.vhd|17
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b3cc354e5a0dcfb725a56c84d678ebe8cb254cdeb2758401660016932553a5bdb8ba32090ff77cc5916ec5d54330be7d
+Version/trb_net16_term_ibuf_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b3cc354e5a0dcfb725a56c84d678ebe86b81f05bbf2691e09574c2a32217cbed745ab7d252d29d4e879277d8c451bdbb0305a02ea1a027ce6eb330dbfe0940d4
+
+[trb_net16_trigger]
+A/trb_net16_trigger_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_trigger.vhd|46|1*3227535
+BinI32/trb_net16_trigger_arch=3*215591
+I=0*1527456
+I/trb_net16_trigger_arch=0*1533201
+M=11|0|vd0|1543269353323|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_trigger.vhd|0*1526158*0xc3bb40efe2e44c6bbed51b85745e9484bc243646|0*1527331*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net16_trigger_arch=21|0|vd0|1543269353387|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_trigger.vhd|0*1527781*0xc78fec9d34733ba5dd8fa4b6c112a75849c28673|0*1533050*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_trigger.vhd|11
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c009eef5210316e3a39b2ef575c8b6d0ccf7a19756a0cb59bdf5fcca60cd54851fb292a3353548a88ebc8169fa24ea68
+Version/trb_net16_trigger_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c009eef5210316e3a39b2ef575c8b6d00b79bb99ebfba88f30787557cb0a34b76460514472ca2268da956a198ecbcfe1
+
+[trb_net_components]
+E=1*22157
+I=0*112432
+M=3|0|vd0|1543269277488|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_components.vhd|0*21876*0x285cb99bd3da35e9eccfd8b448a8765de1952343|0*112305*0x23b75c12e3e89f2ef000564498faa8c2
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_components.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|42d96cbd1e05239c8f356b597b5170771a6ffb0ec624143de5ceb8682b5d501a9f1897d02147c09d4f162f348a249ec4
+
+[trb_net_crc]
+A/trb_net_crc_arch=A/trb_net_CRC_arch 21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC.vhd|24|1*3360697
+BinI32/trb_net_crc_arch=3*243254
+I=0*1608573
+I/trb_net_crc_arch=I/trb_net_CRC_arch 0*1611007
+M=11|0|vd0|1543269364343|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC.vhd|0*1607999*0x43cbad1df2afdd14c5dda4021ea0ebc73d064ca0|0*1608460*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_crc_arch=M/trb_net_CRC_arch 21|0|vd0|1543269364345|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC.vhd|0*1608892*0x40de0154b27a6d49c93e419a682729da829514db|0*1610874*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC.vhd|12
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|3b0ab601b518a3843ba9108b2b06330a0115904a372d6d0cdc02218bb48f102e3a318176bcef5a3f8a0dfe5b21b0d6b5
+Version/trb_net_crc_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|422b95564958c3ca2afd67f7c60fc17f9f2ddb3eb28f890b73da8f5034a78fa2ff5f5cb243cc8856c9d4f24e7f68fe44
+
+[trb_net_crc8]
+A/imp_crc=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC8.vhd|32|1*222874
+BinI32/imp_crc=3*10241
+I=0*195660
+I/imp_crc=0*197487
+M=11|0|vd0|1543269290358|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC8.vhd|0*195144*0x7aefe741efaf0ecbb45262ae96e44747a5ac9045|0*195545*0x23b75c12e3e89f2ef000564498faa8c2
+M/imp_crc=21|0|vd0|1543269290368|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC8.vhd|0*195980*0x39147fad3a8b102a9d2810ea37cad7d34a924983|0*197361*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC8.vhd|21
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|fecda90d1ee0be366d42d4d8b655c8a303def8b109d026e55114f657ff8a1f5379e34adb753c6d4efea8a1df6d1d290d
+Version/imp_crc=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a874deee72cff5f3d261c23637f8ccfe26527262ddaa47cb266f3a3c4d9b973ad14fe1e30045e005053ef664222c613f
+
+[trb_net_dummy_fifo]
+A/arch_trb_net_dummy_fifo=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_dummy_fifo.vhd|28|1*3237860
+BinI32/arch_trb_net_dummy_fifo=3*219904
+I=0*1534615
+I/arch_trb_net_dummy_fifo=0*1536307
+M=11|0|vd0|1543269354355|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_dummy_fifo.vhd|0*1533851*0x2d9ffd6514cac1a3fc136af1c5aee869919839a5|0*1534488*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch_trb_net_dummy_fifo=21|0|vd0|1543269354377|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_dummy_fifo.vhd|0*1534970*0x3d4c6925fcf21ce85f38193ae3a59edb2bc337f7|0*1536153*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_dummy_fifo.vhd|10
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f0057bc286749cb85690cb366a61b15d5d254cd3bf992711c095c7c8a6192ddf0aadd93b1256b7b49a104ff7541d066d
+Version/arch_trb_net_dummy_fifo=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e94759c1cfdea16eac5d7fc6f21f075437b36f9ed407ea2037ddb5f0c2bb05c326527262ddaa47cb266f3a3c4d9b973ad118a9f957ffff50d2d95013e07b04f1
+
+[trb_net_fifo_16bit_bram_dualport]
+A/trb_net_fifo_16bit_bram_dualport_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net_fifo_16bit_bram_dualport.vhd|29|1*3664719
+BinI32/trb_net_fifo_16bit_bram_dualport_arch=3*284207
+I=0*1753174
+I/trb_net_fifo_16bit_bram_dualport_arch=0*1754909
+M=11|0|vd0|1543269386562|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net_fifo_16bit_bram_dualport.vhd|0*1752147*0x5f49123ba12490ddb329119d79a5647423cf69dd|0*1753006*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_fifo_16bit_bram_dualport_arch=21|0|vd0|1543269386850|E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net_fifo_16bit_bram_dualport.vhd|0*1753514*0x433039944bb1a799f75fd47f8c164645495bd141|0*1754700*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net_fifo_16bit_bram_dualport.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9fb99e7f3ef8fd033c5e3c3432acef22a39f41ccfb23ec823e66bac84f1c77cb59241c9861e0f306279b5ba9e5a8881c724dd864f8fd06b614860d8eca4a2380
+Version/trb_net_fifo_16bit_bram_dualport_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9fb99e7f3ef8fd033c5e3c3432acef22a39f41ccfb23ec823e66bac84f1c77cb1097db9939b93195f383330b14dff91dd81195517e83e49d3188907326d4e03c
+
+[trb_net_onewire]
+A/trb_net_onewire_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_onewire.vhd|34|1*3156745
+BinI32/trb_net_onewire_arch=3*176347
+I=0*1455980
+I/trb_net_onewire_arch=0*1464974
+M=11|0|vd0|1543269345126|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_onewire.vhd|0*1455078*0x902993c24be3ff004816222805cfb42738f7588f|0*1455859*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_onewire_arch=21|0|vd0|1543269345414|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_onewire.vhd|0*1456303*0x2683e555f519c181b8010d1fb967bb1f46e94935|0*1464829*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_onewire.vhd|10
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b3976776610d22f47db0c11a6f6a60cb1973d1749ac9485ccf2643b4ffa9962cc0bf6d65d8f47610aa1f1482fe4213a3
+Version/trb_net_onewire_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b3976776610d22f47db0c11a6f6a60cbc742ccff316c24a52b913d14903bbce8eb76ebb392f1e7c103a7dc5ff1bc32a0
+
+[trb_net_pattern_gen]
+A/trb_net_pattern_gen_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_pattern_gen.vhd|24|1*3181022
+BinI32/trb_net_pattern_gen_arch=3*190897
+I=0*1481950
+I/trb_net_pattern_gen_arch=0*1482765
+M=11|0|vd0|1543269349647|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_pattern_gen.vhd|0*1481358*0x05b1d08dfc780e1cda8ed6c54b72cfb218480729|0*1481821*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_pattern_gen_arch=21|0|vd0|1543269349649|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_pattern_gen.vhd|0*1482277*0x13a97877c5751043ef64ba798bcf2340c71a4556|0*1482608*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_pattern_gen.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|4989484bf88dc5dbd6056972a29cec43ffd3ea6cabb1c4df8aa2ca56e14b1011a4f963a694c512f1bed78fd7048dece9
+Version/trb_net_pattern_gen_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|4989484bf88dc5dbd6056972a29cec43357587dc4489c479d6a2389a3bce14b3ffe244707b02f6b06438e7fe72be9ca9d333bbf05076824fbef4a5bf1ae27f4e
+
+[trb_net_priority_arbiter]
+A/trb_net_priority_arbiter_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_arbiter.vhd|25|1*3127643
+BinI32/trb_net_priority_arbiter_arch=3*164207
+I=0*1430462
+I/trb_net_priority_arbiter_arch=0*1434919
+M=11|0|vd0|1543269341734|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_arbiter.vhd|0*1429715*0x805c8aef456bf13913ad43f2b78011c6aa730c94|0*1430323*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_priority_arbiter_arch=21|0|vd0|1543269341753|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_arbiter.vhd|0*1430794*0x678c2f588c90875068646312917e9df08b31232a|0*1434747*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_arbiter.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bfd6561589b7baabc3d08fe9d940045dba9070680adcb9c1620a0763575613c26bc030aa46c6814ebaa6feac26e4014370502fe7162bb67b531a8c5f56f04b55
+Version/trb_net_priority_arbiter_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bfd6561589b7baabc3d08fe9d940045d727ec3f652667a24ae18565a66b9bba33fa16c17c36b4750643e896613c3315ea0cfc22da6709360bd33ba204483a7b6
+
+[trb_net_priority_encoder]
+A/trb_net_priority_encoder_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_encoder.vhd|20|1*3125370
+BinI32/trb_net_priority_encoder_arch=3*163049
+I=0*1427673
+I/trb_net_priority_encoder_arch=0*1429054
+M=11|0|vd0|1543269340895|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_encoder.vhd|0*1427003*0xd296f7b7b59a0e839ed9410e884cb7dc25bd1635|0*1427534*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_priority_encoder_arch=21|0|vd0|1543269340913|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_encoder.vhd|0*1428005*0xc205ebe7ec629545bceae93862b08e4bc8de2ae4|0*1428882*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_encoder.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bfd6561589b7baabc3d08fe9d940045dd05a57a393c9a18bc2ba15c72329f7e2ff2c962c2e5e86fedb14d20dba066290bb1f189f1987f3501c427804e1a53a26
+Version/trb_net_priority_encoder_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bfd6561589b7baabc3d08fe9d940045da6ef6dfe9fe8e7469fcf88954a8a5a885360a91fbd7e318764ec1ceaf6843fbc5842de488ba0cab48f664d6159e9716c
+
+[trb_net_reset_handler]
+A/behavioral=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/trb_net_reset_handler.vhd|34|1*3885106
+BinI32/behavioral=3*304303
+I=0*1841563
+I/behavioral=0*1844333
+M=11|0|vd0|1543269403897|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/trb_net_reset_handler.vhd|0*1840757*0x643e4c729f0c2aaacb7b1758c3b3ef883026843a|0*1841422*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|0|vd0|1543269403914|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/trb_net_reset_handler.vhd|0*1841858*0x6e451ff4dbf42e84f7445eca3c955dc3f3b40987|0*1844178*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/trb_net_reset_handler.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bfbc197418fc95eefc8d7541546fd783aa66c3f34370e80b6ec9516da723a143e567184f054f0d857d49c97ef68154d2
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff49723259b102f38dddd4de0e419f72b43
+
+[trb_net_sbuf]
+A/trb_net_sbuf_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf.vhd|50|1*3105001
+BinI32/trb_net_sbuf_arch=3*159317
+I=0*1415877
+I/trb_net_sbuf_arch=0*1421040
+M=11|0|vd0|1543269339247|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf.vhd|0*1414981*0x860731a7aa9257a27a8b3b1ff2cb608b818c11d1|0*1415762*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_sbuf_arch=21|0|vd0|1543269339265|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf.vhd|0*1416197*0xed6be08b042b57fbc757a15bab3cb4691bb72196|0*1420904*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf.vhd|23
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|61a09d7ce07b587e07ce5c2a63210eafb82c51667493c283d31d754dc7086fea4f34071fba05abcd5823b920043839d0
+Version/trb_net_sbuf_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|0c73018c37baaa13657a46640d84e9430180b5da5e2a9b5aae8bd422094112e7ea4fd768e16d46911d147fe2d9d3a795
+
+[trb_net_sbuf5]
+A/trb_net_sbuf5_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf5.vhd|40|1*3098300
+BinI32/trb_net_sbuf5_arch=3*155873
+I=0*1409178
+I/trb_net_sbuf5_arch=0*1414342
+M=11|0|vd0|1543269338372|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf5.vhd|0*1408390*0xb0f6daf3a92b6ecc4a8a5490f8385368d8841003|0*1409061*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_sbuf5_arch=21|0|vd0|1543269338623|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf5.vhd|0*1409422*0xd9a983f9886ed2bce7717757e6d4535519caf63f|0*1414203*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf5.vhd|18
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c8762e116f9ce289cb99fcf8f0a970f6fdbbe85febc7faafbd4ca9c18007626ca529abbf889757d2eb16349d16b68de5
+Version/trb_net_sbuf5_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c8762e116f9ce289cb99fcf8f0a970f64ff26e1c0b0773b4f058e8c79167703ee32cdad6ecf251d80021b2489d91e42b
+
+[trb_net_sbuf6]
+A/trb_net_sbuf6_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf6.vhd|33|1*3043400
+BinI32/trb_net_sbuf6_arch=3*154440
+I=0*1384284
+I/trb_net_sbuf6_arch=0*1385198
+M=11|0|vd0|1543269336173|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf6.vhd|0*1383437*0x13d80780e4ccbc49eabad2c74fb8fa779e403f58|0*1384167*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_sbuf6_arch=21|0|vd0|1543269336199|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf6.vhd|0*1384674*0x984ff26f4b4c9fea9013fea209fe628e191a7128|0*1385059*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf6.vhd|11
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c8762e116f9ce289cb99fcf8f0a970f68c91f5137f8ca346bbb187759a2cddade0c839557ec7eeabb79ad2a07eeae455
+Version/trb_net_sbuf6_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c8762e116f9ce289cb99fcf8f0a970f60532547ea35e70402610f86de0af780035064d918857e9f3b23a4c5dfe68f4ae
+
+[trb_net_std]
+BinI32/trb_net_std=3*0
+E=1*498
+I=0*12744
+I/trb_net_std=0*15548
+M=3|0|vd0|1543269275231|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_std.vhd|0*4309*0x0092e7bf9b19890c836335c24c50d636abc72f5e|0*12631*0x23b75c12e3e89f2ef000564498faa8c2
+M/trb_net_std=4|0|vd0|1543269275272|E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_std.vhd|0*13029*0xa6c1b48f63ee623c7754f758095e198cc1bd5e1c|0*15421*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_std.vhd|7
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ce3d4f89a686b735a11544f9f566ea33dbbdab49837544f1802e77c840b683b6fd4c3860e6dd53b97e44e91700d74eba
+Version/trb_net_std=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ce3d4f89a686b735a11544f9f566ea33dbbdab49837544f1802e77c840b683b6fd4c3860e6dd53b97e44e91700d74eba
+
+[trigger_master]
+A/trigger_master_arch=21|./../../../Source/trigger_master.vhd|22|1*589422
+BinI32/trigger_master_arch=3*27356
+I=0*402452
+I/trigger_master_arch=0*403292
+M=11|0|vd0|1543269298000|./../../../Source/trigger_master.vhd|0*401949*0x82fdc574f039a36d3e1f037b3a88146c7135b18f|0*402348*0x23b75c12e3e89f2ef000564498faa8c2
+M/trigger_master_arch=21|0|vd0|1543269298002|./../../../Source/trigger_master.vhd|0*402809*0x4660aa7e6c543c24d67bafd4058170d74397ccff|0*403165*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/trigger_master.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|95f7b1e64f30ffda9739c57c206f502957a2ecf5a8223ce48d6e0d1395f0b96bbbd21ee22f1834266347ed7cf65dbdef
+Version/trigger_master_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a572cdd3a691cea9459e80ec11f7917e658d80accc4709b66a66a631b8f1d447d29776b99cee2dfb4cb577644ec100c9
+
+[trigger_master_top]
+A/trigger_master_top_arch=21|./../../../Source/trigger_master_top.vhd|28|1*592475
+BinI32/trigger_master_top_arch=3*29237
+I=0*406775
+I/trigger_master_top_arch=0*409793
+M=11|0|vd0|1543269298883|./../../../Source/trigger_master_top.vhd|0*406018*0xd29ff478ae1cae66dc372b04f521e360c8f96ecd|0*406663*0x23b75c12e3e89f2ef000564498faa8c2
+M/trigger_master_top_arch=21|0|vd0|1543269298893|./../../../Source/trigger_master_top.vhd|0*407177*0x71ab9e98a61b2a060d20a1ea867aea4d774421da|0*409654*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/trigger_master_top.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a572cdd3a691cea9459e80ec11f7917e1b569e5f7bb7ae86ce7d00c0612d118f1366e54ac01e6b2d9346cb1c39071ea3
+Version/trigger_master_top_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a572cdd3a691cea9459e80ec11f7917ebfb12ac2e7caab406e2214479ce5397133b6465477582788426d1b0916a7dce0
+
+[trigger_or_enabled]
+A/trigger_or_enabled_arch=A/trigger_OR_enabled_arch 21|./../../../Source/trigger_OR_enabled.vhd|22|1*588178
+BinI32/trigger_or_enabled_arch=3*26830
+I=0*400488
+I/trigger_or_enabled_arch=I/trigger_OR_enabled_arch 0*401350
+M=11|0|vd0|1543269297544|./../../../Source/trigger_OR_enabled.vhd|0*399961*0xd645a46cd5885175aa9e159ef5c5c9e9b8a15ffc|0*400376*0x23b75c12e3e89f2ef000564498faa8c2
+M/trigger_or_enabled_arch=M/trigger_OR_enabled_arch 21|0|vd0|1543269297546|./../../../Source/trigger_OR_enabled.vhd|0*400849*0xce36b92e10b62e0ce28c910a4cfdf6ef8122793e|0*401211*0x9065d32a2e40e13794b29a2731812845
+R=./../../../Source/trigger_OR_enabled.vhd|14
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|aeeaa2bd3ee4085b7675b51540d7a821f4974e5ba9dfa7bddbbf09e41af8ee27c7e2afb39d846e8bfae3bbffc46f6dfa
+Version/trigger_or_enabled_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|aeeaa2bd3ee4085b7675b51540d7a82175c0a0f14655a96dae5529485c86febb26527262ddaa47cb266f3a3c4d9b973a79630be0a1edde77a8ec439f676227d9
+
+[tx_reset_sm]
+A/tx_reset_sm_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|1727|1*3760926
+BinI32/tx_reset_sm_arch=3*287401
+I=0*1761267
+I/tx_reset_sm_arch=0*1764030
+M=11|0|vd0|1543269391926|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|0*1760631*0xf8b1400dc8cf270add1bba0a179d2c464d41565f|0*1761126*0x23b75c12e3e89f2ef000564498faa8c2
+M/tx_reset_sm_arch=21|0|vd0|1543269392008|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|0*1761586*0x9a820a985925278e986cc42f061cf977a13c869e|0*1763869*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd|1716
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9a42c1f4a01c384d63ffce94d5df343d8b526a91b1f68d60e0de089ebf187d565968472847154b76dc3689f48d253699
+Version/tx_reset_sm_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|2342020f8909abcade1d9f16ab03d4c230e38b95fc25cb5031555b57c994b629e4ea01ea54dbc7277c53dd167ab27a6c
+
+[tx_reset_sm_125]
+A/tx_reset_sm_arch_125=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|1727|1*527407
+BinI32/tx_reset_sm_arch_125=3*20033
+I=0*351062
+I/tx_reset_sm_arch_125=0*353836
+M=11|0|vd0|1543269295488|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|0*350426*0x8b0d706690f92f329429c6a8b8bcccaeb771cccd|0*350917*0x23b75c12e3e89f2ef000564498faa8c2
+M/tx_reset_sm_arch_125=21|0|vd0|1543269295497|E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|0*351385*0xc37dc3aac6f3824c52acd253d88d1632914b0129|0*353667*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd|1716
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|228a97a3a342f41031fd44c4fa7e2c5cda6e286290494c9cfcc76c07b92b9acb146344562aaef39d04aac066fcf2bb77
+Version/tx_reset_sm_arch_125=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|2342020f8909abcade1d9f16ab03d4c22b4498360151cd84426c3e3817023ad1219d7d0fbd74e3520c131157b165f44b
+
+[uart]
+A/uart_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart.vhd|29|1*757856
+BinI32/uart_arch=3*51310
+I=0*494717
+I/uart_arch=0*498973
+M=11|0|vd0|1543269304205|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart.vhd|0*494098*0xcd925294083d1d13dce57feb945fb300a9988c8c|0*494610*0x23b75c12e3e89f2ef000564498faa8c2
+M/uart_arch=21|0|vd0|1543269304327|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart.vhd|0*495097*0x5c466b9f42975c3d27ceddc8b1134ac8d61325dc|0*498853*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart.vhd|13
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d6ad415262f8cf912e809713824a3c0163582db8e5c4f23f62ad9b99a1fbd0b4
+Version/uart_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|8e53da5538a27ddfc0b3084db256b2b95fb4070a7fdfd8da59b6a7357a41e9dc21a61e858aa03fee00908f0228e6c1c7
+
+[uart_rec]
+A/uart_rec_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_rec.vhd|24|1*754640
+BinI32/uart_rec_arch=3*48930
+I=0*489566
+I/uart_rec_arch=0*492234
+M=11|0|vd0|1543269302587|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_rec.vhd|0*489045*0xa3e723e3608eea3e52fece8a1111299c2aecb5ee|0*489451*0x23b75c12e3e89f2ef000564498faa8c2
+M/uart_rec_arch=21|0|vd0|1543269302589|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_rec.vhd|0*489805*0xf3af0c5162e177463271e15e55e0d0bbdb0852f8|0*492102*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_rec.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|67516c3bd3951cfb361a1fa982d372a8bf54c37a5929d0b0bef44c4f98f3ba1813464227eed09680c94618a0f036dacc
+Version/uart_rec_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b2869a04ce7a614070e7994c256758400e7b151c85f076c62d382c28a9f4ed55ff1f8fbf1bb51b3d6ae87668007f2d0d
+
+[uart_trans]
+A/uart_trans_arch=21|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_trans.vhd|28|1*751729
+BinI32/uart_trans_arch=3*46887
+I=0*486399
+I/uart_trans_arch=0*488533
+M=11|0|vd0|1543269302056|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_trans.vhd|0*485854*0xc712e15371b84ef5173b1f885a4e7cad182892c4|0*486280*0x23b75c12e3e89f2ef000564498faa8c2
+M/uart_trans_arch=21|0|vd0|1543269302067|E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_trans.vhd|0*486640*0x0ea1c0733bb3b136a99944836c5a75199935e013|0*488395*0x9065d32a2e40e13794b29a2731812845
+R=E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_trans.vhd|7
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|fe0b5ac7ae196e79df291aeb09bc3ea24dfceabd07151e69820f1e65d322cc83a2c49f6969bd32bf706c9cbdbf27f5ed
+Version/uart_trans_arch=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|2cd9f1d3152d56c0a4b5a5069ec9ab2543e2d38582d0df45aa28ca7d45feecf6b55161f88c9387079f7c738da69eddd8
+
+[version]
+E=1*0
+I=0*642
+M=3|0|vd0|1543269273142|./../../../version.vhd|0*271*0xcc34d4a963f8d324a868491cd3c1575b2019ee17|0*559*0x23b75c12e3e89f2ef000564498faa8c2
+R=./../../../version.vhd|9
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b7196005d1e9e8c261fd86dbe388e28b26527262ddaa47cb266f3a3c4d9b973a7278d732c550704935134e8ce8024220
+
+[~MFT]
+0=7|0work.mgf|1868656|30548
+1=1|1work.mgf|3923853|788875
+3=1|3work.mgf|313549|10194
+
+[~U]
+$root=12|0*187404|
+Cpll=12|0*161756||0x10
+Cpll0=12|0*163936||0x10
+Cpll1=12|0*166337||0x10
+Cpll2=12|0*168725||0x10
+Cpll3=12|0*170921||0x10
+Cpll4=12|0*173117||0x10
+LA_FIFO=12|0*175378||0x10
+basic_type_declaration=3|0*160361|0*160584
+bus_register_handler=11|0*1357851|
+config=3|0*15845|0*16096
+debuguart=11|0*492487|
+edge_to_pulse=11|0*392420|
+f_divider=11|0*390093|
+fifo_18x1k_oreg=11|0*410391|
+fifo_18x256_oreg=11|0*676344|
+fifo_18x2k_oreg=11|0*610772|
+fifo_18x512_oreg=11|0*646525|
+fifo_19x16_obuf=11|0*1385607|
+fifo_36x16k_oreg=11|0*953348|
+fifo_36x1k_oreg=11|0*1263563|
+fifo_36x256_oreg=11|0*267422|
+fifo_36x2k_oreg=11|0*1223241|
+fifo_36x32k_oreg=11|0*705622|
+fifo_36x4k_oreg=11|0*1165289|
+fifo_36x512_oreg=11|0*1298329|
+fifo_36x8k_oreg=11|0*1083032|
+fifo_9x2k_oreg=11|0*461599|
+fifo_var_oreg=11|0*1328238|
+fpga_reboot=11|0*534150|
+handler_data=11|0*1329915|
+handler_ipu=11|0*596450|
+handler_lvl1=11|0*1365878|
+handler_trigger_and_data=11|0*1345047|
+input_statistics=11|0*442823|
+input_to_trigger_logic_record=11|0*451739|
+lattice_ecp2m_fifo=3|0*153535|0*153677
+lattice_ecp3_fifo_16bit_dualport=11|0*1720878|
+lattice_ecp3_fifo_16x16_dualport=11|0*209200|
+lattice_ecp3_fifo_18x16_dualport=11|0*237885|
+lattice_ecp3_fifo_18x1k=11|0*1539859|
+lcd=11|0*506633|
+load_settings=11|0*519806|
+pcsd=PCSD 11|0*296287|
+pll_in200_out100=11|0*1835753|
+pulse_stretch=11|0*1363616|
+pulse_sync=11|0*197815|
+ram=11|0*513318|
+ram_16x16_dp=11|0*1467953|
+ram_16x8_dp=11|0*202144|
+ram_dp=11|0*204886|
+ram_dp_rw=11|0*207064|
+readoutfifo=12|0*187746||0x10
+rom_16x8=11|0*1465318|
+rx_reset_sm=11|0*1755543|
+rx_reset_sm_125=11|0*345293|
+sedcheck=11|0*507794|
+sfp_1_125_int=11|0*354180|
+sfp_1_200_int=11|0*1764366|
+signal_delay=11|0*403669|
+signal_gated=11|0*397759|
+signal_stretch=11|0*395794|
+signal_sync=11|0*1361152|
+spi_databus_memory=11|0*547132|
+spi_dpram_32_to_8=11|0*536207|
+spi_flash_and_fpga_reload_record=11|0*579399|
+spi_ltc2600=11|0*499465|
+spi_master=11|0*565790|
+spi_master_generic=11|0*515281|
+spi_slim=11|0*551428|
+state_sync=11|0*200261|
+structure_con=Structure_CON 2||
+support=3|0*394761|0*394881
+tb_signal_delay=11|0*1862468|
+tb_signal_gated=11|0*1866984|
+tb_signal_stretch=11|0*1864953|
+tb_trigger_master=11|0*1858639|
+trb3_components=3|0*112793|0*113018
+trb3_periph_blank=11|0*1844639|
+trb3_tools=11|0*587127|
+trb_net16_addresses=11|0*1471306|
+trb_net16_api_base=11|0*1573658|
+trb_net16_dummy_fifo=11|0*1536686|
+trb_net16_endpoint_hades_full=11|0*1659684|
+trb_net16_endpoint_hades_full_handler_record=11|0*1699608|
+trb_net16_fifo=11|0*1565239|
+trb_net16_ibuf=11|0*1632228|
+trb_net16_io_multiplexer=11|0*1435322|
+trb_net16_iobuf=11|0*1648582|
+trb_net16_ipudata=11|0*1515928|
+trb_net16_lsm_sfp=11|0*1800517|
+trb_net16_med_ecp3_sfp=11|0*1811044|
+trb_net16_obuf=11|0*1611343|
+trb_net16_obuf_nodata=11|0*1603303|
+trb_net16_regio=trb_net16_regIO 11|0*1483117|
+trb_net16_regio_bus_handler=11|0*572313|
+trb_net16_regio_bus_handler_record=11|0*580909|
+trb_net16_sbuf=11|0*1421378|
+trb_net16_term=11|0*1568482|
+trb_net16_term_buf=11|0*1446882|
+trb_net16_term_ibuf=11|0*1625959|
+trb_net16_trigger=11|0*1525713|
+trb_net_components=3|0*20447|0*20589
+trb_net_crc=trb_net_CRC 11|0*1607762|
+trb_net_crc8=trb_net_CRC8 11|0*194906|
+trb_net_dummy_fifo=11|0*1533549|
+trb_net_fifo_16bit_bram_dualport=11|0*1751778|
+trb_net_onewire=11|0*1454711|
+trb_net_pattern_gen=11|0*1481096|
+trb_net_priority_arbiter=11|0*1429416|
+trb_net_priority_encoder=11|0*1426728|
+trb_net_reset_handler=11|0*1840466|
+trb_net_sbuf=11|0*1414647|
+trb_net_sbuf5=11|0*1408089|
+trb_net_sbuf6=11|0*1383136|
+trb_net_std=3|0*957|0*1829
+trigger_master=11|0*401735|
+trigger_master_top=11|0*405721|
+trigger_or_enabled=trigger_OR_enabled 11|0*399738|
+tx_reset_sm=11|0*1760372|
+tx_reset_sm_125=11|0*350160|
+uart=11|0*493825|
+uart_rec=11|0*488790|
+uart_trans=11|0*485593|
+version=3|0*0|0*120

@@ -1,0 +1,41 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = .
+SET speedgrade = -10
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vlx40
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff1148
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Synchronous_FIFO family Xilinx,_Inc. 5.0
+# END Select
+# BEGIN Parameters
+CSET memory_type=Distributed_Memory
+CSET write_acknowledge_flag=false
+CSET data_width=18
+CSET write_error_flag=false
+CSET read_acknowledge_sense=Active_Low
+CSET data_count_width=1
+CSET fifo_depth=16
+CSET component_name=xilinx_fifo_18x16
+CSET data_count=false
+CSET read_acknowledge_flag=false
+CSET read_error_sense=Active_Low
+CSET read_error_flag=false
+CSET write_acknowledge_sense=Active_Low
+CSET write_error_sense=Active_Low
+# END Parameters
+GENERATE
+

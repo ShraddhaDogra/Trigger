@@ -1,0 +1,76 @@
+#-- Synplicity, Inc.
+#-- Version 9.0
+#-- Project file /home/marek/vulom3/vlogic_1_syn.prj
+#-- Written on Mon Apr 28 11:33:20 2008
+
+
+#add_file options
+add_file -vhdl -lib work "vlogic_1.vhd"
+add_file -vhdl -lib work "clocking.vhd"
+add_file -vhdl -lib work "ulogic.vhd"
+add_file -vhdl -lib work "vmelogic.vhd"
+add_file -vhdl -lib work "trig_box1.vhd"
+add_file -vhdl -lib work "one_clock_long.vhd"
+add_file -vhdl -lib work "delay.vhd"
+add_file -vhdl -lib work "downscale.vhd"
+add_file -vhdl -lib work "set_width.vhd"
+add_file -vhdl -lib work "set_width_special.vhd"
+add_file -vhdl -lib work "scaler.vhd"
+add_file -vhdl -lib work "scaler_s.vhd"
+add_file -vhdl -lib work "eco_delay.vhd"
+add_file -vhdl -lib work "new_downscale_ck.vhd"
+add_file -vhdl -lib work "beam_ramp.vhd"
+add_file -vhdl -lib work "bus_data_com5.vhd"
+add_file -constraint "vlogic_1.sdc"
+
+
+#implementation: "workdir"
+impl -add workdir -type fpga
+
+#device options
+set_option -technology VIRTEX4
+set_option -part XC4VLX15
+set_option -package SF363
+set_option -speed_grade -10
+
+#compilation/mapping options
+set_option -default_enum_encoding default
+set_option -resource_sharing 1
+set_option -use_fsm_explorer 1
+set_option -top_module "vlogic_1"
+
+#map options
+set_option -frequency 110.000
+set_option -run_prop_extract 0
+set_option -fanout_limit 100
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -update_models_cp 1
+set_option -verification_mode 0
+set_option -retiming 1
+set_option -no_sequential_opt 0
+set_option -fixgatedclocks 3
+set_option -fixgeneratedclocks 3
+
+
+#sequential_optimizations options
+set_option -symbolic_fsm_compiler 1
+
+#simulation options 
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+#VIF options
+set_option -write_vif 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "workdir/vlogic_1.edf"
+
+#
+#implementation attributes
+
+set_option -synthesis_onoff_pragma 0
+impl -active "workdir"

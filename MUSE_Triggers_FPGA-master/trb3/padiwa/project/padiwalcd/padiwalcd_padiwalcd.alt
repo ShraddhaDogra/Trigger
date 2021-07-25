@@ -1,0 +1,86 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon Apr 02 11:58:53 2018 *
+NOTE DESIGN NAME: panda_dirc_wasa *
+NOTE DEVICE NAME: LCMXO2-4000HC-6FTBGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS TEMP_LINE : L12 : inout *
+NOTE PINS SPI_OUT : B14 : out *
+NOTE PINS CON[1] : A4 : out *
+NOTE PINS INP[1] : T2 : in *
+NOTE PINS TEST_LINE[15] : G13 : out *
+NOTE PINS TEST_LINE[14] : F12 : out *
+NOTE PINS TEST_LINE[13] : F16 : out *
+NOTE PINS TEST_LINE[12] : F14 : out *
+NOTE PINS TEST_LINE[11] : G12 : out *
+NOTE PINS TEST_LINE[10] : F13 : out *
+NOTE PINS TEST_LINE[9] : F15 : out *
+NOTE PINS TEST_LINE[8] : E16 : out *
+NOTE PINS TEST_LINE[7] : D15 : out *
+NOTE PINS TEST_LINE[6] : C16 : out *
+NOTE PINS TEST_LINE[5] : E14 : out *
+NOTE PINS TEST_LINE[4] : D16 : out *
+NOTE PINS TEST_LINE[3] : B16 : out *
+NOTE PINS TEST_LINE[2] : C15 : out *
+NOTE PINS TEST_LINE[1] : E15 : out *
+NOTE PINS TEST_LINE[0] : D14 : out *
+NOTE PINS SPI_IN : R12 : in *
+NOTE PINS SPI_CS : P12 : in *
+NOTE PINS SPI_CLK : T15 : in *
+NOTE PINS LED_YELLOW : R16 : out *
+NOTE PINS LED_RED : P15 : out *
+NOTE PINS LED_ORANGE : N14 : out *
+NOTE PINS LED_GREEN : N16 : out *
+NOTE PINS SPARE_LVDS : C4 : out *
+NOTE PINS SPARE_LINE[3] : T12 : out *
+NOTE PINS SPARE_LINE[2] : R11 : out *
+NOTE PINS SPARE_LINE[1] : T14 : out *
+NOTE PINS SPARE_LINE[0] : R13 : out *
+NOTE PINS PWM[16] : B1 : out *
+NOTE PINS PWM[15] : C2 : out *
+NOTE PINS PWM[14] : D1 : out *
+NOTE PINS PWM[13] : E1 : out *
+NOTE PINS PWM[12] : E2 : out *
+NOTE PINS PWM[11] : F1 : out *
+NOTE PINS PWM[10] : G2 : out *
+NOTE PINS PWM[9] : H6 : out *
+NOTE PINS PWM[8] : K4 : out *
+NOTE PINS PWM[7] : L1 : out *
+NOTE PINS PWM[6] : M1 : out *
+NOTE PINS PWM[5] : M3 : out *
+NOTE PINS PWM[4] : N1 : out *
+NOTE PINS PWM[3] : N3 : out *
+NOTE PINS PWM[2] : P1 : out *
+NOTE PINS PWM[1] : R1 : out *
+NOTE PINS INP[16] : M8 : in *
+NOTE PINS INP[15] : R9 : in *
+NOTE PINS INP[14] : T9 : in *
+NOTE PINS INP[13] : N8 : in *
+NOTE PINS INP[12] : P8 : in *
+NOTE PINS INP[11] : T7 : in *
+NOTE PINS INP[10] : M7 : in *
+NOTE PINS INP[9] : M6 : in *
+NOTE PINS INP[8] : N6 : in *
+NOTE PINS INP[7] : R7 : in *
+NOTE PINS INP[6] : P6 : in *
+NOTE PINS INP[5] : T5 : in *
+NOTE PINS INP[4] : R5 : in *
+NOTE PINS INP[3] : P4 : in *
+NOTE PINS INP[2] : T3 : in *
+NOTE PINS CON[16] : C12 : out *
+NOTE PINS CON[15] : B13 : out *
+NOTE PINS CON[14] : B11 : out *
+NOTE PINS CON[13] : A11 : out *
+NOTE PINS CON[12] : D10 : out *
+NOTE PINS CON[11] : F9 : out *
+NOTE PINS CON[10] : B9 : out *
+NOTE PINS CON[9] : F8 : out *
+NOTE PINS CON[8] : D8 : out *
+NOTE PINS CON[7] : C8 : out *
+NOTE PINS CON[6] : F7 : out *
+NOTE PINS CON[5] : B7 : out *
+NOTE PINS CON[4] : D6 : out *
+NOTE PINS CON[3] : A3 : out *
+NOTE PINS CON[2] : A5 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

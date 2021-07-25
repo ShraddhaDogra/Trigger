@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the job information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<job_run_status name="Mapper">
+<report_link name="Detailed report">
+<data>E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\project\trb3_periph_blank\synlog\blank_trb3_periph_blank_fpga_mapper.srr</data>
+<title>Synopsys Lattice Technology Mapper</title>
+</report_link>
+<job_status>
+<data>Completed</data>
+</job_status>
+<job_info>
+<info name="Notes">
+<data>520</data>
+<report_link name="more">
+<data>E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\project\trb3_periph_blank\synlog\report\blank_trb3_periph_blank_fpga_mapper_notes.txt</data>
+</report_link>
+</info>
+<info name="Warnings">
+<data>94</data>
+<report_link name="more">
+<data>E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\project\trb3_periph_blank\synlog\report\blank_trb3_periph_blank_fpga_mapper_warnings.txt</data>
+</report_link>
+</info>
+<info name="Errors">
+<data>0</data>
+<report_link name="more">
+<data>E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\project\trb3_periph_blank\synlog\report\blank_trb3_periph_blank_fpga_mapper_errors.txt</data>
+</report_link>
+</info>
+<info name="CPU Time">
+<data>0h:04m:13s</data>
+</info>
+<info name="Real Time">
+<data>0h:04m:36s</data>
+</info>
+<info name="Peak Memory">
+<data>339MB</data>
+</info>
+<info name="Date &amp; Time">
+<data type="timestamp">1544007700</data>
+</info>
+</job_info>
+</job_run_status>

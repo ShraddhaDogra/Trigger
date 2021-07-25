@@ -1,0 +1,1401 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-DM3J0OT
+
+# Fri Feb 16 16:09:40 2018
+
+#Implementation: padiwalcd
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\lcd.vhd":9:7:9:9|Top entity is set to lcd.
+VHDL syntax check successful!
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 80MB)
+
+
+Process completed successfully.
+# Fri Feb 16 16:09:42 2018
+
+###########################################################]
+Synopsys Verilog Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\efb_define_def.v" (library work)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+
+Process completed successfully.
+# Fri Feb 16 16:09:43 2018
+
+###########################################################]
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":15:7:15:21|Top entity is set to panda_dirc_wasa.
+VHDL syntax check successful!
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":15:7:15:21|Synthesizing work.panda_dirc_wasa.panda_dirc_wasa_arch.
+@N: CD231 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":230:15:230:16|Using onehot encoding for type fsm_state. For example, enumeration idle is mapped to "10000".
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":421:53:421:57|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":428:24:428:26|Variable tmp read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":430:66:430:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":430:66:430:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":430:66:430:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":438:53:438:57|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":421:53:421:57|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":428:24:428:26|Variable tmp read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":430:66:430:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":430:66:430:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":430:66:430:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":438:53:438:57|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD610 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":664:20:664:36|Index value 0 to 31 could be out of prefix range 15 downto 0. 
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":153:7:153:13|Signal reset_i is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":154:7:154:15|Signal reset_cnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":167:7:167:9|Signal ram is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":181:7:181:22|Signal last_spi_channel is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":189:7:189:20|Signal flashram_reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":237:7:237:20|Signal ram_fsm_data_i is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Signal ffarr_data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":249:7:249:16|Signal ffarr_read is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":10:7:10:21|Synthesizing work.trb_net_onewire.trb_net_onewire_arch.
+@N: CD231 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":36:15:36:16|Using onehot encoding for type state_t. For example, enumeration start is mapped to "10000000000000".
+@N: CD604 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":262:8:262:21|OTHERS clause is not synthesized.
+Post processing for work.trb_net_onewire.trb_net_onewire_arch
+@N: CL189 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":293:6:293:7|Register bit strong_pullup is always 0.
+@N: CL189 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Register bit ram_addr(2) is always 0.
+@W: CL260 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Pruning register bit 2 of ram_addr(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd":7:7:7:19|Synthesizing work.pwm_generator.pwm_arch.
+Post processing for work.pwm_generator.pwm_arch
+@N: CL134 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Found RAM set, depth=16, width=16
+@N: CL134 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Found RAM set, depth=16, width=16
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flashram.vhd":14:7:14:14|Synthesizing work.flashram.structure.
+Post processing for work.flashram.structure
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":12:7:12:15|Synthesizing work.spi_slave.spi_slave_arch.
+@N: CD231 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":55:13:55:14|Using onehot encoding for type state_t. For example, enumeration idle is mapped to "100000".
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":42:7:42:17|Signal buf_spi_out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 16 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 17 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 18 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 19 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 20 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 21 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 22 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 23 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 24 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 25 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 26 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 27 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 28 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 29 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 30 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 31 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+Post processing for work.spi_slave.spi_slave_arch
+@W: CL240 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":42:7:42:17|Signal buf_SPI_OUT is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":51:7:51:17|Pruning unused register next_output_cl. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\pll.vhd":14:7:14:9|Synthesizing work.pll.structure.
+Post processing for work.pll.structure
+Post processing for work.panda_dirc_wasa.panda_dirc_wasa_arch
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 0 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 1 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 2 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 3 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 4 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 5 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 6 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 7 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 8 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 9 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 10 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 11 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 12 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 13 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 14 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":248:7:248:16|Bit 15 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":237:7:237:20|Bit 0 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":237:7:237:20|Bit 1 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":237:7:237:20|Bit 2 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":237:7:237:20|Bit 3 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":237:7:237:20|Bit 4 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":237:7:237:20|Bit 5 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":237:7:237:20|Bit 6 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":237:7:237:20|Bit 7 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL240 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":189:7:189:20|Signal flashram_reset is floating; a simulation mismatch is possible.
+@W: CL271 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":604:0:604:10|Pruning unused bits 11 to 0 of temp_calc_i_2(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":236:7:236:13|Removing unused bit 1 of PROC_DATA_COPY.fsm_job(1 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL167 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":365:0:365:12|Input resetb of instance THE_FLASH_RAM is floating
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":209:7:209:15|All reachable assignments to PROC_TIMER.last_leds(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":209:7:209:15|All reachable assignments to PROC_TIMER.last_leds(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":209:7:209:15|All reachable assignments to PROC_TIMER.last_leds(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":209:7:209:15|All reachable assignments to PROC_TIMER.last_leds(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":239:7:239:21|All reachable assignments to PROC_DATA_COPY.ram_fsm_write_i are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":56:7:56:11|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":293:6:293:7|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 14 reachable states with original encodings of:
+   00000000000001
+   00000000000010
+   00000000000100
+   00000000001000
+   00000000010000
+   00000000100000
+   00000001000000
+   00000010000000
+   00000100000000
+   00001000000000
+   00010000000000
+   00100000000000
+   01000000000000
+   10000000000000
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[15]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[14]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[13]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[12]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[11]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[10]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[9]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[8]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[7]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[6]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[5]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[4]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[3]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[2]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[1]
+@W: CL179 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop at inp_hold[0]
+@W: FX105 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":673:16:673:58|Found combinational loop at inp_long_or
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":231:7:231:17|Trying to extract state machine for register fsm_copydat.
+Extracted state machine for register fsm_copydat
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:03s; Memory used current: 93MB peak: 97MB)
+
+
+Process completed successfully.
+# Fri Feb 16 16:09:53 2018
+
+###########################################################]
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\efb_define_def.v" (library work)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v":1032:7:1032:9|Synthesizing module PUR in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v":494:7:494:9|Synthesizing module GSR in library work.
+@N: CG364 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":50:7:50:12|Synthesizing module UFM_WB in library work.
+@N: CG794 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":144:9:144:13|Using module flash from library work
+@W: CL169 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":246:3:246:8|Pruning unused register sm_addr_MSB. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Optimizing register bit wb_adr_i[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Optimizing register bit wb_adr_i[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Optimizing register bit wb_adr_i[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Pruning register bit 7 of wb_adr_i[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Pruning register bits 3 to 2 of wb_adr_i[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Pruning register bits 6 to 5 of wb_adr_i[6:4]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":246:3:246:8|Sharing sequential element efb_flag. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Pruning unused register wb_adr_i[4]. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":246:3:246:8|Trying to extract state machine for register c_state.
+Extracted state machine for register c_state
+State machine has 62 reachable states with original encodings of:
+   00000000
+   00000001
+   00000010
+   00000011
+   00000100
+   00000101
+   00000110
+   00000111
+   00001000
+   00001001
+   00001010
+   00001011
+   00001100
+   00001101
+   00001110
+   00001111
+   00010000
+   00010001
+   00010010
+   00010011
+   00010100
+   00010101
+   00010110
+   00010111
+   00011000
+   00011001
+   00011010
+   00011011
+   00011100
+   00011101
+   00011110
+   00011111
+   00100000
+   00100001
+   00100010
+   00100011
+   00100100
+   00100101
+   00100110
+   00100111
+   00101000
+   00101001
+   00101010
+   00101011
+   00101100
+   00101101
+   00101110
+   00101111
+   00110000
+   00110001
+   00110010
+   00110011
+   00110100
+   00110101
+   00110110
+   00110111
+   00111000
+   00111001
+   00111010
+   00111011
+   00111100
+   00111101
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 75MB)
+
+
+Process completed successfully.
+# Fri Feb 16 16:09:54 2018
+
+###########################################################]
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd":14:7:14:11|Top entity is set to flash.
+VHDL syntax check successful!
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd":14:7:14:11|Synthesizing work.flash.structure.
+Post processing for work.flash.structure
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 81MB)
+
+
+Process completed successfully.
+# Fri Feb 16 16:09:56 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+@W: Z198 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\pll.vhd":113:4:113:12|Unbound component EHXPLLJ of instance PLLInst_0 
+@W: Z198 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flashram.vhd":119:4:119:19|Unbound component DP8KC of instance flashram_0_0_0_0 
+@W: Z198 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd":136:4:136:12|Unbound component EFB of instance EFBInst_0 
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\synwork\padiwalcd_padiwalcd_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Feb 16 16:09:58 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:06s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:17s realtime, 0h:00m:06s cputime
+
+Process completed successfully.
+# Fri Feb 16 16:09:59 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Feb 16 16:10:01 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Fri Feb 16 16:10:04 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\padiwalcd_padiwalcd_scck.rpt 
+Printing clock  summary report in "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\padiwalcd_padiwalcd_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 106MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 104MB peak: 106MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 116MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 118MB)
+
+@A: FX681 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":49:7:49:12|Initial value on register PROC_INPUT_SHIFT\.bitcnt[4:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@A: FX681 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":405:11:405:15|Initial value on register count[4:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":72:6:72:7|Removing sequential instance MONITOR_OUT (in view: work.trb_net_onewire_1_0_33(trb_net_onewire_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[3] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[6] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[7] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[8] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[9] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[10] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[11] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[12] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[13] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[14] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":47:7:47:13|Removing sequential instance PROC_GEN_SIGNALS\.write_i[15] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":28:4:28:9|Removing sequential instance ID_OUT[63:0] (in view: work.trb_net_onewire_1_0_33(trb_net_onewire_arch)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Removing sequential instance buf_STAT (in view: work.trb_net_onewire_1_0_33(trb_net_onewire_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=10  set on top level netlist panda_dirc_wasa
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
+
+
+
+Clock Summary
+******************
+
+          Start                        Requested     Requested     Clock        Clock                   Clock
+Level     Clock                        Frequency     Period        Type         Group                   Load 
+-------------------------------------------------------------------------------------------------------------
+0 -       System                       1.0 MHz       1000.000      system       system_clkgroup         0    
+                                                                                                             
+0 -       pll|CLKOS_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     1473 
+                                                                                                             
+0 -       pll|CLKOP_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_1     247  
+=============================================================================================================
+
+@W: MT529 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flashram.vhd":119:4:119:19|Found inferred clock pll|CLKOS_inferred_clock which controls 1473 sequential elements including THE_FLASH_RAM.flashram_0_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flashram.vhd":119:4:119:19|Found inferred clock pll|CLKOP_inferred_clock which controls 247 sequential elements including THE_FLASH_RAM.flashram_0_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+Encoding state machine state[0:13] (in view: work.trb_net_onewire_1_0_33(trb_net_onewire_arch))
+original code -> new code
+   00000000000001 -> 00000000000001
+   00000000000010 -> 00000000000010
+   00000000000100 -> 00000000000100
+   00000000001000 -> 00000000001000
+   00000000010000 -> 00000000010000
+   00000000100000 -> 00000000100000
+   00000001000000 -> 00000001000000
+   00000010000000 -> 00000010000000
+   00000100000000 -> 00000100000000
+   00001000000000 -> 00001000000000
+   00010000000000 -> 00010000000000
+   00100000000000 -> 00100000000000
+   01000000000000 -> 01000000000000
+   10000000000000 -> 10000000000000
+Encoding state machine c_state[61:0] (in view: work.UFM_WB(verilog))
+original code -> new code
+   00000000 -> 000000
+   00000001 -> 000001
+   00000010 -> 000011
+   00000011 -> 000010
+   00000100 -> 000110
+   00000101 -> 000111
+   00000110 -> 000101
+   00000111 -> 000100
+   00001000 -> 001100
+   00001001 -> 001101
+   00001010 -> 001111
+   00001011 -> 001110
+   00001100 -> 001010
+   00001101 -> 001011
+   00001110 -> 001001
+   00001111 -> 001000
+   00010000 -> 011000
+   00010001 -> 011001
+   00010010 -> 011011
+   00010011 -> 011010
+   00010100 -> 011110
+   00010101 -> 011111
+   00010110 -> 011101
+   00010111 -> 011100
+   00011000 -> 010100
+   00011001 -> 010101
+   00011010 -> 010111
+   00011011 -> 010110
+   00011100 -> 010010
+   00011101 -> 010011
+   00011110 -> 010001
+   00011111 -> 010000
+   00100000 -> 110000
+   00100001 -> 110001
+   00100010 -> 110011
+   00100011 -> 110010
+   00100100 -> 110110
+   00100101 -> 110111
+   00100110 -> 110101
+   00100111 -> 110100
+   00101000 -> 111100
+   00101001 -> 111101
+   00101010 -> 111111
+   00101011 -> 111110
+   00101100 -> 111010
+   00101101 -> 111011
+   00101110 -> 111001
+   00101111 -> 111000
+   00110000 -> 101000
+   00110001 -> 101001
+   00110010 -> 101011
+   00110011 -> 101010
+   00110100 -> 101110
+   00110101 -> 101111
+   00110110 -> 101101
+   00110111 -> 101100
+   00111000 -> 100100
+   00111001 -> 100101
+   00111010 -> 100111
+   00111011 -> 100110
+   00111100 -> 100010
+   00111101 -> 100011
+Encoding state machine state[0:5] (in view: work.spi_slave(spi_slave_arch))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":56:7:56:11|Removing sequential instance state[0] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+Encoding state machine fsm_copydat[0:4] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 148MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 62MB peak: 148MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:02s cputime
+# Fri Feb 16 16:10:12 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Feb 16 16:10:13 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM.idram_7[15:0] because it is equivalent to instance PROC_IDMEM.idram_6[15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM.idram_6[15:0] because it is equivalent to instance PROC_IDMEM.idram_5[15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FX493 |Applying initial value "00000000" on instance THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[7:0].
+@N: FX493 |Applying initial value "11111" on instance THE_SPI_SLAVE.PROC_INPUT_SHIFT\.bitcnt[4:0].
+@N: FX493 |Applying initial value "0000" on instance THE_SPI_SLAVE.PROC_GEN_SIGNALS\.operation_i[3:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance THE_SPI_SLAVE.PROC_GEN_SIGNALS\.write_i[15:0].
+@N: FX493 |Applying initial value "0000" on instance PROC_TIMER\.leds[3:0].
+@N: FX493 |Applying initial value "10000" on instance THE_IO_REG_WRITE\.led_status[4:0].
+@N: FX493 |Applying initial value "00000" on instance THE_IO_REG_WRITE\.inp_select[4:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance last_inp[15:0].
+@N: FX493 |Applying initial value "00000" on instance count[4:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 144MB)
+
+Encoding state machine fsm_copydat[0:4] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.15\.proc_cnt\.input_counter_15[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.14\.proc_cnt\.input_counter_14[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.13\.proc_cnt\.input_counter_13[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.12\.proc_cnt\.input_counter_12[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.11\.proc_cnt\.input_counter_11[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.10\.proc_cnt\.input_counter_10[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.9\.proc_cnt\.input_counter_9[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.8\.proc_cnt\.input_counter_8[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.7\.proc_cnt\.input_counter_7[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.6\.proc_cnt\.input_counter_6[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.5\.proc_cnt\.input_counter_5[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.4\.proc_cnt\.input_counter_4[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.3\.proc_cnt\.input_counter_3[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.2\.proc_cnt\.input_counter_2[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.1\.proc_cnt\.input_counter_1[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":252:7:252:19|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance gen_input_counter\.0\.proc_cnt\.input_counter_0[23:0] 
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":206:7:206:11|Found counter in view:work.panda_dirc_wasa(panda_dirc_wasa_arch) instance PROC_TIMER\.timer[18:0] 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[15] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[15] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[14] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[14] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[13] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[13] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[12] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[12] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[11] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[11] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[10] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[10] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[9] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[9] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[8] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[8] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[7] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[7] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[6] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[6] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[5] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[5] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[4] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[4] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[3] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[3] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[2] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[2] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[1] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[1] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_5[0] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_5[0] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing instance PROC_IDMEM.idram_4[13] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing instance PROC_IDMEM.idram_4[14] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing instance PROC_IDMEM.idram_4[15] because it is equivalent to instance PROC_IDMEM.idram_4[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine state[0:13] (in view: work.trb_net_onewire_1_0_33(trb_net_onewire_arch))
+original code -> new code
+   00000000000001 -> 00000000000001
+   00000000000010 -> 00000000000010
+   00000000000100 -> 00000000000100
+   00000000001000 -> 00000000001000
+   00000000010000 -> 00000000010000
+   00000000100000 -> 00000000100000
+   00000001000000 -> 00000001000000
+   00000010000000 -> 00000010000000
+   00000100000000 -> 00000100000000
+   00001000000000 -> 00001000000000
+   00010000000000 -> 00010000000000
+   00100000000000 -> 00100000000000
+   01000000000000 -> 01000000000000
+   10000000000000 -> 10000000000000
+Encoding state machine c_state[61:0] (in view: work.UFM_WB(verilog))
+original code -> new code
+   00000000 -> 000000
+   00000001 -> 000001
+   00000010 -> 000011
+   00000011 -> 000010
+   00000100 -> 000110
+   00000101 -> 000111
+   00000110 -> 000101
+   00000111 -> 000100
+   00001000 -> 001100
+   00001001 -> 001101
+   00001010 -> 001111
+   00001011 -> 001110
+   00001100 -> 001010
+   00001101 -> 001011
+   00001110 -> 001001
+   00001111 -> 001000
+   00010000 -> 011000
+   00010001 -> 011001
+   00010010 -> 011011
+   00010011 -> 011010
+   00010100 -> 011110
+   00010101 -> 011111
+   00010110 -> 011101
+   00010111 -> 011100
+   00011000 -> 010100
+   00011001 -> 010101
+   00011010 -> 010111
+   00011011 -> 010110
+   00011100 -> 010010
+   00011101 -> 010011
+   00011110 -> 010001
+   00011111 -> 010000
+   00100000 -> 110000
+   00100001 -> 110001
+   00100010 -> 110011
+   00100011 -> 110010
+   00100100 -> 110110
+   00100101 -> 110111
+   00100110 -> 110101
+   00100111 -> 110100
+   00101000 -> 111100
+   00101001 -> 111101
+   00101010 -> 111111
+   00101011 -> 111110
+   00101100 -> 111010
+   00101101 -> 111011
+   00101110 -> 111001
+   00101111 -> 111000
+   00110000 -> 101000
+   00110001 -> 101001
+   00110010 -> 101011
+   00110011 -> 101010
+   00110100 -> 101110
+   00110101 -> 101111
+   00110110 -> 101101
+   00110111 -> 101100
+   00111000 -> 100100
+   00111001 -> 100101
+   00111010 -> 100111
+   00111011 -> 100110
+   00111100 -> 100010
+   00111101 -> 100011
+@N: MO231 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\ufm_wb.v":246:3:246:8|Found counter in view:work.UFM_WB(verilog) instance sm_addr[3:0] 
+Encoding state machine state[0:5] (in view: work.spi_slave(spi_slave_arch))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\spi_slave.vhd":56:7:56:11|Removing sequential instance state[0] (in view: work.spi_slave(spi_slave_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 151MB)
+
+Auto Dissolve of THE_PWM_GEN (inst of view:work.pwm_generator(pwm_arch))
+@N: BN362 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Removing sequential instance PROC_IDMEM\.idram_4[12] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) because it does not drive other instances.
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":165:7:165:11|Boundary register PROC_IDMEM\.idram_4[12] (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 155MB peak: 156MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 156MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 156MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 157MB peak: 175MB)
+
+@N: FA113 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":604:15:604:46|Pipelining module temp_calc_i_1[27:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":604:0:604:10|Pushed in register temp_calc_i[27:12].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:07s; Memory used current: 158MB peak: 175MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:09s; Memory used current: 158MB peak: 175MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:09s; Memory used current: 157MB peak: 175MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:11s; Memory used current: 158MB peak: 175MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:14s; Memory used current: 231MB peak: 234MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:15s		   990.23ns		1075 /      1633
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:16s; Memory used current: 231MB peak: 234MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Generating RAM THE_PWM_GEN.PROC_MEM\.set_1[15:0]
+@N: FO126 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Generating RAM THE_PWM_GEN.PROC_MEM\.set[15:0]
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":223:7:223:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_5_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":223:7:223:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_4_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":223:7:223:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_3_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":223:7:223:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_2_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":223:7:223:18|Boundary register PROC_CTRL_FLASH\.flash_go_tmp_1_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_15_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_14_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_13_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_12_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_11_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_10_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_9_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_8_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_7_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_6_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_5_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_4_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_3_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_2_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_1_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.word_0_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.ram_addr_1_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.ram_addr_0_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_11_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_10_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_9_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_8_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_7_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_6_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_5_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_4_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_3_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_2_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_1_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\lavry\google drive\fpga_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Boundary register THE_ONEWIRE.buf_TEMP_OUT_0_.fb (in view: work.panda_dirc_wasa(panda_dirc_wasa_arch)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:18s; Memory used current: 232MB peak: 234MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 1643 clock pin(s) of sequential element(s)
+0 instances converted, 1643 sequential instances remain driven by gated/generated clocks
+
+=========================================================================================================== Gated/Generated Clocks ===========================================================================================================
+Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance                       Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       THE_PLL.PLLInst_0     EHXPLLJ                1396       PROC_CTRL_FLASH\.flash_command[0]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       THE_PLL.PLLInst_0     EHXPLLJ                247        comp_setting_s[0]                     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==============================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:19s; Memory used current: 192MB peak: 234MB)
+
+Writing Analyst data base C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\synwork\padiwalcd_padiwalcd_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:34s; CPU Time elapsed 0h:00m:21s; Memory used current: 232MB peak: 234MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\padiwalcd_padiwalcd.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:23s; Memory used current: 236MB peak: 239MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:23s; Memory used current: 233MB peak: 239MB)
+
+Warning: Found 17 combinational loops!
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":673:16:673:58|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_long_or_1
+1) instance inp_long_or_1 (in view: work.spi_slave(netlist)), output net inp_long_or_1 (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_long_or_1
+    input  pin THE_SPI_SLAVE.inp_long_or_1/D
+    instance   THE_SPI_SLAVE.inp_long_or_1 (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_long_or_1/Z
+    net        THE_SPI_SLAVE.inp_long_or_1
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[4]
+2) instance inp_hold_1[4] (in view: work.spi_slave(netlist)), output net inp_hold_1[4] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[4]
+    input  pin THE_SPI_SLAVE.inp_hold_1[4]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[4] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[4]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[4]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[3]
+3) instance inp_hold_1[3] (in view: work.spi_slave(netlist)), output net inp_hold_1[3] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[3]
+    input  pin THE_SPI_SLAVE.inp_hold_1[3]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[3] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[3]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[3]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[11]
+4) instance inp_hold_1[11] (in view: work.spi_slave(netlist)), output net inp_hold_1[11] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[11]
+    input  pin THE_SPI_SLAVE.inp_hold_1[11]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[11] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[11]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[11]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[15]
+5) instance inp_hold_1[15] (in view: work.spi_slave(netlist)), output net inp_hold_1[15] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[15]
+    input  pin THE_SPI_SLAVE.inp_hold_1[15]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[15] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[15]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[15]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[14]
+6) instance inp_hold_1[14] (in view: work.spi_slave(netlist)), output net inp_hold_1[14] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[14]
+    input  pin THE_SPI_SLAVE.inp_hold_1[14]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[14] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[14]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[14]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[13]
+7) instance inp_hold_1[13] (in view: work.spi_slave(netlist)), output net inp_hold_1[13] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[13]
+    input  pin THE_SPI_SLAVE.inp_hold_1[13]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[13] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[13]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[13]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[12]
+8) instance inp_hold_1[12] (in view: work.spi_slave(netlist)), output net inp_hold_1[12] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[12]
+    input  pin THE_SPI_SLAVE.inp_hold_1[12]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[12] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[12]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[12]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[5]
+9) instance inp_hold_1[5] (in view: work.spi_slave(netlist)), output net inp_hold_1[5] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[5]
+    input  pin THE_SPI_SLAVE.inp_hold_1[5]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[5] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[5]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[5]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[8]
+10) instance inp_hold_1[8] (in view: work.spi_slave(netlist)), output net inp_hold_1[8] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[8]
+    input  pin THE_SPI_SLAVE.inp_hold_1[8]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[8] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[8]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[8]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[9]
+11) instance inp_hold_1[9] (in view: work.spi_slave(netlist)), output net inp_hold_1[9] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[9]
+    input  pin THE_SPI_SLAVE.inp_hold_1[9]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[9] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[9]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[9]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[6]
+12) instance inp_hold_1[6] (in view: work.spi_slave(netlist)), output net inp_hold_1[6] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[6]
+    input  pin THE_SPI_SLAVE.inp_hold_1[6]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[6] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[6]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[6]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[7]
+13) instance inp_hold_1[7] (in view: work.spi_slave(netlist)), output net inp_hold_1[7] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[7]
+    input  pin THE_SPI_SLAVE.inp_hold_1[7]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[7] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[7]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[7]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[10]
+14) instance inp_hold_1[10] (in view: work.spi_slave(netlist)), output net inp_hold_1[10] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[10]
+    input  pin THE_SPI_SLAVE.inp_hold_1[10]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[10] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[10]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[10]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[0]
+15) instance inp_hold_1[0] (in view: work.spi_slave(netlist)), output net inp_hold_1[0] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[0]
+    input  pin THE_SPI_SLAVE.inp_hold_1[0]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[0] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[0]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[0]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[1]
+16) instance inp_hold_1[1] (in view: work.spi_slave(netlist)), output net inp_hold_1[1] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[1]
+    input  pin THE_SPI_SLAVE.inp_hold_1[1]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[1] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[1]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[1]
+@W: BN137 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\padiwa\padiwalcd.vhd":652:13:652:55|Found combinational loop during mapping at net THE_SPI_SLAVE.inp_hold_1[2]
+17) instance inp_hold_1[2] (in view: work.spi_slave(netlist)), output net inp_hold_1[2] (in view: work.spi_slave(netlist))
+    net        THE_SPI_SLAVE.inp_hold_1[2]
+    input  pin THE_SPI_SLAVE.inp_hold_1[2]/A
+    instance   THE_SPI_SLAVE.inp_hold_1[2] (cell ORCALUT4)
+    output pin THE_SPI_SLAVE.inp_hold_1[2]/Z
+    net        THE_SPI_SLAVE.inp_hold_1[2]
+End of loops
+@W: MT246 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\flash.vhd":136:4:136:12|Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\lavry\google drive\fpga_programming\padiwa\trb3\wasa\cores\pll.vhd":113:4:113:12|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock pll|CLKOP_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:THE_PLL.CLKOP"
+@W: MT420 |Found inferred clock pll|CLKOS_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:THE_PLL.CLKOS"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Feb 16 16:10:51 2018
+#
+
+
+Top view:               panda_dirc_wasa
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 989.034
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                             Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock               Frequency     Frequency     Period        Period        Slack       Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------
+pll|CLKOP_inferred_clock     1.0 MHz       91.2 MHz      1000.000      10.966        989.034     inferred     Inferred_clkgroup_1
+pll|CLKOS_inferred_clock     1.0 MHz       130.0 MHz     1000.000      7.694         992.306     inferred     Inferred_clkgroup_0
+System                       1.0 MHz       183.6 MHz     1000.000      5.446         994.554     system       system_clkgroup    
+=================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                              |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Starting                  Ending                    |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------
+System                    System                    |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+System                    pll|CLKOP_inferred_clock  |  1000.000    994.554   |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOS_inferred_clock  System                    |  1000.000    998.642   |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOS_inferred_clock  pll|CLKOS_inferred_clock  |  1000.000    992.306   |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOS_inferred_clock  pll|CLKOP_inferred_clock  |  Diff grp    -         |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOP_inferred_clock  System                    |  1000.000    998.724   |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOP_inferred_clock  pll|CLKOS_inferred_clock  |  Diff grp    -         |  No paths    -      |  No paths    -      |  No paths    -    
+pll|CLKOP_inferred_clock  pll|CLKOP_inferred_clock  |  1000.000    989.034   |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pll|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                                             Arrival            
+Instance                        Reference                    Type        Pin     Net                 Time        Slack  
+                                Clock                                                                                   
+------------------------------------------------------------------------------------------------------------------------
+THE_ONEWIRE.timecounter[19]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[19]     1.148       989.034
+THE_ONEWIRE.timecounter[10]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[10]     1.108       989.074
+THE_ONEWIRE.timecounter[12]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[12]     1.108       989.074
+THE_ONEWIRE.timecounter[18]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[18]     1.108       989.074
+THE_ONEWIRE.timecounter[13]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[13]     1.044       989.138
+THE_ONEWIRE.timecounter[15]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[15]     1.044       989.138
+THE_ONEWIRE.timecounter[16]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[16]     1.044       989.138
+THE_ONEWIRE.timecounter[17]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[17]     1.044       989.138
+THE_ONEWIRE.timecounter[22]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[22]     1.044       989.138
+THE_ONEWIRE.timecounter[24]     pll|CLKOP_inferred_clock     FD1S3IX     Q       timecounter[24]     1.044       989.138
+========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                                      Required            
+Instance                       Reference                    Type        Pin     Net          Time         Slack  
+                               Clock                                                                             
+-----------------------------------------------------------------------------------------------------------------
+THE_ONEWIRE.timecounter[0]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+THE_ONEWIRE.timecounter[1]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+THE_ONEWIRE.timecounter[2]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+THE_ONEWIRE.timecounter[3]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+THE_ONEWIRE.timecounter[4]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+THE_ONEWIRE.timecounter[5]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+THE_ONEWIRE.timecounter[6]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+THE_ONEWIRE.timecounter[7]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+THE_ONEWIRE.timecounter[8]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+THE_ONEWIRE.timecounter[9]     pll|CLKOP_inferred_clock     FD1S3IX     CD      N_1590_i     999.197      989.034
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.803
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.197
+
+    - Propagation time:                      10.163
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     989.034
+
+    Number of logic level(s):                8
+    Starting point:                          THE_ONEWIRE.timecounter[19] / Q
+    Ending point:                            THE_ONEWIRE.timecounter[0] / CD
+    The start point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+THE_ONEWIRE.timecounter[19]                              FD1S3IX      Q        Out     1.148     1.148       -         
+timecounter[19]                                          Net          -        -       -         -           4         
+THE_ONEWIRE.state_ns_0_0_a2_0_0_o2_3[5]                  ORCALUT4     D        In      0.000     1.148       -         
+THE_ONEWIRE.state_ns_0_0_a2_0_0_o2_3[5]                  ORCALUT4     Z        Out     1.017     2.165       -         
+state_ns_0_0_a2_0_0_o2_3[5]                              Net          -        -       -         -           1         
+THE_ONEWIRE.state_ns_0_0_a2_0_0_o2[5]                    ORCALUT4     A        In      0.000     2.165       -         
+THE_ONEWIRE.state_ns_0_0_a2_0_0_o2[5]                    ORCALUT4     Z        Out     1.153     3.317       -         
+state_ns_0_0_a2_0_0_o2[5]                                Net          -        -       -         -           3         
+THE_ONEWIRE.state_ns_i_0_m2_i_o2_1[2]                    ORCALUT4     B        In      0.000     3.317       -         
+THE_ONEWIRE.state_ns_i_0_m2_i_o2_1[2]                    ORCALUT4     Z        Out     1.153     4.470       -         
+N_1608                                                   Net          -        -       -         -           3         
+THE_ONEWIRE.un1_next_output_tmp_1_sqmuxa_0_0_o2          ORCALUT4     A        In      0.000     4.470       -         
+THE_ONEWIRE.un1_next_output_tmp_1_sqmuxa_0_0_o2          ORCALUT4     Z        Out     1.153     5.623       -         
+N_97                                                     Net          -        -       -         -           3         
+THE_ONEWIRE.state_ns_0_0_0_a2[4]                         ORCALUT4     A        In      0.000     5.623       -         
+THE_ONEWIRE.state_ns_0_0_0_a2[4]                         ORCALUT4     Z        Out     1.153     6.776       -         
+state_ns_0_0_0_a2[4]                                     Net          -        -       -         -           3         
+THE_ONEWIRE.state_ns_0_0_0_a2_RNIQSR61[4]                ORCALUT4     B        In      0.000     6.776       -         
+THE_ONEWIRE.state_ns_0_0_0_a2_RNIQSR61[4]                ORCALUT4     Z        Out     1.017     7.793       -         
+reset_timecounter_iv_0_i_526_1                           Net          -        -       -         -           1         
+THE_ONEWIRE.reset_timecounter_iv_0_i_a3_1_2_RNIFOI42     ORCALUT4     B        In      0.000     7.793       -         
+THE_ONEWIRE.reset_timecounter_iv_0_i_a3_1_2_RNIFOI42     ORCALUT4     Z        Out     1.017     8.809       -         
+reset_timecounter_iv_0_i_a3_1_2_RNIFOI42                 Net          -        -       -         -           1         
+THE_ONEWIRE.reset_timecounter_iv_0_i_a3_1_RNI3L3R2       ORCALUT4     A        In      0.000     8.809       -         
+THE_ONEWIRE.reset_timecounter_iv_0_i_a3_1_RNI3L3R2       ORCALUT4     Z        Out     1.354     10.163      -         
+N_1590_i                                                 Net          -        -       -         -           28        
+THE_ONEWIRE.timecounter[0]                               FD1S3IX      CD       In      0.000     10.163      -         
+=======================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: pll|CLKOS_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                        Starting                                                                                                 Arrival            
+Instance                                                Reference                    Type        Pin     Net                                                     Time        Slack  
+                                                        Clock                                                                                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[3]            pll|CLKOS_inferred_clock     FD1S3AX     Q       spi_channel_i[3]                                        1.584       992.306
+THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[4]            pll|CLKOS_inferred_clock     FD1S3AX     Q       spi_channel_i[4]                                        1.204       992.414
+THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[5]            pll|CLKOS_inferred_clock     FD1S3AX     Q       spi_channel_i[5]                                        1.204       992.414
+THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[6]            pll|CLKOS_inferred_clock     FD1S3AX     Q       spi_channel_i[6]                                        1.204       992.414
+THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[7]            pll|CLKOS_inferred_clock     FD1S3AX     Q       spi_channel_i[7]                                        1.204       992.414
+THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[0]            pll|CLKOS_inferred_clock     FD1S3AX     Q       spi_channel_i[0]                                        1.352       992.538
+THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[1]            pll|CLKOS_inferred_clock     FD1S3AX     Q       spi_channel_i[1]                                        1.433       992.584
+THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[2]            pll|CLKOS_inferred_clock     FD1S3AX     Q       spi_channel_i[2]                                        1.545       993.134
+gen_input_counter\.0\.proc_cnt\.input_counter_0[16]     pll|CLKOS_inferred_clock     FD1P3AX     Q       gen_input_counter\.0\.proc_cnt\.input_counter_0[16]     1.044       993.636
+gen_input_counter\.0\.proc_cnt\.input_counter_0[18]     pll|CLKOS_inferred_clock     FD1P3AX     Q       gen_input_counter\.0\.proc_cnt\.input_counter_0[18]     1.044       993.636
+====================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                                                       Required            
+Instance                            Reference                    Type        Pin     Net                                           Time         Slack  
+                                    Clock                                                                                                              
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+THE_IO_REG_READ\.spi_reg20_i[0]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15_0_iv_i[0]     999.894      992.306
+THE_IO_REG_READ\.spi_reg20_i[1]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15_0_iv_i[1]     999.894      992.306
+THE_IO_REG_READ\.spi_reg20_i[2]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15[2]            999.894      992.306
+THE_IO_REG_READ\.spi_reg20_i[3]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15[3]            999.894      992.306
+THE_IO_REG_READ\.spi_reg20_i[4]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15[4]            999.894      993.323
+THE_IO_REG_READ\.spi_reg20_i[5]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15[5]            999.894      993.323
+THE_IO_REG_READ\.spi_reg20_i[6]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15[6]            999.894      993.323
+THE_IO_REG_READ\.spi_reg20_i[7]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15[7]            999.894      993.323
+THE_IO_REG_READ\.spi_reg20_i[8]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15[8]            999.894      993.323
+THE_IO_REG_READ\.spi_reg20_i[9]     pll|CLKOS_inferred_clock     FD1P3AX     D       THE_IO_REG_READ\.spi_reg20_i_15[9]            999.894      993.323
+=======================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.894
+
+    - Propagation time:                      7.589
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 992.306
+
+    Number of logic level(s):                6
+    Starting point:                          THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[3] / Q
+    Ending point:                            THE_IO_REG_READ\.spi_reg20_i[0] / D
+    The start point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+THE_SPI_SLAVE.PROC_GEN_SIGNALS\.channel_i[3]                FD1S3AX      Q        Out     1.584     1.584       -         
+spi_channel_i[3]                                            Net          -        -       -         -           194       
+THE_SPI_SLAVE.spi_reg20_i_1_sqmuxa_1_0_a2_1                 ORCALUT4     B        In      0.000     1.584       -         
+THE_SPI_SLAVE.spi_reg20_i_1_sqmuxa_1_0_a2_1                 ORCALUT4     Z        Out     1.193     2.777       -         
+N_111                                                       Net          -        -       -         -           4         
+THE_SPI_SLAVE.spi_reg20_i_1_sqmuxa_0_a2                     ORCALUT4     A        In      0.000     2.777       -         
+THE_SPI_SLAVE.spi_reg20_i_1_sqmuxa_0_a2                     ORCALUT4     Z        Out     1.313     4.089       -         
+spi_reg20_i_1_sqmuxa                                        Net          -        -       -         -           16        
+THE_SPI_SLAVE.THE_IO_REG_READ\.spi_reg20_i_15_0_iv_1[0]     ORCALUT4     C        In      0.000     4.089       -         
+THE_SPI_SLAVE.THE_IO_REG_READ\.spi_reg20_i_15_0_iv_1[0]     ORCALUT4     Z        Out     1.017     5.106       -         
+spi_reg20_i_15_0_iv_1[0]                                    Net          -        -       -         -           1         
+THE_SPI_SLAVE.THE_IO_REG_READ\.spi_reg20_i_15_0_iv_3[0]     ORCALUT4     B        In      0.000     5.106       -         
+THE_SPI_SLAVE.THE_IO_REG_READ\.spi_reg20_i_15_0_iv_3[0]     ORCALUT4     Z        Out     1.017     6.123       -         
+spi_reg20_i_15_0_iv_3[0]                                    Net          -        -       -         -           1         
+THE_SPI_SLAVE.THE_IO_REG_READ\.spi_reg20_i_15_0_iv_7[0]     ORCALUT4     B        In      0.000     6.123       -         
+THE_SPI_SLAVE.THE_IO_REG_READ\.spi_reg20_i_15_0_iv_7[0]     ORCALUT4     Z        Out     1.017     7.140       -         
+spi_reg20_i_15_0_iv_7[0]                                    Net          -        -       -         -           1         
+THE_SPI_SLAVE.THE_IO_REG_READ\.spi_reg20_i_15_0_iv_i[0]     ORCALUT4     C        In      0.000     7.140       -         
+THE_SPI_SLAVE.THE_IO_REG_READ\.spi_reg20_i_15_0_iv_i[0]     ORCALUT4     Z        Out     0.449     7.589       -         
+spi_reg20_i_15_0_iv_i[0]                                    Net          -        -       -         -           1         
+THE_IO_REG_READ\.spi_reg20_i[0]                             FD1P3AX      D        In      0.000     7.589       -         
+==========================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                               Arrival             
+Instance                      Reference     Type        Pin          Net             Time        Slack   
+                              Clock                                                                      
+---------------------------------------------------------------------------------------------------------
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBACKO       wb_ack_o        0.000       994.554 
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO7      wb_dat_o[7]     0.000       997.438 
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO0      wb_dat_o[0]     0.000       999.894 
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO1      wb_dat_o[1]     0.000       999.894 
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO2      wb_dat_o[2]     0.000       999.894 
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO3      wb_dat_o[3]     0.000       999.894 
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO4      wb_dat_o[4]     0.000       999.894 
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO5      wb_dat_o[5]     0.000       999.894 
+THE_FLASH.inst1.EFBInst_0     System        EFB         WBDATO6      wb_dat_o[6]     0.000       999.894 
+THE_PLL.PLLInst_0             System        EHXPLLJ     CLKINTFB     CLKFB_t         0.000       1000.000
+=========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                   Required            
+Instance                  Reference     Type        Pin     Net                      Time         Slack  
+                          Clock                                                                          
+---------------------------------------------------------------------------------------------------------
+THE_FLASH.count[3]        System        FD1S3BX     D       n_count[3]               1000.089     994.554
+THE_FLASH.count[4]        System        FD1S3DX     D       N_1129_i                 1000.089     994.554
+THE_FLASH.count[1]        System        FD1S3BX     D       n_count[1]               1000.089     994.697
+THE_FLASH.count[2]        System        FD1S3BX     D       N_58_i                   1000.089     994.697
+THE_FLASH.wb_dat_i[4]     System        FD1S3DX     D       n_wb_dat_i[4]            1000.089     994.820
+THE_FLASH.wb_dat_i[3]     System        FD1S3DX     D       n_wb_dat_i[3]            1000.089     994.884
+THE_FLASH.wb_dat_i[1]     System        FD1S3DX     D       n_wb_dat_i_0_iv_i[1]     1000.089     995.013
+THE_FLASH.wb_dat_i[7]     System        FD1S3DX     D       n_wb_dat_i[7]            1000.089     995.013
+THE_FLASH.c_state[2]      System        FD1S3DX     D       N_479_i                  1000.089     995.687
+THE_FLASH.sm_addr[0]      System        FD1P3DX     SP      sm_addre                 999.528      995.709
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.089
+
+    - Propagation time:                      5.535
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 994.554
+
+    Number of logic level(s):                6
+    Starting point:                          THE_FLASH.inst1.EFBInst_0 / WBACKO
+    Ending point:                            THE_FLASH.count[4] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            pll|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                     Pin        Pin               Arrival     No. of    
+Name                                  Type         Name       Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+THE_FLASH.inst1.EFBInst_0             EFB          WBACKO     Out     0.000     0.000       -         
+wb_ack_o                              Net          -          -       -         -           14        
+THE_FLASH.inst1.EFBInst_0_RNI0V3Q     ORCALUT4     C          In      0.000     0.000       -         
+THE_FLASH.inst1.EFBInst_0_RNI0V3Q     ORCALUT4     Z          Out     0.449     0.449       -         
+N_1565                                Net          -          -       -         -           4         
+THE_FLASH.un24_0_i_0_3                ORCALUT4     A          In      0.000     0.449       -         
+THE_FLASH.un24_0_i_0_3                ORCALUT4     Z          Out     1.233     1.682       -         
+un24_0_i_0_3                          Net          -          -       -         -           6         
+THE_FLASH.un1_count_5_cry_0_0         CCU2D        B1         In      0.000     1.682       -         
+THE_FLASH.un1_count_5_cry_0_0         CCU2D        COUT       Out     1.544     3.226       -         
+un1_count_5_cry_0                     Net          -          -       -         -           1         
+THE_FLASH.un1_count_5_cry_1_0         CCU2D        CIN        In      0.000     3.226       -         
+THE_FLASH.un1_count_5_cry_1_0         CCU2D        COUT       Out     0.143     3.369       -         
+un1_count_5_cry_2                     Net          -          -       -         -           1         
+THE_FLASH.un1_count_5_cry_3_0         CCU2D        CIN        In      0.000     3.369       -         
+THE_FLASH.un1_count_5_cry_3_0         CCU2D        S1         Out     1.549     4.918       -         
+un1_count_5[4]                        Net          -          -       -         -           1         
+THE_FLASH.count_RNO[4]                ORCALUT4     D          In      0.000     4.918       -         
+THE_FLASH.count_RNO[4]                ORCALUT4     Z          Out     0.617     5.535       -         
+N_1129_i                              Net          -          -       -         -           1         
+THE_FLASH.count[4]                    FD1S3DX      D          In      0.000     5.535       -         
+======================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:24s; Memory used current: 233MB peak: 239MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:24s; Memory used current: 233MB peak: 239MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_4000hc-6
+
+Register bits: 1633 of 4320 (38%)
+PIC Latch:       0
+I/O cells:       78
+Block Rams : 1 of 10 (10%)
+
+
+Details:
+BB:             1
+CCU2D:          511
+DP8KC:          1
+DPR16X4C:       4
+FD1P3AX:        920
+FD1P3AY:        1
+FD1P3BX:        1
+FD1P3DX:        14
+FD1P3IX:        45
+FD1P3JX:        1
+FD1S3AX:        528
+FD1S3AY:        6
+FD1S3BX:        4
+FD1S3DX:        21
+FD1S3IX:        53
+FD1S3JX:        2
+GSR:            1
+IB:             19
+IFS1P3DX:       19
+INV:            8
+L6MUX21:        67
+OB:             57
+OBZ:            1
+OFS1P3DX:       18
+ORCALUT4:       1044
+OSCH:           1
+PFUMX:          116
+PUR:            1
+SPR16X4C:       4
+VHI:            8
+VLO:            8
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:24s; Memory used current: 39MB peak: 239MB)
+
+Process took 0h:00m:38s realtime, 0h:00m:24s cputime
+# Fri Feb 16 16:10:52 2018
+
+###########################################################]

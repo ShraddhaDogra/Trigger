@@ -1,0 +1,532 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_ecp3
+designverlibrarysim pcsd_work
+designverdefinemacro -clear
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/version.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\version.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_std.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_std.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/config.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\config.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_components.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_components.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trb3/base/trb3_components.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trb3\base\trb3_components.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp2m_fifo.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\lattice_ecp2m_fifo.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/basic_type_declaration.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\basic_type_declaration.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll.v
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\workdir\Cpll.v ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll0.v
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\workdir\Cpll0.v ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll1.v
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\workdir\Cpll1.v ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll2.v
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\workdir\Cpll2.v ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll3.v
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\workdir\Cpll3.v ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll4.v
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\workdir\Cpll4.v ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/LA_FIFO.v
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\workdir\LA_FIFO.v ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/readoutfifo.v
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\workdir\readoutfifo.v ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC8.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_CRC8.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_sync.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\pulse_sync.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/state_sync.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\state_sync.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x8_dp.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\ram_16x8_dp.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\ram_dp.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp_rw.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\ram_dp_rw.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16x16_dualport.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\lattice_ecp3_fifo_16x16_dualport.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x16_dualport.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x16_dualport.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x256_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_36x256_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\media_interfaces\ecp3_sfp\sfp_1_125_int.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\optical_link\f_divider.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/SignalStretch.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\SignalStretch.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/signal_gated.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\signal_gated.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/trigger_OR_enabled.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\trigger_OR_enabled.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/trigger_master.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\trigger_master.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/SignalDelay.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\SignalDelay.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/trigger_master_top.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\trigger_master_top.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x1k_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_statistics.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trb3\base\code\input_statistics.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_to_trigger_logic_record.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trb3\base\code\input_to_trigger_logic_record.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_9x2k_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_9x2k_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_trans.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\uart_trans.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_rec.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\uart_rec.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/debuguart.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trb3sc\code\debuguart.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\uart.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_ltc2600.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\spi_ltc2600.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/lcd.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trb3sc\code\lcd.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/sedcheck.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trb3\base\code\sedcheck.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\ram.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/spi_master_generic.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trb3sc\code\spi_master_generic.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/load_settings.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trb3sc\code\load_settings.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/fpga_reboot.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\fpga_reboot.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/spi_dpram_32_to_8.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\spi_dpram_32_to_8.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_databus_memory.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\spi_databus_memory.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_slim.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\spi_slim.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_master.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\spi_master.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_regio_bus_handler.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_flash_and_fpga_reload_record.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\spi_flash_and_fpga_reload_record.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler_record.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_regio_bus_handler_record.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/trb3_tools.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trb3\base\code\trb3_tools.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_ipu.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\handler_ipu.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x2k_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_18x2k_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x512_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_18x512_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x256_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_18x256_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x32k_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_36x32k_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x16k_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_36x16k_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x8k_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_36x8k_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x4k_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_36x4k_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x2k_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_36x2k_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x1k_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_36x1k_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x512_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_36x512_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp2m/fifo/fifo_var_oreg.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp2m\fifo\fifo_var_oreg.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_data.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\handler_data.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_trigger_and_data.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\handler_trigger_and_data.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/bus_register_handler.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\bus_register_handler.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/signal_sync.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\signal_sync.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_stretch.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\pulse_stretch.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_lvl1.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\handler_lvl1.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf6.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_sbuf6.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_19x16_obuf.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_19x16_obuf.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf5.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_sbuf5.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_sbuf.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_sbuf.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_sbuf.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_encoder.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_priority_encoder.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_arbiter.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_priority_arbiter.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_io_multiplexer.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_io_multiplexer.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_buf.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_term_buf.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_onewire.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_onewire.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/rom_16x8.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\rom_16x8.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x16_dp.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\ram_16x16_dp.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_addresses.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_addresses.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_pattern_gen.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_pattern_gen.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regIO.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_regIO.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ipudata.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_ipudata.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_trigger.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_trigger.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_dummy_fifo.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_dummy_fifo.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_dummy_fifo.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_dummy_fifo.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x1k.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net16_fifo_arch.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_term.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_api_base.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_api_base.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf_nodata.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_obuf_nodata.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_CRC.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_obuf.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_ibuf.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_term_ibuf.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ibuf.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_ibuf.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_iobuf.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_iobuf.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_endpoint_hades_full.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full_handler_record.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net16_endpoint_hades_full_handler_record.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16bit_dualport.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net_fifo_16bit_bram_dualport.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\trb_net_fifo_16bit_bram_dualport.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_lsm_sfp.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/pll_in200_out100.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\workdir\pll_in200_out100.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trbnet/special/trb_net_reset_handler.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trbnet\special\trb_net_reset_handler.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/trb3_periph_blank.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\trb3_periph_blank.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/trigger_master_tb.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\trigger_master_tb.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/SignalDelay_tb.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\SignalDelay_tb.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/SignalStretch_tb.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\SignalStretch_tb.vhd ... Done
+addfile E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/signal_gated_tb.vhd
+# Adding file E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\signal_gated_tb.vhd ... Done
+vlib E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/test_bench/test/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/version.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\version.vhd
+# Compile Package "version"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_std.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_std.vhd
+# Compile Package "trb_net_std"
+# Compile Package Body "trb_net_std"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/config.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\config.vhd
+# Compile Package "config"
+# Compile Package Body "config"
+# Error: COMP96_0238: ../config.vhd : (99, 32): The subtype of deferred constant does not conform to that given in the deferred constant declaration.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_components.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_components.vhd
+# Compile Package "trb_net_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trb3/base/trb3_components.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trb3\base\trb3_components.vhd
+# Compile Package "trb3_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp2m_fifo.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\lattice_ecp2m_fifo.vhd
+# Compile Package "lattice_ecp2m_fifo"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/basic_type_declaration.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\basic_type_declaration.vhd
+# Compile Package "basic_type_declaration"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vlog -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: Cpll.
+# $root top modules: Cpll.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll0.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Cpll0.
+# $root top modules: Cpll Cpll0.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll1.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Cpll1.
+# $root top modules: Cpll Cpll0 Cpll1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll2.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Cpll2.
+# $root top modules: Cpll Cpll0 Cpll1 Cpll2.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll3.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Cpll3.
+# $root top modules: Cpll Cpll0 Cpll1 Cpll2 Cpll3.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/Cpll4.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Cpll4.
+# $root top modules: Cpll Cpll0 Cpll1 Cpll2 Cpll3 Cpll4.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/LA_FIFO.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: LA_FIFO.
+# $root top modules: Cpll Cpll0 Cpll1 Cpll2 Cpll3 Cpll4 LA_FIFO.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/workdir/readoutfifo.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: readoutfifo.
+# $root top modules: Cpll Cpll0 Cpll1 Cpll2 Cpll3 Cpll4 LA_FIFO readoutfifo.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC8.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\trb_net_CRC8.vhd
+# Compile Entity "trb_net_CRC8"
+# Compile Architecture "imp_crc" of Entity "trb_net_CRC8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_sync.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\pulse_sync.vhd
+# Compile Entity "pulse_sync"
+# Compile Architecture "behavioral" of Entity "pulse_sync"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/state_sync.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\state_sync.vhd
+# Compile Entity "state_sync"
+# Compile Architecture "behavioral" of Entity "state_sync"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x8_dp.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\ram_16x8_dp.vhd
+# Compile Entity "ram_16x8_dp"
+# Compile Architecture "ram_16x8_dp_arch" of Entity "ram_16x8_dp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\ram_dp.vhd
+# Compile Entity "ram_dp"
+# Compile Architecture "ram_dp_arch" of Entity "ram_dp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_dp_rw.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\basics\ram_dp_rw.vhd
+# Compile Entity "ram_dp_rw"
+# Compile Architecture "ram_dp_rw_arch" of Entity "ram_dp_rw"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16x16_dualport.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\lattice_ecp3_fifo_16x16_dualport.vhd
+# Compile Entity "lattice_ecp3_fifo_16x16_dualport"
+# Compile Architecture "Structure" of Entity "lattice_ecp3_fifo_16x16_dualport"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x16_dualport.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x16_dualport.vhd
+# Compile Entity "lattice_ecp3_fifo_18x16_dualport"
+# Compile Architecture "Structure" of Entity "lattice_ecp3_fifo_18x16_dualport"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x256_oreg.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\lattice\ecp3\fifo\fifo_36x256_oreg.vhd
+# Compile Entity "fifo_36x256_oreg"
+# Compile Architecture "Structure" of Entity "fifo_36x256_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\media_interfaces\ecp3_sfp\sfp_1_125_int.vhd
+# Compile Entity "PCSD"
+# Compile Architecture "PCSD_arch" of Entity "PCSD"
+# Compile Entity "rx_reset_sm_125"
+# Compile Architecture "rx_reset_sm_125arch" of Entity "rx_reset_sm_125"
+# Compile Entity "tx_reset_sm_125"
+# Compile Architecture "tx_reset_sm_arch_125" of Entity "tx_reset_sm_125"
+# Compile Entity "sfp_1_125_int"
+# Compile Architecture "sfp_1_125_int_arch" of Entity "sfp_1_125_int"
+# Warning: ELAB1_0026: ../../trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd : (3069, 0): There is no default binding for component "rx_reset_sm". (No entity named "rx_reset_sm" was found).
+# Warning: ELAB1_0026: ../../trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd : (3095, 0): There is no default binding for component "tx_reset_sm". (No entity named "tx_reset_sm" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  1.0 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/optical_link/f_divider.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trbnet\optical_link\f_divider.vhd
+# Compile Entity "f_divider"
+# Compile Architecture "arch_f_divider" of Entity "f_divider"
+# Compile Entity "edge_to_pulse"
+# Compile Architecture "arch_edge_to_pulse" of Entity "edge_to_pulse"
+# Compile Package "support"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/SignalStretch.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\SignalStretch.vhd
+# Compile Entity "signal_stretch"
+# Compile Architecture "arch" of Entity "signal_stretch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/signal_gated.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\signal_gated.vhd
+# Compile Entity "signal_gated"
+# Compile Architecture "arch" of Entity "signal_gated"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/trigger_OR_enabled.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\trigger_OR_enabled.vhd
+# Compile Entity "trigger_OR_enabled"
+# Compile Architecture "trigger_OR_enabled_arch" of Entity "trigger_OR_enabled"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/trigger_master.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\trigger_master.vhd
+# Compile Entity "trigger_master"
+# Compile Architecture "trigger_master_arch" of Entity "trigger_master"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/SignalDelay.vhd
+# File: E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master\Source\SignalDelay.vhd
+# Compile Entity "signal_delay"
+# Compile Architecture "arch" of Entity "signal_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trig_MUSE_Master/Source/trigger_master_top.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x1k_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_statistics.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/input_to_trigger_logic_record.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_9x2k_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_trans.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart_rec.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/debuguart.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/uart.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_ltc2600.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/lcd.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/sedcheck.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/spi_master_generic.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trb3sc/code/load_settings.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/fpga_reboot.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/spi_dpram_32_to_8.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_databus_memory.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_slim.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_master.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/spi_flash_and_fpga_reload_record.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regio_bus_handler_record.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trb3/base/code/trb3_tools.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_ipu.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x2k_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x512_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_18x256_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x32k_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x16k_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x8k_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x4k_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x2k_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x1k_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_36x512_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp2m/fifo/fifo_var_oreg.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_data.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_trigger_and_data.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/bus_register_handler.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/signal_sync.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/pulse_stretch.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/special/handler_lvl1.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf6.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/fifo/fifo_19x16_obuf.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf5.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_sbuf.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_sbuf.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_encoder.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_priority_arbiter.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_io_multiplexer.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_buf.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_onewire.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/rom_16x8.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/basics/ram_16x16_dp.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_addresses.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_pattern_gen.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_regIO.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ipudata.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_trigger.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_dummy_fifo.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_dummy_fifo.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x1k.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net16_fifo_arch.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_api_base.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf_nodata.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_CRC.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_obuf.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_term_ibuf.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_ibuf.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_iobuf.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net16_endpoint_hades_full_handler_record.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/lattice_ecp3_fifo_16bit_dualport.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/lattice/ecp3/trb_net_fifo_16bit_bram_dualport.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_lsm_sfp.vhd
+vcom -dbg -work work E:/FPGA/trigger_FPGA_MUSE/trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vh

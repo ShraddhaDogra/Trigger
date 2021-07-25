@@ -1,0 +1,92 @@
+#OPTIONS:"|-mixedhdl|-modhint|E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\project\\trb3_periph_blank\\synwork\\_verilog_hintfile|-top|work.ScatterTrig|-mpparams|E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\project\\trb3_periph_blank\\synwork\\_mh_params|-layerid|1|-orig_srs|E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\project\\trb3_periph_blank\\synwork\\blank_trb3_periph_blank_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\project|-I|E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\project\\trb3_periph_blank\\|-I|C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\ecp3.v|-devicelib|C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_ver.exe":1501906416
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\project\\trb3_periph_blank\\synwork\\_verilog_hintfile":1553286900
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\ecp3.v":1501910616
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\pmi_def.v":1501910616
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vlog\\hypermods.v":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vlog\\umr_capim.v":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1501905824
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\Or18.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\Or8.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\LeadDelay.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\Input_Reg.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\DelayBit.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\BackOr5.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\BackOr.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\PulseStretch.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\retrigger.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\ScatterTrig.v":1553288778
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\SR_Latch.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\SR_Reg.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\T_ff_clr.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\T_ff_pset.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\leds.v":1544003664
+#CUR:"E:\\FPGA\\trigger_FPGA_MUSE\\trig_MUSE__Cosmic_orAll\\Source\\Or6.v":1553285534
+0			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\Or18.v" verilog
+1			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\Or8.v" verilog
+2			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\LeadDelay.v" verilog
+3			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\Input_Reg.v" verilog
+4			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\DelayBit.v" verilog
+5			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\BackOr5.v" verilog
+6			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\BackOr.v" verilog
+7			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\PulseStretch.v" verilog
+8			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\retrigger.v" verilog
+9			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\ScatterTrig.v" verilog
+10			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\SR_Latch.v" verilog
+11			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\SR_Reg.v" verilog
+12			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\T_ff_clr.v" verilog
+13			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\T_ff_pset.v" verilog
+14			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\leds.v" verilog
+15			"E:\FPGA\trigger_FPGA_MUSE\trig_MUSE__Cosmic_orAll\Source\Or6.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 4
+3 -1
+4 -1
+5 -1
+6 -1
+7 2 8 3
+8 -1
+9 14 7
+10 -1
+11 12
+12 -1
+13 -1
+14 -1
+15 -1
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+2 7
+3 7
+4 2
+5 -1
+6 -1
+7 9
+8 7
+9 -1
+10 -1
+11 -1
+12 11
+13 -1
+14 9
+15 -1
+#Design Unit to File Association
+module work Or6 15
+module work T_ff_pset 13
+module work SR_Reg 11
+module work T_ff_clr 12
+module work SR_Latch 10
+module work ScatterTrig 9
+module work leds 14
+module work PulseStretch 7
+module work ReTrigger 8
+module work BackOr3 6
+module work BackOr5 5
+module work Input_Reg 3
+module work LeadDelay 2
+module work DelayBit 4
+module work Or8 1
+module work Or18 0

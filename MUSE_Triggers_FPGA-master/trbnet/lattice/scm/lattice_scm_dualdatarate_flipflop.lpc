@@ -1,0 +1,47 @@
+[Device]
+Family=latticescm
+PartType=LFSCM3GA25EP1
+PartName=LFSCM3GA25EP1-6FF1020I
+SpeedGrade=-6
+Package=FFBGA1020
+OperatingCondition=IND
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=DDR
+CoreRevision=4.1
+ModuleName=lattice_scm_dualdatarate_flipflop
+SourceFormat=Schematic/VHDL
+ParameterFileVersion=1.0
+Date=07/23/2008
+Time=17:12:26
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+mode=Output
+width=1
+reg=DDR
+gear=1x
+ClkMode=Edge
+OutClkMode=Edge
+rst=Edge
+del=None
+cdel=0
+fdel=0
+cdiv=0
+clk1x=0
+ail=0
+step=2
+ckedge=1
+swap=Off
+bf=Off
+AilAW=400

@@ -1,0 +1,248 @@
+#--  Synopsys, Inc.
+#--  Version F-2012.03-SP1 
+#--  Project file /d/jspc29/mpenschuck/trb3/cbmnet/trb3_periph_cbmnet.prj
+
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/rams/ram_1w1r_1c.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/rams/ram_1w1r_2c.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/rams/ram_1w2r_1c.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/rams/ram_2rw_1c.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/rams/ram_2rw_2c.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/rams/ram_1w1r_1c_enable.v"
+
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fast_fifo/fast_fifo.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fast_fifo/fifo_ram.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fast_fifo/fifo_reg.v"
+
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fwft_fifo_spec/spec_fwft_fifo.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fwft_fifo_spec/spec_standard_fifo.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fwft_fifo_spec/empty_logic_spec_so.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fwft_fifo_spec/empty_logic_wo_spec.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fwft_fifo_spec/full_logic_spec_si.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fwft_fifo_spec/full_logic_wo_spec.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/fwft_fifo_spec/full_logic_spec_si_all.v"
+
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/async_fifo.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/async_standard_fifo.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/sync_r2w.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/sync_w2r.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/sync_w2r_hs.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/empty_logic.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/full_logic.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/empty_logic_spec_shift_out.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/empty_logic_spec_shift_out_1_inc.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/full_logic_spec_shift_in.v"
+add_file -verilog "./cbmnet/cores/CBMnet/cores_fpga/common/async_fifo/full_logic_spec_shift_in_1_inc.v"
+
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/pcs_init/cn_barrel_shifter.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/pcs_init/cn_rx_pcs_init_fsm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/pcs_init/cn_rx_pcs_wrapper.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/pcs_init/cn_tx_pcs_init_fsm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/pcs_init/cn_tx_pcs_wrapper.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/pcs_init/cn_async_input_sync.v"
+
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/dlm_mixed/dlm_reflect.v"
+
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_crc_gen.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_init_fsm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_init.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_rx_buffer_read_fsm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_rx_buffer_read.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_rx_buffer.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_rx_buffer_write_fsm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_rx_dlm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_rx_service.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_rx.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_top.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_tx_buffer_read_fsm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_tx_buffer.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_tx_buffer_write_fsm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_tx_dlm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_tx_out_arbiter_fsm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_tx_out.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_tx_service.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_port_v3/cn_lp_tx.v"
+
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_tester/lt_random_stopper.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_tester/lt_send_fsm.v"
+add_file -verilog "./cbmnet/cores/CBMnet/building_blocks/link_tester/link_tester_fe.v"
+
+add_file -vhdl -lib work "./version.vhd"
+
+add_file -vhdl -lib work "../../trbnet/trb_net_std.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/pulse_sync.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/state_sync.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/ram_16x16_dp.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/signal_sync.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/pulse_stretch.vhd"
+add_file -vhdl -lib work "../../trbnet/special/trb_net_reset_handler.vhd"
+add_file -vhdl -lib work "../../trbnet/special/fpga_reboot.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/lattice_ecp3_fifo_18x1k.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/lattice_ecp3_fifo_16bit_dualport.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_36x256_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_36x512_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_36x1k_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_36x2k_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_36x4k_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_36x8k_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_36x16k_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_36x32k_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_18x256_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_18x512_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_18x1k_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_18x2k_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/fifo/fifo_19x16_obuf.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/lattice_ecp3_fifo_16x16_dualport.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/lattice_ecp3_fifo_18x16_dualport.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/spi_dpram_32_to_8.vhd"
+add_file -vhdl -lib work "../../trbnet/special/spi_ltc2600.vhd"
+add_file -vhdl -lib work "../../trbnet/optical_link/f_divider.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/ecp3_sfp/serdes_onboard_full.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/ecp3_sfp/serdes_full_ctc.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/ecp3_sfp/sfp_0_200_ctc.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/ecp3_sfp/sfp_0_200_int.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/ecp3_sfp/serdes_onboard_full_125.vhd"
+add_file -vhdl -lib work "../base/cores/pll_in200_out100.vhd"
+add_file -vhdl -lib work "../base/cores/pll_in125_out125.vhd"
+add_file -vhdl -lib work "../base/cores/pll_in125_out20.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_components.vhd"
+add_file -vhdl -lib work "../base/trb3_components.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/lattice_ecp2m_fifo.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_term_buf.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_CRC.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_CRC8.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_onewire.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/rom_16x8.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/ram.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/ram_16x8_dp.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_addresses.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/ram_dp.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_term.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_sbuf.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_sbuf5.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_sbuf6.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_sbuf.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_pattern_gen.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_regIO.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_regio_bus_handler.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_regio_bus_handler_record.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_priority_encoder.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_dummy_fifo.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_dummy_fifo.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_term_ibuf.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net_priority_arbiter.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_obuf_nodata.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_obuf.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/trb_net16_fifo_arch.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_ibuf.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_api_base.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_iobuf.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_io_multiplexer.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_trigger.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_ipudata.vhd"
+add_file -vhdl -lib work "../../trbnet/special/handler_lvl1.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_endpoint_hades_full.vhd"
+add_file -vhdl -lib work "../../trbnet/basics/ram_dp_rw.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp2m/fifo/fifo_var_oreg.vhd"
+add_file -vhdl -lib work "../../trbnet/special/bus_register_handler.vhd"
+add_file -vhdl -lib work "../../trbnet/special/handler_data.vhd"
+add_file -vhdl -lib work "../../trbnet/special/handler_ipu.vhd"
+add_file -vhdl -lib work "../../trbnet/special/handler_trigger_and_data.vhd"
+add_file -vhdl -lib work "../../trbnet/trb_net16_endpoint_hades_full_handler.vhd"
+add_file -vhdl -lib work "../../trbnet/lattice/ecp3/trb_net_fifo_16bit_bram_dualport.vhd"
+add_file -vhdl -lib work "../../trbnet/special/spi_slim.vhd"
+add_file -vhdl -lib work "../../trbnet/special/spi_master.vhd"
+add_file -vhdl -lib work "../../trbnet/special/spi_databus_memory.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/trb_net16_lsm_sfp.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/trb_net16_med_ecp3_sfp_4_onboard.vhd"
+add_file -vhdl -lib work "../../trbnet/media_interfaces/trb_net16_med_ecp3_sfp_4.vhd"
+add_file -vhdl -lib work "./code/cbmnet_interface_pkg.vhd"
+add_file -vhdl -lib work "./code/cbmnet_phy_pkg.vhd"
+
+add_file -vhdl -lib work "../base/cores/cbmnet_sfp1.vhd"
+
+add_file -vhdl -lib work "../../trbnet/media_interfaces/sync/med_sync_define.vhd"
+add_file -vhdl -lib work "./code/cbmnet_phy_ecp3_rx_reset_fsm.vhd"
+add_file -vhdl -lib work "./code/cbmnet_phy_ecp3_tx_reset_fsm.vhd"
+add_file -vhdl -lib work "./code/cbmnet_phy_rx_gear.vhd"
+add_file -vhdl -lib work "./code/cbmnet_phy_tx_gear.vhd"
+add_file -vhdl -lib work "./code/cbmnet_phy_ecp3.vhd"
+add_file -vhdl -lib work "./trb3_periph_cbmnet.vhd"
+
+
+add_file -vhdl -lib work "./cores/cbmnet_fifo_18x32k_dp.vhd"
+add_file -vhdl -lib work "./code/cbmnet_readout_trbnet_decoder.vhd"
+add_file -vhdl -lib work "./code/cbmnet_readout_event_packer.vhd"
+add_file -vhdl -lib work "./code/cbmnet_readout_fifo_ecp3.vhd"
+add_file -vhdl -lib work "./code/cbmnet_readout_frame_packer.vhd"
+add_file -vhdl -lib work "./code/cbmnet_readout_tx_fifo.vhd"
+add_file -vhdl -lib work "./code/cbmnet_readout_obuf.vhd"
+add_file -vhdl -lib work "./code/cbmnet_readout.vhd"
+add_file -vhdl -lib work "./code/trbnet_rdo_pattern_generator.vhd"
+
+add_file -vhdl -lib work "./code/pos_edge_strech_sync.vhd"
+add_file -vhdl -lib work "./code/cbmnet_sync_module.vhd"
+add_file -vhdl -lib work "./code/cbmnet_bridge.vhd"
+
+
+add_file -fpga_constraint "./trb3_periph_cbmnet_syn.fdc"
+
+
+#implementation: "workdir"
+impl -add workdir -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+set_option -include_path {cbmnet/cores/CBMnet/includes/}
+
+#device options
+set_option -technology LATTICE-ECP3
+set_option -part LFE3_150EA
+set_option -package FN672C
+set_option -speed_grade -8
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "trb3_periph_cbmnet"
+
+# mapper_options
+set_option -frequency 125
+set_option -default_enum_encoding sequential
+set_option -write_verilog 0
+set_option -write_vhdl 1
+
+# Lattice XP
+set_option -maxfan 500
+set_option -disable_io_insertion 0
+set_option -retiming 1
+set_option -pipe 1
+set_option -forcegsr false
+set_option -fixgatedclocks 0
+set_option -fixgeneratedclocks 0
+set_option -update_models_cp 0
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 1
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 1
+set_option -resource_sharing 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./workdir/trb3_periph_cbmnet.edf"
+
+#design plan options
+impl -active "workdir"

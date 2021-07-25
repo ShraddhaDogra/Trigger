@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="sfp_0_200_int" module="PCS" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2014 03 05 16:14:24.831" version="8.1" type="Module" synthesis="" source_format="VHDL">
+  <Package>
+		<File name="sfp_0_200_int.lpc" type="lpc" modified="2013 05 07 10:49:18.000"/>
+		<File name="sfp_0_200_int.pp" type="pp" modified="2013 05 07 10:49:18.000"/>
+		<File name="sfp_0_200_int.tft" type="tft" modified="2013 05 07 10:49:18.000"/>
+		<File name="sfp_0_200_int.txt" type="pcs_module" modified="2013 05 07 10:49:18.000"/>
+		<File name="sfp_0_200_int.vhd" type="top_level_vhdl" modified="2013 05 07 10:49:18.000"/>
+  </Package>
+</DiamondModule>

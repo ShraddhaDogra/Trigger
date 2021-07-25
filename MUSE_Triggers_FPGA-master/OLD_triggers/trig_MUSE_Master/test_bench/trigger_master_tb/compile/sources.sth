@@ -1,0 +1,14 @@
+[Files List]
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/standard.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/textio.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/numeric_std.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/numeric_std-body.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/arith_p.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/arith_b.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/unsigned_p.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/unsigned_b.vhd=S
+E:/FPGA/trigger_FPGA_MUSE/trbnet/trb_net_std.vhd=S
+E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master/Source/trigger_master.vhd=S
+E:\FPGA\trigger_FPGA_MUSE\trig_MUSE_Master/Source/trigger_master_tb.vhd=S
