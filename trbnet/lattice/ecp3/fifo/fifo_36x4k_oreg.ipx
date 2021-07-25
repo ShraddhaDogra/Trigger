@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="fifo_36x4k_oreg" module="FIFO" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2012 11 27 19:32:55.004" version="4.8" type="Module" synthesis="" source_format="VHDL">
+  <Package>
+		<File name="fifo_36x4k_oreg.lpc" type="lpc" modified="2012 11 27 19:32:53.000"/>
+		<File name="fifo_36x4k_oreg.vhd" type="top_level_vhdl" modified="2012 11 27 19:32:53.000"/>
+		<File name="fifo_36x4k_oreg_tmpl.vhd" type="template_vhdl" modified="2012 11 27 19:32:53.000"/>
+		<File name="tb_fifo_36x4k_oreg_tmpl.vhd" type="testbench_vhdl" modified="2012 11 27 19:32:53.000"/>
+  </Package>
+</DiamondModule>

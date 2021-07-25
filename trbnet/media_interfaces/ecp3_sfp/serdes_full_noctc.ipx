@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="serdes_full_noctc" module="PCS" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2014 03 05 16:07:51.724" version="8.1" type="Module" synthesis="" source_format="VHDL">
+  <Package>
+		<File name="serdes_full_noctc.lpc" type="lpc" modified="2014 03 04 15:38:03.000"/>
+		<File name="serdes_full_noctc.sym" type="sym" modified="2014 03 04 15:38:03.000"/>
+		<File name="serdes_full_noctc.txt" type="pcs_module" modified="2014 03 04 15:38:03.000"/>
+		<File name="serdes_full_noctc.vhd" type="top_level_vhdl" modified="2014 03 04 15:38:03.000"/>
+  </Package>
+</DiamondModule>

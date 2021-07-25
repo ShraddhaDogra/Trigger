@@ -1,0 +1,53 @@
+[Device]
+Family=ecp5um
+PartType=LFE5UM-85F
+PartName=LFE5UM-85F-8BG381C
+SpeedGrade=8
+Package=CABGA381
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=FIFO_DC
+CoreRevision=5.8
+ModuleName=lattice_ecp5_fifo_16x16_dualport
+SourceFormat=vhdl
+ParameterFileVersion=1.0
+Date=01/04/2016
+Time=13:37:11
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+FIFOImp=LUT Based
+Depth=16
+Width=16
+RDepth=16
+RWidth=16
+regout=0
+ClockEn=0
+CtrlByRdEn=0
+EmpFlg=0
+PeMode=Static - Dual Threshold
+PeAssert=10
+PeDeassert=12
+FullFlg=1
+PfMode=Static - Single Threshold
+PfAssert=7
+PfDeassert=506
+Reset=Async
+Reset1=Sync
+RDataCount=0
+WDataCount=0
+EnECC=0
+
+[Command]
+cmd_line= -w -n lattice_ecp5_fifo_16x16_dualport -lang vhdl -synth synplify -bus_exp 7 -bb -arch sa5p00m -type ebfifo -depth 16 -width 16 -pfu_fifo -reset_rel SYNC -pe -1 -pf 7

@@ -1,0 +1,29 @@
+SCUBA, Version ispLever_v72_SP2_Build (23)
+Thu Aug 20 16:00:49 2009
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2008 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : /opt/lattice/ispLEVER7.2/isptools/ispfpga/bin/lin/scuba -w -n mac_init_mem -lang vhdl -synth synplify -bus_exp 7 -bb -arch ep5m00 -type romblk -device LFE2M100E -addr_width 6 -data_width 8 -num_words 54 -outdata REGISTERED -resetmode SYNC -memfile /home/greg/NewHub2/hub2/ipexpress/mac_init_mem/macInitDataInvWithMac.mem -memformat bin -cascade -1 -e 
+    Circuit name     : mac_init_mem
+    Module type      : EBR_ROM
+    Module Version   : 5.0
+    Ports            : 
+	Inputs       : Address[5:0], OutClock, OutClockEn, Reset
+	Outputs      : Q[7:0]
+    I/O buffer       : not inserted
+    Memory file      : /home/greg/NewHub2/hub2/ipexpress/mac_init_mem/macInitDataInvWithMac.mem
+    EDIF output      : suppressed
+    VHDL output      : mac_init_mem.vhd
+    VHDL template    : mac_init_mem_tmpl.vhd
+    VHDL testbench    : tb_mac_init_mem_tmpl.vhd
+    VHDL purpose     : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : mac_init_mem.srp
+    Element Usage    :
+         DP16KB : 1
+    Estimated Resource Usage:
+            EBR : 1

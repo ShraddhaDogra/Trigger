@@ -1,0 +1,21 @@
+start fuse
+fuse -prj trbnet/testbench/trb_net_ibuf_testbench_beh.prj  -top trb_net_ibuf_testbench -o trb_net_ibuf_testbench
+
+
+ln -s trbnet/testbench/in_ibuf.txt in_ibuf.txt
+
+
+simulate
+trb_net_ibuf_testbench -tclbatch testsim.tcl
+
+the tcl file could look like this:
+
+# ntrace select -o on -m /trb_net_ibuf_testbench/IBUF/ -l this
+ntrace select -o on -m / -l this
+ntrace start
+run 500 ns
+quit
+
+isimwave  isimwavedata.xwv
+
+isimwave starts with the full length, change the time above to the ideal time...

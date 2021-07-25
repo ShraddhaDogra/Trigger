@@ -1,0 +1,7 @@
+vhdl work "../trb_net_std.vhd"
+vhdl work "../trb_net_priority_encoder.vhd"
+vhdl work "../trb_net_priority_arbiter.vhd"
+vhdl work "../trb_net_pattern_gen.vhd"
+vhdl work "../trb_net_sbuf.vhd"
+vhdl work "../trb_net_io_multiplexer.vhd"
+vhdl work "trb_net_io_multiplexer_testbench.vhd"

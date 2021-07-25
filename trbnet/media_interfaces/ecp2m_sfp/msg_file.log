@@ -1,0 +1,14 @@
+    Module Name: serdes_gbe_0_200_ext
+    Core Name: PCS
+    LPC file : serdes_gbe_0_200_ext.lpc
+    Parameter File : serdes_gbe_0_200_ext.pp
+    Command line: /opt/lattice/ispLEVER8.0/isptools/ispfpga/bin/lin/orcapp -Fmaco serdes_gbe_0_200_ext.pp
+    Return Value:
+    
+    
+    
+ Module PCS has been generated in /home/hadaq/jan/cvs/trbnet/media_interfaces/ecp2m_sfp/. successfully!
+
+/home/hadaq/.isplever_lin/ispcpld/bin/hdl2jhd -tfi -mod serdes_gbe_0_200_ext -ext readme -out serdes_gbe_0_200_ext -tpl serdes_gbe_0_200_ext.tft serdes_gbe_0_200_ext.vhd
+
+Done successfully!

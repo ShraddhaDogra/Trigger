@@ -1,0 +1,11 @@
+[size] 1272 936
+[pos] -1 -1
+*-27.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+@28
+trb_net_sbuf_testbench.UUT.comb_dataready_in
+trb_net_sbuf_testbench.UUT.clk
+trb_net_sbuf_testbench.UUT.comb_next_read_out
+trb_net_sbuf_testbench.UUT.syn_read_in
+trb_net_sbuf_testbench.UUT.syn_dataready_out
+#current_buffer_state_int[1:0] trb_net_sbuf_testbench.UUT.current_buffer_state_int[1] trb_net_sbuf_testbench.UUT.current_buffer_state_int[0]
+trb_net_sbuf_testbench.UUT.current_got_overflow

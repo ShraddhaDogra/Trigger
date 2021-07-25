@@ -1,0 +1,20 @@
+#-w
+#-i 15
+#-l 5
+#-y
+#-s 12
+#-t 6
+#-c 1
+#-e 2
+##-g guidefile.ncd
+##-m nodelist.txt
+#-exp parCDP=1:parCDR=1:parPlcInLimit=0:parPlcInNeighborSize=1:parPathBased=ON:parHold=ON:parHoldLimit=10000:paruseNBR=1
+
+-w
+-l 5
+-i 6
+-t 37
+# -s 1 #save how many
+-c 1
+-e 1
+-exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF:parHold=2:parHoldLimit=10000

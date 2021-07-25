@@ -1,0 +1,716 @@
+
+COMMERCIAL ;
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+
+
+
+
+# LOCATE COMP "LED_LINKOK_1"                       SITE "AA2";    #was "DQLL0_0_P" 1
+# LOCATE COMP "LED_RX_1"                           SITE "AA1";
+# LOCATE COMP "LED_TX_1"                           SITE "AB2";    #was "DQLL0_1_P" 5
+# LOCATE COMP "SFP_MOD0_1"                         SITE "AB1";
+# LOCATE COMP "SFP_MOD1_1"                         SITE "AA4";    #was "DQLL0_2_P" 9
+# LOCATE COMP "SFP_MOD2_1"                         SITE "AA3";
+# LOCATE COMP "SFP_RATESEL_1"                      SITE "AA10";   #was "DQSLL0_T"  13
+# LOCATE COMP "SFP_TXDIS_1"                        SITE "AB9";
+# LOCATE COMP "SFP_LOS_1"                          SITE "AA5";    #was "DQLL0_3_P" 17
+# LOCATE COMP "SFP_TXFAULT_1"                      SITE "AB5";
+
+# LOCATE COMP "LED_LINKOK_2"                       SITE "Y7";     #was "DQLL0_4_P" 21
+# LOCATE COMP "LED_RX_2"                           SITE "AA7";
+# LOCATE COMP "LED_TX_2"                           SITE "AC5";    #was "DQLL2_0_P" 25
+# LOCATE COMP "SFP_MOD0_2"                         SITE "AC4";
+# LOCATE COMP "SFP_MOD1_2"                         SITE "AC2";    #was "DQLL2_1_P" 29
+# LOCATE COMP "SFP_MOD2_2"                         SITE "AC1";
+# LOCATE COMP "SFP_RATESEL_2"                      SITE "AB4";    #was "DQLL2_2_P" 33
+# LOCATE COMP "SFP_TXDIS_2"                        SITE "AB3";
+# LOCATE COMP "SFP_LOS_2"                          SITE "AD5";    #was "DQSLL2_T"  37
+# LOCATE COMP "SFP_TXFAULT_2"                      SITE "AE5";
+
+# LOCATE COMP                       SITE "AA9";    #was "DQLL2_3_P" 41
+# LOCATE COMP                       SITE "AB8";
+# LOCATE COMP                       SITE "AB7";    #was "DQLL2_4_P" 45
+# LOCATE COMP                       SITE "AB6";
+# LOCATE COMP                       SITE "N4";     #was "DQUL3_0_P" 49
+# LOCATE COMP                       SITE "N3";
+# LOCATE COMP                       SITE "N2";     #was "DQUL3_1_P" 53
+# LOCATE COMP                       SITE "N1";
+# LOCATE COMP                       SITE "M5";     #was "DQUL3_2_P" 57
+# LOCATE COMP                       SITE "N5";
+# LOCATE COMP                       SITE "M10";    #was "DQSUL3_T"  61
+# LOCATE COMP                       SITE "N10";;
+# LOCATE COMP                       SITE "P5";     #was "DQUL3_3_P" 65
+# LOCATE COMP                       SITE "P4";
+# LOCATE COMP                       SITE "N8";     #was "DQUL3_4_P" 69
+# LOCATE COMP                       SITE "P8";
+
+# LOCATE COMP "DQUL1_0"                      SITE "L2";     #was "DQUL1_0_P" 73
+# LOCATE COMP "DQUL1_0"                      SITE "L1";;
+# LOCATE COMP "DQUL1_1"                      SITE "K2";     #was "DQUL1_1_P" 77
+# LOCATE COMP "DQUL1_1"                      SITE "K1";;
+# LOCATE COMP "DQUL1_2"                      SITE "K4";     #was "DQUL1_2_P" 81
+# LOCATE COMP "DQUL1_2"                      SITE "K3";;
+# LOCATE COMP "DQSUL1"                       SITE "L10";    #was "DQSUL1_T"  85
+# LOCATE COMP "DQSUL1"                       SITE "L9";;
+# LOCATE COMP "DQUL1_3"                      SITE "M8";     #was "DQUL1_3_P" 89
+# LOCATE COMP "DQUL1_3"                      SITE "L7";;
+# LOCATE COMP "DQUL1_4"                      SITE "K7";     #was "DQUL1_4_P" 93
+# LOCATE COMP "DQUL1_4"                      SITE "J6";;
+# 
+# LOCATE COMP "DQUR0_0"                      SITE "L26";    #was "DQUR0_0_P" 105
+# LOCATE COMP "DQUR0_0"                      SITE "M25";
+# LOCATE COMP "DQUR0_1"                      SITE "L32";    #was "DQUR0_1_P" 109
+# LOCATE COMP "DQUR0_1"                      SITE "L31";
+# LOCATE COMP "DQSUR0"                       SITE "M26";    #was "DQSUR0_T"  113
+# LOCATE COMP "DQSUR0"                       SITE "M27";;
+# LOCATE COMP "DQUR0_2"                      SITE "L34";    #was "DQUR0_2_P" 117
+# LOCATE COMP "DQUR0_2"                      SITE "L33";;
+# LOCATE COMP "DQUR0_3"                      SITE "K29";    #was "DQUR0_3_P" 121
+# LOCATE COMP "DQUR0_3"                      SITE "K30";
+# LOCATE COMP "DQUR0_4"                      SITE "K34";    #was "DQUR0_4_P" 125
+# LOCATE COMP "DQUR0_4"                      SITE "K33";
+
+# LOCATE COMP "DQLR0_0"                      SITE "AB34";   #was "DQLR0_0_P" 129
+# LOCATE COMP "DQLR0_0"                      SITE "AB33"
+# LOCATE COMP "DQLR0_1"                      SITE "AA25";   #was "DQLR0_1_P" 133
+# LOCATE COMP "DQLR0_1"                      SITE "AA26"
+# LOCATE COMP "DQLR0_2"                      SITE "AC34";   #was "DQLR0_2_P" 137
+# LOCATE COMP "DQLR0_2"                      SITE "AC33"
+# LOCATE COMP "DQSLR0"                       SITE "AB30";   #was "DQSLR0_T"  141
+# LOCATE COMP "DQSLR0"                       SITE "AC30"
+# LOCATE COMP "DQLR0_3"                      SITE "AA31";   #was "DQLR0_3_P" 145
+# LOCATE COMP "DQLR0_3"                      SITE "AA30"
+# LOCATE COMP "DQLR0_4"                      SITE "AA28";   #was "DQLR0_4_P" 149
+# LOCATE COMP "DQLR0_4"                      SITE "AA27"
+# 
+# LOCATE COMP "LED_LINKOK_5"      SITE "AD31";   #was "DQLR1_0_P" 169
+# LOCATE COMP "LED_RX_5"          SITE "AD30"
+# LOCATE COMP "LED_TX_5"          SITE "AB32";   #was "DQLR1_1_P" 173
+# LOCATE COMP "SFP_MOD0_5"        SITE "AB31"
+# LOCATE COMP "SFP_MOD1_5"        SITE "AE34";   #was "DQLR1_2_P" 177
+# LOCATE COMP "SFP_MOD2_5"        SITE "AE33"
+# LOCATE COMP "SFP_RATESEL_5"     SITE "AB26";   #was "DQSLR1_T"  181
+# LOCATE COMP "SFP_TXDIS_5"       SITE "AB25";
+# LOCATE COMP "SFP_LOS_5"         SITE "AD33";   #was "DQLR1_3_P" 185
+# LOCATE COMP "SFP_TXFAULT_5"     SITE "AD34"
+# LOCATE COMP "DQLR1_4"                      SITE "AF34";   #was "DQLR1_4_P" 189
+# LOCATE COMP "DQLR1_4"                      SITE "AG34"
+# 
+# LOCATE COMP "LED_LINKOK_3"      SITE "AE4";    #was "DQLL3_0_P" 2
+# LOCATE COMP "LED_RX_3"          SITE "AE3";
+# LOCATE COMP "LED_TX_3"          SITE "AB10";   #was "DQLL3_1_P" 6
+# LOCATE COMP "SFP_MOD0_3"        SITE "AC10"
+# LOCATE COMP "SFP_MOD1_3"        SITE "AE2";    #was "DQLL3_2_P" 10
+# LOCATE COMP "SFP_MOD2_3"        SITE "AE1";
+# LOCATE COMP "SFP_RATESEL_3"     SITE "AJ1";    #was "DQSLL3_T"  14
+# LOCATE COMP "SFP_TXDIS_3"       SITE "AK1";
+# LOCATE COMP "SFP_LOS_3"         SITE "AD4";    #was "DQLL3_3_P" 18
+# LOCATE COMP "SFP_TXFAULT_3"     SITE "AD3";
+
+# LOCATE COMP "LED_LINKOK_4"      SITE "AC9";    #was "DQLL3_4_P" 22
+# LOCATE COMP "LED_RX_4"          SITE "AC8";
+# LOCATE COMP "LED_TX_4"          SITE "Y2";     #was "DQLL1_0_P" 26
+# LOCATE COMP "SFP_MOD0_4"        SITE "Y1";
+# LOCATE COMP "SFP_MOD1_4"        SITE "W4";     #was "DQLL1_1_P" 30
+# LOCATE COMP "SFP_MOD2_4"        SITE "W3";
+# LOCATE COMP "SFP_RATESEL_4"     SITE "W2";     #was "DQLL1_2_P" 34
+# LOCATE COMP "SFP_TXDIS_4"       SITE "W1";
+# LOCATE COMP "SFP_LOS_4"         SITE "W6";     #was "DQSLL1_T"  38
+# LOCATE COMP "SFP_TXFAULT_4"     SITE "Y6";
+
+# LOCATE COMP "DQLL1_3"                      SITE "W8";     #was "DQLL1_3_P" 42
+# LOCATE COMP "DQLL1_3"                      SITE "W9";
+# LOCATE COMP "DQLL1_4"                      SITE "Y8";     #was "DQLL1_4_P" 46
+# LOCATE COMP "DQLL1_4"                      SITE "AA8";
+
+# LOCATE COMP "DQUL2_0"                      SITE "F2";     #was "DQUL2_0_P" 50
+# LOCATE COMP "DQUL2_0"                      SITE "F1";;
+# LOCATE COMP "DQUL2_1"                      SITE "F3";     #was "DQUL2_1_P" 54
+# LOCATE COMP "DQUL2_1"                      SITE "E3";
+# LOCATE COMP "DQUL2_2"                      SITE "G2";     #was "DQUL2_2_P" 58
+# LOCATE COMP "DQUL2_2"                      SITE "G1";
+# LOCATE COMP "DQSUL2"                       SITE "G3";     #was "DQSUL2_T"  62
+# LOCATE COMP "DQSUL2"                       SITE "H3";;
+# LOCATE COMP "DQUL2_3"                      SITE "H1";     #was "DQUL2_3_P" 66
+# LOCATE COMP "DQUL2_3"                      SITE "J1";
+# LOCATE COMP "DQUL2_4"                      SITE "J3";     #was "DQUL2_4_P" 70
+# LOCATE COMP "DQUL2_4"                      SITE "H2";
+
+# LOCATE COMP "DQUL0_0"                      SITE "L5";     #was "DQUL0_0_P" 74
+# LOCATE COMP "DQUL0_0"                      SITE "L4";;
+# LOCATE COMP "DQUL0_1"                      SITE "M4";     #was "DQUL0_1_P" 78
+# LOCATE COMP "DQUL0_1"                      SITE "M3";;
+# LOCATE COMP "DQUL0_2"                      SITE "K6";     #was "DQUL0_2_P" 82
+# LOCATE COMP "DQUL0_2"                      SITE "K5";;
+# LOCATE COMP "DQSUL0"                       SITE "N9";     #was "DQSUL0_T"  86
+# LOCATE COMP "DQSUL0"                       SITE "M9";;
+# LOCATE COMP "DQUL0_3"                      SITE "M2";     #was "DQUL0_3_P" 90
+# LOCATE COMP "DQUL0_3"                      SITE "M1";;
+# LOCATE COMP "DQUL0_4"                      SITE "M7";     #was "DQUL0_4_P" 94
+# LOCATE COMP "DQUL0_4"                      SITE "L6";;
+# 
+# LOCATE COMP "DQUR1_0"                      SITE "N30";    #was "DQUR1_0_P" 106
+# LOCATE COMP "DQUR1_0"                      SITE "N29";
+# LOCATE COMP "DQUR1_1"                      SITE "N26";    #was "DQUR1_1_P" 110
+# LOCATE COMP "DQUR1_1"                      SITE "P26";
+# LOCATE COMP "DQUR1_2"                      SITE "N32";    #was "DQUR1_2_P" 114
+# LOCATE COMP "DQUR1_2"                      SITE "N31";
+# LOCATE COMP "DQSUR1"                       SITE "N27";    #was "DQSUR1_T"  118
+# LOCATE COMP "DQSUR1"                       SITE "N28";;
+# LOCATE COMP "DQUR1_3"                      SITE "N34";    #was "DQUR1_3_P" 122
+# LOCATE COMP "DQUR1_3"                      SITE "N33";
+# LOCATE COMP "DQUR1_4"                      SITE "P28";    #was "DQUR1_4_P" 126
+# LOCATE COMP "DQUR1_4"                      SITE "P27";
+
+# LOCATE COMP "DQUR2_0"                      SITE "T32";    #was "DQUR2_0_P" 130
+# LOCATE COMP "DQUR2_0"                      SITE "T31";;
+# LOCATE COMP "DQUR2_1"                      SITE "T26";    #was "DQUR2_1_P" 134
+# LOCATE COMP "DQUR2_1"                      SITE "T27";;
+# LOCATE COMP "DQUR2_2"                      SITE "U32";    #was "DQUR2_2_P" 138
+# LOCATE COMP "DQUR2_2"                      SITE "U31";;
+# LOCATE COMP "DQSUR2"                       SITE "T30";    #was "DQSUR2_T"  142
+# LOCATE COMP "DQSUR2"                       SITE "U30";;
+# LOCATE COMP "DQUR2_3"                      SITE "T34";    #was "DQUR2_3_P" 146
+# LOCATE COMP "DQUR2_3"                      SITE "T33";;
+# LOCATE COMP "DQUR2_4"                      SITE "U26";    #was "DQUR2_4_P" 150
+# LOCATE COMP "DQUR2_4"                      SITE "U27";
+# 
+# LOCATE COMP "LED_LINKOK_6"                       SITE "W30";    #was "DQLR2_0_P" 170
+# LOCATE COMP "LED_RX_6"                           SITE "W29";
+# LOCATE COMP "LED_TX_6"                           SITE "W27";    #was "DQLR2_1_P" 174
+# LOCATE COMP "SFP_MOD0_6"                         SITE "W26";
+# LOCATE COMP "SFP_MOD1_6"                         SITE "W34";    #was "DQLR2_2_P" 178
+# LOCATE COMP "SFP_MOD2_6"                         SITE "W33";;
+# LOCATE COMP "SFP_RATESEL_6"                      SITE "Y30";    #was "DQSLR2_T"  182
+# LOCATE COMP "SFP_TXDIS_6"                        SITE "AA29";
+# LOCATE COMP "SFP_LOS_6"                          SITE "Y34";    #was "DQLR2_3_P" 186
+# LOCATE COMP "SFP_TXFAULT_6"                      SITE "Y33";;
+
+
+
+
+
+LOCATE COMP "2V_IO_PCSA"                     SITE "AF18";
+LOCATE COMP "2V_IO_PCSA"                     SITE "AF19";
+LOCATE COMP "2V_IO_PCSA"                     SITE "AF20";
+LOCATE COMP "2V_IO_PCSA"                     SITE "AF21";
+LOCATE COMP "2V_IO_PCSA"                     SITE "AG18";
+LOCATE COMP "2V_IO_PCSA"                     SITE "AG19";
+LOCATE COMP "2V_IO_PCSA"                     SITE "AG20";
+LOCATE COMP "2V_IO_PCSA"                     SITE "AG21";
+LOCATE COMP "2V_IO_PCSB"                     SITE "AF14";
+LOCATE COMP "2V_IO_PCSB"                     SITE "AF15";
+LOCATE COMP "2V_IO_PCSB"                     SITE "AF16";
+LOCATE COMP "2V_IO_PCSB"                     SITE "AF17";
+LOCATE COMP "2V_IO_PCSB"                     SITE "AG14";
+LOCATE COMP "2V_IO_PCSB"                     SITE "AG15";
+LOCATE COMP "2V_IO_PCSB"                     SITE "AG16";
+LOCATE COMP "2V_IO_PCSB"                     SITE "AG17";
+LOCATE COMP "2V_IO_PCSC"                     SITE "AE20";
+LOCATE COMP "2V_IO_PCSC"                     SITE "AE21";
+LOCATE COMP "2V_IO_PCSC"                     SITE "AF22";
+LOCATE COMP "2V_IO_PCSC"                     SITE "AF23";
+LOCATE COMP "2V_IO_PCSC"                     SITE "AF24";
+LOCATE COMP "2V_IO_PCSC"                     SITE "AG22";
+LOCATE COMP "2V_IO_PCSC"                     SITE "AG23";
+LOCATE COMP "2V_IO_PCSC"                     SITE "AG24";
+LOCATE COMP "2V_IO_PCSD"                     SITE "AE14";
+LOCATE COMP "2V_IO_PCSD"                     SITE "AE15";
+LOCATE COMP "2V_IO_PCSD"                     SITE "AF11";
+LOCATE COMP "2V_IO_PCSD"                     SITE "AF12";
+LOCATE COMP "2V_IO_PCSD"                     SITE "AF13";
+LOCATE COMP "2V_IO_PCSD"                     SITE "AG11";
+LOCATE COMP "2V_IO_PCSD"                     SITE "AG12";
+LOCATE COMP "2V_IO_PCSD"                     SITE "AG13";
+LOCATE COMP "BACK_GPIO_0"                    SITE "C26";
+LOCATE COMP "BACK_GPIO_1"                    SITE "D26";
+LOCATE COMP "BACK_GPIO_10"                   SITE "A29";
+LOCATE COMP "BACK_GPIO_11"                   SITE "A30";
+LOCATE COMP "BACK_GPIO_12"                   SITE "H26";
+LOCATE COMP "BACK_GPIO_13"                   SITE "H25";
+LOCATE COMP "BACK_GPIO_14"                   SITE "A31";
+LOCATE COMP "BACK_GPIO_15"                   SITE "B31";
+LOCATE COMP "BACK_GPIO_2"                    SITE "B27";
+LOCATE COMP "BACK_GPIO_3"                    SITE "C27";
+LOCATE COMP "BACK_GPIO_4"                    SITE "D27";
+LOCATE COMP "BACK_GPIO_5"                    SITE "E27";
+LOCATE COMP "BACK_GPIO_6"                    SITE "B28";
+LOCATE COMP "BACK_GPIO_7"                    SITE "A28";
+LOCATE COMP "BACK_GPIO_8"                    SITE "A26";
+LOCATE COMP "BACK_GPIO_9"                    SITE "A27";
+LOCATE COMP "BACK_LVDS0_N"                   SITE "V1";
+LOCATE COMP "BACK_LVDS0_P"                   SITE "V2";
+LOCATE COMP "BACK_LVDS1_N"                   SITE "T3";
+LOCATE COMP "BACK_LVDS1_P"                   SITE "T4";
+LOCATE COMP "CCLK"                           SITE "C34";
+LOCATE COMP "CFG0"                           SITE "B33";
+LOCATE COMP "CFG1"                           SITE "F30";
+LOCATE COMP "CFG2"                           SITE "D32";
+LOCATE COMP "CORE_CLOCK0_N"                  SITE "U8";
+LOCATE COMP "CORE_CLOCK0_P"                  SITE "U9";
+LOCATE COMP "CORE_CLOCK1_N"                  SITE "U7";
+LOCATE COMP "CORE_CLOCK1_P"                  SITE "U6";
+LOCATE COMP "CORE_CLOCK2_N"                  SITE "V33";
+LOCATE COMP "CORE_CLOCK2_P"                  SITE "V34";
+LOCATE COMP "DONE"                           SITE "G31";
+LOCATE COMP "DQLL0_0_N"                      SITE "AA1";
+LOCATE COMP "DQLL0_0_P"                      SITE "AA2";
+LOCATE COMP "DQLL0_1_N"                      SITE "AB1";
+LOCATE COMP "DQLL0_1_P"                      SITE "AB2";
+LOCATE COMP "DQLL0_2_N"                      SITE "AA3";
+LOCATE COMP "DQLL0_2_P"                      SITE "AA4";
+LOCATE COMP "DQLL0_3_N"                      SITE "AB5";
+LOCATE COMP "DQLL0_3_P"                      SITE "AA5";
+LOCATE COMP "DQLL0_4_N"                      SITE "AA7";
+LOCATE COMP "DQLL0_4_P"                      SITE "Y7";
+LOCATE COMP "DQLL1_0_N"                      SITE "Y1";
+LOCATE COMP "DQLL1_0_P"                      SITE "Y2";
+LOCATE COMP "DQLL1_1_N"                      SITE "W3";
+LOCATE COMP "DQLL1_1_P"                      SITE "W4";
+LOCATE COMP "DQLL1_2_N"                      SITE "W1";
+LOCATE COMP "DQLL1_2_P"                      SITE "W2";
+LOCATE COMP "DQLL1_3_N"                      SITE "W9";
+LOCATE COMP "DQLL1_3_P"                      SITE "W8";
+LOCATE COMP "DQLL1_4_N"                      SITE "AA8";
+LOCATE COMP "DQLL1_4_P"                      SITE "Y8";
+LOCATE COMP "DQLL2_0_N"                      SITE "AC4";
+LOCATE COMP "DQLL2_0_P"                      SITE "AC5";
+LOCATE COMP "DQLL2_1_N"                      SITE "AC1";
+LOCATE COMP "DQLL2_1_P"                      SITE "AC2";
+LOCATE COMP "DQLL2_2_N"                      SITE "AB3";
+LOCATE COMP "DQLL2_2_P"                      SITE "AB4";
+LOCATE COMP "DQLL2_3_N"                      SITE "AB8";
+LOCATE COMP "DQLL2_3_P"                      SITE "AA9";
+LOCATE COMP "DQLL2_4_N"                      SITE "AB6";
+LOCATE COMP "DQLL2_4_P"                      SITE "AB7";
+LOCATE COMP "DQLL3_0_N"                      SITE "AE3";
+LOCATE COMP "DQLL3_0_P"                      SITE "AE4";
+LOCATE COMP "DQLL3_1_N"                      SITE "AC10";
+LOCATE COMP "DQLL3_1_P"                      SITE "AB10";
+LOCATE COMP "DQLL3_2_N"                      SITE "AE1";
+LOCATE COMP "DQLL3_2_P"                      SITE "AE2";
+LOCATE COMP "DQLL3_3_N"                      SITE "AD3";
+LOCATE COMP "DQLL3_3_P"                      SITE "AD4";
+LOCATE COMP "DQLL3_4_N"                      SITE "AC8";
+LOCATE COMP "DQLL3_4_P"                      SITE "AC9";
+LOCATE COMP "DQLR0_0_N"                      SITE "AB33";
+LOCATE COMP "DQLR0_0_P"                      SITE "AB34";
+LOCATE COMP "DQLR0_1_N"                      SITE "AA26";
+LOCATE COMP "DQLR0_1_P"                      SITE "AA25";
+LOCATE COMP "DQLR0_2_N"                      SITE "AC33";
+LOCATE COMP "DQLR0_2_P"                      SITE "AC34";
+LOCATE COMP "DQLR0_3_N"                      SITE "AA30";
+LOCATE COMP "DQLR0_3_P"                      SITE "AA31";
+LOCATE COMP "DQLR0_4_N"                      SITE "AA27";
+LOCATE COMP "DQLR0_4_P"                      SITE "AA28";
+LOCATE COMP "DQLR1_0_N"                      SITE "AD30";
+LOCATE COMP "DQLR1_0_P"                      SITE "AD31";
+LOCATE COMP "DQLR1_1_N"                      SITE "AB31";
+LOCATE COMP "DQLR1_1_P"                      SITE "AB32";
+LOCATE COMP "DQLR1_2_N"                      SITE "AE33";
+LOCATE COMP "DQLR1_2_P"                      SITE "AE34";
+LOCATE COMP "DQLR1_3_N"                      SITE "AD34";
+LOCATE COMP "DQLR1_3_P"                      SITE "AD33";
+LOCATE COMP "DQLR1_4_N"                      SITE "AG34";
+LOCATE COMP "DQLR1_4_P"                      SITE "AF34";
+LOCATE COMP "DQLR2_0_N"                      SITE "W29";
+LOCATE COMP "DQLR2_0_P"                      SITE "W30";
+LOCATE COMP "DQLR2_1_N"                      SITE "W26";
+LOCATE COMP "DQLR2_1_P"                      SITE "W27";
+LOCATE COMP "DQLR2_2_N"                      SITE "W33";
+LOCATE COMP "DQLR2_2_P"                      SITE "W34";
+LOCATE COMP "DQLR2_3_N"                      SITE "Y33";
+LOCATE COMP "DQLR2_3_P"                      SITE "Y34";
+LOCATE COMP "DQLR2_4_N"                      SITE "Y25";
+LOCATE COMP "DQLR2_4_P"                      SITE "Y26";
+LOCATE COMP "DQSLL0_C"                       SITE "AB9";
+LOCATE COMP "DQSLL0_T"                       SITE "AA10";
+LOCATE COMP "DQSLL1_C"                       SITE "Y6";
+LOCATE COMP "DQSLL1_T"                       SITE "W6";
+LOCATE COMP "DQSLL2_C"                       SITE "AE5";
+LOCATE COMP "DQSLL2_T"                       SITE "AD5";
+LOCATE COMP "DQSLL3_C"                       SITE "AK1";
+LOCATE COMP "DQSLL3_T"                       SITE "AJ1";
+LOCATE COMP "DQSLR0_C"                       SITE "AC30";
+LOCATE COMP "DQSLR0_T"                       SITE "AB30";
+LOCATE COMP "DQSLR1_C"                       SITE "AB25";
+LOCATE COMP "DQSLR1_T"                       SITE "AB26";
+LOCATE COMP "DQSLR2_C"                       SITE "AA29";
+LOCATE COMP "DQSLR2_T"                       SITE "Y30";
+LOCATE COMP "DQSUL0_C"                       SITE "M9";
+LOCATE COMP "DQSUL0_T"                       SITE "N9";
+LOCATE COMP "DQSUL1_C"                       SITE "L9";
+LOCATE COMP "DQSUL1_T"                       SITE "L10";
+LOCATE COMP "DQSUL2_C"                       SITE "H3";
+LOCATE COMP "DQSUL2_T"                       SITE "G3";
+LOCATE COMP "DQSUL3_C"                       SITE "N10";
+LOCATE COMP "DQSUL3_T"                       SITE "M10";
+LOCATE COMP "DQSUR0_C"                       SITE "M27";
+LOCATE COMP "DQSUR0_T"                       SITE "M26";
+LOCATE COMP "DQSUR1_C"                       SITE "N28";
+LOCATE COMP "DQSUR1_T"                       SITE "N27";
+LOCATE COMP "DQSUR2_C"                       SITE "U30";
+LOCATE COMP "DQSUR2_T"                       SITE "T30";
+LOCATE COMP "DQUL0_0_N"                      SITE "L4";
+LOCATE COMP "DQUL0_0_P"                      SITE "L5";
+LOCATE COMP "DQUL0_1_N"                      SITE "M3";
+LOCATE COMP "DQUL0_1_P"                      SITE "M4";
+LOCATE COMP "DQUL0_2_N"                      SITE "K5";
+LOCATE COMP "DQUL0_2_P"                      SITE "K6";
+LOCATE COMP "DQUL0_3_N"                      SITE "M1";
+LOCATE COMP "DQUL0_3_P"                      SITE "M2";
+LOCATE COMP "DQUL0_4_N"                      SITE "L6";
+LOCATE COMP "DQUL0_4_P"                      SITE "M7";
+LOCATE COMP "DQUL1_0_N"                      SITE "L1";
+LOCATE COMP "DQUL1_0_P"                      SITE "L2";
+LOCATE COMP "DQUL1_1_N"                      SITE "K1";
+LOCATE COMP "DQUL1_1_P"                      SITE "K2";
+LOCATE COMP "DQUL1_2_N"                      SITE "K3";
+LOCATE COMP "DQUL1_2_P"                      SITE "K4";
+LOCATE COMP "DQUL1_3_N"                      SITE "L7";
+LOCATE COMP "DQUL1_3_P"                      SITE "M8";
+LOCATE COMP "DQUL1_4_N"                      SITE "J6";
+LOCATE COMP "DQUL1_4_P"                      SITE "K7";
+LOCATE COMP "DQUL2_0_N"                      SITE "F1";
+LOCATE COMP "DQUL2_0_P"                      SITE "F2";
+LOCATE COMP "DQUL2_1_N"                      SITE "E3";
+LOCATE COMP "DQUL2_1_P"                      SITE "F3";
+LOCATE COMP "DQUL2_2_N"                      SITE "G1";
+LOCATE COMP "DQUL2_2_P"                      SITE "G2";
+LOCATE COMP "DQUL2_3_N"                      SITE "J1";
+LOCATE COMP "DQUL2_3_P"                      SITE "H1";
+LOCATE COMP "DQUL2_4_N"                      SITE "H2";
+LOCATE COMP "DQUL2_4_P"                      SITE "J3";
+LOCATE COMP "DQUL3_0_N"                      SITE "N3";
+LOCATE COMP "DQUL3_0_P"                      SITE "N4";
+LOCATE COMP "DQUL3_1_N"                      SITE "N1";
+LOCATE COMP "DQUL3_1_P"                      SITE "N2";
+LOCATE COMP "DQUL3_2_N"                      SITE "N5";
+LOCATE COMP "DQUL3_2_P"                      SITE "M5";
+LOCATE COMP "DQUL3_3_N"                      SITE "P4";
+LOCATE COMP "DQUL3_3_P"                      SITE "P5";
+LOCATE COMP "DQUL3_4_N"                      SITE "P8";
+LOCATE COMP "DQUL3_4_P"                      SITE "N8";
+LOCATE COMP "DQUR0_0_N"                      SITE "M25";
+LOCATE COMP "DQUR0_0_P"                      SITE "L26";
+LOCATE COMP "DQUR0_1_N"                      SITE "L31";
+LOCATE COMP "DQUR0_1_P"                      SITE "L32";
+LOCATE COMP "DQUR0_2_N"                      SITE "L33";
+LOCATE COMP "DQUR0_2_P"                      SITE "L34";
+LOCATE COMP "DQUR0_3_N"                      SITE "K30";
+LOCATE COMP "DQUR0_3_P"                      SITE "K29";
+LOCATE COMP "DQUR0_4_N"                      SITE "K33";
+LOCATE COMP "DQUR0_4_P"                      SITE "K34";
+LOCATE COMP "DQUR1_0_N"                      SITE "N29";
+LOCATE COMP "DQUR1_0_P"                      SITE "N30";
+LOCATE COMP "DQUR1_1_N"                      SITE "P26";
+LOCATE COMP "DQUR1_1_P"                      SITE "N26";
+LOCATE COMP "DQUR1_2_N"                      SITE "N31";
+LOCATE COMP "DQUR1_2_P"                      SITE "N32";
+LOCATE COMP "DQUR1_3_N"                      SITE "N33";
+LOCATE COMP "DQUR1_3_P"                      SITE "N34";
+LOCATE COMP "DQUR1_4_N"                      SITE "P27";
+LOCATE COMP "DQUR1_4_P"                      SITE "P28";
+LOCATE COMP "DQUR2_0_N"                      SITE "T31";
+LOCATE COMP "DQUR2_0_P"                      SITE "T32";
+LOCATE COMP "DQUR2_1_N"                      SITE "T27";
+LOCATE COMP "DQUR2_1_P"                      SITE "T26";
+LOCATE COMP "DQUR2_2_N"                      SITE "U31";
+LOCATE COMP "DQUR2_2_P"                      SITE "U32";
+LOCATE COMP "DQUR2_3_N"                      SITE "T33";
+LOCATE COMP "DQUR2_3_P"                      SITE "T34";
+LOCATE COMP "DQUR2_4_N"                      SITE "U27";
+LOCATE COMP "DQUR2_4_P"                      SITE "U26";
+LOCATE COMP "ENPIRION_CLOCK"                 SITE "H23";
+LOCATE COMP "EXT_CLOCK0_N"                   SITE "V28";
+LOCATE COMP "EXT_CLOCK0_P"                   SITE "U28";
+LOCATE COMP "EXT_CLOCK1_N"                   SITE "R29";
+LOCATE COMP "EXT_CLOCK1_P"                   SITE "P30";
+LOCATE COMP "EXT_CLOCK2_N"                   SITE "N6";
+LOCATE COMP "EXT_CLOCK2_P"                   SITE "N7";
+LOCATE COMP "EXT_TRIG0_N"                    SITE "AK34";
+LOCATE COMP "EXT_TRIG0_P"                    SITE "AJ34";
+LOCATE COMP "EXT_TRIG1_N"                    SITE "P33";
+LOCATE COMP "EXT_TRIG1_P"                    SITE "P34";
+LOCATE COMP "EXT_TRIG2_N"                    SITE "T5";
+LOCATE COMP "EXT_TRIG2_P"                    SITE "T6";
+LOCATE COMP "HDR_IO_0_N"                     SITE "AN28";
+LOCATE COMP "HDR_IO_0_P"                     SITE "AP28";
+LOCATE COMP "HDR_IO_1_N"                     SITE "AN27";
+LOCATE COMP "HDR_IO_1_P"                     SITE "AP27";
+LOCATE COMP "HDR_IO_2_N"                     SITE "AL27";
+LOCATE COMP "HDR_IO_2_P"                     SITE "AM27";
+LOCATE COMP "HDR_IO_3_N"                     SITE "AG26";
+LOCATE COMP "HDR_IO_3_P"                     SITE "AH26";
+LOCATE COMP "HDR_IO_4_N"                     SITE "AL28";
+LOCATE COMP "HDR_IO_4_P"                     SITE "AM28";
+LOCATE COMP "INITN"                          SITE "C33";
+LOCATE COMP "JTAG_TCK"                       SITE "D1";
+LOCATE COMP "JTAG_TDI"                       SITE "E1";
+LOCATE COMP "JTAG_TDO"                       SITE "C1";
+LOCATE COMP "JTAG_TMS"                       SITE "D2";
+LOCATE COMP "KEL10_N"                        SITE "AK3";
+LOCATE COMP "KEL10_P"                        SITE "AL3";
+LOCATE COMP "KEL11_N"                        SITE "AD8";
+LOCATE COMP "KEL11_P"                        SITE "AD9";
+LOCATE COMP "KEL12_N"                        SITE "AK4";
+LOCATE COMP "KEL12_P"                        SITE "AJ4";
+LOCATE COMP "KEL13_N"                        SITE "V3";
+LOCATE COMP "KEL13_P"                        SITE "V4";
+LOCATE COMP "KEL14_N"                        SITE "W5";
+LOCATE COMP "KEL14_P"                        SITE "V5";
+LOCATE COMP "KEL15_N"                        SITE "T8";
+LOCATE COMP "KEL15_P"                        SITE "T9";
+LOCATE COMP "KEL16_N"                        SITE "T1";
+LOCATE COMP "KEL16_P"                        SITE "T2";
+LOCATE COMP "KEL17_N"                        SITE "P6";
+LOCATE COMP "KEL17_P"                        SITE "P7";
+LOCATE COMP "KEL18_N"                        SITE "T7";
+LOCATE COMP "KEL18_P"                        SITE "R8";
+LOCATE COMP "KEL19_N"                        SITE "R1";
+LOCATE COMP "KEL19_P"                        SITE "R2";
+LOCATE COMP "KEL1_N"                         SITE "AP6";
+LOCATE COMP "KEL1_P"                         SITE "AP5";
+LOCATE COMP "KEL20_N"                        SITE "P10";
+LOCATE COMP "KEL20_P"                        SITE "P9";
+LOCATE COMP "KEL21_N"                        SITE "AP30";
+LOCATE COMP "KEL21_P"                        SITE "AP29";
+LOCATE COMP "KEL22_N"                        SITE "AP32";
+LOCATE COMP "KEL22_P"                        SITE "AP33";
+LOCATE COMP "KEL23_N"                        SITE "AN33";
+LOCATE COMP "KEL23_P"                        SITE "AN34";
+LOCATE COMP "KEL24_N"                        SITE "AN31";
+LOCATE COMP "KEL24_P"                        SITE "AP31";
+LOCATE COMP "KEL25_N"                        SITE "AM32";
+LOCATE COMP "KEL25_P"                        SITE "AN32";
+LOCATE COMP "KEL26_N"                        SITE "AN29";
+LOCATE COMP "KEL26_P"                        SITE "AM29";
+LOCATE COMP "KEL27_N"                        SITE "AM31";
+LOCATE COMP "KEL27_P"                        SITE "AL31";
+LOCATE COMP "KEL28_N"                        SITE "AM30";
+LOCATE COMP "KEL28_P"                        SITE "AL30";
+LOCATE COMP "KEL29_N"                        SITE "AL33";
+LOCATE COMP "KEL29_P"                        SITE "AL34";
+LOCATE COMP "KEL2_N"                         SITE "AP3";
+LOCATE COMP "KEL2_P"                         SITE "AP2";
+LOCATE COMP "KEL30_N"                        SITE "AK31";
+LOCATE COMP "KEL30_P"                        SITE "AJ31";
+LOCATE COMP "KEL31_N"                        SITE "AJ33";
+LOCATE COMP "KEL31_P"                        SITE "AH33";
+LOCATE COMP "KEL32_N"                        SITE "AK32";
+LOCATE COMP "KEL32_P"                        SITE "AL32";
+LOCATE COMP "KEL33_N"                        SITE "AF31";
+LOCATE COMP "KEL33_P"                        SITE "AF32";
+LOCATE COMP "KEL34_N"                        SITE "AE31";
+LOCATE COMP "KEL34_P"                        SITE "AE32";
+LOCATE COMP "KEL35_N"                        SITE "AE29";
+LOCATE COMP "KEL35_P"                        SITE "AE30";
+LOCATE COMP "KEL36_N"                        SITE "AD25";
+LOCATE COMP "KEL36_P"                        SITE "AD26";
+LOCATE COMP "KEL37_N"                        SITE "L30";
+LOCATE COMP "KEL37_P"                        SITE "M29";
+LOCATE COMP "KEL38_N"                        SITE "AB27";
+LOCATE COMP "KEL38_P"                        SITE "AC28";
+LOCATE COMP "KEL39_N"                        SITE "M33";
+LOCATE COMP "KEL39_P"                        SITE "M34";
+LOCATE COMP "KEL3_N"                         SITE "AN2";
+LOCATE COMP "KEL3_P"                         SITE "AN1";
+LOCATE COMP "KEL40_N"                        SITE "M28";
+LOCATE COMP "KEL40_P"                        SITE "L28";
+LOCATE COMP "KEL4_N"                         SITE "AM3";
+LOCATE COMP "KEL4_P"                         SITE "AN3";
+LOCATE COMP "KEL5_N"                         SITE "AM5";
+LOCATE COMP "KEL5_P"                         SITE "AL5";
+LOCATE COMP "KEL6_N"                         SITE "AN6";
+LOCATE COMP "KEL6_P"                         SITE "AM6";
+LOCATE COMP "KEL7_N"                         SITE "AM4";
+LOCATE COMP "KEL7_P"                         SITE "AL4";
+LOCATE COMP "KEL8_N"                         SITE "AJ6";
+LOCATE COMP "KEL8_P"                         SITE "AJ5";
+LOCATE COMP "KEL9_N"                         SITE "AJ3";
+LOCATE COMP "KEL9_P"                         SITE "AJ2";
+LOCATE COMP "LED_CLOCK_GREEN"                SITE "C25";
+LOCATE COMP "LED_CLOCK_RED"                  SITE "D25";
+LOCATE COMP "LED_GREEN"                      SITE "D24";
+LOCATE COMP "LED_ORANGE"                     SITE "E24";
+LOCATE COMP "LED_RED"                        SITE "K23";
+LOCATE COMP "LED_TRIGGER_GREEN"              SITE "G26";
+LOCATE COMP "LED_TRIGGER_RED"                SITE "G25";
+LOCATE COMP "LED_WHITE1"                     SITE "A32";
+LOCATE COMP "LED_WHITE2"                     SITE "A33";
+LOCATE COMP "LED_YELLOW"                     SITE "K24";
+LOCATE COMP "N274462516"                     SITE "AH20";
+LOCATE COMP "N274462534"                     SITE "AH16";
+LOCATE COMP "N274474116"                     SITE "AH23";
+LOCATE COMP "N3196153"                       SITE "E32";
+LOCATE COMP "N3197996"                       SITE "W23";
+LOCATE COMP "N3531518"                       SITE "AH12";
+LOCATE COMP "N3531520"                       SITE "AH13";
+LOCATE COMP "N3536039"                       SITE "V29";
+LOCATE COMP "N3536145"                       SITE "W28";
+LOCATE COMP "N3537093"                       SITE "V7";
+LOCATE COMP "N3537111"                       SITE "W7";
+LOCATE COMP "N3565399"                       SITE "A14";
+LOCATE COMP "N3565411"                       SITE "B14";
+LOCATE COMP "N3565423"                       SITE "G16";
+LOCATE COMP "N3565435"                       SITE "G17";
+LOCATE COMP "N3672771"                       SITE "T10";
+LOCATE COMP "N3672771"                       SITE "T11";
+LOCATE COMP "N3672771"                       SITE "T24";
+LOCATE COMP "N3672771"                       SITE "T25";
+LOCATE COMP "N3672771"                       SITE "W10";
+LOCATE COMP "N3672771"                       SITE "W11";
+LOCATE COMP "N3672771"                       SITE "W24";
+LOCATE COMP "N3672771"                       SITE "W25";
+LOCATE COMP "N3713842"                       SITE "AH15";
+LOCATE COMP "N3713846"                       SITE "AH19";
+LOCATE COMP "N3713850"                       SITE "AH22";
+LOCATE COMP "N4076646"                       SITE "R9";
+LOCATE COMP "N4076650"                       SITE "R10";
+LOCATE COMP "N4076829"                       SITE "T29";
+LOCATE COMP "N4076833"                       SITE "T28";
+LOCATE COMP "PCSA_IN0_N"                     SITE "AK21";
+LOCATE COMP "PCSA_IN0_P"                     SITE "AL21";
+LOCATE COMP "PCSA_IN1_N"                     SITE "AK20";
+LOCATE COMP "PCSA_IN1_P"                     SITE "AL20";
+LOCATE COMP "PCSA_IN2_N"                     SITE "AK19";
+LOCATE COMP "PCSA_IN2_P"                     SITE "AL19";
+LOCATE COMP "PCSA_IN3_N"                     SITE "AK18";
+LOCATE COMP "PCSA_IN3_P"                     SITE "AL18";
+LOCATE COMP "PCSA_OUT0_N"                    SITE "AN21";
+LOCATE COMP "PCSA_OUT0_P"                    SITE "AP21";
+LOCATE COMP "PCSA_OUT1_N"                    SITE "AN20";
+LOCATE COMP "PCSA_OUT1_P"                    SITE "AP20";
+LOCATE COMP "PCSA_OUT2_N"                    SITE "AN19";
+LOCATE COMP "PCSA_OUT2_P"                    SITE "AP19";
+LOCATE COMP "PCSA_OUT3_N"                    SITE "AN18";
+LOCATE COMP "PCSA_OUT3_P"                    SITE "AP18";
+LOCATE COMP "PCSB_IN0_N"                     SITE "AK17";
+LOCATE COMP "PCSB_IN0_P"                     SITE "AL17";
+LOCATE COMP "PCSB_IN1_N"                     SITE "AK16";
+LOCATE COMP "PCSB_IN1_P"                     SITE "AL16";
+LOCATE COMP "PCSB_IN2_N"                     SITE "AK15";
+LOCATE COMP "PCSB_IN2_P"                     SITE "AL15";
+LOCATE COMP "PCSB_IN3_SWITCH_N"              SITE "AK14";
+LOCATE COMP "PCSB_IN3_SWITCH_P"              SITE "AL14";
+LOCATE COMP "PCSB_OUT0_N"                    SITE "AN17";
+LOCATE COMP "PCSB_OUT0_P"                    SITE "AP17";
+LOCATE COMP "PCSB_OUT1_N"                    SITE "AN16";
+LOCATE COMP "PCSB_OUT1_P"                    SITE "AP16";
+LOCATE COMP "PCSB_OUT2_N"                    SITE "AN15";
+LOCATE COMP "PCSB_OUT2_P"                    SITE "AP15";
+LOCATE COMP "PCSB_OUT3_SWITCH_N"             SITE "AN14";
+LOCATE COMP "PCSB_OUT3_SWITCH_P"             SITE "AP14";
+LOCATE COMP "PCSC_IN0_N"                     SITE "AK25";
+LOCATE COMP "PCSC_IN0_P"                     SITE "AL25";
+LOCATE COMP "PCSC_IN1_N"                     SITE "AK24";
+LOCATE COMP "PCSC_IN1_P"                     SITE "AL24";
+LOCATE COMP "PCSC_IN2_N"                     SITE "AK23";
+LOCATE COMP "PCSC_IN2_P"                     SITE "AL23";
+LOCATE COMP "PCSC_IN3_N"                     SITE "AK22";
+LOCATE COMP "PCSC_IN3_P"                     SITE "AL22";
+LOCATE COMP "PCSC_OUT0_N"                    SITE "AN25";
+LOCATE COMP "PCSC_OUT0_P"                    SITE "AP25";
+LOCATE COMP "PCSC_OUT1_N"                    SITE "AN24";
+LOCATE COMP "PCSC_OUT1_P"                    SITE "AP24";
+LOCATE COMP "PCSC_OUT2_N"                    SITE "AN23";
+LOCATE COMP "PCSC_OUT2_P"                    SITE "AP23";
+LOCATE COMP "PCSC_OUT3_N"                    SITE "AN22";
+LOCATE COMP "PCSC_OUT3_P"                    SITE "AP22";
+LOCATE COMP "PCSD_IN0_N"                     SITE "AK13";
+LOCATE COMP "PCSD_IN0_P"                     SITE "AL13";
+LOCATE COMP "PCSD_IN1_SWITCH_N"              SITE "AK12";
+LOCATE COMP "PCSD_IN1_SWITCH_P"              SITE "AL12";
+LOCATE COMP "PCSD_IN2_N"                     SITE "AK11";
+LOCATE COMP "PCSD_IN2_P"                     SITE "AL11";
+LOCATE COMP "PCSD_IN3_N"                     SITE "AK10";
+LOCATE COMP "PCSD_IN3_P"                     SITE "AL10";
+LOCATE COMP "PCSD_LED_GREEN0"                SITE "B4";
+LOCATE COMP "PCSD_LED_GREEN1"                SITE "A6";
+LOCATE COMP "PCSD_LED_RED0"                  SITE "A3";
+LOCATE COMP "PCSD_LED_RED1"                  SITE "A8";
+LOCATE COMP "PCSD_LOS0"                      SITE "B6";
+LOCATE COMP "PCSD_LOS1"                      SITE "C9";
+LOCATE COMP "PCSD_MOD0_0"                    SITE "A5";
+LOCATE COMP "PCSD_MOD0_1"                    SITE "K11";
+LOCATE COMP "PCSD_MOD1_0"                    SITE "B7";
+LOCATE COMP "PCSD_MOD1_1"                    SITE "J11";
+LOCATE COMP "PCSD_MOD2_0"                    SITE "A7";
+LOCATE COMP "PCSD_MOD2_1"                    SITE "D9";
+LOCATE COMP "PCSD_OUT0_N"                    SITE "AN13";
+LOCATE COMP "PCSD_OUT0_P"                    SITE "AP13";
+LOCATE COMP "PCSD_OUT1_SWITCH_N"             SITE "AN12";
+LOCATE COMP "PCSD_OUT1_SWITCH_P"             SITE "AP12";
+LOCATE COMP "PCSD_OUT2_N"                    SITE "AN11";
+LOCATE COMP "PCSD_OUT2_P"                    SITE "AP11";
+LOCATE COMP "PCSD_OUT3_N"                    SITE "AP10";
+LOCATE COMP "PCSD_OUT3_P"                    SITE "AN10";
+LOCATE COMP "PCSD_RATE_SEL0"                 SITE "A4";
+LOCATE COMP "PCSD_RATE_SEL1"                 SITE "C8";
+LOCATE COMP "PCSD_TX_DIS0"                   SITE "D6";
+LOCATE COMP "PCSD_TX_DIS1"                   SITE "A9";
+LOCATE COMP "PCSD_TX_FAULT0"                 SITE "C5";
+LOCATE COMP "PCSD_TX_FAULT1"                 SITE "B8";
+LOCATE COMP "PCSSW_ENSMB"                    SITE "B3";
+LOCATE COMP "PCSSW_EQ0"                      SITE "B1";
+LOCATE COMP "PCSSW_EQ1"                      SITE "B2";
+LOCATE COMP "PCSSW_EQ2"                      SITE "E4";
+LOCATE COMP "PCSSW_EQ3"                      SITE "D4";
+LOCATE COMP "PCSSW_PE0"                      SITE "C3";
+LOCATE COMP "PCSSW_PE1"                      SITE "C4";
+LOCATE COMP "PCSSW_PE2"                      SITE "D3";
+LOCATE COMP "PCSSW_PE3"                      SITE "C2";
+LOCATE COMP "PCSSW_S10"                      SITE "E13";
+LOCATE COMP "PCSSW_S11"                      SITE "F13";
+LOCATE COMP "PCSSW_S20"                      SITE "G13";
+LOCATE COMP "PCSSW_S21"                      SITE "H14";
+LOCATE COMP "PCSSW_S30"                      SITE "A13";
+LOCATE COMP "PCSSW_S31"                      SITE "B13";
+LOCATE COMP "PCSSW_SCA"                      SITE "D5";
+LOCATE COMP "PCSSW_SCL"                      SITE "A2";
+LOCATE COMP "PROGN"                          SITE "B34";
+LOCATE COMP "PROGRAMN"                       SITE "C31";
+LOCATE COMP "RJ_IO_1_N"                      SITE "R27";
+LOCATE COMP "RJ_IO_1_P"                      SITE "R28";
+LOCATE COMP "RJ_IO_2_N"                      SITE "R30";
+LOCATE COMP "RJ_IO_2_P"                      SITE "R31";
+LOCATE COMP "RJ_IO_3_N"                      SITE "R25";
+LOCATE COMP "RJ_IO_3_P"                      SITE "R26";
+LOCATE COMP "RJ_IO_4_N"                      SITE "R33";
+LOCATE COMP "RJ_IO_4_P"                      SITE "R34";
+LOCATE COMP "SPARE_IN0_N"                    SITE "K32";
+LOCATE COMP "SPARE_IN0_P"                    SITE "K31";
+LOCATE COMP "SPARE_IN1_N"                    SITE "R3";
+LOCATE COMP "SPARE_IN1_P"                    SITE "R4";
+LOCATE COMP "SPI_CLK"                        SITE "F34";
+LOCATE COMP "SPI_CS"                         SITE "D34";
+LOCATE COMP "SPI_IN"                         SITE "F33";
+LOCATE COMP "SPI_OUT"                        SITE "F32";
+LOCATE COMP "SUPPL_CLOCK1_N"                 SITE "Y27";
+LOCATE COMP "SUPPL_CLOCK1_P"                 SITE "Y28";
+LOCATE COMP "SUPPL_CLOCK2_N"                 SITE "Y10";
+LOCATE COMP "SUPPL_CLOCK2_P"                 SITE "Y9";
+LOCATE COMP "SUPPL_CLOCK3_N"                 SITE "V8";
+LOCATE COMP "SUPPL_CLOCK3_P"                 SITE "V9";
+LOCATE COMP "TEMP_OWB"                       SITE "J13";
+LOCATE COMP "TEST_LINE0"                     SITE "A19";
+LOCATE COMP "TEST_LINE1"                     SITE "B19";
+LOCATE COMP "TEST_LINE10"                    SITE "G20";
+LOCATE COMP "TEST_LINE11"                    SITE "G21";
+LOCATE COMP "TEST_LINE12"                    SITE "C20";
+LOCATE COMP "TEST_LINE13"                    SITE "D20";
+LOCATE COMP "TEST_LINE14"                    SITE "F21";
+LOCATE COMP "TEST_LINE15"                    SITE "F22";
+LOCATE COMP "TEST_LINE2"                     SITE "K20";
+LOCATE COMP "TEST_LINE3"                     SITE "L19";
+LOCATE COMP "TEST_LINE4"                     SITE "C19";
+LOCATE COMP "TEST_LINE5"                     SITE "D19";
+LOCATE COMP "TEST_LINE6"                     SITE "J19";
+LOCATE COMP "TEST_LINE7"                     SITE "K19";
+LOCATE COMP "TEST_LINE8"                     SITE "A20";
+LOCATE COMP "TEST_LINE9"                     SITE "B20";
+LOCATE COMP "V3_3_GPIO_0"                    SITE "E11";
+LOCATE COMP "V3_3_GPIO_1"                    SITE "F12";
+LOCATE COMP "V3_3_GPIO_2"                    SITE "F10";
+LOCATE COMP "V3_3_GPIO_3"                    SITE "E10";

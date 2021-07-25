@@ -1,0 +1,5 @@
+vhdl work "../trb_net_std.vhd"
+vhdl work "../basics/ram_dp.vhd"
+vhdl work "../basics/signal_sync.vhd"
+vhdl work "../special/adc_ltc2308_readout.vhd"
+vhdl work "testbench_adc_ltc2308_readout.vhd"

@@ -1,0 +1,28 @@
+SCUBA, Version Diamond_1.1_Production (517)
+Thu Dec 23 11:49:43 2010
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2010 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : /d/sugar/lattice/diamond/1.1/ispfpga/bin/lin/scuba -w -n lattice_scm_fifo_16bit_dualport -lang vhdl -synth synplify -bus_exp 7 -bb -arch or5s00 -type ebfifo -depth 64 -width 18 -rwidth 18 -no_enable -pe 10 -pf 32 -sync_reset -e 
+    Circuit name     : lattice_scm_fifo_16bit_dualport
+    Module type      : ebfifo
+    Module Version   : 5.4
+    Ports            : 
+	Inputs       : Data[17:0], WrClock, RdClock, WrEn, RdEn, Reset, RPReset
+	Outputs      : Q[17:0], Empty, Full, AlmostEmpty, AlmostFull
+    I/O buffer       : not inserted
+    EDIF output      : suppressed
+    VHDL output      : lattice_scm_fifo_16bit_dualport.vhd
+    VHDL template    : lattice_scm_fifo_16bit_dualport_tmpl.vhd
+    VHDL testbench    : tb_lattice_scm_fifo_16bit_dualport_tmpl.vhd
+    VHDL purpose     : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : lattice_scm_fifo_16bit_dualport.srp
+    Element Usage    :
+       FIFO16KA : 1
+    Estimated Resource Usage:
+            EBR : 1

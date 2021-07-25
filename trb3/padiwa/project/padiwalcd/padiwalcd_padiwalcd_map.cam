@@ -1,0 +1,394 @@
+[ START MERGED ]
+THE_ONEWIRE/reset_i_i THE_ONEWIRE/reset_i
+id_write_i_i THE_ONEWIRE/id_write_i
+[ END MERGED ]
+[ START CLIPPED ]
+THE_PLL/GND
+THE_FLASH_RAM/VCC
+THE_FLASH_RAM/GND
+THE_PWM_GEN/GND
+THE_ONEWIRE/GND
+signal_gen/GND
+THE_FLASH/GND
+THE_FLASH/inst1/VCC
+THE_FLASH/inst1/GND
+THE_SPI_SLAVE/GND
+THE_FLASH/VCC
+PROC_TIMER.timer_cry_0_COUT[17]
+gen_input_counter.0.proc_cnt.input_counter_0_cry_0_S0[0]
+N_2
+gen_input_counter.0.proc_cnt.input_counter_0_s_0_S1[23]
+gen_input_counter.0.proc_cnt.input_counter_0_s_0_COUT[23]
+gen_input_counter.1.proc_cnt.input_counter_1_cry_0_S0[0]
+N_3
+gen_input_counter.1.proc_cnt.input_counter_1_s_0_S1[23]
+gen_input_counter.1.proc_cnt.input_counter_1_s_0_COUT[23]
+gen_input_counter.2.proc_cnt.input_counter_2_cry_0_S0[0]
+N_4
+gen_input_counter.2.proc_cnt.input_counter_2_s_0_S1[23]
+gen_input_counter.2.proc_cnt.input_counter_2_s_0_COUT[23]
+gen_input_counter.3.proc_cnt.input_counter_3_cry_0_S0[0]
+N_5
+gen_input_counter.3.proc_cnt.input_counter_3_s_0_S1[23]
+gen_input_counter.3.proc_cnt.input_counter_3_s_0_COUT[23]
+gen_input_counter.4.proc_cnt.input_counter_4_cry_0_S0[0]
+N_6
+gen_input_counter.4.proc_cnt.input_counter_4_s_0_S1[23]
+gen_input_counter.4.proc_cnt.input_counter_4_s_0_COUT[23]
+gen_input_counter.5.proc_cnt.input_counter_5_cry_0_S0[0]
+N_7
+gen_input_counter.5.proc_cnt.input_counter_5_s_0_S1[23]
+gen_input_counter.5.proc_cnt.input_counter_5_s_0_COUT[23]
+gen_input_counter.6.proc_cnt.input_counter_6_cry_0_S0[0]
+N_8
+gen_input_counter.6.proc_cnt.input_counter_6_s_0_S1[23]
+gen_input_counter.6.proc_cnt.input_counter_6_s_0_COUT[23]
+gen_input_counter.7.proc_cnt.input_counter_7_cry_0_S0[0]
+N_10
+gen_input_counter.7.proc_cnt.input_counter_7_s_0_S1[23]
+gen_input_counter.7.proc_cnt.input_counter_7_s_0_COUT[23]
+gen_input_counter.8.proc_cnt.input_counter_8_cry_0_S0[0]
+N_12
+gen_input_counter.8.proc_cnt.input_counter_8_s_0_S1[23]
+gen_input_counter.8.proc_cnt.input_counter_8_s_0_COUT[23]
+gen_input_counter.9.proc_cnt.input_counter_9_cry_0_S0[0]
+N_14
+gen_input_counter.9.proc_cnt.input_counter_9_s_0_S1[23]
+gen_input_counter.9.proc_cnt.input_counter_9_s_0_COUT[23]
+gen_input_counter.10.proc_cnt.input_counter_10_cry_0_S0[0]
+N_15
+gen_input_counter.10.proc_cnt.input_counter_10_s_0_S1[23]
+gen_input_counter.10.proc_cnt.input_counter_10_s_0_COUT[23]
+gen_input_counter.11.proc_cnt.input_counter_11_cry_0_S0[0]
+N_16
+gen_input_counter.11.proc_cnt.input_counter_11_s_0_S1[23]
+gen_input_counter.11.proc_cnt.input_counter_11_s_0_COUT[23]
+gen_input_counter.12.proc_cnt.input_counter_12_cry_0_S0[0]
+N_17
+gen_input_counter.12.proc_cnt.input_counter_12_s_0_S1[23]
+gen_input_counter.12.proc_cnt.input_counter_12_s_0_COUT[23]
+gen_input_counter.13.proc_cnt.input_counter_13_cry_0_S0[0]
+N_18
+gen_input_counter.13.proc_cnt.input_counter_13_s_0_S1[23]
+gen_input_counter.13.proc_cnt.input_counter_13_s_0_COUT[23]
+gen_input_counter.14.proc_cnt.input_counter_14_cry_0_S0[0]
+N_19
+gen_input_counter.14.proc_cnt.input_counter_14_s_0_S1[23]
+gen_input_counter.14.proc_cnt.input_counter_14_s_0_COUT[23]
+gen_input_counter.15.proc_cnt.input_counter_15_cry_0_S0[0]
+N_20
+gen_input_counter.15.proc_cnt.input_counter_15_s_0_S1[23]
+gen_input_counter.15.proc_cnt.input_counter_15_s_0_COUT[23]
+madd_3_cry_1_0_S1
+madd_3_cry_1_0_S0
+N_21
+madd_3_cry_15_0_S1
+madd_3_cry_15_0_COUT
+madd_4_cry_1_0_S1
+madd_4_cry_1_0_S0
+N_22
+madd_4_cry_15_0_0_S1
+madd_4_cry_15_0_0_COUT
+madd_5_cry_1_0_S1
+madd_5_cry_1_0_S0
+N_23
+madd_5_cry_16_0_COUT
+madd_7_cry_2_0_S1
+madd_7_cry_2_0_S0
+N_24
+madd_7_cry_18_0_S1
+madd_7_cry_18_0_COUT
+madd_8_cry_2_0_S1
+madd_8_cry_2_0_S0
+N_25
+madd_8_s_19_0_S1
+madd_8_s_19_0_COUT
+madd_1_cry_1_0_S1
+madd_1_cry_1_0_S0
+N_26
+madd_1_cry_15_0_S1
+madd_1_cry_15_0_COUT
+madd_2_cry_1_0_S1
+madd_2_cry_1_0_S0
+N_27
+madd_2_cry_15_0_S1
+madd_2_cry_15_0_COUT
+madd_0_cry_0_0_S1
+madd_0_cry_0_0_S0
+N_28
+madd_0_cry_14_0_S1
+madd_0_cry_14_0_COUT
+madd_6_cry_0_0_S1
+madd_6_cry_0_0_S0
+N_29
+madd_6_cry_1_0_S0
+madd_6_cry_16_0_S1
+madd_6_cry_16_0_COUT
+madd_cry_0_0_S1
+madd_cry_0_0_S0
+N_30
+madd_cry_1_0_S1
+madd_cry_1_0_S0
+madd_cry_3_0_S0
+madd_s_19_0_S1
+madd_s_19_0_COUT
+madd_9_cry_0_0_S1
+madd_9_cry_0_0_S0
+N_31
+madd_9_cry_1_0_S1
+madd_9_cry_1_0_S0
+madd_9_cry_3_0_S0
+madd_9_cry_19_0_COUT
+madd_4_cry_4_1_S1
+madd_4_cry_4_1_S0
+N_32
+madd_4_s_19_0_S1
+madd_4_s_19_0_COUT
+THE_PLL/PLLDATO0_0
+THE_PLL/PLLDATO1_0
+THE_PLL/PLLDATO2_0
+THE_PLL/PLLDATO3_0
+THE_PLL/PLLDATO4_0
+THE_PLL/PLLDATO5_0
+THE_PLL/PLLDATO6_0
+THE_PLL/PLLDATO7_0
+THE_PLL/PLLACK
+THE_PLL/DPHSRC
+THE_PLL/REFCLK
+THE_PLL/INTLOCK
+THE_PLL/pll_lock
+THE_PLL/CLKOS3
+THE_PLL/CLKOS2
+THE_FLASH_RAM/flashram_0_0_0_0_DOB8
+THE_FLASH_RAM/flashram_0_0_0_0_DOA8
+THE_PWM_GEN/un73_cnt_cry_0_0_S1
+THE_PWM_GEN/un73_cnt_cry_0_0_S0
+THE_PWM_GEN/N_4
+THE_PWM_GEN/un73_cnt_cry_15_0_COUT
+THE_PWM_GEN/un66_cnt_cry_0_0_S1
+THE_PWM_GEN/un66_cnt_cry_0_0_S0
+THE_PWM_GEN/N_5
+THE_PWM_GEN/un66_cnt_cry_15_0_COUT
+THE_PWM_GEN/un59_cnt_cry_0_0_S1
+THE_PWM_GEN/un59_cnt_cry_0_0_S0
+THE_PWM_GEN/N_6
+THE_PWM_GEN/un59_cnt_cry_15_0_COUT
+THE_PWM_GEN/un52_cnt_cry_0_0_S1
+THE_PWM_GEN/un52_cnt_cry_0_0_S0
+THE_PWM_GEN/N_7
+THE_PWM_GEN/un52_cnt_cry_15_0_COUT
+THE_PWM_GEN/un45_cnt_cry_0_0_S1
+THE_PWM_GEN/un45_cnt_cry_0_0_S0
+THE_PWM_GEN/N_8
+THE_PWM_GEN/un45_cnt_cry_15_0_COUT
+THE_PWM_GEN/un38_cnt_cry_0_0_S1
+THE_PWM_GEN/un38_cnt_cry_0_0_S0
+THE_PWM_GEN/N_9
+THE_PWM_GEN/un38_cnt_cry_15_0_COUT
+THE_PWM_GEN/un31_cnt_cry_0_0_S1
+THE_PWM_GEN/un31_cnt_cry_0_0_S0
+THE_PWM_GEN/N_10
+THE_PWM_GEN/un31_cnt_cry_15_0_COUT
+THE_PWM_GEN/un24_cnt_cry_0_0_S1
+THE_PWM_GEN/un24_cnt_cry_0_0_S0
+THE_PWM_GEN/N_11
+THE_PWM_GEN/un24_cnt_cry_15_0_COUT
+THE_PWM_GEN/un4_set_tmp_cry_0_0_S1
+THE_PWM_GEN/un4_set_tmp_cry_0_0_S0
+THE_PWM_GEN/N_12
+THE_PWM_GEN/un4_set_tmp_s_15_0_S1
+THE_PWM_GEN/un4_set_tmp_s_15_0_COUT
+THE_PWM_GEN/un129_cnt_cry_0_0_S1
+THE_PWM_GEN/un129_cnt_cry_0_0_S0
+THE_PWM_GEN/N_13
+THE_PWM_GEN/un129_cnt_cry_15_0_COUT
+THE_PWM_GEN/un122_cnt_cry_0_0_S1
+THE_PWM_GEN/un122_cnt_cry_0_0_S0
+THE_PWM_GEN/N_14
+THE_PWM_GEN/un122_cnt_cry_15_0_COUT
+THE_PWM_GEN/un115_cnt_cry_0_0_S1
+THE_PWM_GEN/un115_cnt_cry_0_0_S0
+THE_PWM_GEN/N_15
+THE_PWM_GEN/un115_cnt_cry_15_0_COUT
+THE_PWM_GEN/un108_cnt_cry_0_0_S1
+THE_PWM_GEN/un108_cnt_cry_0_0_S0
+THE_PWM_GEN/N_16
+THE_PWM_GEN/un108_cnt_cry_15_0_COUT
+THE_PWM_GEN/un101_cnt_cry_0_0_S1
+THE_PWM_GEN/un101_cnt_cry_0_0_S0
+THE_PWM_GEN/N_17
+THE_PWM_GEN/un101_cnt_cry_15_0_COUT
+THE_PWM_GEN/un94_cnt_cry_0_0_S1
+THE_PWM_GEN/un94_cnt_cry_0_0_S0
+THE_PWM_GEN/N_18
+THE_PWM_GEN/un94_cnt_cry_15_0_COUT
+THE_PWM_GEN/un87_cnt_cry_0_0_S1
+THE_PWM_GEN/un87_cnt_cry_0_0_S0
+THE_PWM_GEN/N_19
+THE_PWM_GEN/un87_cnt_cry_15_0_COUT
+THE_PWM_GEN/un80_cnt_cry_0_0_S1
+THE_PWM_GEN/un80_cnt_cry_0_0_S0
+THE_PWM_GEN/N_20
+THE_PWM_GEN/un80_cnt_cry_15_0_COUT
+THE_ONEWIRE/un2_timecounter_1_cry_0_0_S1
+THE_ONEWIRE/un2_timecounter_1_cry_0_0_S0
+THE_ONEWIRE/N_1
+THE_ONEWIRE/un2_timecounter_1_s_27_0_S1
+THE_ONEWIRE/un2_timecounter_1_s_27_0_COUT
+signal_gen/counter_1_cry_0_0_S1
+signal_gen/counter_1_cry_0_0_S0
+signal_gen/N_1
+signal_gen/counter_1_s_13_0_S1
+signal_gen/counter_1_s_13_0_COUT
+THE_FLASH/un1_count_5_cry_0_0_S1
+THE_FLASH/un1_count_5_cry_0_0_S0
+THE_FLASH/N_64
+THE_FLASH/un1_count_5_cry_3_0_COUT
+THE_FLASH/inst1/CFGSTDBY
+THE_FLASH/inst1/CFGWAKE
+THE_FLASH/inst1/wbc_ufm_irq
+THE_FLASH/inst1/TCOC
+THE_FLASH/inst1/TCINT
+THE_FLASH/inst1/SPIIRQO
+THE_FLASH/inst1/SPICSNEN
+THE_FLASH/inst1/SPIMCSN0
+THE_FLASH/inst1/SPIMCSN1
+THE_FLASH/inst1/SPIMCSN2
+THE_FLASH/inst1/SPIMCSN3
+THE_FLASH/inst1/SPIMCSN4
+THE_FLASH/inst1/SPIMCSN5
+THE_FLASH/inst1/SPIMCSN6
+THE_FLASH/inst1/SPIMCSN7
+THE_FLASH/inst1/SPIMOSIEN
+THE_FLASH/inst1/SPIMOSIO
+THE_FLASH/inst1/SPIMISOEN
+THE_FLASH/inst1/SPIMISOO
+THE_FLASH/inst1/SPISCKEN
+THE_FLASH/inst1/SPISCKO
+THE_FLASH/inst1/I2C2IRQO
+THE_FLASH/inst1/I2C1IRQO
+THE_FLASH/inst1/I2C2SDAOEN
+THE_FLASH/inst1/I2C2SDAO
+THE_FLASH/inst1/I2C2SCLOEN
+THE_FLASH/inst1/I2C2SCLO
+THE_FLASH/inst1/I2C1SDAOEN
+THE_FLASH/inst1/I2C1SDAO
+THE_FLASH/inst1/I2C1SCLOEN
+THE_FLASH/inst1/I2C1SCLO
+THE_FLASH/inst1/PLLDATO0
+THE_FLASH/inst1/PLLDATO1
+THE_FLASH/inst1/PLLDATO2
+THE_FLASH/inst1/PLLDATO3
+THE_FLASH/inst1/PLLDATO4
+THE_FLASH/inst1/PLLDATO5
+THE_FLASH/inst1/PLLDATO6
+THE_FLASH/inst1/PLLDATO7
+THE_FLASH/inst1/PLLADRO0
+THE_FLASH/inst1/PLLADRO1
+THE_FLASH/inst1/PLLADRO2
+THE_FLASH/inst1/PLLADRO3
+THE_FLASH/inst1/PLLADRO4
+THE_FLASH/inst1/PLLWEO
+THE_FLASH/inst1/PLL1STBO
+THE_FLASH/inst1/PLL0STBO
+THE_FLASH/inst1/PLLRSTO
+THE_FLASH/inst1/PLLCLKO
+THE_SPI_SLAVE/un1_bitcnt_33_cry_0_0_S1
+THE_SPI_SLAVE/un1_bitcnt_33_cry_0_0_S0
+THE_SPI_SLAVE/N_9
+THE_SPI_SLAVE/un1_bitcnt_33_cry_3_0_COUT
+PROC_TIMER.timer_cry_0_S0[0]
+N_1
+clk_source_SEDSTDBY
+[ END CLIPPED ]
+[ START OSC ]
+clk_osc 133.00
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.10.1.112 -- WARNING: Map write only section -- Mon Apr 02 11:56:23 2018
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=133 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "TEMP_LINE" SITE "L12" ;
+LOCATE COMP "SPI_OUT" SITE "B14" ;
+LOCATE COMP "CON[1]" SITE "A4" ;
+LOCATE COMP "INP[1]" SITE "T2" ;
+LOCATE COMP "TEST_LINE[15]" SITE "G13" ;
+LOCATE COMP "TEST_LINE[14]" SITE "F12" ;
+LOCATE COMP "TEST_LINE[13]" SITE "F16" ;
+LOCATE COMP "TEST_LINE[12]" SITE "F14" ;
+LOCATE COMP "TEST_LINE[11]" SITE "G12" ;
+LOCATE COMP "TEST_LINE[10]" SITE "F13" ;
+LOCATE COMP "TEST_LINE[9]" SITE "F15" ;
+LOCATE COMP "TEST_LINE[8]" SITE "E16" ;
+LOCATE COMP "TEST_LINE[7]" SITE "D15" ;
+LOCATE COMP "TEST_LINE[6]" SITE "C16" ;
+LOCATE COMP "TEST_LINE[5]" SITE "E14" ;
+LOCATE COMP "TEST_LINE[4]" SITE "D16" ;
+LOCATE COMP "TEST_LINE[3]" SITE "B16" ;
+LOCATE COMP "TEST_LINE[2]" SITE "C15" ;
+LOCATE COMP "TEST_LINE[1]" SITE "E15" ;
+LOCATE COMP "TEST_LINE[0]" SITE "D14" ;
+LOCATE COMP "SPI_IN" SITE "R12" ;
+LOCATE COMP "SPI_CS" SITE "P12" ;
+LOCATE COMP "SPI_CLK" SITE "T15" ;
+LOCATE COMP "LED_YELLOW" SITE "R16" ;
+LOCATE COMP "LED_RED" SITE "P15" ;
+LOCATE COMP "LED_ORANGE" SITE "N14" ;
+LOCATE COMP "LED_GREEN" SITE "N16" ;
+LOCATE COMP "SPARE_LVDS" SITE "C4" ;
+LOCATE COMP "SPARE_LINE[3]" SITE "T12" ;
+LOCATE COMP "SPARE_LINE[2]" SITE "R11" ;
+LOCATE COMP "SPARE_LINE[1]" SITE "T14" ;
+LOCATE COMP "SPARE_LINE[0]" SITE "R13" ;
+LOCATE COMP "PWM[16]" SITE "B1" ;
+LOCATE COMP "PWM[15]" SITE "C2" ;
+LOCATE COMP "PWM[14]" SITE "D1" ;
+LOCATE COMP "PWM[13]" SITE "E1" ;
+LOCATE COMP "PWM[12]" SITE "E2" ;
+LOCATE COMP "PWM[11]" SITE "F1" ;
+LOCATE COMP "PWM[10]" SITE "G2" ;
+LOCATE COMP "PWM[9]" SITE "H6" ;
+LOCATE COMP "PWM[8]" SITE "K4" ;
+LOCATE COMP "PWM[7]" SITE "L1" ;
+LOCATE COMP "PWM[6]" SITE "M1" ;
+LOCATE COMP "PWM[5]" SITE "M3" ;
+LOCATE COMP "PWM[4]" SITE "N1" ;
+LOCATE COMP "PWM[3]" SITE "N3" ;
+LOCATE COMP "PWM[2]" SITE "P1" ;
+LOCATE COMP "PWM[1]" SITE "R1" ;
+LOCATE COMP "INP[16]" SITE "M8" ;
+LOCATE COMP "INP[15]" SITE "R9" ;
+LOCATE COMP "INP[14]" SITE "T9" ;
+LOCATE COMP "INP[13]" SITE "N8" ;
+LOCATE COMP "INP[12]" SITE "P8" ;
+LOCATE COMP "INP[11]" SITE "T7" ;
+LOCATE COMP "INP[10]" SITE "M7" ;
+LOCATE COMP "INP[9]" SITE "M6" ;
+LOCATE COMP "INP[8]" SITE "N6" ;
+LOCATE COMP "INP[7]" SITE "R7" ;
+LOCATE COMP "INP[6]" SITE "P6" ;
+LOCATE COMP "INP[5]" SITE "T5" ;
+LOCATE COMP "INP[4]" SITE "R5" ;
+LOCATE COMP "INP[3]" SITE "P4" ;
+LOCATE COMP "INP[2]" SITE "T3" ;
+LOCATE COMP "CON[16]" SITE "C12" ;
+LOCATE COMP "CON[15]" SITE "B13" ;
+LOCATE COMP "CON[14]" SITE "B11" ;
+LOCATE COMP "CON[13]" SITE "A11" ;
+LOCATE COMP "CON[12]" SITE "D10" ;
+LOCATE COMP "CON[11]" SITE "F9" ;
+LOCATE COMP "CON[10]" SITE "B9" ;
+LOCATE COMP "CON[9]" SITE "F8" ;
+LOCATE COMP "CON[8]" SITE "D8" ;
+LOCATE COMP "CON[7]" SITE "C8" ;
+LOCATE COMP "CON[6]" SITE "F7" ;
+LOCATE COMP "CON[5]" SITE "B7" ;
+LOCATE COMP "CON[4]" SITE "D6" ;
+LOCATE COMP "CON[3]" SITE "A3" ;
+LOCATE COMP "CON[2]" SITE "A5" ;
+FREQUENCY NET "clk_osc" 133.000000 MHz ;
+FREQUENCY NET "clk_26" 26.600000 MHz ;
+FREQUENCY NET "clk_i" 133.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

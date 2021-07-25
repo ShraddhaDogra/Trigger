@@ -1,0 +1,1285 @@
+<!DOCTYPE RAM>
+<lattice:project>
+    <spirit:component>
+        <spirit:vendor>LATTICE</spirit:vendor>
+        <spirit:library>LOCAL</spirit:library>
+        <spirit:name>RAM</spirit:name>
+        <spirit:version>1.0</spirit:version>
+        <spirit:fileSets>
+            <spirit:fileset>
+                <spirit:name>Diamond_Synthesis</spirit:name>
+                <spirit:group>synthesis</spirit:group>
+            </spirit:fileset>
+            <spirit:fileset>
+                <spirit:name>Diamond_Simulation</spirit:name>
+                <spirit:group>simulation</spirit:group>
+            </spirit:fileset>
+        </spirit:fileSets>
+        <spirit:componentGenerators/>
+        <spirit:model>
+            <spirit:views/>
+            <spirit:ports>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_ClockA</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_ClockA</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.ClockA</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_ClockB</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_ClockB</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.ClockB</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_ClockEnA</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_ClockEnA</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.ClockEnA</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_ClockEnB</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_ClockEnB</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.ClockEnB</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_ResetA</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_ResetA</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.ResetA</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_ResetB</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_ResetB</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.ResetB</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_WrA</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_WrA</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.WrA</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_WrB</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_WrB</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.WrB</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_AddressA</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_AddressA</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>5</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.AddressA</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_AddressB</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_AddressB</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>7</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.AddressB</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_DataInA</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_DataInA</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>31</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.DataInA</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_DataInB</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_DataInB</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>7</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.DataInB</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_QA</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_QA</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>out</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>31</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.QA</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>spi_dpram_32_to_8_QB</spirit:name>
+                    <spirit:displayName>spi_dpram_32_to_8_QB</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>out</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>7</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">spi_dpram_32_to_8.QB</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+            </spirit:ports>
+        </spirit:model>
+        <spirit:vendorExtensions>
+            <lattice:device>LFE5UM-85F-8MG285C</lattice:device>
+            <lattice:synthesis>synplify</lattice:synthesis>
+            <lattice:date>2015-03-20.14:56:52</lattice:date>
+            <lattice:modified>2015-03-20.15:25:17</lattice:modified>
+            <lattice:diamond>3.4.0.80</lattice:diamond>
+            <lattice:language>VHDL</lattice:language>
+            <lattice:attributes>
+                <lattice:attribute lattice:name="AddComponent">true</lattice:attribute>
+                <lattice:attribute lattice:name="Change4to5">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeConfig">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeConnect">true</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeDevice">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeLocate">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangePack">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangePart">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeSynthesis">false</lattice:attribute>
+                <lattice:attribute lattice:name="Migrate">false</lattice:attribute>
+                <lattice:attribute lattice:name="RemovedComponent">true</lattice:attribute>
+            </lattice:attributes>
+            <lattice:elements/>
+            <lattice:lpc/>
+            <lattice:groups/>
+        </spirit:vendorExtensions>
+    </spirit:component>
+    <spirit:design>
+        <spirit:vendor>LATTICE</spirit:vendor>
+        <spirit:library>LOCAL</spirit:library>
+        <spirit:name>RAM</spirit:name>
+        <spirit:version>1.0</spirit:version>
+        <spirit:componentInstances>
+            <spirit:componentInstance>
+                <spirit:instanceName>spi_dpram_32_to_8</spirit:instanceName>
+                <spirit:componentRef>
+                    <spirit:vendor>Lattice Semiconductor Corporation</spirit:vendor>
+                    <spirit:library>LEGACY</spirit:library>
+                    <spirit:name>RAM_DP_TRUE</spirit:name>
+                    <spirit:version>7.4</spirit:version>
+                    <spirit:fileSets>
+                        <spirit:fileset>
+                            <spirit:name>Diamond_Simulation</spirit:name>
+                            <spirit:group>simulation</spirit:group>
+                            <spirit:file>
+                                <spirit:name>./spi_dpram_32_to_8/spi_dpram_32_to_8.vhd</spirit:name>
+                                <spirit:fileType>vhdlSource</spirit:fileType>
+                            </spirit:file>
+                        </spirit:fileset>
+                        <spirit:fileset>
+                            <spirit:name>Diamond_Synthesis</spirit:name>
+                            <spirit:group>synthesis</spirit:group>
+                            <spirit:file>
+                                <spirit:name>./spi_dpram_32_to_8/spi_dpram_32_to_8.vhd</spirit:name>
+                                <spirit:fileType>vhdlSource</spirit:fileType>
+                            </spirit:file>
+                        </spirit:fileset>
+                    </spirit:fileSets>
+                    <spirit:componentGenerators>
+                        <spirit:componentGenerator spirit:hidden="true" spirit:scope="instance">
+                            <spirit:name>Configuration</spirit:name>
+                            <spirit:apiType>none</spirit:apiType>
+                            <spirit:generatorExe>${sbp_path}/${instance}/generate_core.tcl</spirit:generatorExe>
+                            <spirit:group>CONFIG</spirit:group>
+                        </spirit:componentGenerator>
+                        <spirit:componentGenerator spirit:hidden="true" spirit:scope="instance">
+                            <spirit:name>CreateNGD</spirit:name>
+                            <spirit:apiType>none</spirit:apiType>
+                            <spirit:generatorExe>${sbp_path}/${instance}/generate_ngd.tcl</spirit:generatorExe>
+                            <spirit:group>CONFIG</spirit:group>
+                        </spirit:componentGenerator>
+                    </spirit:componentGenerators>
+                    <spirit:model>
+                        <spirit:views/>
+                        <spirit:ports>
+                            <spirit:port>
+                                <spirit:name>ClockA</spirit:name>
+                                <spirit:displayName>ClockA</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>ClockB</spirit:name>
+                                <spirit:displayName>ClockB</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>ClockEnA</spirit:name>
+                                <spirit:displayName>ClockEnA</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>ClockEnB</spirit:name>
+                                <spirit:displayName>ClockEnB</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>ResetA</spirit:name>
+                                <spirit:displayName>ResetA</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>ResetB</spirit:name>
+                                <spirit:displayName>ResetB</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>WrA</spirit:name>
+                                <spirit:displayName>WrA</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>WrB</spirit:name>
+                                <spirit:displayName>WrB</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>AddressA</spirit:name>
+                                <spirit:displayName>AddressA</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>5</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>AddressB</spirit:name>
+                                <spirit:displayName>AddressB</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>7</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>DataInA</spirit:name>
+                                <spirit:displayName>DataInA</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>31</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>DataInB</spirit:name>
+                                <spirit:displayName>DataInB</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>7</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>QA</spirit:name>
+                                <spirit:displayName>QA</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>out</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>31</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>QB</spirit:name>
+                                <spirit:displayName>QB</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>out</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>7</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                            </spirit:port>
+                        </spirit:ports>
+                    </spirit:model>
+                    <spirit:vendorExtensions>
+                        <lattice:synthesis>synplify</lattice:synthesis>
+                        <lattice:modified>2015-03-20.15:25:17</lattice:modified>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="AddComponent">false</lattice:attribute>
+                            <lattice:attribute lattice:name="BBox">false</lattice:attribute>
+                            <lattice:attribute lattice:name="Change4to5">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeConfig">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeConnect">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeDevice">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeLocate">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangePack">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangePart">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeSynthesis">false</lattice:attribute>
+                            <lattice:attribute lattice:name="CoreType">LPM</lattice:attribute>
+                            <lattice:attribute lattice:name="DCU_RXREFCLK">PRIMARY</lattice:attribute>
+                            <lattice:attribute lattice:name="DCU_TXREFCLK">PRIMARY</lattice:attribute>
+                            <lattice:attribute lattice:name="Migrate">false</lattice:attribute>
+                            <lattice:attribute lattice:name="RemovedComponent">false</lattice:attribute>
+                        </lattice:attributes>
+                        <lattice:elements/>
+                        <lattice:lpc>
+                            <lattice:lpcsection lattice:name="Device"/>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Family</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">ecp5um</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>OperatingCondition</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">COM</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Package</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">CSFBGA285</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>PartName</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">LFE5UM-85F-8MG285C</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>PartType</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">LFE5UM-85F</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>SpeedGrade</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">8</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Status</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">C</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcsection lattice:name="IP"/>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>CoreName</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">RAM_DP_TRUE</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>CoreRevision</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">7.4</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>CoreStatus</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Demo</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>CoreType</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">LPM</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Date</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">03/20/2015</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>ModuleName</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">spi_dpram_32_to_8</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>ParameterFileVersion</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1.0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>SourceFormat</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">VHDL</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Time</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">15:23:04</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>VendorName</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Lattice Semiconductor Corporation</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcsection lattice:name="Parameters"/>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>ByteSize</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">9</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Destination</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Synplicity</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>EDIF</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>EnECC</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Expression</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">BusA(0 to 7)</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>IO</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Init</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>MemFile</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>MemFormat</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">bin</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Optimization</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Speed</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Order</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Big Endian [MSB:LSB]</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Pipeline</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>RAddress</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">64</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>RClockEn</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>RData</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">32</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>ROutputEn</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Reset</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Sync</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Reset1</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Sync</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>VHDL</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Verilog</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>WAddress</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">256</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>WClockEn</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>WData</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">8</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>WOutputEn</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>WriteA</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Normal</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>WriteB</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Normal</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>enByte</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>init_data</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcsection lattice:name="FilesGenerated"/>
+                            <lattice:lpcentry>
+                                <lattice:lpckey></lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">mem</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcsection lattice:name="Command"/>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>cmd_line</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">-w -n spi_dpram_32_to_8 -lang vhdl -synth synplify -bus_exp 7 -bb -arch sa5p00m -type ramdp -device LFE5UM-85F -aaddr_width 6 -widtha 32 -baddr_width 8 -widthb 8 -anum_words 64 -bnum_words 256 -outdataA REGISTERED -outdataB REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init0 -writemodeA NORMAL -writemodeB NORMAL</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                        </lattice:lpc>
+                        <lattice:groups/>
+                    </spirit:vendorExtensions>
+                </spirit:componentRef>
+            </spirit:componentInstance>
+        </spirit:componentInstances>
+        <spirit:adHocConnections>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_ClockA</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_ClockA</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="ClockA" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_ClockA"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_ClockB</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_ClockB</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="ClockB" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_ClockB"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_ClockEnA</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_ClockEnA</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="ClockEnA" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_ClockEnA"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_ClockEnB</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_ClockEnB</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="ClockEnB" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_ClockEnB"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_ResetA</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_ResetA</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="ResetA" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_ResetA"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_ResetB</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_ResetB</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="ResetB" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_ResetB"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_WrA</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_WrA</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="WrA" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_WrA"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_WrB</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_WrB</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="WrB" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_WrB"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressA</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressA</spirit:displayName>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="AddressA" spirit:componentRef="spi_dpram_32_to_8" spirit:left="5"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="spi_dpram_32_to_8_AddressA" spirit:left="5"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressA[0]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressA[0]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressA[0]"/>
+                <spirit:internalPortReference spirit:portRef="AddressA[0]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressA[1]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressA[1]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressA[1]"/>
+                <spirit:internalPortReference spirit:portRef="AddressA[1]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressA[2]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressA[2]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressA[2]"/>
+                <spirit:internalPortReference spirit:portRef="AddressA[2]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressA[3]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressA[3]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressA[3]"/>
+                <spirit:internalPortReference spirit:portRef="AddressA[3]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressA[4]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressA[4]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressA[4]"/>
+                <spirit:internalPortReference spirit:portRef="AddressA[4]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressA[5]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressA[5]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressA[5]"/>
+                <spirit:internalPortReference spirit:portRef="AddressA[5]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressB</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressB</spirit:displayName>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="AddressB" spirit:componentRef="spi_dpram_32_to_8" spirit:left="7"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="spi_dpram_32_to_8_AddressB" spirit:left="7"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressB[0]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressB[0]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressB[0]"/>
+                <spirit:internalPortReference spirit:portRef="AddressB[0]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressB[1]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressB[1]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressB[1]"/>
+                <spirit:internalPortReference spirit:portRef="AddressB[1]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressB[2]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressB[2]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressB[2]"/>
+                <spirit:internalPortReference spirit:portRef="AddressB[2]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressB[3]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressB[3]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressB[3]"/>
+                <spirit:internalPortReference spirit:portRef="AddressB[3]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressB[4]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressB[4]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressB[4]"/>
+                <spirit:internalPortReference spirit:portRef="AddressB[4]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressB[5]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressB[5]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressB[5]"/>
+                <spirit:internalPortReference spirit:portRef="AddressB[5]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressB[6]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressB[6]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressB[6]"/>
+                <spirit:internalPortReference spirit:portRef="AddressB[6]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_AddressB[7]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_AddressB[7]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_AddressB[7]"/>
+                <spirit:internalPortReference spirit:portRef="AddressB[7]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA</spirit:displayName>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="DataInA" spirit:componentRef="spi_dpram_32_to_8" spirit:left="31"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="spi_dpram_32_to_8_DataInA" spirit:left="31"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[0]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[0]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[0]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[0]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[10]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[10]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[10]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[10]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[11]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[11]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[11]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[11]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[12]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[12]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[12]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[12]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[13]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[13]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[13]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[13]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[14]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[14]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[14]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[14]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[15]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[15]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[15]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[15]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[16]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[16]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[16]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[16]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[17]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[17]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[17]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[17]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[18]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[18]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[18]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[18]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[19]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[19]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[19]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[19]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[1]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[1]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[1]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[1]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[20]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[20]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[20]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[20]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[21]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[21]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[21]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[21]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[22]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[22]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[22]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[22]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[23]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[23]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[23]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[23]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[24]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[24]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[24]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[24]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[25]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[25]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[25]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[25]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[26]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[26]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[26]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[26]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[27]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[27]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[27]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[27]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[28]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[28]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[28]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[28]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[29]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[29]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[29]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[29]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[2]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[2]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[2]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[2]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[30]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[30]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[30]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[30]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[31]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[31]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[31]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[31]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[3]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[3]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[3]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[3]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[4]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[4]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[4]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[4]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[5]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[5]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[5]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[5]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[6]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[6]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[6]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[6]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[7]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[7]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[7]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[7]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[8]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[8]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[8]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[8]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInA[9]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInA[9]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInA[9]"/>
+                <spirit:internalPortReference spirit:portRef="DataInA[9]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInB</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInB</spirit:displayName>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="DataInB" spirit:componentRef="spi_dpram_32_to_8" spirit:left="7"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="spi_dpram_32_to_8_DataInB" spirit:left="7"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInB[0]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInB[0]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInB[0]"/>
+                <spirit:internalPortReference spirit:portRef="DataInB[0]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInB[1]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInB[1]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInB[1]"/>
+                <spirit:internalPortReference spirit:portRef="DataInB[1]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInB[2]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInB[2]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInB[2]"/>
+                <spirit:internalPortReference spirit:portRef="DataInB[2]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInB[3]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInB[3]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInB[3]"/>
+                <spirit:internalPortReference spirit:portRef="DataInB[3]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInB[4]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInB[4]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInB[4]"/>
+                <spirit:internalPortReference spirit:portRef="DataInB[4]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInB[5]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInB[5]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInB[5]"/>
+                <spirit:internalPortReference spirit:portRef="DataInB[5]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInB[6]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInB[6]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInB[6]"/>
+                <spirit:internalPortReference spirit:portRef="DataInB[6]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_DataInB[7]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_DataInB[7]</spirit:displayName>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_DataInB[7]"/>
+                <spirit:internalPortReference spirit:portRef="DataInB[7]" spirit:componentRef="spi_dpram_32_to_8"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA</spirit:displayName>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="QA" spirit:componentRef="spi_dpram_32_to_8" spirit:left="31"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="spi_dpram_32_to_8_QA" spirit:left="31"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[0]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[0]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[0]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[0]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[10]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[10]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[10]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[10]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[11]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[11]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[11]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[11]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[12]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[12]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[12]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[12]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[13]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[13]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[13]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[13]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[14]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[14]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[14]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[14]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[15]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[15]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[15]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[15]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[16]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[16]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[16]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[16]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[17]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[17]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[17]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[17]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[18]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[18]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[18]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[18]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[19]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[19]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[19]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[19]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[1]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[1]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[1]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[1]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[20]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[20]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[20]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[20]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[21]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[21]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[21]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[21]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[22]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[22]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[22]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[22]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[23]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[23]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[23]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[23]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[24]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[24]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[24]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[24]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[25]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[25]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[25]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[25]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[26]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[26]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[26]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[26]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[27]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[27]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[27]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[27]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[28]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[28]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[28]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[28]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[29]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[29]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[29]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[29]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[2]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[2]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[2]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[2]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[30]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[30]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[30]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[30]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[31]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[31]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[31]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[31]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[3]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[3]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[3]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[3]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[4]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[4]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[4]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[4]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[5]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[5]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[5]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[5]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[6]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[6]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[6]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[6]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[7]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[7]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[7]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[7]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[8]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[8]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[8]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[8]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QA[9]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QA[9]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QA[9]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QA[9]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QB</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QB</spirit:displayName>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="QB" spirit:componentRef="spi_dpram_32_to_8" spirit:left="7"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="spi_dpram_32_to_8_QB" spirit:left="7"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QB[0]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QB[0]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QB[0]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QB[0]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QB[1]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QB[1]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QB[1]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QB[1]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QB[2]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QB[2]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QB[2]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QB[2]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QB[3]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QB[3]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QB[3]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QB[3]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QB[4]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QB[4]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QB[4]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QB[4]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QB[5]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QB[5]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QB[5]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QB[5]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QB[6]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QB[6]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QB[6]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QB[6]"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>spi_dpram_32_to_8_QB[7]</spirit:name>
+                <spirit:displayName>spi_dpram_32_to_8_QB[7]</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="QB[7]" spirit:componentRef="spi_dpram_32_to_8"/>
+                <spirit:externalPortReference spirit:portRef="spi_dpram_32_to_8_QB[7]"/>
+            </spirit:adHocConnection>
+        </spirit:adHocConnections>
+    </spirit:design>
+</lattice:project>

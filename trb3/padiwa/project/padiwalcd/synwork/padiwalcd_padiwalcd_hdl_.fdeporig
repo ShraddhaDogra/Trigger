@@ -1,0 +1,101 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|panda_dirc_wasa|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\padiwa\\project\\padiwalcd\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501910110
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\location.map":1501933410
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\std.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\std1164.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\std_textio.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\numeric.vhd":1501909858
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\arith.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\unsigned.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501909424
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\padiwa\\padiwalcd.vhd":1522684444
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\source\\ffarray.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\source\\pwm.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\source\\spi_slave.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\fifo_1kx8.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\flash.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\flashram.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\pll_shifted_clocks.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\pll.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trbnet\\trb_net_std.vhd":1518799033
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trbnet\\trb_net_components.vhd":1518799033
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trbnet\\trb_net_onewire.vhd":1518799033
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\source\\lcd.vhd":1518812344
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\padiwa_GSI\\pulser\\lcd_config.vhd":1518538000
+0 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd" vhdl
+1 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\ffarray.vhd" vhdl
+2 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd" vhdl
+3 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd" vhdl
+4 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\fifo_1kx8.vhd" vhdl
+5 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd" vhdl
+6 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flashram.vhd" vhdl
+7 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\pll_shifted_clocks.vhd" vhdl
+8 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\pll.vhd" vhdl
+9 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_std.vhd" vhdl
+10 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_components.vhd" vhdl
+11 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd" vhdl
+12 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\lcd.vhd" vhdl
+13 "C:\Users\lavry\Google Drive\FPGA_programming\padiwa\padiwa_GSI\pulser\lcd_config.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 8 3 6 2 1 11 9 10 
+1 7 4 9 
+2 -1
+3 9 
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 9 
+11 9 
+12 13 
+13 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 0 
+2 0 
+3 0 
+4 1 
+5 -1
+6 0 
+7 1 
+8 0 
+9 11 10 3 1 0 
+10 0 
+11 0 
+12 -1
+13 12 
+
+# Design Unit to File Association
+arch work panda_dirc_wasa panda_dirc_wasa_arch 0
+module work panda_dirc_wasa 0
+arch work ffarray ffarray_arch 1
+module work ffarray 1
+arch work pwm_generator pwm_arch 2
+module work pwm_generator 2
+arch work spi_slave spi_slave_arch 3
+module work spi_slave 3
+config work structure_con 4
+arch work fifo_1kx8 structure 4
+module work fifo_1kx8 4
+arch work flash structure 5
+module work flash 5
+config work structure_con 6
+arch work flashram structure 6
+module work flashram 6
+config work structure_con 7
+arch work pll_shifted_clocks structure 7
+module work pll_shifted_clocks 7
+config work structure_con 8
+arch work pll structure 8
+module work pll 8
+arch work trb_net_onewire trb_net_onewire_arch 11
+module work trb_net_onewire 11
+arch work lcd base 12
+module work lcd 12

@@ -1,0 +1,347 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\lcd.vhd":9:7:9:9|Top entity is set to lcd.
+VHDL syntax check successful!
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd changed - recompiling
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 80MB)
+
+
+Process completed successfully.
+# Mon Apr  2 11:54:27 2018
+
+###########################################################]
+Synopsys Verilog Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\efb_define_def.v" (library work)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v" (library work)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\signal_gen_x16.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+
+Process completed successfully.
+# Mon Apr  2 11:54:29 2018
+
+###########################################################]
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":14:7:14:21|Top entity is set to panda_dirc_wasa.
+File C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_components.vhd changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\lcd.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd changed - recompiling
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":15:7:15:21|Synthesizing work.panda_dirc_wasa.panda_dirc_wasa_arch.
+@N: CD231 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":238:15:238:16|Using onehot encoding for type fsm_state. For example, enumeration idle is mapped to "10000".
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":429:53:429:57|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":436:24:436:26|Variable tmp read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":446:53:446:57|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":429:53:429:57|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":436:24:436:26|Variable tmp read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":438:66:438:70|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD603 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":446:53:446:57|Variable count read before being assigned? This may cause a simulation mismatch 
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":161:7:161:13|Signal reset_i is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":162:7:162:15|Signal reset_cnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":175:7:175:9|Signal ram is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":189:7:189:22|Signal last_spi_channel is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":197:7:197:20|Signal flashram_reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":220:7:220:12|Signal inp_or is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":221:7:221:17|Signal inp_long_or is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":222:7:222:18|Signal inp_long_reg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":223:7:223:23|Signal last_inp_long_reg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":226:7:226:19|Signal inp_stretched is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":227:7:227:14|Signal inp_hold is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":228:7:228:15|Signal inp_gated is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":229:7:229:18|Signal inp_hold_reg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":230:7:230:23|Signal last_inp_hold_reg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":245:7:245:20|Signal ram_fsm_data_i is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Signal ffarr_data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":257:7:257:16|Signal ffarr_read is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":10:7:10:21|Synthesizing work.trb_net_onewire.trb_net_onewire_arch.
+@N: CD231 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":36:15:36:16|Using onehot encoding for type state_t. For example, enumeration start is mapped to "10000000000000".
+@N: CD604 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":262:8:262:21|OTHERS clause is not synthesized.
+Post processing for work.trb_net_onewire.trb_net_onewire_arch
+@N: CL189 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":293:6:293:7|Register bit strong_pullup is always 0.
+@N: CL189 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Register bit ram_addr(2) is always 0.
+@W: CL260 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":342:6:342:7|Pruning register bit 2 of ram_addr(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd":7:7:7:19|Synthesizing work.pwm_generator.pwm_arch.
+Post processing for work.pwm_generator.pwm_arch
+@N: CL134 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Found RAM set, depth=16, width=16
+@N: CL134 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\pwm.vhd":28:7:28:9|Found RAM set, depth=16, width=16
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flashram.vhd":14:7:14:14|Synthesizing work.flashram.structure.
+Post processing for work.flashram.structure
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":12:7:12:15|Synthesizing work.spi_slave.spi_slave_arch.
+@N: CD231 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":55:13:55:14|Using onehot encoding for type state_t. For example, enumeration idle is mapped to "100000".
+@W: CD638 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":42:7:42:17|Signal buf_spi_out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 16 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 17 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 18 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 19 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 20 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 21 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 22 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 23 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 24 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 25 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 26 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 27 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 28 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 29 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 30 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":45:7:45:17|Bit 31 of signal output_data is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+Post processing for work.spi_slave.spi_slave_arch
+@W: CL240 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":42:7:42:17|Signal buf_SPI_OUT is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":51:7:51:17|Pruning unused register next_output_cl. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\pll.vhd":14:7:14:9|Synthesizing work.pll.structure.
+Post processing for work.pll.structure
+Post processing for work.panda_dirc_wasa.panda_dirc_wasa_arch
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 0 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 1 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 2 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 3 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 4 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 5 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 6 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 7 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 8 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 9 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 10 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 11 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 12 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 13 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 14 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":256:7:256:16|Bit 15 of signal ffarr_data is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":245:7:245:20|Bit 0 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":245:7:245:20|Bit 1 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":245:7:245:20|Bit 2 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":245:7:245:20|Bit 3 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":245:7:245:20|Bit 4 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":245:7:245:20|Bit 5 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":245:7:245:20|Bit 6 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":245:7:245:20|Bit 7 of signal ram_fsm_data_i is floating -- simulation mismatch possible.
+@W: CL240 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":197:7:197:20|Signal flashram_reset is floating; a simulation mismatch is possible.
+@W: CL271 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":612:0:612:10|Pruning unused bits 11 to 0 of temp_calc_i_2(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":244:7:244:13|Removing unused bit 1 of PROC_DATA_COPY.fsm_job(1 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL167 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":373:0:373:12|Input resetb of instance THE_FLASH_RAM is floating
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":217:7:217:15|All reachable assignments to PROC_TIMER.last_leds(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":217:7:217:15|All reachable assignments to PROC_TIMER.last_leds(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":217:7:217:15|All reachable assignments to PROC_TIMER.last_leds(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":217:7:217:15|All reachable assignments to PROC_TIMER.last_leds(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":247:7:247:21|All reachable assignments to PROC_DATA_COPY.ram_fsm_write_i are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\spi_slave.vhd":56:7:56:11|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd":293:6:293:7|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 14 reachable states with original encodings of:
+   00000000000001
+   00000000000010
+   00000000000100
+   00000000001000
+   00000000010000
+   00000000100000
+   00000001000000
+   00000010000000
+   00000100000000
+   00001000000000
+   00010000000000
+   00100000000000
+   01000000000000
+   10000000000000
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd":239:7:239:17|Trying to extract state machine for register fsm_copydat.
+Extracted state machine for register fsm_copydat
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:03s; Memory used current: 95MB peak: 97MB)
+
+
+Process completed successfully.
+# Mon Apr  2 11:54:37 2018
+
+###########################################################]
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.10_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\efb_define_def.v" (library work)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v" (library work)
+@I::"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\signal_gen_x16.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\signal_gen_x16.v":3:7:3:20|Synthesizing module signal_gen_x16 in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v":1032:7:1032:9|Synthesizing module PUR in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v":494:7:494:9|Synthesizing module GSR in library work.
+@N: CG364 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":50:7:50:12|Synthesizing module UFM_WB in library work.
+@N: CG794 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":144:9:144:13|Using module flash from library work
+@W: CL169 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":246:3:246:8|Pruning unused register sm_addr_MSB. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Optimizing register bit wb_adr_i[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Optimizing register bit wb_adr_i[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Optimizing register bit wb_adr_i[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Pruning register bit 7 of wb_adr_i[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Pruning register bits 3 to 2 of wb_adr_i[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Pruning register bits 6 to 5 of wb_adr_i[6:4]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":246:3:246:8|Sharing sequential element efb_flag. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":227:3:227:8|Pruning unused register wb_adr_i[4]. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\UFM_WB.v":246:3:246:8|Trying to extract state machine for register c_state.
+Extracted state machine for register c_state
+State machine has 62 reachable states with original encodings of:
+   00000000
+   00000001
+   00000010
+   00000011
+   00000100
+   00000101
+   00000110
+   00000111
+   00001000
+   00001001
+   00001010
+   00001011
+   00001100
+   00001101
+   00001110
+   00001111
+   00010000
+   00010001
+   00010010
+   00010011
+   00010100
+   00010101
+   00010110
+   00010111
+   00011000
+   00011001
+   00011010
+   00011011
+   00011100
+   00011101
+   00011110
+   00011111
+   00100000
+   00100001
+   00100010
+   00100011
+   00100100
+   00100101
+   00100110
+   00100111
+   00101000
+   00101001
+   00101010
+   00101011
+   00101100
+   00101101
+   00101110
+   00101111
+   00110000
+   00110001
+   00110010
+   00110011
+   00110100
+   00110101
+   00110110
+   00110111
+   00111000
+   00111001
+   00111010
+   00111011
+   00111100
+   00111101
+@W: CL279 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\signal_gen_x16.v":23:0:23:5|Pruning register bits 15 to 1 of pulse_out[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 75MB)
+
+
+Process completed successfully.
+# Mon Apr  2 11:54:41 2018
+
+###########################################################]
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd":14:7:14:11|Top entity is set to flash.
+File C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_components.vhd changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trbnet\trb_net_onewire.vhd changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\padiwalcd.vhd changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\source\lcd.vhd changed - recompiling
+VHDL syntax check successful!
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd":14:7:14:11|Synthesizing work.flash.structure.
+Post processing for work.flash.structure
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 81MB)
+
+
+Process completed successfully.
+# Mon Apr  2 11:54:44 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\synwork\layer0.srs changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\synwork\layer1.srs changed - recompiling
+File C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\synwork\layer2.srs changed - recompiling
+@W: Z198 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\pll.vhd":113:4:113:12|Unbound component EHXPLLJ of instance PLLInst_0 
+@W: Z198 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flashram.vhd":119:4:119:19|Unbound component DP8KC of instance flashram_0_0_0_0 
+@W: Z198 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd":136:4:136:12|Unbound component EFB of instance EFBInst_0 
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\padiwa\project\padiwalcd\synwork\padiwalcd_padiwalcd_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr  2 11:54:46 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:05s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:21s realtime, 0h:00m:05s cputime
+
+Process completed successfully.
+# Mon Apr  2 11:54:48 2018
+
+###########################################################]

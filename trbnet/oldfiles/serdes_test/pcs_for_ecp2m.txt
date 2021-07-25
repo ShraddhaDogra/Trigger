@@ -1,0 +1,49 @@
+
+# This file is used by the simulation model as well as the ispLEVER bitstream
+# generation process to automatically initialize the PCSC quad to the mode
+# selected in the IPexpress. This file is expected to be modified by the
+# end user to adjust the PCSC quad to the final design requirements.
+
+DEVICE_NAME "LFE2M35E"
+PROTOCOL    "G8B10B" 
+CH0_MODE    "DISABLE" 
+CH1_MODE    "DISABLE" 
+CH2_MODE    "SINGLE" 
+CH3_MODE    "DISABLE" 
+PLL_SRC     "CORE_TXREFCLK" 
+DATARANGE     "MEDHIGH" 
+CH2_CDR_SRC     "CORE_RXREFCLK" 
+CH2_DATA_WIDTH     "16" 
+CH2_REFCK_MULT     "20X" 
+#REFCLK_RATE     100
+#FPGAINTCLK_RATE     100
+CH2_TDRV_AMP     "0" 
+CH2_TX_PRE     "DISABLE" 
+CH2_RTERM_TX     "50" 
+CH2_RX_EQ     "DISABLE" 
+CH2_RTERM_RX     "50" 
+CH2_RX_DCC     "DC" 
+LOS_THRESHOLD     "0" 
+PLL_TERM     "50" 
+PLL_DCC     "DC" 
+PLL_LOL_SET     "0" 
+CH2_TX_SB     "NORMAL" 
+CH2_RX_SB     "NORMAL" 
+CH2_8B10B     "NORMAL" 
+COMMA_A     "1100000101" 
+COMMA_B     "0011111010" 
+COMMA_M     "1111111111" 
+CH2_COMMA_ALIGN     "DYNAMIC" 
+CH2_CTC_BYP     "BYPASS" 
+CC_MATCH1     "0000000000" 
+CC_MATCH2     "0000000000" 
+CC_MATCH3     "0100011100" 
+CC_MATCH4     "0100011100" 
+CC_MATCH_MODE     "MATCH_4" 
+CC_MIN_IPG     "0" 
+CCHMARK     "4" 
+CCLMARK     "4" 
+OS_REFCK2CORE     "1"
+OS_PLLQCLKPORTS     "0"
+OS_INT_ALL     "0"
+

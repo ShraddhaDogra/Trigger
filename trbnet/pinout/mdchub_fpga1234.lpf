@@ -1,0 +1,255 @@
+#####################################################################
+# Default
+#####################################################################
+  IOBUF ALLPORTS IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+  COMMERCIAL ;
+  BLOCK RESETPATHS ;
+  BLOCK ASYNCPATHS ;
+  BLOCK RD_DURING_WR_PATHS;
+
+#####################################################################
+# Clocks & Resets
+#####################################################################
+
+  LOCATE COMP  "RESET_IN"      SITE "AD1";
+  IOBUF  PORT  "RESET_IN"      IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+  LOCATE COMP  "CLK_100_IN"    SITE "M29";
+  IOBUF  PORT  "CLK_100_IN"    IO_TYPE=LVDS25 PULLMODE=NONE ;
+
+  LOCATE COMP  "CLK_125_IN"    SITE "P28";
+  IOBUF  PORT  "CLK_125_IN"    IO_TYPE=LVDS25 PULLMODE=NONE ;
+
+#####################################################################
+# Test connector
+#####################################################################
+  LOCATE COMP  "TEST_LINE_0"    SITE "F7";
+  LOCATE COMP  "TEST_LINE_1"    SITE "D8";
+  LOCATE COMP  "TEST_LINE_2"    SITE "J13";
+  LOCATE COMP  "TEST_LINE_3"    SITE "G11";
+  LOCATE COMP  "TEST_LINE_4"    SITE "H13";
+  LOCATE COMP  "TEST_LINE_5"    SITE "H12";
+  LOCATE COMP  "TEST_LINE_6"    SITE "E8";
+  LOCATE COMP  "TEST_LINE_7"    SITE "D9";
+  LOCATE COMP  "TEST_LINE_8"    SITE "D12";
+  LOCATE COMP  "TEST_LINE_9"    SITE "E13";
+  LOCATE COMP  "TEST_LINE_10"   SITE "J12";
+  LOCATE COMP  "TEST_LINE_11"   SITE "H10";
+  LOCATE COMP  "TEST_LINE_12"   SITE "E12";
+  LOCATE COMP  "TEST_LINE_13"   SITE "D11";
+  LOCATE COMP  "TEST_LINE_14"   SITE "H11";
+  LOCATE COMP  "TEST_LINE_15"   SITE "F11";
+
+  DEFINE PORT GROUP "TEST_LINE_group" "TEST_LINE*" ;
+  IOBUF  GROUP "TEST_LINE_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+
+#####################################################################
+# Flash & Reboot Control
+#####################################################################
+
+  LOCATE COMP  "PROGRAMB_OUT"    SITE "AD3";
+  IOBUF  PORT  "PROGRAMB_OUT" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+  LOCATE COMP  "SPI_CLK_OUT"   SITE "T8";  # LOGIC_SPI_CLK_FPGA
+  LOCATE COMP  "SPI_CS_OUT"    SITE "U7";  # LOGIC_SPI_CS_FPGA
+  LOCATE COMP  "SPI_SI_OUT"    SITE "R3";  # LOGIC_SPI_INP_FPGA
+  LOCATE COMP  "SPI_SO_IN"     SITE "R2";  # LOGIC_SPI_OUT_FPGA
+  DEFINE PORT GROUP "SPI_group" "SPI*" ;
+  IOBUF  GROUP "SPI_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+  LOCATE COMP "FPGA_NUMBER_IN_0" SITE "J18";
+  LOCATE COMP "FPGA_NUMBER_IN_1" SITE "J19";
+  DEFINE PORT GROUP "FPGA_group" "FPGA_NUMBER*" ;
+  IOBUF  GROUP "FPGA_group" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+#####################################################################
+# FOT Control
+#####################################################################
+  LOCATE COMP  "SD_1"   SITE "Y1";
+  LOCATE COMP  "SD_2"   SITE "Y6";
+  LOCATE COMP  "SD_3"   SITE "Y3";
+  LOCATE COMP  "SD_4"   SITE "Y8";
+  LOCATE COMP  "SD_5"   SITE "AB2";
+  LOCATE COMP  "SD_6"   SITE "AA6";
+  LOCATE COMP  "SD_7"   SITE "AA8";
+  LOCATE COMP  "SD_8"   SITE "AC2";
+  DEFINE PORT GROUP "SD_group" "SD*" ;
+  IOBUF  GROUP "SD_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+#####################################################################
+# LED
+#####################################################################
+  LOCATE COMP  "LED_RX_1"   SITE "Y4";
+  LOCATE COMP  "LED_RX_2"   SITE "Y5";
+  LOCATE COMP  "LED_RX_3"   SITE "AA1";
+  LOCATE COMP  "LED_RX_4"   SITE "AB1";
+  LOCATE COMP  "LED_RX_5"   SITE "Y7";
+  LOCATE COMP  "LED_RX_6"   SITE "AB3";
+  LOCATE COMP  "LED_RX_7"   SITE "AB4";
+  LOCATE COMP  "LED_RX_8"   SITE "AA9";
+  DEFINE PORT GROUP "LEDRX_group" "LED_RX*" ;
+  IOBUF  GROUP "LEDRX_group" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+  LOCATE COMP  "LED_NC_1"   SITE "W2";
+  LOCATE COMP  "LED_NC_2"   SITE "Y2";
+  LOCATE COMP  "LED_NC_3"   SITE "AA2";
+  LOCATE COMP  "LED_NC_4"   SITE "Y9";
+  LOCATE COMP  "LED_NC_5"   SITE "AA7";
+  LOCATE COMP  "LED_NC_6"   SITE "AA5";
+  LOCATE COMP  "LED_NC_7"   SITE "AB5";
+  LOCATE COMP  "LED_NC_8"   SITE "AC1";
+  DEFINE PORT GROUP "LEDNC_group" "LED_NC*" ;
+  IOBUF  GROUP "LEDNC_group" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+  LOCATE COMP  "LED_GREEN"     SITE "N9";
+  LOCATE COMP  "LED_ORANGE"    SITE "K1";
+  LOCATE COMP  "LED_RED"       SITE "J3";
+  LOCATE COMP  "LED_YELLOW"    SITE "J1";
+  IOBUF  PORT  "LED_GREEN"  IO_TYPE=LVCMOS25 PULLMODE=UP ;
+  IOBUF  PORT  "LED_ORANGE" IO_TYPE=LVCMOS25 PULLMODE=UP ;
+  IOBUF  PORT  "LED_RED"    IO_TYPE=LVCMOS25 PULLMODE=UP ;
+  IOBUF  PORT  "LED_YELLOW" IO_TYPE=LVCMOS25 PULLMODE=UP ;
+
+#####################################################################
+# Onewire
+#####################################################################
+  LOCATE COMP "ONEWIRE_MONITOR_IN"   SITE "Y27";
+  IOBUF  PORT "ONEWIRE_MONITOR_IN" IO_TYPE=LVCMOS25 PULLMODE=UP ;
+
+#####################################################################
+# Inter-FPGA LVDS/LVCMOS
+#####################################################################
+  LOCATE COMP  "F5_0"    SITE "U26";
+  LOCATE COMP  "F5_1"    SITE "V26";
+  LOCATE COMP  "F5_2"    SITE "V23";
+  LOCATE COMP  "F5_3"    SITE "U23";
+  LOCATE COMP  "F5_4"    SITE "U27";
+  LOCATE COMP  "F5_5"    SITE "U28";
+  LOCATE COMP  "F5_6"    SITE "V25";
+  LOCATE COMP  "F5_7"    SITE "V24";
+  LOCATE COMP  "F5_8"    SITE "W28";
+  LOCATE COMP  "F5_9"    SITE "W27";
+  LOCATE COMP  "F5_10"   SITE "U30";
+  LOCATE COMP  "F5_11"   SITE "V30";
+  LOCATE COMP  "F5_12"   SITE "V29";
+  LOCATE COMP  "F5_13"   SITE "U29";
+  LOCATE COMP  "F5_14"   SITE "W26";
+  LOCATE COMP  "F5_15"   SITE "W25";
+  LOCATE COMP  "F5_16"   SITE "W29";
+  LOCATE COMP  "F5_17"   SITE "W30";
+  LOCATE COMP  "F5_18"   SITE "Y26";
+#   LOCATE COMP  "F_19"   SITE "Y27";
+  DEFINE PORT GROUP "F5_group" "F5*" ;
+  IOBUF  GROUP "F5_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN ;
+
+  LOCATE COMP  "MESHX_0"    SITE "K6";
+  LOCATE COMP  "MESHX_1"    SITE "K5";
+  LOCATE COMP  "MESHX_2"    SITE "L8";
+  LOCATE COMP  "MESHX_3"    SITE "L6";
+  LOCATE COMP  "MESHX_4"    SITE "H3";
+  LOCATE COMP  "MESHX_5"    SITE "H2";
+
+  LOCATE COMP  "MESHY_0"    SITE "G5";
+  LOCATE COMP  "MESHY_1"    SITE "G4";
+  LOCATE COMP  "MESHY_2"    SITE "K7";
+  LOCATE COMP  "MESHY_3"    SITE "K8";
+  LOCATE COMP  "MESHY_4"    SITE "E1";
+  LOCATE COMP  "MESHY_5"    SITE "F2";
+
+  LOCATE COMP  "MESHZ_0"    SITE "H5";
+  LOCATE COMP  "MESHZ_1"    SITE "H4";
+  LOCATE COMP  "MESHZ_2"    SITE "J5";
+  LOCATE COMP  "MESHZ_3"    SITE "J4";
+  LOCATE COMP  "MESHZ_4"    SITE "G2";
+  LOCATE COMP  "MESHZ_5"    SITE "G1";
+  DEFINE PORT GROUP "MESH_group" "MESH*" ;
+  IOBUF  GROUP "MESH_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN ;
+
+#####################################################################
+# Unused Locates
+#####################################################################
+# LOCATE COMP  "TXN_1"    SITE "B26";
+# LOCATE COMP  "TXN_2"    SITE "B25";
+# LOCATE COMP  "TXN_3"    SITE "B23";
+# LOCATE COMP  "TXN_4"    SITE "B22";
+# LOCATE COMP  "TXN_5"    SITE "B9";
+# LOCATE COMP  "TXN_6"    SITE "B8";
+# LOCATE COMP  "TXN_7"    SITE "B6";
+# LOCATE COMP  "TXN_8"    SITE "B5";
+# LOCATE COMP  "TXP_1"    SITE "A26";
+# LOCATE COMP  "TXP_2"    SITE "A25";
+# LOCATE COMP  "TXP_3"    SITE "A23";
+# LOCATE COMP  "TXP_4"    SITE "A22";
+# LOCATE COMP  "TXP_5"    SITE "A9";
+# LOCATE COMP  "TXP_6"    SITE "A8";
+# LOCATE COMP  "TXP_7"    SITE "A6";
+# LOCATE COMP  "TXP_8"    SITE "A5";
+
+# LOCATE COMP  "RXN_1"    SITE "B29";
+# LOCATE COMP  "RXN_2"    SITE "B28";
+# LOCATE COMP  "RXN_3"    SITE "B20";
+# LOCATE COMP  "RXN_4"    SITE "B19";
+# LOCATE COMP  "RXN_5"    SITE "B12";
+# LOCATE COMP  "RXN_6"    SITE "B11";
+# LOCATE COMP  "RXN_7"    SITE "B3";
+# LOCATE COMP  "RXN_8"    SITE "B2";
+# LOCATE COMP  "RXP_1"    SITE "A29";
+# LOCATE COMP  "RXP_2"    SITE "A28";
+# LOCATE COMP  "RXP_3"    SITE "A20";
+# LOCATE COMP  "RXP_4"    SITE "A19";
+# LOCATE COMP  "RXP_5"    SITE "A12";
+# LOCATE COMP  "RXP_6"    SITE "A11";
+# LOCATE COMP  "RXP_7"    SITE "A3";
+# LOCATE COMP  "RXP_8"    SITE "A2";
+
+# LOCATE COMP  "S100_1TO5_OUTN"   SITE "AJ9";
+# LOCATE COMP  "S125_1TO5_INP"    SITE "AK29";
+# LOCATE COMP  "S100_1TO5_OUTP"   SITE "AK9";
+# LOCATE COMP  "S125_1TO5_INN"    SITE "AJ29";
+# LOCATE COMP  "S125_1TO5_OUTN"   SITE "AJ26";
+# LOCATE COMP  "S100_1TO5_INN"    SITE "AJ12";
+# LOCATE COMP  "S100_1TO5_INP"    SITE "AK12";
+# LOCATE COMP  "S125_1TO5_OUTP"   SITE "AK26";
+
+# LOCATE COMP  "LLC_INN3_FPGA"    SITE "AJ2";
+# LOCATE COMP  "LLC_INN2_FPGA"    SITE "AJ3";
+# LOCATE COMP  "LLC_INN1_FPGA"    SITE "AJ11";
+# LOCATE COMP  "LLC_INP1_FPGA"    SITE "AK11";
+# LOCATE COMP  "LLC_INP2_FPGA"    SITE "AK3";
+# LOCATE COMP  "LLC_INP3_FPGA"    SITE "AK2";
+# LOCATE COMP  "LLC_OUTN1_FPGA"   SITE "AJ8";
+# LOCATE COMP  "LLC_OUTN2_FPGA"   SITE "AJ6";
+# LOCATE COMP  "LLC_OUTN3_FPGA"   SITE "AJ5";
+# LOCATE COMP  "LLC_OUTP1_FPGA"   SITE "AK8";
+# LOCATE COMP  "LLC_OUTP2_FPGA"   SITE "AK6";
+# LOCATE COMP  "LLC_OUTP3_FPGA"   SITE "AK5";
+
+# LOCATE COMP  "LRC_INN2_FPGA"    SITE "AJ20";
+# LOCATE COMP  "LRC_INP2_FPGA"    SITE "AK20";
+# LOCATE COMP  "LRC_OUTN2_FPGA"   SITE "AJ23";
+# LOCATE COMP  "LRC_OUTP2_FPGA"   SITE "AK23";
+
+# LOCATE COMP  "DONE_FPGA"    SITE "AF27";
+# LOCATE COMP  "INITN_FPGA"   SITE "AC24";
+# LOCATE COMP  "JTAG_TCK"     SITE "AE2";
+# LOCATE COMP  "JTAG_TDI"     SITE "AE1";
+# LOCATE COMP  "JTAG_TMS"     SITE "AF2";
+
+# LOCATE COMP  "S_F4TOF1_INP"   SITE "AK25";
+# LOCATE COMP  "S_F1TOF2_INP"   SITE "AK19";
+# LOCATE COMP  "S_F1TOF2_INN"   SITE "AJ19";
+# LOCATE COMP  "S_F1TOF2_OUTN"    SITE "AJ22";
+# LOCATE COMP  "S_F4TOF1_OUTN"    SITE "AJ28";
+# LOCATE COMP  "S_F4TOF1_OUTP"    SITE "AK28";
+# LOCATE COMP  "S_F1TOF2_OUTP"    SITE "AK22";
+# LOCATE COMP  "S_F4TOF1_INN"   SITE "AJ25";
+
+# LOCATE COMP  "SPI_CLK_FPGA"   SITE "AG29";
+# LOCATE COMP  "SPI_CS_FPGA"    SITE "AA22";
+# LOCATE COMP  "SPI_FAST_FPGA"    SITE "AF29";
+# LOCATE COMP  "SPI_IN_FPGA"    SITE "AA23";
+# LOCATE COMP  "SPI_OUT_FPGA"   SITE "AD30";
+
+# LOCATE COMP  "TDO_F_1"    SITE "AF1";

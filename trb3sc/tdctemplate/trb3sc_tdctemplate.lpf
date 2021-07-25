@@ -1,0 +1,9 @@
+# MULTICYCLE FROM CLKNET "clk_sys" TO CLKNET "clk_full_osc" 1 X ;
+# MULTICYCLE FROM CLKNET "clk_full_osc" TO CLKNET "clk_sys" 2 X ;
+
+# MULTICYCLE FROM CELL "THE_CLOCK_RESET/THE_RESET_HANDLER/final_reset*" CLKNET clk_sys TO CLKNET clk_sys 5x;
+# MULTICYCLE FROM CELL "THE_CLOCK_RESET/THE_RESET_HANDLER/final_reset*" CLKNET clk_sys TO CELL "THE_TDC/*Channe*/Channel200/RingBuffer*FIFO/*" 5x;
+# 
+# MULTICYCLE FROM CELL "THE_TDC/reset_tdc*" TO CLKNET clk_full_osc 2x;
+# MULTICYCLE FROM CELL "THE_TDC/reset_tdc*" TO CLKNET clk_full 2x;
+

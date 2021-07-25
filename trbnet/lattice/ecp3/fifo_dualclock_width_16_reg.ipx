@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="fifo_dualclock_width_16_reg" module="FIFO_DC" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2011 09 12 18:17:57.061" version="5.4" type="Module" synthesis="" source_format="VHDL">
+  <Package>
+		<File name="fifo_dualclock_width_16_reg.lpc" type="lpc" modified="2011 09 12 18:17:55.000"/>
+		<File name="fifo_dualclock_width_16_reg.vhd" type="top_level_vhdl" modified="2011 09 12 18:17:55.000"/>
+		<File name="fifo_dualclock_width_16_reg_tmpl.vhd" type="template_vhdl" modified="2011 09 12 18:17:55.000"/>
+		<File name="tb_fifo_dualclock_width_16_reg_tmpl.vhd" type="testbench_vhdl" modified="2011 09 12 18:17:55.000"/>
+  </Package>
+</DiamondModule>

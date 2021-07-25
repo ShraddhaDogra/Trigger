@@ -1,0 +1,4 @@
+vhdl work "../trb_net_std.vhd"
+vhdl work "../trb_net_fifo.vhd"
+vhdl work "../trb_net_obuf.vhd"
+vhdl work "trb_net_obuf_testbench.vhd"

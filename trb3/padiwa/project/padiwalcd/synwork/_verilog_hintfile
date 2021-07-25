@@ -1,0 +1,178 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501910110
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\location.map":1501933410
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\std.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\std1164.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\std_textio.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\numeric.vhd":1501909858
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\arith.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd2008\\unsigned.vhd":1501909424
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\source\\pwm.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\fifo_1kx8.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\flash.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\flashram.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\pll_shifted_clocks.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\cores\\pll.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trbnet\\trb_net_std.vhd":1518799033
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\padiwa_GSI\\pulser\\lcd_config.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\source\\ffarray.vhd":1518538000
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\source\\spi_slave.vhd":1518538000
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1501914216
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trbnet\\trb_net_components.vhd":1518799033
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trbnet\\trb_net_onewire.vhd":1518799033
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\padiwa\\padiwalcd.vhd":1522684444
+#CUR:"C:\\Users\\lavry\\Google Drive\\FPGA_programming\\padiwa\\trb3\\wasa\\source\\lcd.vhd":1518812344
+@E8lFkRDCD
+O8DsHLNRs$I	Fs
+bHMkB0Rp4iR
+bHMk)0R a1 RF4
+kk0b0mRv14QR
+0FkbRk01RBi4k
+F00bkRR7B4k
+F00bkRRB14k
+F00bkRa)1RH4
+M0bkRuQhz.aR6Fn
+kk0b0 Rp7
+RcClM8FD8kCF
+l8CkDRMbN88N_H_sOINN#
+LDHs$NsRsIF	N
+bsCNl0RCsuQq7Wwq_pmqezH)RMo0CCbs
+NlsNCs0CRva um_B)B) ahQmR0HMCsoC
+sbNN0lCCasR7 Ba1HaRMo0CCFs
+kk0b0mRBh4R-
+bHMkQ0Rh-uR4k
+F00bkRvuWR
+-4Fbk0k10Ru q)_hpQ 4R-
+0FkbRk01)uq e_p7-1R4k
+F00bkR7p _ t) -hR4k
+F00bkR7p _qm)hRt -F4
+kk0b0 Rp7 _)74R-
+0FkbRk0p_ 7Yp pm-WR4M
+HbRk01_uQBRpi-H4
+M0bkRQ1u_RB1-H4
+M0bkRQ1u_RQh-F4
+kk0b0uR1Qz_ma4R-
+FHMka0R _vup QhR
+-4Fbk0ka0R _1ap QhR
+-4ClM8FD8kCF
+l8CkDRL0s_0MC_CFMICHs
+LDHs$NsRsIF	N
+bsCNl0RCsz_1 au v a)qz_) )7 qmRzaHCM0o
+CsbNNslCC0sqRu)Qq1a_QBv m7R0HMCsoC
+sbNN0lCCBsRpui_ m)Q7MRH0CCosM
+HbRk0BRpi-H4
+M0bkR1)  -aR4M
+HbRk0)7 qm_za AhqpQ _h4R-
+FHMkm0RhQ W)- R4k
+F00bkRhvmQ)am_amzR
+-4Fbk0k70Rq_aqmRza-F4
+kk0b07Rq7m)_z-aR4k
+F00bkRQW)am _z-aR4k
+F00bkRva uz_ma4R-
+0FkbRk0Qm7_z-aR4k
+F00bkRq1aa4R-
+8CMlkF8DlC
+FD8kCbR#HD_#N
+PCDsHLNRs$I	Fs
+bHMkB0Rp4iR
+bHMk10RuBQ_p4iR
+bHMk10RuBQ_1
+R4HkMb0uR1Qh_QRF4
+kk0b0uR1Qz_ma
+R4Fbk0k70Rq_aqmRza4Hn
+M0bkRt) jQj_hnR4
+bHMk)0R jt4_RQh4Hn
+M0bkRt) .Qj_hnR4
+bHMk)0R jtc_RQh4Fn
+kk0b0uRm a)qQ_mhmRzack
+F00bkRqB]hph _amzRFU
+kk0b0)RWQ_a mRza4Fn
+kk0b0 R7A_ztmRza4Cn
+MF8l8CkD
+8lFkRDCVsVNs
+N$DsHLNRs$I	Fs
+bHMkB0Rp4iR
+bHMk)0R a1 _RQh4M
+HbRk01hQtqQp_h
+R4Fbk0k70Rq_aqmRzaUM
+HbRk0)7 q_RQh4k
+F00bkRu vamY_z4aR
+8CMlkF8DlC
+FD8kCDRbDH
+DLssN$FRIsH	
+M0bkRiBpQ
+R4Fbk0kB0RpuimRF4
+kk0b0pRBiRm14k
+F00bkRBpmi
+R4ClM8FD8kCF
+l8CkDRDbD_H#EV80C_FODO
+	#DsHLNRs$I	Fs
+bHMkB0RpRiQ4k
+F00bkRiBpm4uR
+0FkbRk0Bmpi1
+R4Fbk0kB0Rp1im.
+R4Fbk0kB0Rp1imd
+R4ClM8FD8kCF
+l8CkDRNVD#NEslH
+DLssN$FRIsH	
+M0bkR07NNqQMRHU
+M0bkR07NNAQMRHU
+M0bkR8q8s#C#q
+RcHkMb08Rq8#sC#cAR
+bHMkB0RD	FOq
+R4HkMb0DRBFAO	RH4
+M0bkRFBDOM	 q
+R4HkMb0DRBF O	M4AR
+bHMkW0Rs4qR
+bHMkW0Rs4AR
+bHMk)0RC0#Cq
+R4HkMb0CR)#AC0RF4
+kk0b0qRTRFU
+kk0b0ARTRCU
+MF8l8CkD
+8lFkRDCV#DNEH
+DLssN$FRIsH	
+M0bkR_ILO_D	H
+R4HkMb0LRI_0s#_4HR
+bHMkI0RL$_OOR_H4M
+HbRk0I#L_0HL_RH4
+M0bkR_ILIHC_RH4
+M0bkR_ILN_8sH
+RUHkMb0LRI_08N_UHR
+0FkbRk0I8L_NF0_RFU
+kk0b0LRI_	NO_4FR
+0FkbRk0I_LOk_VlHRsJ4M
+C88lFk
+DClkF8DVCRH_VF4U	G
+LDHs$NsRsIF	M
+HbRk07NN0RHU
+M0bkRBWsD	FORH4
+M0bkRB)8D	FORH4
+M0bkR WsM
+R4HkMb08R) 4MR
+bHMk)0RC0#CRH4
+M0bkR))uC0#CRF4
+kk0b0RRTUk
+F00bkRb l04$R
+0FkbRk0wDkDRF4
+kk0b0DRql0F# 0lb$
+R4Fbk0kq0RD#lF0DwkD
+R4ClM8FD8kCF
+l8CkDRlbI_MoCC0sNFDs
+HNLssI$RF
+s	HkMb0pRBi
+R4HkMb0qR7aQq_hnR4
+0FkbRk07qqa_amzR
+4nHkMb0)RWQ_a Q4hR
+bHMkB0Rm_vuQ4hRnM
+HbRk0q)77_RQhck
+F00bkRvuWR
+d.ClM8FD8kC
+
+
+
+
+@ 

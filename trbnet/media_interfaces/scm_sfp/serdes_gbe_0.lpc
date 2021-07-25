@@ -1,0 +1,55 @@
+[Device]
+Family=latticescm
+PartType=LFSCM3GA40EP1
+PartName=LFSCM3GA40EP1-7FF1020C
+SpeedGrade=-7
+Package=FFBGA1020
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=PCS
+CoreRevision=8.1
+ModuleName=serdes_gbe_0
+SourceFormat=VHDL
+ParameterFileVersion=1.0
+Date=06/29/2010
+Time=11:08:26
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+QuadMode=Gigabit Ethernet
+enChannel0=1
+enChannel1=0
+enChannel2=0
+enChannel3=0
+enAlign0=0
+enAlign1=0
+enAlign2=0
+enControlPorts=1
+enSystemBus=0
+en10gLsm=0
+ClkSelect=All Reference Clocks
+BitClkRate=2
+RefClkMult=20X
+RefClkRate=100
+BusWidth=16
+IntClkRate=100
+AmpBoost=Disabled
+Bit1=1
+Word1=FF
+Bit2=1
+Word2=7C
+Bit3=1
+Word3=7C
+enQuad=0
+QuadGroup=Group 0

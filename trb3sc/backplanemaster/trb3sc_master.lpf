@@ -1,0 +1,179 @@
+LOCATE COMP          "THE_MEDIA_INT_MIXED/THE_SERDES/PCSD_INST"  SITE "PCSB" ;
+LOCATE COMP          "THE_MEDIA_4_DOWN/THE_SERDES/PCSD_INST"  SITE "PCSA" ;
+LOCATE COMP          "THE_MEDIA_4_DOWN2/THE_SERDES/PCSD_INST" SITE "PCSC" ;
+LOCATE COMP          "gen_PCSD.THE_MEDIA_PCSD/gen_pcs0.THE_SERDES/PCSD_INST" SITE "PCSD" ;
+
+#REGION               "MEDIA_DOWN1" "R93C10D" 22 160;
+#REGION               "MEDIA_DOWN1" "R100C40D" 15 100;
+#LOCATE UGROUP        "THE_MEDIA_4_DOWN/media_interface_group" REGION "MEDIA_DOWN1" ;
+
+LOCATE COMP "gen_GBE.GBE/physical_impl_gen.physical/impl_gen.gbe_serdes/PCSD_INST" SITE "PCSD";
+
+REGION               "MEDIA_A" "R75C100D"  45 46;
+REGION               "MEDIA_B" "R75C50D"  45 46;
+REGION               "MEDIA_C" "R75C135D" 45 46;
+REGION               "MEDIA_D" "R75C19D"  40 36;
+
+LOCATE UGROUP        "THE_MEDIA_4_DOWN/media_interface_group" REGION "MEDIA_A" ;
+LOCATE UGROUP        "THE_MEDIA_INT_MIXED/media_interface_group" REGION "MEDIA_B" ;
+LOCATE UGROUP        "THE_MEDIA_4_DOWN2/media_interface_group" REGION "MEDIA_C" ;
+LOCATE UGROUP        "gen_PCSD.THE_MEDIA_PCSD/media_interface_group" REGION "MEDIA_D" ;
+
+
+
+MULTICYCLE TO CELL   "THE_MEDIA_4_DOW*/sci*" 20 ns;
+MULTICYCLE FROM CELL "THE_MEDIA_4_DOW*/sci*" 20 ns;
+MULTICYCLE TO CELL   "THE_MEDIA_4_DOW*/PROC_SCI_CTRL.wa*" 20 ns;
+BLOCK PATH TO   CLKNET "THE_MEDIA_4_DOW*/sci_write_i";
+BLOCK PATH FROM CLKNET "THE_MEDIA_4_DOW*/sci_write_i";
+BLOCK PATH TO   CLKNET "THE_MEDIA_4_DOW*/sci_read_i";
+BLOCK PATH FROM CLKNET "THE_MEDIA_4_DOW*/sci_read_i";
+MULTICYCLE TO CLKNET    "THE_MEDIA_4_DOW*/sci_read_i" 15 ns; 
+MULTICYCLE FROM CLKNET  "THE_MEDIA_4_DOW*/sci_read_i" 15 ns; 
+MULTICYCLE TO CLKNET    "THE_MEDIA_4_DOW*/sci_write_i" 15 ns; 
+MULTICYCLE FROM CLKNET  "THE_MEDIA_4_DOW*/sci_write_i" 15 ns; 
+
+
+MULTICYCLE TO CELL   "THE_MEDIA_INTERFACE/sci*" 20 ns;
+MULTICYCLE FROM CELL "THE_MEDIA_INTERFACE/sci*" 20 ns;
+MULTICYCLE TO CELL   "THE_MEDIA_INTERFACE/PROC_SCI_CTRL.wa*" 20 ns;
+BLOCK PATH TO   CLKNET "THE_MEDIA_INTERFACE/sci_write_i";
+BLOCK PATH FROM CLKNET "THE_MEDIA_INTERFACE/sci_write_i";
+BLOCK PATH TO   CLKNET "THE_MEDIA_INTERFACE/sci_read_i";
+BLOCK PATH FROM CLKNET "THE_MEDIA_INTERFACE/sci_read_i";
+MULTICYCLE TO CLKNET    "THE_MEDIA_INTERFACE/sci_read_i" 15 ns; 
+MULTICYCLE FROM CLKNET  "THE_MEDIA_INTERFACE/sci_read_i" 15 ns; 
+MULTICYCLE TO CLKNET    "THE_MEDIA_INTERFACE/sci_write_i" 15 ns; 
+MULTICYCLE FROM CLKNET  "THE_MEDIA_INTERFACE/sci_write_i" 15 ns; 
+
+
+MULTICYCLE TO CELL   "gen_PCSD.THE_MEDIA_PCSD/sci*" 20 ns;
+MULTICYCLE FROM CELL "gen_PCSD.THE_MEDIA_PCSD/sci*" 20 ns;
+MULTICYCLE TO CELL   "gen_PCSD.THE_MEDIA_PCSD/PROC_SCI_CTRL.wa*" 20 ns;
+BLOCK PATH TO   CLKNET "gen_PCSD.THE_MEDIA_PCSD/sci_write_i";
+BLOCK PATH FROM CLKNET "gen_PCSD.THE_MEDIA_PCSD/sci_write_i";
+BLOCK PATH TO   CLKNET "gen_PCSD.THE_MEDIA_PCSD/sci_read_i";
+BLOCK PATH FROM CLKNET "gen_PCSD.THE_MEDIA_PCSD/sci_read_i";
+MULTICYCLE TO CLKNET    "gen_PCSD.THE_MEDIA_PCSD/sci_read_i" 15 ns; 
+MULTICYCLE FROM CLKNET  "gen_PCSD.THE_MEDIA_PCSD/sci_read_i" 15 ns; 
+MULTICYCLE TO CLKNET    "gen_PCSD.THE_MEDIA_PCSD/sci_write_i" 15 ns; 
+MULTICYCLE FROM CLKNET  "gen_PCSD.THE_MEDIA_PCSD/sci_write_i" 15 ns; 
+
+MULTICYCLE TO ASIC  "THE_MEDIA*/THE_SERDES/PCSD_INST" PIN SCIRD 15 ns;
+MAXDELAY   TO ASIC  "THE_MEDIA*/THE_SERDES/PCSD_INST" PIN SCIRD 15 ns;
+
+# 
+# #GbE Part
+# UGROUP "tsmac"
+#    BLKNAME GBE/imp_gen.MAC
+#    BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES
+#    BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SGMII_GBE_PCS
+#    BLKNAME GBE/rx_enable_gen.FRAME_RECEIVER
+#    BLKNAME GBE/FRAME_TRANSMITTER;
+# UGROUP "controllers" 
+#   BLKNAME GBE/main_gen.MAIN_CONTROL
+#   BLKNAME GBE/rx_enable_gen.RECEIVE_CONTROLLER
+#   BLKNAME GBE/transmit_gen.TRANSMIT_CONTROLLER;
+# UGROUP "gbe_rx_tx" 
+#    BLKNAME GBE/FRAME_CONSTRUCTOR
+#    BLKNAME GBE/main_gen.MAIN_CONTROL/protocol_selector/TrbNetData/MB_IP_CONFIG
+#    BLKNAME GBE/main_gen.MAIN_CONTROL/protocol_selector/TrbNetData/THE_IP_CONFIGURATOR
+#    BLKNAME GBE/setup_imp_gen.SETUP;  
+# 
+# #REGION "GBE_REGION" "R20C65D" 36 42 DEVSIZE;
+# #REGION "MED0" "R81C30D" 34 40 DEVSIZE;
+# #LOCATE UGROUP "gbe_rx_tx" REGION "GBE_REGION" ;
+# #REGION "GBE_MAIN_REGION" "R50C64C" 65 64 DEVSIZE;
+# #LOCATE UGROUP "controllers" REGION "GBE_MAIN_REGION" ;
+# #LOCATE UGROUP "gbe_rx_tx" REGION "GBE_MAIN_REGION" ;
+# 
+# UGROUP "sd_tx_to_pcs" 
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_correct_disp_q
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_data_q[0]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_data_q[1]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_data_q[2]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_data_q[3]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_data_q[4]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_data_q[5]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_data_q[6]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_data_q[7]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_TX_PROC_sd_tx_kcntl_q;
+# UGROUP "sd_rx_to_pcs" 
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_cv_error_q
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_data_q[0]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_data_q[1]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_data_q[2]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_data_q[3]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_data_q[4]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_data_q[5]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_data_q[6]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_data_q[7]
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_disp_error_q
+#   BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES/SYNC_RX_PROC_sd_rx_kcntl_q;
+# UGROUP "pcs_tx_to_mac" 
+#   BLKNAME GBE/pcs_tx_en_q
+#   BLKNAME GBE/pcs_tx_en_qq
+#   BLKNAME GBE/pcs_tx_er_q
+#   BLKNAME GBE/pcs_tx_er_qq
+#   BLKNAME GBE/pcs_txd_q[0]
+#   BLKNAME GBE/pcs_txd_q[1]
+#   BLKNAME GBE/pcs_txd_q[2]
+#   BLKNAME GBE/pcs_txd_q[3]
+#   BLKNAME GBE/pcs_txd_q[4]
+#   BLKNAME GBE/pcs_txd_q[5]
+#   BLKNAME GBE/pcs_txd_q[6]
+#   BLKNAME GBE/pcs_txd_q[7]
+#   BLKNAME GBE/pcs_txd_qq[0]
+#   BLKNAME GBE/pcs_txd_qq[1]
+#   BLKNAME GBE/pcs_txd_qq[2]
+#   BLKNAME GBE/pcs_txd_qq[3]
+#   BLKNAME GBE/pcs_txd_qq[4]
+#   BLKNAME GBE/pcs_txd_qq[5]
+#   BLKNAME GBE/pcs_txd_qq[6]
+#   BLKNAME GBE/pcs_txd_qq[7];
+# UGROUP "pcs_rx_to_mac" 
+#   BLKNAME GBE/pcs_rx_en_q
+#   BLKNAME GBE/pcs_rx_en_qq
+#   BLKNAME GBE/pcs_rx_er_q
+#   BLKNAME GBE/pcs_rx_er_qq
+#   BLKNAME GBE/pcs_rxd_q[0]
+#   BLKNAME GBE/pcs_rxd_q[1]
+#   BLKNAME GBE/pcs_rxd_q[2]
+#   BLKNAME GBE/pcs_rxd_q[3]
+#   BLKNAME GBE/pcs_rxd_q[4]
+#   BLKNAME GBE/pcs_rxd_q[5]
+#   BLKNAME GBE/pcs_rxd_q[6]
+#   BLKNAME GBE/pcs_rxd_q[7]
+#   BLKNAME GBE/pcs_rxd_qq[0]
+#   BLKNAME GBE/pcs_rxd_qq[1]
+#   BLKNAME GBE/pcs_rxd_qq[2]
+#   BLKNAME GBE/pcs_rxd_qq[3]
+#   BLKNAME GBE/pcs_rxd_qq[4]
+#   BLKNAME GBE/pcs_rxd_qq[5]
+#   BLKNAME GBE/pcs_rxd_qq[6]
+#   BLKNAME GBE/pcs_rxd_qq[7];
+# 
+# UGROUP "GBE_SERDES_group" BBOX 10 67 
+#    BLKNAME GBE/imp_gen.serdes_intclk_gen.PCS_SERDES;
+# LOCATE UGROUP "GBE_SERDES_group" SITE "R105C17D" ;
+# 
+# MAXDELAY NET "GBE/pcs_rx_e?_q" 1.500000 nS ;
+# MAXDELAY NET "GBE/pcs_rxd_q[?]" 1.500000 nS ;
+# 
+# DEFINE PORT GROUP "RX_GRP" "GBE/pcs_rx_en_q"
+#                      "GBE/pcs_rx_er_q"
+#                      "GBE/pcs_rxd_q*";
+# INPUT_SETUP GROUP "RX_GRP" 3.500000 ns HOLD 0.000000 ns CLKPORT "GBE/serdes_rx_clk_c" ;                   
+# 
+# PRIORITIZE NET "GBE/pcs_rx_en_q" 100 ;
+# PRIORITIZE NET "GBE/pcs_rx_er_q" 100 ;
+# PRIORITIZE NET "GBE/pcs_rxd_q[0]" 100 ;
+# PRIORITIZE NET "GBE/pcs_rxd_q[1]" 100 ;
+# PRIORITIZE NET "GBE/pcs_rxd_q[2]" 100 ;
+# PRIORITIZE NET "GBE/pcs_rxd_q[3]" 100 ;
+# PRIORITIZE NET "GBE/pcs_rxd_q[4]" 100 ;
+# PRIORITIZE NET "GBE/pcs_rxd_q[5]" 100 ;
+# PRIORITIZE NET "GBE/pcs_rxd_q[6]" 100 ;
+# PRIORITIZE NET "GBE/pcs_rxd_q[7]" 100 ;
+# PRIORITIZE NET "GBE/pcs_rxd_q[0]" 100 ;
+# PRIORITIZE NET "GBE/serdes_rx_clk_c" 80 ;

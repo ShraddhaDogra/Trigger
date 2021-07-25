@@ -1,0 +1,10 @@
+-v
+10
+
+
+-u 0
+
+-gt
+-sethld
+-sp 6
+-sphld m

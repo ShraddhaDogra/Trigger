@@ -1,0 +1,570 @@
+#################################################################
+# Clock I/O
+#################################################################
+LOCATE COMP "CLK_SUPPL_PLL_RIGHT"            SITE "Y28";           #was SUPPL_CLOCK1_P
+LOCATE COMP "CLK_SUPPL_PLL_LEFT"             SITE "Y9";            #was SUPPL_CLOCK2_P
+LOCATE COMP "CLK_SUPPL_PCLK"                 SITE "V9";            #was SUPPL_CLOCK3_P
+LOCATE COMP "CLK_CORE_PCLK"                  SITE "U9";            #was "CORE_CLOCK0_P"
+LOCATE COMP "CLK_CORE_PLL_LEFT"              SITE "U6";            #was "CORE_CLOCK1_P"
+LOCATE COMP "CLK_CORE_PLL_RIGHT"             SITE "V34";           #was "CORE_CLOCK2_P"
+LOCATE COMP "CLK_EXT_PCLK"                   SITE "U28";           #was "EXT_CLOCK0_P"
+LOCATE COMP "CLK_EXT_PLL_RIGHT"              SITE "P30";           #was "EXT_CLOCK1_P"
+LOCATE COMP "CLK_EXT_PLL_LEFT"               SITE "N7";            #was "EXT_CLOCK2_P"
+DEFINE PORT GROUP "CLK_group" "CLK*" ;
+IOBUF GROUP  "CLK_group" IO_TYPE=LVDS25  DIFFRESISTOR=100;
+
+
+LOCATE COMP "TRIG_PLL"                       SITE "AJ34";
+LOCATE COMP "TRIG_RIGHT"                     SITE "P34";
+LOCATE COMP "TRIG_LEFT"                      SITE "T6";
+DEFINE PORT GROUP "TRIG_group" "TRIG*" ;
+IOBUF GROUP  "TRIG_group" IO_TYPE=LVDS25  DIFFRESISTOR=100;
+
+
+
+
+#################################################################
+# Backplane I/O
+#################################################################
+LOCATE COMP "BACK_GPIO_0"                    SITE "C26";
+LOCATE COMP "BACK_GPIO_1"                    SITE "D26";
+LOCATE COMP "BACK_GPIO_2"                    SITE "B27";
+LOCATE COMP "BACK_GPIO_3"                    SITE "C27";
+# LOCATE COMP "BACK_GPIO_4"                    SITE "D27";
+# LOCATE COMP "BACK_GPIO_5"                    SITE "E27";
+# LOCATE COMP "BACK_GPIO_6"                    SITE "B28";
+# LOCATE COMP "BACK_GPIO_7"                    SITE "A28";
+# LOCATE COMP "BACK_GPIO_8"                    SITE "A26";
+# LOCATE COMP "BACK_GPIO_9"                    SITE "A27";
+# LOCATE COMP "BACK_GPIO_10"                   SITE "A29";
+# LOCATE COMP "BACK_GPIO_11"                   SITE "A30";
+# LOCATE COMP "BACK_GPIO_12"                   SITE "H26";
+# LOCATE COMP "BACK_GPIO_13"                   SITE "H25";
+# LOCATE COMP "BACK_GPIO_14"                   SITE "A31";
+# LOCATE COMP "BACK_GPIO_15"                   SITE "B31";
+DEFINE PORT GROUP "BACK_GPIO_group" "BACK_GPIO*" ;
+IOBUF GROUP  "BACK_GPIO_group" IO_TYPE=LVCMOS25 PULLMODE=UP;
+
+# LOCATE COMP "BACK_LVDS_0"                   SITE "V2";
+# LOCATE COMP "BACK_LVDS_1"                   SITE "T4";
+# # LOCATE COMP "BACK_LVDS_0_N"                   SITE "V1";
+# # LOCATE COMP "BACK_LVDS_1_N"                   SITE "T3";
+# DEFINE PORT GROUP "BACK_LVDS_group" "BACK_LVDS*" ;
+# IOBUF GROUP  "BACK_LVDS_group" IO_TYPE=LVDS25;
+# 
+# LOCATE COMP "BACK_3V3_0"                    SITE "E11";
+# LOCATE COMP "BACK_3V3_1"                    SITE "F12";
+# LOCATE COMP "BACK_3V3_2"                    SITE "F10";
+# LOCATE COMP "BACK_3V3_3"                    SITE "E10";
+# DEFINE PORT GROUP "BACK_3V3_group" "BACK_3V3*" ;
+# IOBUF GROUP  "BACK_3V3_group" IO_TYPE=LVTTL33 PULLMODE=DOWN;
+
+#################################################################
+# AddOn Connector
+#################################################################
+# # LOCATE COMP "DQLL0_0_N"                      SITE "AA1";
+# # LOCATE COMP "DQLL0_1_N"                      SITE "AB1";
+# # LOCATE COMP "DQLL0_2_N"                      SITE "AA3";
+# # LOCATE COMP "DQLL0_3_N"                      SITE "AB5";
+# # LOCATE COMP "DQLL0_4_N"                      SITE "AA7";
+# # LOCATE COMP "DQLL1_0_N"                      SITE "Y1";
+# # LOCATE COMP "DQLL1_1_N"                      SITE "W3";
+# # LOCATE COMP "DQLL1_2_N"                      SITE "W1";
+# # LOCATE COMP "DQLL1_3_N"                      SITE "W9";
+# # LOCATE COMP "DQLL1_4_N"                      SITE "AA8";
+# # LOCATE COMP "DQLL2_0_N"                      SITE "AC4";
+# # LOCATE COMP "DQLL2_1_N"                      SITE "AC1";
+# # LOCATE COMP "DQLL2_2_N"                      SITE "AB3";
+# # LOCATE COMP "DQLL2_3_N"                      SITE "AB8";
+# # LOCATE COMP "DQLL2_4_N"                      SITE "AB6";
+# # LOCATE COMP "DQLL3_0_N"                      SITE "AE3";
+# # LOCATE COMP "DQLL3_1_N"                      SITE "AC10"
+# # LOCATE COMP "DQLL3_2_N"                      SITE "AE1";
+# # LOCATE COMP "DQLL3_3_N"                      SITE "AD3";
+# # LOCATE COMP "DQLL3_4_N"                      SITE "AC8";
+# # LOCATE COMP "DQLR0_0_N"                      SITE "AB33"
+# # LOCATE COMP "DQLR0_1_N"                      SITE "AA26"
+# # LOCATE COMP "DQLR0_2_N"                      SITE "AC33"
+# # LOCATE COMP "DQLR0_3_N"                      SITE "AA30"
+# # LOCATE COMP "DQLR0_4_N"                      SITE "AA27"
+# # LOCATE COMP "DQLR1_0_N"                      SITE "AD30"
+# # LOCATE COMP "DQLR1_1_N"                      SITE "AB31"
+# # LOCATE COMP "DQLR1_2_N"                      SITE "AE33"
+# # LOCATE COMP "DQLR1_3_N"                      SITE "AD34"
+# # LOCATE COMP "DQLR1_4_N"                      SITE "AG34"
+# # LOCATE COMP "DQLR2_0_N"                      SITE "W29";
+# # LOCATE COMP "DQLR2_1_N"                      SITE "W26";
+# # LOCATE COMP "DQLR2_2_N"                      SITE "W33";;
+# # LOCATE COMP "DQLR2_3_N"                      SITE "Y33";;
+# # LOCATE COMP "DQLR2_4_N"                      SITE "Y25";
+# # LOCATE COMP "DQSLL0_C"                       SITE "AB9";
+# # LOCATE COMP "DQSLL1_C"                       SITE "Y6";
+# # LOCATE COMP "DQSLL2_C"                       SITE "AE5";
+# # LOCATE COMP "DQSLL3_C"                       SITE "AK1";
+# # LOCATE COMP "DQSLR0_C"                       SITE "AC30"
+# # LOCATE COMP "DQSLR1_C"                       SITE "AB25";
+# # LOCATE COMP "DQSLR2_C"                       SITE "AA29";
+# # LOCATE COMP "DQSUL0_C"                       SITE "M9";;
+# # LOCATE COMP "DQSUL1_C"                       SITE "L9";;
+# # LOCATE COMP "DQSUL2_C"                       SITE "H3";;
+# # LOCATE COMP "DQSUL3_C"                       SITE "N10";;
+# # LOCATE COMP "DQSUR0_C"                       SITE "M27";;
+# # LOCATE COMP "DQSUR1_C"                       SITE "N28";;
+# # LOCATE COMP "DQSUR2_C"                       SITE "U30";;
+# # LOCATE COMP "DQUL0_0_N"                      SITE "L4";;
+# # LOCATE COMP "DQUL0_1_N"                      SITE "M3";;
+# # LOCATE COMP "DQUL0_2_N"                      SITE "K5";;
+# # LOCATE COMP "DQUL0_3_N"                      SITE "M1";;
+# # LOCATE COMP "DQUL0_4_N"                      SITE "L6";;
+# # LOCATE COMP "DQUL1_0_N"                      SITE "L1";;
+# # LOCATE COMP "DQUL1_1_N"                      SITE "K1";;
+# # LOCATE COMP "DQUL1_2_N"                      SITE "K3";;
+# # LOCATE COMP "DQUL1_3_N"                      SITE "L7";;
+# # LOCATE COMP "DQUL1_4_N"                      SITE "J6";;
+# # LOCATE COMP "DQUL2_0_N"                      SITE "F1";;
+# # LOCATE COMP "DQUL2_1_N"                      SITE "E3";
+# # LOCATE COMP "DQUL2_2_N"                      SITE "G1";
+# # LOCATE COMP "DQUL2_3_N"                      SITE "J1";
+# # LOCATE COMP "DQUL2_4_N"                      SITE "H2";
+# # LOCATE COMP "DQUL3_0_N"                      SITE "N3";
+# # LOCATE COMP "DQUL3_1_N"                      SITE "N1";
+# # LOCATE COMP "DQUL3_2_N"                      SITE "N5";
+# # LOCATE COMP "DQUL3_3_N"                      SITE "P4";
+# # LOCATE COMP "DQUL3_4_N"                      SITE "P8";
+# # LOCATE COMP "DQUR0_0_N"                      SITE "M25";
+# # LOCATE COMP "DQUR0_1_N"                      SITE "L31";
+# # LOCATE COMP "DQUR0_2_N"                      SITE "L33";;
+# # LOCATE COMP "DQUR0_3_N"                      SITE "K30";
+# # LOCATE COMP "DQUR0_4_N"                      SITE "K33";
+# # LOCATE COMP "DQUR1_0_N"                      SITE "N29";
+# # LOCATE COMP "DQUR1_1_N"                      SITE "P26";
+# # LOCATE COMP "DQUR1_2_N"                      SITE "N31";
+# # LOCATE COMP "DQUR1_3_N"                      SITE "N33";
+# # LOCATE COMP "DQUR1_4_N"                      SITE "P27";;
+# # LOCATE COMP "DQUR2_0_N"                      SITE "T31";;
+# # LOCATE COMP "DQUR2_1_N"                      SITE "T27";;
+# # LOCATE COMP "DQUR2_2_N"                      SITE "U31";;
+# # LOCATE COMP "DQUR2_3_N"                      SITE "T33";;
+# # LOCATE COMP "DQUR2_4_N"                      SITE "U27";
+# 
+# LOCATE COMP "DQLL0_0"                      SITE "AA2";    #was "DQLL0_0_P" 1
+# LOCATE COMP "DQLL0_1"                      SITE "AB2";    #was "DQLL0_1_P" 5
+# LOCATE COMP "DQLL0_2"                      SITE "AA4";    #was "DQLL0_2_P" 9
+# LOCATE COMP "DQSLL0"                       SITE "AA10";   #was "DQSLL0_T"  13
+# LOCATE COMP "DQLL0_3"                      SITE "AA5";    #was "DQLL0_3_P" 17
+# LOCATE COMP "DQLL0_4"                      SITE "Y7";     #was "DQLL0_4_P" 21
+# LOCATE COMP "DQLL2_0"                      SITE "AC5";    #was "DQLL2_0_P" 25
+# LOCATE COMP "DQLL2_1"                      SITE "AC2";    #was "DQLL2_1_P" 29
+# LOCATE COMP "DQLL2_2"                      SITE "AB4";    #was "DQLL2_2_P" 33
+# LOCATE COMP "DQSLL2"                       SITE "AD5";    #was "DQSLL2_T"  37
+# LOCATE COMP "DQLL2_3"                      SITE "AA9";    #was "DQLL2_3_P" 41
+# LOCATE COMP "DQLL2_4"                      SITE "AB7";    #was "DQLL2_4_P" 45
+# LOCATE COMP "DQUL3_0"                      SITE "N4";     #was "DQUL3_0_P" 49
+# LOCATE COMP "DQUL3_1"                      SITE "N2";     #was "DQUL3_1_P" 53
+# LOCATE COMP "DQUL3_2"                      SITE "M5";     #was "DQUL3_2_P" 57
+# LOCATE COMP "DQSUL3"                       SITE "M10";    #was "DQSUL3_T"  61
+# LOCATE COMP "DQUL3_3"                      SITE "P5";     #was "DQUL3_3_P" 65
+# LOCATE COMP "DQUL3_4"                      SITE "N8";     #was "DQUL3_4_P" 69
+# LOCATE COMP "DQUL1_0"                      SITE "L2";     #was "DQUL1_0_P" 73
+# LOCATE COMP "DQUL1_1"                      SITE "K2";     #was "DQUL1_1_P" 77
+# LOCATE COMP "DQUL1_2"                      SITE "K4";     #was "DQUL1_2_P" 81
+# LOCATE COMP "DQSUL1"                       SITE "L10";    #was "DQSUL1_T"  85
+# LOCATE COMP "DQUL1_3"                      SITE "M8";     #was "DQUL1_3_P" 89
+# LOCATE COMP "DQUL1_4"                      SITE "K7";     #was "DQUL1_4_P" 93
+# 
+# LOCATE COMP "DQUR0_0"                      SITE "L26";    #was "DQUR0_0_P" 105
+# LOCATE COMP "DQUR0_1"                      SITE "L32";    #was "DQUR0_1_P" 109
+# LOCATE COMP "DQSUR0"                       SITE "M26";    #was "DQSUR0_T"  113
+# LOCATE COMP "DQUR0_2"                      SITE "L34";    #was "DQUR0_2_P" 117
+# LOCATE COMP "DQUR0_3"                      SITE "K29";    #was "DQUR0_3_P" 121
+# LOCATE COMP "DQUR0_4"                      SITE "K34";    #was "DQUR0_4_P" 125
+# LOCATE COMP "DQLR0_0"                      SITE "AB34";   #was "DQLR0_0_P" 129
+# LOCATE COMP "DQLR0_1"                      SITE "AA25";   #was "DQLR0_1_P" 133
+# LOCATE COMP "DQLR0_2"                      SITE "AC34";   #was "DQLR0_2_P" 137
+# LOCATE COMP "DQSLR0"                       SITE "AB30";   #was "DQSLR0_T"  141
+# LOCATE COMP "DQLR0_3"                      SITE "AA31";   #was "DQLR0_3_P" 145
+# LOCATE COMP "DQLR0_4"                      SITE "AA28";   #was "DQLR0_4_P" 149
+# 
+# LOCATE COMP "DQLR1_0"                      SITE "AD31";   #was "DQLR1_0_P" 169
+# LOCATE COMP "DQLR1_1"                      SITE "AB32";   #was "DQLR1_1_P" 173
+# LOCATE COMP "DQLR1_2"                      SITE "AE34";   #was "DQLR1_2_P" 177
+# LOCATE COMP "DQSLR1"                       SITE "AB26";   #was "DQSLR1_T"  181
+# LOCATE COMP "DQLR1_3"                      SITE "AD33";   #was "DQLR1_3_P" 185
+# LOCATE COMP "DQLR1_4"                      SITE "AF34";   #was "DQLR1_4_P" 189
+# 
+# 
+# LOCATE COMP "DQLL3_0"                      SITE "AE4";    #was "DQLL3_0_P" 2
+# LOCATE COMP "DQLL3_1"                      SITE "AB10";   #was "DQLL3_1_P" 6
+# LOCATE COMP "DQLL3_2"                      SITE "AE2";    #was "DQLL3_2_P" 10
+# LOCATE COMP "DQSLL3"                       SITE "AJ1";    #was "DQSLL3_T"  14
+# LOCATE COMP "DQLL3_3"                      SITE "AD4";    #was "DQLL3_3_P" 18
+# LOCATE COMP "DQLL3_4"                      SITE "AC9";    #was "DQLL3_4_P" 22
+# LOCATE COMP "DQLL1_0"                      SITE "Y2";     #was "DQLL1_0_P" 26
+# LOCATE COMP "DQLL1_1"                      SITE "W4";     #was "DQLL1_1_P" 30
+# LOCATE COMP "DQLL1_2"                      SITE "W2";     #was "DQLL1_2_P" 34
+# LOCATE COMP "DQSLL1"                       SITE "W6";     #was "DQSLL1_T"  38
+# LOCATE COMP "DQLL1_3"                      SITE "W8";     #was "DQLL1_3_P" 42
+# LOCATE COMP "DQLL1_4"                      SITE "Y8";     #was "DQLL1_4_P" 46
+# LOCATE COMP "DQUL2_0"                      SITE "F2";     #was "DQUL2_0_P" 50
+# LOCATE COMP "DQUL2_1"                      SITE "F3";     #was "DQUL2_1_P" 54
+# LOCATE COMP "DQUL2_2"                      SITE "G2";     #was "DQUL2_2_P" 58
+# LOCATE COMP "DQSUL2"                       SITE "G3";     #was "DQSUL2_T"  62
+# LOCATE COMP "DQUL2_3"                      SITE "H1";     #was "DQUL2_3_P" 66
+# LOCATE COMP "DQUL2_4"                      SITE "J3";     #was "DQUL2_4_P" 70
+# LOCATE COMP "DQUL0_0"                      SITE "L5";     #was "DQUL0_0_P" 74
+# LOCATE COMP "DQUL0_1"                      SITE "M4";     #was "DQUL0_1_P" 78
+# LOCATE COMP "DQUL0_2"                      SITE "K6";     #was "DQUL0_2_P" 82
+# LOCATE COMP "DQSUL0"                       SITE "N9";     #was "DQSUL0_T"  86
+# LOCATE COMP "DQUL0_3"                      SITE "M2";     #was "DQUL0_3_P" 90
+# LOCATE COMP "DQUL0_4"                      SITE "M7";     #was "DQUL0_4_P" 94
+# 
+# LOCATE COMP "DQUR1_0"                      SITE "N30";    #was "DQUR1_0_P" 106
+# LOCATE COMP "DQUR1_1"                      SITE "N26";    #was "DQUR1_1_P" 110
+# LOCATE COMP "DQUR1_2"                      SITE "N32";    #was "DQUR1_2_P" 114
+# LOCATE COMP "DQSUR1"                       SITE "N27";    #was "DQSUR1_T"  118
+# LOCATE COMP "DQUR1_3"                      SITE "N34";    #was "DQUR1_3_P" 122
+# LOCATE COMP "DQUR1_4"                      SITE "P28";    #was "DQUR1_4_P" 126
+# LOCATE COMP "DQUR2_0"                      SITE "T32";    #was "DQUR2_0_P" 130
+# LOCATE COMP "DQUR2_1"                      SITE "T26";    #was "DQUR2_1_P" 134
+# LOCATE COMP "DQUR2_2"                      SITE "U32";    #was "DQUR2_2_P" 138
+# LOCATE COMP "DQSUR2"                       SITE "T30";    #was "DQSUR2_T"  142
+# LOCATE COMP "DQUR2_3"                      SITE "T34";    #was "DQUR2_3_P" 146
+# LOCATE COMP "DQUR2_4"                      SITE "U26";    #was "DQUR2_4_P" 150
+# 
+# LOCATE COMP "DQLR2_0"                      SITE "W30";    #was "DQLR2_0_P" 170
+# LOCATE COMP "DQLR2_1"                      SITE "W27";    #was "DQLR2_1_P" 174
+# LOCATE COMP "DQLR2_2"                      SITE "W34";    #was "DQLR2_2_P" 178
+# LOCATE COMP "DQSLR2"                       SITE "Y30";    #was "DQSLR2_T"  182
+# LOCATE COMP "DQLR2_3"                      SITE "Y34";    #was "DQLR2_3_P" 186
+# LOCATE COMP "DQLR2_4"                      SITE "Y26";    #was "DQLR2_4_P" 190
+# 
+# DEFINE PORT GROUP "DQ_group" "DQ*" ;
+# IOBUF GROUP  "DQ_group" IO_TYPE=LVDS25 DIFFRESISTOR=100; 
+
+
+
+
+#################################################################
+# Pin-header IO
+#################################################################
+LOCATE COMP "HDR_IO_1"                     SITE "AP28";
+LOCATE COMP "HDR_IO_2"                     SITE "AN28";
+LOCATE COMP "HDR_IO_3"                     SITE "AP27";
+LOCATE COMP "HDR_IO_4"                     SITE "AN27";
+LOCATE COMP "HDR_IO_5"                     SITE "AM27";
+LOCATE COMP "HDR_IO_6"                     SITE "AL27";
+LOCATE COMP "HDR_IO_7"                     SITE "AH26";
+LOCATE COMP "HDR_IO_8"                     SITE "AG26";
+LOCATE COMP "HDR_IO_9"                     SITE "AM28";
+LOCATE COMP "HDR_IO_10"                    SITE "AL28";
+DEFINE PORT GROUP "HDR_group" "HDR*" ;
+IOBUF GROUP  "HDR_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN ;
+
+
+#################################################################
+# ADDON CONNECTIONS - TDC INPUTS & SPI PINS
+#################################################################
+#on 4conn AddOn
+LOCATE COMP  "INP_0"    SITE "AA2";    #was "DQLL0_0_P" 1
+LOCATE COMP  "INP_1"    SITE "AB2";    #was "DQLL0_1_P" 5
+LOCATE COMP  "INP_2"    SITE "AA4";    #was "DQLL0_2_P" 9
+LOCATE COMP  "INP_3"    SITE "AA10";   #was "DQSLL0_T"  13
+LOCATE COMP  "INP_4"    SITE "AA5";    #was "DQLL0_3_P" 17
+LOCATE COMP  "INP_5"    SITE "Y7";     #was "DQLL0_4_P" 21
+LOCATE COMP  "INP_6"    SITE "AC5";    #was "DQLL2_0_P" 25
+LOCATE COMP  "INP_7"    SITE "AC2";    #was "DQLL2_1_P" 29
+LOCATE COMP  "INP_8"    SITE "AB4";    #was "DQLL2_2_P" 33
+LOCATE COMP  "INP_9"    SITE "AD5";    #was "DQSLL2_T"  37
+LOCATE COMP  "INP_10"   SITE "AA9";    #was "DQLL2_3_P" 41
+LOCATE COMP  "INP_11"   SITE "AB7";    #was "DQLL2_4_P" 45
+LOCATE COMP  "INP_12"   SITE "N4";     #was "DQUL3_0_P" 49
+LOCATE COMP  "INP_13"   SITE "M5";     #was "DQUL3_2_P" 57;
+LOCATE COMP  "INP_14"   SITE "M10";    #was "DQSUL3_T"  61;
+LOCATE COMP  "INP_15"   SITE "P5";     #was "DQUL3_3_P" 65;
+
+LOCATE COMP  "INP_16"   SITE "AE4";    #was "DQLL3_0_P" 2
+LOCATE COMP  "INP_17"   SITE "AB10";   #was "DQLL3_1_P" 6
+LOCATE COMP  "INP_18"   SITE "AE2";    #was "DQLL3_2_P" 10
+LOCATE COMP  "INP_19"   SITE "AJ1";    #was "DQSLL3_T"  14
+LOCATE COMP  "INP_20"   SITE "AD4";    #was "DQLL3_3_P" 18
+LOCATE COMP  "INP_21"   SITE "AC9";    #was "DQLL3_4_P" 22
+LOCATE COMP  "INP_22"   SITE "Y2";     #was "DQLL1_0_P" 26
+LOCATE COMP  "INP_23"   SITE "W4";     #was "DQLL1_1_P" 30
+LOCATE COMP  "INP_24"   SITE "W2";     #was "DQLL1_2_P" 34
+LOCATE COMP  "INP_25"   SITE "W6";     #was "DQSLL1_T"  38
+LOCATE COMP  "INP_26"   SITE "W8";     #was "DQLL1_3_P" 42
+LOCATE COMP  "INP_27"   SITE "Y8";     #was "DQLL1_4_P" 46
+LOCATE COMP  "INP_28"   SITE "F2";     #was "DQUL2_0_P" 50
+LOCATE COMP  "INP_29"   SITE "G3";     #was "DQSUL2_T"  62;
+LOCATE COMP  "INP_30"   SITE "H1";     #was "DQUL2_3_P" 66;
+LOCATE COMP  "INP_31"   SITE "L5";     #was "DQUL0_0_P" 74;
+
+LOCATE COMP  "INP_32"   SITE "L26";    #was "DQUR0_0_P" 105
+LOCATE COMP  "INP_33"   SITE "L32";    #was "DQUR0_1_P" 109
+LOCATE COMP  "INP_34"   SITE "M26";    #was "DQSUR0_T"  113
+LOCATE COMP  "INP_35"   SITE "L34";    #was "DQUR0_2_P" 117
+LOCATE COMP  "INP_36"   SITE "K29";    #was "DQUR0_3_P" 121
+LOCATE COMP  "INP_37"   SITE "K34";    #was "DQUR0_4_P" 125
+LOCATE COMP  "INP_38"   SITE "AB34";   #was "DQLR0_0_P" 129
+LOCATE COMP  "INP_39"   SITE "AA25";   #was "DQLR0_1_P" 133
+LOCATE COMP  "INP_40"   SITE "AC34";   #was "DQLR0_2_P" 137
+LOCATE COMP  "INP_41"   SITE "AB30";   #was "DQSLR0_T"  141
+LOCATE COMP  "INP_42"   SITE "AA31";   #was "DQLR0_3_P" 145
+LOCATE COMP  "INP_43"   SITE "AA28";   #was "DQLR0_4_P" 149
+LOCATE COMP  "INP_44"   SITE "AD31";   #was "DQLR1_0_P" 169;
+LOCATE COMP  "INP_45"   SITE "AB32";   #was "DQLR1_1_P" 173;
+LOCATE COMP  "INP_46"   SITE "AE34";   #was "DQLR1_2_P" 177;
+LOCATE COMP  "INP_47"   SITE "AB26";   #was "DQSLR1_T"  181;
+
+LOCATE COMP  "INP_48"   SITE "N30";    #was "DQUR1_0_P" 106
+LOCATE COMP  "INP_49"   SITE "N26";    #was "DQUR1_1_P" 110
+LOCATE COMP  "INP_50"   SITE "N32";    #was "DQUR1_2_P" 114
+LOCATE COMP  "INP_51"   SITE "N27";    #was "DQSUR1_T"  118
+LOCATE COMP  "INP_52"   SITE "N34";    #was "DQUR1_3_P" 122
+LOCATE COMP  "INP_53"   SITE "P28";    #was "DQUR1_4_P" 126
+LOCATE COMP  "INP_54"   SITE "T32";    #was "DQUR2_0_P" 130
+LOCATE COMP  "INP_55"   SITE "T26";    #was "DQUR2_1_P" 134
+LOCATE COMP  "INP_56"   SITE "U32";    #was "DQUR2_2_P" 138
+LOCATE COMP  "INP_57"   SITE "T30";    #was "DQSUR2_T"  142                                
+LOCATE COMP  "INP_58"   SITE "T34";    #was "DQUR2_3_P" 146
+LOCATE COMP  "INP_59"   SITE "U26";    #was "DQUR2_4_P" 150
+LOCATE COMP  "INP_60"   SITE "W30";    #was "DQLR2_0_P" 170
+LOCATE COMP  "INP_61"   SITE "W27";    #was "DQLR2_1_P" 174
+LOCATE COMP  "INP_62"   SITE "W34";    #was "DQLR2_2_P" 178
+LOCATE COMP  "INP_63"   SITE "Y30";    #was "DQSLR2_T"  182
+#on KEL1
+LOCATE COMP  "INP_64"   SITE "AP5";
+LOCATE COMP  "INP_65"   SITE "AP2";
+LOCATE COMP  "INP_66"   SITE "AN1";
+LOCATE COMP  "INP_67"   SITE "AN3";
+LOCATE COMP  "INP_68"   SITE "AL5";
+LOCATE COMP  "INP_69"   SITE "AM6";
+LOCATE COMP  "INP_70"   SITE "AL4";
+LOCATE COMP  "INP_71"   SITE "AJ5";
+LOCATE COMP  "INP_72"   SITE "AJ2";
+LOCATE COMP  "INP_73"   SITE "AL3";
+LOCATE COMP  "INP_74"   SITE "AD9";
+LOCATE COMP  "INP_75"   SITE "AJ4";
+LOCATE COMP  "INP_76"   SITE "V4";
+LOCATE COMP  "INP_77"   SITE "V5";                            
+LOCATE COMP  "INP_78"   SITE "T9";
+LOCATE COMP  "INP_79"   SITE "T2";
+ #on KEL2
+LOCATE COMP  "INP_80"   SITE "AP29";
+LOCATE COMP  "INP_81"   SITE "AP33";
+LOCATE COMP  "INP_82"   SITE "AN34";
+LOCATE COMP  "INP_83"   SITE "AP31";
+LOCATE COMP  "INP_84"   SITE "AN32";
+LOCATE COMP  "INP_85"   SITE "AM29";
+LOCATE COMP  "INP_86"   SITE "AL31";
+LOCATE COMP  "INP_87"   SITE "AL30";                                         
+LOCATE COMP  "INP_88"   SITE "AL34";
+LOCATE COMP  "INP_89"   SITE "AJ31";
+LOCATE COMP  "INP_90"   SITE "AH33";
+LOCATE COMP  "INP_91"   SITE "AL32";
+LOCATE COMP  "INP_92"   SITE "AF32";
+LOCATE COMP  "INP_93"   SITE "AE32";
+LOCATE COMP  "INP_94"   SITE "AE30";
+LOCATE COMP  "INP_95"   SITE "AD26";
+
+
+DEFINE PORT GROUP "INP_group" "INP*" ;
+IOBUF GROUP "INP_group" IO_TYPE=LVDS25 DIFFRESISTOR=100;
+
+LOCATE COMP  "DAC_IN_SDI_1"  SITE "K4";     #was "DQUL1_2_P" 81
+LOCATE COMP  "DAC_IN_SDI_2"  SITE "M8";     #was "DQUL1_3_P" 89
+LOCATE COMP  "DAC_IN_SDI_3"  SITE "AF34";   #was "DQLR1_4_P" 189
+LOCATE COMP  "DAC_IN_SDI_4"  SITE "N9";     #was "DQSUL0_T"  86
+LOCATE COMP  "DAC_IN_SDI_5"  SITE "P7";
+LOCATE COMP  "DAC_IN_SDI_6"  SITE "M29";
+
+DEFINE PORT GROUP "IN_group" "DAC_IN*" ;
+IOBUF GROUP "IN_group" IO_TYPE=LVDS25 DIFFRESISTOR=100;
+
+
+LOCATE COMP  "DAC_OUT_SDO_1"   SITE "N2";     #was "DQUL3_1_P" 53
+LOCATE COMP  "DAC_OUT_SCK_1"   SITE "F3";     #was "DQUL2_1_P" 54
+LOCATE COMP  "DAC_OUT_CS_1"    SITE "G2";     #was "DQUL2_2_P" 58
+LOCATE COMP  "DAC_OUT_SDO_2"   SITE "K2";     #was "DQUL1_1_P" 77
+LOCATE COMP  "DAC_OUT_SCK_2"   SITE "M4";     #was "DQUL0_1_P" 78
+LOCATE COMP  "DAC_OUT_CS_2"    SITE "M7";     #was "DQUL0_4_P" 94
+LOCATE COMP  "DAC_OUT_SDO_3"   SITE "AD33";   #was "DQLR1_3_P" 185
+LOCATE COMP  "DAC_OUT_SCK_3"   SITE "Y34";    #was "DQLR2_3_P" 186
+LOCATE COMP  "DAC_OUT_CS_3"    SITE "Y26";    #was "DQLR2_4_P" 190
+LOCATE COMP  "DAC_OUT_SDO_4"   SITE "K6";     #was "DQUL0_2_P" 82
+LOCATE COMP  "DAC_OUT_SCK_4"   SITE "J3";     #was "DQUL2_4_P" 70
+LOCATE COMP  "DAC_OUT_CS_4"    SITE "K7";     #was "DQUL1_4_P" 93
+LOCATE COMP  "DAC_OUT_SDO_5"   SITE "R8";
+LOCATE COMP  "DAC_OUT_SCK_5"   SITE "R2";
+LOCATE COMP  "DAC_OUT_CS_5"    SITE "P9";
+LOCATE COMP  "DAC_OUT_SDO_6"   SITE "AC28";
+LOCATE COMP  "DAC_OUT_SCK_6"   SITE "M34";
+LOCATE COMP  "DAC_OUT_CS_6"    SITE "L28";
+
+DEFINE PORT GROUP "OUT_group" "DAC_OUT*" ;
+IOBUF GROUP "OUT_group" IO_TYPE=LVDS25 DIFFRESISTOR=OFF;
+
+
+#################################################################
+# Many LED
+#################################################################
+LOCATE COMP "LED_RJ_GREEN_0"                 SITE "C25";
+LOCATE COMP "LED_RJ_RED_0"                   SITE "D25";
+LOCATE COMP "LED_GREEN"                      SITE "D24";
+LOCATE COMP "LED_ORANGE"                     SITE "E24";
+LOCATE COMP "LED_RED"                        SITE "K23";
+LOCATE COMP "LED_RJ_GREEN_1"                 SITE "G26";
+LOCATE COMP "LED_RJ_RED_1"                   SITE "G25";
+LOCATE COMP "LED_YELLOW"                     SITE "K24";
+IOBUF  PORT "LED_RJ_GREEN_0"    IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_RJ_RED_0"      IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_GREEN"         IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_ORANGE"        IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_RED"           IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_RJ_GREEN_1"    IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_RJ_RED_1"      IO_TYPE=LVCMOS25 ;
+IOBUF  PORT "LED_YELLOW"        IO_TYPE=LVCMOS25 ;
+
+LOCATE COMP "LED_SFP_GREEN_0"                SITE "B4";
+LOCATE COMP "LED_SFP_GREEN_1"                SITE "A6";
+LOCATE COMP "LED_SFP_RED_0"                  SITE "A3";
+LOCATE COMP "LED_SFP_RED_1"                  SITE "A8";
+DEFINE PORT GROUP "LED_SFP_group" "LED_SFP*" ;
+IOBUF GROUP  "LED_SFP_group" IO_TYPE=LVTTL33 ;
+
+LOCATE COMP "LED_WHITE_0"                    SITE "A32";
+LOCATE COMP "LED_WHITE_1"                    SITE "A33";
+DEFINE PORT GROUP "LED_WHITE_group" "LED_WHITE*" ;
+IOBUF GROUP  "LED_WHITE_group" IO_TYPE=LVTTL33 ;
+
+#################################################################
+# SFP Control Signals
+#################################################################
+LOCATE COMP "SFP_LOS_0"                      SITE "B6";
+LOCATE COMP "SFP_LOS_1"                      SITE "C9";
+LOCATE COMP "SFP_MOD0_0"                     SITE "A5";
+LOCATE COMP "SFP_MOD0_1"                     SITE "K11";
+LOCATE COMP "SFP_MOD1_0"                     SITE "B7";
+LOCATE COMP "SFP_MOD1_1"                     SITE "J11";
+LOCATE COMP "SFP_MOD2_0"                     SITE "A7";
+LOCATE COMP "SFP_MOD2_1"                     SITE "D9";
+# LOCATE COMP "SFP_RATE_SEL_0"                 SITE "A4";
+# LOCATE COMP "SFP_RATE_SEL_1"                 SITE "C8";
+LOCATE COMP "SFP_TX_DIS_0"                   SITE "D6";
+LOCATE COMP "SFP_TX_DIS_1"                   SITE "A9";
+# LOCATE COMP "SFP_TX_FAULT_0"                 SITE "C5";
+# LOCATE COMP "SFP_TX_FAULT_1"                 SITE "B8";
+DEFINE PORT GROUP "SFP_group" "SFP*" ;
+IOBUF GROUP  "SFP_group" IO_TYPE=LVTTL33 ;
+
+
+
+#################################################################
+# Serdes Output Switch
+#################################################################
+LOCATE COMP "PCSSW_ENSMB"                  SITE "B3";
+LOCATE COMP "PCSSW_EQ_0"                   SITE "B1";
+LOCATE COMP "PCSSW_EQ_1"                   SITE "B2";
+LOCATE COMP "PCSSW_EQ_2"                   SITE "E4";
+LOCATE COMP "PCSSW_EQ_3"                   SITE "D4";
+LOCATE COMP "PCSSW_PE_0"                   SITE "C3";
+LOCATE COMP "PCSSW_PE_1"                   SITE "C4";
+LOCATE COMP "PCSSW_PE_2"                   SITE "D3";
+LOCATE COMP "PCSSW_PE_3"                   SITE "C2";
+LOCATE COMP "PCSSW_1"                      SITE "D5";
+LOCATE COMP "PCSSW_0"                      SITE "A2";
+LOCATE COMP "PCSSW_2"                      SITE "E13";
+LOCATE COMP "PCSSW_3"                      SITE "F13";
+LOCATE COMP "PCSSW_4"                      SITE "G13";
+LOCATE COMP "PCSSW_5"                      SITE "H14";
+LOCATE COMP "PCSSW_6"                      SITE "A13";
+LOCATE COMP "PCSSW_7"                      SITE "B13";
+DEFINE PORT GROUP "PCSSW_group" "PCSSW*" ;
+IOBUF GROUP  "PCSSW_group" IO_TYPE=LVTTL33 PULLMODE=DOWN ;
+
+
+#################################################################
+# ADC
+#################################################################
+LOCATE COMP "ADC_CLK"                        SITE "A14";    
+LOCATE COMP "ADC_CS"                         SITE "B14";    
+LOCATE COMP "ADC_DIN"                        SITE "G17";    
+LOCATE COMP "ADC_DOUT"                       SITE "G16";    
+IOBUF  PORT "ADC_CLK"  IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=4 ;
+IOBUF  PORT "ADC_CS"   IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=4 ;
+IOBUF  PORT "ADC_DIN"  IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=4 ;
+IOBUF  PORT "ADC_DOUT" IO_TYPE=LVTTL33 PULLMODE=UP ;
+
+
+
+#################################################################
+# RJ-45 connectors
+#################################################################
+LOCATE COMP "RJ_IO_0"                      SITE "R28";
+LOCATE COMP "RJ_IO_1"                      SITE "R31";
+LOCATE COMP "RJ_IO_2"                      SITE "R26";
+LOCATE COMP "RJ_IO_3"                      SITE "R34";
+#LOCATE COMP "RJ_IO_1_N"                      SITE "R27";
+#LOCATE COMP "RJ_IO_2_N"                      SITE "R30";
+#LOCATE COMP "RJ_IO_3_N"                      SITE "R25";
+#LOCATE COMP "RJ_IO_4_N"                      SITE "R33";
+IOBUF  PORT "RJ_IO_0" IO_TYPE=LVDS25 ;
+IOBUF  PORT "RJ_IO_1" IO_TYPE=LVDS25 ;
+IOBUF  PORT "RJ_IO_2" IO_TYPE=LVDS25E ;
+IOBUF  PORT "RJ_IO_3" IO_TYPE=LVDS25E ;
+
+
+LOCATE COMP "SPARE_IN_0"                    SITE "K31";
+LOCATE COMP "SPARE_IN_1"                    SITE "R4";
+#LOCATE COMP "SPARE_IN0_N"                    SITE "K32";
+#LOCATE COMP "SPARE_IN1_N"                    SITE "R3";
+IOBUF  PORT "SPARE_IN_1" IO_TYPE=LVDS25 DIFFRESISTOR=100 ;
+IOBUF  PORT "SPARE_IN_2" IO_TYPE=LVDS25 DIFFRESISTOR=100 ;
+
+
+
+#################################################################
+# Flash ROM and Reboot
+#################################################################
+LOCATE COMP "FLASH_CLK"                        SITE "F34";         #was "SPI_CLK"
+LOCATE COMP "FLASH_CS"                         SITE "D34";         #was "SPI_CS" 
+LOCATE COMP "FLASH_IN"                         SITE "F33";         #was "SPI_IN" 
+LOCATE COMP "FLASH_OUT"                        SITE "F32";         #was "SPI_OUT"
+LOCATE COMP "PROGRAMN"                         SITE "C31";
+
+DEFINE PORT GROUP "FLASH_group" "FLASH*" ;
+IOBUF GROUP "FLASH_group" IO_TYPE=LVTTL33 PULLMODE=NONE;
+IOBUF  PORT "PROGRAMN" IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=8  ;
+
+LOCATE COMP "ENPIRION_CLOCK"                 SITE "H23";
+IOBUF  PORT "ENPIRION_CLOCK" IO_TYPE=LVCMOS25 PULLMODE=UP DRIVE=8  ;
+
+
+#################################################################
+# Misc
+#################################################################
+LOCATE COMP  "TEMPSENS"    SITE "J13";                             #was TEMP_OWB
+IOBUF  PORT "TEMPSENS" IO_TYPE=LVTTL33 PULLMODE=UP DRIVE=8  ;
+
+
+#################################################################
+# Trigger I/O
+#################################################################
+LOCATE COMP "TEST_LINE_0"                     SITE "A19";
+LOCATE COMP "TEST_LINE_1"                     SITE "B19";
+LOCATE COMP "TEST_LINE_2"                     SITE "K20";
+LOCATE COMP "TEST_LINE_3"                     SITE "L19";
+LOCATE COMP "TEST_LINE_4"                     SITE "C19";
+LOCATE COMP "TEST_LINE_5"                     SITE "D19";
+LOCATE COMP "TEST_LINE_6"                     SITE "J19";
+LOCATE COMP "TEST_LINE_7"                     SITE "K19";
+LOCATE COMP "TEST_LINE_8"                     SITE "A20";
+LOCATE COMP "TEST_LINE_9"                     SITE "B20";
+LOCATE COMP "TEST_LINE_10"                    SITE "G20";
+LOCATE COMP "TEST_LINE_11"                    SITE "G21";
+LOCATE COMP "TEST_LINE_12"                    SITE "C20";
+LOCATE COMP "TEST_LINE_13"                    SITE "D20";
+LOCATE COMP "TEST_LINE_14"                    SITE "F21";
+LOCATE COMP "TEST_LINE_15"                    SITE "F22";
+DEFINE PORT GROUP "TEST_LINE_group" "TEST_LINE*" ;
+IOBUF GROUP "TEST_LINE_group" IO_TYPE=LVCMOS25 PULLMODE=DOWN DRIVE=8;

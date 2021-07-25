@@ -1,0 +1,39 @@
+[Device]
+Family=latticeecp2m
+PartType=LFE2M20E
+PartName=LFE2M20E-5F256C
+SpeedGrade=-5
+Package=FPBGA256
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=DLL
+CoreRevision=3.4
+ModuleName=dll_in100_out100
+SourceFormat=Schematic/VHDL
+ParameterFileVersion=1.0
+Date=07/06/2009
+Time=16:50:52
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+dlltype=Clock Injection Delay Removal
+fin=100
+clkos_div=1
+clkos_ph=0
+Mode=CLKOP
+Freq=CLKI
+Smiports=0
+RSTNport=0
+reset_en=0
+DCNTL=0

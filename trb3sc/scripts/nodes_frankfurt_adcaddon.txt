@@ -1,0 +1,13 @@
+// nodes file for parallel place&route
+
+[jspc29]
+SYSTEM = linux
+CORENUM = 3
+ENV = /d/jspc29/lattice/36_settings.sh
+WORKDIR = /d/jspc22/trb/git/trb3sc/adcaddon/workdir
+
+[jspc57]
+SYSTEM = linux
+CORENUM = 7
+ENV = /d/jspc29/lattice/36_settings.sh
+WORKDIR = /d/jspc22/trb/git/trb3sc/adcaddon/workdir

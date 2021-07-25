@@ -1,0 +1,14 @@
+    Module Name: serdes_fot_full_quad_ctc
+    Core Name: PCS
+    LPC file : serdes_fot_full_quad_ctc.lpc
+    Parameter File : serdes_fot_full_quad_ctc.pp
+    Command line: /d/sugar/lattice/ispLEVER8.1/isptools/ispfpga/bin/lin/orcapp -Fmaco serdes_fot_full_quad_ctc.pp
+    Return Value:
+    
+    
+    
+ Module PCS has been generated in /d/jspc22/trb/cvs/trbnet/media_interfaces/ecp2m_fot successfully!
+
+/home/hadaq/.isplever_lin/ispcpld/bin/hdl2jhd -tfi -mod serdes_fot_full_quad_ctc -ext readme -out serdes_fot_full_quad_ctc -tpl serdes_fot_full_quad_ctc.tft serdes_fot_full_quad_ctc.vhd
+
+Done successfully!

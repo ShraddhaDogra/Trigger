@@ -1,0 +1,3 @@
+vhdl work "../trb_net_std.vhd"
+vhdl work "../trb_net_sbuf.vhd"
+vhdl work "trb_net_sbuf_testbench.vhd"

@@ -1,0 +1,7 @@
+vhdl work "../trb_net_std.vhd"
+vhdl work "../basics/signal_sync.vhd"
+vhdl work "../trb_net16_med_16_CC.vhd"
+vhdl work "../trb_net_CRC.vhd"
+vhdl work "pseudo_random_stream_generator.vhd"
+vhdl work "pseudo_random_stream_checker.vhd"
+vhdl work "testbench_pseudo_random_stream.vhd"

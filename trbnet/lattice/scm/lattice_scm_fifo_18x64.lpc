@@ -1,0 +1,48 @@
+[Device]
+Family=latticescm
+PartType=LFSCM3GA25EP1
+PartName=LFSCM3GA25EP1-5FF1020CES
+SpeedGrade=-5
+Package=FFBGA1020
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=FIFO_DC
+CoreRevision=4.2
+ModuleName=lattice_scm_fifo_18x64
+SourceFormat=Schematic/VHDL
+ParameterFileVersion=1.0
+Date=02/08/2008
+Time=13:40:40
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+FIFOImp=LUT Based
+RDepth=64
+RWidth=18
+WDepth=64
+WWidth=18
+regout=0
+CtrlByRdEn=0
+EmpFlg=0
+PeMode=Static - Single Threshold
+PeAssert=10
+PeDeassert=12
+FullFlg=0
+PfMode=Static - Single Threshold
+PfAssert=508
+PfDeassert=506
+Reset=Sync
+RDataCount=0
+WDataCount=0
+EnECC=0

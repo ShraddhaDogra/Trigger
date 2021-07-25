@@ -1,0 +1,14 @@
+to run all:
+
+mkdir workdir;
+cd workdir;
+ln -s ../serdes_fpga_ref_clk.txt serdes_fpga_ref_clk.txt #configuration file for serdes in LATTICE
+ln -s ../hub.lpf hub.lpf #user constraints
+cd ..
+. /your/xilinx/patch/settings.sh #set xilinx enviroment
+. setup_env #check paths for LATTICE
+#change in hub_1.xcf to correct path of out .bit file
+# /your/project/path/workdir/hub.bit  or produce it in isp - this for chain
+#FPGA - LATTICE, in future there will be no FPGA on trbv2 for hub
+./compile_hub.pl #run main script
+

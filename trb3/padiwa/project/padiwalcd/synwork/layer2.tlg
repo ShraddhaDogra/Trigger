@@ -1,0 +1,3 @@
+@N: CD231 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\lavry\Google Drive\FPGA_programming\padiwa\trb3\wasa\cores\flash.vhd":14:7:14:11|Synthesizing work.flash.structure.
+Post processing for work.flash.structure

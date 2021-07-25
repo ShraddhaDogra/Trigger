@@ -1,0 +1,7 @@
+*.jhd
+*.naf
+*.srp
+*.sym
+*.log
+*.sort
+*tmpl.vhd

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="serdes_sync_4" module="PCS" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2017 06 06 16:20:58.301" version="8.2" type="Module" synthesis="synplify" source_format="VHDL">
+  <Package>
+		<File name="serdes_sync_4.lpc" type="lpc" modified="2017 06 06 16:20:56.000"/>
+		<File name="serdes_sync_4.pp" type="pp" modified="2017 06 06 16:20:56.000"/>
+		<File name="serdes_sync_4.sym" type="sym" modified="2017 06 06 16:20:57.000"/>
+		<File name="serdes_sync_4.tft" type="tft" modified="2015 10 15 14:55:29.000"/>
+		<File name="serdes_sync_4.txt" type="pcs_module" modified="2017 06 06 16:20:56.000"/>
+		<File name="serdes_sync_4.vhd" type="top_level_vhdl" modified="2015 10 15 15:54:51.000"/>
+  </Package>
+</DiamondModule>

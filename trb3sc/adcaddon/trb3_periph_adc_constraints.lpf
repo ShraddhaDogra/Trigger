@@ -1,0 +1,65 @@
+
+
+LOCATE COMP          "THE_MEDIA_INTERFACE_OLD/gen_serdes_0_200_ctc.THE_SERDES/PCSD_INST" SITE "PCSD" ;
+LOCATE UGROUP        "THE_MEDIA_INTERFACE_OLD/media_interface_group" REGION "MEDIA_MIXED" ;
+
+
+
+#################################################################
+# ADC Processor
+#################################################################  
+
+# UGROUP "Proc_0" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_0_THE_ADC_PROC;
+# UGROUP "Proc_1" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_1_THE_ADC_PROC;
+# UGROUP "Proc_2" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_2_THE_ADC_PROC;
+# UGROUP "Proc_3" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_3_THE_ADC_PROC;
+# UGROUP "Proc_4" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_4_THE_ADC_PROC;
+# UGROUP "Proc_5" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_5_THE_ADC_PROC;
+# UGROUP "Proc_6" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_6_THE_ADC_PROC;
+# UGROUP "Proc_7" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_7_THE_ADC_PROC;
+# UGROUP "Proc_8" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_8_THE_ADC_PROC;
+# UGROUP "Proc_9" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_9_THE_ADC_PROC;
+# UGROUP "Proc_10" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_10_THE_ADC_PROC;
+# UGROUP "Proc_11" BBOX 60 60 
+#   BLKNAME gen_reallogic_THE_ADC/gen_processors_11_THE_ADC_PROC;
+
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_1;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_2;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_3;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_4;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_5;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_6;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_7;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_8;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_9;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_10;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_11;
+INPUT_SETUP ALLPORTS 1.5 ns HOLD 1.5 ns CLKPORT ADC_DCO_12;
+
+#################################################################
+# Clocks
+#################################################################  
+#USE PRIMARY NET "CLK_GPLL_RIGHT_c";
+#USE PRIMARY NET "CLK_PCLK_LEFT_c";
+
+PROHIBIT PRIMARY NET "P_CLOCK_c";
+PROHIBIT SECONDARY NET "P_CLOCK_c";
+
+# USE PRIMARY NET "CLK_CORE_PCLK_c";
+# USE PRIMARY NET "CLK_EXT_PCLK";
+
+PROHIBIT PRIMARY NET gen_reallogic.THE_ADC/THE_ADC_LEFT/clk_adcfast_i ;
+PROHIBIT SECONDARY NET gen_reallogic.THE_ADC/THE_ADC_RIGHT/clk_adcfast_i ;
+USE EDGE NET gen_reallogic.THE_ADC/THE_ADC_RIGHT/clk_adcfast_i ;
+USE EDGE NET gen_reallogic.THE_ADC/THE_ADC_LEFT/clk_adcfast_i;

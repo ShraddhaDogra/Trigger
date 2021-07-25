@@ -1,0 +1,48 @@
+[Device]
+Family=latticescm
+PartType=LFSCM3GA40EP1
+PartName=LFSCM3GA40EP1-7FF1020C
+SpeedGrade=-7
+Package=FFBGA1020
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=FIFO_DC
+CoreRevision=5.4
+ModuleName=lattice_ecp2m_fifo_16bit_dualport
+SourceFormat=Schematic/VHDL
+ParameterFileVersion=1.0
+Date=06/29/2010
+Time=10:56:28
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+FIFOImp=EBR Based
+RDepth=512
+RWidth=36
+WDepth=512
+WWidth=36
+regout=0
+CtrlByRdEn=0
+EmpFlg=0
+PeMode=Static - Single Threshold
+PeAssert=10
+PeDeassert=12
+FullFlg=0
+PfMode=Static - Single Threshold
+PfAssert=508
+PfDeassert=506
+Reset=Async
+RDataCount=0
+WDataCount=0
+EnECC=0

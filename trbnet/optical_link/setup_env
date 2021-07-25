@@ -1,0 +1,28 @@
+export  ISPLEVER_PATH=/opt/lattice/isplever7.0/isptools
+
+export ISPCPLD=$ISPLEVER_PATH/ispcpld
+export ISPJTOOLS=$ISPLEVER_PATH/ispjtools
+export PDSPLUS=$ISPLEVER_PATH/ispcomp
+export ISPFPGA=$ISPLEVER_PATH/ispfpga
+export ISPVM_DIR=$ISPLEVER_PATH/ispvmsystem
+export INI_FILE=lsc_7_0.ini
+export MWHOME=$ISPCPLD/mw
+export MWUSER_DIRECTORY=$HOME/isplever_lin_window
+export MWREGISTRY=:$MWUSER_DIRECTORY/hklm_linux.bin
+#unexport LD_LIBRARY_PATH
+#source $MWHOME/setmwruntime.csh
+export COMSPEC=/bin/csh
+export PATH=$PATH:$ISPCPLD/bin:$PDSPLUS/bin:$ISPVM_DIR
+export LD_LIBRARY_PATH=$ISPCPLD/bin:$PDSPLUS/bin:$ISPCPLD/../ispvmsystem/lib:$ISPFPGA/bin/lin:$ISPJTOOLS/vm15/lib/i386:$ISPJTOOLS/vm15/lib/i386/client:$ISPCPLD/tcltk/linux-ix86/lib:$LD_LIBRARY_PATH
+export WINHELPDIR=$ISPCPLD/bin
+export WINHELPPATH=$ISPCPLD/bin
+export ABEL5DEV=$ISPCPLD/lib5
+#export LD_ASSUME_KERNEL 2.4.0
+export MWRT_MODE=professional
+
+export LM_LICENSE_FILE=$ISPCPLD/../license/license.dat:$LM_LICENSE_FILE
+
+sed -e "s?home_dir?$HOME/isplever_lin_window?" -e "s?bin_dir?$ISPLEVER_PATH/ispcpld/bin?" -e "s?isptool_dir?$ISPLEVER_PATH?" $ISPCPLD/config/$INI_FILE > $ISPLEVER_PATH/$INI_FILE
+export LSC_INI_PATH=$ISPLEVER_PATH
+export LSC_INI_FILE=$LSC_INI_PATH/$INI_FILE
+

@@ -1,0 +1,28 @@
+SCUBA, Version Diamond_1.3_Production (92)
+Mon Sep 12 17:31:08 2011
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2011 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : /d/sugar/lattice/diamond/1.3/ispfpga/bin/lin/scuba -w -n spi_dpram_32_to_8 -lang vhdl -synth synplify -bus_exp 7 -bb -arch ep5m00 -type ramdp -device LFE2M100E -aaddr_width 6 -widtha 32 -baddr_width 8 -widthb 8 -anum_words 64 -bnum_words 256 -writemodeA NORMAL -writemodeB NORMAL -resetmode SYNC -cascade -1 -e 
+    Circuit name     : spi_dpram_32_to_8
+    Module type      : RAM_DP_TRUE
+    Module Version   : 7.1
+    Ports            : 
+	Inputs       : DataInA[31:0], DataInB[7:0], AddressA[5:0], AddressB[7:0], ClockA, ClockB, ClockEnA, ClockEnB, WrA, WrB, ResetA, ResetB
+	Outputs      : QA[31:0], QB[7:0]
+    I/O buffer       : not inserted
+    EDIF output      : suppressed
+    VHDL output      : spi_dpram_32_to_8.vhd
+    VHDL template    : spi_dpram_32_to_8_tmpl.vhd
+    VHDL testbench    : tb_spi_dpram_32_to_8_tmpl.vhd
+    VHDL purpose     : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : spi_dpram_32_to_8.srp
+    Element Usage    :
+         DP16KB : 2
+    Estimated Resource Usage:
+            EBR : 2

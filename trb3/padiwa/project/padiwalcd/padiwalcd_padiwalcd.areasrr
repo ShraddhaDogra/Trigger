@@ -1,0 +1,169 @@
+----------------------------------------------------------------------
+Report for cell panda_dirc_wasa.panda_dirc_wasa_arch
+
+Register bits: 1657 of 4320 (38%)
+PIC Latch:       0
+I/O cells:       78
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        1       100.0
+                              CCU2D      515       100.0
+                              DP8KC        1       100.0
+                           DPR16X4C        4       100.0
+                                EFB        1       100.0
+                            EHXPLLJ        1       100.0
+                            FD1P3AX      920       100.0
+                            FD1P3AY        1       100.0
+                            FD1P3BX        1       100.0
+                            FD1P3DX       14       100.0
+                            FD1P3IX       45       100.0
+                            FD1P3JX        1       100.0
+                            FD1S3AX      574       100.0
+                            FD1S3AY        6       100.0
+                            FD1S3BX        4       100.0
+                            FD1S3DX       27       100.0
+                            FD1S3IX       25       100.0
+                            FD1S3JX        2       100.0
+                                GSR        1       100.0
+                                 IB       19       100.0
+                           IFS1P3DX       19       100.0
+                                INV        9       100.0
+                            L6MUX21       63       100.0
+                                 OB       57       100.0
+                                OBZ        1       100.0
+                           OFS1P3DX       18       100.0
+                           ORCALUT4     1048       100.0
+                               OSCH        1       100.0
+                              PFUMX      106       100.0
+                                PUR        1       100.0
+                           SPR16X4C        4       100.0
+                                VHI        9       100.0
+                                VLO        9       100.0
+SUB MODULES 
+                             UFM_WB        1       100.0
+                              flash        1       100.0
+                           flashram        1       100.0
+                                pll        1       100.0
+                      pwm_generator        1       100.0
+                     signal_gen_x16        1       100.0
+                          spi_slave        1       100.0
+             trb_net_onewire_1_0_33        1       100.0
+                            
+                         TOTAL          3516           
+----------------------------------------------------------------------
+Report for cell spi_slave.netlist
+     Instance path:  THE_SPI_SLAVE
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3         0.6
+                            FD1P3AX       65         7.1
+                            FD1S3AX       27         4.7
+                            FD1S3AY        6       100.0
+                                INV        1        11.1
+                            L6MUX21       63       100.0
+                           ORCALUT4      520        49.6
+                              PFUMX      105        99.1
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL           792           
+----------------------------------------------------------------------
+Report for cell UFM_WB.netlist
+     Instance path:  THE_FLASH
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3         0.6
+                                EFB        1       100.0
+                            FD1P3BX        1       100.0
+                            FD1P3DX       14       100.0
+                            FD1S3BX        4       100.0
+                            FD1S3DX       27       100.0
+                                GSR        1       100.0
+                                INV        1        11.1
+                           ORCALUT4      312        29.8
+                              PFUMX        1         0.9
+                                PUR        1       100.0
+                                VHI        2        22.2
+                                VLO        2        22.2
+SUB MODULES 
+                              flash        1       100.0
+                            
+                         TOTAL           371           
+----------------------------------------------------------------------
+Report for cell flash.netlist
+     Instance path:  THE_FLASH.inst1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                EFB        1       100.0
+                           ORCALUT4        1         0.1
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell signal_gen_x16.netlist
+     Instance path:  signal_gen
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        8         1.6
+                            FD1S3AX       17         3.0
+                                INV        2        22.2
+                           ORCALUT4       22         2.1
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL            51           
+----------------------------------------------------------------------
+Report for cell trb_net_onewire_1_0_33.netlist
+     Instance path:  THE_ONEWIRE
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       15         2.9
+                            FD1P3AX        3         0.3
+                            FD1P3IX       36        80.0
+                            FD1P3JX        1       100.0
+                            FD1S3AX       28         4.9
+                            FD1S3IX       21        84.0
+                            FD1S3JX        1        50.0
+                                INV        3        33.3
+                           ORCALUT4      129        12.3
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL           239           
+----------------------------------------------------------------------
+Report for cell pwm_generator.netlist
+     Instance path:  THE_PWM_GEN
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D      153        29.7
+                           DPR16X4C        4       100.0
+                            FD1P3AX      256        27.8
+                            FD1S3AX      308        53.7
+                                INV        1        11.1
+                           ORCALUT4       52         5.0
+                           SPR16X4C        4       100.0
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL           780           
+----------------------------------------------------------------------
+Report for cell flashram.netlist
+     Instance path:  THE_FLASH_RAM
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              DP8KC        1       100.0
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell pll.netlist
+     Instance path:  THE_PLL
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLJ        1       100.0
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL             3           

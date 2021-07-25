@@ -1,0 +1,5 @@
+setMode -bs
+setCable -port stapl -file "hub_chain.stapl"
+addDevice -p 1 -file "hub_1.svf"
+Play
+quit

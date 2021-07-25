@@ -1,0 +1,156 @@
+| ATTENTION:  The vertical bar "|" indicates the information after
+|             it is a comment.
+
+| Dear Customer:
+
+| Your license file is included below.  
+| 
+| The license feature lines in this file MUST remain intact and 
+| without modification or software will not operate.
+|
+| For quick-start installation, please refer to the licensing information in the
+| email body when you received this license file as attachment.
+|
+| Edit your autoexec.bat OR Environment Variables to point to the 
+| proper file. For example: LM_LICENSE_FILE C:\lscc\diamond\3.11_x64\license\license.dat;
+|
+| NOTE:  Feature lines will wrap to the next line.  If you want to enter a line
+| feed at the end of the first line, a space and a backslash "\" are
+| required at the end of that line.
+
+|BEGIN
+|Company Name   :GEORGE WASHINGTON UNIVERSITY 
+|Designer Fname  :Shraddha 
+|Designer Lname  :Dogra 
+|Company Address :725 21ST STREET NW 
+|Company Address : 
+|Company Address :
+|Company City    :Washington 
+|Company State   :DC 
+|Company Zipcode :20052 
+|Company Country :USA 
+|Company Phone   : 
+|Company Fax     : 
+|E Mail Address  :shraddhadogra0408@gmail.com 
+|SW Part Number  :LSC-SW-NL-R 
+|License Type      :Node Locked 
+|Seats             :1 
+|KEY S/N         :300017070 
+|KEY_ID          :080027618DDB 
+FEATURE LSC_ADVANCED_FLXMC lattice 10.0 26-may-2022 uncounted \
+	DB75D3EB0358 VENDOR_STRING=LSC_ADVANCED_FLXMC \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_ORCA lattice 9.0 26-may-2022 uncounted \
+	086676A096F3 VENDOR_STRING="ispORCA System" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_SPI4 lattice 10.0 26-may-2022 uncounted \
+	27AD256D300D VENDOR_STRING=LSC_ADVANCED_SPI4 \
+	HOSTID=080027618ddb
+
+FEATURE LSC_SYNPLIFYPRO1 lattice 10.0 26-may-2022 uncounted \
+	545B1D1C34FC VENDOR_STRING="ispLEVER System with Synplicity \
+	Pro 1" HOSTID=080027618ddb
+
+FEATURE LSC_SW_LFMNX_HARDIP_ESBA lattice 10.0 26-may-2022 uncounted \
+	B3194AF6E6F8 VENDOR_STRING=LSC_SW_LFMNX_HARDIP_ESBA \
+	HOSTID=080027618ddb
+
+FEATURE LSC_SW_XO3D_SECURITY_ENCRYPT lattice 10.0 26-may-2022 \
+	uncounted EB276E32A171 \
+	VENDOR_STRING=LSC_SW_XO3D_SECURITY_ENCRYPT HOSTID=080027618ddb
+
+FEATURE LSC_WARRANTY lattice 10.0 26-may-2022 uncounted 0043BA385B73 \
+	VENDOR_STRING=LSC_WARRANTY HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_PCI_MACO lattice 10.0 26-may-2022 uncounted \
+	B1725B3B6A2D VENDOR_STRING=LSC_ADVANCED_PCI_MACO \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_PCI lattice 10.0 26-may-2022 uncounted \
+	27223298BE6E VENDOR_STRING=LSC_ADVANCED_PCI \
+	HOSTID=080027618ddb
+
+INCREMENT latticemsim mgcld 2022.05 26-may-2022 0 CFC2991AD2E01C86AC1B \
+    VENDOR_STRING=ED6BEDBC HOSTID=080027618ddb ISSUER="ModelSIM Lattice" \
+    SN=175789282 SIGN2="003B A8DD 6FF4 091B CE1B 6E75 35FF 9221 A2E8 6C8B \
+    FDA9 8977 E48F 108E E99E 125D E8B6 6970 8544 405E 4EE8 954E 4AB9 6E5C \
+    CED9 360B 1E1E EEA6 2BB3 763A"
+
+
+FEATURE LSC_ADVANCED_ORLI10G lattice 9.0 26-may-2022 uncounted \
+	150137A14493 VENDOR_STRING="ORLI10G FPSC Design Kit" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_LSCDR lattice 10.0 26-may-2022 uncounted \
+	53424B329C9E VENDOR_STRING=LSC_ADVANCED_LSCDR \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_MCTL lattice 10.0 26-may-2022 uncounted \
+	885944BA0B01 VENDOR_STRING=LSC_ADVANCED_MCTL \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_ORT82G5 lattice 9.0 26-may-2022 uncounted \
+	716E513EE830 VENDOR_STRING="ORT82G5 FPSC Design Kit" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_PROGRAMMER_MATURE lattice 10.0 26-may-2022 uncounted \
+	C9D616F03838 VENDOR_STRING=LSC_PROGRAMMER_MATURE \
+	HOSTID=080027618ddb
+
+FEATURE LSC_PAC_SYSTEM lattice 8.0 26-may-2022 uncounted C57B850E8066 \
+	VENDOR_STRING="ispPAC System10" HOSTID=080027618ddb
+
+FEATURE LSC_SW_LFMNX_SECURITY_ENCRYPT lattice 10.0 26-may-2022 \
+	uncounted DADB98DD1D59 \
+	VENDOR_STRING=LSC_SW_LFMNX_SECURITY_ENCRYPT \
+	HOSTID=080027618ddb
+
+FEATURE LSC_BASE lattice 8.0 26-may-2022 uncounted AA885EB1ADC3 \
+	VENDOR_STRING="ispLEVER BASE" HOSTID=080027618ddb
+
+FEATURE LSC_SYNPLIFY lattice 8.0 26-may-2022 uncounted FBA6609134EF \
+	VENDOR_STRING="ispLEVER System with Synplicity" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_DIAMOND_A lattice 10.0 26-may-2022 uncounted 358F917E09FF \
+	VENDOR_STRING="Diamond Free" HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_ORSPI4 lattice 10.0 26-may-2022 uncounted \
+	BBB08765C77E VENDOR_STRING="ORSPI4 FPSC Design Kit" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_ORSO82G5 lattice 9.0 26-may-2022 uncounted \
+	AF7EA7EC6513 VENDOR_STRING="ORSO82G5 FPSC Design Kit" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_LTSSM lattice 10.0 26-may-2022 uncounted \
+	7678C2AE20CA VENDOR_STRING=LSC_ADVANCED_LTSSM \
+	HOSTID=080027618ddb
+
+FEATURE LSC_SW_XO3D_HARDIP_ESBA lattice 10.0 26-may-2022 uncounted \
+	5FC279FE3463 VENDOR_STRING=LSC_SW_XO3D_HARDIP_ESBA \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_ORSO42G5 lattice 9.0 26-may-2022 uncounted \
+	879EEB145117 VENDOR_STRING="ORSO42G5 FPSC Design Kit" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_ORT42G5 lattice 9.0 26-may-2022 uncounted \
+	BAC47D1610D0 VENDOR_STRING="ORT42G5 FPSC Design Kit" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_PLUS lattice 8.0 26-may-2022 uncounted \
+	053C9E927DAD VENDOR_STRING="ispLEVER Advanced Plus" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_DSP lattice 10.0 26-may-2022 uncounted \
+	1D98A172BD92 VENDOR_STRING="ispLEVER DSP" HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED_ORT8850 lattice 9.0 26-may-2022 uncounted \
+	B82AFFE1D4E9 VENDOR_STRING="ORT8850 FPSC Design Kit" \
+	HOSTID=080027618ddb
+
+FEATURE LSC_ADVANCED lattice 8.0 26-may-2022 uncounted CFD806F23341 \
+	VENDOR_STRING="ispLEVER Advanced" HOSTID=080027618ddb
