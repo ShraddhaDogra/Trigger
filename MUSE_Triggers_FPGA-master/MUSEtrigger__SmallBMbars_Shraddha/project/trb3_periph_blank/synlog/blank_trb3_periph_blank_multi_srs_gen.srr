@@ -1,0 +1,12 @@
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\musefpgawin\Trigger\MUSEtrigger__SmallBMbars_Shraddha\project\trb3_periph_blank\synwork\blank_trb3_periph_blank_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 103MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Apr 28 16:12:38 2022
+
+###########################################################]

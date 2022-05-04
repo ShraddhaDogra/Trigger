@@ -1,0 +1,599 @@
+# Thu Apr 28 16:12:38 2022
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\musefpgawin\Trigger\MUSEtrigger__SmallBMbars_Shraddha\project\trb3_periph_blank\blank_trb3_periph_blank_scck.rpt 
+Printing clock  summary report in "C:\Users\musefpgawin\Trigger\MUSEtrigger__SmallBMbars_Shraddha\project\trb3_periph_blank\blank_trb3_periph_blank_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 153MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 155MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":509:4:509:8|Removing sequential instance FF_12 (in view: work.lattice_ecp3_fifo_18x1k(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":553:4:553:7|Removing sequential instance FF_1 (in view: work.lattice_ecp3_fifo_18x1k(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@A: FX681 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_trigger.vhd":164:6:164:7|Initial value on register INT_PACKET_NUM_OUT[2:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_19x16_obuf.vhd":458:4:458:8|Removing sequential instance FF_11 (in view: work.fifo_19x16_obuf(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@A: FX681 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_io_multiplexer.vhd":303:6:303:7|Initial value on register current_mux_packet_number[2:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_36x2k_oreg.vhd":839:4:839:8|Removing sequential instance FF_25 (in view: work.fifo_36x2k_oreg(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_36x512_oreg.vhd":630:4:630:8|Removing sequential instance FF_21 (in view: work.fifo_36x512_oreg(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x512_oreg.vhd":630:4:630:8|Removing sequential instance FF_21 (in view: work.fifo_18x512_oreg(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@A: FX681 :"c:\users\musefpgawin\trigger\trb3sc\code\load_settings.vhd":107:7:107:18|Initial value on register sync\.wait_counter[23:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":682:4:682:8|Removing sequential instance FF_23 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@W: BN132 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_obuf_nodata.vhd":62:6:62:7|Removing sequential instance THE_ENDPOINT.THE_ENDPOINT.genbuffers.3.geniobuf.IOBUF.genINITOBUF2.gen_INITOBUF3.INITOBUF.buf_MED_PACKET_NUM_OUT[2:0] because it is equivalent to instance THE_ENDPOINT.THE_ENDPOINT.genbuffers.3.geniobuf.IOBUF.genINITOBUF2.gen_INITOBUF3.INITOBUF.transfer_counter[2:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\musefpgawin\trigger\trb3\base\code\input_statistics.vhd":19:4:19:11|Removing sequential instance THE_TOOLS.gen_STATISTICS.THE_STAT_LOGIC.DATA_OUT_cl_3[31] because it is equivalent to instance THE_TOOLS.gen_STATISTICS.THE_STAT_LOGIC.DATA_OUT_cl_2[31]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\musefpgawin\trigger\trb3\base\code\input_statistics.vhd":19:4:19:11|Removing sequential instance THE_TOOLS.gen_STATISTICS.THE_STAT_LOGIC.DATA_OUT_cl_2[31] because it is equivalent to instance THE_TOOLS.gen_STATISTICS.THE_STAT_LOGIC.DATA_OUT_cl_1[31]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\musefpgawin\trigger\trb3\base\code\input_statistics.vhd":19:4:19:11|Removing sequential instance THE_TOOLS.gen_STATISTICS.THE_STAT_LOGIC.DATA_OUT_cl_1[31] because it is equivalent to instance THE_TOOLS.gen_STATISTICS.THE_STAT_LOGIC.DATA_OUT_cl[31]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\musefpgawin\trigger\musetrigger__smallbmbars_shraddha\trb3_periph_blank.vhd":119:21:119:29|Removing sequential instance busrdo_tx.data[30] because it is equivalent to instance busrdo_tx.data[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\musefpgawin\trigger\musetrigger__smallbmbars_shraddha\trb3_periph_blank.vhd":119:21:119:29|Removing sequential instance busrdo_tx.data[25] because it is equivalent to instance busrdo_tx.data[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\musefpgawin\trigger\musetrigger__smallbmbars_shraddha\trb3_periph_blank.vhd":119:21:119:29|Removing sequential instance busrdo_tx.data[23] because it is equivalent to instance busrdo_tx.data[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\musefpgawin\trigger\musetrigger__smallbmbars_shraddha\trb3_periph_blank.vhd":119:21:119:29|Removing sequential instance busrdo_tx.data[21] because it is equivalent to instance busrdo_tx.data[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO111 :"c:\users\musefpgawin\trigger\trbnet\special\trb_net_reset_handler.vhd":41:7:41:11|Tristate driver DEBUG_OUT_1 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) on net DEBUG_OUT_1 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\musefpgawin\trigger\trbnet\special\trb_net_reset_handler.vhd":41:7:41:11|Tristate driver DEBUG_OUT_2 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) on net DEBUG_OUT_2 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\musefpgawin\trigger\trbnet\special\trb_net_reset_handler.vhd":41:7:41:11|Tristate driver DEBUG_OUT_3 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) on net DEBUG_OUT_3 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\musefpgawin\trigger\trbnet\special\trb_net_reset_handler.vhd":41:7:41:11|Tristate driver DEBUG_OUT_4 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) on net DEBUG_OUT_4 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\musefpgawin\trigger\trbnet\special\trb_net_reset_handler.vhd":41:7:41:11|Tristate driver DEBUG_OUT_5 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) on net DEBUG_OUT_5 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\musefpgawin\trigger\trbnet\special\trb_net_reset_handler.vhd":41:7:41:11|Tristate driver DEBUG_OUT_6 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) on net DEBUG_OUT_6 (in view: work.trb_net_reset_handler_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\musefpgawin\trigger\musetrigger__smallbmbars_shraddha\project\smallbm.vhd":162:7:162:9|Tristate driver OutpA_1 (in view: work.SmallBM(structural)) on net OutpA_1 (in view: work.SmallBM(structural)) has its enable tied to GND.
+@N: MO111 :"c:\users\musefpgawin\trigger\musetrigger__smallbmbars_shraddha\project\smallbm.vhd":162:7:162:9|Tristate driver OutpA_2 (in view: work.SmallBM(structural)) on net OutpA_2 (in view: work.SmallBM(structural)) has its enable tied to GND.
+@N: MO111 :"c:\users\musefpgawin\trigger\musetrigger__smallbmbars_shraddha\trb3_periph_blank.vhd":155:9:155:23|Tristate driver bar_enable_mask_tri32 (in view: work.trb3_periph_blank(trb3_periph_blank_arch)) on net bar_enable_mask_tri32 (in view: work.trb3_periph_blank(trb3_periph_blank_arch)) has its enable tied to GND.
+@N: MO111 :"c:\users\musefpgawin\trigger\musetrigger__smallbmbars_shraddha\trb3_periph_blank.vhd":155:9:155:23|Tristate driver bar_enable_mask_tri33 (in view: work.trb3_periph_blank(trb3_periph_blank_arch)) on net bar_enable_mask_tri33 (in view: work.trb3_periph_blank(trb3_periph_blank_arch)) has its enable tied to GND.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_priority_arbiter.vhd":159:4:159:5|Removing sequential instance current_rr_mask[7:0] (in view: work.trb_net_priority_arbiter_8(trb_net_priority_arbiter_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_priority_arbiter.vhd":159:4:159:5|Removing sequential instance current_p1_pattern[7:0] (in view: work.trb_net_priority_arbiter_8(trb_net_priority_arbiter_arch)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_priority_arbiter.vhd":159:4:159:5|Removing sequential instance current_p2_pattern[7:0] (in view: work.trb_net_priority_arbiter_8(trb_net_priority_arbiter_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\musefpgawin\trigger\trbnet\trb_net_priority_arbiter.vhd":86:4:86:7|Removing instance ENC3 (in view: work.trb_net_priority_arbiter_8(trb_net_priority_arbiter_arch)) of type view:work.trb_net_priority_encoder_8_0(trb_net_priority_encoder_arch) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd":144:2:144:3|Removing sequential instance lane_rst (in view: work.trb_net16_lsm_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(lsm_sfp)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd":144:2:144:3|Removing sequential instance resync (in view: work.trb_net16_lsm_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(lsm_sfp)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":763:4:763:7|Removing sequential instance FF_0 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trb3\base\code\sedcheck.vhd":199:0:199:4|Removing sequential instance DEBUG_1[31:16] (in view: work.sedcheck(sed_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":557:4:557:7|Removing sequential instance FF_0 (in view: work.lattice_ecp3_fifo_18x1k_2_0_0(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":557:4:557:7|Removing sequential instance FF_0 (in view: work.lattice_ecp3_fifo_18x1k_0(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":557:4:557:7|Removing sequential instance FF_0 (in view: work.lattice_ecp3_fifo_18x1k_2_0_1(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":557:4:557:7|Removing sequential instance FF_0 (in view: work.lattice_ecp3_fifo_18x1k_1_0(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":557:4:557:7|Removing sequential instance FF_0 (in view: work.lattice_ecp3_fifo_18x1k_2_1_0(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_3_0_0(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":557:4:557:7|Removing sequential instance FF_0 (in view: work.lattice_ecp3_fifo_18x1k_1_1(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":557:4:557:7|Removing sequential instance FF_0 (in view: work.lattice_ecp3_fifo_18x1k_2_1_1(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_3_0_1(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":870:6:870:7|Removing sequential instance buf_APL_RUN_OUT (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1(trb_net16_api_base_arch)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":894:6:894:7|Removing sequential instance master_running (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1(trb_net16_api_base_arch)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":508:6:508:7|Removing sequential instance fifo_to_apl_empty (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1(trb_net16_api_base_arch)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":870:6:870:7|Removing sequential instance buf_APL_RUN_OUT (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0(trb_net16_api_base_arch)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":894:6:894:7|Removing sequential instance master_running (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0(trb_net16_api_base_arch)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":508:6:508:7|Removing sequential instance fifo_to_apl_empty (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0(trb_net16_api_base_arch)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_regio_bus_handler_record.vhd":95:6:95:7|Removing sequential instance buf_BUS_WRITE_OUT[4] (in view: work.trb_net16_regio_bus_handler_record_work_trb3_periph_blank_trb3_periph_blank_arch_2layer0(regio_bus_handler_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":52:4:52:15|Removing sequential instance SCI_DATA_OUT[0] (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":52:4:52:15|Removing sequential instance SCI_DATA_OUT[1] (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":52:4:52:15|Removing sequential instance SCI_DATA_OUT[2] (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":52:4:52:15|Removing sequential instance SCI_DATA_OUT[3] (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":52:4:52:15|Removing sequential instance SCI_DATA_OUT[4] (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":52:4:52:15|Removing sequential instance SCI_DATA_OUT[5] (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":52:4:52:15|Removing sequential instance SCI_DATA_OUT[6] (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":52:4:52:15|Removing sequential instance SCI_DATA_OUT[7] (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":793:4:793:7|Removing sequential instance FF_0 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\special\spi_slim.vhd":228:4:228:5|Removing sequential instance tx_done (in view: work.spi_slim_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0_0(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0_1(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_2(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_3(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_0(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_1(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf5.vhd":161:1:161:2|Removing sequential instance bsm[3:0] (in view: work.trb_net_sbuf5_0(trb_net_sbuf5_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf5.vhd":161:1:161:2|Removing sequential instance bsm[3:0] (in view: work.trb_net_sbuf5_1(trb_net_sbuf5_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf5.vhd":161:1:161:2|Removing sequential instance bsm[3:0] (in view: work.trb_net_sbuf5_2(trb_net_sbuf5_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf5.vhd":161:1:161:2|Removing sequential instance bsm[3:0] (in view: work.trb_net_sbuf5_3(trb_net_sbuf5_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf5.vhd":161:1:161:2|Removing sequential instance bsm[3:0] (in view: work.trb_net_sbuf5_4(trb_net_sbuf5_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf5.vhd":161:1:161:2|Removing sequential instance bsm[3:0] (in view: work.trb_net_sbuf5_5(trb_net_sbuf5_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":221:4:221:5|Removing sequential instance current_got_overflow (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_2(trb_net_sbuf_arch)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ibuf.vhd":194:4:194:5|Removing sequential instance reg_ack_init_internal (in view: work.trb_net16_ibuf_6_1_1_0_1_0_0(trb_net16_ibuf_arch)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ibuf.vhd":194:4:194:5|Removing sequential instance reg_ack_init_internal (in view: work.trb_net16_ibuf_6_1_1_0_0_1_0(trb_net16_ibuf_arch)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_regio.vhd":970:6:970:7|Removing sequential instance STAT_REG_STROBE[1:0] (in view: work.trb_net16_regIO_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_regio_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_regio.vhd":970:6:970:7|Removing sequential instance CTRL_REG_STROBE[1:0] (in view: work.trb_net16_regIO_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_regio_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_onewire.vhd":72:6:72:7|Removing sequential instance MONITOR_OUT (in view: work.trb_net_onewire_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net_onewire_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":976:4:976:15|Removing instance af_set_cmp_5 (in view: work.fifo_18x1k_oreg(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":742:4:742:11|Removing instance af_cmp_5 (in view: work.lattice_ecp3_fifo_18x1k_2_0_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":742:4:742:11|Removing instance af_cmp_5 (in view: work.lattice_ecp3_fifo_18x1k_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":742:4:742:11|Removing instance af_cmp_5 (in view: work.lattice_ecp3_fifo_18x1k_2_0_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":742:4:742:11|Removing instance af_cmp_5 (in view: work.lattice_ecp3_fifo_18x1k_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":742:4:742:11|Removing instance af_cmp_5 (in view: work.lattice_ecp3_fifo_18x1k_2_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":742:4:742:11|Removing instance af_cmp_5 (in view: work.lattice_ecp3_fifo_18x1k_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":742:4:742:11|Removing instance af_cmp_5 (in view: work.lattice_ecp3_fifo_18x1k_2_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\basics\ram_16x16_dp.vhd":45:6:45:7|Removing sequential instance dout1[15:0] (in view: work.ram_16x16_dp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(ram_16x16_dp_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_regio.vhd":970:6:970:7|Removing sequential instance next_CTRL_REG_STROBE[1:0] (in view: work.trb_net16_regIO_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_regio_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ibuf.vhd":194:4:194:5|Removing sequential instance reg_ack_init_internal (in view: work.trb_net16_ibuf_6_1_1_0_1_0_1(trb_net16_ibuf_arch)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ipudata.vhd":98:6:98:7|Removing sequential instance buf_INFORMATION[7:0] (in view: work.trb_net16_ipudata_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_ipudata_arch)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_regio.vhd":970:6:970:7|Removing sequential instance COMMON_STAT_REG_STROBE[9:0] (in view: work.trb_net16_regIO_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_regio_arch)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":905:4:905:15|Removing instance af_set_cmp_2 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":972:4:972:15|Removing instance af_set_cmp_4 (in view: work.fifo_18x1k_oreg(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":760:4:760:7|Removing sequential instance FF_1 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":738:4:738:11|Removing instance af_cmp_4 (in view: work.lattice_ecp3_fifo_18x1k_2_0_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":738:4:738:11|Removing instance af_cmp_4 (in view: work.lattice_ecp3_fifo_18x1k_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":738:4:738:11|Removing instance af_cmp_4 (in view: work.lattice_ecp3_fifo_18x1k_2_0_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":738:4:738:11|Removing instance af_cmp_4 (in view: work.lattice_ecp3_fifo_18x1k_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":738:4:738:11|Removing instance af_cmp_4 (in view: work.lattice_ecp3_fifo_18x1k_2_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":738:4:738:11|Removing instance af_cmp_4 (in view: work.lattice_ecp3_fifo_18x1k_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":738:4:738:11|Removing instance af_cmp_4 (in view: work.lattice_ecp3_fifo_18x1k_2_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":971:4:971:5|Removing sequential instance rx_led (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd":971:4:971:5|Removing sequential instance tx_led (in view: work.trb_net16_med_ecp3_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_med_ecp3_sfp_arch)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":901:4:901:15|Removing instance af_set_cmp_1 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":497:4:497:9|Removing instance LUT4_0 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of black box view:LUCENT.ROM16X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":492:4:492:9|Removing instance LUT4_1 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of black box view:LUCENT.ROM16X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":968:4:968:15|Removing instance af_set_cmp_3 (in view: work.fifo_18x1k_oreg(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":757:4:757:7|Removing sequential instance FF_2 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":754:4:754:7|Removing sequential instance FF_3 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":731:4:731:11|Removing instance af_cmp_3 (in view: work.lattice_ecp3_fifo_18x1k_2_0_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":248:4:248:5|Removing sequential instance current_b2_buffer[16] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_2(trb_net_sbuf_arch)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":248:4:248:5|Removing sequential instance current_b2_buffer[17] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_2(trb_net_sbuf_arch)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":731:4:731:11|Removing instance af_cmp_3 (in view: work.lattice_ecp3_fifo_18x1k_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":731:4:731:11|Removing instance af_cmp_3 (in view: work.lattice_ecp3_fifo_18x1k_2_0_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":248:4:248:5|Removing sequential instance current_b2_buffer[16] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_0(trb_net_sbuf_arch)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":248:4:248:5|Removing sequential instance current_b2_buffer[17] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_0(trb_net_sbuf_arch)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":731:4:731:11|Removing instance af_cmp_3 (in view: work.lattice_ecp3_fifo_18x1k_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":731:4:731:11|Removing instance af_cmp_3 (in view: work.lattice_ecp3_fifo_18x1k_2_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":731:4:731:11|Removing instance af_cmp_3 (in view: work.lattice_ecp3_fifo_18x1k_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":731:4:731:11|Removing instance af_cmp_3 (in view: work.lattice_ecp3_fifo_18x1k_2_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\basics\ram_16x16_dp.vhd":38:9:38:11|Removing sequential instance ram[15:0] (in view: work.ram_16x16_dp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(ram_16x16_dp_arch)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_sbuf.vhd":248:4:248:5|Removing sequential instance current_b2_buffer[17] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_2(trb_net_sbuf_arch)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":897:4:897:15|Removing instance af_set_cmp_0 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":964:4:964:15|Removing instance af_set_cmp_2 (in view: work.fifo_18x1k_oreg(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":751:4:751:7|Removing sequential instance FF_4 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":748:4:748:7|Removing sequential instance FF_5 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":727:4:727:11|Removing instance af_cmp_2 (in view: work.lattice_ecp3_fifo_18x1k_2_0_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":727:4:727:11|Removing instance af_cmp_2 (in view: work.lattice_ecp3_fifo_18x1k_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":727:4:727:11|Removing instance af_cmp_2 (in view: work.lattice_ecp3_fifo_18x1k_2_0_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":727:4:727:11|Removing instance af_cmp_2 (in view: work.lattice_ecp3_fifo_18x1k_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":727:4:727:11|Removing instance af_cmp_2 (in view: work.lattice_ecp3_fifo_18x1k_2_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":727:4:727:11|Removing instance af_cmp_2 (in view: work.lattice_ecp3_fifo_18x1k_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":727:4:727:11|Removing instance af_cmp_2 (in view: work.lattice_ecp3_fifo_18x1k_2_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":894:6:894:7|Removing sequential instance slave_running (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1(trb_net16_api_base_arch)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":894:6:894:7|Removing sequential instance slave_running (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0(trb_net16_api_base_arch)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":960:4:960:15|Removing instance af_set_cmp_1 (in view: work.fifo_18x1k_oreg(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":745:4:745:7|Removing sequential instance FF_6 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":742:4:742:7|Removing sequential instance FF_7 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":726:4:726:8|Removing sequential instance FF_12 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":723:4:723:11|Removing instance af_cmp_1 (in view: work.lattice_ecp3_fifo_18x1k_2_0_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":723:4:723:11|Removing instance af_cmp_1 (in view: work.lattice_ecp3_fifo_18x1k_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":723:4:723:11|Removing instance af_cmp_1 (in view: work.lattice_ecp3_fifo_18x1k_2_0_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":723:4:723:11|Removing instance af_cmp_1 (in view: work.lattice_ecp3_fifo_18x1k_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":723:4:723:11|Removing instance af_cmp_1 (in view: work.lattice_ecp3_fifo_18x1k_2_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":723:4:723:11|Removing instance af_cmp_1 (in view: work.lattice_ecp3_fifo_18x1k_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":723:4:723:11|Removing instance af_cmp_1 (in view: work.lattice_ecp3_fifo_18x1k_2_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":956:4:956:15|Removing instance af_set_cmp_0 (in view: work.fifo_18x1k_oreg(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":739:4:739:7|Removing sequential instance FF_8 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":736:4:736:7|Removing sequential instance FF_9 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":719:4:719:11|Removing instance af_cmp_0 (in view: work.lattice_ecp3_fifo_18x1k_2_0_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":719:4:719:11|Removing instance af_cmp_0 (in view: work.lattice_ecp3_fifo_18x1k_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":719:4:719:11|Removing instance af_cmp_0 (in view: work.lattice_ecp3_fifo_18x1k_2_0_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":719:4:719:11|Removing instance af_cmp_0 (in view: work.lattice_ecp3_fifo_18x1k_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":719:4:719:11|Removing instance af_cmp_0 (in view: work.lattice_ecp3_fifo_18x1k_2_1_0(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":719:4:719:11|Removing instance af_cmp_0 (in view: work.lattice_ecp3_fifo_18x1k_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@W: BN114 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd":719:4:719:11|Removing instance af_cmp_0 (in view: work.lattice_ecp3_fifo_18x1k_2_1_1(structure)) of black box view:work.AGEB2(syn_black_box) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":733:4:733:8|Removing sequential instance FF_10 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":730:4:730:8|Removing sequential instance FF_11 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net_onewire.vhd":28:4:28:9|Removing sequential instance ID_OUT[63:0] (in view: work.trb_net_onewire_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net_onewire_arch)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ibuf.vhd":466:6:466:7|Removing sequential instance data_counter[31:0] (in view: work.trb_net16_ibuf_6_1_1_0_1_0_1(trb_net16_ibuf_arch)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ibuf.vhd":447:8:447:9|Removing sequential instance init_buffer_number[15:0] (in view: work.trb_net16_ibuf_6_1_1_0_1_0_1(trb_net16_ibuf_arch)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ibuf.vhd":466:6:466:7|Removing sequential instance data_counter[31:0] (in view: work.trb_net16_ibuf_6_1_1_0_0_1_0(trb_net16_ibuf_arch)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ibuf.vhd":447:8:447:9|Removing sequential instance init_buffer_number[15:0] (in view: work.trb_net16_ibuf_6_1_1_0_0_1_0(trb_net16_ibuf_arch)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ibuf.vhd":466:6:466:7|Removing sequential instance data_counter[31:0] (in view: work.trb_net16_ibuf_6_1_1_0_1_0_0(trb_net16_ibuf_arch)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ibuf.vhd":447:8:447:9|Removing sequential instance init_buffer_number[15:0] (in view: work.trb_net16_ibuf_6_1_1_0_1_0_0(trb_net16_ibuf_arch)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":594:4:594:8|Removing sequential instance FF_45 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd":638:4:638:8|Removing sequential instance FF_34 (in view: work.fifo_18x1k_oreg(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":769:4:769:7|Removing sequential instance FF_6 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of type view:LUCENT.FD1P3BX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":773:4:773:7|Removing sequential instance FF_5 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":777:4:777:7|Removing sequential instance FF_4 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":781:4:781:7|Removing sequential instance FF_3 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\musefpgawin\trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd":785:4:785:7|Removing sequential instance FF_2 (in view: work.lattice_ecp3_fifo_16bit_dualport_0(structure)) of type view:LUCENT.FD1P3BX(PRIM) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log C:\Users\musefpgawin\Trigger\MUSEtrigger__SmallBMbars_Shraddha\project\trb3_periph_blank\synlog\blank_trb3_periph_blank_premap.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=372  set on top level netlist trb3_periph_blank
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 192MB peak: 196MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                                                                     Requested      Requested     Clock                                                    Clock                     Clock
+Level     Clock                                                                                                     Frequency      Period        Type                                                     Group                     Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                                                                    1703.0 MHz     0.587         system                                                   system_clkgroup           1    
+                                                                                                                                                                                                                                         
+0 -       pll_in200_out100|CLKOP_inferred_clock                                                                     76.3 MHz       13.107        inferred                                                 Autoconstr_clkgroup_0     7852 
+                                                                                                                                                                                                                                         
+0 -       sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock        432.9 MHz      2.310         inferred                                                 Autoconstr_clkgroup_1     110  
+                                                                                                                                                                                                                                         
+0 -       pll_in200_out100|CLKOK_inferred_clock                                                                     1.0 MHz        1000.000      inferred                                                 Autoconstr_clkgroup_2     30   
+1 .         sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_rx_ch1_derived_clock     1.0 MHz        1000.000      derived (from pll_in200_out100|CLKOK_inferred_clock)     Autoconstr_clkgroup_2     35   
+1 .         sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|refclkdiv2_tx_ch_derived_clock      1.0 MHz        1000.000      derived (from pll_in200_out100|CLKOK_inferred_clock)     Autoconstr_clkgroup_2     32   
+=========================================================================================================================================================================================================================================
+
+@W: MT531 :"c:\users\musefpgawin\trigger\trbnet\special\handler_lvl1.vhd":278:6:278:7|Found signal identified as System clock which controls 1 sequential elements including THE_ENDPOINT.THE_ENDPOINT.THE_LVL1_HANDLER.tmg_edge_async.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\musefpgawin\trigger\trbnet\special\trb_net_reset_handler.vhd":87:1:87:2|Found inferred clock pll_in200_out100|CLKOP_inferred_clock which controls 7852 sequential elements including THE_RESET_HANDLER.final_reset[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\musefpgawin\trigger\trbnet\basics\signal_sync.vhd":39:8:39:9|Found inferred clock sfp_1_200_int_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0|rx_half_clk_ch1_inferred_clock which controls 110 sequential elements including THE_MEDIA_UPLINK.THE_RX_K_SYNC.sync_q[7:4]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\musefpgawin\trigger\trbnet\special\trb_net_reset_handler.vhd":46:63:46:67|Found inferred clock pll_in200_out100|CLKOK_inferred_clock which controls 30 sequential elements including THE_RESET_HANDLER.trb_reset_pulse[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 185MB peak: 196MB)
+
+Encoding state machine CURRENT_STATE[0:9] (in view: work.trb_net16_lsm_sfp_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(lsm_sfp))
+original code -> new code
+   0000000001 -> 0000000001
+   0000000010 -> 0000000010
+   0000000100 -> 0000000100
+   0000001000 -> 0000001000
+   0000010000 -> 0000010000
+   0000100000 -> 0000100000
+   0001000000 -> 0001000000
+   0010000000 -> 0010000000
+   0100000000 -> 0100000000
+   1000000000 -> 1000000000
+Encoding state machine cs[0:5] (in view: work.rx_reset_sm_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(rx_reset_sm_arch))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine cs[0:4] (in view: work.tx_reset_sm_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(tx_reset_sm_arch))
+original code -> new code
+   00001 -> 000
+   00010 -> 001
+   00100 -> 010
+   01000 -> 011
+   10000 -> 100
+Encoding state machine STATE[0:15] (in view: work.spi_slim_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(behavioral))
+original code -> new code
+   00000000000000001 -> 0000000000000001
+   00000000000000010 -> 0000000000000010
+   00000000000000100 -> 0000000000000100
+   00000000000001000 -> 0000000000001000
+   00000000000010000 -> 0000000000010000
+   00000000000100000 -> 0000000000100000
+   00000000001000000 -> 0000000001000000
+   00000000010000000 -> 0000000010000000
+   00000000100000000 -> 0000000100000000
+   00000001000000000 -> 0000001000000000
+   00000010000000000 -> 0000010000000000
+   00000100000000000 -> 0000100000000000
+   00010000000000000 -> 0001000000000000
+   00100000000000000 -> 0010000000000000
+   01000000000000000 -> 0100000000000000
+   10000000000000000 -> 1000000000000000
+Encoding state machine CURRENT_STATE[0:5] (in view: work.spi_databus_memory(behavioral))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine parse_state[0:18] (in view: work.load_settings_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(load_settings_arch))
+original code -> new code
+   0000000000000000001 -> 0000000000000000001
+   0000000000000000010 -> 0000000000000000010
+   0000000000000000100 -> 0000000000000000100
+   0000000000000001000 -> 0000000000000001000
+   0000000000000010000 -> 0000000000000010000
+   0000000000000100000 -> 0000000000000100000
+   0000000000001000000 -> 0000000000001000000
+   0000000000010000000 -> 0000000000010000000
+   0000000000100000000 -> 0000000000100000000
+   0000000001000000000 -> 0000000001000000000
+   0000000010000000000 -> 0000000010000000000
+   0000000100000000000 -> 0000000100000000000
+   0000001000000000000 -> 0000001000000000000
+   0000010000000000000 -> 0000010000000000000
+   0000100000000000000 -> 0000100000000000000
+   0001000000000000000 -> 0001000000000000000
+   0010000000000000000 -> 0010000000000000000
+   0100000000000000000 -> 0100000000000000000
+   1000000000000000000 -> 1000000000000000000
+Encoding state machine read_page_state[0:7] (in view: work.load_settings_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(load_settings_arch))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine state[0:7] (in view: work.sedcheck(sed_arch))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine fsm_state[0:6] (in view: work.spi_ltc2600_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(spi_ltc2600_arch))
+original code -> new code
+   00000001 -> 0000001
+   00000010 -> 0000010
+   00000100 -> 0000100
+   00001000 -> 0001000
+   00010000 -> 0010000
+   00100000 -> 0100000
+   10000000 -> 1000000
+Encoding state machine state[0:2] (in view: work.input_statistics_36_0_1(input_statistics_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sending_state[0:2] (in view: work.trb_net16_obuf_1_1_7_0(trb_net16_obuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sending_state[0:2] (in view: work.trb_net16_obuf_1_0_7_6(trb_net16_obuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_2(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sending_state[0:2] (in view: work.trb_net16_obuf_1_1_7_1(trb_net16_obuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0_0(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_0(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_3_0_0(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state_to_int[0:5] (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1(trb_net16_api_base_arch))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine state_to_apl[0:3] (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1(trb_net16_api_base_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":797:6:797:7|There are no possible illegal states for state machine state_to_apl[0:3] (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_1(trb_net16_api_base_arch)); safe FSM implementation is not required.
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0_1(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_1(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_3_0_1(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state_to_int[0:5] (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0(trb_net16_api_base_arch))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine state_to_apl[0:3] (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0(trb_net16_api_base_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_api_base.vhd":797:6:797:7|There are no possible illegal states for state machine state_to_apl[0:3] (in view: work.trb_net16_api_base_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_0(trb_net16_api_base_arch)); safe FSM implementation is not required.
+Encoding state machine state[0:3] (in view: work.trb_net16_ipudata_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_ipudata_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\musefpgawin\trigger\trbnet\trb_net16_ipudata.vhd":98:6:98:7|There are no possible illegal states for state machine state[0:3] (in view: work.trb_net16_ipudata_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_ipudata_arch)); safe FSM implementation is not required.
+Encoding state machine state[0:4] (in view: work.trb_net16_addresses_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_addresses_arch))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine current_state[0:18] (in view: work.trb_net16_regIO_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net16_regio_arch))
+original code -> new code
+   0000000000000000001 -> 0000000000000000001
+   0000000000000000010 -> 0000000000000000010
+   0000000000000000100 -> 0000000000000000100
+   0000000000000001000 -> 0000000000000001000
+   0000000000000010000 -> 0000000000000010000
+   0000000000000100000 -> 0000000000000100000
+   0000000000001000000 -> 0000000000001000000
+   0000000000010000000 -> 0000000000010000000
+   0000000000100000000 -> 0000000000100000000
+   0000000001000000000 -> 0000000001000000000
+   0000000010000000000 -> 0000000010000000000
+   0000000100000000000 -> 0000000100000000000
+   0000001000000000000 -> 0000001000000000000
+   0000010000000000000 -> 0000010000000000000
+   0000100000000000000 -> 0000100000000000000
+   0001000000000000000 -> 0001000000000000000
+   0010000000000000000 -> 0010000000000000000
+   0100000000000000000 -> 0100000000000000000
+   1000000000000000000 -> 1000000000000000000
+Encoding state machine state[0:13] (in view: work.trb_net_onewire_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0(trb_net_onewire_arch))
+original code -> new code
+   00000000000001 -> 00000000000001
+   00000000000010 -> 00000000000010
+   00000000000100 -> 00000000000100
+   00000000001000 -> 00000000001000
+   00000000010000 -> 00000000010000
+   00000000100000 -> 00000000100000
+   00000001000000 -> 00000001000000
+   00000010000000 -> 00000010000000
+   00000100000000 -> 00000100000000
+   00001000000000 -> 00001000000000
+   00010000000000 -> 00010000000000
+   00100000000000 -> 00100000000000
+   01000000000000 -> 01000000000000
+   10000000000000 -> 10000000000000
+Encoding state machine CURRENT_STATE[0:8] (in view: work.trb_net_sbuf5_1_0(trb_net_sbuf5_arch))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine CURRENT_STATE[0:8] (in view: work.trb_net_sbuf5_0(trb_net_sbuf5_arch))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine CURRENT_STATE[0:8] (in view: work.trb_net_sbuf5_2(trb_net_sbuf5_arch))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine CURRENT_STATE[0:8] (in view: work.trb_net_sbuf5_3(trb_net_sbuf5_arch))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine CURRENT_STATE[0:8] (in view: work.trb_net_sbuf5_1_1(trb_net_sbuf5_arch))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine CURRENT_STATE[0:8] (in view: work.trb_net_sbuf5_1_2(trb_net_sbuf5_arch))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine current_buffer_state[0:2] (in view: work.trb_net_sbuf_work_trb3_periph_blank_trb3_periph_blank_arch_0layer0_4_2(trb_net_sbuf_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine CURRENT_STATE[0:3] (in view: work.handler_lvl1_1(handler_lvl1_arch))
+original code -> new code
+   0000001 -> 00
+   0000100 -> 01
+   0001000 -> 10
+   1000000 -> 11
+@N: MO225 :"c:\users\musefpgawin\trigger\trbnet\special\handler_lvl1.vhd":352:2:352:3|There are no possible illegal states for state machine CURRENT_STATE[0:3] (in view: work.handler_lvl1_1(handler_lvl1_arch)); safe FSM implementation is not required.
+Encoding state machine current_lvl1_state[0:2] (in view: work.handler_data_1_11_32_1024_1_9_496(handler_data_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_buffer_state_0[0:2] (in view: work.handler_data_1_11_32_1024_1_9_496(handler_data_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_state[0:5] (in view: work.handler_ipu_1(handler_ipu_arch))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 198MB peak: 201MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 198MB peak: 203MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 100MB peak: 203MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Thu Apr 28 16:12:41 2022
+
+###########################################################]

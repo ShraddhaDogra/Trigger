@@ -1,0 +1,9 @@
+
+
+
+
+-g CfgMode:Disable
+-g RamCfg:Reset
+-path "C:/Users/musefpgawin/Trigger/MUSEtrigger__SmallBMbars_Shraddha/project" 
+-path "C:/Users/musefpgawin/Trigger/MUSEtrigger__SmallBMbars_Shraddha/project"
+-g ES:No

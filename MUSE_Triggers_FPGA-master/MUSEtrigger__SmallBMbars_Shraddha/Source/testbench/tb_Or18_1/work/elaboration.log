@@ -1,0 +1,34 @@
+Active-HDL 10.3.3558.6081  2019-02-26 23:09:42
+
+Elaboration top modules:
+Architecture                  Behavioral(tb_Or18)
+
+
+---------------------------------------------------------------------------------------------
+Entity   | Architecture   | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------
+tb_Or18  | Behavioral     | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Or18     | structure_Or18 | work    |      | 10.3.3558.6081  (Windows) | -dbg
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+VHDL Package              | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------
+standard                  | std     |      |                           | <unavailable>
+TEXTIO                    | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164            | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                   | Comment
+---------------------------------------------------------------------------------------------
+ieee                      | Standard IEEE packages library
+std                       | Standard VHDL library
+work                      | None
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r tb_Or18 -PL pmi_work -L ovi_ecp3 -L pcsd_work
+
+
+The performance of simulation is reduced. Version Lattice Edition

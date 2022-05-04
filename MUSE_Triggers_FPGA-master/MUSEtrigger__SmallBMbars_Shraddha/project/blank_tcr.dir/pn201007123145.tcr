@@ -1,0 +1,8 @@
+#Start recording tcl command: 10/7/2020 11:50:59
+#Project Location: C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__SmallBMbars_Shraddha/project; Project name: blank
+prj_project open "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__SmallBMbars_Shraddha/project/trb3_periph_blank.ldf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__SmallBMbars_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_src add "C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__SmallBMbars_Shraddha/Source/testbench/tb_VetoBM/tb_VetoBM.spf"
+prj_project save
+prj_project close
+#Stop recording: 10/7/2020 12:31:45

@@ -1,0 +1,29 @@
+#
+# Logical Preferences generated for Lattice by Synplify maplat, Build 1796R.
+#
+
+# Period Constraints 
+#FREQUENCY NET "THE_MAIN_PLL/clk_100_i" 80.4 MHz;
+#FREQUENCY NET "THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/ff_rxhalfclk" 244.7 MHz;
+#FREQUENCY NET "THE_MAIN_PLL/clk_200_i_0" 300.4 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "THE_MAIN_PLL/clk_200_i_0" TO CLKNET "THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/ff_rxhalfclk";
+#BLOCK PATH FROM CLKNET "THE_MAIN_PLL/clk_200_i_0" TO CLKNET "THE_MAIN_PLL/clk_100_i";
+#BLOCK PATH FROM CLKNET "THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/ff_rxhalfclk" TO CLKNET "THE_MAIN_PLL/clk_200_i_0";
+#BLOCK PATH FROM CLKNET "THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/ff_rxhalfclk" TO CLKNET "THE_MAIN_PLL/clk_100_i";
+#BLOCK PATH FROM CLKNET "THE_MAIN_PLL/clk_100_i" TO CLKNET "THE_MAIN_PLL/clk_200_i_0";
+#BLOCK PATH FROM CLKNET "THE_MAIN_PLL/clk_100_i" TO CLKNET "THE_MEDIA_UPLINK/gen_serdes_1_200.THE_SERDES/ff_rxhalfclk";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

@@ -1,0 +1,43 @@
+Active-HDL 10.3.3558.6081  2019-09-12 17:03:06
+
+Elaboration top modules:
+Architecture                  Behavioral(tb_PulseStretch)
+
+
+--------------------------------------------------------------------------------------------------
+Entity          | Architecture | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+tb_PulseStretch | Behavioral   | work    |      | 10.3.3558.6081  (Windows) | -dbg
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+Verilog Module                 | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+PulseStretch                   | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Input_Reg                      | work    |      | 10.3.3558.6081  (Windows) | -dbg
+ReTrigger                      | work    |      | 10.3.3558.6081  (Windows) | -dbg
+LeadDelay                      | work    |      | 10.3.3558.6081  (Windows) | -dbg
+DelayBit                       | work    |      | 10.3.3558.6081  (Windows) | -dbg
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+VHDL Package                   | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+standard                       | std     |      |                           | <unavailable>
+TEXTIO                         | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164                 | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+Library                        | Comment
+--------------------------------------------------------------------------------------------------
+ieee                           | Standard IEEE packages library
+std                            | Standard VHDL library
+work                           | None
+--------------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r tb_PulseStretch -PL pmi_work -L ovi_ecp3 -L pcsd_work
+
+
+The performance of simulation is reduced. Version Lattice Edition
