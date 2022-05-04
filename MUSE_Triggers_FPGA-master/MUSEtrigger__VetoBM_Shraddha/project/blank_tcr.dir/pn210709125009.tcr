@@ -1,0 +1,6 @@
+#Start recording tcl command: 7/9/2021 12:43:02
+#Project Location: C:/Users/musefpgawin/Trigger/MUSEtrigger__VetoBM_Shraddha/project; Project name: blank
+prj_project open "C:/Users/musefpgawin/Trigger/MUSEtrigger__VetoBM_Shraddha/project/trb3_periph_blank.ldf"
+prj_project save
+prj_project close
+#Stop recording: 7/9/2021 12:50:09

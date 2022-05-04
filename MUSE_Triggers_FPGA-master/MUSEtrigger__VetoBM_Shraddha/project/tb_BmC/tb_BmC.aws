@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+tb_BmC=tb_BmC.adf
+[Settings]
+Active=tb_BmC
+[Expand]
+tb_bmc=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

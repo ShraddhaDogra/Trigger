@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+tb_VetoBM=tb_VetoBM.adf
+[Settings]
+Active=tb_VetoBM
+[Expand]
+tb_vetobm=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

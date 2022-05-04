@@ -1,0 +1,28 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+3 non-gated/non-generated clock tree(s) driving 120 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 7940 clock pin(s) of sequential element(s)
+0 instances converted, 7940 sequential instances remain driven by gated/generated clocks
+
+===================================================================== Non-Gated/Non-Generated Clocks ======================================================================
+Clock Tree ID     Driving Element                                             Drive Element Type     Fanout     Sample Instance                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0003       THE_MEDIA_UPLINK.gen_serdes_1_200\.THE_SERDES.PCSD_INST     PCSD                   110        THE_MEDIA_UPLINK.THE_BYTE_SWAP_PROC\.fifo_rx_din[0]        
+@K:CKID0004       CLK_PCLK_RIGHT                                              port                   9          BM_VetoTriggeringing.Stretch_VetoNot_out.latch_stretched[4]
+@K:CKID0005       TRIGGER_LEFT                                                port                   1          THE_ENDPOINT.THE_ENDPOINT.THE_LVL1_HANDLER.tmg_edge_async  
+===========================================================================================================================================================================
+============================================================================================================== Gated/Generated Clocks ===============================================================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                         Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       THE_MAIN_PLL.PLLInst_0     EHXPLLF                7844       THE_RDO\.readout_tx_0\.busy_release     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       THE_MAIN_PLL.PLLInst_0     EHXPLLF                96         THE_RESET_HANDLER.async_pulse           Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=====================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

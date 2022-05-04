@@ -1,0 +1,6 @@
+[Version]
+Version=10.3
+[Designs]
+tb_BMLogic=tb_BMLogic.adf
+[Settings]
+Active=tb_BMLogic

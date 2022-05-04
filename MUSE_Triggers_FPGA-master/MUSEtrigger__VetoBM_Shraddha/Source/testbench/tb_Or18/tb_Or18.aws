@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+tb_Or18=tb_Or18.adf
+[Settings]
+Active=tb_Or18
+[Expand]
+tb_or18=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

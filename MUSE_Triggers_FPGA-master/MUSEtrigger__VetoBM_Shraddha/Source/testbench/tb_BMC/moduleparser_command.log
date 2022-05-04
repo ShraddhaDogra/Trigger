@@ -1,0 +1,1 @@
+C:/lscc/diamond/diamond/3.10_x64/bin/nt64/moduleparser.exe -PROJ tb_BMC -pf C:/lscc/diamond/diamond/3.10_x64/cae_library/synthesis/vhdl/ecp3.vhd -lib ecp3 -pkg C:/lscc/diamond/diamond/3.10_x64/cae_library/vhdl_packages/vdbs -lst C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_BMC/source_files.lst

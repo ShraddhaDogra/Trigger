@@ -1,0 +1,1017 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_ecp3
+designverlibrarysim pcsd_work
+designverdefinemacro -clear
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/version.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\version.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_std.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_std.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/config.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\config.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_components.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_components.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/trb3_components.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\trb3_components.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp2m_fifo.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp2m_fifo.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/basic_type_declaration.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\basic_type_declaration.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_CRC8.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_CRC8.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/pulse_sync.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\pulse_sync.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/state_sync.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\state_sync.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram_16x8_dp.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram_16x8_dp.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram_dp.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram_dp.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram_dp_rw.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram_dp_rw.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp3_fifo_16x16_dualport.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_16x16_dualport.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x16_dualport.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x16_dualport.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x256_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x256_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_125_int.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/optical_link/f_divider.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\optical_link\f_divider.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Veto_OrAll.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Veto_OrAll.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BM_OrAll.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BM_OrAll.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BM_Trig_Logic.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BM_Trig_Logic.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Veto_Logic.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Veto_Logic.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BM_control.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BM_control.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Veto_BM.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Veto_BM.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_18x1k_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/code/input_statistics.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\code\input_statistics.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/code/input_to_trigger_logic_record.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\code\input_to_trigger_logic_record.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_9x2k_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_9x2k_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/uart_trans.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\uart_trans.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/uart_rec.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\uart_rec.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trb3sc/code/debuguart.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trb3sc\code\debuguart.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/uart.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\uart.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_ltc2600.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_ltc2600.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trb3sc/code/lcd.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trb3sc\code\lcd.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/code/sedcheck.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\code\sedcheck.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trb3sc/code/spi_master_generic.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trb3sc\code\spi_master_generic.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trb3sc/code/load_settings.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trb3sc\code\load_settings.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/fpga_reboot.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\fpga_reboot.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/spi_dpram_32_to_8.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\spi_dpram_32_to_8.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_databus_memory.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_databus_memory.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_slim.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_slim.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_master.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_master.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_regio_bus_handler.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_regio_bus_handler.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_flash_and_fpga_reload_record.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_flash_and_fpga_reload_record.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_regio_bus_handler_record.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_regio_bus_handler_record.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/code/trb3_tools.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\code\trb3_tools.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/handler_ipu.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\handler_ipu.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_18x2k_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x2k_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_18x512_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x512_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_18x256_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x256_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x32k_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x32k_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x16k_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x16k_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x8k_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x8k_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x4k_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x4k_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x2k_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x2k_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x1k_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x1k_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x512_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x512_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp2m/fifo/fifo_var_oreg.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp2m\fifo\fifo_var_oreg.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/handler_data.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\handler_data.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/handler_trigger_and_data.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\handler_trigger_and_data.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/bus_register_handler.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\bus_register_handler.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/signal_sync.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\signal_sync.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/pulse_stretch.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\pulse_stretch.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/handler_lvl1.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\handler_lvl1.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_sbuf6.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_sbuf6.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_19x16_obuf.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_19x16_obuf.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_sbuf5.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_sbuf5.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_sbuf.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_sbuf.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_sbuf.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_sbuf.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_priority_encoder.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_priority_encoder.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_priority_arbiter.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_priority_arbiter.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_io_multiplexer.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_io_multiplexer.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_term_buf.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_term_buf.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_onewire.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_onewire.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/rom_16x8.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\rom_16x8.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram_16x16_dp.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram_16x16_dp.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_addresses.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_addresses.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_pattern_gen.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_pattern_gen.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_regIO.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_regIO.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_ipudata.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_ipudata.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_trigger.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_trigger.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_dummy_fifo.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_dummy_fifo.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_dummy_fifo.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_dummy_fifo.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x1k.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/trb_net16_fifo_arch.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_term.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_term.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_api_base.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_api_base.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_obuf_nodata.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_obuf_nodata.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_CRC.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_CRC.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_obuf.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_obuf.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_term_ibuf.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_term_ibuf.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_ibuf.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_ibuf.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_iobuf.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_iobuf.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_endpoint_hades_full.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_endpoint_hades_full.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_endpoint_hades_full_handler_record.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_endpoint_hades_full_handler_record.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp3_fifo_16bit_dualport.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/trb_net_fifo_16bit_bram_dualport.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\trb_net_fifo_16bit_bram_dualport.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/media_interfaces/trb_net16_lsm_sfp.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/workdir/pll_in200_out100.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\workdir\pll_in200_out100.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/trb_net_reset_handler.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\trb_net_reset_handler.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/trb3_periph_blank.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\trb3_periph_blank.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/OrAll.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\OrAll.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/BigBars_OrAll.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\BigBars_OrAll.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BackOr5.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BackOr5.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Or8.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Or8.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Or18.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Or18.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/And6.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\And6.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/PlaneOr.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\PlaneOr.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/signal_stretch.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_stretch.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/signal_stretch_48.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_stretch_48.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BackOr3.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BackOr3.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Or_plane_each.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Or_plane_each.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/signal_Delay.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_Delay.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoLogic.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\testbench\tb_VetoLogic.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_BMLogic.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\testbench\tb_BMLogic.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\testbench\tb_VetoBM.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/DelayBit.v
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\DelayBit.v ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/LeadDelay.v
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\LeadDelay.v ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/retrigger.v
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\retrigger.v ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Input_Reg.v
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Input_Reg.v ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/PulseStrectch.v
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\PulseStrectch.v ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_PulseStretch.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\testbench\tb_PulseStretch.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/SmallBars_TrigLogic.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\SmallBars_TrigLogic.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/tb_BMControl.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\tb_BMControl.vhd ... Done
+addfile C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/signal_stretch_many.vhd
+# Adding file C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_stretch_many.vhd ... Done
+vlib C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/version.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\version.vhd
+# Compile Package "version"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_std.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_std.vhd
+# Compile Package "trb_net_std"
+# Compile Package Body "trb_net_std"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/config.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\config.vhd
+# Compile Package "config"
+# Compile Package Body "config"
+# Error: COMP96_0238: ../config.vhd : (99, 32): The subtype of deferred constant does not conform to that given in the deferred constant declaration.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_components.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_components.vhd
+# Compile Package "trb_net_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/trb3_components.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\trb3_components.vhd
+# Compile Package "trb3_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp2m_fifo.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp2m_fifo.vhd
+# Compile Package "lattice_ecp2m_fifo"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/basic_type_declaration.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\basic_type_declaration.vhd
+# Compile Package "basic_type_declaration"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_CRC8.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_CRC8.vhd
+# Compile Entity "trb_net_CRC8"
+# Compile Architecture "imp_crc" of Entity "trb_net_CRC8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/pulse_sync.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\pulse_sync.vhd
+# Compile Entity "pulse_sync"
+# Compile Architecture "behavioral" of Entity "pulse_sync"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/state_sync.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\state_sync.vhd
+# Compile Entity "state_sync"
+# Compile Architecture "behavioral" of Entity "state_sync"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram_16x8_dp.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram_16x8_dp.vhd
+# Compile Entity "ram_16x8_dp"
+# Compile Architecture "ram_16x8_dp_arch" of Entity "ram_16x8_dp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram_dp.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram_dp.vhd
+# Compile Entity "ram_dp"
+# Compile Architecture "ram_dp_arch" of Entity "ram_dp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram_dp_rw.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram_dp_rw.vhd
+# Compile Entity "ram_dp_rw"
+# Compile Architecture "ram_dp_rw_arch" of Entity "ram_dp_rw"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp3_fifo_16x16_dualport.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_16x16_dualport.vhd
+# Compile Entity "lattice_ecp3_fifo_16x16_dualport"
+# Compile Architecture "Structure" of Entity "lattice_ecp3_fifo_16x16_dualport"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x16_dualport.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x16_dualport.vhd
+# Compile Entity "lattice_ecp3_fifo_18x16_dualport"
+# Compile Architecture "Structure" of Entity "lattice_ecp3_fifo_18x16_dualport"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x256_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x256_oreg.vhd
+# Compile Entity "fifo_36x256_oreg"
+# Compile Architecture "Structure" of Entity "fifo_36x256_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_125_int.vhd
+# Compile Entity "PCSD"
+# Compile Architecture "PCSD_arch" of Entity "PCSD"
+# Compile Entity "rx_reset_sm_125"
+# Compile Architecture "rx_reset_sm_125arch" of Entity "rx_reset_sm_125"
+# Compile Entity "tx_reset_sm_125"
+# Compile Architecture "tx_reset_sm_arch_125" of Entity "tx_reset_sm_125"
+# Compile Entity "sfp_1_125_int"
+# Compile Architecture "sfp_1_125_int_arch" of Entity "sfp_1_125_int"
+# Warning: ELAB1_0026: ../../trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd : (3069, 0): There is no default binding for component "rx_reset_sm". (No entity named "rx_reset_sm" was found).
+# Warning: ELAB1_0026: ../../trbnet/media_interfaces/ecp3_sfp/sfp_1_125_int.vhd : (3095, 0): There is no default binding for component "tx_reset_sm". (No entity named "tx_reset_sm" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/optical_link/f_divider.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\optical_link\f_divider.vhd
+# Compile Entity "f_divider"
+# Compile Architecture "arch_f_divider" of Entity "f_divider"
+# Compile Entity "edge_to_pulse"
+# Compile Architecture "arch_edge_to_pulse" of Entity "edge_to_pulse"
+# Compile Package "support"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Veto_OrAll.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Veto_OrAll.vhd
+# Compile Entity "Veto_OrAll"
+# Compile Architecture "Veto" of Entity "Veto_OrAll"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BM_OrAll.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BM_OrAll.vhd
+# Compile Entity "BM_OrAll"
+# Compile Architecture "BM" of Entity "BM_OrAll"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BM_Trig_Logic.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BM_Trig_Logic.vhd
+# Compile Entity "BM_Trig_Logic"
+# Compile Architecture "BM" of Entity "BM_Trig_Logic"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Veto_Logic.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Veto_Logic.vhd
+# Compile Entity "Veto_Logic"
+# Compile Architecture "Veto" of Entity "Veto_Logic"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BM_control.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BM_control.vhd
+# Compile Entity "BM_control"
+# Compile Architecture "BM_control_arch" of Entity "BM_control"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Veto_BM.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Veto_BM.vhd
+# Compile Entity "Veto_BM"
+# Compile Architecture "structural" of Entity "Veto_BM"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_18x1k_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd
+# Compile Entity "fifo_18x1k_oreg"
+# Compile Architecture "Structure" of Entity "fifo_18x1k_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/code/input_statistics.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\code\input_statistics.vhd
+# Compile Entity "input_statistics"
+# Compile Architecture "input_statistics_arch" of Entity "input_statistics"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/code/input_to_trigger_logic_record.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\code\input_to_trigger_logic_record.vhd
+# Compile Entity "input_to_trigger_logic_record"
+# Compile Architecture "input_to_trigger_logic_arch" of Entity "input_to_trigger_logic_record"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_9x2k_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_9x2k_oreg.vhd
+# Compile Entity "fifo_9x2k_oreg"
+# Compile Architecture "Structure" of Entity "fifo_9x2k_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/uart_trans.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\uart_trans.vhd
+# Compile Entity "uart_trans"
+# Compile Architecture "uart_trans_arch" of Entity "uart_trans"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/uart_rec.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\uart_rec.vhd
+# Compile Entity "uart_rec"
+# Compile Architecture "uart_rec_arch" of Entity "uart_rec"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trb3sc/code/debuguart.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trb3sc\code\debuguart.vhd
+# Compile Entity "debuguart"
+# Compile Architecture "arch" of Entity "debuguart"
+# Error: COMP96_0339: ../../trb3sc/code/debuguart.vhd : (87, 5): Formal "Q" must not be associated with 'open' when subelements are associated individually.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  46.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/uart.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\uart.vhd
+# Compile Entity "uart"
+# Compile Architecture "uart_arch" of Entity "uart"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_ltc2600.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_ltc2600.vhd
+# Compile Entity "spi_ltc2600"
+# Compile Architecture "spi_ltc2600_arch" of Entity "spi_ltc2600"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trb3sc/code/lcd.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trb3sc\code\lcd.vhd
+# Compile Entity "lcd"
+# Compile Architecture "base" of Entity "lcd"
+# Error: COMP96_0301: ../../trb3sc/code/lcd.vhd : (410, 11): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/code/sedcheck.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\code\sedcheck.vhd
+# Compile Entity "sedcheck"
+# Compile Architecture "sed_arch" of Entity "sedcheck"
+# Warning: ELAB1_0026: ../../trb3/base/code/sedcheck.vhd : (204, 0): There is no default binding for component "SEDCA". (No entity named "SEDCA" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  94.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram.vhd
+# Compile Entity "ram"
+# Compile Architecture "ram_arch" of Entity "ram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trb3sc/code/spi_master_generic.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trb3sc\code\spi_master_generic.vhd
+# Compile Entity "spi_master_generic"
+# Compile Architecture "spi_master_generic_arch" of Entity "spi_master_generic"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trb3sc/code/load_settings.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trb3sc\code\load_settings.vhd
+# Compile Entity "load_settings"
+# Compile Architecture "load_settings_arch" of Entity "load_settings"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/fpga_reboot.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\fpga_reboot.vhd
+# Compile Entity "fpga_reboot"
+# Compile Architecture "fpga_reboot_arch" of Entity "fpga_reboot"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/spi_dpram_32_to_8.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\spi_dpram_32_to_8.vhd
+# Compile Entity "spi_dpram_32_to_8"
+# Compile Architecture "Structure" of Entity "spi_dpram_32_to_8"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_databus_memory.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_databus_memory.vhd
+# Compile Entity "spi_databus_memory"
+# Compile Architecture "Behavioral" of Entity "spi_databus_memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_slim.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_slim.vhd
+# Compile Entity "spi_slim"
+# Compile Architecture "Behavioral" of Entity "spi_slim"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_master.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_master.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "Behavioral" of Entity "spi_master"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_regio_bus_handler.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_regio_bus_handler.vhd
+# Compile Entity "trb_net16_regio_bus_handler"
+# Compile Architecture "regio_bus_handler_arch" of Entity "trb_net16_regio_bus_handler"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/spi_flash_and_fpga_reload_record.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\spi_flash_and_fpga_reload_record.vhd
+# Compile Entity "spi_flash_and_fpga_reload_record"
+# Compile Architecture "flash_reboot_arch" of Entity "spi_flash_and_fpga_reload_record"
+# Error: COMP96_0339: ../../trbnet/special/spi_flash_and_fpga_reload_record.vhd : (88, 5): Formal "BUS_ADDR_OUT" must not be associated with 'open' when subelements are associated individually.
+# Error: COMP96_0339: ../../trbnet/special/spi_flash_and_fpga_reload_record.vhd : (90, 5): Formal "BUS_ADDR_OUT" must not be associated with 'open' when subelements are associated individually.
+# Error: COMP96_0339: ../../trbnet/special/spi_flash_and_fpga_reload_record.vhd : (91, 5): Formal "BUS_TIMEOUT_OUT" must not be associated with 'open' when subelements are associated individually.
+# Error: COMP96_0339: ../../trbnet/special/spi_flash_and_fpga_reload_record.vhd : (92, 5): Formal "BUS_TIMEOUT_OUT" must not be associated with 'open' when subelements are associated individually.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_regio_bus_handler_record.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_regio_bus_handler_record.vhd
+# Compile Entity "trb_net16_regio_bus_handler_record"
+# Compile Architecture "regio_bus_handler_arch" of Entity "trb_net16_regio_bus_handler_record"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trb3/base/code/trb3_tools.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trb3\base\code\trb3_tools.vhd
+# Compile Entity "trb3_tools"
+# Compile Architecture "trb3_tools_arch" of Entity "trb3_tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/handler_ipu.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\handler_ipu.vhd
+# Compile Entity "handler_ipu"
+# Compile Architecture "handler_ipu_arch" of Entity "handler_ipu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_18x2k_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x2k_oreg.vhd
+# Compile Entity "fifo_18x2k_oreg"
+# Compile Architecture "Structure" of Entity "fifo_18x2k_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_18x512_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x512_oreg.vhd
+# Compile Entity "fifo_18x512_oreg"
+# Compile Architecture "Structure" of Entity "fifo_18x512_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_18x256_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_18x256_oreg.vhd
+# Compile Entity "fifo_18x256_oreg"
+# Compile Architecture "Structure" of Entity "fifo_18x256_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x32k_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x32k_oreg.vhd
+# Compile Entity "fifo_36x32k_oreg"
+# Compile Architecture "Structure" of Entity "fifo_36x32k_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x16k_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x16k_oreg.vhd
+# Compile Entity "fifo_36x16k_oreg"
+# Compile Architecture "Structure" of Entity "fifo_36x16k_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x8k_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x8k_oreg.vhd
+# Compile Entity "fifo_36x8k_oreg"
+# Compile Architecture "Structure" of Entity "fifo_36x8k_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x4k_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x4k_oreg.vhd
+# Compile Entity "fifo_36x4k_oreg"
+# Compile Architecture "Structure" of Entity "fifo_36x4k_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x2k_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x2k_oreg.vhd
+# Compile Entity "fifo_36x2k_oreg"
+# Compile Architecture "Structure" of Entity "fifo_36x2k_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x1k_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x1k_oreg.vhd
+# Compile Entity "fifo_36x1k_oreg"
+# Compile Architecture "Structure" of Entity "fifo_36x1k_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_36x512_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_36x512_oreg.vhd
+# Compile Entity "fifo_36x512_oreg"
+# Compile Architecture "Structure" of Entity "fifo_36x512_oreg"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp2m/fifo/fifo_var_oreg.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp2m\fifo\fifo_var_oreg.vhd
+# Compile Entity "fifo_var_oreg"
+# Compile Architecture "fifo_var_oreg_arch" of Entity "fifo_var_oreg"
+# Error: ELAB1_0028: ../../trbnet/lattice/ecp2m/fifo/fifo_var_oreg.vhd : (148, 0): Entity port length is 16. WCNT length is 15.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/handler_data.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\handler_data.vhd
+# Compile Entity "handler_data"
+# Compile Architecture "handler_data_arch" of Entity "handler_data"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/handler_trigger_and_data.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\handler_trigger_and_data.vhd
+# Compile Entity "handler_trigger_and_data"
+# Compile Architecture "handler_trigger_and_data_arch" of Entity "handler_trigger_and_data"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/bus_register_handler.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\bus_register_handler.vhd
+# Compile Entity "bus_register_handler"
+# Compile Architecture "Behavioral" of Entity "bus_register_handler"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/signal_sync.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\signal_sync.vhd
+# Compile Entity "signal_sync"
+# Compile Architecture "behavioral" of Entity "signal_sync"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/pulse_stretch.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\pulse_stretch.vhd
+# Compile Entity "pulse_stretch"
+# Compile Architecture "behavioral" of Entity "pulse_stretch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/handler_lvl1.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\handler_lvl1.vhd
+# Compile Entity "handler_lvl1"
+# Compile Architecture "handler_lvl1_arch" of Entity "handler_lvl1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_sbuf6.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_sbuf6.vhd
+# Compile Entity "trb_net_sbuf6"
+# Compile Architecture "trb_net_sbuf6_arch" of Entity "trb_net_sbuf6"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/fifo/fifo_19x16_obuf.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\fifo\fifo_19x16_obuf.vhd
+# Compile Entity "fifo_19x16_obuf"
+# Compile Architecture "Structure" of Entity "fifo_19x16_obuf"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_sbuf5.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_sbuf5.vhd
+# Compile Entity "trb_net_sbuf5"
+# Compile Architecture "trb_net_sbuf5_arch" of Entity "trb_net_sbuf5"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_sbuf.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_sbuf.vhd
+# Compile Entity "trb_net_sbuf"
+# Compile Architecture "trb_net_sbuf_arch" of Entity "trb_net_sbuf"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_sbuf.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_sbuf.vhd
+# Compile Entity "trb_net16_sbuf"
+# Compile Architecture "trb_net16_sbuf_arch" of Entity "trb_net16_sbuf"
+# Warning: ELAB1_0026: ../../trbnet/trb_net16_sbuf.vhd : (89, 0): There is no default binding for component "trb_net_sbuf2". (No entity named "trb_net_sbuf2" was found).
+# Warning: ELAB1_0026: ../../trbnet/trb_net16_sbuf.vhd : (110, 0): There is no default binding for component "trb_net_sbuf3". (No entity named "trb_net_sbuf3" was found).
+# Warning: ELAB1_0026: ../../trbnet/trb_net16_sbuf.vhd : (131, 0): There is no default binding for component "trb_net_sbuf4". (No entity named "trb_net_sbuf4" was found).
+# Compile success 0 Errors 3 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_priority_encoder.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_priority_encoder.vhd
+# Compile Entity "trb_net_priority_encoder"
+# Compile Architecture "trb_net_priority_encoder_arch" of Entity "trb_net_priority_encoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_priority_arbiter.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_priority_arbiter.vhd
+# Compile Entity "trb_net_priority_arbiter"
+# Compile Architecture "trb_net_priority_arbiter_arch" of Entity "trb_net_priority_arbiter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_io_multiplexer.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_io_multiplexer.vhd
+# Compile Entity "trb_net16_io_multiplexer"
+# Compile Architecture "trb_net16_io_multiplexer_arch" of Entity "trb_net16_io_multiplexer"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_term_buf.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_term_buf.vhd
+# Compile Entity "trb_net16_term_buf"
+# Compile Architecture "trb_net16_term_buf_arch" of Entity "trb_net16_term_buf"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_onewire.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_onewire.vhd
+# Compile Entity "trb_net_onewire"
+# Compile Architecture "trb_net_onewire_arch" of Entity "trb_net_onewire"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/rom_16x8.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\rom_16x8.vhd
+# Compile Entity "rom_16x8"
+# Compile Architecture "rom_16x8_arch" of Entity "rom_16x8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/basics/ram_16x16_dp.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\basics\ram_16x16_dp.vhd
+# Compile Entity "ram_16x16_dp"
+# Compile Architecture "ram_16x16_dp_arch" of Entity "ram_16x16_dp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_addresses.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_addresses.vhd
+# Compile Entity "trb_net16_addresses"
+# Compile Architecture "trb_net16_addresses_arch" of Entity "trb_net16_addresses"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_pattern_gen.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_pattern_gen.vhd
+# Compile Entity "trb_net_pattern_gen"
+# Compile Architecture "trb_net_pattern_gen_arch" of Entity "trb_net_pattern_gen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_regIO.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_regIO.vhd
+# Compile Entity "trb_net16_regIO"
+# Compile Architecture "trb_net16_regIO_arch" of Entity "trb_net16_regIO"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_ipudata.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_ipudata.vhd
+# Compile Entity "trb_net16_ipudata"
+# Compile Architecture "trb_net16_ipudata_arch" of Entity "trb_net16_ipudata"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_trigger.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_trigger.vhd
+# Compile Entity "trb_net16_trigger"
+# Compile Architecture "trb_net16_trigger_arch" of Entity "trb_net16_trigger"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_dummy_fifo.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_dummy_fifo.vhd
+# Compile Entity "trb_net_dummy_fifo"
+# Compile Architecture "arch_trb_net_dummy_fifo" of Entity "trb_net_dummy_fifo"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_dummy_fifo.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_dummy_fifo.vhd
+# Compile Entity "trb_net16_dummy_fifo"
+# Compile Architecture "arch_trb_net16_dummy_fifo" of Entity "trb_net16_dummy_fifo"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp3_fifo_18x1k.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd
+# Compile Entity "lattice_ecp3_fifo_18x1k"
+# Compile Architecture "Structure" of Entity "lattice_ecp3_fifo_18x1k"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/trb_net16_fifo_arch.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd
+# Compile Entity "trb_net16_fifo"
+# Compile Architecture "arch_trb_net16_fifo" of Entity "trb_net16_fifo"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_term.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_term.vhd
+# Compile Entity "trb_net16_term"
+# Compile Architecture "trb_net16_term_arch" of Entity "trb_net16_term"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_api_base.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_api_base.vhd
+# Compile Entity "trb_net16_api_base"
+# Compile Architecture "trb_net16_api_base_arch" of Entity "trb_net16_api_base"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_obuf_nodata.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_obuf_nodata.vhd
+# Compile Entity "trb_net16_obuf_nodata"
+# Compile Architecture "trb_net16_obuf_nodata_arch" of Entity "trb_net16_obuf_nodata"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net_CRC.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net_CRC.vhd
+# Compile Entity "trb_net_CRC"
+# Compile Architecture "trb_net_CRC_arch" of Entity "trb_net_CRC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_obuf.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_obuf.vhd
+# Compile Entity "trb_net16_obuf"
+# Compile Architecture "trb_net16_obuf_arch" of Entity "trb_net16_obuf"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_term_ibuf.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_term_ibuf.vhd
+# Compile Entity "trb_net16_term_ibuf"
+# Compile Architecture "trb_net16_term_ibuf_arch" of Entity "trb_net16_term_ibuf"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_ibuf.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_ibuf.vhd
+# Compile Entity "trb_net16_ibuf"
+# Compile Architecture "trb_net16_ibuf_arch" of Entity "trb_net16_ibuf"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_iobuf.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_iobuf.vhd
+# Compile Entity "trb_net16_iobuf"
+# Compile Architecture "trb_net16_iobuf_arch" of Entity "trb_net16_iobuf"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_endpoint_hades_full.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_endpoint_hades_full.vhd
+# Compile Entity "trb_net16_endpoint_hades_full"
+# Compile Architecture "trb_net16_endpoint_hades_full_arch" of Entity "trb_net16_endpoint_hades_full"
+# Warning: ELAB1_0026: ../../trbnet/trb_net16_endpoint_hades_full.vhd : (685, 0): There is no default binding for component "trb_net_onewire_listener". (No entity named "trb_net_onewire_listener" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/trb_net16_endpoint_hades_full_handler_record.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\trb_net16_endpoint_hades_full_handler_record.vhd
+# Compile Entity "trb_net16_endpoint_hades_full_handler_record"
+# Compile Architecture "trb_net16_endpoint_hades_full_handler_record_arch" of Entity "trb_net16_endpoint_hades_full_handler_record"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/lattice_ecp3_fifo_16bit_dualport.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd
+# Compile Entity "lattice_ecp3_fifo_16bit_dualport"
+# Compile Architecture "Structure" of Entity "lattice_ecp3_fifo_16bit_dualport"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/lattice/ecp3/trb_net_fifo_16bit_bram_dualport.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\lattice\ecp3\trb_net_fifo_16bit_bram_dualport.vhd
+# Compile Entity "trb_net_fifo_16bit_bram_dualport"
+# Compile Architecture "trb_net_fifo_16bit_bram_dualport_arch" of Entity "trb_net_fifo_16bit_bram_dualport"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/media_interfaces/ecp3_sfp/sfp_1_200_int.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd
+# Compile Entity "PCSD"
+# Compile Architecture "PCSD_arch" of Entity "PCSD"
+# Compile Entity "rx_reset_sm"
+# Compile Architecture "rx_reset_sm_arch" of Entity "rx_reset_sm"
+# Compile Entity "tx_reset_sm"
+# Compile Architecture "tx_reset_sm_arch" of Entity "tx_reset_sm"
+# Compile Entity "sfp_1_200_int"
+# Compile Architecture "sfp_1_200_int_arch" of Entity "sfp_1_200_int"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/media_interfaces/trb_net16_lsm_sfp.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd
+# Compile Entity "trb_net16_lsm_sfp"
+# Compile Architecture "lsm_sfp" of Entity "trb_net16_lsm_sfp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd
+# Compile Entity "trb_net16_med_ecp3_sfp"
+# Compile Architecture "trb_net16_med_ecp3_sfp_arch" of Entity "trb_net16_med_ecp3_sfp"
+# Warning: ELAB1_0026: ../../trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd : (585, 0): There is no default binding for component "sfp_0_200_ctc". (No entity named "sfp_0_200_ctc" was found).
+# Warning: ELAB1_0026: ../../trbnet/media_interfaces/trb_net16_med_ecp3_sfp.vhd : (639, 0): There is no default binding for component "sfp_0_200_int". (No entity named "sfp_0_200_int" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/workdir/pll_in200_out100.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\workdir\pll_in200_out100.vhd
+# Compile Entity "pll_in200_out100"
+# Compile Architecture "Structure" of Entity "pll_in200_out100"
+# Compile Configuration "Structure_CON"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/trbnet/special/trb_net_reset_handler.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\trbnet\special\trb_net_reset_handler.vhd
+# Compile Entity "trb_net_reset_handler"
+# Compile Architecture "behavioral" of Entity "trb_net_reset_handler"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/trb3_periph_blank.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\trb3_periph_blank.vhd
+# Compile Entity "trb3_periph_blank"
+# Compile Architecture "trb3_periph_blank_arch" of Entity "trb3_periph_blank"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/OrAll.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\OrAll.vhd
+# Compile Entity "OrAll"
+# Compile Architecture "structure_Orall" of Entity "OrAll"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/BigBars_OrAll.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\BigBars_OrAll.vhd
+# Compile Entity "BigBars_OrAll"
+# Compile Architecture "structure_Orall" of Entity "OrAll"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BackOr5.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BackOr5.vhd
+# Compile Entity "BackOr5"
+# Compile Architecture "structure" of Entity "BackOr5"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Or8.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Or8.vhd
+# Compile Entity "Or8"
+# Compile Architecture "structure_Or8" of Entity "Or8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Or18.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Or18.vhd
+# Compile Entity "Or18"
+# Compile Architecture "structure_Or18" of Entity "Or18"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/And6.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\And6.vhd
+# Compile Entity "And6"
+# Compile Architecture "apply_and" of Entity "And6"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/PlaneOr.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\PlaneOr.vhd
+# Compile Entity "PlaneOr"
+# Compile Architecture "apply_plane_or" of Entity "PlaneOr"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/signal_stretch.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_stretch.vhd
+# Compile Entity "signal_stretch"
+# Compile Architecture "arch" of Entity "signal_stretch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/signal_stretch_48.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_stretch_48.vhd
+# Compile Entity "signal_stretch_48"
+# Compile Architecture "arch" of Entity "signal_stretch_48"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/BackOr3.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\BackOr3.vhd
+# Compile Entity "BackOr3"
+# Compile Architecture "structure" of Entity "BackOr3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Or_plane_each.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\Or_plane_each.vhd
+# Compile Entity "Or_plane_each"
+# Compile Architecture "structure" of Entity "Or_plane_each"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/signal_Delay.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_Delay.vhd
+# Compile Entity "signal_delay"
+# Compile Architecture "arch" of Entity "signal_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoLogic.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\testbench\tb_VetoLogic.vhd
+# Compile Entity "tb_VetoLogic"
+# Compile Architecture "archDB" of Entity "tb_VetoLogic"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_BMLogic.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\testbench\tb_BMLogic.vhd
+# Compile Entity "tb_BMLogic"
+# Compile Architecture "archDB" of Entity "tb_BMLogic"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\testbench\tb_VetoBM.vhd
+# Compile Entity "tb_VetoBM"
+# Compile Architecture "archDB" of Entity "tb_VetoBM"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vlog -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/DelayBit.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: DelayBit.
+# $root top modules: DelayBit.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/LeadDelay.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module DelayBit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: LeadDelay.
+# $root top modules: LeadDelay.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/retrigger.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ReTrigger.
+# $root top modules: LeadDelay ReTrigger.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/Input_Reg.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Input_Reg.
+# $root top modules: LeadDelay ReTrigger Input_Reg.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/PulseStrectch.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module Input_Reg found in current working library.
+# Info: VCP2113 Module ReTrigger found in current working library.
+# Info: VCP2113 Module LeadDelay found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: PulseStretch.
+# $root top modules: PulseStretch.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_PulseStretch.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\testbench\tb_PulseStretch.vhd
+# Compile Entity "tb_PulseStretch"
+# Compile Architecture "Behavioral" of Entity "tb_PulseStretch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/SmallBars_TrigLogic.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\SmallBars_TrigLogic.vhd
+# Compile Entity "SmallBars_TrigLogic"
+# Compile Architecture "BM" of Entity "SmallBars_TrigLogic"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/project/tb_BMControl.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\project\tb_BMControl.vhd
+# Compile Entity "tb_BMControl"
+# Compile Architecture "archDB" of Entity "tb_BMControl"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/signal_stretch_many.vhd
+# File: C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_stretch_many.vhd
+# Warning: COMP96_0003: Source file "C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\signal_stretch_many.vhd" is empty.
+# Compile success 0 Errors 1 Warnings  Analysis time :  31.0 [ms]
+entity tb_VetoBM
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r tb_VetoBM -PL pmi_work -L ovi_ecp3 -L pcsd_work
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7268 kB (elbread=1280 elab2=5832 kernel=155 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\ishra\MUSE_Triggers_FPGA\MUSEtrigger__VetoBM_Shraddha\Source\testbench\tb_VetoBM\src\wave.asdb
+#  4:41 PM, Tuesday, November 3, 2020
+#  Simulation has been initialized
+add wave *
+# 6 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/ishra/MUSE_Triggers_FPGA/MUSEtrigger__VetoBM_Shraddha/Source/testbench/tb_VetoBM/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
