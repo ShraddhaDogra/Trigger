@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.10_x64/bin/nt64/moduleparser.exe -PROJ ScatterTrigger_tbb -pf C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/ecp3.vhd -lib ecp3 -pkg C:/lscc/diamond/3.10_x64/cae_library/vhdl_packages/vdbs -lst C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/Source/testbench/ScatterTrigger_tbb/source_files.lst

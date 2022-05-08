@@ -1,0 +1,746 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|trb3_periph_blank|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\project\\trb3_periph_blank\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501906510
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501929808
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501905824
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501905824
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_std.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_components.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trb3\\base\\trb3_components.vhd":1627236950
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_term_buf.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_CRC.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_CRC8.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_onewire.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_addresses.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_term.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_sbuf.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_sbuf5.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_sbuf6.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_sbuf.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_regIO.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_regio_bus_handler.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_regio_bus_handler_record.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_priority_encoder.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_dummy_fifo.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_dummy_fifo.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_term_ibuf.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_priority_arbiter.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net_pattern_gen.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_obuf_nodata.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_obuf.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_iobuf.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_api_base.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_ibuf.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_io_multiplexer.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_trigger.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_ipudata.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_endpoint_hades_full.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\trb_net16_endpoint_hades_full_handler_record.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\rom_16x8.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\ram.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\pulse_sync.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\state_sync.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\ram_16x8_dp.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\ram_16x16_dp.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\ram_dp.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\signal_sync.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\ram_dp_rw.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\basics\\pulse_stretch.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\handler_lvl1.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\handler_data.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\handler_ipu.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\handler_trigger_and_data.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\trb_net_reset_handler.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\fpga_reboot.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\spi_slim.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\spi_master.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\spi_databus_memory.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\spi_flash_and_fpga_reload_record.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\bus_register_handler.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\lattice_ecp2m_fifo.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\lattice_ecp3_fifo_18x1k.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\lattice_ecp3_fifo_16bit_dualport.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\lattice_ecp3_fifo_16x16_dualport.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\lattice_ecp3_fifo_18x16_dualport.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\spi_dpram_32_to_8.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\trb_net16_fifo_arch.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\trb_net_fifo_16bit_bram_dualport.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_36x256_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_36x512_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_36x1k_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_36x2k_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_36x4k_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_36x8k_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_36x16k_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_36x32k_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_18x256_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_18x512_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_18x1k_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_18x2k_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_19x16_obuf.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp3\\fifo\\fifo_9x2k_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\lattice\\ecp2m\\fifo\\fifo_var_oreg.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\media_interfaces\\ecp3_sfp\\sfp_1_200_int.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\media_interfaces\\ecp3_sfp\\sfp_1_125_int.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\media_interfaces\\trb_net16_lsm_sfp.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\media_interfaces\\trb_net16_med_ecp3_sfp.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trb3\\base\\code\\trb3_tools.vhd":1627235751
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trb3sc\\code\\lcd.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trb3sc\\code\\debuguart.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\uart.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\uart_rec.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\uart_trans.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\special\\spi_ltc2600.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trbnet\\optical_link\\f_divider.vhd":1627235754
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trb3sc\\code\\load_settings.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trb3sc\\code\\spi_master_generic.vhd":1627235753
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trb3\\base\\code\\input_to_trigger_logic_record.vhd":1627235751
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trb3\\base\\code\\input_statistics.vhd":1627235751
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trb3\\base\\code\\sedcheck.vhd":1627235751
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\trb3_periph_blank.vhd":1648506262
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\workdir\\pll_in200_out100.vhd":1627239924
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\workdir\\config.vhd":1625843707
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\workdir\\version.vhd":1627239924
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\basic_type_declaration.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\OrAll.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\BackOr5.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\Cos_or_all.vhd":1648505280
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\Cosmic_and6.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\Or8.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\Or18.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\Scat_LUT5.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\PlaneOr.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\ScatterTrigger.vhd":1649792164
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\signal_stretch_48.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\signal_stretch.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\trig_selector.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\And6.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\BackOr3.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\positron_absorption.vhd":1648591023
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\Or_plane_each.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\Scat_LUT3.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\sps_control.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\signal_Delay.vhd":1627239923
+#CUR:"C:\\Users\\musefpgawin\\Trigger\\trig_MUSE_SPS_Final_version\\Source\\Or_back_bars.vhd":1649787513
+0 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_std.vhd" vhdl
+1 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_components.vhd" vhdl
+2 "C:\Users\musefpgawin\Trigger\trb3\base\trb3_components.vhd" vhdl
+3 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_term_buf.vhd" vhdl
+4 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_CRC.vhd" vhdl
+5 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_CRC8.vhd" vhdl
+6 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_onewire.vhd" vhdl
+7 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_addresses.vhd" vhdl
+8 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_term.vhd" vhdl
+9 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_sbuf.vhd" vhdl
+10 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_sbuf5.vhd" vhdl
+11 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_sbuf6.vhd" vhdl
+12 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_sbuf.vhd" vhdl
+13 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_regIO.vhd" vhdl
+14 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_regio_bus_handler.vhd" vhdl
+15 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_regio_bus_handler_record.vhd" vhdl
+16 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_priority_encoder.vhd" vhdl
+17 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_dummy_fifo.vhd" vhdl
+18 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_dummy_fifo.vhd" vhdl
+19 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_term_ibuf.vhd" vhdl
+20 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_priority_arbiter.vhd" vhdl
+21 "C:\Users\musefpgawin\Trigger\trbnet\trb_net_pattern_gen.vhd" vhdl
+22 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_obuf_nodata.vhd" vhdl
+23 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_obuf.vhd" vhdl
+24 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_iobuf.vhd" vhdl
+25 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_api_base.vhd" vhdl
+26 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_ibuf.vhd" vhdl
+27 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_io_multiplexer.vhd" vhdl
+28 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_trigger.vhd" vhdl
+29 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_ipudata.vhd" vhdl
+30 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_endpoint_hades_full.vhd" vhdl
+31 "C:\Users\musefpgawin\Trigger\trbnet\trb_net16_endpoint_hades_full_handler_record.vhd" vhdl
+32 "C:\Users\musefpgawin\Trigger\trbnet\basics\rom_16x8.vhd" vhdl
+33 "C:\Users\musefpgawin\Trigger\trbnet\basics\ram.vhd" vhdl
+34 "C:\Users\musefpgawin\Trigger\trbnet\basics\pulse_sync.vhd" vhdl
+35 "C:\Users\musefpgawin\Trigger\trbnet\basics\state_sync.vhd" vhdl
+36 "C:\Users\musefpgawin\Trigger\trbnet\basics\ram_16x8_dp.vhd" vhdl
+37 "C:\Users\musefpgawin\Trigger\trbnet\basics\ram_16x16_dp.vhd" vhdl
+38 "C:\Users\musefpgawin\Trigger\trbnet\basics\ram_dp.vhd" vhdl
+39 "C:\Users\musefpgawin\Trigger\trbnet\basics\signal_sync.vhd" vhdl
+40 "C:\Users\musefpgawin\Trigger\trbnet\basics\ram_dp_rw.vhd" vhdl
+41 "C:\Users\musefpgawin\Trigger\trbnet\basics\pulse_stretch.vhd" vhdl
+42 "C:\Users\musefpgawin\Trigger\trbnet\special\handler_lvl1.vhd" vhdl
+43 "C:\Users\musefpgawin\Trigger\trbnet\special\handler_data.vhd" vhdl
+44 "C:\Users\musefpgawin\Trigger\trbnet\special\handler_ipu.vhd" vhdl
+45 "C:\Users\musefpgawin\Trigger\trbnet\special\handler_trigger_and_data.vhd" vhdl
+46 "C:\Users\musefpgawin\Trigger\trbnet\special\trb_net_reset_handler.vhd" vhdl
+47 "C:\Users\musefpgawin\Trigger\trbnet\special\fpga_reboot.vhd" vhdl
+48 "C:\Users\musefpgawin\Trigger\trbnet\special\spi_slim.vhd" vhdl
+49 "C:\Users\musefpgawin\Trigger\trbnet\special\spi_master.vhd" vhdl
+50 "C:\Users\musefpgawin\Trigger\trbnet\special\spi_databus_memory.vhd" vhdl
+51 "C:\Users\musefpgawin\Trigger\trbnet\special\spi_flash_and_fpga_reload_record.vhd" vhdl
+52 "C:\Users\musefpgawin\Trigger\trbnet\special\bus_register_handler.vhd" vhdl
+53 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\lattice_ecp2m_fifo.vhd" vhdl
+54 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x1k.vhd" vhdl
+55 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16bit_dualport.vhd" vhdl
+56 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_16x16_dualport.vhd" vhdl
+57 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\lattice_ecp3_fifo_18x16_dualport.vhd" vhdl
+58 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\spi_dpram_32_to_8.vhd" vhdl
+59 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\trb_net16_fifo_arch.vhd" vhdl
+60 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\trb_net_fifo_16bit_bram_dualport.vhd" vhdl
+61 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_36x256_oreg.vhd" vhdl
+62 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_36x512_oreg.vhd" vhdl
+63 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_36x1k_oreg.vhd" vhdl
+64 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_36x2k_oreg.vhd" vhdl
+65 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_36x4k_oreg.vhd" vhdl
+66 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_36x8k_oreg.vhd" vhdl
+67 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_36x16k_oreg.vhd" vhdl
+68 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_36x32k_oreg.vhd" vhdl
+69 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_18x256_oreg.vhd" vhdl
+70 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_18x512_oreg.vhd" vhdl
+71 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_18x1k_oreg.vhd" vhdl
+72 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_18x2k_oreg.vhd" vhdl
+73 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_19x16_obuf.vhd" vhdl
+74 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp3\fifo\fifo_9x2k_oreg.vhd" vhdl
+75 "C:\Users\musefpgawin\Trigger\trbnet\lattice\ecp2m\fifo\fifo_var_oreg.vhd" vhdl
+76 "C:\Users\musefpgawin\Trigger\trbnet\media_interfaces\ecp3_sfp\sfp_1_200_int.vhd" vhdl
+77 "C:\Users\musefpgawin\Trigger\trbnet\media_interfaces\ecp3_sfp\sfp_1_125_int.vhd" vhdl
+78 "C:\Users\musefpgawin\Trigger\trbnet\media_interfaces\trb_net16_lsm_sfp.vhd" vhdl
+79 "C:\Users\musefpgawin\Trigger\trbnet\media_interfaces\trb_net16_med_ecp3_sfp.vhd" vhdl
+80 "C:\Users\musefpgawin\Trigger\trb3\base\code\trb3_tools.vhd" vhdl
+81 "C:\Users\musefpgawin\Trigger\trb3sc\code\lcd.vhd" vhdl
+82 "C:\Users\musefpgawin\Trigger\trb3sc\code\debuguart.vhd" vhdl
+83 "C:\Users\musefpgawin\Trigger\trbnet\special\uart.vhd" vhdl
+84 "C:\Users\musefpgawin\Trigger\trbnet\special\uart_rec.vhd" vhdl
+85 "C:\Users\musefpgawin\Trigger\trbnet\special\uart_trans.vhd" vhdl
+86 "C:\Users\musefpgawin\Trigger\trbnet\special\spi_ltc2600.vhd" vhdl
+87 "C:\Users\musefpgawin\Trigger\trbnet\optical_link\f_divider.vhd" vhdl
+88 "C:\Users\musefpgawin\Trigger\trb3sc\code\load_settings.vhd" vhdl
+89 "C:\Users\musefpgawin\Trigger\trb3sc\code\spi_master_generic.vhd" vhdl
+90 "C:\Users\musefpgawin\Trigger\trb3\base\code\input_to_trigger_logic_record.vhd" vhdl
+91 "C:\Users\musefpgawin\Trigger\trb3\base\code\input_statistics.vhd" vhdl
+92 "C:\Users\musefpgawin\Trigger\trb3\base\code\sedcheck.vhd" vhdl
+93 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\trb3_periph_blank.vhd" vhdl
+94 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\workdir\pll_in200_out100.vhd" vhdl
+95 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\workdir\config.vhd" vhdl
+96 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\workdir\version.vhd" vhdl
+97 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\basic_type_declaration.vhd" vhdl
+98 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\OrAll.vhd" vhdl
+99 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\BackOr5.vhd" vhdl
+100 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\Cos_or_all.vhd" vhdl
+101 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\Cosmic_and6.vhd" vhdl
+102 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\Or8.vhd" vhdl
+103 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\Or18.vhd" vhdl
+104 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\Scat_LUT5.vhd" vhdl
+105 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\PlaneOr.vhd" vhdl
+106 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\ScatterTrigger.vhd" vhdl
+107 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\signal_stretch_48.vhd" vhdl
+108 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\signal_stretch.vhd" vhdl
+109 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\trig_selector.vhd" vhdl
+110 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\And6.vhd" vhdl
+111 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\BackOr3.vhd" vhdl
+112 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\positron_absorption.vhd" vhdl
+113 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\Or_plane_each.vhd" vhdl
+114 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\Scat_LUT3.vhd" vhdl
+115 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\sps_control.vhd" vhdl
+116 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\signal_Delay.vhd" vhdl
+117 "C:\Users\musefpgawin\Trigger\trig_MUSE_SPS_Final_version\Source\Or_back_bars.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 0 
+3 0 
+4 0 
+5 0 
+6 0 
+7 37 0 
+8 0 
+9 0 
+10 73 
+11 0 1 
+12 9 10 11 0 1 
+13 21 7 32 0 1 96 
+14 0 1 
+15 0 
+16 0 
+17 0 
+18 17 0 
+19 12 0 
+20 16 0 
+21 0 
+22 0 
+23 12 4 0 1 
+24 26 19 23 22 0 1 
+25 8 12 9 59 18 0 1 
+26 59 4 12 0 1 
+27 12 20 0 1 
+28 0 
+29 0 
+30 24 25 28 29 13 6 3 27 42 0 1 
+31 30 15 52 45 0 1 95 
+32 0 
+33 0 
+34 -1
+35 -1
+36 0 
+37 -1
+38 0 
+39 -1
+40 0 
+41 -1
+42 41 39 0 1 
+43 75 0 1 53 
+44 0 1 
+45 43 44 0 1 
+46 -1
+47 -1
+48 0 1 
+49 48 0 1 
+50 58 0 1 
+51 14 49 50 47 0 1 
+52 0 
+53 0 
+54 -1
+55 -1
+56 -1
+57 -1
+58 -1
+59 54 0 
+60 55 0 
+61 -1
+62 -1
+63 -1
+64 -1
+65 -1
+66 -1
+67 -1
+68 -1
+69 -1
+70 -1
+71 -1
+72 -1
+73 -1
+74 -1
+75 62 63 64 65 66 67 68 69 70 71 72 0 1 53 
+76 77 
+77 76 
+78 0 
+79 39 78 76 77 60 0 1 2 
+80 15 51 88 92 81 86 83 82 90 91 1 0 2 95 
+81 95 
+82 84 85 74 0 95 
+83 84 85 74 0 96 
+84 -1
+85 -1
+86 -1
+87 -1
+88 89 33 0 
+89 0 
+90 0 
+91 71 0 
+92 0 
+93 46 79 31 15 80 106 0 1 2 95 96 97 
+94 -1
+95 0 
+96 -1
+97 -1
+98 -1
+99 -1
+100 98 0 
+101 105 0 
+102 -1
+103 -1
+104 99 103 0 
+105 110 0 
+106 115 116 100 101 104 114 112 117 109 0 
+107 108 0 
+108 0 
+109 0 
+110 0 
+111 -1
+112 0 
+113 -1
+114 111 103 0 
+115 0 
+116 -1
+117 -1
+
+# Dependency Lists (Users Of)
+0 115 114 112 110 109 108 107 106 105 104 101 100 95 93 92 91 90 89 88 83 82 80 79 78 75 60 59 53 52 51 50 49 48 45 44 43 42 40 38 36 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 9 8 7 6 5 4 3 2 1 
+1 93 80 79 75 51 50 49 48 45 44 43 42 31 30 27 26 25 24 23 14 13 12 11 
+2 93 80 79 
+3 30 
+4 26 23 
+5 -1
+6 30 
+7 13 
+8 25 
+9 25 12 
+10 12 
+11 12 
+12 27 26 25 23 19 
+13 30 
+14 51 
+15 93 80 31 
+16 20 
+17 18 
+18 25 
+19 24 
+20 27 
+21 13 
+22 24 
+23 24 
+24 30 
+25 30 
+26 24 
+27 30 
+28 30 
+29 30 
+30 31 
+31 93 
+32 13 
+33 88 
+34 -1
+35 -1
+36 -1
+37 7 
+38 -1
+39 79 42 
+40 -1
+41 42 
+42 30 
+43 45 
+44 45 
+45 31 
+46 93 
+47 51 
+48 49 
+49 51 
+50 51 
+51 80 
+52 31 
+53 75 43 
+54 59 
+55 60 
+56 -1
+57 -1
+58 50 
+59 26 25 
+60 79 
+61 -1
+62 75 
+63 75 
+64 75 
+65 75 
+66 75 
+67 75 
+68 75 
+69 75 
+70 75 
+71 91 75 
+72 75 
+73 10 
+74 83 82 
+75 43 
+76 79 77 
+77 79 76 
+78 79 
+79 93 
+80 93 
+81 80 
+82 80 
+83 80 
+84 83 82 
+85 83 82 
+86 80 
+87 -1
+88 80 
+89 88 
+90 80 
+91 80 
+92 80 
+93 -1
+94 -1
+95 93 82 81 80 31 
+96 93 83 13 
+97 93 
+98 100 
+99 104 
+100 106 
+101 106 
+102 -1
+103 114 104 
+104 106 
+105 101 
+106 93 
+107 -1
+108 107 
+109 106 
+110 105 
+111 114 
+112 106 
+113 -1
+114 106 
+115 106 
+116 106 
+117 106 
+
+# Design Unit to File Association
+arch work trb_net16_term_buf trb_net16_term_buf_arch 3
+module work trb_net16_term_buf 3
+arch work trb_net_crc trb_net_crc_arch 4
+module work trb_net_crc 4
+arch work trb_net_crc8 imp_crc 5
+module work trb_net_crc8 5
+arch work trb_net_onewire trb_net_onewire_arch 6
+module work trb_net_onewire 6
+arch work trb_net16_addresses trb_net16_addresses_arch 7
+module work trb_net16_addresses 7
+arch work trb_net16_term trb_net16_term_arch 8
+module work trb_net16_term 8
+arch work trb_net_sbuf trb_net_sbuf_arch 9
+module work trb_net_sbuf 9
+arch work trb_net_sbuf5 trb_net_sbuf5_arch 10
+module work trb_net_sbuf5 10
+arch work trb_net_sbuf6 trb_net_sbuf6_arch 11
+module work trb_net_sbuf6 11
+arch work trb_net16_sbuf trb_net16_sbuf_arch 12
+module work trb_net16_sbuf 12
+arch work trb_net16_regio trb_net16_regio_arch 13
+module work trb_net16_regio 13
+arch work trb_net16_regio_bus_handler regio_bus_handler_arch 14
+module work trb_net16_regio_bus_handler 14
+arch work trb_net16_regio_bus_handler_record regio_bus_handler_arch 15
+module work trb_net16_regio_bus_handler_record 15
+arch work trb_net_priority_encoder trb_net_priority_encoder_arch 16
+module work trb_net_priority_encoder 16
+arch work trb_net_dummy_fifo arch_trb_net_dummy_fifo 17
+module work trb_net_dummy_fifo 17
+arch work trb_net16_dummy_fifo arch_trb_net16_dummy_fifo 18
+module work trb_net16_dummy_fifo 18
+arch work trb_net16_term_ibuf trb_net16_term_ibuf_arch 19
+module work trb_net16_term_ibuf 19
+arch work trb_net_priority_arbiter trb_net_priority_arbiter_arch 20
+module work trb_net_priority_arbiter 20
+arch work trb_net_pattern_gen trb_net_pattern_gen_arch 21
+module work trb_net_pattern_gen 21
+arch work trb_net16_obuf_nodata trb_net16_obuf_nodata_arch 22
+module work trb_net16_obuf_nodata 22
+arch work trb_net16_obuf trb_net16_obuf_arch 23
+module work trb_net16_obuf 23
+arch work trb_net16_iobuf trb_net16_iobuf_arch 24
+module work trb_net16_iobuf 24
+arch work trb_net16_api_base trb_net16_api_base_arch 25
+module work trb_net16_api_base 25
+arch work trb_net16_ibuf trb_net16_ibuf_arch 26
+module work trb_net16_ibuf 26
+arch work trb_net16_io_multiplexer trb_net16_io_multiplexer_arch 27
+module work trb_net16_io_multiplexer 27
+arch work trb_net16_trigger trb_net16_trigger_arch 28
+module work trb_net16_trigger 28
+arch work trb_net16_ipudata trb_net16_ipudata_arch 29
+module work trb_net16_ipudata 29
+arch work trb_net16_endpoint_hades_full trb_net16_endpoint_hades_full_arch 30
+module work trb_net16_endpoint_hades_full 30
+arch work trb_net16_endpoint_hades_full_handler_record trb_net16_endpoint_hades_full_handler_record_arch 31
+module work trb_net16_endpoint_hades_full_handler_record 31
+arch work rom_16x8 rom_16x8_arch 32
+module work rom_16x8 32
+arch work ram ram_arch 33
+module work ram 33
+arch work pulse_sync behavioral 34
+module work pulse_sync 34
+arch work state_sync behavioral 35
+module work state_sync 35
+arch work ram_16x8_dp ram_16x8_dp_arch 36
+module work ram_16x8_dp 36
+arch work ram_16x16_dp ram_16x16_dp_arch 37
+module work ram_16x16_dp 37
+arch work ram_dp ram_dp_arch 38
+module work ram_dp 38
+arch work signal_sync behavioral 39
+module work signal_sync 39
+arch work ram_dp_rw ram_dp_rw_arch 40
+module work ram_dp_rw 40
+arch work pulse_stretch behavioral 41
+module work pulse_stretch 41
+arch work handler_lvl1 handler_lvl1_arch 42
+module work handler_lvl1 42
+arch work handler_data handler_data_arch 43
+module work handler_data 43
+arch work handler_ipu handler_ipu_arch 44
+module work handler_ipu 44
+arch work handler_trigger_and_data handler_trigger_and_data_arch 45
+module work handler_trigger_and_data 45
+arch work trb_net_reset_handler behavioral 46
+module work trb_net_reset_handler 46
+arch work fpga_reboot fpga_reboot_arch 47
+module work fpga_reboot 47
+arch work spi_slim behavioral 48
+module work spi_slim 48
+arch work spi_master behavioral 49
+module work spi_master 49
+arch work spi_databus_memory behavioral 50
+module work spi_databus_memory 50
+arch work spi_flash_and_fpga_reload_record flash_reboot_arch 51
+module work spi_flash_and_fpga_reload_record 51
+arch work bus_register_handler behavioral 52
+module work bus_register_handler 52
+config work structure_con 54
+arch work lattice_ecp3_fifo_18x1k structure 54
+module work lattice_ecp3_fifo_18x1k 54
+config work structure_con 55
+arch work lattice_ecp3_fifo_16bit_dualport structure 55
+module work lattice_ecp3_fifo_16bit_dualport 55
+config work structure_con 56
+arch work lattice_ecp3_fifo_16x16_dualport structure 56
+module work lattice_ecp3_fifo_16x16_dualport 56
+config work structure_con 57
+arch work lattice_ecp3_fifo_18x16_dualport structure 57
+module work lattice_ecp3_fifo_18x16_dualport 57
+config work structure_con 58
+arch work spi_dpram_32_to_8 structure 58
+module work spi_dpram_32_to_8 58
+arch work trb_net16_fifo arch_trb_net16_fifo 59
+module work trb_net16_fifo 59
+arch work trb_net_fifo_16bit_bram_dualport trb_net_fifo_16bit_bram_dualport_arch 60
+module work trb_net_fifo_16bit_bram_dualport 60
+config work structure_con 61
+arch work fifo_36x256_oreg structure 61
+module work fifo_36x256_oreg 61
+config work structure_con 62
+arch work fifo_36x512_oreg structure 62
+module work fifo_36x512_oreg 62
+config work structure_con 63
+arch work fifo_36x1k_oreg structure 63
+module work fifo_36x1k_oreg 63
+config work structure_con 64
+arch work fifo_36x2k_oreg structure 64
+module work fifo_36x2k_oreg 64
+config work structure_con 65
+arch work fifo_36x4k_oreg structure 65
+module work fifo_36x4k_oreg 65
+config work structure_con 66
+arch work fifo_36x8k_oreg structure 66
+module work fifo_36x8k_oreg 66
+config work structure_con 67
+arch work fifo_36x16k_oreg structure 67
+module work fifo_36x16k_oreg 67
+config work structure_con 68
+arch work fifo_36x32k_oreg structure 68
+module work fifo_36x32k_oreg 68
+config work structure_con 69
+arch work fifo_18x256_oreg structure 69
+module work fifo_18x256_oreg 69
+config work structure_con 70
+arch work fifo_18x512_oreg structure 70
+module work fifo_18x512_oreg 70
+config work structure_con 71
+arch work fifo_18x1k_oreg structure 71
+module work fifo_18x1k_oreg 71
+config work structure_con 72
+arch work fifo_18x2k_oreg structure 72
+module work fifo_18x2k_oreg 72
+config work structure_con 73
+arch work fifo_19x16_obuf structure 73
+module work fifo_19x16_obuf 73
+config work structure_con 74
+arch work fifo_9x2k_oreg structure 74
+module work fifo_9x2k_oreg 74
+arch work fifo_var_oreg fifo_var_oreg_arch 75
+module work fifo_var_oreg 75
+arch work sfp_1_200_int sfp_1_200_int_arch 76
+module work sfp_1_200_int 76
+arch work tx_reset_sm tx_reset_sm_arch 76
+module work tx_reset_sm 76
+arch work rx_reset_sm rx_reset_sm_arch 76
+module work rx_reset_sm 76
+arch work pcsd pcsd_arch 76
+module work pcsd 76
+arch work sfp_1_125_int sfp_1_125_int_arch 77
+module work sfp_1_125_int 77
+arch work tx_reset_sm_125 tx_reset_sm_arch_125 77
+module work tx_reset_sm_125 77
+arch work rx_reset_sm_125 rx_reset_sm_125arch 77
+module work rx_reset_sm_125 77
+arch work pcsd pcsd_arch 77
+module work pcsd 77
+arch work trb_net16_lsm_sfp lsm_sfp 78
+module work trb_net16_lsm_sfp 78
+arch work trb_net16_med_ecp3_sfp trb_net16_med_ecp3_sfp_arch 79
+module work trb_net16_med_ecp3_sfp 79
+arch work trb3_tools trb3_tools_arch 80
+module work trb3_tools 80
+arch work lcd base 81
+module work lcd 81
+arch work debuguart arch 82
+module work debuguart 82
+arch work uart uart_arch 83
+module work uart 83
+arch work uart_rec uart_rec_arch 84
+module work uart_rec 84
+arch work uart_trans uart_trans_arch 85
+module work uart_trans 85
+arch work spi_ltc2600 spi_ltc2600_arch 86
+module work spi_ltc2600 86
+arch work edge_to_pulse arch_edge_to_pulse 87
+module work edge_to_pulse 87
+arch work f_divider arch_f_divider 87
+module work f_divider 87
+arch work load_settings load_settings_arch 88
+module work load_settings 88
+arch work spi_master_generic spi_master_generic_arch 89
+module work spi_master_generic 89
+arch work input_to_trigger_logic_record input_to_trigger_logic_arch 90
+module work input_to_trigger_logic_record 90
+arch work input_statistics input_statistics_arch 91
+module work input_statistics 91
+arch work sedcheck sed_arch 92
+module work sedcheck 92
+arch work trb3_periph_blank trb3_periph_blank_arch 93
+module work trb3_periph_blank 93
+config work structure_con 94
+arch work pll_in200_out100 structure 94
+module work pll_in200_out100 94
+arch work orall structure_orall 98
+module work orall 98
+arch work backor5 structure 99
+module work backor5 99
+arch work cos_or_all structural 100
+module work cos_or_all 100
+arch work cosmic_and6 structural 101
+module work cosmic_and6 101
+arch work or8 structure_or8 102
+module work or8 102
+arch work or18 structure_or18 103
+module work or18 103
+arch work scat_lut5 structural 104
+module work scat_lut5 104
+arch work planeor apply_plane_or 105
+module work planeor 105
+arch work scattertrigger structural 106
+module work scattertrigger 106
+arch work signal_stretch_48 arch 107
+module work signal_stretch_48 107
+arch work signal_stretch arch 108
+module work signal_stretch 108
+arch work trig_selector structural 109
+module work trig_selector 109
+arch work and6 apply_and 110
+module work and6 110
+arch work backor3 structure 111
+module work backor3 111
+arch work positron_absorption structural 112
+module work positron_absorption 112
+arch work or_plane_each structure 113
+module work or_plane_each 113
+arch work scat_lut3 structural 114
+module work scat_lut3 114
+arch work sps_control sps_control_arch 115
+module work sps_control 115
+arch work signal_delay arch 116
+module work signal_delay 116
+arch work or_back_bars structure_or_back_bars 117
+module work or_back_bars 117

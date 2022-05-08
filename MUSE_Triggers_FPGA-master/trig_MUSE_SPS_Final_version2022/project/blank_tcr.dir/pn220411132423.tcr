@@ -1,0 +1,6 @@
+#Start recording tcl command: 4/8/2022 12:40:32
+#Project Location: C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/project; Project name: blank
+prj_project open "C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/project/trb3_periph_blank.ldf"
+prj_strgy set "Timing"
+prj_run Export -impl trb3_periph_blank -task Bitgen
+#Stop recording: 4/11/2022 13:24:23

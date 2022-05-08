@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Timing">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1649792477"/>
+            <Task name="Promgen" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Map" build_result="0" build_time="1649792283">
+            <Task name="Map" build_result="0" update_result="2" update_time="1649792283"/>
+            <Task name="MapTrace" build_result="0" update_result="2" update_time="1649792289"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="1649792419">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1649792419"/>
+            <Task name="PARTrace" build_result="0" update_result="2" update_time="1649792426"/>
+            <Task name="IOTiming" build_result="0" update_result="2" update_time="1649792443"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="0" build_time="1649792260">
+            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="1649792260"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1651757770"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="0" build_time="1649792265">
+            <Task name="Translate" build_result="0" update_result="2" update_time="1649792265"/>
+        </Milestone>
+        <Report name="blank_trb3_periph_blank.bgn" last_build_time="1649792476" last_build_size="4436"/>
+        <Report name="blank_trb3_periph_blank.bit" last_build_time="0" last_build_size="0"/>
+        <Report name="blank_trb3_periph_blank.edi" last_build_time="1649792254" last_build_size="14843770"/>
+        <Report name="blank_trb3_periph_blank.ior" last_build_time="1649792443" last_build_size="14399"/>
+        <Report name="blank_trb3_periph_blank.ncd" last_build_time="1649792419" last_build_size="13545173"/>
+        <Report name="blank_trb3_periph_blank.ngd" last_build_time="1649792265" last_build_size="12264524"/>
+        <Report name="blank_trb3_periph_blank.tw1" last_build_time="1649792289" last_build_size="146323"/>
+        <Report name="blank_trb3_periph_blank.twr" last_build_time="1649792425" last_build_size="317157"/>
+        <Report name="blank_trb3_periph_blank_map.ncd" last_build_time="1649792283" last_build_size="9071321"/>
+        <Report name="blank_trb3_periph_blank_vho.sdf" last_build_time="1648750257" last_build_size="18591511"/>
+        <Report name="blank_trb3_periph_blank_vho.vho" last_build_time="1648750256" last_build_size="16048736"/>
+    </Strategy>
+</BuildStatus>

@@ -1,0 +1,9 @@
+#Start recording tcl command: 4/11/2022 15:57:48
+#Project Location: C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/project; Project name: blank
+prj_project open "C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/project/trb3_periph_blank.ldf"
+prj_src enable "C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/Source/Or_plane_each.vhd"
+prj_run Export -impl trb3_periph_blank -task Bitgen
+prj_src enable "C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/Source/Or_back_bars.vhd"
+prj_project save
+prj_project close
+#Stop recording: 4/12/2022 14:34:43

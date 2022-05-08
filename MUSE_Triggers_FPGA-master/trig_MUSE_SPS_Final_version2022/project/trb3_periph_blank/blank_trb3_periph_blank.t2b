@@ -1,0 +1,9 @@
+
+
+
+
+-g CfgMode:Disable
+-g RamCfg:Reset
+-path "C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/project" 
+-path "C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/project"
+-g ES:No

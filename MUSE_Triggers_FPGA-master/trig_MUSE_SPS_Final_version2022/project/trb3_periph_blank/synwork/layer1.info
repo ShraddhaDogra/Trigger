@@ -1,0 +1,64 @@
+|work.PulseStretch|parameter STAGES 4;,parameter WIDTH 18;|
+|work.PulseStretch|parameter STAGES 4;,parameter WIDTH 28;|
+|work.PulseStretch|parameter STAGES 10;,parameter WIDTH 28;|
+|work.PulseStretch|parameter STAGES 3;,parameter WIDTH 1;|
+|work.PulseStretch|parameter STAGES 10;,parameter WIDTH 1;|
+work.AND2
+work.INV
+work.XOR2
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.DP16KC|parameter GSR "DISABLED";,parameter WRITEMODE_B "NORMAL";,parameter WRITEMODE_A "NORMAL";,parameter CSDECODE_B "0b000";,parameter CSDECODE_A "0b000";,parameter REGMODE_B "OUTREG";,parameter REGMODE_A "OUTREG";,parameter DATA_WIDTH_B 18;,parameter DATA_WIDTH_A 18;|
+work.FD1P3DX
+work.FD1S3BX
+work.FD1S3DX
+work.FD1P3BX
+work.FADD2B
+work.CB2
+work.ALEB2
+work.AGEB2
+work.CU2
+work.VHI
+work.FSUB2B
+work.VLO
+|work.SEDCA|parameter OSC_DIV 1;,parameter CHECKALWAYS "DISABLED";,parameter AUTORECONFIG "OFF";,parameter MCCLK_FREQ "20";,parameter DEV_DENSITY "150K";|
+|work.DP16KC|parameter GSR "DISABLED";,parameter WRITEMODE_B "NORMAL";,parameter WRITEMODE_A "NORMAL";,parameter CSDECODE_B "0b000";,parameter CSDECODE_A "0b000";,parameter REGMODE_B "NOREG";,parameter REGMODE_A "NOREG";,parameter DATA_WIDTH_B 4;,parameter DATA_WIDTH_A 18;|
+|work.DP16KC|parameter GSR "DISABLED";,parameter WRITEMODE_B "NORMAL";,parameter WRITEMODE_A "NORMAL";,parameter CSDECODE_B "0b000";,parameter CSDECODE_A "0b000";,parameter REGMODE_B "NOREG";,parameter REGMODE_A "NOREG";,parameter DATA_WIDTH_B 4;,parameter DATA_WIDTH_A 18;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.PDPW16KC|parameter GSR "DISABLED";,parameter CSDECODE_R "0b001";,parameter CSDECODE_W "0b001";,parameter REGMODE "OUTREG";,parameter DATA_WIDTH_R 36;,parameter DATA_WIDTH_W 36;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.PDPW16KC|parameter GSR "DISABLED";,parameter CSDECODE_R "0b001";,parameter CSDECODE_W "0b001";,parameter REGMODE "OUTREG";,parameter DATA_WIDTH_R 36;,parameter DATA_WIDTH_W 36;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.DP16KC|parameter GSR "DISABLED";,parameter WRITEMODE_B "NORMAL";,parameter WRITEMODE_A "NORMAL";,parameter CSDECODE_B "0b000";,parameter CSDECODE_A "0b000";,parameter REGMODE_B "OUTREG";,parameter REGMODE_A "OUTREG";,parameter DATA_WIDTH_B 9;,parameter DATA_WIDTH_A 9;|
+|work.DP16KC|parameter GSR "DISABLED";,parameter WRITEMODE_B "NORMAL";,parameter WRITEMODE_A "NORMAL";,parameter CSDECODE_B "0b000";,parameter CSDECODE_A "0b000";,parameter REGMODE_B "OUTREG";,parameter REGMODE_A "OUTREG";,parameter DATA_WIDTH_B 9;,parameter DATA_WIDTH_A 9;|
+|work.DP16KC|parameter GSR "DISABLED";,parameter WRITEMODE_B "NORMAL";,parameter WRITEMODE_A "NORMAL";,parameter CSDECODE_B "0b000";,parameter CSDECODE_A "0b000";,parameter REGMODE_B "OUTREG";,parameter REGMODE_A "OUTREG";,parameter DATA_WIDTH_B 9;,parameter DATA_WIDTH_A 9;|
+|work.DP16KC|parameter GSR "DISABLED";,parameter WRITEMODE_B "NORMAL";,parameter WRITEMODE_A "NORMAL";,parameter CSDECODE_B "0b000";,parameter CSDECODE_A "0b000";,parameter REGMODE_B "OUTREG";,parameter REGMODE_A "OUTREG";,parameter DATA_WIDTH_B 9;,parameter DATA_WIDTH_A 9;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.PDPW16KC|parameter GSR "DISABLED";,parameter CSDECODE_R "0b000";,parameter CSDECODE_W "0b001";,parameter REGMODE "NOREG";,parameter DATA_WIDTH_R 36;,parameter DATA_WIDTH_W 36;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.ROM16X1A|parameter INITVAL 16'b0011001000110010;|
+|work.DP16KC|parameter GSR "DISABLED";,parameter WRITEMODE_B "NORMAL";,parameter WRITEMODE_A "NORMAL";,parameter CSDECODE_B "0b000";,parameter CSDECODE_A "0b000";,parameter REGMODE_B "NOREG";,parameter REGMODE_A "NOREG";,parameter DATA_WIDTH_B 18;,parameter DATA_WIDTH_A 18;|
+work.OR2
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0110100110010110;|
+|work.ROM16X1A|parameter INITVAL 16'b0000010000010000;|
+|work.ROM16X1A|parameter INITVAL 16'b0001000000000100;|
+|work.ROM16X1A|parameter INITVAL 16'b0000000101000000;|
+|work.ROM16X1A|parameter INITVAL 16'b0100000000000001;|
+|work.ROM16X1A|parameter INITVAL 16'b0100110000110010;|
+|work.ROM16X1A|parameter INITVAL 16'b1000000000000001;|
+|work.DP16KC|parameter GSR "DISABLED";,parameter WRITEMODE_B "NORMAL";,parameter WRITEMODE_A "NORMAL";,parameter CSDECODE_B "0b000";,parameter CSDECODE_A "0b000";,parameter REGMODE_B "NOREG";,parameter REGMODE_A "NOREG";,parameter DATA_WIDTH_B 18;,parameter DATA_WIDTH_A 18;|
+work.PCSD
+|work.EHXPLLF|parameter FEEDBK_PATH "INTERNAL";,parameter CLKOK_INPUT "CLKOP";,parameter DELAY_PWD "DISABLED";,parameter DELAY_VAL 0;,parameter CLKOS_TRIM_DELAY 0;,parameter CLKOS_TRIM_POL "RISING";,parameter CLKOP_TRIM_DELAY 0;,parameter CLKOP_TRIM_POL "RISING";,parameter CLKOK_BYPASS "ENABLED";,parameter CLKOS_BYPASS "DISABLED";,parameter CLKOP_BYPASS "DISABLED";,parameter PHASE_DELAY_CNTL "STATIC";,parameter DUTY 8;,parameter PHASEADJ "0.0";,parameter CLKOK_DIV 2;,parameter CLKOP_DIV 8;,parameter CLKFB_DIV 1;,parameter CLKI_DIV 2;,parameter FIN "200.000000";|

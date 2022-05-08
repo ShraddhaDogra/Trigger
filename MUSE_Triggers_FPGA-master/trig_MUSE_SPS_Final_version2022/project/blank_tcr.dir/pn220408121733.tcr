@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/7/2022 14:27:56
+#Project Location: C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/project; Project name: blank
+prj_project open "C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/project/trb3_periph_blank.ldf"
+prj_project close
+#Stop recording: 4/8/2022 12:17:33

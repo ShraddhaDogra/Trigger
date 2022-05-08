@@ -1,0 +1,213 @@
+WARNING - blank_trb3_periph_blank.prf(1703): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_p*" ;": group IN_group contains a wildcard expression, "IN_p*", that does not match ports in the design. This preference has been disabled.
+68 potential circuit loops found in timing analysis.
+Loading design for application iotiming from file blank_trb3_periph_blank.ncd.
+Design name: trb3_periph_blank
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: 9
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+WARNING - iotiming: blank_trb3_periph_blank.prf(1703): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_p*" ;": group IN_group contains a wildcard expression, "IN_p*", that does not match ports in the design. This preference has been disabled.
+Loading design for application iotiming from file blank_trb3_periph_blank.ncd.
+Design name: trb3_periph_blank
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-150EA
+Package:     FPBGA672
+Performance: M
+Package Status:                     Final          Version 1.74.
+Performance Hardware Data Status:   Final          Version 36.22.
+WARNING - iotiming: blank_trb3_periph_blank.prf(1703): Semantic error in "DEFINE PORT GROUP "IN_group" "IN_p*" ;": group IN_group contains a wildcard expression, "IN_p*", that does not match ports in the design. This preference has been disabled.
+// Design: trb3_periph_blank
+// Package: FPBGA672
+// ncd File: blank_trb3_periph_blank.ncd
+// Version: Diamond (64-bit) 3.10.0.111.2
+// Written on Tue Apr 12 15:40:43 2022
+// M: Minimum Performance Grade
+// iotiming blank_trb3_periph_blank.ncd blank_trb3_periph_blank.prf -gui -msgset C:/Users/musefpgawin/Trigger/trig_MUSE_SPS_Final_version/project/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port          Clock          Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+CODE_LINE[0]  CLK_GPLL_RIGHT R     4.810      8      -1.433     M
+CODE_LINE[1]  CLK_GPLL_RIGHT R     4.883      8      -1.469     M
+FLASH_DOUT    CLK_GPLL_RIGHT R     1.693      8       2.714     8
+FPGA5_COMM[0] CLK_GPLL_RIGHT R     2.884      8      -0.680     M
+INP[0]        CLK_GPLL_RIGHT R     6.509      8      -0.145     M
+INP[10]       CLK_GPLL_RIGHT R     8.780      8      -0.695     M
+INP[11]       CLK_GPLL_RIGHT R     8.427      8      -0.716     M
+INP[12]       CLK_GPLL_RIGHT R     7.938      8      -0.449     M
+INP[13]       CLK_GPLL_RIGHT R     7.702      8      -0.057     M
+INP[14]       CLK_GPLL_RIGHT R     8.267      8      -0.440     M
+INP[15]       CLK_GPLL_RIGHT R     7.704      8      -0.212     M
+INP[16]       CLK_GPLL_RIGHT R     7.541      8      -0.663     M
+INP[17]       CLK_GPLL_RIGHT R     8.643      8      -0.807     M
+INP[18]       CLK_GPLL_RIGHT R     8.165      8      -0.725     M
+INP[19]       CLK_GPLL_RIGHT R     8.572      8      -0.922     M
+INP[1]        CLK_GPLL_RIGHT R     7.487      8      -0.158     M
+INP[20]       CLK_GPLL_RIGHT R     7.712      8      -0.671     M
+INP[21]       CLK_GPLL_RIGHT R     8.114      8      -0.810     M
+INP[22]       CLK_GPLL_RIGHT R     6.023      8      -0.092     M
+INP[23]       CLK_GPLL_RIGHT R     6.644      8      -0.120     M
+INP[24]       CLK_GPLL_RIGHT R     6.873      8      -0.112     M
+INP[25]       CLK_GPLL_RIGHT R     6.636      8      -0.129     M
+INP[26]       CLK_GPLL_RIGHT R     7.638      8      -0.269     M
+INP[27]       CLK_GPLL_RIGHT R     7.293      8      -0.231     M
+INP[28]       CLK_GPLL_RIGHT R     8.070      8      -0.428     M
+INP[29]       CLK_GPLL_RIGHT R     8.906      8      -0.278     M
+INP[2]        CLK_GPLL_RIGHT R     6.042      8      -0.146     M
+INP[30]       CLK_GPLL_RIGHT R     8.240      8      -0.304     M
+INP[31]       CLK_GPLL_RIGHT R    12.771      8      -1.944     M
+INP[3]        CLK_GPLL_RIGHT R     7.313      8      -0.258     M
+INP[4]        CLK_GPLL_RIGHT R     6.754      8      -0.154     M
+INP[5]        CLK_GPLL_RIGHT R     6.626      8      -0.349     M
+INP[6]        CLK_GPLL_RIGHT R     7.949      8      -0.708     M
+INP[7]        CLK_GPLL_RIGHT R     8.017      8      -0.652     M
+INP[8]        CLK_GPLL_RIGHT R     8.006      8      -0.655     M
+INP[9]        CLK_GPLL_RIGHT R     8.509      8      -0.710     M
+TEMPSENS      CLK_GPLL_RIGHT R     6.599      8      -0.859     M
+TEST_LINE[5]  CLK_GPLL_RIGHT R     2.536      8      -0.617     M
+TRIGGER_LEFT  CLK_GPLL_RIGHT R     3.132      8      -0.831     M
+
+
+// Clock to Output Delay
+
+Port           Clock          Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+FLASH_CLK      CLK_GPLL_RIGHT R     8.991         8        3.767          M
+FLASH_CS       CLK_GPLL_RIGHT R     9.176         8        3.830          M
+FLASH_DIN      CLK_GPLL_RIGHT R     8.972         8        4.075          M
+FPGA5_COMM[10] CLK_GPLL_RIGHT R    15.875         8        4.566          M
+FPGA5_COMM[2]  CLK_GPLL_RIGHT R    10.556         8        4.605          M
+FPGA5_COMM[7]  CLK_GPLL_RIGHT R    17.069         8        4.618          M
+FPGA5_COMM[8]  CLK_GPLL_RIGHT R    16.258         8        4.538          M
+FPGA5_COMM[9]  CLK_GPLL_RIGHT R    15.977         8        4.550          M
+OUT_pA[0]      CLK_GPLL_RIGHT R    15.873         8        3.955          M
+OUT_pA[0]      INP[27]        R    17.837         8        5.856          M
+OUT_pA[0]      INP[26]        R    18.569         8        6.050          M
+OUT_pA[0]      INP[25]        R    18.318         8        5.920          M
+OUT_pA[0]      INP[24]        R    18.648         8        6.121          M
+OUT_pA[0]      INP[23]        R    18.549         8        5.940          M
+OUT_pA[0]      INP[22]        R    17.701         8        5.671          M
+OUT_pA[0]      INP[21]        R    19.773         8        6.502          M
+OUT_pA[0]      INP[20]        R    21.905         8        7.196          M
+OUT_pA[0]      INP[45]        R    16.497         8        6.091          M
+OUT_pA[0]      INP[44]        R    17.885         8        5.694          M
+OUT_pA[0]      INP[43]        R    17.471         8        5.850          M
+OUT_pA[0]      INP[42]        R    18.700         8        6.198          M
+OUT_pA[0]      INP[41]        R    16.927         8        5.756          M
+OUT_pA[0]      INP[40]        R    20.511         8        6.469          M
+OUT_pA[0]      INP[39]        R    17.772         8        6.046          M
+OUT_pA[0]      INP[38]        R    19.329         8        6.640          M
+OUT_pA[0]      INP[19]        R    19.971         8        7.260          M
+OUT_pA[0]      INP[37]        R    17.625         8        6.198          M
+OUT_pA[0]      INP[36]        R    17.195         8        6.046          M
+OUT_pA[0]      INP[35]        R    16.952         8        5.943          M
+OUT_pA[0]      INP[34]        R    18.326         8        6.222          M
+OUT_pA[0]      INP[33]        R    17.817         8        5.708          M
+OUT_pA[0]      INP[32]        R    18.585         8        6.324          M
+OUT_pA[0]      INP[31]        R    21.257         8        6.823          M
+OUT_pA[0]      INP[30]        R    20.049         8        6.464          M
+OUT_pA[0]      INP[29]        R    19.080         8        6.459          M
+OUT_pA[0]      INP[28]        R    18.889         8        6.337          M
+OUT_pA[0]      INP[18]        R    20.685         8        7.401          M
+OUT_pA[2]      CLK_GPLL_RIGHT R    13.853         8        4.346          M
+OUT_pB[0]      CLK_GPLL_RIGHT R    16.610         8        4.237          M
+OUT_pB[0]      INP[27]        R    18.574         8        6.138          M
+OUT_pB[0]      INP[26]        R    19.306         8        6.332          M
+OUT_pB[0]      INP[25]        R    19.055         8        6.202          M
+OUT_pB[0]      INP[24]        R    19.385         8        6.403          M
+OUT_pB[0]      INP[23]        R    19.286         8        6.222          M
+OUT_pB[0]      INP[22]        R    18.438         8        5.953          M
+OUT_pB[0]      INP[21]        R    20.510         8        6.784          M
+OUT_pB[0]      INP[20]        R    22.642         8        7.478          M
+OUT_pB[0]      INP[45]        R    17.234         8        6.373          M
+OUT_pB[0]      INP[44]        R    18.622         8        5.976          M
+OUT_pB[0]      INP[43]        R    18.208         8        6.132          M
+OUT_pB[0]      INP[42]        R    19.437         8        6.480          M
+OUT_pB[0]      INP[41]        R    17.664         8        6.038          M
+OUT_pB[0]      INP[40]        R    21.248         8        6.751          M
+OUT_pB[0]      INP[39]        R    18.509         8        6.328          M
+OUT_pB[0]      INP[38]        R    20.066         8        6.922          M
+OUT_pB[0]      INP[19]        R    20.708         8        7.542          M
+OUT_pB[0]      INP[37]        R    18.362         8        6.480          M
+OUT_pB[0]      INP[36]        R    17.932         8        6.328          M
+OUT_pB[0]      INP[35]        R    17.689         8        6.225          M
+OUT_pB[0]      INP[34]        R    19.063         8        6.504          M
+OUT_pB[0]      INP[33]        R    18.554         8        5.990          M
+OUT_pB[0]      INP[32]        R    19.322         8        6.606          M
+OUT_pB[0]      INP[31]        R    21.994         8        7.105          M
+OUT_pB[0]      INP[30]        R    20.786         8        6.746          M
+OUT_pB[0]      INP[29]        R    19.817         8        6.741          M
+OUT_pB[0]      INP[28]        R    19.626         8        6.619          M
+OUT_pB[0]      INP[18]        R    21.422         8        7.683          M
+OUT_pC[0]      INP[9]         R    15.315         8        5.806          M
+OUT_pC[0]      INP[8]         R    15.175         8        5.737          M
+OUT_pC[0]      INP[7]         R    15.275         8        5.746          M
+OUT_pC[0]      INP[6]         R    14.699         8        5.547          M
+OUT_pC[0]      INP[5]         R    14.449         8        5.479          M
+OUT_pC[0]      INP[4]         R    15.035         8        5.676          M
+OUT_pC[0]      INP[3]         R    13.907         8        5.260          M
+OUT_pC[0]      INP[2]         R    13.344         8        5.061          M
+OUT_pC[0]      INP[1]         R    13.909         8        5.289          M
+OUT_pC[0]      INP[17]        R    16.500         8        6.226          M
+OUT_pC[0]      INP[16]        R    15.874         8        5.992          M
+OUT_pC[0]      INP[15]        R    14.421         8        5.480          M
+OUT_pC[0]      INP[14]        R    13.826         8        5.276          M
+OUT_pC[0]      INP[13]        R    15.586         8        5.874          M
+OUT_pC[0]      INP[12]        R    16.161         8        6.084          M
+OUT_pC[0]      INP[11]        R    14.709         8        5.491          M
+OUT_pC[0]      INP[10]        R    14.721         8        5.514          M
+OUT_pC[0]      INP[0]         R    13.716         8        5.205          M
+OUT_pC[1]      CLK_GPLL_RIGHT R    10.210         8        2.928          M
+OUT_pC[2]      INP[27]        R    12.464         8        4.693          M
+OUT_pC[2]      INP[26]        R    13.107         8        4.967          M
+OUT_pC[2]      INP[25]        R    13.347         8        4.979          M
+OUT_pC[2]      INP[24]        R    12.686         8        4.752          M
+OUT_pC[2]      INP[23]        R    11.876         8        4.432          M
+OUT_pC[2]      INP[22]        R    12.104         8        4.507          M
+OUT_pC[2]      INP[21]        R    14.487         8        5.434          M
+OUT_pC[2]      INP[20]        R    16.619         8        6.167          M
+OUT_pC[2]      INP[45]        R     9.799         8        3.755          M
+OUT_pC[2]      INP[44]        R    12.649         8        4.766          M
+OUT_pC[2]      INP[43]        R    12.187         8        4.557          M
+OUT_pC[2]      INP[42]        R    12.819         8        4.827          M
+OUT_pC[2]      INP[41]        R    11.947         8        4.429          M
+OUT_pC[2]      INP[40]        R    13.547         8        5.031          M
+OUT_pC[2]      INP[39]        R    12.674         8        4.707          M
+OUT_pC[2]      INP[38]        R    14.291         8        5.296          M
+OUT_pC[2]      INP[19]        R    14.685         8        5.453          M
+OUT_pC[2]      INP[37]        R    13.465         8        4.950          M
+OUT_pC[2]      INP[36]        R    12.832         8        4.751          M
+OUT_pC[2]      INP[35]        R    12.508         8        4.592          M
+OUT_pC[2]      INP[34]        R    13.275         8        4.933          M
+OUT_pC[2]      INP[33]        R    13.394         8        4.998          M
+OUT_pC[2]      INP[32]        R    13.617         8        5.093          M
+OUT_pC[2]      INP[31]        R    14.875         8        5.592          M
+OUT_pC[2]      INP[30]        R    13.167         8        4.966          M
+OUT_pC[2]      INP[29]        R    13.502         8        5.047          M
+OUT_pC[2]      INP[28]        R    13.516         8        5.100          M
+OUT_pC[2]      INP[18]        R    15.399         8        5.730          M
+PROGRAMN       CLK_GPLL_RIGHT R     9.425         8        4.645          M
+TEMPSENS       CLK_GPLL_RIGHT R    10.497         8        4.716          M
+TEST_LINE[2]   CLK_GPLL_RIGHT R    10.546         8        4.786          M
+TEST_LINE[3]   CLK_GPLL_RIGHT R    11.148         8        4.775          M
+TEST_LINE[4]   CLK_GPLL_RIGHT R     9.089         8        4.322          M
+
+
+// Internal_Clock to Output
+
+Port      Internal_Clock
+--------------------------------------------------------
+OUT_pA[1] OUT_pC_c[1]   
+OUT_pA[1] OUT_pC_c[2]   
+OUT_pB[1] OUT_pC_c[1]   
+OUT_pB[1] OUT_pC_c[2]   
+WARNING: you must also run trce with hold speed: 8
